@@ -127,3 +127,31 @@ classroom:
   sources:
     - artwork/pages/chapter-001/page-14.png
   default_time: day
+
+roadster-interior-night:
+  name: inside Akane's Roadster at night (seen from the passenger seat)
+  description: >-
+    The tiny cockpit of a 1990 Mazda Eunos Roadster, RIGHT-HAND DRIVE: the
+    steering wheel (small three-spoke) and the round analog gauges
+    (tachometer, speedometer) are on the RIGHT; the passenger seat is on the
+    LEFT; a short gear lever with a round knob on the center tunnel between
+    the seats; black soft top close overhead; low black dashboard. Night:
+    orange streetlights streak across the windshield.
+  plate: artwork/locations/roadster-interior-night.png
+  sources:
+    - artwork/car-sheets/red-roadster.png
+  guards:
+    - "Inside the car the steering wheel, pedals and gauges are on the RIGHT (driver: Akane); the passenger seat is on the LEFT (Dai)."
+  default_time: night
+
+harbor-pier-lot-night:
+  name: empty parking lot at the end of Pier 3, at night
+  description: >-
+    A wide empty concrete lot at the end of a harbor pier: faded parking
+    lines, a low bollard row and a chain at the water's edge, the black sea
+    beyond, distant city and factory lights across the bay, harbor cranes
+    silhouetted, a single tall lamp post.
+  plate: artwork/locations/harbor-pier-lot-night.png
+  sources:
+    - artwork/locations/harbor-road-night.png
+  default_time: night

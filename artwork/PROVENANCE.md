@@ -31,3 +31,5 @@ Rows appended by `production/az run` (full prompts and refs: `production/logs/pr
 | locations/harbor-road-night.png | 2026-11-14 | pages/chapter-002/page-14.png, pages/chapter-002/page-17.png | approved (empty plate) | runner: 1 image_gen call(s); checked: no people, no vehicles |
 | pages/test/page-01.png (+ .art.png) | 2026-11-14 | character-sheets/dai-uniform.png, character-sheets/kubo.png, locations/harbor-station-night.png | test page (lettering pass), not part of a chapter | runner: 2 image_gen call(s), empty balloons, lettered by letter.py; unscripted BUZZZZ SFX drawn by the model |
 | pages/test/page-02.png (+ .art.png) | 2026-11-14 | character-sheets/kubo.png, character-sheets/dai-uniform.png, locations/harbor-station-night.png, pages/test/page-01.png | test page (lettering pass), not part of a chapter | runner: 1 image_gen call(s), empty balloons, lettered by letter.py |
+| locations/roadster-interior-night.png | 2026-11-14 | car-sheets/red-roadster.png | generated, not reviewed | runner: 2 image_gen call(s) |
+| locations/harbor-pier-lot-night.png | 2026-11-14 | locations/harbor-road-night.png | generated, not reviewed | runner: 1 image_gen call(s) |

@@ -79,3 +79,25 @@ pages:
       painted lane lines reflecting the orange sodium lamps, warehouse walls and
       stacked shipping containers on one side, chain-link fence and dark water
       with crane silhouettes on the other, the road vanishing into darkness.
+
+  - id: roadster-interior-night
+    location: roadster-interior-night
+    time: night, driving
+    refs:
+      - {path: artwork/car-sheets/red-roadster.png, use: "the car; its small interior view shows the right-hand-drive cockpit"}
+    description: >-
+      View from the LEFT passenger seat across the tiny right-hand-drive
+      cockpit: the empty driver's seat and the small three-spoke steering
+      wheel on the RIGHT, round analog gauges behind it, the short gear lever
+      on the center tunnel, the low dashboard, the black soft top close
+      overhead, through the windshield an empty night road with orange
+      streetlights. No people at all.
+
+  - id: harbor-pier-lot-night
+    location: harbor-pier-lot-night
+    time: about 3 AM, clear night
+    description: >-
+      Wide eye-level view of the empty concrete lot at the end of the pier:
+      faded parking lines, low bollards and a hanging chain at the water's
+      edge, the black sea, distant city lights across the bay reflecting on
+      the water, harbor cranes, one tall lamp post casting a pool of light.
