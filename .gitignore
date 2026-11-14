@@ -2,3 +2,4 @@ build/
 production/runs/
 __pycache__/
 production/fonts/anime-ace-2/
+*.prev.png
