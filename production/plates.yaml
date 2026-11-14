@@ -1,0 +1,81 @@
+# Clean location plates: empty reference backgrounds (no people, no vehicles).
+# Generated with:  production/az run --chapter plates --pages <id>
+# Each plate's location (and its approved source pages) is in locations.yaml.
+title: Location plates
+output_dir: artwork/locations
+defaults:
+  kind: plate
+  orientation: landscape
+
+pages:
+  - id: harbor-station-night
+    location: harbor-station-night
+    time: about 2 AM, night
+    description: >-
+      Wide eye-level view of the empty gas station forecourt under the canopy:
+      the two old analog pumps on their island in the foreground left, the
+      lit office booth on the right, fluorescent tubes under the canopy, the
+      dark harbor road running away into the night past warehouses and
+      container stacks, a crane silhouette far away. Wet concrete with light
+      reflections. Heavy solid blacks in the night sky.
+
+  - id: harbor-station-day
+    location: harbor-station-day
+    time: early afternoon, bright summer day
+    description: >-
+      Wide eye-level view of the same empty gas station in daylight: canopy on
+      stained pillars, two old analog pumps on the island, the office booth
+      with big windows, oil drums, the cracked concrete forecourt with weeds,
+      harbor cranes and container stacks behind a chain-link fence, summer
+      clouds.
+
+  - id: bypass-overpass-night
+    location: bypass-overpass-night
+    time: about 2 AM, night
+    description: >-
+      View from the walkway of the pedestrian overpass, looking along the
+      four-lane bypass as it sweeps into a long left-hand curve: the overpass
+      railing and concrete walkway in the foreground, the empty four-lane road
+      below (two lanes each way, concrete median barrier, dashed lane lines),
+      tall orange sodium lamps in a row, factory chimneys and industrial
+      buildings on the horizon, black night sky.
+
+  - id: hayama-apartment
+    location: hayama-apartment
+    time: evening, warm indoor light from a ceiling lamp
+    description: >-
+      Interior view from the kitchen: the tiny kitchen with sink and gas
+      burner on one side and the low table with cushions in the middle, the
+      sliding fusuma doors open onto the tatami room behind with a folded
+      futon, old CRT television, rotary electric fan, laundry hanging indoors,
+      wall calendar, the steel front door and genkan step visible at the edge.
+      Cramped, worn, lived-in.
+
+  - id: danchi-walkway
+    location: danchi-walkway
+    time: dawn, pale sky, the concrete still wet from night rain
+    description: >-
+      View along the open-air upper-floor corridor of the old danchi block: a
+      row of steel apartment doors on the left with meter boxes and small
+      windows, the concrete parapet with a metal rail on the right, a
+      fluorescent ceiling light, the outdoor concrete staircase going down at
+      the far end, neighbouring danchi blocks, power lines and a utility pole
+      beyond.
+
+  - id: classroom
+    location: classroom
+    time: afternoon, summer daylight through open windows
+    description: >-
+      View across the empty classroom from the back corner: rows of worn
+      wooden desks with chairs pushed in, the big blackboard with chalk
+      smudges, a round wall clock above it, tall open windows on the left with
+      trees outside, fluorescent lights, a notice board.
+
+  - id: harbor-road-night
+    location: harbor-road-night
+    time: about 2 AM, night, wet road after rain
+    description: >-
+      Low wide view down the empty harbor road at night: wet asphalt with
+      painted lane lines reflecting the orange sodium lamps, warehouse walls and
+      stacked shipping containers on one side, chain-link fence and dark water
+      with crane silhouettes on the other, the road vanishing into darkness.

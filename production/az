@@ -1,0 +1,153 @@
+#!/usr/bin/env python3
+"""Akai Zanzo production CLI. See production/README.md.
+
+  production/az prompt  --chapter 3 --pages 4          # print built prompt + refs
+  production/az run     --chapter 3 --pages 1-6,9      # generate (codex exec), save, log, contact sheets
+  production/az run     --chapter 3 --pages 2 --dry-run
+  production/az letter  --chapter test --pages 1-2     # letter .art.png pages from the spec
+  production/az contact --chapter 2 --pages 1-6        # contact sheets of existing pages
+  production/az lint    --chapter 2                    # check a spec against cast/locations
+"""
+import argparse
+import sys
+from datetime import datetime
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+
+from aztools.build import Builder, load_template  # noqa: E402
+from aztools.spec import REPO, Registry, rel, SpecError, art_path, lint, load_spec, spec_path  # noqa: E402
+
+
+def add_target(p):
+    p.add_argument("--chapter", "-c", help="chapter number (production/chapter-NNN.yaml) or spec name (test, plates)")
+    p.add_argument("--spec", help="explicit spec file")
+    p.add_argument("--pages", "-p", default="all", help="e.g. 1-6,9 or plate ids; default all")
+
+
+def load(args):
+    reg = Registry.load()
+    spec = load_spec(spec_path(args.chapter, args.spec), reg)
+    return reg, spec, spec.select(args.pages)
+
+
+def cmd_prompt(args, dry=False):
+    reg, spec, pages = load(args)
+    b = Builder(reg)
+    tpl = load_template()
+    for pg in pages:
+        job = b.build(pg, spec)
+        print(f"===== {spec.path.name} {pg.label} -> {rel(pg.output)}"
+              + (f" (art: {art_path(pg).name})" if pg.lettering == "empty" else ""))
+        print("REFS:")
+        for i, r in enumerate(job.refs, 1):
+            print(f"  {i}. {r.path}  ({r.legend})")
+        for w in job.warnings:
+            print(f"WARN: {w}")
+        if args.full:
+            print(job.codex_prompt(Path("<staging>/result.png"), args.attempts, tpl))
+        else:
+            print("IMAGE PROMPT:\n" + job.image_prompt)
+            print("SELF-CHECK:\n" + "\n".join(job.self_check))
+        print()
+
+
+def cmd_run(args):
+    if args.dry_run:
+        return cmd_prompt(args)
+    from aztools.contact import sheets
+    from aztools.runner import run_batch
+    reg, spec, pages = load(args)
+    results, batch_dir = run_batch(pages, spec, Builder(reg), args.jobs, args.attempts, letter=not args.no_letter)
+    ok = [r for r in results if r.status == "ok"]
+    items = [(r.job.page.label, r.out) for r in ok]
+    if items:
+        for s in sheets(items, batch_dir):
+            print(f"contact sheet: {s}")
+    for r in results:
+        if r.letter_report:
+            print(f"--- lettering {r.job.page.label}\n{r.letter_report}")
+    gens = sum(r.generations for r in results)
+    print(f"done: {len(ok)}/{len(results)} ok, {gens} image_gen call(s); logs in {batch_dir}")
+    return 0 if len(ok) == len(results) else 1
+
+
+def cmd_letter(args):
+    from aztools.letter import letter_page
+    reg, spec, pages = load(args)
+    stamp = datetime.now().strftime("%Y%m%d-%H%M%S")
+    dbg = REPO / "production" / "runs" / f"{stamp}-letter-{spec.name}"
+    bad = 0
+    for pg in pages:
+        if pg.lettering != "empty":
+            print(f"{pg.label}: lettering is '{pg.lettering}', skipped (only 'empty' pages are lettered)")
+            continue
+        rep = letter_page(pg, debug_dir=dbg / pg.key)
+        print(f"--- {pg.label} -> {rel(pg.output)}\n{rep.summary()}")
+        bad += 0 if rep.ok else 1
+    print(f"debug overlays: {dbg}")
+    return 1 if bad else 0
+
+
+def cmd_contact(args):
+    from aztools.contact import sheets
+    reg, spec, pages = load(args)
+    items = []
+    for pg in pages:
+        p = art_path(pg) if args.art else pg.output
+        if p.exists():
+            items.append((pg.label, p))
+        else:
+            print(f"missing: {rel(p)}")
+    out_dir = Path(args.out) if args.out else REPO / "production" / "runs" / f"contact-{spec.name}"
+    for s in sheets(items, out_dir):
+        print(s)
+
+
+def cmd_lint(args):
+    reg = Registry.load()
+    from aztools.spec import load_spec as ls
+    spec = ls(spec_path(args.chapter, args.spec))
+    probs = lint(spec, reg)
+    b = Builder(reg)
+    for pg in spec.select(args.pages):
+        if not any(p.startswith("ERROR") and pg.label in p for p in probs):
+            for w in b.build(pg, spec).warnings:
+                probs.append(f"WARN {spec.path.name} {pg.label}: {w}")
+    print("\n".join(probs) or "ok")
+    return 1 if any(p.startswith("ERROR") for p in probs) else 0
+
+
+def main():
+    ap = argparse.ArgumentParser(prog="az", description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    p = sub.add_parser("prompt", help="print the built prompt and refs")
+    add_target(p)
+    p.add_argument("--full", action="store_true", help="print the whole codex brief, not only the image prompt")
+    p.add_argument("--attempts", type=int, default=2)
+    p = sub.add_parser("run", help="generate pages with codex exec")
+    add_target(p)
+    p.add_argument("--dry-run", action="store_true")
+    p.add_argument("--full", action="store_true", help="with --dry-run: print the whole codex brief")
+    p.add_argument("--jobs", "-j", type=int, default=4, help="parallel jobs (max 6)")
+    p.add_argument("--attempts", type=int, default=2, help="max image_gen calls per job (self-check retries)")
+    p.add_argument("--no-letter", action="store_true", help="for empty-balloon pages: skip the lettering pass")
+    p = sub.add_parser("letter", help="letter empty-balloon art from the spec")
+    add_target(p)
+    p = sub.add_parser("contact", help="contact sheets of existing pages")
+    add_target(p)
+    p.add_argument("--art", action="store_true", help="use the .art.png (unlettered) files")
+    p.add_argument("--out", help="output folder")
+    p = sub.add_parser("lint", help="check a spec")
+    add_target(p)
+    args = ap.parse_args()
+    try:
+        rc = {"prompt": cmd_prompt, "run": cmd_run, "letter": cmd_letter, "contact": cmd_contact, "lint": cmd_lint}[args.cmd](args)
+    except SpecError as e:
+        print(f"spec error: {e}", file=sys.stderr)
+        return 2
+    return rc or 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
