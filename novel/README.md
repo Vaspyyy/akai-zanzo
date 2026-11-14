@@ -21,7 +21,7 @@ novel/
     chapter-01.md      the text ("# Chapter 1: Title" on line 1)
     chapter-01.plan.md the writer's scene plan (kept, short; useful for the manga later)
     images/            illustrations, added later
-  build/               EPUB output (not committed)
+  build-epub.sh        builds a volume's EPUB into ../build/ (not committed)
 ```
 
 Outside `novel/`: `STORY_BIBLE.md` (canon labels), `continuity/` (character, car and place facts), `scripts/` (manga scripts). Don't edit `production/`, `artwork/` or `scripts/` from novel work.
@@ -59,20 +59,14 @@ Outside `novel/`: `STORY_BIBLE.md` (canon labels), `continuity/` (character, car
 
 ## Building the EPUB
 
-Calibre's `ebook-convert` is installed; pandoc is **not**. Join a volume into one Markdown file and convert it:
+Calibre's `ebook-convert` is installed; pandoc is **not**. One script builds a volume:
 
 ```sh
-cd novel
-mkdir -p build
-for f in volume-01/chapter-[0-9][0-9].md; do cat "$f"; echo; done > build/akai-zanzo-v01.md
-ebook-convert build/akai-zanzo-v01.md build/akai-zanzo-v01.epub \
-  --formatting-type markdown --paragraph-type off \
-  --title "Akai Zanzō, Volume 1: Good Eyes" --authors "Akai Zanzō project" --language en \
-  --chapter "//h:h1" --level1-toc "//h:h1"
+novel/build-epub.sh 1        # -> build/akai-zanzo-novel-v01.epub
 ```
 
-(The glob skips the `.plan.md` files; each `#` heading becomes a chapter and a table-of-contents entry; `* * *` becomes a scene-break rule. Tested with sample chapters. `build/` is gitignored.)
+It joins `volume-NN/chapter-NN.md` in order (skipping the `.plan.md` files), converts the Markdown with Python's `markdown` module (curly quotes only, no dash or ellipsis changes; Calibre's own markdown input if the module is missing), renders `* * *` as a centred scene break, adds a serif stylesheet, a contents page by chapter and the manga's chapter 1 page 1 as the cover. It then checks the book with `ebook-meta` and a round trip to plain text that must contain no em dashes or markdown symbols. Output goes to the top-level `build/`, which is gitignored.
 
 ## Illustrations
 
-One or two per chapter, drawn later with the same Codex image pipeline and reference sheets as the manga (`production/`, `artwork/`), in black-and-white manga style. Save them as `volume-NN/images/chNN-1.png` and reference them in the chapter with `![](images/chNN-1.png)`; for the EPUB build, copy the `images/` folder next to the joined Markdown file. Don't run the pipeline from novel work while a manga chapter is being drawn.
+One or two per chapter, drawn later with the same Codex image pipeline and reference sheets as the manga (`production/`, `artwork/`), in black-and-white manga style. Save them as `volume-NN/images/chNN-1.png` and reference them in the chapter with `![](images/chNN-1.png)`; `build-epub.sh` copies the `images/` folder into the build. Don't run the pipeline from novel work while a manga chapter is being drawn.

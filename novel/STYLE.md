@@ -164,6 +164,6 @@ Test: cover the speech tags. You should still know who's talking.
 >
 > I went home. Mom had already left for the factory. Sota was asleep with his mouth open and his glasses still on, and I took them off and folded them and put them next to his inhaler, the way he likes.
 >
-> I lay down and closed my eyes and did the shifting again, one to two, two to three, the heel rolling over onto the gas, until I didn't know if I was practicing or dreaming.
+> I lay down and closed my eyes and did the shifting again, four to three, three to two, the heel rolling over onto the gas, until I didn't know if I was practicing or dreaming.
 >
 > She didn't come. That was the whole night. I'd tell it shorter if I could.
