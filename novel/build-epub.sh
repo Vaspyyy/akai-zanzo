@@ -124,4 +124,14 @@ if grep -nE -- '--|^#|\*|^>|`|\]\(|(^|[^a-z])_[A-Za-z]' "$work/roundtrip.txt"; t
 words=$(wc -w < "$work/roundtrip.txt")
 echo "chapters: ${#chapters[@]}  words (round trip): $words  size: $(du -h "$epub" | cut -f1)"
 echo "built: $epub"
+
+# Phone-sized PDF too: the T3 Code file viewer can't open EPUBs, but shows PDFs.
+pdf="${epub%.epub}.pdf"
+QT_QPA_PLATFORM=offscreen ebook-convert "$epub" "$pdf" \
+  --custom-size 105x180 --unit millimeter --pdf-default-font-size 14 \
+  --pdf-page-margin-left 22 --pdf-page-margin-right 22 \
+  --pdf-page-margin-top 28 --pdf-page-margin-bottom 28 \
+  --pdf-page-numbers >"$work/pdf.log" 2>&1 \
+  || { tail -20 "$work/pdf.log" >&2; exit 1; }
+echo "built: $pdf"
 exit $bad
