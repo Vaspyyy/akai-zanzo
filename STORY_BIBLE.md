@@ -1,6 +1,6 @@
 # AKAI ZANZŌ (赤い残像, "Red Afterimage"): Story Bible
 
-**Version:** 0.3 | **Status:** Chapter 1 done (pilot approved by creator), Chapter 2 in production
+**Version:** 0.4 | **Status:** Manga chapters 1-2 done, chapter 3 in production; light novel starting (runs ahead of the manga)
 
 > Labels: **CANON** = confirmed by the creator. **PROVISIONAL** = chosen by Claude so the pilot could be made; the creator can replace it at any time, and it becomes canon only when the creator approves. **PROPOSAL** = discussion idea, not used yet. Agents must never quietly promote PROVISIONAL or PROPOSAL items to canon.
 
@@ -36,9 +36,11 @@ At 17, on a night walk while drinking (**alcohol, replacing cannabis**; underage
 - The driver turns out to be a **woman**. He falls in love with her.
 - She becomes his **first ally in the scene**: she teaches him technique and which mods matter, and she believes in him.
 
+**Her past [CANON]:** the blurred young man in the photo on her sun visor was her old racing partner. He crashed on the bypass. That is why she says "that road eats people" and first tries to scare Dai off. (Whether he died or survived badly hurt, his name, and the year are PROVISIONAL, set by `novel/OUTLINE.md`.)
+
 **Name [CANON]:** Akane Natsume (夏目 茜). **PROVISIONAL details:** age 21. Because Dai is 17 at the start, nothing romantic happens between them until he is 18; at first she treats him as a kid with raw talent, and his feelings are a one-sided crush. The romance should be slow, earned, and complicated (her own past in the scene, the age gap, his immaturity), which keeps it from feeling like a cliché.
 
-**Undecided:** Whether the car he later owns is hers; exactly how he gets his first car.
+**First car [CANON]:** a beat-up Roadster from a scrapyard, bought and fixed with his own money. It's his own, and it mirrors hers. (Exact condition, price and timing are PROVISIONAL, set by `novel/OUTLINE.md`.)
 
 ## 5. Early timeline [CANON]
 
@@ -72,6 +74,7 @@ His mother wants him to face reality, get a job, and build a stable life. Repres
 - **Format:** personal reading project. Black-and-white manga pages, **English lettering**, read **right-to-left** like scanlations on MangaDex.
 - Development starts with a **pilot chapter** to test story and art consistency (done; creator liked it).
 - **Pacing [CANON]:** slow. Chapters are **25-30 pages**; give scenes room to breathe (silent panels, everyday moments, build-up before payoffs).
+- **Light novel [CANON]:** the story is written first as a light novel that runs ahead of the manga; the manga adapts the finished novel chapters. Narration is **first person, Dai ("I")**. Book I should be **long**: something the creator can get really invested in. Story details the creator left to Claude ("your call") stay PROVISIONAL until the creator approves the outline.
 - **AI art policy [CANON]:** review strictly but smartly. Odd details that are just the limit of AI art are acceptable; story-breaking errors are not. If a shot is simply too hard for the image model, change or simplify the shot, but only as a last resort.
 
 ## 9. Two-book boundary [CANON]
@@ -105,8 +108,8 @@ See `continuity/characters.md`, `continuity/cars.md`, `continuity/locations.md`.
 1. Final names (everything PROVISIONAL above).
 2. Real city vs fictional Shiomi.
 3. Exact birthdate and timeline.
-4. First car: acquisition, condition, financing, whether it's a Miata (or Akane's).
-5. Akane's backstory: why she races, her past in the scene, why she helps him.
+4. First car: decided (scrapyard Roadster); details in the outline.
+5. Akane's backstory: core decided (partner crashed on the bypass); details in the outline.
 6. Other friends, rivals, crews.
 7. How betting works (who holds money, who organizes races, police pressure).
 8. School/work situation near 18.
@@ -118,6 +121,7 @@ See `continuity/characters.md`, `continuity/cars.md`, `continuity/locations.md`.
 - Reference sheets first (`artwork/character-sheets`, `artwork/car-sheets`), then pages, each page prompt carrying the relevant reference images.
 - Art direction lives in `prompts/art-direction.md`; provenance per asset in `artwork/PROVENANCE.md`.
 - Cars, wheels, headlight state (pop-ups up/down), steering side (**right-hand drive**), damage, clothing and locations must stay consistent across pages.
+- **Light novel:** written in `novel/`, running ahead of the manga (the manga adapts finished novel chapters). Workflow, files (outline, style guide, ledger, summaries) and EPUB build: `novel/README.md`.
 
 ## 14. Instructions for future agents
 
