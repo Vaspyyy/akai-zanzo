@@ -26,3 +26,7 @@
 - **Right-hand drive in side views.** "Right-hand drive" alone doesn't stick. In a side view with the driver at the near window, state the direction: the car's FRONT points to the LEFT edge of the panel (so we see its right/driver side).
 - **Keep the camera on one side across pages (180-degree rule).** Each page is drawn in isolation, so the model may jump to the opposite end of a car or room between pages, which reads as the car "turning around". When a scene continues, pass the previous page as a reference and say "seen from the SAME side as the previous page's last panel". Review consecutive pages side by side, not only one at a time.
 - **Vary shot sizes; keep the protagonist in key beats.** Don't repeat the same flat side view panel after panel. Emotional beats want close-ups and over-the-shoulder shots that keep Dai in frame.
+
+## Production tools
+
+Page prompts are now built from YAML page specs instead of hand-written briefs: `production/az run -c N -p 1-6` builds each prompt from `production/cast.yaml`, `production/locations.yaml` and `production/templates/prompt.md` (which apply the rules above automatically), runs the Codex image jobs, saves the pages, logs provenance and makes contact sheets. Empty location plates live in `artwork/locations/`. New chapters can use `lettering: empty` (empty balloons, then a lettering pass in Anime Ace). See `production/README.md`.

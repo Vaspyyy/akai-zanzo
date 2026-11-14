@@ -5,7 +5,7 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from .spec import PROD, REPO, Page, Panel, Registry, Spec, SpecError
+from .spec import PROD, REPO, Page, Panel, Registry, Spec, art_path
 
 TEMPLATE = PROD / "templates" / "prompt.md"
 
@@ -117,7 +117,8 @@ class Builder:
             return len(refs)
 
         if page.edit:
-            src = page.edit.get("source") or str(page.output.relative_to(REPO))
+            cur = art_path(page) if page.lettering == "empty" else page.output
+            src = page.edit.get("source") or str(cur.relative_to(REPO))
             add(src, "the CURRENT version of this page (edit target): keep its layout, style and faces except for the requested change", "edit")
 
         seen = []

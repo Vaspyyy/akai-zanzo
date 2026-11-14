@@ -1,0 +1,656 @@
+# Chapter 2: "Thursday", converted from scripts/chapter-002.md as the worked
+# example of the page-spec format (see production/README.md).
+# The pages already exist with AI lettering: do NOT regenerate them unless the
+# creator asks. Use `production/az prompt -c 2 -p N` to see what a redraw would send.
+chapter: 2
+title: Thursday
+lettering: ai          # these pages were lettered by the image model
+defaults:
+  orientation: portrait
+
+pages:
+  - page: 1
+    title: Morning
+    location: danchi-exterior
+    time: early morning, soft light
+    panels:
+      - pos: top, wide
+        action: The danchi block in morning light, laundry on the balconies, a crow on a power line.
+        captions: ["THE NEXT MORNING."]
+        sfx: [{text: "CAW", note: small}]
+      - pos: bottom, wide
+        location: hayama-apartment
+        action: >-
+          Inside, the tatami room. Dai asleep on a futon, still in yesterday's
+          T-shirt, one arm over his eyes; morning light through the window.
+          Beside him Sota's futon is empty, the sheets thrown back.
+        cast: [dai]
+        sfx: [{text: "KOFF KOFF", note: "small, coming from off-panel"}]
+
+  - page: 2
+    title: Sota
+    location: hayama-apartment
+    time: early morning, soft window light
+    panels:
+      - pos: top-right
+        shot: close-up
+        action: Dai, lying on the futon, opens one eye at the sound.
+        cast: [dai]
+      - pos: top-left
+        action: Sota by the window, small and hunched, coughing into his hand.
+        cast: [sota]
+        sfx: ["KOFF! KOFF!"]
+      - pos: middle, wide
+        action: >-
+          Dai kneels beside Sota, holding out the blue inhaler. His face is
+          gentle; we have not seen him like this before.
+        cast: [dai, sota]
+        dialogue:
+          - dai: "SLOW. BREATHE WITH ME."
+      - pos: bottom-right
+        action: Sota uses the inhaler, Dai's hand on his back.
+        cast: [sota, dai]
+        sfx: ["PSHH"]
+      - pos: bottom-left
+        action: Sota, breathing easier, looks up at Dai with a tired smile.
+        cast: [sota, dai]
+        dialogue:
+          - sota: "...YOU CAME HOME REALLY LATE, NII-CHAN."
+          - dai: "DON'T TELL MOM."
+
+  - page: 3
+    title: The secret
+    location: hayama-apartment
+    time: morning
+    continue_from: 2
+    panels:
+      - pos: top-right
+        action: Sota spots Dai's notebook open on the floor, showing a sketch of the Roadster.
+        cast: [sota]
+        dialogue:
+          - sota: "WHAT'S THIS? A CAR?"
+      - pos: top-left
+        action: Dai hesitates, then sits cross-legged next to him.
+        cast: [dai]
+      - pos: middle, wide
+        action: >-
+          Dai talks, his hands moving like a car through a corner, eyes bright.
+          Sota listens with his mouth open.
+        cast: [dai, sota]
+        dialogue:
+          - dai: "LAST NIGHT, THIS RED CAR... IT CAME OUT OF NOWHERE AND JUST... ATE THE CORNER."
+      - pos: bottom
+        action: Sota beaming; Dai beside him with a small smile.
+        cast: [sota, dai]
+        dialogue:
+          - sota: "SO COOL!!"
+          - dai: {text: "...YEAH. IT WAS.", style: small}
+
+  - page: 4
+    title: Cold shoulder
+    location: hayama-apartment
+    time: morning
+    panels:
+      - pos: top, wide
+        action: >-
+          The genkan. Michiko in her factory smock putting on her shoes; Aya in
+          her supermarket vest behind her. Dai in the doorway of the tatami room.
+        cast: [michiko, aya:work, dai]
+      - pos: middle-right
+        action: Michiko puts a 500-yen coin on the shoe cabinet without looking at Dai.
+        cast: [michiko]
+        dialogue:
+          - michiko: "SOTA. LUNCH MONEY."
+      - pos: middle-left
+        action: Dai opens his mouth to say something.
+        cast: [dai]
+        dialogue:
+          - dai: "MOM, I..."
+      - pos: bottom
+        action: >-
+          The steel door closes behind them. Dai alone in the narrow hall. A
+          quiet mirror of chapter 1's door slam.
+        cast: [dai]
+        sfx: [{text: "kachan", note: small}]
+
+  - page: 5
+    title: Thursday
+    location: hayama-apartment
+    time: late morning
+    notes: ["This page is on the apartment's small balcony, looking out over the city toward the harbor."]
+    panels:
+      - pos: top, wide
+        action: Dai on the apartment balcony, leaning on the rail, looking out at the harbor cranes in the distance.
+        cast: [dai]
+      - pos: middle
+        shot: close-up
+        action: Close on Dai, thinking.
+        cast: [dai]
+        captions:
+          - "EVERY THURSDAY."
+          - "STANDING AROUND A GAS STATION ALL NIGHT WOULD JUST GET ME THROWN OUT."
+      - pos: bottom
+        shot: extreme close-up
+        action: His eyes sharpen. An idea.
+        cast: [dai]
+        captions: ["UNLESS I HAD A REASON TO BE THERE."]
+
+  - page: 6
+    title: Harbor by day
+    location: harbor-road-day
+    time: early afternoon, bright summer day
+    panels:
+      - pos: top, wide
+        action: >-
+          The harbor road in daylight: trucks, forklifts, workers in helmets,
+          gulls. Totally different from the night.
+        notes: ["Trucks and forklifts are fine here; no small sports cars."]
+      - pos: bottom, wide
+        location: harbor-station-day
+        action: The small gas station in daylight, plain and a little shabby. Dai walking toward it, hands in pockets.
+        cast: [dai]
+
+  - page: 7
+    title: Kubo
+    location: harbor-station-day
+    time: early afternoon
+    panels:
+      - pos: top, wide
+        action: Kubo hosing down the forecourt, cap on, a cigarette behind his ear.
+        cast: [kubo]
+      - pos: middle-right
+        action: Dai standing at the edge of the forecourt.
+        cast: [dai]
+        dialogue:
+          - dai: "ARE YOU HIRING?"
+      - pos: middle-left
+        action: Kubo stops the hose and looks him up and down.
+        cast: [kubo]
+      - pos: bottom
+        action: Kubo laughs once.
+        cast: [kubo]
+        dialogue:
+          - kubo: "HAH. YOU'RE THE KID WHO WAS SCREAMING AT MY CUSTOMER."
+
+  - page: 8
+    title: Why here
+    location: harbor-station-day
+    time: early afternoon
+    continue_from: 7
+    panels:
+      - pos: top-right
+        action: Dai looks away, embarrassed.
+        cast: [dai]
+      - pos: top-left
+        action: Kubo coils the hose.
+        cast: [kubo]
+        dialogue:
+          - kubo: "NIGHT SHIFT AT THE HARBOR IS TRUCKERS, DRUNKS AND MOSQUITOES."
+          - kubo: "WHY HERE?"
+      - pos: middle, wide
+        action: Dai, a beat, then the half-truth.
+        cast: [dai]
+        dialogue:
+          - dai: "...I NEED THE MONEY."
+      - pos: bottom
+        shot: extreme close-up
+        action: Kubo studies him for a long silent moment. Close on Kubo's narrowed eyes.
+        cast: [kubo]
+
+  - page: 9
+    title: Trial
+    location: harbor-station-day
+    time: early afternoon
+    continue_from: 8
+    panels:
+      - pos: top-right
+        action: Kubo turns away toward the office.
+        cast: [kubo]
+        dialogue:
+          - kubo: "700 YEN AN HOUR. NIGHTS."
+      - pos: top-left
+        action: Kubo, looking back over his shoulder.
+        cast: [kubo]
+        dialogue:
+          - kubo: "BE LATE ONCE, YOU'RE GONE."
+      - pos: bottom, large
+        action: Dai bows deeply, the first time he has bowed to anyone in the story.
+        cast: [dai]
+        dialogue:
+          - dai: {text: "YES, SIR!", style: bold}
+
+  - page: 10
+    title: Learning (montage 1)
+    location: harbor-station-night
+    time: night
+    panels:
+      - pos: top-right
+        action: Dai in the station uniform waving a truck in with both arms.
+        cast: [dai:station]
+        dialogue:
+          - dai: "ALL RIGHT! ALL RIGHT!"
+      - pos: top-left
+        action: Dai scrubbing a truck's windshield, standing on tiptoe.
+        cast: [dai:station]
+      - pos: bottom-right
+        action: Kubo showing Dai how to check the oil with the dipstick under an old sedan's open hood.
+        cast: [kubo, dai:station]
+      - pos: bottom-left
+        action: Dai bowing to a truck driver pulling away.
+        cast: [dai:station]
+        dialogue:
+          - dai: "THANK YOU, COME AGAIN!"
+
+  - page: 11
+    title: The ear (montage 2)
+    location: harbor-station-night
+    time: night
+    panels:
+      - pos: top, wide
+        action: An old boxy sedan idling at the pump. Kubo and Dai both look at its open engine bay.
+        cast: [kubo, dai:station]
+        sfx: ["SKREEEE"]
+      - pos: middle-right
+        action: Kubo, without looking up.
+        cast: [kubo]
+        dialogue:
+          - kubo: "HEAR THAT? BELT'S GOING."
+      - pos: middle-left
+        action: Dai, eyes closed, listening.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...AND SOMETHING ELSE. LIKE A TICK. LEFT SIDE."
+      - pos: bottom
+        action: Kubo looks at Dai, surprised, then grunts. A small seed of Dai's talent.
+        cast: [kubo, dai:station]
+        dialogue:
+          - kubo: "...HUH."
+
+  - page: 12
+    title: The night before
+    location: bypass-overpass-night
+    time: night
+    panels:
+      - pos: top, wide
+        action: Dai on the overpass at night, walking along the walkway (not leaning over the rail), holding his station cap.
+        cast: [{id: dai, outfit: casual, note: "holding a grey work cap"}]
+        captions: ["WEDNESDAY."]
+      - pos: bottom
+        shot: close-up
+        action: Close on the cap in his hands.
+        cast: [{id: dai, note: "only his hands and the cap"}]
+        captions: ["TOMORROW."]
+
+  - page: 13
+    title: The longest school day
+    location: classroom
+    time: afternoon
+    panels:
+      - pos: top-right
+        action: The classroom wall clock.
+        captions: ["THURSDAY."]
+      - pos: top-left
+        action: Dai at his desk staring at the clock, chin on hand.
+        cast: [dai:school]
+      - pos: middle, wide
+        action: >-
+          The teacher at the blackboard, students writing; Dai's notebook full
+          of tiny Roadster sketches.
+        cast: [dai:school]
+        notes: ["The teacher and the other students are unnamed background people."]
+      - pos: bottom
+        shot: extreme close-up
+        action: The clock, the minute hand barely moved.
+        sfx: [{text: "tik... tik...", note: small}]
+
+  - page: 14
+    title: Night shift
+    location: harbor-station-night
+    time: 10 PM
+    panels:
+      - pos: top, wide
+        action: >-
+          The gas station at 10 PM, empty, canopy lights buzzing. Kubo in the
+          office reading a newspaper, a small radio beside him.
+        cast: [kubo]
+        captions: ["10:00 PM."]
+        sfx: [{text: "BZZZ", note: small}]
+      - pos: bottom
+        action: Dai standing by the pumps, staring down the dark harbor road.
+        cast: [dai:station]
+
+  - page: 15
+    title: Waiting
+    location: harbor-station-night
+    time: after midnight
+    continue_from: 14
+    panels:
+      - pos: top-right
+        action: A truck pulls in; Dai fuels it, still watching the road.
+        cast: [dai:station]
+        captions: ["12:10 AM."]
+      - pos: top-left
+        action: Dai sweeping, glancing at the road.
+        cast: [dai:station]
+        captions: ["1:05 AM."]
+      - pos: bottom, wide
+        action: Kubo in the office doorway with a can of coffee; Dai by the pumps.
+        cast: [kubo, dai:station]
+        dialogue:
+          - kubo: "YOU WAITING FOR SOMEBODY?"
+          - dai: "...NO."
+
+  - page: 16
+    title: Rain
+    location: harbor-station-night
+    time: 1:50 AM
+    weather: rain starting
+    continue_from: 15
+    panels:
+      - pos: top, wide
+        action: Rain starts falling beyond the canopy, the road shining.
+        sfx: ["ZAAAA"]
+        captions: ["1:50 AM."]
+      - pos: middle
+        action: Kubo yawning, going into the back room.
+        cast: [kubo]
+        dialogue:
+          - kubo: "I'M NAPPING. WAKE ME IF THE WORLD ENDS."
+      - pos: bottom
+        action: Dai alone under the canopy, shoulders a little lower. Rain like a curtain.
+        cast: [dai:station]
+        captions: ["MAYBE NOT TONIGHT."]
+
+  - page: 17
+    title: The sound
+    location: harbor-station-night
+    time: about 2 AM
+    weather: heavy rain
+    continue_from: 16
+    driver_hidden: true
+    panels:
+      - pos: top-right
+        shot: close-up
+        action: Close on Dai's face. His head snaps up.
+        cast: [dai:station]
+      - pos: top-left
+        action: Rain over the dark road; a faint sound through it.
+        sfx: ["...WAAAN"]
+      - pos: bottom, large
+        location: harbor-road-night
+        action: Far down the wet harbor road, two pop-up headlights shining through the rain.
+        cast: [{id: roadster, state: headlights_up, note: "far away, only its headlights visible"}]
+
+  - page: 18
+    title: Arrival
+    location: harbor-station-night
+    time: about 2 AM
+    weather: heavy rain
+    continue_from: 17
+    driver_hidden: true
+    panels:
+      - pos: single large panel (whole page)
+        action: >-
+          The red Roadster glides into the station out of the rain, headlights
+          up, water streaming off the black soft top, reflections on the wet
+          concrete. Dai small in the foreground under the canopy, watching.
+          Driver hidden by glare.
+        cast: [{id: roadster, state: headlights_up}, dai:station]
+
+  - page: 19
+    title: The window
+    location: harbor-station-night
+    time: about 2 AM
+    weather: heavy rain
+    continue_from: 18
+    driver_hidden: true
+    panels:
+      - pos: top-right
+        action: The Roadster stopped at the pump, engine idling, pop-ups going down.
+        cast: [{id: roadster, state: headlights_down}]
+        sfx: ["KA-CHAK"]
+      - pos: top-left
+        action: Dai walking toward the driver's window on the car's RIGHT side, stiff and nervous.
+        cast: [dai:station, {id: roadster, facing: left}]
+      - pos: bottom, wide
+        shot: close-up
+        action: Close on the driver's window as it rolls down. Gloved fingers on the window edge. Face still out of frame.
+        cast: [{id: akane, hidden: true, note: "only her gloved fingers"}, roadster]
+        sfx: ["WIIIN"]
+
+  - page: 20
+    title: REVEAL
+    location: harbor-station-night
+    time: about 2 AM
+    weather: heavy rain
+    continue_from: 19
+    panels:
+      - pos: full-page splash
+        action: >-
+          Akane seen through the open driver's window, face fully lit by the
+          canopy lights. Rain behind. She looks at Dai like he is nobody special,
+          a black open-knuckle glove resting on the door.
+        cast: [akane, {id: roadster, note: "only the door and window frame"}]
+        dialogue:
+          - akane: "REGULAR. FILL IT UP."
+
+  - page: 21
+    title: Frozen
+    location: harbor-station-night
+    weather: heavy rain
+    continue_from: 20
+    panels:
+      - pos: top-right
+        action: Dai frozen, blank face.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...EH?"
+      - pos: top-left
+        action: Akane in the car, one eyebrow up.
+        cast: [akane]
+        dialogue:
+          - akane: "YOU WORK HERE OR NOT?"
+      - pos: bottom, wide
+        action: Dai scrambling, nearly dropping the fuel nozzle.
+        cast: [dai:station]
+        dialogue:
+          - dai: "Y-YES! RIGHT AWAY!"
+
+  - page: 22
+    title: Full service
+    location: harbor-station-night
+    weather: heavy rain
+    continue_from: 21
+    panels:
+      - pos: top, wide
+        action: Dai fueling the Roadster at the fuel door on its right rear quarter, rain dripping off the canopy edge.
+        cast: [dai:station, {id: roadster, facing: left}]
+        sfx: ["GOBOBOBO"]
+      - pos: middle-right
+        action: Dai wiping the windshield, sneaking a look at her through the glass.
+        cast: [dai:station, roadster]
+      - pos: middle-left
+        action: Through the windshield, Akane is looking straight back at him. He looks away fast.
+        cast: [akane]
+      - pos: bottom
+        shot: close-up
+        action: The fuel nozzle clicks off.
+        sfx: ["KACHUN"]
+
+  - page: 23
+    title: The name
+    location: harbor-station-night
+    weather: heavy rain
+    continue_from: 22
+    panels:
+      - pos: top-right
+        action: Dai at her window, cap in hand, gathering courage.
+        cast: [dai:station]
+        dialogue:
+          - dai: "ARE YOU... THE AKAI ZANZO?"
+      - pos: top-left
+        action: Akane, blank.
+        cast: [akane]
+        dialogue:
+          - akane: "...THE WHAT?"
+      - pos: bottom, wide
+        shot: close-up
+        action: A small, private smile at the corner of her mouth.
+        cast: [akane]
+        dialogue:
+          - akane: "IS THAT WHAT THEY CALL IT NOW."
+
+  - page: 24
+    title: You saw that
+    location: harbor-station-night
+    weather: heavy rain
+    continue_from: 23
+    panels:
+      - pos: top-right
+        action: Dai, intense.
+        cast: [dai:station]
+        dialogue:
+          - dai: "I SAW YOU. ON THE BYPASS. YOU TOOK THE INSIDE LINE AND THAT SILVIA COULDN'T DO ANYTHING."
+      - pos: top-left
+        action: Akane's eyes sharpen. First real interest.
+        cast: [akane]
+        dialogue:
+          - akane: "...YOU SAW THAT."
+      - pos: bottom-right
+        action: Akane.
+        cast: [akane]
+        dialogue:
+          - akane: "DO YOU DRIVE?"
+      - pos: bottom-left
+        action: Dai, honest.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...NO. NOT YET."
+
+  - page: 25
+    title: Why
+    location: harbor-station-night
+    weather: heavy rain
+    continue_from: 24
+    panels:
+      - pos: top, wide
+        action: Akane, flat.
+        cast: [akane]
+        dialogue:
+          - akane: "THEN WHY DO YOU CARE?"
+      - pos: middle
+        action: Dai, gripping his cap, rain loud behind him.
+        cast: [dai:station]
+        dialogue:
+          - dai: "BECAUSE I'VE NEVER SEEN ANYTHING LIKE IT."
+      - pos: bottom
+        action: Dai, looking her in the eye.
+        cast: [dai:station]
+        dialogue:
+          - dai: "I WANT TO DRIVE LIKE THAT."
+
+  - page: 26
+    title: Warning
+    location: harbor-station-night
+    weather: heavy rain
+    continue_from: 25
+    panels:
+      - pos: top, wide
+        action: Long silent panel. Akane in the car studying Dai, who stands at her window. Rain. No text.
+        cast: [akane, dai:station, {id: roadster, facing: left}]
+      - pos: middle
+        action: She holds out folded bills through the window.
+        cast: [akane]
+        dialogue:
+          - akane: "KID."
+      - pos: bottom
+        shot: close-up
+        action: Her face, serious.
+        cast: [akane]
+        dialogue:
+          - akane: "THAT ROAD EATS PEOPLE. STAY OFF IT."
+
+  - page: 27
+    title: Natsume
+    location: harbor-station-night
+    weather: misty rain
+    continue_from: 26
+    panels:
+      - pos: top-right, narrow
+        shot: close-up
+        action: The Roadster's pop-up headlights flip open.
+        cast: [{id: roadster, state: headlights_up}]
+        sfx: ["KA-CHAK"]
+      - pos: top-left
+        shot: tight close-up
+        action: Akane through the open driver's window, eyes on the road, not looking at him.
+        cast: [akane]
+        dialogue:
+          - akane: "...WHAT'S YOUR NAME?"
+      - pos: middle
+        shot: close-up
+        action: Dai in the misty rain, surprised, gripping his cap.
+        cast: [dai:station]
+        dialogue:
+          - dai: "HAYAMA. DAISUKE."
+      - pos: bottom, large
+        shot: over-the-shoulder
+        action: >-
+          Over Dai's shoulder (Dai in the foreground, seen from behind): the
+          Roadster rolls past him, so its driver's side faces him. Through the
+          window, half of Akane's face turns toward him with a small smile.
+        cast: [{id: dai, outfit: station, hidden: true}, akane, {id: roadster, facing: left}]
+        dialogue:
+          - akane: "NATSUME."
+
+  - page: 28
+    title: Dawn
+    location: harbor-station-night
+    time: just before dawn
+    weather: rain easing
+    continue_from: 27
+    panels:
+      - pos: top, wide
+        action: The Roadster's taillights fading into the rain down the harbor road. Dai standing at the edge of the canopy.
+        cast: [dai:station, {id: roadster, note: "far away, only its taillights"}]
+      - pos: middle
+        action: Kubo in the office doorway, scratching his head, half asleep.
+        cast: [kubo]
+        dialogue:
+          - kubo: "...CUSTOMER?"
+      - pos: bottom
+        action: Dai, a quiet smile, still facing the road.
+        cast: [dai:station]
+        dialogue:
+          - {speaker: dai, text: "YEAH."}
+        captions: ["NATSUME."]
+
+  - page: 29
+    title: Job
+    location: danchi-walkway
+    time: dawn, rain cleared, pale sky
+    panels:
+      - pos: top, wide
+        action: >-
+          Michiko steps out of the steel door in her smock, leaving for the early
+          factory shift. Dai comes up the outside stairs in his station work
+          shirt, cap in hand.
+        cast: [michiko, dai:station]
+      - pos: middle-right
+        action: Michiko, surprised, tired.
+        cast: [michiko]
+        dialogue:
+          - michiko: "WHERE WERE YOU ALL NIGHT?"
+      - pos: middle-left
+        action: Dai, not quite meeting her eyes.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...WORK."
+      - pos: bottom, large
+        action: >-
+          Michiko's face: shock, then something softening, almost hope. Dai
+          walking past her into the apartment.
+        cast: [michiko, dai:station]
+        dialogue:
+          - dai: "I GOT A JOB."
+        captions: [{text: "CHAPTER 2: THURSDAY. END.", style: small, at: "in the bottom corner"}]

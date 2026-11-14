@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Build Chapter N into a grayscale PDF and CBZ (right-to-left reading).
 # Usage: ./tools-build.sh 001
+# Uses only the final pages: page-NN.png or page-NN-MM.png (spreads).
+# Skips page-NN.art.png (unlettered art), *.prev.png (backups) and other extras.
 set -euo pipefail
 ch="${1:-001}"
 src="artwork/pages/chapter-$ch"
@@ -8,7 +10,7 @@ out="build"
 tmp="$(mktemp -d)"
 mkdir -p "$out"
 i=0
-for f in $(ls "$src"/page-*.png | sort); do
+for f in $(ls "$src" | grep -E '^page-[0-9]+(-[0-9]+)?\.png$' | sort | sed "s|^|$src/|"); do
   i=$((i+1))
   magick "$f" -colorspace Gray -quality 92 "$tmp/$(printf '%03d' "$i").jpg"
 done
