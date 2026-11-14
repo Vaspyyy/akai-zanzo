@@ -667,7 +667,7 @@ pages:
       - pos: top, wide
         action: >-
           Dawn in the tatami room. Dai sits cross-legged on his futon, still in
-          his grey work shirt, eyes closed, his right hand moving an invisible
+          his grey work shirt, eyes closed, his LEFT hand moving an invisible
           gear lever, his right foot rolling as if doing an invisible heel-toe.
         cast: [dai:station]
       - pos: middle-right

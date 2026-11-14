@@ -142,7 +142,7 @@
 - P3 (bottom): Akane's eyes, unreadable. She flips the visor back up. No text.
 
 ## Page 28: Practicing
-- P1 (top, wide): Dawn. The tatami room. Dai sitting cross-legged on his futon, still in his work shirt, eyes closed, right hand moving an invisible gear lever, right foot rolling an invisible heel-toe.
+- P1 (top, wide): Dawn. The tatami room. Dai sitting cross-legged on his futon, still in his work shirt, eyes closed, left hand moving an invisible gear lever (right-hand-drive car: the shifter is on his left), right foot rolling an invisible heel-toe.
 - P2 (middle-right): Sota, half asleep, sitting up. SOTA: "NII-CHAN... WHAT ARE YOU DOING?"
 - P3 (middle-left): Dai, not opening his eyes. DAI: "...PRACTICING."
 - P4 (bottom, large): Morning light across the room, Dai's hand still on the invisible shifter, a small smile. CAPTION (small, bottom corner): "CHAPTER 3: PASSENGER SEAT. END."
