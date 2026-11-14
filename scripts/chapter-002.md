@@ -235,13 +235,13 @@
 
 ## Page 27: Natsume
 
-- **P1 (top-right):** Pop-ups flip open.
+- **P1 (top-right, narrow):** Pop-ups flip open.
   - SFX: "KA-CHAK"
-- **P2 (top-left):** The Roadster starts rolling; Akane, not looking at him:
+- **P2 (top-left):** Tight close-up of Akane through the open driver's window, eyes on the road, not looking at him.
   - AKANE: "...WHAT'S YOUR NAME?"
-- **P3 (middle):** Dai, surprised.
+- **P3 (middle):** Close-up of Dai in the misty rain, surprised, gripping his cap.
   - DAI: "HAYAMA. DAISUKE."
-- **P4 (bottom):** Through the window as the car pulls away, half her face:
+- **P4 (bottom, large):** Over Dai's shoulder (Dai in the foreground, seen from behind): the Roadster rolls past him, front pointing left, so its driver's side faces him. Through the window, half of Akane's face turns toward him with a small smile.
   - AKANE: "NATSUME."
 
 ## Page 28: Dawn
