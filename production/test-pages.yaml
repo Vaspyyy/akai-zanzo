@@ -1,0 +1,65 @@
+# Test pages for the lettering pass (not part of any chapter).
+#   production/az run --chapter test-pages      # draws empty balloons, then letters them
+#   production/az letter --chapter test-pages   # re-letter the existing .art.png files
+title: Lettering test
+output_dir: artwork/pages/test
+lettering: empty
+defaults:
+  location: harbor-station-night
+  time: about 1 AM, dry night
+
+pages:
+  - page: 1
+    title: Coffee break
+    panels:
+      - pos: top, wide
+        shot: establishing shot
+        action: The empty gas station under its buzzing canopy lights. Dai stands by the pumps, small in the frame, looking down the dark road.
+        cast: [dai:station]
+        captions: ["THREE WEEKS OF NIGHT SHIFTS."]
+      - pos: middle-right
+        shot: medium shot
+        action: Kubo steps out of the office doorway holding two cans of coffee, one held out.
+        cast: [kubo]
+        dialogue:
+          - kubo: "HERE. YOU LOOK HALF DEAD."
+      - pos: middle-left
+        shot: medium close-up
+        action: Dai takes the can, surprised, a little awkward.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...THANKS, KUBO-SAN."
+      - pos: bottom, wide
+        shot: two-shot from the side
+        action: >-
+          Kubo (on the RIGHT) and Dai (on the LEFT) lean against the office
+          wall side by side, drinking, the empty road ahead of them.
+        cast: [kubo, dai:station]
+        dialogue:
+          - kubo: {text: "THE HARBOR'S QUIET TONIGHT.", at: "at the top right, above Kubo"}
+          - dai: {text: "IT'S ALWAYS QUIET.", at: "further left and a little lower, above Dai"}
+
+  - page: 2
+    title: Not tonight
+    continue_from: 1
+    panels:
+      - pos: top-right
+        shot: close-up
+        action: Close on Kubo's lined face, eyes narrowed, a faint knowing smile.
+        cast: [kubo]
+        dialogue:
+          - kubo: "QUIET'S GOOD. QUIET MEANS NOBODY'S CRASHING."
+      - pos: top-left
+        shot: close-up
+        action: Dai looks away down the road, jaw set.
+        cast: [dai:station]
+        captions: ["UNLESS IT'S THURSDAY."]
+      - pos: bottom, large
+        shot: wide shot from behind
+        action: >-
+          Both men seen from behind at the edge of the canopy, the long empty
+          harbor road stretching into the dark. Kubo (left) pats Dai (right)
+          on the shoulder and turns toward the office.
+        cast: [dai:station, kubo]
+        dialogue:
+          - kubo: {text: "DRINK UP. TRUCKS COME AT TWO.", at: "near Kubo, upper left"}
