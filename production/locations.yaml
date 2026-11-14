@@ -1,0 +1,129 @@
+# Location registry.
+#
+# plate:    clean, EMPTY reference plate (no people, no cars) in artwork/locations/.
+#           The builder attaches it whenever a page uses this location.
+# sources:  approved pages that show the place. Used to generate the plate, and
+#           as a fallback reference while the plate does not exist yet (the
+#           builder then warns, because those pages contain people and cars).
+# guards:   lines added to every prompt that uses this location.
+#           The global car-leak guard ("no small roadster or sports car") is
+#           added automatically unless the page lists the Roadster.
+# default_time: used when a page does not set `time`.
+
+harbor-station-night:
+  name: harbor gas station at night
+  description: >-
+    Small, shabby 24-hour full-service gas station on the harbor road of a
+    1990s Japanese port city. A flat concrete canopy with stained, peeling
+    pillars and long fluorescent tube lights; two old analog fuel pumps on a
+    concrete island; a small office booth with big windows, wooden lower walls,
+    an air-conditioner box and posters; chain-link fence; warehouses and stacked
+    shipping containers along the dark road; a harbor crane far off; orange
+    sodium street lamps receding down the road.
+  plate: artwork/locations/harbor-station-night.png
+  sources:
+    - artwork/pages/chapter-001/page-20.png
+    - artwork/pages/chapter-002/page-14.png
+  default_time: night
+
+harbor-station-day:
+  name: harbor gas station by day
+  description: >-
+    The same small, shabby full-service gas station on the harbor road in
+    daylight: flat concrete canopy on stained pillars, two old analog pumps on a
+    concrete island, the small office booth with big windows, oil drums, cracked
+    concrete forecourt with weeds; harbor cranes, water and container stacks
+    behind a chain-link fence; summer clouds.
+  plate: artwork/locations/harbor-station-day.png
+  sources:
+    - artwork/pages/chapter-002/page-06.png
+    - artwork/pages/chapter-002/page-07.png
+  default_time: day
+
+harbor-road-night:
+  name: harbor road at night
+  description: >-
+    A wide, empty two-lane road through the harbor district at night: warehouse
+    walls and stacked shipping containers on one side, chain-link fence and the
+    dark water with cranes on the other, sparse orange sodium street lamps,
+    painted lane lines, puddles reflecting the lights.
+  plate: artwork/locations/harbor-road-night.png
+  sources:
+    - artwork/pages/chapter-002/page-14.png
+    - artwork/pages/chapter-002/page-17.png
+  default_time: night
+
+harbor-road-day:
+  name: harbor road by day
+  description: >-
+    The harbor road in daylight: trucks, forklifts, warehouse walls, container
+    stacks, cranes and gulls, chain-link fence along the water.
+  sources:
+    - artwork/pages/chapter-002/page-06.png
+  default_time: day
+
+bypass-overpass-night:
+  name: pedestrian overpass over the Shiomi Bypass at night
+  description: >-
+    A concrete pedestrian overpass with a tall steel safety railing crossing a
+    FOUR-lane bypass (two lanes each way, concrete median barrier) right at a
+    long sweeping left-hand curve. Orange sodium street lamps on tall poles
+    along the road, factory chimneys and industrial buildings on the horizon,
+    dark sky. Seen from the overpass walkway looking down the curve.
+  plate: artwork/locations/bypass-overpass-night.png
+  sources:
+    - artwork/pages/chapter-001/page-06.png
+  guards:
+    - The road under the overpass has FOUR lanes (two each way) with a median barrier.
+    - Anyone on the overpass stays safely on the walkway behind the tall railing.
+  default_time: night
+
+hayama-apartment:
+  name: Hayama apartment (kitchen and tatami room)
+  description: >-
+    A cramped, worn 2DK apartment in an aging 1970s concrete danchi block:
+    tiny kitchen with an old sink, gas burner and a low table with cushions;
+    sliding fusuma doors open onto a tatami room with a folded futon; old CRT
+    television, rotary electric fan, laundry hanging indoors on a pole, wall
+    calendar, small cabinet with a lace doily; a steel front door with a
+    genkan step and a shoe cabinet.
+  plate: artwork/locations/hayama-apartment.png
+  sources:
+    - artwork/pages/chapter-001/page-02.png
+    - artwork/pages/chapter-002/page-04.png
+  default_time: evening
+
+danchi-walkway:
+  name: danchi outdoor walkway and stairs
+  description: >-
+    The open-air concrete corridor outside the Hayama apartment on an upper
+    floor of an old danchi block: a row of steel apartment doors with small
+    windows and meter boxes on one side, a waist-high concrete parapet with a
+    metal rail on the other, a fluorescent ceiling light, an outdoor concrete
+    staircase going down at the end; neighbouring danchi blocks, power lines
+    and utility poles beyond.
+  plate: artwork/locations/danchi-walkway.png
+  sources:
+    - artwork/pages/chapter-002/page-29.png
+  default_time: dawn
+
+danchi-exterior:
+  name: danchi block from outside
+  description: >-
+    An aging five-storey concrete danchi housing block, balconies with laundry
+    and futons hung out, power lines and a utility pole in front, a narrow
+    street with a drink vending machine.
+  sources:
+    - artwork/pages/chapter-002/page-01.png
+  default_time: morning
+
+classroom:
+  name: Shiomi Higashi High School classroom
+  description: >-
+    An old 1990s Japanese high-school classroom by day: rows of worn wooden
+    desks with steel frames, a big blackboard, a round wall clock above it,
+    tall open windows with a view of trees, fluorescent lights, a notice board.
+  plate: artwork/locations/classroom.png
+  sources:
+    - artwork/pages/chapter-001/page-14.png
+  default_time: day

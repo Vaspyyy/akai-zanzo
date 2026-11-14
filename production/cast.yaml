@@ -1,0 +1,152 @@
+# Cast registry: every character and car that can appear on a page.
+#
+# The prompt builder copies `traits` (and the chosen outfit) into the image
+# prompt for ONLY the characters a page lists, and attaches ONLY their sheets.
+# `tell` is the one-line "unmistakable" description used inside panels so the
+# model can tell people apart (age, hair, how clothes are worn). Keep it short.
+# Sheets must show ONE character each (see prompts/art-direction.md).
+#
+# Outfit fields: desc (what they wear), ref (sheet path), ref_note (what to
+# look at on that sheet). A page can also give a free-text outfit override.
+
+characters:
+  dai:
+    name: DAI
+    full_name: Daisuke "Dai" Hayama
+    traits: >-
+      17-year-old boy, 172 cm, lean and wiry, slight slouch, often hands in
+      pockets. Messy black hair, the fringe falls over his eyes, a bit long at
+      the back. Narrow, sharp, guarded eyes; thin face. A small scar through
+      the left eyebrow, hidden by the fringe (draw it only in big close-ups).
+    tell: "the YOUNG one, 17, messy black hair falling over his eyes"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: faded plain black T-shirt, worn straight-leg blue jeans, beat-up white canvas low-top sneakers
+        ref: artwork/character-sheets/dai.png
+      school:
+        desc: standard black gakuran school uniform with the collar open, worn carelessly
+        ref: artwork/character-sheets/dai.png
+        ref_note: the face and hair; the gakuran close-up is at the bottom right of the sheet
+      station:
+        desc: >-
+          gas-station uniform: grey work shirt worn OPEN and untucked over a
+          black T-shirt, sleeves rolled up, small white name tag; worn jeans;
+          white canvas sneakers; grey work cap (on his head or in his hand)
+        ref: artwork/character-sheets/dai-uniform.png
+
+  kubo:
+    name: KUBO
+    full_name: Kubo (night attendant, harbor gas station)
+    traits: >-
+      Man in his late 50s, thin, deeply lined weathered face, sunken cheeks,
+      tired half-closed eyes, short greying hair under a grey work cap.
+      Unhurried, a cigarette often tucked behind his ear.
+    tell: "the OLD man, late 50s, deeply lined face, grey cap, shirt buttoned up"
+    default_outfit: station
+    outfits:
+      station:
+        desc: grey work shirt BUTTONED UP and tucked in, name tag on the chest pocket, sleeves rolled, dark work trousers with a belt, work boots, grey work cap
+        ref: artwork/character-sheets/kubo.png
+
+  akane:
+    name: AKANE
+    full_name: Akane Natsume (driver of the red Roadster)
+    traits: >-
+      21-year-old woman, tall. Long straight black hair, center-parted with a
+      few loose strands framing her face, tied in a LOW ponytail. Calm,
+      unreadable, half-lidded eyes; small earring. Looks nothing like Dai.
+    tell: "the young WOMAN with long black hair in a low ponytail"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: dark bomber jacket over a white T-shirt, black jeans, black sneakers, black leather driving gloves with the knuckles cut open
+        ref: artwork/character-sheets/akane.png
+
+  michiko:
+    name: MICHIKO
+    full_name: Michiko Hayama (Dai's mother, 41)
+    traits: >-
+      Small, tired woman of 41 who looks older. Black hair with some grey in a
+      low loose bun, strands falling out. Fine lines around the eyes.
+    tell: "the tired MOTHER, 41, hair in a loose low bun"
+    default_outfit: factory
+    outfits:
+      factory:
+        desc: light-blue factory smock (drawn in light grey tone) with a name tag, loose trousers, sneakers
+        ref: artwork/character-sheets/michiko.png
+      home:
+        desc: worn cardigan over a plain top, loose trousers
+        ref: artwork/character-sheets/michiko.png
+
+  aya:
+    name: AYA
+    full_name: Aya Hayama (older sister, 20)
+    traits: >-
+      20-year-old woman, chin-length black bob, the same sharp eyes as Dai,
+      blunt and dry expression.
+    tell: "the older SISTER, 20, chin-length black bob"
+    default_outfit: home
+    outfits:
+      home:
+        desc: grey tank top, long cardigan, shorts, barefoot indoors
+        ref: artwork/character-sheets/aya.png
+      work:
+        desc: supermarket cashier vest over a blouse, dark skirt or trousers
+        ref: artwork/character-sheets/aya.png
+
+  sota:
+    name: SOTA
+    full_name: Sota Hayama (younger brother, 11)
+    traits: >-
+      11-year-old boy, small and thin for his age, round glasses, bowl-cut
+      black hair. Often holds a blue asthma inhaler.
+    tell: "the little BROTHER, 11, round glasses, bowl cut"
+    default_outfit: home
+    outfits:
+      home:
+        desc: plain T-shirt, shorts, socks or sneakers
+        ref: artwork/character-sheets/sota.png
+
+  goto:
+    name: GOTO
+    full_name: Goto (street racer, mid-20s)
+    traits: >-
+      Man in his mid-20s, bleached short spiky hair, thin eyebrows, a
+      cigarette nearly always in his mouth, cocky expression.
+    tell: "the bleached spiky-haired racer with a cigarette"
+    default_outfit: tracksuit
+    outfits:
+      tracksuit:
+        desc: shiny dark tracksuit jacket with white side stripes open over a white tank top, matching track pants, gold chain, sneakers
+        ref: artwork/character-sheets/goto.png
+
+cars:
+  roadster:
+    name: the red Roadster
+    full_name: 1990 Mazda Eunos Roadster (NA, Japanese market), Akane's car
+    traits: >-
+      Small two-seat convertible, 1990 Mazda Eunos Roadster (NA). Black soft
+      top UP. Round pop-up headlights. Silver 14-inch 7-spoke alloy wheels.
+      Slightly lowered, otherwise stock: no wing, no body kit, no stickers.
+      White Japanese number plate, characters not legible. Immaculate paint
+      (drawn in mid-grey screentone, the page is black and white).
+    ref: artwork/car-sheets/red-roadster.png
+    rules:
+      - "RIGHT-HAND DRIVE (Japanese market): the steering wheel and the driver are on the car's RIGHT side."
+      - "In every side view where the driver's side is visible, the car's FRONT points to the LEFT edge of the panel, so we see its right (driver) side."
+      - "The fuel door is on the right rear quarter."
+    states:
+      headlights_up: pop-up headlights UP and lit
+      headlights_down: pop-up headlights DOWN (closed, flush with the hood)
+
+  silvia:
+    name: Goto's Silvia
+    full_name: Nissan Silvia S13, Goto's car
+    traits: >-
+      White Nissan Silvia S13 coupe, slightly dirty. FIXED slim headlights
+      (NOT pop-ups; it is not a 180SX). Big aftermarket rear wing, black
+      multi-spoke wheels, loud exhaust.
+    ref: artwork/car-sheets/silvia-s13.png
+    rules:
+      - "RIGHT-HAND DRIVE: the driver sits on the car's right side."
