@@ -1,6 +1,6 @@
 # AKAI ZANZŌ (赤い残像, "Red Afterimage"): Story Bible
 
-**Version:** 0.2 | **Status:** Pilot chapter in production
+**Version:** 0.3 | **Status:** Chapter 1 done (pilot approved by creator), Chapter 2 in production
 
 > Labels: **CANON** = confirmed by the creator. **PROVISIONAL** = chosen by Claude so the pilot could be made; the creator can replace it at any time, and it becomes canon only when the creator approves. **PROPOSAL** = discussion idea, not used yet. Agents must never quietly promote PROVISIONAL or PROPOSAL items to canon.
 
@@ -24,7 +24,7 @@ A character-driven, slice-of-life street-racing manga set in Japan during the go
 - Wants to prove that someone with his background can become exceptional, someone thousands admire.
 - Somewhat self-insert in spirit, but written as a coherent, flawed character who is sometimes wrong in ways the story does not excuse.
 
-**Name [PROVISIONAL]:** Daisuke "Dai" Hayama (葉山 大輔).
+**Name [CANON]:** Daisuke "Dai" Hayama (葉山 大輔).
 
 ## 3. Inciting incident [CANON]
 
@@ -36,7 +36,7 @@ At 17, on a night walk while drinking (**alcohol, replacing cannabis**; underage
 - The driver turns out to be a **woman**. He falls in love with her.
 - She becomes his **first ally in the scene**: she teaches him technique and which mods matter, and she believes in him.
 
-**PROVISIONAL details:** Name Akane Natsume (夏目 茜), 21. Because Dai is 17 at the start, nothing romantic happens between them until he is 18; at first she treats him as a kid with raw talent, and his feelings are a one-sided crush. The romance should be slow, earned, and complicated (her own past in the scene, the age gap, his immaturity), which keeps it from feeling like a cliché.
+**Name [CANON]:** Akane Natsume (夏目 茜). **PROVISIONAL details:** age 21. Because Dai is 17 at the start, nothing romantic happens between them until he is 18; at first she treats him as a kid with raw talent, and his feelings are a one-sided crush. The romance should be slow, earned, and complicated (her own past in the scene, the age gap, his immaturity), which keeps it from feeling like a cliché.
 
 **Undecided:** Whether the car he later owns is hers; exactly how he gets his first car.
 
@@ -70,7 +70,9 @@ His mother wants him to face reality, get a job, and build a stable life. Repres
 - Gritty, but celebrates the tactile appeal of cars and enthusiast culture.
 - Mid-1990s Japan is essential. No smartphones, internet culture, or anachronistic vehicles/tech.
 - **Format:** personal reading project. Black-and-white manga pages, **English lettering**, read **right-to-left** like scanlations on MangaDex.
-- Development starts with a **pilot chapter** to test story and art consistency.
+- Development starts with a **pilot chapter** to test story and art consistency (done; creator liked it).
+- **Pacing [CANON]:** slow. Chapters are **25-30 pages**; give scenes room to breathe (silent panels, everyday moments, build-up before payoffs).
+- **AI art policy [CANON]:** review strictly but smartly. Odd details that are just the limit of AI art are acceptable; story-breaking errors are not. If a shot is simply too hard for the image model, change or simplify the shot, but only as a last resort.
 
 ## 9. Two-book boundary [CANON]
 
@@ -81,11 +83,13 @@ His mother wants him to face reality, get a job, and build a stable life. Repres
 
 See `continuity/characters.md`, `continuity/cars.md`, `continuity/locations.md`.
 
-- **City:** Shiomi (潮見市), a fictional mid-sized Pacific-coast port and factory city (~400,000 people) with a harbor loop, a four-lane bypass, warehouse districts, and old danchi housing blocks.
+- **City [CANON]:** Shiomi (潮見市), a fictional mid-sized Pacific-coast port and factory city (~400,000 people) with a harbor loop, a four-lane bypass, warehouse districts, and old danchi housing blocks.
 - **Mother:** Michiko Hayama, 41, bento factory by day, supermarket shelves at night.
 - **Older sister:** Aya Hayama, 20, supermarket cashier, gives half her pay to the household.
 - **Younger brother:** Sota Hayama, 11, asthma (medicine is a recurring cost).
 - **Goto:** 20s street racer in a white Nissan Silvia S13; first person to tell Dai about the "Akai Zanzō."
+- **Kubo:** 50s night attendant at the harbor gas station. Hires Dai in Chapter 2. Has an ear for engines.
+- **Dai's job:** from Chapter 2, night-shift attendant at the harbor gas station (where Akane fills up every Thursday). He tells his mother he got a job, which is true, but not why.
 
 ## 11. Discussion ideas [PROPOSALS, NOT CANON]
 
