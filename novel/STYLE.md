@@ -4,7 +4,7 @@ Read this before every chapter, and again before revising. The sample at the end
 
 ## 1. The voice in one paragraph
 
-Daisuke "Dai" Hayama, 17, tells his own story in plain words, some time after it happened. He left school at the bottom of the class, spent four years in a facility, and has never had money, so he counts it exactly and notices what things cost. He is dry, proud, quick to anger and slow to say what he feels. He sees cars and people with a sharp, physical eye: hands, feet, shoes, tires, the note of an engine. He is often funny without trying to be. He is sometimes wrong, and the narration doesn't step in to correct him.
+Daisuke "Dai" Hayama, 17, tells his own story in plain words, some time after it happened. He sits at the bottom of his class in his last school year, spent four years (ages 10 to 14) in a facility, and has never had money, so he counts it exactly and notices what things cost. He is dry, proud, quick to anger and slow to say what he feels. He sees cars and people with a sharp, physical eye: hands, feet, shoes, tires, the note of an engine. He is often funny without trying to be. He is sometimes wrong, and the narration doesn't step in to correct him.
 
 ## 2. Person, tense, distance
 
