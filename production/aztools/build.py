@@ -170,8 +170,8 @@ class Builder:
 
         for r in page.refs:
             add(r["path"], r.get("use") or "extra reference")
-        if len(refs) > 6:
-            warnings.append(f"{len(refs)} reference images: more than 6 can dilute each one")
+        if len(refs) > 5:
+            warnings.append(f"{len(refs)} reference images: image_gen accepts at most 5 (the job fails)")
         return refs, index
 
     # -------------------------------------------------------------- panels

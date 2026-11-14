@@ -1,0 +1,687 @@
+# Chapter 3: "Passenger Seat", from scripts/chapter-003.md.
+# First chapter with our own lettering pass (empty balloons + production/az letter).
+# Car rules for this chapter:
+#   - Inside the car Akane (driver) is on the car's RIGHT, Dai (passenger) on the LEFT.
+#     Interior shots are framed from inside/behind looking forward, so Akane is also on
+#     the RIGHT of the panel.
+#   - Exterior side views show the driver's side: FRONT points LEFT; the car always
+#     travels toward the left of the panel (forward in right-to-left reading).
+#   - Thursday night is DRY and CLEAR (chapter 2 refs show rain: do not copy it).
+chapter: 3
+title: Passenger Seat
+lettering: empty
+defaults:
+  orientation: portrait
+
+pages:
+  # ------------------------------------------------------------ a quiet week
+  - page: 1
+    title: A week
+    location: harbor-station-day
+    time: early morning just after sunrise, the end of the night shift
+    panels:
+      - pos: top, wide
+        action: The small harbor gas station in early morning light, quiet and empty, gulls over the water, long soft shadows.
+        captions: ["A WEEK LATER."]
+      - pos: middle, wide
+        action: >-
+          Inside the small office booth: Kubo, sitting at his cluttered desk,
+          holds out a thin paper pay envelope to Dai, who stands in front of the
+          desk in his station uniform, cap in hand. Kubo talks; Dai is silent.
+        cast: [kubo, dai:station]
+        dialogue:
+          - kubo: "FIRST PAY. DON'T SPEND IT ALL ON GAS."
+      - pos: bottom-right
+        action: Dai holding the envelope in both hands, deadpan, a bit embarrassed.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...I DON'T HAVE A CAR."
+      - pos: bottom-left
+        shot: close-up
+        action: Kubo, close-up, a sly little smirk, lighting a cigarette.
+        cast: [kubo]
+        dialogue:
+          - kubo: "YET."
+
+  - page: 2
+    title: The envelope
+    location: harbor-station-day
+    time: early morning
+    continue_from: 1
+    panels:
+      - pos: top-right
+        action: Dai alone behind the office booth, opening the thin envelope; a few yen bills inside. A small panel.
+        cast: [dai:station]
+      - pos: top-left
+        shot: close-up
+        action: Dai counting the bills, lips moving silently.
+        cast: [dai:station]
+        captions: ["TWO WEEKS OF NIGHTS."]
+      - pos: bottom, wide
+        location: harbor-road-day
+        action: >-
+          Dai walking home alone along the empty harbor road at dawn, cranes and
+          container stacks behind him, one hand in his pocket resting on the
+          envelope. Seen from the side at a distance; pale dawn sky.
+        cast: [dai:station]
+        notes: ["No vehicles on the road."]
+
+  - page: 3
+    title: Shoe cabinet
+    location: hayama-apartment
+    time: dawn, pale blue light, everyone asleep
+    refs:
+      - {path: artwork/pages/chapter-002/page-04.png, use: "the same genkan and shoe cabinet (where the 500-yen coin was left); copy ONLY the entrance, not the people or text"}
+    panels:
+      - pos: top, wide
+        action: The apartment's small genkan at dawn. Dai, just in through the steel door, quietly takes off his sneakers so as not to wake anyone.
+        cast: [dai:station]
+      - pos: middle
+        shot: close-up
+        action: Close-up of Dai's hand placing half of the yen bills, neatly folded, on top of the shoe cabinet.
+        cast: [{id: dai, outfit: station, note: "only his hand and grey work-shirt sleeve"}]
+      - pos: bottom
+        action: >-
+          The tatami room: Dai face-down on his futon, still in his grey work
+          shirt and jeans, out cold, one arm hanging off the futon.
+        cast: [dai:station]
+
+  - page: 4
+    title: Mom
+    location: hayama-apartment
+    time: early morning
+    continue_from: 3
+    refs:
+      - {path: artwork/pages/chapter-002/page-29.png, use: "Michiko's face and smock as approved; copy ONLY her look"}
+    panels:
+      - pos: top-right
+        action: Michiko in her factory smock, about to leave for work, stops at the shoe cabinet and sees the folded bills.
+        cast: [michiko]
+      - pos: top-left
+        shot: close-up
+        action: "Close on Michiko's tired face: quiet surprise."
+        cast: [michiko]
+      - pos: middle, wide
+        action: Aya leaning in the kitchen doorway, toothbrush in her mouth, arms folded, dry expression.
+        cast: [aya]
+        dialogue:
+          - aya: "HE'S BEEN GOING OUT EVERY NIGHT. I THOUGHT HE WAS IN TROUBLE."
+      - pos: bottom
+        action: Michiko, holding the bills, looking toward the tatami room with soft, tired eyes.
+        cast: [michiko]
+        dialogue:
+          - michiko: "...SO DID I."
+
+  - page: 5
+    title: Blanket
+    location: hayama-apartment
+    time: early morning, soft window light
+    continue_from: 4
+    panels:
+      - pos: top, wide
+        action: >-
+          The tatami room. Michiko, in her smock, kneels beside Dai, who sleeps
+          on his futon in his grey work shirt, and gently pulls a thin blanket
+          over him. Silent panel.
+        cast: [michiko, dai:station]
+      - pos: bottom
+        shot: close-up
+        action: >-
+          Close on Michiko's hand smoothing the blanket over Dai's shoulder; in
+          the background, Sota lies on his own futon, peeking over his covers
+          with his round glasses on, smiling. Silent panel.
+        cast: [{id: michiko, note: "only her hand"}, {id: dai, outfit: station, note: "only his sleeping shoulder and hair"}, sota]
+
+  # ------------------------------------------------------------ Thursday night
+  - page: 6
+    title: Thursday again
+    location: harbor-station-night
+    time: night, about 11 PM
+    weather: dry, clear sky full of stars
+    panels:
+      - pos: top, wide
+        action: The gas station at night under a clear starry sky over the harbor, canopy lights on, dry concrete.
+        captions: ["THURSDAY."]
+      - pos: middle-right
+        action: Dai polishing a fuel pump with a rag, much too hard, jaw set.
+        cast: [dai:station]
+        dialogue:
+          - {speaker: kubo, text: "YOU'LL RUB THE NUMBERS OFF.", offpanel: true}
+      - pos: middle-left
+        action: Dai glancing back over his shoulder, caught.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...IT WAS DIRTY."
+      - pos: bottom
+        action: Kubo in the office doorway sipping a can of coffee, a knowing look.
+        cast: [kubo]
+        dialogue:
+          - kubo: "UH-HUH."
+
+  - page: 7
+    title: Engine
+    edit:
+      change: >-
+        Remove the empty speech balloon in the top-right panel and the empty speech
+        balloon and empty caption box in the bottom panel: this page has NO balloons and
+        NO captions, only the "...WAAAN" sound effect. Paint the art behind them instead.
+        Make the ground DRY everywhere (no puddles or wet reflections; it has not rained).
+      keep: "the layout, Dai's face and pose, the Roadster and its headlights, and the ...WAAAN sound effect"
+    location: harbor-station-night
+    weather: dry, clear night
+    continue_from: 6
+    driver_hidden: true
+    panels:
+      - pos: top-right
+        shot: close-up
+        action: Close on Dai's face; his head snaps up at a distant sound.
+        cast: [dai:station]
+        sfx: ["...WAAAN"]
+      - pos: top-left
+        action: Far down the dry, dark harbor road, two round pop-up headlights approaching.
+        cast: [{id: roadster, state: headlights_up, note: "far away, only its headlights visible"}]
+      - pos: bottom, large
+        action: >-
+          The red Roadster glides in under the canopy, headlights up, canopy
+          lights gleaming on its glossy paint, dry night. Side view: its FRONT
+          points to the LEFT edge of the panel. Dai in the foreground standing
+          up straight, cap on.
+        cast: [{id: roadster, state: headlights_up, facing: left}, dai:station]
+
+  - page: 8
+    title: Hayama
+    location: harbor-station-night
+    weather: dry, clear night
+    continue_from: 7
+    panels:
+      - pos: top-right
+        action: The Roadster's driver's window (car's right side) rolled down; Akane at the wheel, calm, looking out at Dai.
+        cast: [akane, {id: roadster, state: headlights_down, note: "only the door and window frame"}]
+        dialogue:
+          - akane: "HAYAMA."
+      - pos: top-left
+        action: Dai, startled that she remembered his name, eyes wide.
+        cast: [dai:station]
+        dialogue:
+          - dai: "Y-YOU REMEMBERED."
+      - pos: bottom
+        action: Akane through the window, flat expression, one gloved hand on the wheel.
+        cast: [akane]
+        dialogue:
+          - akane: "REGULAR. FILL IT UP. AND STOP STARING AT MY CAR LIKE IT OWES YOU MONEY."
+
+  - page: 9
+    title: Hands
+    location: harbor-station-night
+    weather: dry, clear night
+    continue_from: 8
+    panels:
+      - pos: top, wide
+        action: >-
+          Side view of the Roadster at the pump, FRONT pointing to the LEFT edge
+          of the panel, so its right (driver) side faces us. Dai fuels it at the
+          fuel door on the right rear fender (the right part of the panel), nozzle in.
+        cast: [dai:station, {id: roadster, state: headlights_down, facing: left}]
+        sfx: ["GOBOBOBO"]
+      - pos: middle
+        shot: close-up
+        action: Close-up of Dai's hand on the fuel nozzle, trembling slightly.
+        cast: [{id: dai, outfit: station, note: "only his hand and sleeve"}]
+      - pos: bottom
+        shot: close-up
+        action: The Roadster's right-side door mirror; reflected in it, Akane's calm eyes watching Dai.
+        cast: [akane, {id: roadster, note: "only the right door mirror"}]
+
+  - page: 10
+    title: One lap
+    location: harbor-station-night
+    weather: dry, clear night
+    continue_from: 9
+    panels:
+      - pos: top-right
+        action: Akane at the open driver's window, looking at Dai, casual.
+        cast: [akane]
+        dialogue:
+          - akane: "WHEN'S YOUR BREAK?"
+      - pos: top-left
+        action: Dai, nozzle in hand, blank.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...EH?"
+      - pos: bottom, wide
+        action: Kubo in the office doorway, reading his newspaper, waving a hand without looking up.
+        cast: [kubo]
+        dialogue:
+          - kubo: "TAKE IT NOW. YOU'RE USELESS TONIGHT ANYWAY."
+
+  - page: 11
+    title: Get in
+    location: harbor-station-night
+    weather: dry, clear night
+    continue_from: 10
+    panels:
+      - pos: top, wide
+        action: >-
+          Seen through the open driver's window (camera on the car's right side,
+          same side as before): Akane leans across the cabin and pushes the
+          passenger door open on the far (left) side.
+        cast: [akane, {id: roadster, note: "door, window frame and cabin"}]
+        dialogue:
+          - akane: "GET IN."
+      - pos: middle
+        shot: extreme close-up
+        action: Close on Akane's eyes, cold and serious.
+        cast: [akane]
+        dialogue:
+          - akane: "ONE LAP. THEN YOU'LL UNDERSTAND WHY YOU SHOULD STAY OFF THAT ROAD."
+      - pos: bottom
+        action: Dai, his work cap crushed in his fist, swallowing hard.
+        cast: [dai:station]
+
+  # ------------------------------------------------------------ the ride
+  - page: 12
+    title: Cockpit
+    location: roadster-interior-night
+    refs:
+      - {path: artwork/pages/chapter-002/page-25.png, use: "Akane's face as approved in chapter 2 (ignore the rain)"}
+    notes:
+      - "Inside the car: Akane drives on the car's RIGHT (steering wheel and gauges on the right); Dai rides on the LEFT (passenger seat). Seen from inside looking forward, Akane is on the RIGHT of the panel and Dai on the LEFT."
+      - "The car is still parked under the gas station canopy (fluorescent light through the windshield)."
+    panels:
+      - pos: top, wide
+        action: >-
+          Inside the tiny dark cockpit, seen from behind the seats looking
+          forward: Dai folds himself into the LEFT passenger seat, knees high,
+          cramped; Akane sits on the RIGHT behind the steering wheel.
+        cast: [dai:station, akane, {id: roadster, note: "interior only"}]
+      - pos: middle-right
+        shot: close-up
+        action: Close-up of Akane's gloved hand clicking Dai's seatbelt into the buckle for him.
+        cast: [{id: akane, note: "only her gloved hand"}]
+        sfx: ["KACHI"]
+      - pos: middle-left
+        shot: close-up
+        action: Dai frozen stiff in the passenger seat, eyes sideways, very aware of how close she is.
+        cast: [dai:station]
+      - pos: bottom
+        shot: close-up
+        action: The round analog gauges behind the steering wheel glowing; Akane's gloved hands on the wheel at the edge.
+        cast: [{id: akane, note: "only her gloved hands"}]
+        dialogue:
+          - {speaker: akane, text: "HOLD ON TO SOMETHING.", offpanel: true}
+
+  - page: 13
+    title: Launch
+    location: roadster-interior-night
+    continue_from: 12
+    notes: ["Inside the car Akane drives on the RIGHT, Dai is the passenger on the LEFT."]
+    panels:
+      - pos: top-right
+        shot: close-up
+        action: Close-up of Akane's gloved hand on the short gear lever with its round knob, snapping it into first gear.
+        cast: [{id: akane, note: "only her gloved hand"}]
+        sfx: ["KOTSU"]
+      - pos: top-left
+        shot: close-up
+        action: "Close-up in the dark footwell: her black sneaker pressing the gas pedal (the right-most pedal)."
+        cast: [{id: akane, note: "only her foot"}]
+      - pos: bottom, large
+        location: harbor-station-night
+        action: >-
+          Outside: the Roadster launching out of the gas station toward the LEFT
+          of the panel, rear squatting, headlights up, seen in a rear
+          three-quarter view from its right side. Kubo a tiny figure under the
+          canopy behind it.
+        cast: [{id: roadster, state: headlights_up}]
+        notes: ["The old attendant is only a tiny anonymous figure under the canopy far behind the car."]
+        sfx: ["WAAAAN"]
+
+  - page: 14
+    title: Harbor road
+    location: roadster-interior-night
+    continue_from: 13
+    notes: ["Inside the car Akane drives on the RIGHT, Dai is the passenger on the LEFT. Speed lines."]
+    panels:
+      - pos: top, wide
+        location: harbor-road-night
+        action: >-
+          Through the windshield from inside the car: the harbor road rushing at
+          them, warehouse lights streaking past; the steering wheel and Akane's
+          gloved hands at the RIGHT edge.
+        cast: [{id: akane, note: "only her gloved hands on the wheel"}, {id: roadster, note: "interior only"}]
+      - pos: middle
+        action: Dai pressed back into the left passenger seat, eyes huge, gripping the door handle on his left.
+        cast: [dai:station]
+      - pos: bottom
+        shot: close-up
+        action: The tachometer needle sweeping toward the red zone.
+        sfx: ["WAAAAAN"]
+
+  - page: 15
+    title: Shift
+    location: roadster-interior-night
+    continue_from: 14
+    notes: ["Inside the car Akane drives on the RIGHT, Dai is the passenger on the LEFT."]
+    panels:
+      - pos: top-right
+        shot: close-up
+        action: Close-up of her gloved hand snapping the gear lever into third.
+        cast: [{id: akane, note: "only her gloved hand"}]
+        sfx: ["KAK"]
+      - pos: top-left
+        shot: close-up
+        action: Close-up of Akane's face in profile, completely calm, eyes far ahead, streetlight bands sliding over her.
+        cast: [akane]
+      - pos: bottom, wide
+        location: harbor-road-night
+        action: >-
+          Outside, side view: the small red car flying under a line of orange
+          streetlights onto the bypass on-ramp, FRONT pointing to the LEFT edge
+          of the panel, speed lines.
+        cast: [{id: roadster, state: headlights_up, facing: left}]
+
+  - page: 16
+    title: The bypass
+    location: roadster-interior-night
+    continue_from: 15
+    notes: ["Inside the car Akane drives on the RIGHT, Dai is the passenger on the LEFT."]
+    panels:
+      - pos: top, wide
+        location: bypass-overpass-night
+        action: >-
+          Through the windshield from inside the car: the empty four-lane bypass
+          at night, a long left-hand curve ahead, and the concrete pedestrian
+          overpass crossing above it; the steering wheel at the RIGHT edge.
+        cast: [{id: roadster, note: "interior only"}]
+      - pos: bottom
+        shot: close-up
+        action: Dai in the passenger seat, recognizing the bridge ahead, eyes widening.
+        cast: [dai:station]
+        captions: ["THE BRIDGE."]
+
+  - page: 17
+    title: Feet
+    location: roadster-interior-night
+    continue_from: 16
+    notes: ["Inside the car Akane drives on the RIGHT, Dai is the passenger on the LEFT."]
+    panels:
+      - pos: top-right
+        shot: close-up from low
+        action: >-
+          Low close-up in the footwell: her right foot on the brake pedal, the
+          ball of the foot braking while the heel rolls sideways to blip the gas
+          pedal (heel-and-toe).
+        cast: [{id: akane, note: "only her right sneaker"}, {id: roadster, note: "interior only, we are inside the car"}]
+        sfx: ["BWAP"]
+      - pos: top-left
+        shot: close-up
+        action: Close-up of her gloved hand dropping the gear lever into second.
+        cast: [{id: akane, note: "only her gloved hand"}]
+      - pos: bottom, large
+        action: >-
+          Dai in the left passenger seat, seen from the driver's side: his eyes
+          dart DOWN toward her feet and hands, not at the road. Intense focus,
+          focus lines. Akane's shoulder at the right edge.
+        cast: [dai:station, {id: akane, note: "only her shoulder and arm at the right edge"}]
+
+  - page: 18
+    title: The curve
+    location: bypass-overpass-night
+    continue_from: 15
+    panels:
+      - pos: full-page splash
+        shot: low angle from outside
+        action: >-
+          From outside, low angle: the red Roadster diving into the long
+          left-hand curve right under the pedestrian overpass, perfectly
+          balanced, tires at the limit, headlights up and blazing, its right
+          (driver) side toward us and its FRONT pointing toward the LEFT edge of
+          the page. The empty overpass with its tall railing above. Speed lines.
+        cast: [{id: roadster, state: headlights_up, facing: left}]
+        sfx: ["KYAAAA"]
+        notes: ["Nobody stands on the overpass."]
+
+  - page: 19
+    title: From the inside
+    location: roadster-interior-night
+    continue_from: 17
+    notes: ["Inside the car Akane drives on the RIGHT, Dai is the passenger on the LEFT."]
+    panels:
+      - pos: top, wide
+        location: bypass-overpass-night
+        action: Through the side window from inside the car, the underside of the pedestrian overpass flashing past directly overhead, motion blur.
+        cast: [{id: roadster, note: "interior only"}]
+      - pos: middle
+        action: Dai in the left passenger seat looking up through his side window at the empty overpass walkway where he once stood.
+        cast: [dai:station]
+        captions: ["THAT NIGHT I WAS UP THERE."]
+      - pos: bottom
+        shot: close-up
+        action: Close on Dai looking forward again, a fierce new light in his eyes.
+        cast: [dai:station]
+        captions: ["NOW I'M DOWN HERE."]
+
+  - page: 20
+    title: Laughing
+    location: roadster-interior-night
+    continue_from: 19
+    notes: ["Inside the car Akane drives on the RIGHT, Dai is the passenger on the LEFT."]
+    panels:
+      - pos: top-right
+        shot: close-up
+        action: Akane at the wheel glancing sideways toward the passenger seat, expecting to see fear.
+        cast: [akane, {id: roadster, note: "interior only, we are inside the car"}]
+      - pos: top-left
+        shot: close-up
+        action: Dai grinning wide, wild, laughing.
+        cast: [dai:station]
+        sfx: [{text: "HA... HAHA...", style: small, note: "small letters"}]
+      - pos: bottom, wide
+        shot: extreme close-up
+        action: Akane's eyes widen slightly. Not what she expected.
+        cast: [akane]
+
+  # ------------------------------------------------------------ the pier
+  - page: 21
+    title: Stop
+    location: harbor-pier-lot-night
+    edit:
+      change: >-
+        In the BOTTOM panel only, redraw the parked Roadster in side view with its FRONT
+        pointing to the LEFT edge of the panel (we see its right, driver side), still parked
+        alone by the bollards under the lamp post, headlights down. In the MIDDLE panel the
+        pop-up headlights are half-way down, folding closed (not lit).
+      keep: "the top panel, the KA-CHAK and tik... tik... sound effects, the layout and the style"
+    panels:
+      - pos: top, wide
+        action: >-
+          The red Roadster rolling slowly onto the empty lot at the end of the
+          pier, seen from behind and above, its headlights shining out over the
+          black water.
+        cast: [{id: roadster, state: headlights_up}]
+      - pos: middle
+        shot: close-up
+        action: Front close-up of the parked Roadster, engine off, its pop-up headlights folding down.
+        cast: [{id: roadster, state: headlights_down}]
+        sfx: ["KA-CHAK"]
+      - pos: bottom
+        action: Silence. The small car parked alone at the edge of the pier under the single lamp post, the engine ticking as it cools.
+        cast: [{id: roadster, state: headlights_down}]
+        sfx: [{text: "tik... tik...", style: small, note: "small letters"}]
+
+  - page: 22
+    title: Supposed to
+    location: roadster-interior-night
+    refs:
+      - {path: artwork/pages/chapter-002/page-25.png, use: "Akane's face as approved in chapter 2 (ignore the rain)"}
+    notes:
+      - "The car is PARKED at the end of the pier, engine off: through the windshield only the black sea and distant city lights, no road."
+      - "Inside the car Akane sits on the RIGHT behind the wheel, Dai on the LEFT passenger seat."
+    panels:
+      - pos: top-right
+        action: Akane, both gloved hands still on the wheel, looking straight ahead at the water.
+        cast: [akane, {id: roadster, note: "interior only, we are inside the car"}]
+        dialogue:
+          - akane: "YOU WERE SUPPOSED TO BE SCARED."
+      - pos: top-left
+        action: Dai in the passenger seat, breathing hard, still grinning, sweat on his face.
+        cast: [dai:station]
+        dialogue:
+          - dai: "I WAS."
+      - pos: bottom
+        shot: close-up
+        action: Dai, the grin fading into sharp focus, serious eyes.
+        cast: [dai:station]
+        dialogue:
+          - dai: "BUT I WAS WATCHING YOUR FEET."
+
+  - page: 23
+    title: Eyes
+    location: roadster-interior-night
+    continue_from: 22
+    notes:
+      - "The car is PARKED at the end of the pier, engine off: the sea and city lights through the windshield."
+      - "Inside the car Akane sits on the RIGHT behind the wheel, Dai on the LEFT passenger seat."
+    panels:
+      - pos: top, wide
+        action: >-
+          Dai in the left passenger seat, hands moving as he explains, miming a
+          foot on the pedals with one hand; Akane silent behind the wheel on the
+          right.
+        cast: [dai:station, akane, {id: roadster, note: "interior only, we are inside the car"}]
+        dialogue:
+          - dai: "BEFORE THE BRIDGE YOU BRAKED, AND YOUR HEEL HIT THE GAS AT THE SAME TIME. EVERY DOWNSHIFT."
+      - pos: middle
+        action: Akane turns her head to look at him, really look.
+        cast: [akane]
+      - pos: bottom
+        shot: close-up
+        action: Close on Akane, quietly stunned.
+        cast: [akane]
+        dialogue:
+          - akane: "...NOBODY SEES THAT FROM THE PASSENGER SEAT."
+
+  - page: 24
+    title: Why
+    location: roadster-interior-night
+    continue_from: 23
+    notes:
+      - "The car is PARKED at the end of the pier, engine off: the sea and city lights through the windshield."
+      - "Inside the car Akane sits on the RIGHT behind the wheel, Dai on the LEFT passenger seat."
+    panels:
+      - pos: top-right
+        action: Akane, turned toward Dai, serious.
+        cast: [akane, {id: roadster, note: "interior only, we are inside the car"}]
+        dialogue:
+          - akane: "WHY DO YOU WANT THIS SO BADLY?"
+      - pos: top-left
+        action: Dai looking out of his side window at the black water.
+        cast: [dai:station]
+      - pos: bottom, wide
+        action: Dai, quiet, eyes lowered, small and honest.
+        cast: [dai:station]
+        dialogue:
+          - dai: "NOBODY'S EVER LOOKED AT ME AND THOUGHT... 'WOW.'"
+
+  - page: 25
+    title: Silence
+    location: harbor-pier-lot-night
+    continue_from: 24
+    panels:
+      - pos: top, wide
+        action: >-
+          Long silent panel, seen from behind the parked car: the small red
+          Roadster at the edge of the pier, the silhouettes of two heads through
+          the rear window (the driver Akane on the RIGHT, Dai on the LEFT), the
+          city lights glittering across the bay. No text.
+        cast: [{id: roadster, state: headlights_down}, {id: akane, hidden: true, note: "silhouette of her head, right seat"}, {id: dai, outfit: station, hidden: true, note: "silhouette of his head, left seat"}]
+      - pos: bottom
+        location: roadster-interior-night
+        action: Inside the car, Akane on the right turns the key to start the engine, eyes ahead.
+        cast: [akane]
+        dialogue:
+          - akane: "...YOUR BREAK'S OVER."
+        notes: ["Akane sits on the RIGHT behind the wheel."]
+
+  # ------------------------------------------------------------ back
+  - page: 26
+    title: Good eyes
+    location: harbor-station-night
+    weather: dry, clear night
+    continue_from: 11
+    panels:
+      - pos: top, wide
+        action: >-
+          The Roadster back under the gas station canopy, seen from the front
+          (the car faces us, headlights down). Dai climbs out of the passenger
+          door, which is on the car's LEFT, so on the RIGHT side of the panel
+          because the car faces us; his legs are shaky. The steering wheel and
+          Akane are on the other side (left of the panel).
+        cast: [{id: roadster, state: headlights_down}, dai:station, {id: akane, note: "small, behind the windshield"}]
+      - pos: middle-right
+        action: Kubo by the pump, one eyebrow raised.
+        cast: [kubo]
+      - pos: middle-left
+        action: Akane through the open driver's window, speaking to Kubo, deadpan.
+        cast: [akane]
+        dialogue:
+          - akane: "HE'S GOT NO SENSE."
+      - pos: bottom
+        action: >-
+          Akane with half a smile through the driver's window as the Roadster
+          pulls away, side view with its FRONT pointing to the LEFT edge of the panel.
+        cast: [akane, {id: roadster, state: headlights_up, facing: left}]
+        dialogue:
+          - akane: "BUT HE'S GOT GOOD EYES."
+
+  - page: 27
+    title: The visor
+    location: roadster-interior-night
+    refs:
+      - {path: artwork/pages/chapter-002/page-25.png, use: "Akane's face as approved in chapter 2 (ignore the rain)"}
+    notes: ["Akane drives alone: the LEFT passenger seat is EMPTY. She sits on the RIGHT behind the wheel."]
+    panels:
+      - pos: top, wide
+        location: harbor-road-night
+        action: Akane alone at the wheel on the dark harbor road, seen from the empty passenger seat, her face lit in bands by the passing orange lamps.
+        cast: [akane, {id: roadster, note: "interior only"}]
+      - pos: middle
+        shot: close-up
+        action: >-
+          Her gloved hand flips down the sun visor above the steering wheel: a
+          small, old, creased photo is tucked in it, showing a younger Akane
+          laughing beside a young man next to a car. The young man's face is
+          blurred and out of focus, unrecognizable.
+        cast: [{id: akane, note: "only her gloved hand; the photo shows her younger self, smaller"}]
+      - pos: bottom
+        shot: extreme close-up
+        action: Akane's eyes, unreadable; her hand flips the visor back up. No text.
+        cast: [akane]
+
+  - page: 28
+    title: Practicing
+    location: hayama-apartment
+    time: dawn, first light
+    continue_from: 5
+    panels:
+      - pos: top, wide
+        action: >-
+          Dawn in the tatami room. Dai sits cross-legged on his futon, still in
+          his grey work shirt, eyes closed, his right hand moving an invisible
+          gear lever, his right foot rolling as if doing an invisible heel-toe.
+        cast: [dai:station]
+      - pos: middle-right
+        action: Sota, half asleep, sitting up on his futon, rubbing his eyes, glasses askew.
+        cast: [sota]
+        dialogue:
+          - sota: "NII-CHAN... WHAT ARE YOU DOING?"
+      - pos: middle-left
+        shot: close-up
+        action: Dai, eyes still closed, calm.
+        cast: [dai:station]
+        dialogue:
+          - dai: "...PRACTICING."
+      - pos: bottom, large
+        action: Morning light falling across the room; Dai's hand still on the invisible shifter, a small smile on his face.
+        cast: [dai:station]
+        captions: [{text: "CHAPTER 3: PASSENGER SEAT. END.", style: small, at: "in the bottom corner"}]

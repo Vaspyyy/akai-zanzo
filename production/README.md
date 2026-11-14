@@ -93,7 +93,7 @@ Plates (`plates.yaml`) use `id:` instead of `page:`, `kind: plate`, a `location`
 - Roadster on the page: right-hand-drive rules and "front points LEFT in side views". Not on the page: "NO small roadster or sports car anywhere".
 - `driver_hidden`, `continue_from` (same camera side), location guards, the 1995 rule, English-only / no watermark.
 - A self-check list the codex agent must go through before saving (faces, speakers, car side, empty balloons); it may redraw once (`--attempts`).
-- Warnings: missing plate (falls back to a source page that contains people/cars), more than 6 refs, missing files.
+- Warnings: missing plate (falls back to a source page that contains people/cars), more than 5 refs (image_gen rejects the call), missing files.
 - `lint` warns about panels with two on-panel speakers (speaker-swap risk).
 
 ## Runner
