@@ -1,84 +1,94 @@
 # Ledger: the running fact notebook
 
-**State after:** Volume 1, Chapter 1 ("Practicing"). **Next update:** after Volume 1, Chapter 2.
+**State after:** Volume 1, Chapter 2 ("Second Term"). **Next update:** after Volume 1, Chapter 3.
 
 **How to use:** read before writing. After each chapter, overwrite the state below (don't append history; history lives in `summaries/`). (P) = PROVISIONAL, pending the creator's approval of `OUTLINE.md`.
 
 ## Now
 
-- **Date:** Friday 1 September 1995, about 6:45 a.m., the dawn after the empty Thursday. Dai has just lain down with the alarm set for 7:50; second term starts at 8:30 today. (P: exact dates.)
-- **How we got here (P):** sighting on the bypass at 2:14 a.m. Tue 1 Aug → eleven nights of searching → red Roadster at the harbor station Thu 10 Aug → hired Fri 11 Aug → Akane revealed Thu 17 Aug ("I got a job" at dawn Fri 18) → first pay Wed 23 Aug → the lap, about 2 a.m. Fri 25 Aug → last day of summer remedial classes Fri 25 Aug → Thu 31 Aug: she didn't come.
-- **School:** final (3rd) year at Shiomi Higashi High. Passed the English re-test on Fri 25 Aug (44 points; 40 is a pass). Second term starts today, Fri 1 Sep. Factory job-placement exams start mid-September. Homeroom teacher **Hotta-sensei** also teaches English (P); his last words to Dai: "Hayama. Come awake."
-- **Season:** late summer, very hot, cicadas, typhoon season. Sota's summer vacation ended 31 Aug.
+- **Date:** **Friday 8 September 1995, about 2:15 a.m.**, at the harbor station, just after Akane drove off. The Thursday shift (Thu 7 Sep, 22:00) runs until 6:00 Friday morning; school follows at 8:30. (P: exact dates.)
+- **How we got here (P):** sighting on the bypass at 2:14 a.m. Tue 1 Aug → eleven nights of searching → red Roadster at the harbor station Thu 10 Aug → hired Fri 11 Aug → Akane revealed Thu 17 Aug → first pay Wed 23 Aug → the lap, about 2 a.m. Fri 25 Aug → Thu 31 Aug: she didn't come → Fri 1 Sep: second term, Sanko sheet, karaage → Tue 5 Sep: application handed in → Wed 6 Sep: payday, Sota's "feet" → **Fri 8 Sep, 2:05 a.m.: she came back.** "Get a license. Then we'll see."
+- **School:** final (3rd) year at Shiomi Higashi High, about 800 students (P). Homeroom and English teacher **Hotta-sensei** (P). Job-placement sheets handed out Fri 1 Sep; applications went in Tue 5 Sep; first exams from Sat 16 Sep (P).
+- **Season:** early September, heat back after a warm sideways rain on Tue 5 Sep (a typhoon passed Okinawa and turned away). Cicadas.
 
 ## Dai
 
-- 17. **Birthday 9 Feb 1996 (P)** → 161 days to 18. The canon "last three months" open on 9 Nov 1995 (69 days away).
+- 17. **Birthday 9 Feb 1996 (P)** → 154 days to 18 from Fri 8 Sep. The canon "last three months" open on 9 Nov 1995 (62 days away).
 - Has never driven. No license, no car. One ride in Akane's passenger seat (25 Aug).
-- Lean, scar through the left eyebrow. Badly short on sleep: two hours before the re-test, five before Friday's shift.
-- Practices shifting (left hand, RHD pattern) and heel-and-toe everywhere: on his futon, on the pump-island curb, under the dinner table (kicked Aya five times).
-- Now knows the full heel-and-toe sequence from a bookstore technique book (brake, clutch in, neutral, blip, lower gear, clutch up) and, from Kubo, why you blip (match engine speed, or the rear wheels skid and the back end steps out).
-- Right sneaker sole has come away at the toe; not replaced.
+- Lean, scar through the left eyebrow. Chronically short on sleep: an hour before the opening ceremony on 1 Sep; went straight from the Tue night shift and the pedal lesson to school on Wed 6 Sep without sleeping (slept through third period; Hotta let him).
+- Practices shifting and heel-and-toe on air, on the pump-island curb, and (with Sota) on phone-book pedals. Knows the full sequence (brake, clutch in, neutral, blip, lower gear, clutch up only after the lever is home).
+- **Right sneaker:** sole open at the toe; Kubo wound **silver tape** round it four times on Tue 5 Sep. Holding. No new shoes.
+- Now calls Nobu "Nobu" (first said it out loud at the shoe lockers, 1 Sep).
+
+## Exam and future
+
+- **Sanko Brake Industries, Shiomi plant (P):** production line (brake linings, for trucks and vans), 148,000 yen a month, paid on the 25th, bonus twice yearly, social insurance, dormitory for single men (not needed: 20 minutes by bus), 8:00-16:45 plus overtime, Sundays and two Saturdays a month off, start 1 Apr 1996. Takes four or five from Shiomi Higashi most years.
+- **Exam: Tuesday 19 Sep 1995**, written test in the morning, interview after lunch. Wear the school uniform; Mom will wash the shirt. Hotta: "if they ask, you answer short and you don't get angry." Kubo: come to work at ten that night as usual.
+- **The application:** Mom filled in the parent's boxes on Sat 2 Sep and stamped it with **the family hanko, kept in the drawer by the phone**. Dai gave it to Hotta before homeroom on Tue 5 Sep. (Plant for the forged consent form later; never point at it.)
+- **Fallback (P):** a cardboard factory's exam on 4 Oct.
+- Mom wrote SANKO in red felt pen on the rice-shop calendar by the phone, in the square for the 19th. The sheet lies flat on top of the refrigerator.
 
 ## Money and work
 
-- **Job:** night attendant at the harbor gas station under Kubo. 700 yen an hour flat, cash, no paperwork (P: off the books; a minor on fixed nights breaks labor law). **Nights (P): Tue, Thu, Fri, Sun, 22:00-06:00,** 8 paid hours = 5,600 yen a night. Paid every other Wednesday morning (next: 6 Sep, then 20 Sep, 4 Oct...). Akane comes on the Thursday shift, around 2 a.m. (missed 31 Aug).
-- **Next pay (Wed 6 Sep):** 44,800 yen for 8 nights (Thu 24, Fri 25, Sun 27, Tue 29, Thu 31 Aug; Fri 1, Sun 3, Tue 5 Sep). If he gives half: 22,400 home, 22,400 kept.
-- **Dai has exactly 18,677 yen:** 17,600 in an envelope inside his English dictionary at home, 1,077 in his pocket. (18,900 at chapter start, minus a 113-yen onigiri on 25 Aug and a 110-yen canned coffee on 31 Aug.)
-- **The receipt (in his pocket, folded in four):** 280,000 minus 18,787 = 261,213 yen to go; at 22,400 a payday that is 12 paydays, the twelfth on **Wed 7 Feb 1996, two days before he turns 18**. Underneath, crossed out until the pen went through: keeping his whole pay, 6 paydays, 15 Nov.
-- **Did not buy:** SPORTS DRIVING FROM THE BASICS, 1,800 yen (1,854 with tax). Mom told him canvas shoes cost 2,980 at the shoe shop by the station ("I looked").
-- **Household:** Mom spent his first 19,600 yen: pharmacy (Sota's medicine, up again) 4,820, Sota's second-term things 2,150, the rest (12,630) into the rent envelope. Mom: up at 4:30, bento factory 5:30 to 2:00, supermarket shelves about 8:00 p.m. to midnight (P: same supermarket where Aya works). Aya: supermarket cashier, gives half her pay. Danchi rent (P) about 30,000 a month. Dai's old convenience-store job (650 an hour) is gone.
-- **Reference prices (P):** driving school 280,000 yen (Nobu's cousin, Shiomi Driving School, spring 1995); used Roadster 700,000 and up; canned coffee 110; onigiri 110 + 3% tax; deli croquettes 80 each; regular gasoline about 110-120 a liter.
+- **Job:** night attendant at the harbor gas station under Kubo. 700 yen an hour flat, cash, no paperwork (P). **Nights (P): Tue, Thu, Fri, Sun, 22:00-06:00,** 5,600 yen a night. Paid every other Wednesday at 6 a.m. in a brown envelope with HAYAMA in pencil. Akane comes on the Thursday shift, around 2 a.m.
+- **Paid Wed 6 Sep:** 44,800 (eight nights in two weeks: Thu 24 Aug to Tue 5 Sep). 22,400 on the shoe cabinet (Mom put it all in the rent envelope that day), 22,400 kept.
+- **Next pay Wed 20 Sep:** 44,800 for Thu 7, Fri 8, Sun 10, Tue 12, Thu 14, Fri 15, Sun 17, Tue 19 Sep. Then 4 Oct, 18 Oct...
+- **Dai has exactly 41,077 yen:** **40,000** in the envelope inside his English dictionary, **1,077** in his pocket. Spent nothing this chapter (walked home instead of the 160-yen bus).
+- **The receipt (onigiri receipt, folded in four, soft as cloth):** new line 280,000 − 41,077 = **238,923** to go, written under the old 261,213 without crossing anything out. The 110-yen coffee of 31 Aug accounts for the gap (261,213 − 22,400 = 238,813). Still 11 more half-pay paydays, the last on **Wed 7 Feb 1996**.
+- **Household:** Mom: bento factory 5:30-2:00, supermarket about 8:00 p.m. to midnight. Bought chicken for karaage at full price, 812 yen, on Fri 1 Sep. Aya: supermarket cashier (name badge), gives half her pay. Rent (P) about 30,000 a month.
+- **Reference prices (P):** driving school 280,000; regular at Kubo's **115 yen/L from Thu 7 Sep** (was 116; the big bypass station went to 114 on Mon 4 Sep); bus fare 160; canned coffee 110; onigiri 110 + 3%; canvas shoes 2,980 by the station; SPORTS DRIVING FROM THE BASICS 1,800 (1,854).
+- **Akane's fill-up, Fri 8 Sep:** 31.2 L × 115 = 3,588 yen; paid with four 1,000-yen notes, change 412.
 
 ## Who knows what
 
-- **Mom:** Dai has a night job at the harbor station and gives her half his pay; she accounts to him for every yen. Doesn't know why he picked the job, about Akane, the ride, or the practicing. Noticed his open shoe.
-- **Aya:** noticed the kicking under the table; no suspicions.
-- **Sota:** caught Dai practicing at dawn on 25 Aug, guessed it's "for the red car" (Dai didn't deny it), learned the H pattern with his left hand. Dai promised "Feet are next week." Blurted "He's practicing!" at dinner and covered with "...Kicking." Doesn't know about Akane or the ride. Keeps Dai's secrets.
-- **Nobu (Nobuyuki Kawamata):** knows Dai draws heel-and-toe, says he saw the Akai Zanzō beat a white S13 from the bridge, and claims he rode in it; Nobu doesn't believe the ride and thinks Dai is "funny". Dai refused to say who drives it. Nobu asked if Dai was in reform school ("A place."). Dai still has Nobu's four-color pen.
-- **Hotta-sensei:** sees Dai sleepy; "Come awake."
-- **Kubo:** knows Dai is hooked on the red Roadster and its driver, and builds his week around Thursdays; explained rev-matching; joked "Thursdays. Like burnable garbage." then, on 31 Aug, "She's not a train" and "First Thursday she's missed since I started noticing." Knows Dai is 17 (P).
-- **Akane:** knows his name (Hayama Daisuke), that he can't drive and wants to badly, that he has "good eyes", and his line "nobody's ever looked at me and thought 'wow'". Knows nothing about his family.
-- **Dai about Akane:** knows only her family name, **Natsume**, her car, Thursdays around 2 a.m., cash, and "that road eats people". Does **not** know her first name, job, age or past, or why she missed 31 Aug. Has **not** seen the visor photo. Fears "one lap" meant one.
-- **Dai about Kubo:** noticed a white, shiny burn scar on the back of Kubo's left hand and knuckle creases black with old grease; asked if he can heel-and-toe ("I can pump gas."). Has drawn no conclusion.
-- **Dai about the overpass:** at dawn on 1 Sep saw, for the first time, a section of guardrail on the outside of the curve newer than the rest (bolts not rusted) and, at the foot of the overpass stairs, a dark scrape scrubbed pale a long time ago. "Somebody had hit that hard." Doesn't connect it to anyone.
+- **Mom:** night job, half his pay; Hotta phoned her on Wed 30 Aug about Sanko; she wants it badly (karaage, calendar, hanko). Knows from Aya that he taught Sota "to drive on the phone book" ("Only the feet." She nearly laughed). Doesn't know why he picked the job, about Akane, the ride, or the 280,000.
+- **Aya:** saw the phone-book pedals at dawn on 6 Sep ("Day five") and told Mom. Bet "one week, then he finds a reason." Offered to cut his hair for the interview for free if he's still in by next Friday (8 Sep). Knows nothing about Akane.
+- **Sota:** got "the feet" on Wed 6 Sep as promised: phone book = clutch, dictionary = brake, folded cushion = gas; heel-and-toe with the side of his foot. Now rolls his foot on the edge of every landing. Asked to sit in Dai's car first ("You'll be first"). Keeps Dai's secrets. His teacher called the cicada board "very honest" (P).
+- **Nobu (Nobuyuki Kawamata):** got his pen back 1 Sep; Dai called him "Nobu" for the first time. Knows about the Sanko sheet. No sheet himself: his father wants him in the ramen shop, Nobu wants to write for *Street Tune* in Tokyo; they haven't talked about it since spring. Still doesn't believe the ride ("Did you ride in it again?" "No." "See, that I believe.").
+- **Hotta-sensei:** has the application; knows Dai works nights; told Mom his grades are bad, his attendance good.
+- **Kubo:** knows about Sanko and the 19th ("You can say no to a job. You can't say no to a job nobody gave you." / "And then I need a new boy for nights."). Taped the shoe. Knows Akane came back on 7/8 Sep (Dai fetched her change from the office). Knows Dai is 17 (P). Has a bad knee (P).
+- **Akane:** knows his name, that he can't drive, his "good eyes", his "nobody's ever looked at me and thought wow". **Now also:** he's 17 and turns 18 in **February** (month only); he practices on air, on the pump island and on a phone book; he asked her to teach him and offered to pay; he wouldn't take his hand off her window until she said something that wasn't no. Her answer: **"Get a license. Then we'll see."** Knows nothing about his family.
+- **Dai about Akane:** family name Natsume, her car, Thursdays around 2 a.m., cash, "that road eats people". She missed 31 Aug because she "had a shift" (of what, he doesn't know and didn't ask). Does **not** know her first name, job, age or past. Has **not** seen the visor photo.
+- **Dai about Kubo:** burn scar on the back of the left hand, black knuckle creases, a bad knee. No conclusion.
+- **Dai about the overpass:** new guardrail and the old scrubbed scrape (seen 1 Sep). Connects it to no one.
 - **Goto:** met "the bridge kid" once (manga ch1). Doesn't know his name.
-- **Reader only:** the visor photo (younger Akane, laughing, with a young man whose face is out of focus, beside a car); Mom tucking the blanket over Dai; Aya's "I thought he was in trouble." / "...So did I."
+- **Reader only:** the visor photo; Mom tucking the blanket over Dai; Aya's "I thought he was in trouble." / "...So did I."; where the family hanko is kept.
 
 ## Cars
 
-- **Red Roadster (Akane):** 1990 Eunos Roadster NA6CE, Classic Red, right-hand drive, black soft top up, pop-up headlights, silver 14-inch 7-spoke wheels, slightly lowered, no added stickers or badges. Pristine. Regular fuel. (P: it was Sakuma's first car.) Not seen since 25 Aug.
-- **Goto's Silvia S13:** white, slightly dirty, big rear wing, black multi-spoke wheels, loud exhaust, fixed slim headlights. Fine.
-- **Seen at the station 31 Aug:** a silver 180SX, rusty rear arches (stranger).
+- **Red Roadster (Akane):** 1990 Eunos Roadster NA6CE, Classic Red, RHD, black soft top up, pop-up headlights (they follow the light switch, not the ignition), silver 14-inch 7-spoke wheels, slightly lowered, fuel filler on the right rear fender. Regular fuel. (P: it was Sakuma's first car.) Seen Fri 8 Sep, 2:05 a.m.: stops at the second island, nose out; left toward the bypass.
+- **Goto's Silvia S13:** white, big rear wing, black multi-spoke wheels. Fine.
+- **Shiomi Driving School (P):** on the canal walk home; small course with a hill, working fake traffic lights, a tower with a man on a microphone, four white sedans with dual-control brakes.
 - **Dai:** none.
 
 ## Health and injuries
 
-- **Sota:** asthma; blue reliever inhaler by his pillow; a morning wheeze he pretends isn't there; medicine price went up again (paid 4,820).
-- **Mom:** worn out, two jobs; hands red and split from the factory.
+- **Sota:** asthma; blue reliever inhaler; the little morning whistle; medicine price up again.
+- **Mom:** worn out, two jobs; hands red and split.
+- **Kubo:** bad knee (cracks when he crouches).
 - Nobody injured.
 
 ## Relationships
 
-- **Dai and Akane:** she meant to scare him and got curious instead; then missed a Thursday. His crush is one-sided and unspoken. She calls him "kid" and "Hayama"; he calls her "Natsume-san" (P).
-- **Dai and Mom:** thawing; she tells him where his money went; worries about his shoes.
-- **Dai and Aya:** prickly, but she brings home discounted croquettes for everyone.
-- **Dai and Sota:** close; secrets shared; a promise to teach "the feet".
-- **Dai and Nobu:** first conversation; Nobu said "Call me Nobu"; Dai doesn't call him anything yet (thinks of him as Kawamata).
-- **Dai and Kubo:** boss and kid; Kubo has started teaching him without saying so.
-- **Dai and Goto:** one meeting; Goto is bitter about the red car.
-- **Dai at school:** most classmates decided about him in first year; grabbed a bully's wrist (manga ch1).
+- **Dai and Akane:** she said "I don't teach", then, after his age and birthday month, "Get a license. Then we'll see." First time he kept his hand where she told him to take it off. She calls him "Hayama" and "kid"; he calls her "Natsume-san".
+- **Dai and Mom:** warmer; she's put her hope on Sanko and he agreed to sit the exam; she gave him the last karaage (he saved it and ate it later, cold: "It was the best one").
+- **Dai and Aya:** prickly; she's betting against him and offering a free haircut in the same breath.
+- **Dai and Sota:** promise kept; Sota is learning "the feet".
+- **Dai and Nobu:** first-name terms on Dai's side now. Nobu waited for him at the shoe lockers.
+- **Dai and Kubo:** Kubo looks after him without saying so (the tape, the advice).
+- **Dai and Hotta:** Hotta pushes plainly; "Come awake for the nineteenth."
+- **Dai at school:** classmate Okuda (P) sits next to him.
 
 ## Open threads and promises
 
-- Akane: "That road eats people. Stay off it." (ch2) / "You were supposed to be scared." / "He's got no sense. But he's got good eyes." (ch3) / "One lap." She didn't come on 31 Aug.
-- Kubo: "Don't spend it all on gas." / "I don't have a car." / "Yet." (ch3) Kubo's scar and black knuckles.
-- The new guardrail and the old scrubbed scrape under the overpass.
-- Why Thursdays? Why always cash, why silent?
-- The name: Akane, on "Akai Zanzō": "Is that what they call it now." (ch2)
-- 280,000 yen; the receipt says 7 Feb 1996.
-- Return Nobu's pen. Teach Sota "the feet". Buy shoes before the rain.
-- Mom's "face reality, get a job" (ch1): he has a job now, for the wrong reason.
-- Dai's want: for someone to look at him and think "wow."
-- Goto: "Some rich guy's toy. Forget it." Dai hasn't.
-- The visor photo: who is the man? (reader only)
+- Akane: "That road eats people. Stay off it." / "You were supposed to be scared." / "One lap." / "I had a shift." / **"Get a license. Then we'll see."**
+- Dai alone at the pump, out loud: "280,000 yen." Twice.
+- Sanko exam Tue 19 Sep; Aya's "one week" and haircut offer; Mom's red word on the calendar.
+- Kubo: "Yet." / "And then I need a new boy for nights." Kubo's scar, knuckles, knee.
+- The new guardrail and the old scrape.
+- Why Thursdays? Why cash, why silent? A shift of what?
+- Buy shoes before the real rain (tape is holding for now).
+- Sota: "When you get a car, can I sit in it?" "You'll be first."
+- Mom's hanko in the drawer by the phone (plant).
+- Goto: "Some rich guy's toy. Forget it."
+- The visor photo (reader only).

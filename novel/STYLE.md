@@ -110,6 +110,16 @@ Test: cover the speech tags. You should still know who's talking.
 - Don't summarize stretches of time in big blocks. Use a bridge line or a scene break.
 - Sentiment stays under the surface. Dai doesn't cry easily on the page, and the prose doesn't cry for him.
 
+**Lessons from reviews (Ch1-2).** Reviewers kept catching these:
+
+- "The way you..." similes: two or three per chapter at most, and few "as if".
+- Every character ending a beat on a deadpan punchline. Give the quip to one person per scene; let the others be plain, tired or kind.
+- Re-staging the previous chapter's beats (the same greeting, door, TV, arrival). One or two deliberate echoes, no more.
+- Long summary montages. A short bridge line with a time marker, then the next scene.
+- Stating the chapter's theme ("two futures") or recapping it before the big scene. Let the wait do the work.
+- Explaining a reaction after the dialogue already showed it ("He was pleased with me.").
+- Car-technical slips: heel-and-toe belongs to downshifts; the lever goes home before the clutch comes up; pop-up headlights follow the light switch, not the ignition.
+
 ## 12. Sample passage (Volume 1, Chapter 1: the empty Thursday)
 
 *About 850 words. Target voice, not final text.*
