@@ -271,6 +271,9 @@ class Builder:
             lines.append(f"  Sound effect, hand-drawn{note}: \"{s.text}\"")
         if not (pn.dialogue or pn.captions or pn.sfx):
             lines.append("  No text in this panel.")
+        elif empty and not pn.dialogue:
+            lines.append("  NO speech balloons in this panel (nobody speaks): only the caption box(es) listed"
+                         + (" and the sound effect." if pn.sfx else "."))
         return "\n".join(lines)
 
     # --------------------------------------------------------------- build

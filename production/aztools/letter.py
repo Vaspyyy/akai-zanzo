@@ -17,7 +17,7 @@ A spec line with `box: [x, y, w, h]` skips detection for that line.
 from __future__ import annotations
 
 import functools
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from pathlib import Path
 
 import cv2
@@ -468,6 +468,56 @@ def _paint_manual(img: Image.Image, items: list[tuple[Line, Region]], ss: int = 
         img.paste(patch, (x0, y0))
 
 
+def _grow(reg: Region, ln: Line, text_style: str, W: int, H: int, panels: list, target: int):
+    """A detected balloon/box too small for `target` px type: return (bigger manual Region, tail tip or None)
+    that covers the drawn shape and stays inside its panel, or None when growing doesn't help."""
+    px0, py0, px1, py1 = 22, 22, W - 22, H - 22  # page margin when no panel contains it
+    for (x, y, w, h) in panels:
+        if x <= reg.cx <= x + w and y <= reg.cy <= y + h:
+            px0, py0, px1, py1 = x + 8, y + 8, x + w - 8, y + h - 8
+            break
+    is_cap = reg.kind == "caption"
+    ys, xs = np.nonzero(reg.mask)
+    tip = None
+    if not is_cap and xs.size:
+        nx = (xs + reg.x - reg.cx) / (reg.w / 2)
+        ny = (ys + reg.y - reg.cy) / (reg.h / 2)
+        k = int(np.argmax(nx * nx + ny * ny))
+        tip = (int(xs[k] + reg.x), int(ys[k] + reg.y))
+    best = None
+    for s in (1.15, 1.3, 1.45, 1.6):
+        w, h = min(reg.w * s, px1 - px0), min(reg.h * (1 + (s - 1) * 0.7), py1 - py0)
+        # centred on the old shape, slid inward where the panel border is in the way
+        x0 = min(max(px0, reg.cx - w / 2), px1 - w)
+        y0 = min(max(py0, reg.cy - h / 2), py1 - h)
+        x1, y1 = x0 + w, y0 + h
+        if x0 > reg.x or y0 > reg.y or x1 < reg.x + reg.w or y1 < reg.y + reg.h:
+            break  # the panel border stops it from covering the drawn shape
+        x, y, w, h = int(x0), int(y0), int(x1 - x0), int(y1 - y0)
+        cand = _manual_region(Line(ln.kind, ln.text, box=[x, y, w, h]))
+        if not is_cap:  # the new ellipse must contain the old one
+            t = np.linspace(0, 2 * np.pi, 48)
+            ox = reg.cx + np.cos(t) * reg.w * 0.42
+            oy = reg.cy + np.sin(t) * reg.h * 0.42
+            if (((ox - (x + w / 2)) / (w / 2)) ** 2 + ((oy - (y + h / 2)) / (h / 2)) ** 2).max() > 1:
+                continue
+        size = layout(cand, ln.text, text_style, W, False)[0]
+        best = cand
+        if size >= target:
+            break
+    if best is None:
+        return None
+    if tip is not None:  # push the tail tip out past the new ellipse, same direction from the new centre
+        cx, cy = best.x + best.w / 2, best.y + best.h / 2
+        vx, vy = tip[0] - cx, tip[1] - cy
+        n = (vx * vx + vy * vy) ** 0.5 or 1
+        ux, uy = vx / n, vy / n
+        r = 1 / (((ux / (best.w / 2)) ** 2 + (uy / (best.h / 2)) ** 2) ** 0.5)
+        reach = max(n, r + 28)
+        tip = (int(min(px1, max(px0, cx + ux * reach))), int(min(py1, max(py0, cy + uy * reach))))
+    return best, tip
+
+
 def _assign(cands: list[Region], dlg: list[Line], caps: list[Line]):
     """Pick regions for dialogue (balloons) and captions (boxes). Returns (d_regions, c_regions, spare, notes)."""
     notes = []
@@ -556,15 +606,33 @@ def letter_page(page: Page, debug_dir: Path | None = None, src: Path | None = No
 
     out = img.copy()
     d = ImageDraw.Draw(out)
-    _paint_manual(out, [(ln, reg) for ln, _, reg in jobs if reg is not None and reg.manual and ln.draw])
 
     def style_of(ln):
         return "italic" if ln.kind == "caption" else ("bold" if (ln.style or "") in ("bold", "shout", "loud") else "regular")
+
+    # balloons drawn too small for phone-readable type: paint a bigger one over them (spec: grow: false to skip)
+    target = int(W * 0.0235)
+    paint = [(ln, reg) for ln, _, reg in jobs if reg is not None and reg.manual and ln.draw]
+    if page.raw.get("grow", True):
+        for i, (ln, pidx, reg) in enumerate(jobs):
+            if reg is None or reg.manual or (ln.style or "").startswith("small"):
+                continue
+            if layout(reg, ln.text, style_of(ln), W, False)[0] >= target:
+                continue
+            g = _grow(reg, ln, style_of(ln), W, H, panels, target)
+            if g:
+                new, tip = g
+                jobs[i] = (ln, pidx, new)
+                paint.append((replace(ln, draw=True, tail=list(tip) if tip else None), new))
+                rep.errors.append(f"P{pidx}: grew a small {reg.kind} {reg.box()} -> {new.box()}")
+    _paint_manual(out, paint)
 
     # one type size per page: cap normal dialogue at the median of what fits
     fits = sorted(layout(reg, ln.text, style_of(ln), W, False)[0]
                   for ln, _, reg in jobs if reg is not None and ln.kind == "dialogue" and not ln.style)
     cap = fits[len(fits) // 2] if fits else None
+    if cap is not None:  # never let a page of long lines pull short ones below phone-readable size
+        cap = max(cap, int(W * 0.0235))
     for ln, pidx, reg in jobs:
         pl = Placed(ln, pidx, reg)
         if reg is None:

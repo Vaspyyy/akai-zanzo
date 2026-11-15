@@ -22,21 +22,29 @@ pages:
     notes:
       - "Morning: the window shows pale daylight, never a night sky."
       - "Nobody wears shoes indoors: bare feet on the futon and tatami."
+      - "LEFT-HAND RULE: whenever Dai or Sota works the invisible gear lever, it is with the LEFT hand, held LOW beside the left hip at the height of a car's center console, fingers curled round a small invisible knob. When a person faces the camera, their LEFT hand is on the IMAGE'S RIGHT side. Never an arm stretched forward, never a punching fist."
     panels:
       - pos: top, wide
         action: >-
           The small tatami room in early morning light: two futons on the floor,
-          a floor fan turning its head. Dai sits cross-legged on his futon in his
-          open grey work shirt over a black T-shirt (no cap), eyes shut, his LEFT
-          hand closed round a gear lever that isn't there. Sota is asleep under a
+          a floor fan turning its head. Dai sits cross-legged on his futon facing
+          us, in his open grey work shirt over a black T-shirt (no cap), eyes shut,
+          his right hand resting on his right knee, his LEFT hand (on the image's
+          right side) held low beside his left hip, curled round a small gear knob
+          that isn't there. Sota is asleep under a
           thin blanket on the other futon, his glasses folded on the windowsill.
         cast: [dai:station, sota]
-        captions: ["HALF PAST SIX, FRIDAY MORNING. I WAS CHANGING GEAR.", "THERE WAS NO CAR."]
+        captions:
+          - {text: "HALF PAST SIX, FRIDAY MORNING. I WAS CHANGING GEAR.", box: [598, 28, 396, 106], draw: true}
+          - "THERE WAS NO CAR."
       - pos: middle-right
         shot: close-up
-        action: Close-up of Dai's LEFT hand gripping empty air like a short gear lever, moving it forward.
+        action: >-
+          Close-up from above of Dai's LEFT hand low beside his hip, fingers curled
+          round an invisible small gear knob, moving it; small motion arrows forward,
+          back, across. Not a fist, not stretched out.
         cast: [{id: dai, outfit: station, note: "only his left hand and rolled grey sleeve"}]
-        captions: ["FIRST, FORWARD AND AWAY. SECOND, STRAIGHT BACK. THIRD, ACROSS AND UP."]
+        captions: [{text: "FIRST, FORWARD AND AWAY. SECOND, STRAIGHT BACK. THIRD, ACROSS AND UP.", box: [604, 694, 390, 122], draw: true}]
       - pos: middle-left
         shot: close-up
         action: >-
@@ -57,20 +65,33 @@ pages:
     location: hayama-apartment
     time: early summer morning, daylight through the window (NOT night)
     continue_from: 1
-    notes: ["Nobody wears shoes indoors: bare feet on the futon and tatami."]
+    # 2026-11-15: bottom panel redrawn alone (the first take showed no wrong hand); the top
+    # three panels are the approved pixels, pasted back after the edit.
+    edit:
+      source: production/runs/edit-src/ch4-page-02.masked.png
+      change: >-
+        Redraw ONLY the bottom panel, which is blanked out in flat grey in reference 1: draw it
+        fresh as described in PANEL 4. Keep the three top panels exactly as they are.
+      keep: the three top panels, their balloons and caption
+    notes:
+      - "Nobody wears shoes indoors: bare feet on the futon and tatami."
+      - "LEFT-HAND RULE: whenever Dai or Sota works the invisible gear lever, it is with the LEFT hand, held LOW beside the left hip at the height of a car's center console, fingers curled round a small invisible knob. When a person faces the camera, their LEFT hand is on the IMAGE'S RIGHT side. Never an arm stretched forward, never a punching fist."
     panels:
       - pos: top-right
-        action: Dai on his futon, eyes still closed, left hand still on the invisible lever, answering flatly.
+        keep: true
+        action: Dai on his futon facing us, eyes still closed, his LEFT hand (image's right side) low by his hip on the invisible knob, answering flatly.
         cast: [dai:station]
         dialogue:
           - dai: "SHIFTING."
       - pos: top-left
+        keep: true
         action: Sota, glasses on now, squinting at Dai, then hopeful.
         cast: [sota]
         dialogue:
           - sota: "WE DON'T HAVE A CAR."
           - sota: "IS IT FOR THE RED CAR?"
       - pos: middle, wide
+        keep: true
         action: >-
           Dai says nothing, eyes shut. Sota's whole face goes wide and bright
           with excitement, leaning toward him on his knees.
@@ -80,10 +101,15 @@ pages:
         captions: ["TO SOTA, NO ANSWER MEANS YES."]
       - pos: bottom, large
         action: >-
-          Sota has crawled over and sits cross-legged right next to Dai,
-          copying him, holding up his RIGHT hand on an invisible lever. Dai
-          has opened his eyes and looks sideways at Sota's raised hand, a small
-          patient look.
+          Medium shot, both brothers cross-legged on the futon, Sota close
+          beside Dai on the image's LEFT. Sota eagerly copies him with the
+          WRONG hand: he holds up his RIGHT hand (on the image's far left,
+          away from Dai) at chest height, fingers curled round an imaginary
+          gear knob, clearly raised so we see it. Dai, EYES OPEN, looks down
+          sideways at that raised hand with a small patient look; his own LEFT
+          hand (image's right side) rests low by his hip, curled round his
+          imaginary knob. Leave the upper third of the panel clear for two
+          balloons.
         cast: [dai:station, sota]
         dialogue:
           - dai: "OTHER HAND."
@@ -94,7 +120,9 @@ pages:
     location: hayama-apartment
     time: early summer morning, daylight through the window (NOT night)
     continue_from: 2
-    notes: ["Nobody wears shoes indoors."]
+    notes:
+      - "Nobody wears shoes indoors."
+      - "LEFT-HAND RULE: whenever Dai or Sota works the invisible gear lever, it is with the LEFT hand, held LOW beside the left hip at the height of a car's center console, fingers curled round a small invisible knob. When a person faces the camera, their LEFT hand is on the IMAGE'S RIGHT side. Never an arm stretched forward, never a punching fist."
     panels:
       - pos: top, wide
         shot: close-up
@@ -130,12 +158,15 @@ pages:
     location: hayama-apartment
     time: early summer morning, daylight through the window (NOT night)
     continue_from: 3
-    notes: ["Nobody wears shoes indoors."]
+    notes:
+      - "Nobody wears shoes indoors."
+      - "LEFT-HAND RULE: whenever Dai or Sota works the invisible gear lever, it is with the LEFT hand, held LOW beside the left hip at the height of a car's center console, fingers curled round a small invisible knob. When a person faces the camera, their LEFT hand is on the IMAGE'S RIGHT side. Never an arm stretched forward, never a punching fist."
     panels:
       - pos: top, wide
         action: >-
-          The two brothers side by side on the futon, both shifting on air
-          with their LEFT hands, Sota with the tip of his tongue between his
+          The two brothers side by side on the futon facing us, both shifting on
+          air with their LEFT hands held low by the hip (on the image's right side
+          of each boy), Sota with the tip of his tongue between his
           teeth in concentration. Quiet morning light.
         cast: [dai:station, sota]
         sfx: [{text: "hweee...", note: "small, near Sota's chest: a faint wheeze"}]
@@ -163,7 +194,7 @@ pages:
         dialogue:
           - dai: "THERE'S NOTHING TO TELL."
           - {speaker: sota, text: "I WON'T TELL HER ANYWAY.", offpanel: true}
-        captions: ["MY LEFT HAND KEPT GOING WITHOUT ME."]
+        captions: [{text: "MY LEFT HAND KEPT GOING WITHOUT ME.", box: [24, 1082, 316, 84], draw: true}]
 
   # ------------------------------------------------------------ remedial English
   - page: 5
@@ -261,12 +292,12 @@ pages:
         dialogue:
           - nobu: "SORRY. SORRY. I WASN'T LOOKING."
           - nobu: "I WAS LOOKING A BIT."
-        captions: ["NOBUYUKI KAWAMATA. HE SMELLED OF SOY SAUCE AND PORK BONES. HIS FAMILY HAD A RAMEN SHOP BY THE STATION."]
+        captions: [{text: "NOBUYUKI KAWAMATA. HE SMELLED OF SOY SAUCE AND PORK BONES. HIS FAMILY HAD A RAMEN SHOP BY THE STATION.", box: [38, 36, 612, 124], draw: true}]
       - pos: middle-right
         action: Nobu, one finger raised, explaining eagerly.
         cast: [nobu]
         dialogue:
-          - nobu: "BALL OF THE FOOT ON THE BRAKE, HEEL ON THE GAS. DO YOU DRIVE?"
+          - nobu: {text: "BALL OF THE FOOT ON THE BRAKE, HEEL ON THE GAS. DO YOU DRIVE?", box: [585, 642, 345, 160]}
       - pos: middle-left
         action: Dai, half turned in his seat, flat and guarded.
         cast: [dai:summer_school]
@@ -627,6 +658,15 @@ pages:
   - page: 18
     title: The receipt
     time: about 1 PM, hot summer day, harsh sun and short shadows
+    # 2026-11-15: edit removed two stray empty balloons from the bottom panel; the edited page is
+    # used whole (the other panels came back unchanged).
+    edit:
+      change: >-
+        In the BOTTOM panel, remove the two EMPTY white speech balloons on the right (next to
+        Dai's face) completely and fill their place with the background behind them (pale sky,
+        utility poles, power lines, low houses, heat haze). Keep the two caption boxes on the left
+        and Dai's face exactly as they are.
+      keep: all other panels, Dai's face and the caption boxes
     notes:
       - "Setting: a bus stop on a street corner by a small convenience store, a low concrete wall in the strip of shade under the bus timetable pole."
       - "No cars on this page."
@@ -773,7 +813,9 @@ pages:
         action: Mom, still not looking up, matter-of-fact.
         cast: [michiko:summer_home]
         dialogue:
-          - michiko: "I'M TELLING YOU WHERE IT WENT. PHARMACY, 4,820. SOTA'S THINGS, 2,150. THE REST IS IN THE RENT ENVELOPE."
+          # long line split over two painted balloons (every word kept) so it doesn't cover her face
+          - michiko: {text: "I'M TELLING YOU WHERE IT WENT.", box: [792, 22, 212, 240], draw: true, tail: [770, 200]}
+          - michiko: {text: "PHARMACY, 4,820. SOTA'S THINGS, 2,150. THE REST IS IN THE RENT ENVELOPE.", box: [750, 272, 254, 268], draw: true, tail: [736, 320]}
       - pos: top-left
         shot: close-up
         action: >-
@@ -792,15 +834,15 @@ pages:
         action: Sota putting his chopsticks down, excited, blurting it out.
         cast: [sota:undershirt]
         dialogue:
-          - sota: "HE'S PRACTICING!"
+          - sota: {text: "HE'S PRAC-TICING!", box: [842, 1030, 164, 228]}
       - pos: bottom-left
         action: >-
           Sota freezing as he catches Dai's look, glancing at Aya, sweat drop.
           In the background Dai now kneels upright in seiza.
         cast: [sota:undershirt, {id: dai, outfit: summer_school, note: "in the background, kneeling in seiza, silent"}]
         dialogue:
-          - sota: "...KICKING."
-        captions: ["I SAT IN SEIZA FOR THE REST OF THE MEAL. YOU CAN'T KICK ANYONE FROM SEIZA."]
+          - sota: {text: "...KICKING.", box: [406, 1030, 196, 214], draw: true, tail: [592, 1268]}
+        captions: [{text: "I SAT IN SEIZA FOR THE REST OF THE MEAL. YOU CAN'T KICK ANYONE FROM SEIZA.", box: [20, 1034, 382, 126], draw: true}]
 
   - page: 23
     title: Your shoe's open
@@ -870,7 +912,7 @@ pages:
         action: Dai turning to face him, serious.
         cast: [dai:station]
         dialogue:
-          - dai: "KUBO-SAN. WHY DO YOU HAVE TO BLIP?"
+          - dai: {text: "KUBO-SAN. WHY DO YOU HAVE TO BLIP?", box: [262, 1126, 232, 304], draw: true, tail: [250, 1300]}
 
   - page: 25
     title: Burnable garbage
@@ -893,7 +935,7 @@ pages:
         action: Kubo explaining, gesturing with the can, eyes half closed.
         cast: [kubo]
         dialogue:
-          - kubo: "YOU DROP A GEAR, THE ENGINE HAS TO SPIN FASTER TO MATCH THE WHEELS. YOU DON'T GIVE IT GAS, THE BACK END STEPS OUT."
+          - kubo: {text: "YOU DROP A GEAR, THE ENGINE HAS TO SPIN FASTER TO MATCH THE WHEELS. YOU DON'T GIVE IT GAS, THE BACK END STEPS OUT.", box: [660, 521, 338, 300], draw: true, tail: [632, 690]}
           - kubo: "SO YOU BLIP. SO IT LANDS ON ITS FEET."
       - pos: lower-middle-right
         shot: close-up
@@ -914,7 +956,7 @@ pages:
           change tray into neat stacks of ten, not looking up, deadpan.
         cast: [kubo]
         dialogue:
-          - kubo: "THURSDAYS."
+          - kubo: {text: "THURSDAYS.", box: [688, 1250, 236, 154], draw: true, tail: [640, 1330]}
           - kubo: "LIKE BURNABLE GARBAGE."
 
   # ------------------------------------------------------------ Thursday
@@ -1004,33 +1046,41 @@ pages:
         action: Kubo, looking at the empty road.
         cast: [kubo]
         dialogue:
-          - kubo: "SHE'S NOT A TRAIN."
+          - kubo: {text: "SHE'S NOT A TRAIN.", box: [734, 512, 262, 185]}
       - pos: middle-left
         action: Dai, looking at the road too.
         cast: [dai:station]
         dialogue:
-          - dai: "I KNOW."
+          - dai: {text: "I KNOW.", box: [271, 513, 182, 144]}
       - pos: lower-middle-right
         action: Kubo letting smoke out through his nose, the smoke hanging in the canopy lights.
         cast: [kubo]
         dialogue:
-          - kubo: "SOMETIMES A WOMAN JUST DOESN'T FEEL LIKE BUYING GASOLINE FROM A KID WHO STARES."
+          - kubo: {text: "SOMETIMES A WOMAN JUST DOESN'T FEEL LIKE BUYING GASOLINE FROM A KID WHO STARES.", box: [698, 824, 298, 272], draw: true, tail: [668, 945]}
       - pos: lower-middle-left
         action: Dai, scowling a little.
         cast: [dai:station]
         dialogue:
-          - dai: "I DON'T STARE."
+          - dai: {text: "I DON'T STARE.", box: [276, 922, 168, 128]}
       - pos: bottom, wide
         action: Kubo walking back toward the lit office, his back to us; Dai alone under the canopy behind him.
         cast: [kubo, {id: dai, outfit: station, note: "small, in the background, silent"}]
         dialogue:
-          - kubo: "FIRST THURSDAY SHE'S MISSED SINCE I STARTED NOTICING."
+          - kubo: {text: "FIRST THURSDAY SHE'S MISSED SINCE I STARTED NOTICING.", box: [630, 1155, 325, 176]}
 
   # ------------------------------------------------------------ dawn
   - page: 29
     title: The guardrail
     location: bypass-overpass-dawn
     time: just after dawn, about 6:15 AM, pale grey sky
+    # 2026-11-15: edit removed two stray empty balloons from the top panel; the edited page is
+    # used whole (the other panels came back unchanged).
+    edit:
+      change: >-
+        In the TOP panel, remove the two EMPTY white speech balloons in the sky completely and fill
+        their place with the dawn sky, clouds, street lamps and factory chimneys behind them. Keep
+        the two caption boxes, Dai, the railing and the road exactly as they are.
+      keep: all other panels, Dai and the caption boxes
     notes:
       - "Dai is calm and curious here, safely on the walkway; he does not lean on or climb the railing."
       - "No cars on this page."
@@ -1092,6 +1142,6 @@ pages:
           futon.
         cast: [{id: dai, outfit: station, note: "NO cap, socks, no shoes"}, sota]
         captions:
-          - "SHE DIDN'T COME. THAT WAS THE WHOLE NIGHT."
-          - "I'D TELL IT SHORTER IF I COULD."
-          - {text: "CHAPTER 4: PRACTICING. END.", style: small, at: "bottom corner"}
+          - {text: "SHE DIDN'T COME. THAT WAS THE WHOLE NIGHT.", box: [565, 1002, 355, 83], draw: true}
+          - {text: "I'D TELL IT SHORTER IF I COULD.", box: [200, 1002, 334, 84], draw: true}
+          - {text: "CHAPTER 4: PRACTICING. END.", style: small, box: [660, 1451, 343, 69], draw: true}
