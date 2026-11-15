@@ -65,6 +65,7 @@ pages:
         cast:               # only these people/cars are in the panel
           - dai:station     # id[:outfit]
           - {id: roadster, state: headlights_down, facing: left}
+          - {id: roadster, view: rear, camera: "high rear three-quarter from above, right flank"}   # angle crop + explicit angle
           - {id: akane, hidden: true, note: "only her gloved fingers"}
         dialogue:           # each line tied to ONE speaker, in reading order
           - dai: "ARE YOU HIRING?"
@@ -81,6 +82,7 @@ pages:
       keep: "the KA-CHAK headlight panel and all dialogue"
       # source: defaults to the current page file (attached as reference 1)
     panels: [...]           # still describe the page; the edit text says what to change
+                            # `keep: true` on a panel: "keep unchanged", and its cast adds no refs
 ```
 
 Plates (`plates.yaml`) use `id:` instead of `page:`, `kind: plate`, a `location` and a `description`.
@@ -96,6 +98,13 @@ Plates (`plates.yaml`) use `id:` instead of `page:`, `kind: plate`, a `location`
 - A self-check list the codex agent must go through before saving (faces, speakers, car side, empty balloons); it may redraw once (`--attempts`).
 - Warnings: missing plate (falls back to a source page that contains people/cars), more than 5 refs (image_gen rejects the call), missing files.
 - `lint` warns about panels with two on-panel speakers (speaker-swap risk).
+- Car shots: a car's `view:` attaches that angle-specific crop of its sheet (`views` in `cast.yaml`)
+  instead of the whole sheet; `camera:` adds "draw the car from exactly this angle, do not copy its pose".
+  The model copies car poses from references, so `lint` and the builder warn about exterior car shots
+  without `camera:` and about car pages whose `continue_from`/`refs` page also shows the car from outside.
+- Redrawing one panel: copy the art, fill that panel with flat grey, use the copy as `edit.source`, mark the
+  other panels `keep: true`, run with `--no-letter`, paste the new panel back into the approved art at the
+  same gutter, then `letter` with the chapter spec (done for ch3 p15/p26, 2026-11-15).
 
 ## Runner
 

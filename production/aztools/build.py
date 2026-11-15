@@ -5,7 +5,7 @@ import re
 from dataclasses import dataclass, field
 from pathlib import Path
 
-from .spec import PROD, REPO, Page, Panel, Registry, Spec, art_path
+from .spec import PROD, REPO, Page, Panel, Registry, Spec, art_path, car_shot_ref_pages, is_exterior_car
 
 TEMPLATE = PROD / "templates" / "prompt.md"
 
@@ -123,6 +123,8 @@ class Builder:
 
         seen = []
         for pn in page.panels:
+            if pn.keep and page.edit:
+                continue
             for c in pn.cast:
                 k = (c.id, c.outfit)
                 if k in seen:
@@ -138,7 +140,13 @@ class Builder:
                     index.setdefault(c.id, index[f"{c.id}:{okey}"])
                 elif c.id in self.reg.cars:
                     car = self.reg.cars[c.id]
-                    add(car["ref"], f"car sheet for {car['name']}: match its body, wheels and details exactly", c.id)
+                    view = car.get("views", {}).get(c.view) if c.view else None
+                    if view:
+                        add(view["ref"], f"car sheet for {car['name']} ({view['note']}): match its body, wheels and "
+                            "details exactly, but NOT its pose: draw the car from the camera angle the panel gives", c.id)
+                    else:
+                        add(car["ref"], f"car sheet for {car['name']}: match its body, wheels and details exactly, "
+                            "but do NOT copy any pose from it: draw the car from the camera angle each panel gives", c.id)
 
         loc = self.reg.locations.get(page.location) if page.location else None
         if page.kind != "plate":
@@ -184,6 +192,9 @@ class Builder:
     def panel_text(self, page: Page, pn: Panel, empty: bool) -> str:
         head = f"PANEL {pn.index} ({humanize_pos(pn.pos)}"
         head += f"; {pn.shot})" if pn.shot else ")"
+        if pn.keep and page.edit:
+            return (f"{head}: KEEP UNCHANGED, exactly as in reference 1 (same drawing, people, balloons and SFX)."
+                    + (f" {pn.action}" if pn.action else ""))
         lines = [f"{head}: {pn.action}".rstrip()]
         if pn.location and pn.location != page.location:
             lo = self.reg.locations[pn.location]
@@ -214,6 +225,9 @@ class Builder:
                 bits.append(c.note)
             one = car["name"].removeprefix("the ")
             lines.append(f"  Car: {', '.join(bits)}. Only one {one} in this panel.")
+            if c.camera:
+                lines.append(f"  Camera on the car: {c.camera}. Draw the car from exactly this angle; do NOT copy "
+                             "its pose from the car sheet or from any reference page.")
         for n in pn.notes:
             lines.append(f"  Note: {n}")
 
@@ -304,6 +318,8 @@ class Builder:
         done = set()
         car_ids = []
         for pn in page.panels:
+            if pn.keep and page.edit:
+                continue
             for c in pn.cast:
                 if c.id in self.reg.characters:
                     okey, desc, _, _ = self._outfit(c.id, c.outfit)
@@ -337,6 +353,13 @@ class Builder:
         if page.driver_hidden:
             rules.append("The Roadster's driver is NEVER recognizable: the cabin is in deep shadow or behind windshield glare; at most gloved hands and a dark silhouette. Do NOT put Dai or any recognizable face in the driver's seat.")
         rules.append("Draw people and vehicles only where a panel lists them; do not copy people or vehicles from the location references.")
+        if any(is_exterior_car(c, self.reg) for pn in page.panels for c in pn.cast):
+            rules.append("Car poses: every car shot uses the camera angle written in its panel. Never paste a car's pose "
+                         "or angle from a reference image (car sheet or earlier page), and never repeat the same car pose "
+                         "twice on the page.")
+        for other in car_shot_ref_pages(page, spec, self.reg):
+            warnings.append(f"reference {other.label} also shows the car from outside: the model tends to copy that pose "
+                            "(use a location plate or an interior page instead)")
         if page.continue_from and "continue" in idx:
             rules.append(f"This page continues the scene of reference {idx['continue']}: the camera stays on the SAME side as its last panel, with the same lighting and setting.")
         if loc:

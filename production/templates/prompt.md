@@ -86,6 +86,7 @@ RULES:
 
 ## self-check-roadster
 - The red Roadster is right-hand drive; in side views showing the driver, its FRONT points to the RIGHT edge of the panel. Only one Roadster per panel.
+- Every exterior shot of the car uses the camera angle its panel asks for, not a pose copied from the car sheet or a reference page.
 
 ## self-check-no-car
 - There is NO small roadster or sports car anywhere on the page.

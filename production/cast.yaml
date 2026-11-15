@@ -132,6 +132,22 @@ cars:
       White Japanese number plate, characters not legible. Immaculate paint
       (drawn in mid-grey screentone, the page is black and white).
     ref: artwork/car-sheets/red-roadster.png
+    # Angle-specific crops of the sheet (cast entry `view: front34`). The model copies car poses
+    # from its references, so a panel that needs another angle should not get the full sheet with
+    # its flat side views. Crop boxes on red-roadster.png (1536x1024):
+    #   front34  = 856x430+680+594 (front three-quarter, LEFT flank) stacked over 790x290+0+5 (front, pop-ups up/down)
+    #   rear     = 440x305+115+300 (straight rear view; the sheet has no rear three-quarter)
+    #   interior = 640x392+0+632 (dashboard from the back seat)
+    views:
+      front34:
+        ref: artwork/car-sheets/red-roadster-front34.png
+        note: "front three-quarter and front views only; the three-quarter view shows the LEFT flank, so for a right-flank view draw its mirror angle but keep the steering wheel on the car's RIGHT"
+      rear:
+        ref: artwork/car-sheets/red-roadster-rear.png
+        note: "rear view only: taillights, plate, exhaust, soft top from behind"
+      interior:
+        ref: artwork/car-sheets/red-roadster-interior.png
+        note: "interior only: right-hand-drive dashboard, wheel, gauges, gear lever"
     rules:
       - "RIGHT-HAND DRIVE (Japanese market): the steering wheel and the driver are on the car's RIGHT side."
       - "In every side view where the driver's side is visible, the car's FRONT points to the RIGHT edge of the panel, so we see its right (driver) side."

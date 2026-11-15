@@ -60,6 +60,13 @@ class CastRef:
     facing: str | None = None
     note: str | None = None
     hidden: bool = False
+    view: str | None = None  # cars: key in the car's `views` (angle-specific sheet crop)
+    camera: str | None = None  # cars: the explicit camera angle for this car shot
+
+
+def is_exterior_car(c: "CastRef", reg: "Registry") -> bool:
+    """A car seen from outside (not an 'interior only' cast entry)."""
+    return c.id in reg.cars and "interior" not in (c.note or "").lower()
 
 
 @dataclass
@@ -74,6 +81,7 @@ class Panel:
     sfx: list[Line]
     notes: list[str] = field(default_factory=list)
     location: str | None = None  # overrides the page location for this panel
+    keep: bool = False  # edit pages: this panel stays as it is (no cast refs, short prompt line)
 
 
 @dataclass
@@ -162,6 +170,8 @@ def _cast_ref(item) -> CastRef:
             facing=item.get("facing"),
             note=item.get("note"),
             hidden=bool(item.get("hidden", False)),
+            view=item.get("view"),
+            camera=item.get("camera"),
         )
     raise SpecError(f"bad cast entry: {item!r}")
 
@@ -249,6 +259,7 @@ def load_spec(path: Path, reg: Registry | None = None) -> Spec:
                 sfx=[_plain(s, "sfx") for s in _as_list(rp.get("sfx"))],
                 notes=[str(n) for n in _as_list(rp.get("notes"))],
                 location=rp.get("location"),
+                keep=bool(rp.get("keep", False)),
             ))
         refs = []
         for r in _as_list(raw.get("refs")):
@@ -330,6 +341,12 @@ def lint(spec: Spec, reg: Registry) -> list[str]:
                         out.append(f"WARN {pw}: outfit '{c.outfit}' not in cast.yaml for {c.id} (used as free text)")
                 elif c.id not in reg.cars:
                     out.append(f"ERROR {pw}: unknown cast id '{c.id}'")
+                else:
+                    views = reg.cars[c.id].get("views", {})
+                    if c.view and c.view not in views:
+                        out.append(f"ERROR {pw}: car view '{c.view}' not in cast.yaml for {c.id} (have: {', '.join(views) or 'none'})")
+                    if is_exterior_car(c, reg) and not c.camera and not pg.edit:
+                        out.append(f"WARN {pw}: exterior shot of {c.id} without `camera:` (the model copies the car sheet's pose; give every car shot its own angle)")
             speakers = []
             for d in pn.dialogue:
                 if d.speaker not in reg.characters and d.speaker != "unknown":
@@ -341,7 +358,31 @@ def lint(spec: Spec, reg: Registry) -> list[str]:
             people = [i for i in ids if i in reg.characters]
             if len(speakers) > 1 and len(set(people) & set(speakers)) > 1:
                 out.append(f"WARN {pw}: two on-panel speakers ({', '.join(speakers)}): speaker-swap risk, consider splitting")
+        for ref_page in car_shot_ref_pages(pg, spec, reg):
+            out.append(f"WARN {w}: has an exterior car shot and passes {ref_page.label} as a reference, which also has one "
+                       f"(the model copies the car pose); use a location plate or an interior page instead")
     return out
+
+
+def car_shot_ref_pages(pg: Page, spec: Spec, reg: Registry) -> list[Page]:
+    """Pages of this spec passed as references (continue_from / refs) that also show a car from outside,
+    when this page shows one too. Edit sources (the page itself) don't count."""
+    def exterior(p: Page) -> bool:
+        return any(is_exterior_car(c, reg) for pn in p.panels for c in pn.cast)
+
+    if pg.kind != "page" or not exterior(pg):
+        return []
+    hits = []
+    if pg.continue_from:
+        prev = spec.page_by_number(pg.continue_from)
+        if prev and prev is not pg:
+            hits.append(prev)
+    for r in pg.refs:
+        rp = (REPO / r["path"]).resolve()
+        for other in spec.pages:
+            if other is not pg and rp in (other.output.resolve(), art_path(other).resolve()):
+                hits.append(other)
+    return [h for h in hits if exterior(h)]
 
 
 def rel(p: Path) -> str:

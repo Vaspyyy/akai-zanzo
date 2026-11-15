@@ -4,8 +4,12 @@
 #   - Inside the car Akane (driver) is on the car's RIGHT, Dai (passenger) on the LEFT.
 #     Interior shots are framed from inside/behind looking forward, so Akane is also on
 #     the RIGHT of the panel.
-#   - Exterior side views show the driver's side: FRONT points LEFT; the car always
-#     travels toward the left of the panel (forward in right-to-left reading).
+#   - Exterior side views were drawn with the FRONT pointing LEFT (the old, reversed rule;
+#     corrected 2026-11-15: a driver-side view has the front pointing RIGHT). Accepted on
+#     the approved pages; new car shots use the corrected rule.
+#   - Every exterior car shot has its own `camera:` angle and an angle-specific `view:` crop
+#     of the car sheet, and never gets a page with another exterior car shot as a reference
+#     (2026-11-15: p15, p18 and p26 had all copied the sheet's flat side view).
 #   - Thursday night is DRY and CLEAR (chapter 2 refs show rain: do not copy it).
 chapter: 3
 title: Passenger Seat
@@ -366,11 +370,22 @@ pages:
         cast: [akane]
       - pos: bottom, wide
         location: harbor-road-night
+        shot: high angle from above and behind
         action: >-
-          Outside, side view: the small red car flying under a line of orange
-          streetlights onto the bypass on-ramp, FRONT pointing to the LEFT edge
-          of the panel, speed lines.
-        cast: [{id: roadster, state: headlights_up, facing: left}]
+          Outside, seen from high above and behind: the small red car sweeping up
+          the curving bypass on-ramp, which arcs from the lower left of the panel
+          up to the upper right, under a line of tall streetlights whose pools of
+          light run along the curve. Its two round taillights leave long streaking
+          light trails along the ramp behind it. Speed lines.
+        cast:
+          - id: roadster
+            state: headlights_up
+            view: rear
+            camera: >-
+              high rear three-quarter view from above, like from the top of a
+              streetlight behind the car: we look down on the black soft top,
+              the rear and the car's RIGHT flank as it curves away up the ramp
+              toward the upper right of the panel; the car is small in the frame
 
   - page: 16
     title: The bypass
@@ -420,19 +435,40 @@ pages:
   - page: 18
     title: The curve
     location: bypass-overpass-night
-    continue_from: 15
+    weather: the asphalt still wet and shining from earlier rain (as on p17 and p19)
+    refs:
+      - {path: artwork/pages/chapter-003/page-16.png, use: "the same bypass curve and overpass seen through the windshield a moment earlier: copy the road, the overpass, the streetlights and the wet asphalt, NOT its panels, people or text"}
     panels:
       - pos: full-page splash
-        shot: low angle from outside
+        shot: low angle from the outside of the curve
         action: >-
-          From outside, low angle: the red Roadster diving into the long
-          left-hand curve right under the pedestrian overpass, perfectly
-          balanced, tires at the limit, headlights up and blazing, its right
-          (driver) side toward us and its FRONT pointing toward the LEFT edge of
-          the page. The empty overpass with its tall railing above. Speed lines.
-        cast: [{id: roadster, state: headlights_up, facing: left}]
-        sfx: ["KYAAAA"]
-        notes: ["Nobody stands on the overpass."]
+          One single full-page panel. The red Roadster in a clear, controlled
+          drift through the long left-hand curve, passing right under the
+          concrete pedestrian overpass: the car body is turned about 25 degrees
+          against its direction of travel (it slides sideways along the arc of
+          the road), the rear stepped out toward the outside of the curve, the
+          front wheels visibly turned the OPPOSITE way to the nose
+          (countersteer), body rolled onto its outer wheels, the rear tires
+          throwing up a fan of spray from the wet asphalt and a little white
+          tire smoke, curved tire tracks in the wet road behind it, both pop-up
+          headlights up and blazing with long light beams, strong motion lines
+          and speed lines. The empty overpass with its tall railing looms large
+          overhead across the top of the page, seen from below. Akane is only a
+          dark silhouette behind the windshield on the car's right side.
+        cast:
+          - id: roadster
+            state: headlights_up
+            view: front34
+            camera: >-
+              very low, near the wet asphalt at the OUTER edge of the curve: the
+              car comes TOWARD the camera and is about to rush past it, big in
+              the frame, in a dynamic front three-quarter view showing its front
+              and its RIGHT (driver) flank; the nose points toward the lower RIGHT
+              of the page, the right flank stretches back toward the upper left,
+              the rear swung out toward the camera; a slightly tilted (dutch)
+              horizon
+        sfx: [{text: "KYAAAA", note: "huge jagged letters following the arc of the tires"}]
+        notes: ["Nobody stands on the overpass.", "This is NOT a flat side view and NOT the pose of the car sheet."]
 
   - page: 19
     title: From the inside
@@ -598,7 +634,7 @@ pages:
     weather: dry, clear night
     notes:
       - "Same gas station and same canopy lights as earlier in the chapter; dry concrete."
-      - "In side views the camera stays on the car's RIGHT (driver) side: FRONT points LEFT."
+      - "In side views the camera stays on the car's RIGHT (driver) side: FRONT points RIGHT."
     panels:
       - pos: top, wide
         action: >-
@@ -607,7 +643,7 @@ pages:
           door, which is on the car's LEFT, so on the RIGHT side of the panel
           because the car faces us; his legs are shaky. The steering wheel and
           Akane are on the other side (left of the panel).
-        cast: [{id: roadster, state: headlights_down}, dai:station, {id: akane, note: "small, behind the windshield"}]
+        cast: [{id: roadster, state: headlights_down, camera: "straight front view at eye level, the car faces the camera"}, dai:station, {id: akane, note: "small, behind the windshield"}]
       - pos: middle-right
         action: Kubo by the pump, one eyebrow raised.
         cast: [kubo]
@@ -617,10 +653,27 @@ pages:
         dialogue:
           - akane: "HE'S GOT NO SENSE."
       - pos: bottom
+        shot: medium close-up, moving
         action: >-
-          Akane with half a smile through the driver's window as the Roadster
-          pulls away, side view with its FRONT pointing to the LEFT edge of the panel.
-        cast: [akane, {id: roadster, state: headlights_up, facing: left}]
+          The Roadster pulling away out of the station toward the RIGHT edge of
+          the panel. We are close beside the driver's door: Akane in the driver's
+          seat behind the open window fills the middle of the panel, gloved hands
+          on the wheel, looking ahead toward the right, the corner of her mouth
+          lifted in a small half smile (her face clearly readable). The car body
+          is cropped by the panel edges; motion lines streak the canopy lights and
+          pumps behind her toward the left. Her balloon sits at the upper LEFT,
+          behind her, with the tail pointing at her.
+        cast:
+          - akane
+          - id: roadster
+            state: headlights_up
+            view: front34
+            facing: right
+            camera: >-
+              level with the driver's window on the car's RIGHT (driver) side,
+              close enough that the door, mirror and window frame fill the lower
+              half; the car's FRONT points to the RIGHT edge of the panel and the
+              front of the car is cut off by that edge
         dialogue:
           - akane: "BUT HE'S GOT GOOD EYES."
 

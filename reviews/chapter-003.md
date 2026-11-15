@@ -23,23 +23,39 @@ Every page was reviewed on its own, then in consecutive pairs for camera continu
   p14 and p25 dropped an extra location plate from one panel (the previous page covers it),
   p26 dropped `continue_from` and states the camera side in its notes instead.
 
+- **The same car picture four times** (reader complaint, 2026-11-15): p15's bottom panel, the
+  p18 splash and p26's bottom panel all showed one flat side view (front left, pop-ups up, spray
+  behind), copied from the car sheet's side view and passed on through `continue_from`. Redrawn:
+  - p15 bottom: high rear three-quarter from above, the car curving up the on-ramp to the upper
+    right with taillight trails (edit of that panel only; the top panels are the approved pixels).
+  - p18 splash: low angle from the outside of the curve, front three-quarter on the driver's
+    flank, a real drift (body angled to its path, front wheels countersteering, spray and tire
+    tracks), the overpass looming above. Second of two takes; the first had too little drift.
+  - p26 bottom: close beside the driver's door, Akane's half smile readable, the car pulling away
+    with its front to the RIGHT (corrected rule). The unscripted "VROOM" is gone.
+  New refs: angle-specific crops of the car sheet (`red-roadster-front34.png`, `-rear.png`,
+  `-interior.png`); none of the jobs got a page with an exterior car shot. Checked against the
+  neighbours: p18 is wet like p17/p19, and no two exterior car shots in the chapter share a pose
+  (closest pair: p15 and p21 P1 both drive away toward the upper right, but from high above on a
+  curved ramp vs. shoulder height on the pier lot).
+
 ## Lettering
 All lines placed in the right balloons, in right-to-left order, tails on the speaker. Type is
 24-29 px everywhere except p28's end caption (18 px, `style: small` on purpose).
 
 ## Kept nits
-- **Wet pavement on a dry night** (p06, p08-p11, p13-p15, p18, p21, p25, p26): all three night
+- **Wet pavement on a dry night** (p06, p08-p11, p13-p15, p18, p21, p25, p26 P1): all three night
   location plates (station, harbor road, pier lot) are drawn wet, so the pages copy it. p07 is dry.
   Redraw the plates dry before the next dry-night scene.
 - p02: the walk home looks like midday, the script says dawn.
 - p04, p05, p28: night outside the window in morning scenes.
 - p05: Michiko kneels on the tatami with sneakers on; p28: Dai wears sneakers on his futon.
-- p06: unscripted "SCRUB SCRUB SCRUB" SFX. p26: unscripted "VROOM". p28: unscripted "SHIFT" / "HEEL TOE" labels.
+- p06: unscripted "SCRUB SCRUB SCRUB" SFX. p28: unscripted "SHIFT" / "HEEL TOE" labels.
 - p08, p10, p11: close-ups through the driver's window show the car's front pointing RIGHT,
   while p07/p09 side views point LEFT (see the note below).
 - p12: Dai wears a small earring in the middle-left panel.
 - p17: the heel-and-toe reads mostly through the BWAP SFX.
-- p18: the car is in front of the overpass rather than right under it.
+- p18: the car has just come out from under the overpass rather than being right under it.
 - p22: Dai has no cap in P3.
 - p23: P1 is a front view drawn so that Akane still reads on the RIGHT; the sea shows through
   the back window although the car faces it.
