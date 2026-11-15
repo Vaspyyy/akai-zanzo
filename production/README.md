@@ -70,6 +70,7 @@ pages:
           - dai: "ARE YOU HIRING?"
           - kubo: {text: "HAH.", style: small, at: "top left, above Kubo"}
           - {speaker: kubo, text: "...", offpanel: true, box: [610, 90, 230, 170]}
+          - dai: {text: "...", box: [20, 30, 260, 220], draw: true, tail: [300, 280]}   # paint a bigger balloon
         captions: ["10:00 PM.", {text: "THE END.", style: small, at: "bottom corner"}]
         sfx: ["KA-CHAK", {text: "kachan", note: small}]
         notes: ["extra line for this panel"]
@@ -137,6 +138,12 @@ It prints a report per line (box, size, lines) and saves a debug overlay to `run
 (blue = panels, green = balloons, orange = captions with their speaker, red = unused candidates).
 When detection fails, give the line a manual box: `box: [x, y, w, h]` in art pixels (the report lists unused
 candidates you can copy). Re-run `production/az letter -c N -p P` after editing the spec; it never calls the image model.
+
+When the drawn balloon is too small for its line, add `draw: true` (and for a balloon `tail: [x, y]`, the tail tip):
+the letterer paints a fresh white balloon (or caption box) with a black outline at `box` before setting the text.
+Make the new shape fully cover the drawn one. A long line can be split over two such balloons from the same
+speaker (spec order = reading order), without changing the words. Example (ch3 p23):
+`- dai: {text: "BEFORE THE BRIDGE YOU BRAKED,", box: [474, 30, 270, 168], draw: true, tail: [452, 222]}`.
 
 **Known limits:** the speaker is assigned by reading order, not by the tail direction, so the spec order must
 match the balloon positions (first speaker = right-most / top balloon; the prompt asks for this).

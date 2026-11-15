@@ -160,13 +160,6 @@ pages:
 
   - page: 7
     title: Engine
-    edit:
-      change: >-
-        Remove the empty speech balloon in the top-right panel and the empty speech
-        balloon and empty caption box in the bottom panel: this page has NO balloons and
-        NO captions, only the "...WAAAN" sound effect. Paint the art behind them instead.
-        Make the ground DRY everywhere (no puddles or wet reflections; it has not rained).
-      keep: "the layout, Dai's face and pose, the Roadster and its headlights, and the ...WAAAN sound effect"
     location: harbor-station-night
     weather: dry, clear night
     continue_from: 6
@@ -343,11 +336,10 @@ pages:
     notes: ["Inside the car Akane drives on the RIGHT, Dai is the passenger on the LEFT. Speed lines."]
     panels:
       - pos: top, wide
-        location: harbor-road-night
         action: >-
-          Through the windshield from inside the car: the harbor road rushing at
-          them, warehouse lights streaking past; the steering wheel and Akane's
-          gloved hands at the RIGHT edge.
+          Through the windshield from inside the car: the dark harbor road rushing at
+          them between warehouses and container stacks, warehouse lights streaking past;
+          the steering wheel and Akane's gloved hands at the RIGHT edge.
         cast: [{id: akane, note: "only her gloved hands on the wheel"}, {id: roadster, note: "interior only"}]
       - pos: middle
         action: Dai pressed back into the left passenger seat, eyes huge, gripping the door handle on his left.
@@ -391,7 +383,8 @@ pages:
         action: >-
           Through the windshield from inside the car: the empty four-lane bypass
           at night, a long left-hand curve ahead, and the concrete pedestrian
-          overpass crossing above it; the steering wheel at the RIGHT edge.
+          overpass crossing above it; the steering wheel at the RIGHT edge with
+          Akane's black fingerless gloves gripping it (the driver's seat is never empty).
         cast: [{id: roadster, note: "interior only"}]
       - pos: bottom
         shot: close-up
@@ -449,7 +442,7 @@ pages:
     panels:
       - pos: top, wide
         location: bypass-overpass-night
-        action: Through the side window from inside the car, the underside of the pedestrian overpass flashing past directly overhead, motion blur.
+        action: Through the side window from inside the car, the underside of the pedestrian overpass flashing past directly overhead, motion blur. If the steering wheel shows, Akane's gloved hands grip it (the driver's seat is never empty).
         cast: [{id: roadster, note: "interior only"}]
       - pos: middle
         action: Dai in the left passenger seat looking up through his side window at the empty overpass walkway where he once stood.
@@ -485,13 +478,6 @@ pages:
   - page: 21
     title: Stop
     location: harbor-pier-lot-night
-    edit:
-      change: >-
-        In the BOTTOM panel only, redraw the parked Roadster in side view with its FRONT
-        pointing to the LEFT edge of the panel (we see its right, driver side), still parked
-        alone by the bollards under the lamp post, headlights down. In the MIDDLE panel the
-        pop-up headlights are half-way down, folding closed (not lit).
-      keep: "the top panel, the KA-CHAK and tik... tik... sound effects, the layout and the style"
     panels:
       - pos: top, wide
         action: >-
@@ -549,8 +535,11 @@ pages:
           foot on the pedals with one hand; Akane silent behind the wheel on the
           right.
         cast: [dai:station, akane, {id: roadster, note: "interior only, we are inside the car"}]
+        # Lettering fix (no redraw): the drawn balloon was too small (17 px type). The line is split
+        # across two painted balloons, read right to left: centre first, then the enlarged left one.
         dialogue:
-          - dai: "BEFORE THE BRIDGE YOU BRAKED, AND YOUR HEEL HIT THE GAS AT THE SAME TIME. EVERY DOWNSHIFT."
+          - dai: {text: "BEFORE THE BRIDGE YOU BRAKED,", box: [474, 30, 270, 168], draw: true, tail: [452, 222]}
+          - dai: {text: "AND YOUR HEEL HIT THE GAS AT THE SAME TIME. EVERY DOWNSHIFT.", box: [22, 24, 268, 292], draw: true, tail: [300, 300]}
       - pos: middle
         action: Akane turns her head to look at him, really look.
         cast: [akane]
@@ -596,8 +585,7 @@ pages:
           city lights glittering across the bay. No text.
         cast: [{id: roadster, state: headlights_down}, {id: akane, hidden: true, note: "silhouette of her head, right seat"}, {id: dai, outfit: station, hidden: true, note: "silhouette of his head, left seat"}]
       - pos: bottom
-        location: roadster-interior-night
-        action: Inside the car, Akane on the right turns the key to start the engine, eyes ahead.
+        action: Inside the car (as on the previous page), Akane on the right turns the key to start the engine, eyes ahead.
         cast: [akane]
         dialogue:
           - akane: "...YOUR BREAK'S OVER."
@@ -608,7 +596,9 @@ pages:
     title: Good eyes
     location: harbor-station-night
     weather: dry, clear night
-    continue_from: 11
+    notes:
+      - "Same gas station and same canopy lights as earlier in the chapter; dry concrete."
+      - "In side views the camera stays on the car's RIGHT (driver) side: FRONT points LEFT."
     panels:
       - pos: top, wide
         action: >-
@@ -673,14 +663,15 @@ pages:
       - pos: middle-right
         action: Sota, half asleep, sitting up on his futon, rubbing his eyes, glasses askew.
         cast: [sota]
+        # Lettering fix (no redraw): painted balloons, the drawn ones gave 21 px / 15 px type.
         dialogue:
-          - sota: "NII-CHAN... WHAT ARE YOU DOING?"
+          - sota: {text: "NII-CHAN... WHAT ARE YOU DOING?", box: [758, 645, 244, 218], draw: true, tail: [742, 800]}
       - pos: middle-left
         shot: close-up
         action: Dai, eyes still closed, calm.
         cast: [dai:station]
         dialogue:
-          - dai: "...PRACTICING."
+          - dai: {text: "...PRACTICING.", box: [17, 712, 280, 236], draw: true, tail: [305, 860]}
       - pos: bottom, large
         action: Morning light falling across the room; Dai's hand still on the invisible shifter, a small smile on his face.
         cast: [dai:station]

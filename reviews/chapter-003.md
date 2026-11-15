@@ -1,36 +1,53 @@
-# Chapter 3 review (in progress)
+# Chapter 3 review
 
+Build: `./tools-build.sh 003` -> `build/akai-zanzo-ch003.{cbz,pdf}` (28 pages).
 Spec: `production/chapter-003.yaml` (empty balloons, lettered by `production/az letter`).
 
-**Status 2026-11-14:** 10 of 28 pages drawn, then the Codex image quota ran out
-(`usage_limit_reached`, resets 2026-11-15 14:36 German time). 13 image generations used.
+Drawn in two sessions: 10 pages on 2026-11-14 (then the Codex image quota ran out), the other
+18 plus fixes on 2026-11-15 (31 image generations: 20 pages in one batch, then 3 edit passes).
+Every page was reviewed on its own, then in consecutive pairs for camera continuity
+(contact sheets in `production/runs/contact-chapter-003/ch3-overview-{1,2,3}-of-3.jpg`).
 
-| Page | State |
-| --- | --- |
-| p01, p02, p03, p04, p06, p12, p23, p27 | accepted |
-| p07, p21 | rejected, `edit:` blocks queued in the spec |
-| p05, p08-p11, p13-p20, p22, p24-p26, p28 | not drawn yet |
-
-Resume (after the quota resets): `production/az run -c 3 -p 5,7-11,13-22,24-26,28 -j 4`.
-p07 and p21 run in edit mode; remove their `edit:` blocks once they pass.
-
-## Problems found
-- **More than 5 references fails the job** (p13, p22): `image_gen` takes at most 5
-  `referenced_image_paths`. The builder now warns above 5 (was 6); p13 dropped Kubo's sheet
-  (he is a tiny figure), p22 dropped the extra pier plate, p08 dropped the ch2 p20 face ref.
-- **p07:** the model drew two empty balloons and an empty caption box on a page with no
-  text (the letterer has nothing to put in them), and a wet road on a dry night. Edit queued.
-- **p21:** last panel's side view has the car's front pointing RIGHT; middle panel's
-  headlights stay lit while "folding down". Edit queued.
+## Problems found and fixed
+- **Empty balloons on a silent page** (p07): edited out; the road is dry now.
+- **Car pointing the wrong way** (p21 last panel): edited so the front points LEFT like the other side views.
+- **Pop-up headlights lit while folding down** (p21 middle panel): a second edit made every lamp dark.
+- **Empty driver's seat while driving** (p16 and p19, windshield shots): the model drew the wheel
+  with nobody holding it. Edited to add Akane's gloved hands, sleeves and shoulder; the spec now
+  says so in those panels.
+- **Lettering too small for a phone** (p23 P1 at 17 px, p28 P3 at 15 px, p28 P2 at 21 px): fixed
+  without new images. `letter.py` gained `draw: true` / `tail:` for manual boxes: it paints a
+  bigger balloon over the drawn one. p23's long line is split over two of Dai's balloons
+  (centre first, then left; every word kept), now 25-26 px; p28 is 24-26 px.
+- **More than 5 references** (p14, p25, p26 would have had 6 once their previous page existed):
+  p14 and p25 dropped an extra location plate from one panel (the previous page covers it),
+  p26 dropped `continue_from` and states the camera side in its notes instead.
 
 ## Lettering
-All placed lines fit their balloons (report from `az letter`). p23 P1 (Dai's long line)
-came out at 17 px in 7 lines: small but readable.
+All lines placed in the right balloons, in right-to-left order, tails on the speaker. Type is
+24-29 px everywhere except p28's end caption (18 px, `style: small` on purpose).
 
 ## Kept nits
+- **Wet pavement on a dry night** (p06, p08-p11, p13-p15, p18, p21, p25, p26): all three night
+  location plates (station, harbor road, pier lot) are drawn wet, so the pages copy it. p07 is dry.
+  Redraw the plates dry before the next dry-night scene.
 - p02: the walk home looks like midday, the script says dawn.
-- p04: night outside the tatami-room window in a morning scene.
-- p06: unscripted "SCRUB SCRUB SCRUB" SFX; the forecourt looks wet.
+- p04, p05, p28: night outside the window in morning scenes.
+- p05: Michiko kneels on the tatami with sneakers on; p28: Dai wears sneakers on his futon.
+- p06: unscripted "SCRUB SCRUB SCRUB" SFX. p26: unscripted "VROOM". p28: unscripted "SHIFT" / "HEEL TOE" labels.
+- p08, p10, p11: close-ups through the driver's window show the car's front pointing RIGHT,
+  while p07/p09 side views point LEFT (see the note below).
 - p12: Dai wears a small earring in the middle-left panel.
-- p23: P1 is a front view drawn so that Akane still reads on the RIGHT (strictly a
-  left-hand-drive layout); the sea shows through the back window although the car faces it.
+- p17: the heel-and-toe reads mostly through the BWAP SFX.
+- p18: the car is in front of the overpass rather than right under it.
+- p22: Dai has no cap in P3.
+- p23: P1 is a front view drawn so that Akane still reads on the RIGHT; the sea shows through
+  the back window although the car faces it.
+- p25: taillights glow with the engine off; Dai is not visible beside Akane in P2.
+
+## Note for the art rules
+The rule "front points LEFT, so we see its right (driver) side" is geometrically reversed: a car
+whose nose points to the image's LEFT shows its LEFT side (like a face turned left shows the left
+cheek). Pages that follow the rule show a mirror-image car (driver and fuel door on the near
+side). The chapter follows the rule consistently, as instructed; whether to change it for later
+chapters is the owner's call.

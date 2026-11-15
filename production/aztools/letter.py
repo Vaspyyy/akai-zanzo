@@ -419,6 +419,55 @@ def _manual_region(line: Line) -> Region:
     return Region(x, y, w, h, m.astype(bool), kind, 1.0, manual=True)
 
 
+def _paint_manual(img: Image.Image, items: list[tuple[Line, Region]], ss: int = 4):
+    """Paint fresh balloons/caption boxes (`draw: true`) over the art: white fill, black outline, optional tail.
+    Drawn supersampled so the outline is smooth. The new shape should cover any drawn balloon under it."""
+    W, H = img.size
+    for ln, r in items:
+        pad = 12
+        x0, y0 = max(0, r.x - pad), max(0, r.y - pad)
+        x1, y1 = min(W, r.x + r.w + pad), min(H, r.y + r.h + pad)
+        if ln.tail:
+            tx, ty = [int(v) for v in ln.tail]
+            x0, y0, x1, y1 = min(x0, tx - pad), min(y0, ty - pad), max(x1, tx + pad), max(y1, ty + pad)
+            x0, y0, x1, y1 = max(0, x0), max(0, y0), min(W, x1), min(H, y1)
+        bw, bh = x1 - x0, y1 - y0
+        ink = Image.new("L", (bw * ss, bh * ss), 0)     # outline+fill shape (alpha of black)
+        fill = Image.new("L", (bw * ss, bh * ss), 0)    # inner white
+        di, df = ImageDraw.Draw(ink), ImageDraw.Draw(fill)
+        lw = 3 * ss
+        bx = [(r.x - x0) * ss, (r.y - y0) * ss, (r.x + r.w - x0) * ss, (r.y + r.h - y0) * ss]
+        shape = di.rectangle if ln.kind == "caption" else di.ellipse
+        fshape = df.rectangle if ln.kind == "caption" else df.ellipse
+        shape(bx, fill=255)
+        fshape([bx[0] + lw, bx[1] + lw, bx[2] - lw, bx[3] - lw], fill=255)
+        if ln.tail and ln.kind != "caption":
+            cx, cy = (bx[0] + bx[2]) / 2, (bx[1] + bx[3]) / 2
+            tx, ty = (int(ln.tail[0]) - x0) * ss, (int(ln.tail[1]) - y0) * ss
+            vx, vy = tx - cx, ty - cy
+            n = (vx * vx + vy * vy) ** 0.5 or 1
+            px, py = -vy / n, vx / n
+            base = 0.18 * min(bx[2] - bx[0], bx[3] - bx[1])
+            # base sits inside the ellipse (75% of the way to its edge) so the tail joins it seamlessly
+            ux, uy = vx / n, vy / n
+            a, b = (bx[2] - bx[0]) / 2, (bx[3] - bx[1]) / 2
+            t = 0.75 / ((ux / a) ** 2 + (uy / b) ** 2) ** 0.5
+            mx, my = cx + ux * t, cy + uy * t
+            b1 = (mx + px * base, my + py * base)
+            b2 = (mx - px * base, my - py * base)
+            di.polygon([b1, b2, (tx, ty)], fill=255)
+            # inner white tail, shrunk toward the tip by the line width
+            sh = lw * 1.8
+            df.polygon([(b1[0] - px * lw, b1[1] - py * lw), (b2[0] + px * lw, b2[1] + py * lw),
+                        (tx - vx / n * sh, ty - vy / n * sh)], fill=255)
+        ink = ink.resize((bw, bh), Image.LANCZOS)
+        fill = fill.resize((bw, bh), Image.LANCZOS)
+        patch = img.crop((x0, y0, x1, y1))
+        patch.paste((0, 0, 0), (0, 0), ink)
+        patch.paste((255, 255, 255), (0, 0), fill)
+        img.paste(patch, (x0, y0))
+
+
 def _assign(cands: list[Region], dlg: list[Line], caps: list[Line]):
     """Pick regions for dialogue (balloons) and captions (boxes). Returns (d_regions, c_regions, spare, notes)."""
     notes = []
@@ -507,6 +556,7 @@ def letter_page(page: Page, debug_dir: Path | None = None, src: Path | None = No
 
     out = img.copy()
     d = ImageDraw.Draw(out)
+    _paint_manual(out, [(ln, reg) for ln, _, reg in jobs if reg is not None and reg.manual and ln.draw])
 
     def style_of(ln):
         return "italic" if ln.kind == "caption" else ("bold" if (ln.style or "") in ("bold", "shout", "loud") else "regular")

@@ -10,7 +10,7 @@ import yaml
 REPO = Path(__file__).resolve().parents[2]
 PROD = REPO / "production"
 
-DIALOGUE_EXTRAS = {"style", "at", "box", "offpanel", "note", "text", "speaker"}
+DIALOGUE_EXTRAS = {"style", "at", "box", "offpanel", "note", "text", "speaker", "draw", "tail"}
 
 
 class SpecError(Exception):
@@ -48,6 +48,8 @@ class Line:
     offpanel: bool = False
     note: str | None = None
     box: list | None = None  # manual lettering box [x, y, w, h]
+    draw: bool = False  # paint a fresh white balloon/box over the art at `box` (covers a too-small drawn one)
+    tail: list | None = None  # with draw: tail tip [x, y] for the painted balloon
 
 
 @dataclass
@@ -186,6 +188,8 @@ def _dialogue(item, where: str) -> Line:
         offpanel=bool(item.get("offpanel", False)),
         note=item.get("note"),
         box=item.get("box"),
+        draw=bool(item.get("draw", False)),
+        tail=item.get("tail"),
     )
 
 
@@ -193,7 +197,7 @@ def _plain(item, kind: str) -> Line:
     if isinstance(item, str):
         return Line(kind, item)
     return Line(kind, str(item["text"]), style=item.get("style"), at=item.get("at"),
-                note=item.get("note"), box=item.get("box"))
+                note=item.get("note"), box=item.get("box"), draw=bool(item.get("draw", False)))
 
 
 def page_key(raw: dict) -> tuple[str, str, int | None]:
