@@ -41,6 +41,9 @@ A double-page manga SPREAD as one landscape 3:2 image (1536x1024). White page ma
 ## format-plate
 A single wide landscape 3:2 illustration (1536x1024), NOT a comic page: one full-bleed image with no panels, no borders, no text. It is a background reference plate for a manga, drawn in the same style as the reference pages.
 
+## format-sheet
+A character reference SHEET as one wide landscape 3:2 image (1536x1024) on plain white paper, NOT a comic page: full-body turnaround (front, three-quarter, side profile, back) on the left, a grid of head close-ups with different expressions on the right, plus one or two detail sketches. No panel borders around the turnaround, no text, no labels.
+
 ## lettering-ai
 Speech balloons are white ovals with a tail pointing at the speaker, with black uppercase comic lettering (clean manga scanlation style). Narration and inner thoughts go in white rectangular caption boxes with a thin black border. Sound effects are big hand-drawn English letters integrated into the art. All text exactly as written below, English only: no other text, no Japanese characters, no signs with readable words, no page number, no watermark, no signature.
 
@@ -90,6 +93,13 @@ RULES:
 
 ## self-check-no-car
 - There is NO small roadster or sports car anywhere on the page.
+
+## self-check-other-car
+- There is NO red Roadster anywhere; cars appear only in the panels that list them.
+
+## self-check-sheet
+- Every figure and close-up is the same single character, matching the description; nobody looks like the reference sheets' characters.
+- Landscape sheet on white paper: turnaround left, expression close-ups right; no text, labels or watermark.
 
 ## self-check-plate
 - There are NO people, NO human figures or silhouettes and NO vehicles of any kind anywhere in the image (no cars, trucks, bikes, forklifts).

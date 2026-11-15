@@ -23,6 +23,16 @@ All names PROVISIONAL unless the story bible says otherwise. Visual specs are bi
 - **Look:** small and thin for his age, round glasses, bowl-cut hair. Blue inhaler always near him.
 - **Personality:** sweet, idolizes Dai. Asthma: his medicine is a recurring household cost.
 
+## Nobuyuki "Nobu" Kawamata, 17 (classmate)
+
+- **Look:** about 165 cm, stocky and soft, round full face with chubby cheeks, very short buzz-cut black hair (whole forehead visible), thick straight eyebrows, small bright eyes, a big mouth that is usually talking. No glasses. Summer uniform: white short-sleeved shirt untucked and a bit tight over the belly, black trousers, indoor shoes with the heels trodden flat, a worn canvas shoulder bag. Approved reference: `artwork/character-sheets/nobu.png` (2026-11-15). Designed to look nothing like Dai.
+- **From the novel (Vol. 1 Ch. 1):** family ramen shop by the station (smells of soy sauce and pork bones), *Street Tune* reader since 13, a disposable camera in his bag, fast talker in horsepower figures, "Hayama-kun". "Call me Nobu."
+- **Personality:** eager, over-explains, kind, tactless, apologizes fast and means it.
+
+## Hotta-sensei (homeroom and English teacher)
+
+- **Look (no sheet, minor):** thin, tired, late 40s, towel round his neck, a cram-school paper fan with a cartoon owl. Short-sleeved shirt, loosened tie.
+
 ## Goto, mid-20s
 
 - **Look:** bleached, spiky, short hair, thin eyebrows, a cigarette nearly always. Shiny dark tracksuit jacket open over a white tank top, gold chain.

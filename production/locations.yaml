@@ -21,9 +21,9 @@ harbor-station-night:
     shipping containers along the dark road; a harbor crane far off; orange
     sodium street lamps receding down the road.
   plate: artwork/locations/harbor-station-night.png
-  sources:
-    - artwork/pages/chapter-001/page-20.png
-    - artwork/pages/chapter-002/page-14.png
+  # sources dropped 2026-11-15: the old ones were rainy or contained the Roadster;
+  # the dry plate was redrawn from the previous (wet) plate, see plates.yaml.
+  sources: []
   default_time: night
 
 harbor-station-day:
@@ -46,11 +46,9 @@ harbor-road-night:
     A wide, empty two-lane road through the harbor district at night: warehouse
     walls and stacked shipping containers on one side, chain-link fence and the
     dark water with cranes on the other, sparse orange sodium street lamps,
-    painted lane lines, puddles reflecting the lights.
+    painted lane lines on DRY asphalt.
   plate: artwork/locations/harbor-road-night.png
-  sources:
-    - artwork/pages/chapter-002/page-14.png
-    - artwork/pages/chapter-002/page-17.png
+  sources: []  # the old rainy ch2 pages made every plate wet; redrawn dry 2026-11-15
   default_time: night
 
 harbor-road-day:
@@ -155,3 +153,43 @@ harbor-pier-lot-night:
   sources:
     - artwork/locations/harbor-road-night.png
   default_time: night
+
+bypass-overpass-dawn:
+  name: pedestrian overpass over the Shiomi Bypass at dawn
+  description: >-
+    The same concrete pedestrian overpass with a tall steel safety railing
+    over the FOUR-lane bypass (two lanes each way, concrete median barrier)
+    at the long sweeping left-hand curve, at dawn: grey sky turning pale over
+    factory chimneys, street lamps still on but weak, the road empty and
+    clean. On the OUTSIDE of the curve a steel guardrail runs along the road;
+    ONE section of it, near the foot of the overpass stairs, is visibly NEWER
+    than the rest (brighter, clean, bolts not rusted), while the rest is old,
+    dull and stained.
+  plate: artwork/locations/bypass-overpass-dawn.png
+  sources:
+    - artwork/locations/bypass-overpass-night.png
+  guards:
+    - The road under the overpass has FOUR lanes (two each way) with a median barrier.
+    - Anyone on the overpass stays safely on the walkway behind the tall railing.
+  default_time: dawn
+
+bookstore:
+  name: old bookstore in the covered shopping street behind the station
+  description: >-
+    A long, narrow, dim old bookstore in a covered shopping arcade
+    (shotengai): tall wooden shelves of paperbacks down both sides of one
+    narrow aisle, a magazine rack by the open sliding glass door, a strip of
+    daylight at the entrance, fluorescent tubes, worn linoleum floor, small
+    handwritten paper signs taped to shelves, the owner's tiny counter with a
+    cash register at the back.
+  plate: artwork/locations/bookstore.png
+  default_time: day
+
+school-gate:
+  name: Shiomi Higashi High School gate
+  description: >-
+    The front gate of an old 1990s Japanese high school: two square concrete
+    gateposts, a low sliding iron gate pushed open, a concrete yard and the
+    worn three-storey school building behind, cherry trees in full summer
+    leaf, a quiet street outside with utility poles and power lines.
+  default_time: noon

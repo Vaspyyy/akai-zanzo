@@ -28,6 +28,12 @@ characters:
         desc: standard black gakuran school uniform with the collar open, worn carelessly
         ref: artwork/character-sheets/dai.png
         ref_note: the face and hair; the gakuran close-up is at the bottom right of the sheet
+      summer_school:
+        desc: >-
+          summer school uniform: white short-sleeved button shirt, untucked,
+          top button open, black school trousers, beat-up white canvas sneakers
+        ref: artwork/character-sheets/dai.png
+        ref_note: the face and hair only (the sheet shows other clothes)
       station:
         desc: >-
           gas-station uniform: grey work shirt worn OPEN and untucked over a
@@ -78,6 +84,14 @@ characters:
       home:
         desc: worn cardigan over a plain top, loose trousers
         ref: artwork/character-sheets/michiko.png
+      summer_home:
+        desc: plain faded T-shirt, loose trousers, an apron
+        ref: artwork/character-sheets/michiko.png
+        ref_note: the face and hair only
+      supermarket:
+        desc: plain supermarket work vest (dark tone) over a T-shirt, loose trousers
+        ref: artwork/character-sheets/michiko.png
+        ref_note: the face and hair only
 
   aya:
     name: AYA
@@ -94,6 +108,10 @@ characters:
       work:
         desc: supermarket cashier vest over a blouse, dark skirt or trousers
         ref: artwork/character-sheets/aya.png
+      blouse:
+        desc: plain short-sleeved blouse and dark trousers
+        ref: artwork/character-sheets/aya.png
+        ref_note: the face and hair only
 
   sota:
     name: SOTA
@@ -107,6 +125,54 @@ characters:
       home:
         desc: plain T-shirt, shorts, socks or sneakers
         ref: artwork/character-sheets/sota.png
+      undershirt:
+        desc: sleeveless white undershirt and shorts, barefoot
+        ref: artwork/character-sheets/sota.png
+
+  nobu:
+    name: NOBU
+    full_name: Nobuyuki "Nobu" Kawamata (classmate, ramen-shop son, 17)
+    traits: >-
+      17-year-old boy, about 165 cm, stocky and soft, round full face with
+      chubby cheeks, very short BUZZ-CUT black hair (forehead fully visible),
+      thick straight eyebrows, small bright eyes that go wide when excited,
+      a big expressive mouth that is usually talking or grinning. Leans
+      forward, restless. No glasses. Looks nothing like Dai.
+    tell: "the round-faced, stocky boy with a BUZZ CUT"
+    default_outfit: summer_school
+    outfits:
+      summer_school:
+        desc: >-
+          summer school uniform: white short-sleeved button shirt, untucked
+          and a little tight over his belly, black school trousers, indoor
+          shoes with the heels trodden flat; a canvas school bag
+        ref: artwork/character-sheets/nobu.png
+
+  hotta:
+    name: HOTTA-SENSEI
+    full_name: Hotta-sensei (homeroom and English teacher)
+    traits: >-
+      Thin, tired male teacher in his late 40s, receding black hair, sunken
+      cheeks, a white towel round his neck, fans himself with a flat paper
+      fan printed with a cartoon owl.
+    tell: "the thin, tired TEACHER with a towel round his neck"
+    default_outfit: teacher
+    outfits:
+      teacher:
+        desc: short-sleeved pale shirt, loosened dark tie, grey slacks, white towel round the neck
+
+  shop_owner:
+    name: OWNER
+    full_name: the bookstore owner
+    traits: >-
+      Small, wrinkled old man in his 70s, bald on top with white hair at the
+      sides, round reading glasses, a stern little mouth. Carries a feather
+      duster.
+    tell: "the tiny OLD bookstore owner with a feather duster"
+    default_outfit: cardigan
+    outfits:
+      cardigan:
+        desc: a buttoned grey cardigan (in August) over a shirt, dark trousers, slippers
 
   goto:
     name: GOTO
@@ -155,6 +221,24 @@ cars:
     states:
       headlights_up: pop-up headlights UP and lit
       headlights_down: pop-up headlights DOWN (closed, flush with the hood)
+
+  sx180:
+    name: the silver 180SX
+    full_name: Nissan 180SX (a customer's car, ch4)
+    traits: >-
+      Silver Nissan 180SX hatchback coupe (early 1990s), POP-UP headlights,
+      long sloping nose, fastback hatch, rust bubbling at the rear wheel
+      arches, plain stock wheels. Right-hand drive. NOT a Roadster: a bigger
+      four-seat coupe.
+    rules:
+      - "RIGHT-HAND DRIVE: the driver sits on the car's right side."
+
+  magazine_gtr:
+    name: the magazine-cover GT-R
+    full_name: printed photo of a black Skyline GT-R (R32) on a magazine cover
+    traits: >-
+      A small PRINTED PHOTO on a magazine cover: a black R32 Skyline GT-R shot
+      from low on the ground, a flame spitting from its exhaust.
 
   silvia:
     name: Goto's Silvia

@@ -1,0 +1,1097 @@
+# Chapter 4: "Practicing", from scripts/chapter-004.md (novel Vol. 1 Ch. 1).
+# Rules for this chapter:
+#   - Akane does NOT appear. The red Roadster does NOT appear (the only car shots: the 180SX on p27,
+#     the printed GT-R photo on a magazine cover on p8).
+#   - Dai shifts with his LEFT hand (right-hand-drive car); heel-and-toe is a downshift.
+#   - Nights are DRY and clear (the night plates were redrawn dry on 2026-11-15).
+#   - August: summer school uniform (white short-sleeved shirt), not the gakuran.
+#   - Classroom seating: Nobu's desk is directly BEHIND Dai's.
+#   - Nobody wears shoes indoors on tatami.
+chapter: 4
+title: Practicing
+lettering: empty
+defaults:
+  orientation: portrait
+
+pages:
+  # ------------------------------------------------------------ Friday dawn
+  - page: 1
+    title: Practicing
+    location: hayama-apartment
+    time: half past six on a summer morning, bright early daylight through the window (NOT night)
+    notes:
+      - "Morning: the window shows pale daylight, never a night sky."
+      - "Nobody wears shoes indoors: bare feet on the futon and tatami."
+    panels:
+      - pos: top, wide
+        action: >-
+          The small tatami room in early morning light: two futons on the floor,
+          a floor fan turning its head. Dai sits cross-legged on his futon in his
+          open grey work shirt over a black T-shirt (no cap), eyes shut, his LEFT
+          hand closed round a gear lever that isn't there. Sota is asleep under a
+          thin blanket on the other futon, his glasses folded on the windowsill.
+        cast: [dai:station, sota]
+        captions: ["HALF PAST SIX, FRIDAY MORNING. I WAS CHANGING GEAR.", "THERE WAS NO CAR."]
+      - pos: middle-right
+        shot: close-up
+        action: Close-up of Dai's LEFT hand gripping empty air like a short gear lever, moving it forward.
+        cast: [{id: dai, outfit: station, note: "only his left hand and rolled grey sleeve"}]
+        captions: ["FIRST, FORWARD AND AWAY. SECOND, STRAIGHT BACK. THIRD, ACROSS AND UP."]
+      - pos: middle-left
+        shot: close-up
+        action: >-
+          Close-up of Dai's bare feet on the futon: the ball of the right foot
+          pressed down while its heel rolls over sideways, as if braking and
+          blipping the gas at once. Motion lines on the heel.
+        cast: [{id: dai, outfit: station, note: "only his bare feet and jeans hems"}]
+      - pos: bottom, wide
+        action: >-
+          Sota sitting up on his futon, his hair flat on one side, sleepily
+          putting on his round glasses and looking across at Dai.
+        cast: [sota]
+        dialogue:
+          - sota: "...PRACTICING WHAT?"
+
+  - page: 2
+    title: Other hand
+    location: hayama-apartment
+    time: early summer morning, daylight through the window (NOT night)
+    continue_from: 1
+    notes: ["Nobody wears shoes indoors: bare feet on the futon and tatami."]
+    panels:
+      - pos: top-right
+        action: Dai on his futon, eyes still closed, left hand still on the invisible lever, answering flatly.
+        cast: [dai:station]
+        dialogue:
+          - dai: "SHIFTING."
+      - pos: top-left
+        action: Sota, glasses on now, squinting at Dai, then hopeful.
+        cast: [sota]
+        dialogue:
+          - sota: "WE DON'T HAVE A CAR."
+          - sota: "IS IT FOR THE RED CAR?"
+      - pos: middle, wide
+        action: >-
+          Dai says nothing, eyes shut. Sota's whole face goes wide and bright
+          with excitement, leaning toward him on his knees.
+        cast: [sota, dai:station]
+        dialogue:
+          - sota: "DID YOU SEE IT AGAIN? WAS IT FAST?"
+        captions: ["TO SOTA, NO ANSWER MEANS YES."]
+      - pos: bottom, large
+        action: >-
+          Sota has crawled over and sits cross-legged right next to Dai,
+          copying him, holding up his RIGHT hand on an invisible lever. Dai
+          has opened his eyes and looks sideways at Sota's raised hand, a small
+          patient look.
+        cast: [dai:station, sota]
+        dialogue:
+          - dai: "OTHER HAND."
+          - dai: "IN A JAPANESE CAR YOU SIT ON THE RIGHT. THE LEVER'S IN THE MIDDLE. SO IT'S YOUR LEFT HAND."
+
+  - page: 3
+    title: Left-handed
+    location: hayama-apartment
+    time: early summer morning, daylight through the window (NOT night)
+    continue_from: 2
+    notes: ["Nobody wears shoes indoors."]
+    panels:
+      - pos: top, wide
+        shot: close-up
+        action: >-
+          Close-up: Dai's big fingers wrapped round Sota's very thin LEFT
+          wrist, guiding the small hand through a gear pattern in the air
+          (arrows of motion: forward, back, across and up).
+        cast: [{id: dai, outfit: station, note: "only his hand"}, {id: sota, note: "only his thin wrist and hand"}]
+        captions: ["HIS WRIST WAS SO THIN MY FINGERS WENT ROUND IT WITH ROOM TO SPARE."]
+      - pos: middle-right
+        action: Sota, still shifting with his left hand, looking up at Dai with a question.
+        cast: [sota]
+        dialogue:
+          - sota: "WHY DO WE DRIVE ON THE LEFT?"
+      - pos: middle-left
+        action: Dai, deadpan, completely serious face.
+        cast: [dai:station]
+        dialogue:
+          - dai: "THE MAN WHO DECIDED WAS LEFT-HANDED."
+      - pos: bottom-right
+        action: Sota, wide-eyed and impressed.
+        cast: [sota]
+        dialogue:
+          - sota: "REALLY?"
+      - pos: bottom-left
+        action: Dai, looking away, the corner of his mouth almost smiling.
+        cast: [dai:station]
+        dialogue:
+          - dai: "PROBABLY."
+
+  - page: 4
+    title: Next week
+    location: hayama-apartment
+    time: early summer morning, daylight through the window (NOT night)
+    continue_from: 3
+    notes: ["Nobody wears shoes indoors."]
+    panels:
+      - pos: top, wide
+        action: >-
+          The two brothers side by side on the futon, both shifting on air
+          with their LEFT hands, Sota with the tip of his tongue between his
+          teeth in concentration. Quiet morning light.
+        cast: [dai:station, sota]
+        sfx: [{text: "hweee...", note: "small, near Sota's chest: a faint wheeze"}]
+        captions: ["HIS CHEST HAD ITS LITTLE MORNING WHISTLE. HE PRETENDED IT WASN'T THERE."]
+      - pos: middle-right
+        action: Sota, eager.
+        cast: [sota]
+        dialogue:
+          - sota: "WHAT DO THE FEET DO?"
+      - pos: middle-left
+        action: Dai, lying back down.
+        cast: [dai:station]
+        dialogue:
+          - dai: "FEET ARE NEXT WEEK."
+      - pos: bottom-right
+        action: Sota lying on his side on his own futon, facing Dai, glasses still on, sleepy and loyal.
+        cast: [sota]
+        dialogue:
+          - sota: "I WON'T TELL MOM."
+      - pos: bottom-left
+        action: >-
+          Dai lying on his back with one arm over his eyes; his LEFT hand
+          resting on his stomach is still making small shifting motions.
+        cast: [dai:station]
+        dialogue:
+          - dai: "THERE'S NOTHING TO TELL."
+          - {speaker: sota, text: "I WON'T TELL HER ANYWAY.", offpanel: true}
+        captions: ["MY LEFT HAND KEPT GOING WITHOUT ME."]
+
+  # ------------------------------------------------------------ remedial English
+  - page: 5
+    title: Re-test
+    location: classroom
+    time: about 9 AM, a hot August morning, bright sun
+    notes:
+      - "Classroom seating: Nobu (buzz cut) sits at the desk directly BEHIND Dai."
+      - "Only nine students in the whole room, spread out among forty desks."
+    panels:
+      - pos: top, wide
+        action: >-
+          A hot third-floor classroom: only nine students in summer uniforms
+          spread out among forty wooden desks, every window open, cherry trees
+          outside. Dai sits in the middle of the room; directly behind him a
+          stocky boy with a buzz cut. Heat shimmer.
+        cast: [dai:summer_school, nobu]
+        sfx: ["MIIIN MIN MIN"]
+        captions: ["LAST DAY OF SUMMER REMEDIAL ENGLISH."]
+      - pos: middle, wide
+        action: >-
+          Hotta-sensei standing at the blackboard, a towel round his neck,
+          fanning himself with a paper fan printed with a cartoon owl, tired
+          eyes.
+        cast: [hotta]
+        dialogue:
+          - hotta: "RE-TEST. FIFTY MINUTES. FORTY POINTS IS A PASS."
+          - hotta: "I'M NOT ASKING ANYBODY IN THIS ROOM FOR MORE THAN FORTY."
+      - pos: bottom-right
+        action: Dai bent over his test paper, writing, his white shirt stuck to his back with sweat.
+        cast: [dai:summer_school]
+        captions: ["ENGLISH WAS A LANGUAGE FOR PEOPLE WHO WANTED THINGS THEY COULDN'T HAVE."]
+      - pos: bottom-left
+        shot: close-up
+        action: Extreme close-up of a pencil point snapping on the paper, a tiny chip of lead flying.
+        cast: [{id: dai, outfit: summer_school, note: "only his fingers on the pencil"}]
+        sfx: ["SNAP"]
+
+  - page: 6
+    title: Heel-and-toe
+    location: classroom
+    time: a hot August morning
+    continue_from: 5
+    notes: ["Nobu (buzz cut, round face) sits directly BEHIND Dai."]
+    panels:
+      - pos: top-right
+        action: >-
+          From behind, over Dai's shoulder: a fat four-colour ballpoint pen
+          (four little sliders on top) held out from the desk behind, tapping
+          Dai's shoulder.
+        cast: [{id: dai, outfit: summer_school, note: "seen from behind, only his shoulder and the back of his head"}, {id: nobu, note: "only his hand holding the pen"}]
+        sfx: [{text: "TAP TAP", note: "small"}]
+      - pos: top-left
+        action: >-
+          Dai takes the pen without turning round, face set. Behind him Nobu,
+          the stocky boy with the buzz cut, is already looking down at his own
+          test again.
+        cast: [dai:summer_school, nobu]
+        captions: ["KAWAMATA. THREE WEEKS BEHIND ME. NOT ONE WORD."]
+      - pos: middle, wide
+        shot: close-up
+        action: >-
+          Close-up of the last page of Dai's notebook: three car pedals drawn
+          in pen as seen past your knees (clutch, brake, gas), a badly drawn
+          foot over the brake and gas with an arrow from the heel to the gas
+          pedal, several crossed-out lines of scribble (no readable words).
+          Dai's hand inking the foot again with the fat pen.
+        cast: [{id: dai, outfit: summer_school, note: "only his hand"}]
+      - pos: bottom-right
+        action: >-
+          Nobu leaning far forward over his desk, his round face right beside
+          Dai's shoulder, whispering with interest. Dai in the foreground,
+          seen from the side.
+        cast: [nobu, dai:summer_school]
+        dialogue:
+          - nobu: "THAT'S HEEL-AND-TOE."
+      - pos: bottom-left
+        action: Dai slaps his forearm down over the notebook page, glaring sideways.
+        cast: [dai:summer_school]
+        sfx: ["SLAP"]
+
+  - page: 7
+    title: Kawamata
+    location: classroom
+    time: a hot August morning
+    continue_from: 6
+    notes: ["Nobu sits directly BEHIND Dai; in shots of Nobu we look at him past Dai's shoulder or from the front."]
+    panels:
+      - pos: top, large
+        action: >-
+          Introduction shot of Nobu: the stocky boy with the buzz cut leaning
+          over his desk toward the camera, both hands raised in apology, a
+          sheepish, friendly grin, round cheeks. Behind him the open windows.
+        cast: [nobu]
+        dialogue:
+          - nobu: "SORRY. SORRY. I WASN'T LOOKING."
+          - nobu: "I WAS LOOKING A BIT."
+        captions: ["NOBUYUKI KAWAMATA. HE SMELLED OF SOY SAUCE AND PORK BONES. HIS FAMILY HAD A RAMEN SHOP BY THE STATION."]
+      - pos: middle-right
+        action: Nobu, one finger raised, explaining eagerly.
+        cast: [nobu]
+        dialogue:
+          - nobu: "BALL OF THE FOOT ON THE BRAKE, HEEL ON THE GAS. DO YOU DRIVE?"
+      - pos: middle-left
+        action: Dai, half turned in his seat, flat and guarded.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "NO."
+      - pos: bottom-right
+        action: Nobu, puzzled, head tilted.
+        cast: [nobu]
+        dialogue:
+          - nobu: "THEN WHY ARE YOU DRAWING HEEL-AND-TOE?"
+      - pos: bottom-left
+        action: Dai, narrowing his eyes at him.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "WHY DO YOU KNOW WHAT IT IS?"
+
+  - page: 8
+    title: Street Tune
+    location: classroom
+    time: a hot August morning
+    continue_from: 7
+    panels:
+      - pos: top, wide
+        action: >-
+          Nobu pulling a soft, rolled-up car magazine out of his canvas school
+          bag and unrolling it proudly; on its cover a printed photo of a black
+          sports car shot from the ground, a flame from its exhaust. A cardboard
+          disposable camera sticks out of the bag's side pocket. Dai watching.
+        cast: [nobu, dai:summer_school, {id: magazine_gtr, camera: "printed on the cover: low front three-quarter from the ground, flame from the exhaust", note: "a small printed photo on the magazine cover, not a real car"}]
+        dialogue:
+          - nobu: "EVERY ISSUE SINCE I WAS THIRTEEN."
+        notes: ["The magazine cover has NO readable title text."]
+      - pos: middle-right
+        shot: close-up
+        action: >-
+          Close-up: the magazine open near the back at a page of tiny
+          unreadable print in columns; Nobu's stubby finger underlines four
+          short lines.
+        cast: [{id: nobu, note: "only his hand"}]
+        captions: ["KAWAMATA N. (17), SHIOMI."]
+      - pos: middle-left
+        action: Nobu, beaming with pride, holding the magazine.
+        cast: [nobu]
+        dialogue:
+          - nobu: "JUNE. THEY DIDN'T ANSWER IT. BUT THEY PRINTED IT."
+      - pos: bottom, wide
+        action: >-
+          Hotta-sensei at the teacher's desk, marking papers with a red pen
+          and fanning himself with the owl fan, not looking up at all.
+        cast: [hotta]
+        dialogue:
+          - hotta: "KAWAMATA. WORKSHEET."
+
+  - page: 9
+    title: Honest means slow
+    location: classroom
+    time: a hot August morning
+    continue_from: 8
+    panels:
+      - pos: top-right
+        action: Nobu leaning forward over his desk again, whispering.
+        cast: [nobu]
+        dialogue:
+          - nobu: "SO WHO DID YOU SEE DO IT?"
+      - pos: top-left
+        action: Dai, eyes on his notebook, answering without turning.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "SOMEBODY IN A ROADSTER."
+      - pos: middle, wide
+        action: >-
+          Nobu nearly coming over his desk with excitement, eyes wide, hands
+          gripping the desk edge, talking fast.
+        cast: [nobu]
+        dialogue:
+          - nobu: "A EUNOS? 120 PS. THE MAGAZINE SAYS IT'S THE MOST HONEST CAR IN JAPAN."
+          - nobu: "HONEST MEANS SLOW."
+      - pos: bottom-right
+        action: Dai, turning his head a little, quietly certain.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "IT BEAT A SILVIA."
+      - pos: bottom-left
+        action: Nobu counting on his fingers, smug.
+        cast: [nobu]
+        dialogue:
+          - nobu: "A K'S HAS 205 PS. SO EITHER YOU'RE LYING OR..."
+
+  - page: 10
+    title: The ghost Roadster
+    location: classroom
+    time: a hot August morning
+    continue_from: 9
+    panels:
+      - pos: top, wide
+        action: >-
+          Nobu stops dead mid-sentence, mouth open, staring at Dai as if
+          something impossible just happened. Dai in the foreground, back of
+          his head.
+        cast: [nobu, {id: dai, outfit: summer_school, note: "back of his head only"}]
+        dialogue:
+          - nobu: "THE HARBOR ONE. THE GHOST ROADSTER."
+        captions: ["HE LOOKED AT ME LIKE A VENDING MACHINE THAT HAD JUST DROPPED TWO CANS."]
+      - pos: middle, wide
+        shot: close-up
+        action: Close-up of Dai's face, quiet and serious, eyes under the fringe.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "THE AKAI ZANZO."
+      - pos: bottom, wide
+        action: Nobu grabbing the edge of Dai's desk with both hands, leaning in, thrilled.
+        cast: [nobu]
+        dialogue:
+          - nobu: "A TRUCK DRIVER TOLD MY FATHER. IT BEAT A GT-R ON THE BYPASS,"
+          - nobu: "AND UNDER THE BRIDGE THERE WAS NOBODY IN THE DRIVER'S SEAT."
+
+  - page: 11
+    title: On the bridge
+    location: classroom
+    time: a hot August morning
+    continue_from: 10
+    panels:
+      - pos: top-right
+        action: Dai, matter-of-fact.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "IT WAS A SILVIA. A WHITE S13. AND SOMEBODY WAS DRIVING."
+      - pos: top-left
+        action: Nobu, challenging.
+        cast: [nobu]
+        dialogue:
+          - nobu: "HOW DO YOU KNOW?"
+      - pos: middle, wide
+        action: Low angle on Dai, turned in his seat to face Nobu, calm and certain.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "I WAS ON THE BRIDGE."
+      - pos: bottom-right
+        action: Nobu's eyes narrowing, sceptical, arms folded.
+        cast: [nobu]
+        dialogue:
+          - nobu: "EVERYBODY WAS ON THE BRIDGE."
+      - pos: bottom-left
+        action: Dai, looking straight at him.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "I RODE IN IT. LAST NIGHT."
+
+  - page: 12
+    title: Funny
+    location: classroom
+    time: a hot August morning
+    continue_from: 11
+    panels:
+      - pos: top-right
+        action: Nobu bursting out laughing, impressed, not believing a word.
+        cast: [nobu]
+        dialogue:
+          - nobu: "OKAY."
+      - pos: top-left
+        action: Dai, stubborn.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "I DID."
+      - pos: middle, wide
+        action: Nobu grinning, leaning on his elbows.
+        cast: [nobu]
+        dialogue:
+          - nobu: "SURE. WHO DRIVES IT?"
+      - pos: bottom-right
+        shot: close-up
+        action: Close-up of Dai, his mouth half open, then shutting it, eyes sliding away, ears going red.
+        cast: [dai:summer_school]
+        captions: ["SHE WOULDN'T WANT HER NAME GOING ROUND A RAMEN SHOP WITH THE GYOZA."]
+        dialogue:
+          - dai: "I'M NOT TELLING YOU THAT."
+      - pos: bottom-left
+        action: Nobu, delighted, pointing a finger at Dai.
+        cast: [nobu]
+        dialogue:
+          - nobu: "SEE? HAYAMA-KUN. I DIDN'T KNOW YOU WERE FUNNY."
+
+  - page: 13
+    title: Come awake
+    location: classroom
+    time: ten to twelve, a hot August day
+    continue_from: 12
+    panels:
+      - pos: top, wide
+        action: >-
+          Hotta-sensei at the front reading out marks from a list, towel round
+          his neck, fanning; the few students listening.
+        cast: [hotta]
+        dialogue:
+          - hotta: "KAWAMATA, 71. HAYAMA, 44. EVERYBODY PASSED. GO HOME. SLEEP."
+      - pos: middle, wide
+        action: >-
+          At the teacher's desk Hotta-sensei hands Dai his test paper but keeps
+          holding his end of it, so Dai has to look him in the eye. Hotta tired
+          but serious; Dai silent.
+        cast: [hotta, dai:summer_school]
+        dialogue:
+          - hotta: "HAYAMA. COME AWAKE."
+      - pos: bottom-right
+        location: school-gate
+        action: >-
+          Outside at the school gate in the noon sun: Nobu, careful for once,
+          serious face, his school bag on his back.
+        cast: [nobu]
+        dialogue:
+          - nobu: "IS IT TRUE YOU WERE IN REFORM SCHOOL?"
+      - pos: bottom-left
+        location: school-gate
+        action: Dai at the gate, guarded, eyes hard, not looking at him.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "IT WASN'T REFORM SCHOOL. IT WAS A PLACE."
+
+  - page: 14
+    title: Call me Nobu
+    location: school-gate
+    time: noon, hot August sun
+    continue_from: 13
+    panels:
+      - pos: top-right
+        action: Nobu, sincere, a small bow of the head.
+        cast: [nobu]
+        dialogue:
+          - nobu: "SORRY."
+      - pos: top-left
+        action: Nobu brightening at once, holding up his test paper with a big red 71 on it.
+        cast: [nobu]
+        dialogue:
+          - nobu: "MY COUSIN'S LICENSE COST 280,000 YEN. MY FATHER SAYS HE'LL PAY HALF OF MINE IF I PASS EVERYTHING."
+      - pos: middle, wide
+        shot: close-up
+        action: Close on Dai's face in the bright sun, very still, eyes widening a fraction.
+        cast: [dai:summer_school]
+        captions: ["280,000 YEN. I DIDN'T SAY IT OUT LOUD."]
+      - pos: bottom-right
+        action: Nobu walking off, turning back over his shoulder with a grin.
+        cast: [nobu]
+        dialogue:
+          - nobu: "CALL ME NOBU. EVERYBODY DOES."
+          - nobu: "WELL. MY FATHER DOES."
+      - pos: bottom-left
+        action: >-
+          Wide: Nobu trotting off down the street toward the station, his bag
+          banging on his back; Dai standing alone at the school gate in the
+          foreground, hands in pockets.
+        cast: [nobu, dai:summer_school]
+        captions: ["I DIDN'T CALL HIM ANYTHING YET."]
+
+  # ------------------------------------------------------------ bookstore
+  - page: 15
+    title: Bookstore
+    location: bookstore
+    time: half past twelve, a hot summer day
+    panels:
+      - pos: top, wide
+        action: >-
+          A covered shopping arcade behind the station: Dai in his summer
+          uniform walking fast past a pachinko parlor whose glass doors slide
+          open on a blast of noise and cold air; rows of machines inside.
+          Paper lanterns and shop awnings, no readable signs.
+        cast: [dai:summer_school]
+        sfx: ["JARARARA"]
+      - pos: middle-right
+        action: >-
+          Inside the narrow bookstore: four middle-aged men standing at the
+          magazine rack by the door, each reading a magazine.
+        captions: ["THE SIGN SAID NO STANDING READING. FOUR MEN WERE STANDING READING."]
+        notes: ["The four men are background customers, not named characters."]
+      - pos: middle-left
+        action: Dai crouched at the bottom shelf of the aisle, pulling out a thick paperback with a plain white cover.
+        cast: [dai:summer_school]
+      - pos: bottom-right
+        shot: close-up
+        action: >-
+          Close-up of the open book: a row of six small numbered photos of a
+          man's feet on three car pedals (brake, clutch in, heel rolling over
+          to the gas, clutch up). No readable words.
+      - pos: bottom-left
+        action: >-
+          Dai standing reading the book; his right foot on the linoleum floor
+          doing the heel-and-toe roll, the loose sole of his old canvas sneaker
+          flapping.
+        cast: [dai:summer_school]
+        sfx: [{text: "SQUEAK", note: "small, at his shoe"}]
+        captions: ["SO THAT WAS WHERE NEUTRAL WENT."]
+
+  - page: 16
+    title: Feather duster
+    location: bookstore
+    time: early afternoon
+    continue_from: 15
+    panels:
+      - pos: top-right
+        action: >-
+          The tiny old owner in his cardigan comes down the narrow aisle with a
+          feather duster, dusting the books a hand's width from Dai's face; a
+          little cloud of dust in the light. Dai keeps reading.
+        cast: [shop_owner, dai:summer_school]
+        sfx: ["PATA PATA"]
+      - pos: top-left
+        action: Dai takes one step to the left, still reading.
+        cast: [dai:summer_school]
+      - pos: middle-right
+        action: The owner follows and dusts Dai's shoulder with the feather duster, stone-faced.
+        cast: [shop_owner, dai:summer_school]
+        sfx: ["PATA"]
+      - pos: middle-left
+        action: Dai at the very end of the aisle against the wall, nowhere left to go, still holding the open book.
+        cast: [dai:summer_school]
+      - pos: bottom, large
+        action: >-
+          The tiny owner on tiptoe dusting the top of Dai's head with the
+          feather duster; Dai standing still with his eyes shut, holding the
+          book, enduring it. Deadpan comedy.
+        cast: [shop_owner, dai:summer_school]
+        sfx: ["PATA PATA PATA"]
+
+  - page: 17
+    title: Buy it or put it back
+    location: bookstore
+    time: early afternoon
+    continue_from: 16
+    panels:
+      - pos: top-right
+        action: The old owner, feather duster on his shoulder like a rifle, glaring up through his glasses.
+        cast: [shop_owner]
+        dialogue:
+          - shop_owner: "THIS ISN'T A LIBRARY."
+      - pos: top-left
+        action: Dai, not looking up from the book.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "TWO MORE PAGES."
+      - pos: middle-right
+        action: The owner, unmoved.
+        cast: [shop_owner]
+        dialogue:
+          - shop_owner: "BUY IT OR PUT IT BACK."
+      - pos: middle-left
+        shot: close-up
+        action: Close-up of Dai's hands turning the book over to look at the small price sticker on the back.
+        cast: [{id: dai, outfit: summer_school, note: "only his hands"}]
+        captions: ["1,854 YEN WITH TAX. TWO HOURS AND FORTY MINUTES UNDER THE CANOPY."]
+      - pos: bottom, wide
+        action: >-
+          Dai walking out toward the bright arcade, hands in pockets; behind
+          him the old owner dusts the empty gap on the bottom shelf where the
+          book had been.
+        cast: [dai:summer_school, shop_owner]
+        captions: ["HE DUSTED THE PLACE WHERE IT HAD BEEN, IN CASE I'D LEFT FINGERPRINTS."]
+
+  # ------------------------------------------------------------ the receipt
+  - page: 18
+    title: The receipt
+    time: about 1 PM, hot summer day, harsh sun and short shadows
+    notes:
+      - "Setting: a bus stop on a street corner by a small convenience store, a low concrete wall in the strip of shade under the bus timetable pole."
+      - "No cars on this page."
+    panels:
+      - pos: top, wide
+        action: >-
+          Dai in his summer uniform sitting on a low concrete wall by a bus
+          stop, in the thin strip of shade under the timetable pole, a small
+          convenience store behind. A rice-ball onigiri in its wrapper beside
+          him, a convenience-store receipt on his knee, the fat four-colour pen
+          in his hand.
+        cast: [dai:summer_school]
+        captions: ["18,787 YEN IN THE WORLD. MOST OF IT IN MY ENGLISH DICTIONARY, WHICH NOBODY IN MY FAMILY HAS EVER OPENED."]
+      - pos: middle-right
+        shot: close-up
+        action: "Close-up of the back of the receipt filling up with handwritten long-division sums (numbers only)."
+        cast: [{id: dai, outfit: summer_school, note: "only his hand with the pen"}]
+        captions: ["280,000 TAKE AWAY 18,787. 261,213."]
+      - pos: middle-left
+        action: Dai counting on his fingers, lips moving.
+        cast: [dai:summer_school]
+        captions: ["HALF OF EVERY PAYDAY GOES ON THE SHOE CABINET. 22,400 LEFT. TWELVE PAYDAYS."]
+      - pos: bottom, wide
+        shot: close-up
+        action: Close on Dai's face in the shade, quiet, taking it in; heat haze on the street behind.
+        cast: [dai:summer_school]
+        captions: ["THE TWELFTH ONE WAS THE SEVENTH OF FEBRUARY.", "I'D BE EIGHTEEN TWO DAYS LATER."]
+
+  - page: 19
+    title: The other sum
+    time: about 1 PM, hot summer day
+    continue_from: 18
+    notes:
+      - "Setting: the same bus-stop wall in the shade, by a small convenience store."
+      - "No cars on this page."
+    panels:
+      - pos: top-right
+        action: Dai holding the onigiri in its wrapper, looking at it.
+        cast: [dai:summer_school]
+        captions: ["113 YEN. TEN MINUTES UNDER THE CANOPY."]
+      - pos: top-left
+        action: Dai taking a big bite of the onigiri anyway.
+        cast: [dai:summer_school]
+        captions: ["I ATE IT ANYWAY. IT WAS PAID FOR."]
+      - pos: middle, wide
+        shot: close-up
+        action: "Close-up of Dai's hand writing a second, shorter sum under the first on the receipt (numbers only)."
+        cast: [{id: dai, outfit: summer_school, note: "only his hand with the pen"}]
+        captions: ["ALL OF IT, EVERY PAYDAY: SIX PAYDAYS. THE FIFTEENTH OF NOVEMBER."]
+      - pos: bottom-right
+        shot: close-up
+        action: >-
+          Close-up: the pen scoring hard lines through that sum again and
+          again until the paper tears and the nib digs into the knee of his
+          black trousers.
+        cast: [{id: dai, outfit: summer_school, note: "only his hand and knee"}]
+        sfx: ["SCRITCH SCRITCH"]
+      - pos: bottom-left
+        action: Dai folding the receipt in four and pushing it into his trouser pocket, face blank.
+        cast: [dai:summer_school]
+
+  # ------------------------------------------------------------ home
+  - page: 20
+    title: Forty-seven
+    location: hayama-apartment
+    time: two to four in the afternoon, hot summer daylight through the open window
+    notes:
+      - "Daytime: the window shows bright daylight."
+      - "Nobody wears shoes indoors: bare feet or socks on the tatami."
+    panels:
+      - pos: top, wide
+        action: >-
+          The hot apartment. Sota at the low table in a sleeveless white
+          undershirt with a big glass jar full of brown cicada skins and a
+          sheet of cardboard ruled into boxes; he holds one skin up very
+          carefully to show it.
+        cast: [sota:undershirt]
+        dialogue:
+          - sota: "FORTY-SEVEN."
+          - sota: "THEY'RE NOT SHELLS, NII-CHAN. THEY'RE WHAT'S LEFT WHEN THE CICADA CLIMBS OUT."
+      - pos: middle-right
+        action: Dai asleep on his back on the tatami in his white school shirt and black trousers, the floor fan aimed at his face.
+        cast: [dai:summer_school]
+      - pos: middle-left
+        action: >-
+          Mom at the small kitchen sink in a T-shirt, rinsing white somen
+          noodles in a colander under the tap with her fingers; her hands red,
+          the knuckles dry and split. Steam from a big pot.
+        cast: [michiko:summer_home]
+        dialogue:
+          - michiko: "YOU SLEPT IN YOUR SCHOOL TROUSERS."
+      - pos: bottom, wide
+        action: >-
+          Aya in the kitchen doorway, kicking off her shoes at the genkan,
+          holding up a plastic deli tray of four croquettes under plastic wrap
+          with a yellow discount sticker, dry expression.
+        cast: [{id: aya, outfit: blouse, note: "a supermarket bag on her arm"}]
+        dialogue:
+          - aya: "320 YEN, 30% OFF, 224. THEY WERE GOING IN THE BIN. I PAID."
+          - aya: "SOMEBODY SAY THANK YOU."
+
+  - page: 21
+    title: Where it went
+    location: hayama-apartment
+    time: early evening, warm light
+    notes: ["Nobody wears shoes indoors."]
+    panels:
+      - pos: top-right
+        action: Sota at the low table, polite and happy.
+        cast: [sota:undershirt]
+        dialogue:
+          - sota: "THANK YOU."
+      - pos: top-left
+        action: Aya, deadpan, setting the tray down.
+        cast: [aya:blouse]
+        dialogue:
+          - aya: "SOMEBODY WHO ISN'T ELEVEN."
+      - pos: middle, wide
+        action: >-
+          Dinner: the four of them kneeling round the tiny low table, knees
+          touching; a big glass bowl of somen in iced water with ice cubes, a
+          croquette on each plate, the small CRT TV on low in the corner
+          showing baseball. Mom quietly moves half of her croquette onto
+          Sota's plate. Everybody notices; nobody says anything. Silent panel.
+        cast: [michiko:summer_home, sota:undershirt, aya:blouse, dai:summer_school]
+      - pos: bottom-right
+        action: Mom, eyes on her bowl, chopsticks in hand, saying it plainly.
+        cast: [michiko:summer_home]
+        dialogue:
+          - michiko: "I PAID THE PHARMACY ON THE WAY HOME. WITH YOUR MONEY."
+      - pos: bottom-left
+        action: Dai, uncomfortable, looking at his noodles.
+        cast: [dai:summer_school]
+        dialogue:
+          - dai: "IT'S YOURS. I GAVE IT TO YOU."
+
+  - page: 22
+    title: Kicking
+    location: hayama-apartment
+    time: early evening, warm light
+    notes: ["Nobody wears shoes indoors: bare feet under the table."]
+    panels:
+      - pos: top-right
+        action: Mom, still not looking up, matter-of-fact.
+        cast: [michiko:summer_home]
+        dialogue:
+          - michiko: "I'M TELLING YOU WHERE IT WENT. PHARMACY, 4,820. SOTA'S THINGS, 2,150. THE REST IS IN THE RENT ENVELOPE."
+      - pos: top-left
+        shot: close-up
+        action: >-
+          Under the low table: Dai's bare right foot rolling over the edge of a
+          flat floor cushion, ball then heel, like working pedals; Aya's bare
+          shin right next to it.
+        cast: [{id: dai, outfit: summer_school, note: "only his bare foot and trouser leg"}]
+        dialogue:
+          - {speaker: aya, text: "STOP IT.", offpanel: true}
+      - pos: middle, wide
+        action: Aya glaring sideways at Dai across the table, chopsticks pointed at him.
+        cast: [aya:blouse]
+        dialogue:
+          - aya: "YOUR FOOT. YOU'VE KICKED ME FIVE TIMES. I COUNTED."
+      - pos: bottom-right
+        action: Sota putting his chopsticks down, excited, blurting it out.
+        cast: [sota:undershirt]
+        dialogue:
+          - sota: "HE'S PRACTICING!"
+      - pos: bottom-left
+        action: >-
+          Sota freezing as he catches Dai's look, glancing at Aya, sweat drop.
+          In the background Dai now kneels upright in seiza.
+        cast: [sota:undershirt, {id: dai, outfit: summer_school, note: "in the background, kneeling in seiza, silent"}]
+        dialogue:
+          - sota: "...KICKING."
+        captions: ["I SAT IN SEIZA FOR THE REST OF THE MEAL. YOU CAN'T KICK ANYONE FROM SEIZA."]
+
+  - page: 23
+    title: Your shoe's open
+    location: hayama-apartment
+    time: a quarter to eight in the evening, dark outside, the ceiling light on
+    continue_from: 22
+    panels:
+      - pos: top, wide
+        action: >-
+          The cramped genkan by the steel front door: Mom in her supermarket
+          vest, standing with one shoe on, looking down at the shoes on the
+          concrete step. Dai behind her in the kitchen doorway in a black
+          T-shirt.
+        cast: [michiko:supermarket, {id: dai, outfit: casual, note: "in the background"}]
+      - pos: middle-right
+        shot: close-up
+        action: >-
+          Close-up of Dai's worn white canvas sneakers on the genkan step: the
+          right one's sole has come away at the toe and gapes open like a mouth.
+        dialogue:
+          - {speaker: michiko, text: "YOUR SHOE'S OPEN.", offpanel: true}
+      - pos: middle-left
+        action: Dai, hands in pockets, shrugging.
+        cast: [dai:casual]
+        dialogue:
+          - dai: "IT'S FINE."
+      - pos: bottom-right
+        action: Mom putting on her other shoe, not looking at him, tired.
+        cast: [michiko:supermarket]
+        dialogue:
+          - michiko: "WHEN IT RAINS IT WON'T BE FINE. THE SHOE SHOP BY THE STATION HAS CANVAS ONES FOR 2,980. I LOOKED."
+      - pos: bottom-left
+        action: The heavy steel front door closing softly behind her, the genkan empty, Dai's open sneaker on the step.
+        sfx: [{text: "kachan", note: "small, soft"}]
+
+  # ------------------------------------------------------------ Sunday night
+  - page: 24
+    title: Why blip
+    location: harbor-station-night
+    time: Sunday, 3 AM
+    weather: dry, clear night; dry concrete, no puddles
+    panels:
+      - pos: top, wide
+        action: >-
+          The empty gas station at 3 a.m. under the canopy lights, the harbor
+          road empty under orange lamps. Dai standing on the curb of the pump
+          island with the ball of his right foot on the edge and the heel
+          hanging over in the air, practicing.
+        cast: [dai:station]
+        captions: ["SUNDAY NIGHT."]
+      - pos: middle-right
+        action: Kubo leaning in the office doorway with a can of coffee, watching.
+        cast: [kubo]
+        dialogue:
+          - kubo: "WHAT'S WRONG WITH YOUR FOOT."
+      - pos: middle-left
+        action: Dai on the curb, not turning round.
+        cast: [dai:station]
+        dialogue:
+          - dai: "NOTHING."
+      - pos: bottom-right
+        action: Kubo, dry, sipping.
+        cast: [kubo]
+        dialogue:
+          - kubo: "YOU'VE BEEN DOING NOTHING WITH IT SINCE MIDNIGHT."
+      - pos: bottom-left
+        action: Dai turning to face him, serious.
+        cast: [dai:station]
+        dialogue:
+          - dai: "KUBO-SAN. WHY DO YOU HAVE TO BLIP?"
+
+  - page: 25
+    title: Burnable garbage
+    location: harbor-station-night
+    time: Sunday, about 3 AM
+    weather: dry, clear night
+    continue_from: 24
+    panels:
+      - pos: top-right
+        action: Kubo sitting down on a stool by the oil-can rack under the canopy, can of coffee in his left hand.
+        cast: [kubo]
+        dialogue:
+          - kubo: "EVER JUMP OFF A BUS BEFORE IT STOPS? HOW'D YOU LAND?"
+      - pos: top-left
+        action: Dai, a little embarrassed.
+        cast: [dai:station]
+        dialogue:
+          - dai: "ON MY FACE."
+      - pos: upper-middle, wide
+        action: Kubo explaining, gesturing with the can, eyes half closed.
+        cast: [kubo]
+        dialogue:
+          - kubo: "YOU DROP A GEAR, THE ENGINE HAS TO SPIN FASTER TO MATCH THE WHEELS. YOU DON'T GIVE IT GAS, THE BACK END STEPS OUT."
+          - kubo: "SO YOU BLIP. SO IT LANDS ON ITS FEET."
+      - pos: lower-middle-right
+        shot: close-up
+        action: >-
+          Close-up of the back of Kubo's LEFT hand holding the coffee can: an
+          old white, shiny burn scar across it, the knuckle creases black with
+          grime soap can't reach.
+        cast: [{id: kubo, note: "only his left hand"}]
+        captions: ["I SAW HIS HAND PROPERLY FOR THE FIRST TIME."]
+      - pos: lower-middle-left
+        action: Dai standing in the office doorway, asking the real question.
+        cast: [dai:station]
+        dialogue:
+          - dai: "DOES SHE EVER COME ON OTHER DAYS?"
+      - pos: bottom, wide
+        action: >-
+          Inside the small office: Kubo at his desk counting coins from the
+          change tray into neat stacks of ten, not looking up, deadpan.
+        cast: [kubo]
+        dialogue:
+          - kubo: "THURSDAYS."
+          - kubo: "LIKE BURNABLE GARBAGE."
+
+  # ------------------------------------------------------------ Thursday
+  - page: 26
+    title: Thursday
+    location: harbor-station-night
+    time: Thursday, a quarter to ten at night
+    weather: dry, clear night with stars; dry concrete, no puddles
+    panels:
+      - pos: top, wide
+        action: >-
+          The gas station on a clear night, canopy lights on. Dai arriving
+          early, walking in under the canopy with his grey cap on perfectly
+          straight, dust on his sneakers.
+        cast: [dai:station]
+        captions: ["THE LAST THURSDAY OF AUGUST."]
+      - pos: middle-right
+        action: Kubo inside the office booth glancing up from his newspaper at the clock, then at Dai.
+        cast: [kubo]
+        dialogue:
+          - kubo: "EARLY."
+      - pos: middle-left
+        action: Dai, straight-faced.
+        cast: [dai:station]
+        dialogue:
+          - dai: "THE BUS WAS EARLY."
+      - pos: bottom-right
+        action: Kubo turning a newspaper page, not looking up.
+        cast: [kubo]
+        dialogue:
+          - kubo: "YOU WALKED. YOUR SHOES ARE WHITE WITH DUST. SIT DOWN. YOU'RE MAKING THE PUMPS NERVOUS."
+      - pos: bottom-left
+        action: >-
+          Seen from inside the office: Dai outside polishing the office window
+          with a rag; Kubo in the foreground with his coffee, watching him
+          through the glass like a fish in a tank.
+        cast: [kubo, dai:station]
+        captions: ["12:10. 1:00. 1:40."]
+
+  - page: 27
+    title: The 180SX
+    location: harbor-station-night
+    time: Thursday night, 1:50 to 2:00 AM
+    weather: dry, clear night; dry asphalt, no puddles
+    continue_from: 26
+    notes: ["There is NO red Roadster on this page: the only car is the silver 180SX."]
+    panels:
+      - pos: top-right
+        shot: close-up
+        action: Close on Dai at the pumps, a can of coffee in his hand, head lifted, listening hard.
+        cast: [dai:station]
+        captions: ["AT 1:50 I STARTED LISTENING PROPERLY."]
+      - pos: top-left
+        location: harbor-road-night
+        action: Far down the dark, dry harbor road, two pop-up headlights flipping open, tiny in the distance.
+        cast: [{id: sx180, state: pop-up headlights up and lit, camera: "head-on from very far away down the road, only its two headlights visible as small points", note: "far away, only its headlights visible"}]
+        captions: ["2:00."]
+      - pos: middle, wide
+        action: Dai walking quickly toward the pump island under the canopy, hopeful, his back to us.
+        cast: [dai:station]
+      - pos: bottom, large
+        action: >-
+          It's not her car: a silver 180SX stopped at the pump under the
+          canopy, rust bubbling at its rear wheel arch. Dai leans over the
+          hood, carefully cleaning the windshield with a squeegee. Through the
+          glass: a young guy at the wheel on the RIGHT, a girl asleep against
+          the passenger window.
+        cast: [dai:station, {id: sx180, state: pop-up headlights down, camera: "eye level, front three-quarter on its RIGHT (driver's) flank, the nose pointing toward the lower RIGHT of the panel, the windshield large in frame", note: "a young man at the wheel on the right, a girl asleep in the passenger seat; plain background people, not named characters"}]
+        captions: ["IT WASN'T HIS FAULT HE WASN'T HER."]
+
+  - page: 28
+    title: Not a train
+    location: harbor-station-night
+    time: Thursday night, 2:30 AM
+    weather: dry, clear night
+    notes: ["No cars on this page: the forecourt is empty."]
+    panels:
+      - pos: top, wide
+        action: >-
+          The empty forecourt at 2:30 a.m.: Kubo and Dai standing side by side
+          under the canopy, the fluorescent tubes swarming with moths. Kubo
+          holds a cigarette between two fingers, away from himself, like a
+          dipstick.
+        cast: [kubo, dai:station]
+        captions: ["2:30."]
+      - pos: middle-right
+        action: Kubo, looking at the empty road.
+        cast: [kubo]
+        dialogue:
+          - kubo: "SHE'S NOT A TRAIN."
+      - pos: middle-left
+        action: Dai, looking at the road too.
+        cast: [dai:station]
+        dialogue:
+          - dai: "I KNOW."
+      - pos: lower-middle-right
+        action: Kubo letting smoke out through his nose, the smoke hanging in the canopy lights.
+        cast: [kubo]
+        dialogue:
+          - kubo: "SOMETIMES A WOMAN JUST DOESN'T FEEL LIKE BUYING GASOLINE FROM A KID WHO STARES."
+      - pos: lower-middle-left
+        action: Dai, scowling a little.
+        cast: [dai:station]
+        dialogue:
+          - dai: "I DON'T STARE."
+      - pos: bottom, wide
+        action: Kubo walking back toward the lit office, his back to us; Dai alone under the canopy behind him.
+        cast: [kubo, {id: dai, outfit: station, note: "small, in the background, silent"}]
+        dialogue:
+          - kubo: "FIRST THURSDAY SHE'S MISSED SINCE I STARTED NOTICING."
+
+  # ------------------------------------------------------------ dawn
+  - page: 29
+    title: The guardrail
+    location: bypass-overpass-dawn
+    time: just after dawn, about 6:15 AM, pale grey sky
+    notes:
+      - "Dai is calm and curious here, safely on the walkway; he does not lean on or climb the railing."
+      - "No cars on this page."
+    panels:
+      - pos: top, wide
+        action: >-
+          Dawn over the bypass: the pedestrian overpass above the empty curve,
+          pale sky, factory chimneys, a page of newspaper lifting on the road.
+          Dai, no cap, in his open grey work shirt, standing on the walkway
+          with his hands in his pockets, looking down the curve.
+        cast: [{id: dai, outfit: station, note: "NO cap, hands in pockets"}]
+        captions: ["I WENT HOME THE LONG WAY. I DON'T KNOW WHY.", "YES, I DO."]
+      - pos: middle, wide
+        action: >-
+          Looking down from the overpass at the outside of the curve: the
+          long steel guardrail; one section of it is clearly newer than the
+          rest, bright and clean with unrusted bolts, between old, dull,
+          stained sections.
+        captions: ["I'D STOOD UP HERE TWENTY NIGHTS AND NEVER SEEN IT."]
+      - pos: bottom-right
+        action: >-
+          At the foot of the overpass stairs, beside the new guardrail: a long
+          pale patch on the concrete where a dark scrape was scrubbed away long
+          ago, a faint ghost of the mark still visible.
+      - pos: bottom-left
+        shot: close-up
+        action: Close on Dai's face in the dawn light, looking down, quiet and unsettled.
+        cast: [{id: dai, outfit: station, note: "NO cap"}]
+        captions: ["SOMEBODY HAD HIT THAT HARD."]
+
+  - page: 30
+    title: She didn't come
+    location: hayama-apartment
+    time: about 6:45 in the morning, pale daylight through the window (NOT night)
+    continue_from: 4
+    notes:
+      - "Morning: daylight in the window, never a night sky."
+      - "Nobody wears shoes indoors: Dai is in socks or barefoot, no sneakers on the tatami."
+    panels:
+      - pos: top-right
+        action: >-
+          The genkan in morning light: a sheet of cardboard with rows of cicada
+          skins glued on it, propped against the shoe cabinet so nobody can
+          forget it.
+      - pos: top-left
+        action: >-
+          Sota asleep on his futon with his mouth open and his round glasses
+          still on; Dai kneeling beside him, gently taking the glasses off.
+        cast: [sota, {id: dai, outfit: station, note: "NO cap, socks, no shoes"}]
+      - pos: middle, wide
+        shot: close-up
+        action: Close-up of Dai's hand setting the folded round glasses down next to Sota's blue asthma inhaler on the windowsill.
+        cast: [{id: dai, outfit: station, note: "only his hand"}]
+      - pos: bottom, large
+        action: >-
+          Dai lying on his own futon on his back in his work shirt, eyes
+          closed, his LEFT hand raised a little, shifting an invisible lever;
+          long morning light across the tatami room, Sota asleep on the other
+          futon.
+        cast: [{id: dai, outfit: station, note: "NO cap, socks, no shoes"}, sota]
+        captions:
+          - "SHE DIDN'T COME. THAT WAS THE WHOLE NIGHT."
+          - "I'D TELL IT SHORTER IF I COULD."
+          - {text: "CHAPTER 4: PRACTICING. END.", style: small, at: "bottom corner"}

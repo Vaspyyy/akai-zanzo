@@ -94,9 +94,9 @@ class Builder:
         outfits = ch.get("outfits", {})
         if key in outfits:
             o = outfits[key]
-            return key, o["desc"], o.get("ref_note"), o["ref"]
-        default = outfits[ch["default_outfit"]]
-        return key or "", str(outfit), None, default["ref"]
+            return key, o["desc"], o.get("ref_note"), o.get("ref")
+        default = outfits.get(ch.get("default_outfit"), {})
+        return key or "", str(outfit), None, default.get("ref")
 
     def collect(self, page: Page, spec: Spec, warnings: list[str]):
         """Ordered refs plus per-id reference index."""
@@ -133,6 +133,8 @@ class Builder:
                 if c.id in self.reg.characters:
                     ch = self.reg.characters[c.id]
                     okey, _, note, ref = self._outfit(c.id, c.outfit)
+                    if not ref:  # minor character without a sheet: described by traits only
+                        continue
                     legend = f"character sheet for {ch['name']} ({okey} outfit): match face, hair and clothes exactly"
                     if note:
                         legend += f"; look at {note}"
@@ -140,6 +142,8 @@ class Builder:
                     index.setdefault(c.id, index[f"{c.id}:{okey}"])
                 elif c.id in self.reg.cars:
                     car = self.reg.cars[c.id]
+                    if not car.get("ref"):  # background car without a sheet: described by traits only
+                        continue
                     view = car.get("views", {}).get(c.view) if c.view else None
                     if view:
                         add(view["ref"], f"car sheet for {car['name']} ({view['note']}): match its body, wheels and "
@@ -280,6 +284,22 @@ class Builder:
         parts: list[str] = []
         check: list[str] = []
 
+        if page.kind == "sheet":
+            parts.append(t["format-sheet"])
+            parts.append("STYLE: " + t["style"])
+            parts.append(t["lettering-plate"])
+            if refs:
+                parts.append(fill(t["references"], ref_legend="\n".join(f"{i}. {r.legend}" for i, r in enumerate(refs, 1))))
+            if page.description:
+                parts.append("SHEET: " + page.description.strip())
+            rules = [
+                "ONE character only: every figure and face on the sheet is the same person. No other people anywhere.",
+                "Copy only the art style and the sheet layout from the references, never their characters' faces, hair or clothes.",
+            ] + page.guards + page.notes
+            parts.append(t["rules-intro"] + "\n" + "\n".join(f"- {r}" for r in rules))
+            check += t["self-check-sheet"].splitlines()
+            return Job(page, spec, "\n\n".join(parts), check, refs, warnings)
+
         if page.kind == "plate":
             parts.append(t["format-plate"])
             parts.append("STYLE: " + t["style"])
@@ -329,14 +349,14 @@ class Builder:
                     done.add(k)
                     ch = self.reg.characters[c.id]
                     cast_lines.append(fill(t["cast-character"], name=ch["name"], traits=" ".join(ch["traits"].split()),
-                                           outfit=desc, ref_index=idx.get(f"{c.id}:{okey}", "-")))
+                                           outfit=desc, ref_index=idx.get(f"{c.id}:{okey}", "none (no sheet)")))
                 elif c.id in self.reg.cars and c.id not in car_ids:
                     car_ids.append(c.id)
         for cid in car_ids:
             car = self.reg.cars[cid]
             rules = "".join(f"\n  {r}" for r in car.get("rules", []))
             cast_lines.append(fill(t["cast-car"], name=car["name"].upper(), traits=" ".join(car["traits"].split()),
-                                   ref_index=idx.get(cid, "-"), rules=rules))
+                                   ref_index=idx.get(cid, "none (no sheet)"), rules=rules))
         if cast_lines:
             parts.append(t["cast-intro"] + "\n" + "\n".join(cast_lines))
         else:
@@ -346,7 +366,10 @@ class Builder:
                      "\n".join(self.panel_text(page, pn, empty) for pn in page.panels))
 
         rules = []
-        if "roadster" not in car_ids:
+        if "roadster" not in car_ids and car_ids:
+            names = ", ".join(self.reg.cars[c]["name"] for c in car_ids)
+            rules.append(f"There is NO red Roadster anywhere on this page. The only car(s) on this page: {names}, and only in the panels that list them.")
+        elif "roadster" not in car_ids:
             rules.append("There is NO small roadster or sports car anywhere on this page. If a reference page shows one, do not copy it.")
         else:
             rules.append("The red Roadster is RIGHT-HAND DRIVE. In every side view that shows the driver's side, its FRONT points to the RIGHT edge of the panel. Never two Roadsters in one panel.")
@@ -370,5 +393,6 @@ class Builder:
         n = len(page.panels)
         check += [fill(x, panel_count=n) for x in t["self-check-page"].splitlines()]
         check += t["self-check-empty" if empty else "self-check-ai"].splitlines()
-        check += t["self-check-roadster" if "roadster" in car_ids else "self-check-no-car"].splitlines()
+        check += t["self-check-roadster" if "roadster" in car_ids
+                   else "self-check-other-car" if car_ids else "self-check-no-car"].splitlines()
         return Job(page, spec, "\n\n".join(parts), check, refs, warnings)

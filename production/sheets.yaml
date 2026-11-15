@@ -1,0 +1,28 @@
+# Character reference sheets made with the pipeline (kind: sheet).
+# One character per sheet (prompts/art-direction.md).
+title: Character sheets
+output_dir: artwork/character-sheets
+defaults:
+  kind: sheet
+
+pages:
+  - id: nobu
+    refs:
+      - {path: artwork/character-sheets/akane.png, use: "an approved sheet of this manga: copy ONLY its layout (turnaround left, expression grid right, one detail panel) and its ink and screentone style; NOT her face, hair or clothes"}
+    description: >-
+      Character sheet for NOBUYUKI "NOBU" KAWAMATA, 17, a Japanese high-school
+      boy in 1995 whose family runs a small ramen shop by the station. About
+      165 cm, stocky and soft (a little belly, thick arms), round full face with
+      chubby cheeks, very short BUZZ-CUT black hair so the whole forehead shows,
+      thick straight eyebrows, small bright eyes, a big expressive mouth. No
+      glasses, no earrings. Clothes: summer school uniform, a white short-sleeved
+      button shirt worn untucked and a little tight over the belly, black school
+      trousers, indoor school shoes with the heels trodden flat; a worn canvas
+      school bag on a strap. Left half: full-body turnaround (front, three-quarter,
+      side profile, back), standing relaxed, leaning slightly forward. Right half:
+      four head close-ups: an excited open-mouthed grin while talking fast; a
+      sheepish apologetic face with one hand raised ("sorry, sorry"); a careful,
+      serious face; laughing with his eyes squeezed shut. Detail sketch: his
+      hands holding a soft, rolled-up car magazine and a cardboard disposable
+      camera. He must look completely different from a lean, sharp-eyed boy
+      with long messy hair: short, round, buzz-cut, friendly.

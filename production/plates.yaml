@@ -10,14 +10,18 @@ defaults:
 pages:
   - id: harbor-station-night
     location: harbor-station-night
+    weather: dry, clear night
+    refs:
+      - {path: production/runs/ref-src/harbor-station-night.wet.png, use: "the previous plate of this station: copy its architecture, pumps, office booth and composition exactly, but make the ground DRY"}
     time: about 2 AM, night
     description: >-
       Wide eye-level view of the empty gas station forecourt under the canopy:
       the two old analog pumps on their island in the foreground left, the
       lit office booth on the right, fluorescent tubes under the canopy, the
       dark harbor road running away into the night past warehouses and
-      container stacks, a crane silhouette far away. Wet concrete with light
-      reflections. Heavy solid blacks in the night sky.
+      container stacks, a crane silhouette far away. DRY concrete and dry
+      asphalt (a dry, clear night: no puddles, no rain, no wet reflections).
+      Heavy solid blacks in the night sky, a few stars.
 
   - id: harbor-station-day
     location: harbor-station-day
@@ -73,10 +77,14 @@ pages:
 
   - id: harbor-road-night
     location: harbor-road-night
-    time: about 2 AM, night, wet road after rain
+    weather: dry, clear night
+    refs:
+      - {path: production/runs/ref-src/harbor-road-night.wet.png, use: "the previous plate of this road: copy its architecture and composition exactly, but make the asphalt DRY"}
+    time: about 2 AM, dry clear night
     description: >-
-      Low wide view down the empty harbor road at night: wet asphalt with
-      painted lane lines reflecting the orange sodium lamps, warehouse walls and
+      Low wide view down the empty harbor road at night: DRY asphalt (no
+      puddles, no rain, no wet reflections) with painted lane lines lit by
+      the orange sodium lamps, warehouse walls and
       stacked shipping containers on one side, chain-link fence and dark water
       with crane silhouettes on the other, the road vanishing into darkness.
 
@@ -101,3 +109,29 @@ pages:
       faded parking lines, low bollards and a hanging chain at the water's
       edge, the black sea, distant city lights across the bay reflecting on
       the water, harbor cranes, one tall lamp post casting a pool of light.
+
+  - id: bypass-overpass-dawn
+    location: bypass-overpass-dawn
+    time: just after dawn, about 5:30 AM, grey sky turning pale
+    description: >-
+      View from the overpass walkway, looking down along the four-lane bypass
+      as it sweeps into the long left-hand curve: the railing and concrete
+      walkway in the foreground, the empty, clean road below, a page of
+      newspaper lying on the asphalt. On the outside of the curve the steel
+      guardrail: one section near the foot of the overpass stairs is clearly
+      NEWER than the rest (bright, clean, unrusted bolts), the rest dull and
+      stained. Factory chimneys on the horizon, pale dawn sky, street lamps
+      still faintly on. Light screentone, no heavy night blacks.
+
+  - id: bookstore
+    location: bookstore
+    refs:
+      - {path: artwork/locations/classroom.png, use: "another plate of this manga: copy ONLY its art style, line weight and screentone, not the room"}
+    time: early afternoon, summer
+    description: >-
+      View down the single narrow aisle of the dim old bookstore from just
+      inside the door: tall wooden shelves crammed with paperbacks on both
+      sides, the two lowest shelves full of car and hobby books, a magazine
+      rack by the door, fluorescent tubes, worn linoleum, small paper signs
+      (no readable words), the owner's tiny counter with an old cash register
+      at the far end, a strip of daylight from the arcade behind the camera.
