@@ -91,7 +91,7 @@ Plates (`plates.yaml`) use `id:` instead of `page:`, `kind: plate`, a `location`
 - Cast traits and sheets for **only** the characters and cars on the page; the right sheet per outfit.
 - Per panel: "In this panel: ONLY X (tell)", and "Only X speaks in this panel; Y says nothing" when one of two people talks.
 - Balloon order and placement hints; in empty mode a size hint per balloon ("roomy enough for about N words").
-- Roadster on the page: right-hand-drive rules and "front points LEFT in side views". Not on the page: "NO small roadster or sports car anywhere".
+- Roadster on the page: right-hand-drive rules and "front points RIGHT in side views that show the driver" (corrected 2026-11-15; chapters 1-3 used LEFT). Not on the page: "NO small roadster or sports car anywhere".
 - `driver_hidden`, `continue_from` (same camera side), location guards, the 1995 rule, English-only / no watermark.
 - A self-check list the codex agent must go through before saving (faces, speakers, car side, empty balloons); it may redraw once (`--attempts`).
 - Warnings: missing plate (falls back to a source page that contains people/cars), more than 5 refs (image_gen rejects the call), missing files.

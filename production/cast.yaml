@@ -134,7 +134,7 @@ cars:
     ref: artwork/car-sheets/red-roadster.png
     rules:
       - "RIGHT-HAND DRIVE (Japanese market): the steering wheel and the driver are on the car's RIGHT side."
-      - "In every side view where the driver's side is visible, the car's FRONT points to the LEFT edge of the panel, so we see its right (driver) side."
+      - "In every side view where the driver's side is visible, the car's FRONT points to the RIGHT edge of the panel, so we see its right (driver) side."
       - "The fuel door is on the right rear quarter."
     states:
       headlights_up: pop-up headlights UP and lit

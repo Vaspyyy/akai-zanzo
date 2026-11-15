@@ -333,7 +333,7 @@ class Builder:
         if "roadster" not in car_ids:
             rules.append("There is NO small roadster or sports car anywhere on this page. If a reference page shows one, do not copy it.")
         else:
-            rules.append("The red Roadster is RIGHT-HAND DRIVE. In every side view that shows the driver's side, its FRONT points to the LEFT edge of the panel. Never two Roadsters in one panel.")
+            rules.append("The red Roadster is RIGHT-HAND DRIVE. In every side view that shows the driver's side, its FRONT points to the RIGHT edge of the panel. Never two Roadsters in one panel.")
         if page.driver_hidden:
             rules.append("The Roadster's driver is NEVER recognizable: the cabin is in deep shadow or behind windshield glare; at most gloved hands and a dark silhouette. Do NOT put Dai or any recognizable face in the driver's seat.")
         rules.append("Draw people and vehicles only where a panel lists them; do not copy people or vehicles from the location references.")

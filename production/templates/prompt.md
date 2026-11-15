@@ -85,7 +85,7 @@ RULES:
 - Every speech balloon and caption box is completely EMPTY (pure white inside, no letters) and lies fully inside its panel; the number of balloons per panel matches the list.
 
 ## self-check-roadster
-- The red Roadster is right-hand drive; in side views showing the driver, its FRONT points to the LEFT edge of the panel. Only one Roadster per panel.
+- The red Roadster is right-hand drive; in side views showing the driver, its FRONT points to the RIGHT edge of the panel. Only one Roadster per panel.
 
 ## self-check-no-car
 - There is NO small roadster or sports car anywhere on the page.
