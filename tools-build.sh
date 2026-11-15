@@ -23,3 +23,4 @@ rm -f "$out/akai-zanzo-ch$ch.cbz" "$out/akai-zanzo-ch$ch.pdf"
 magick "$tmp"/*.jpg "$out/akai-zanzo-ch$ch.pdf"
 rm -rf "$tmp"
 echo "built $out/akai-zanzo-ch$ch.cbz and .pdf ($i images)"
+./tools-sync-docs.sh || echo "warning: copying to the documents folder failed" >&2

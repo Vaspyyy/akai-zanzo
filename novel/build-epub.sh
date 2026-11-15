@@ -134,4 +134,5 @@ QT_QPA_PLATFORM=offscreen ebook-convert "$epub" "$pdf" \
   --pdf-page-numbers >"$work/pdf.log" 2>&1 \
   || { tail -20 "$work/pdf.log" >&2; exit 1; }
 echo "built: $pdf"
+"$(git -C "$(dirname "$0")" rev-parse --show-toplevel)/tools-sync-docs.sh" || echo "warning: copying to the documents folder failed" >&2
 exit $bad
