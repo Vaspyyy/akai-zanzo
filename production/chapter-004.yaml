@@ -113,7 +113,7 @@ pages:
         cast: [dai:station, sota]
         dialogue:
           - dai: "OTHER HAND."
-          - dai: "IN A JAPANESE CAR YOU SIT ON THE RIGHT. THE LEVER'S IN THE MIDDLE. SO IT'S YOUR LEFT HAND."
+          - dai: {text: "IN A JAPANESE CAR YOU SIT ON THE RIGHT. THE LEVER'S IN THE MIDDLE. SO IT'S YOUR LEFT HAND.", box: [56, 1046, 456, 140]}
 
   - page: 3
     title: Left-handed

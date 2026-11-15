@@ -86,6 +86,9 @@ pages:
 ```
 
 Plates (`plates.yaml`) use `id:` instead of `page:`, `kind: plate`, a `location` and a `description`.
+Character sheets (`sheets.yaml`) use `id:`, `kind: sheet` and a `description` (one character per sheet; an existing
+sheet as a ref for layout and style only). Minor cast without a sheet (cast.yaml entry with no `ref`) and background
+cars without a sheet are described by their traits only.
 
 ### What the builder adds automatically
 
@@ -148,6 +151,9 @@ It prints a report per line (box, size, lines) and saves a debug overlay to `run
 When detection fails, give the line a manual box: `box: [x, y, w, h]` in art pixels (the report lists unused
 candidates you can copy). Re-run `production/az letter -c N -p P` after editing the spec; it never calls the image model.
 
+Balloons drawn too small for 24 px type are grown automatically: the letterer paints a bigger balloon over the drawn
+one, inside its panel, tail toward the old tail tip, and reports `grew a small balloon` (`grow: false` on a page turns
+it off). Check grown balloons for faces they now cover and pin those with a manual box (ch4 p25).
 When the drawn balloon is too small for its line, add `draw: true` (and for a balloon `tail: [x, y]`, the tail tip):
 the letterer paints a fresh white balloon (or caption box) with a black outline at `box` before setting the text.
 Make the new shape fully cover the drawn one. A long line can be split over two such balloons from the same
