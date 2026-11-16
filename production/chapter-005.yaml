@@ -22,10 +22,23 @@ pages:
     title: Second Term
     location: school-gym
     time: a quarter to nine on a hot September morning, bright daylight
+    # 2026-11-16: bottom-right panel redrawn alone (take 1's principal filled the panel, leaving only
+    # two narrow balloons for his long lines); the rest is take 1's pixels.
+    edit:
+      source: production/runs/edit-src/ch5-page-01.masked.png
+      change: >-
+        Redraw ONLY the bottom-right panel, which is blanked out in flat grey in reference 1, as
+        described in PANEL 4: the principal is drawn SMALL in the LOWER middle of the panel (head and
+        shoulders at about the lower third, behind the podium with its microphone), seen from the
+        front; the whole UPPER HALF of the panel is dark stage curtain with two LARGE, WIDE empty
+        balloons side by side (the right one a little higher), each about 250 px wide and 230 px
+        tall, both tails pointing down at him. Keep every other panel exactly as it is.
+      keep: the gym panel, the fainting-girl panel, Dai's two panels and all caption boxes
     notes:
       - "September heat: every student in white short-sleeved summer uniform shirts, sweat-darkened at the back."
     panels:
       - pos: top, wide
+        keep: true
         action: >-
           Wide view from the back of the gym: about 800 high-school students
           standing in long straight rows on the basketball lines, all in white
@@ -39,12 +52,14 @@ pages:
           - "SECOND TERM. THE PRINCIPAL TALKED FOR TWENTY-TWO MINUTES."
           - "I KNOW BECAUSE THE CLOCK ABOVE THE STAGE WAS THE ONLY THING I COULD LOOK AT WITHOUT MY EYES CLOSING."
       - pos: middle-right
+        keep: true
         action: >-
           In the rows, a schoolgirl has sat down on the floor without meaning
           to, dazed by the heat; two male teachers in short sleeves lift her by
           the elbows and walk her out between the rows. Background students
           only.
       - pos: middle-left
+        keep: true
         action: >-
           Dai standing in his row among other boys, eyes half shut, head
           drooping, his white summer shirt stuck to his back with sweat.
@@ -54,16 +69,17 @@ pages:
         action: The principal at the wooden podium on the stage, solemn, one finger raised, speaking into a microphone.
         cast: [principal]
         dialogue:
-          - principal: "THE EARTHQUAKE IN JANUARY. THE GAS ON THE SUBWAY IN MARCH. A LIFE CAN CHANGE IN ONE MORNING."
-          - principal: "THIRD-YEARS, THINK HARD ABOUT WHERE YOU WILL BE STANDING NEXT SEPTEMBER."
+          - principal: {text: "THE EARTHQUAKE IN JANUARY. THE GAS ON THE SUBWAY IN MARCH. A LIFE CAN CHANGE IN ONE MORNING.", box: [738, 1112, 268, 262], draw: true, tail: [726, 1352]}
+          - principal: {text: "THIRD-YEARS, THINK HARD ABOUT WHERE YOU WILL BE STANDING NEXT SEPTEMBER.", box: [478, 1122, 254, 250], draw: true, tail: [640, 1340]}
       - pos: bottom-left
+        keep: true
         action: >-
           Dai sways forward in his row, half asleep, and catches himself up on
           his toes, eyes snapping open; small motion lines. Behind his head, a
           faint dream-like inset (no border) of a steel road guardrail with
           clean new bolts.
         cast: [dai:summer_school]
-        captions: ["I THOUGHT ABOUT THE PUMP ISLAND. THEN ABOUT THE OVERPASS, AND THE NEW GUARDRAIL WITH ITS CLEAN BOLTS."]
+        captions: [{text: "I THOUGHT ABOUT THE PUMP ISLAND. THEN ABOUT THE OVERPASS, AND THE NEW GUARDRAIL WITH ITS CLEAN BOLTS.", box: [18, 1400, 436, 124], draw: true}]
 
   - page: 2
     title: Sheets
@@ -159,13 +175,14 @@ pages:
           on, the coach shouting. Hotta-sensei (right) and Dai (left) small at
           the window, seen from behind.
         cast: [hotta, dai:summer_school]
+        captions: [{text: "DOWN ON THE SPORTS GROUND THE BASEBALL TEAM WAS RUNNING IN THE HEAT.", box: [40, 36, 330, 120], draw: true}]
         sfx: [{text: "ONE! TWO!", note: "small, the coach's shouting from far below"}]
       - pos: middle-right
         action: Hotta-sensei leaning on the window sill, fanning his neck with the owl fan, looking down at the sports ground.
         cast: [hotta]
         dialogue:
-          - hotta: "SANKO TAKES FOUR OR FIVE FROM US MOST YEARS. IT'S HOT AND IT'S LOUD, AND THEY PAY ON THE 25TH."
-          - hotta: "THE TEST'S ON THE NINETEENTH. WRITTEN IN THE MORNING, INTERVIEW AFTER LUNCH."
+          - hotta: {text: "SANKO TAKES FOUR OR FIVE FROM US MOST YEARS. IT'S HOT AND IT'S LOUD, AND THEY PAY ON THE 25TH.", box: [796, 548, 210, 362], draw: true, tail: [790, 690]}
+          - hotta: {text: "THE TEST'S ON THE NINETEENTH. WRITTEN IN THE MORNING, INTERVIEW AFTER LUNCH.", box: [438, 552, 186, 400], draw: true, tail: [640, 690]}
       - pos: middle-left
         action: Dai beside the window, the sheet in his hand, guarded.
         cast: [dai:summer_school]
@@ -214,8 +231,8 @@ pages:
         action: Hotta-sensei looking out of the window at the sports ground, tired.
         cast: [hotta]
         dialogue:
-          - hotta: "THEN THERE'S A CARDBOARD FACTORY ON THE FOURTH OF OCTOBER."
-          - hotta: "SOME BOYS COME BACK TO THE GATE IN THE SUMMER AND ASK IF ANYTHING'S COME IN. BY THEN THERE'S NOTHING."
+          - hotta: {text: "THEN THERE'S A CARDBOARD FACTORY ON THE FOURTH OF OCTOBER.", box: [208, 782, 196, 240], draw: true, tail: [352, 990]}
+          - hotta: {text: "SOME BOYS COME BACK TO THE GATE IN THE SUMMER AND ASK IF ANYTHING'S COME IN. BY THEN THERE'S NOTHING.", box: [14, 790, 206, 384], draw: true, tail: [300, 1000]}
       - pos: bottom, wide
         shot: close-up
         action: >-
@@ -394,12 +411,12 @@ pages:
         action: Mom drops four more pieces into the oil and steps back from the roar, her face turned away.
         cast: [michiko:summer_home]
         sfx: [{text: "JWAAAA", note: "the oil roaring"}]
+        captions: [{text: "IT ROARED. SHE STOOD BACK FROM IT WITH HER FACE TURNED AWAY.", box: [24, 1240, 300, 100], draw: true}]
 
   - page: 10
     title: Who died?
     location: hayama-apartment
     time: a quarter to six on a hot September evening, late light
-    continue_from: 9
     notes:
       - "Nobody wears shoes indoors."
     panels:
@@ -504,8 +521,8 @@ pages:
           - michiko: "FORTY IS A PASS. YOU'LL WEAR YOUR UNIFORM. THEY DON'T WANT CLEVER. THEY WANT SOMEONE WHO COMES EVERY DAY."
           - michiko: "FOUR MORNINGS A WEEK YOU COME HOME WITH NO SLEEP AND GO STRAIGHT OUT TO SCHOOL, AND YOU'VE NEVER ONCE BEEN LATE. YOU THINK I DON'T KNOW."
       - pos: bottom-right
-        action: Aya with her chopsticks stopped in the air, watching Dai; Sota beside her watching Mom. Silent.
-        cast: [aya:work, sota]
+        action: Aya with her chopsticks stopped in the air halfway to her mouth, watching Dai. Silent.
+        cast: [aya:work]
       - pos: bottom-left
         shot: close-up
         action: "Close-up on the newspaper on the plate: one last small piece of karaage, burnt dark on one side."
@@ -533,11 +550,12 @@ pages:
           date square with a felt pen, her back half turned.
         cast: [michiko:summer_home]
         sfx: [{text: "SANKO", note: "hand-written in felt pen inside one square of the wall calendar, small but readable"}]
+        captions: [{text: "IN THE SQUARE FOR THE NINETEENTH, IN RED FELT PEN.", box: [30, 486, 300, 82], draw: true}]
       - pos: lower-right
         action: Aya at the table, chopsticks pointing, deadpan.
         cast: [aya:work]
         dialogue:
-          - aya: "ONE WEEK. I GIVE HIM ONE WEEK. THEN HE FINDS A REASON."
+          - aya: {text: "ONE WEEK. I GIVE HIM ONE WEEK. THEN HE FINDS A REASON.", box: [734, 898, 270, 218], draw: true, tail: [736, 1010]}
       - pos: lower-left
         action: Mom at the calendar, turning her head, warning.
         cast: [michiko:summer_home]
@@ -702,6 +720,7 @@ pages:
           the toe of Dai's wet right sneaker.
         cast: [kubo, dai:station]
         sfx: [{text: "CRACK", note: "small, Kubo's knee"}, {text: "SKRRT", note: "the tape unrolling"}]
+        captions: [{text: "THE THIRD TIME, HE CAME OUT OF THE BACK ROOM WITH A ROLL OF SILVER TAPE.", box: [30, 545, 400, 98], draw: true}]
       - pos: bottom-right
         action: Dai on the stool, looking down at his shoe wrapped in silver tape, moved and awkward.
         cast: [dai:station]
@@ -806,28 +825,33 @@ pages:
     location: hayama-apartment
     time: seven in the morning, daylight
     continue_from: 19
+    # take 2 (2026-11-16): take 1 was blocked by the image safety filter (close-ups of a child's bare
+    # foot with an adult hand on it). Now: socks, and Dai only points and demonstrates with his hand.
     notes:
-      - "Nobody wears shoes indoors: bare feet."
+      - "Sota wears his plain T-shirt and shorts with WHITE SOCKS. Dai never touches Sota's foot: he points and shows with his own hand."
       - "THE PEDALS: phone book (clutch), English dictionary (brake), folded cushion (gas), in a row on the tatami."
     panels:
       - pos: top, wide
         shot: close-up
-        action: "Close-up: Sota's small bare right foot pressing the dictionary with the toes curled; Dai's big hand round his ankle, guiding the heel toward the folded cushion beside it."
-        cast: [{id: sota, outfit: pajamas, note: "only his foot and shin"}, {id: dai, outfit: station, note: "only his hand"}]
+        action: >-
+          Close-up at floor level: Sota's foot in a white sock pressing down on
+          the thick dictionary with the ball of the foot; beside it the folded
+          cushion; Dai's index finger pointing from the heel toward the cushion,
+          with a curved arrow showing the heel rolling over.
+        cast: [{id: sota, outfit: home, note: "only his socked foot and shin"}, {id: dai, outfit: station, note: "only his pointing hand"}]
         captions: ["BALL OF THE FOOT ON THE BRAKE, THEN ROLL THE HEEL ONTO THE GAS. QUICK, LIKE A HICCUP."]
       - pos: middle-right
-        action: Sota straining, face red, his heel stopping short of the cushion.
-        cast: [sota:pajamas]
+        action: Sota sitting behind the pedals, straining, face red with effort, tongue between his teeth.
+        cast: [sota:home]
         captions: ["HIS FOOT WAS TOO SMALL. HE TRIED IT FOUR TIMES AND HIS FACE WENT RED."]
       - pos: middle-left
-        shot: close-up
-        action: "Close-up: Dai turning Sota's foot so its outside edge comes down on the cushion."
-        cast: [{id: dai, outfit: station, note: "his hands and part of his face"}, {id: sota, outfit: pajamas, note: "only his foot"}]
+        action: Dai kneeling beside the pedals, holding up his own flat hand and tilting it onto its outer edge to demonstrate.
+        cast: [dai:station]
         dialogue:
           - dai: "SO USE THE SIDE. IT DEPENDS ON THE CAR."
       - pos: bottom-right
         action: Sota looking up at Dai through his glasses.
-        cast: [sota:pajamas]
+        cast: [sota:home]
         dialogue:
           - sota: "WHICH CAR?"
       - pos: bottom-left
@@ -907,7 +931,7 @@ pages:
         action: "Afternoon: Mom at the low table with a plain envelope marked for the rent and some banknotes, looking up at Dai."
         cast: [michiko:summer_home]
         dialogue:
-          - michiko: "AYA SAYS YOU'RE TEACHING SOTA TO DRIVE ON THE PHONE BOOK."
+          - michiko: {text: "AYA SAYS YOU'RE TEACHING SOTA TO DRIVE ON THE PHONE BOOK.", box: [796, 452, 210, 280], draw: true, tail: [790, 560]}
       - pos: middle-left
         action: Dai, school bag on his shoulder, flat.
         cast: [dai:summer_school]
@@ -948,11 +972,13 @@ pages:
         cast: [dai:station, kubo]
         sfx: [{text: "115", note: "the big number tiles on the price sign"}]
         captions: ["THURSDAY NIGHT. REGULAR 116 CAME DOWN. REGULAR 115 WENT UP."]
+        dialogue:
+          - kubo: {text: "THE BIG STATION ON THE BYPASS WENT TO 114.", box: [26, 140, 288, 128], draw: true, tail: [250, 276]}
       - pos: middle-right
         action: Kubo looking up at the sign, holding the ladder.
         cast: [kubo]
         dialogue:
-          - kubo: "THE BIG STATION ON THE BYPASS WENT TO 114. I'M NOT GOING TO 114 FOR ANYBODY. BUT I'LL GO TO 115, SO NOBODY CAN SAY I DIDN'T TRY."
+          - kubo: {text: "I'M NOT GOING TO 114 FOR ANYBODY. BUT I'LL GO TO 115, SO NOBODY CAN SAY I DIDN'T TRY.", box: [530, 520, 206, 326], draw: true, tail: [736, 700]}
       - pos: middle-left
         action: Kubo walking back toward the lit office with his coffee, his back to us.
         cast: [kubo]
@@ -966,8 +992,8 @@ pages:
           ship moored at the pier.
         cast: [dai:station]
         captions:
-          - "A SHIP WAS IN. YOU COULD HEAR IT ALL NIGHT, LIKE A REFRIGERATOR IN THE NEXT ROOM."
-          - "I HAD THE WORDS READY. TWO WORDS. ALL THE LONGER ONES TURNED INTO EXCUSES."
+          - {text: "A SHIP WAS IN. YOU COULD HEAR IT ALL NIGHT, LIKE A REFRIGERATOR IN THE NEXT ROOM.", box: [452, 868, 554, 98], draw: true}
+          - {text: "I HAD THE WORDS READY. TWO WORDS. ALL THE LONGER ONES TURNED INTO EXCUSES.", box: [600, 974, 406, 118], draw: true}
       - pos: bottom-right
         shot: close-up
         action: Close on Dai's head coming up, eyes wide, listening toward the road, rag still in his hand.
@@ -1029,6 +1055,18 @@ pages:
     location: harbor-station-night
     time: Friday, 2:08 AM
     weather: dry, still, hot night; dry asphalt
+    # 2026-11-16: top-right panel redrawn alone (take 1 put the fuel door on the LEFT flank and a stray
+    # caption box in it); the other panels are take 1's pixels, pasted back after the edit.
+    edit:
+      source: production/runs/edit-src/ch5-page-25.masked.png
+      change: >-
+        Redraw ONLY the top-right panel, which is blanked out in flat grey in reference 1: draw it
+        fresh as described in PANEL 1, with NO caption box and NO speech balloon in it, only the
+        GOBOBOBO sound effect. The camera is BEHIND the car and to its RIGHT: the car's rear face is
+        on the image LEFT and its RIGHT flank runs away toward the upper RIGHT; Dai stands on the
+        image RIGHT beside the car's right rear fender with the nozzle in the open fuel door, the
+        old pump behind him. Keep the other four panels exactly as they are.
+      keep: the mirror panel, the windshield panel, the banknote panel, the 3,588 YEN panel and the coins panel, with all their balloons and captions
     notes:
       - "CAMERA SIDE: the car is right-hand drive; the fuel door is on its RIGHT rear fender. Dai works on the car's right side."
       - "Akane wears black leather driving gloves with the knuckles cut out."
@@ -1037,14 +1075,16 @@ pages:
         action: Dai at the open fuel door on the car's right rear fender, the pump nozzle in, the hose running back to the old analog pump, its numbers turning.
         cast:
           - dai:station
-          - {id: roadster, view: rear, state: headlights_down, camera: "close rear three-quarter view of the car's RIGHT flank at waist height, the nose pointing AWAY to the upper RIGHT, the open fuel door near us on the right rear fender"}
+          - {id: roadster, view: rear, state: headlights_down, camera: "rear three-quarter from BEHIND and to the RIGHT of the car at waist height: the rear face on the image LEFT, the car's RIGHT flank running away to the upper RIGHT, the open fuel door near us on the RIGHT rear fender"}
         sfx: [{text: "GOBOBOBO", note: "fuel flowing"}]
       - pos: top-left
+        keep: true
         shot: close-up
         action: Close-up of the car's right door mirror; in it, Akane's face looking straight ahead through the windshield, both gloved hands on the wheel.
         cast: [akane, {id: roadster, view: front34, camera: "close on the right door mirror only"}]
         captions: ["SHE DIDN'T LOOK BACK AT ME IN THE MIRROR. I'D HAVE SEEN."]
       - pos: middle, wide
+        keep: true
         action: >-
           Dai leaning over the hood with a squeegee, cleaning the windshield
           into the corners; behind the glass Akane sits waiting, on the IMAGE
@@ -1055,16 +1095,19 @@ pages:
           - {id: roadster, view: front34, state: headlights_down, camera: "straight-on front view at hood height, the car facing us, pop-ups down, the driver behind the glass on the IMAGE LEFT"}
         captions: ["31.2 LITERS. 3,588 YEN. I DID HER WINDSHIELD, ALL OF IT, THE CORNERS TOO."]
       - pos: lower-right
+        keep: true
         action: Dai bending at the driver's window, looking down and to the right at her.
         cast: [dai:station]
         dialogue:
           - dai: "3,588 YEN."
       - pos: lower-left
+        keep: true
         shot: close-up
         action: "Close-up: a hand in a black fingerless leather glove holding out four folded 1,000-yen notes between two fingers through the open window."
         cast: [{id: akane, note: "only her gloved hand"}, {id: roadster, view: front34, camera: "only the bottom edge of the open driver's window frame"}]
         captions: ["NATSUME SOSEKI FOUR TIMES OVER, MOUSTACHE AND ALL."]
       - pos: bottom, wide
+        keep: true
         action: Dai at the window putting coins into Akane's flat, open gloved palm, the 100-yen coins first; her face calm above.
         cast: [dai:station, akane]
         dialogue:
@@ -1130,7 +1173,7 @@ pages:
         action: Dai leaning in at the window, talking fast, intense.
         cast: [dai:station]
         dialogue:
-          - dai: "I KNOW WHERE NEUTRAL GOES NOW. BRAKE, CLUTCH, NEUTRAL, BLIP, GEAR, CLUTCH UP. I'VE DONE IT EVERY NIGHT SINCE THE LAP."
+          - dai: {text: "I KNOW WHERE NEUTRAL GOES NOW. BRAKE, CLUTCH, NEUTRAL, BLIP, GEAR, CLUTCH UP. EVERY NIGHT SINCE THE LAP.", box: [744, 410, 262, 326], draw: true, tail: [752, 580]}
       - pos: middle-left
         action: Akane, eyes still ahead.
         cast: [akane]
@@ -1160,38 +1203,44 @@ pages:
     location: harbor-station-night
     time: Friday, 2:12 AM
     weather: dry, still, hot night
+    # take 2 (2026-11-16): take 1 drew Akane standing outside the car and swapped two speakers.
     notes:
-      - "CAMERA SIDE: Dai on the image LEFT looking right, Akane in the driver's window on the image RIGHT."
+      - "LAYOUT: three rows of two equal panels (six panels). In every row the RIGHT panel is Dai and the LEFT panel is Akane."
+      - "AKANE NEVER LEAVES THE CAR: in every panel she sits in the driver's seat of the small red convertible, soft top up, seen through the open driver's window: the window frame and the top of the red door run across the bottom of her panel, the car's dark cabin and seat behind her."
+      - "Dai stands OUTSIDE the car under the canopy lights, leaning down to the driver's window; his panels show the canopy and the office behind him."
       - "Akane wears black leather driving gloves with the knuckles cut out."
     panels:
       - pos: top-right
-        action: Dai at the window.
+        action: Dai bending at the driver's window, earnest, the canopy lights behind him.
         cast: [dai:station]
         dialogue:
           - dai: "I'LL PAY YOU."
       - pos: top-left
-        action: Akane, flat.
-        cast: [akane]
+        action: Akane in the driver's seat seen through the open window, the door top across the bottom of the panel, flat.
+        cast: [akane, {id: roadster, view: interior, camera: "from outside the driver's window, only the window frame and the cabin behind her"}]
         dialogue:
           - akane: "WITH WHAT."
       - pos: middle-right
-        action: Dai, earnest.
+        action: Dai, earnest, talking.
         cast: [dai:station]
         dialogue:
           - dai: "I GOT PAID ON WEDNESDAY. EVERY OTHER WEDNESDAY, I GET PAID."
       - pos: middle-left
-        action: Akane, bone dry, the faintest lift of an eyebrow.
+        action: Akane in the driver's seat through the window, bone dry, the faintest lift of an eyebrow, gloved hand on the wheel.
         cast: [akane]
         dialogue:
-          - akane: "CONGRATULATIONS."
-      - pos: lower-right
-        action: Dai, frowning.
+          - akane: {text: "CONGRATU- LATIONS.", box: [302, 610, 175, 187]}
+      - pos: bottom-right
+        action: Dai, frowning, his hand resting on the top of the red door.
         cast: [dai:station]
         dialogue:
           - dai: "I MEAN IT."
-      - pos: bottom, wide
-        action: Akane turning her face back to the windshield, looking ahead toward the image right, quiet.
-        cast: [akane, {id: roadster, view: interior, camera: "from outside the driver's window, her profile facing RIGHT"}]
+      - pos: bottom-left
+        action: >-
+          Akane in the driver's seat turning her face away from him, back to
+          the windshield, quiet; her profile faces the image RIGHT; Dai's hand
+          visible on the door top at the bottom edge.
+        cast: [akane, {id: dai, outfit: station, note: "only his hand on the door top"}]
         dialogue:
           - akane: "I KNOW YOU DO."
           - akane: "HAND."
@@ -1201,17 +1250,35 @@ pages:
     location: harbor-station-night
     time: Friday, 2:13 AM
     weather: dry, still, hot night
+    # 2026-11-16: top panel and lower-right panel redrawn (take 1: the driver's seat was empty in the
+    # top panel; Akane stood outside the car in the lower-right panel); the rest is take 1's pixels.
+    edit:
+      source: production/runs/edit-src/ch5-page-29.masked.png
+      change: >-
+        Redraw ONLY the two panels blanked out in flat grey in reference 1 (the top panel and the
+        right panel of the third row), as described in PANEL 1 and PANEL 3. In the top panel AKANE
+        SITS IN THE DRIVER'S SEAT, right behind the open window that Dai leans on: we see her face
+        and gloved hands on the wheel inside the car. In the third-row right panel Akane is SEATED
+        INSIDE THE CAR, seen through the open driver's window with the top of the red door across
+        the bottom of the panel and the dark cabin behind her (not standing outside, no wooden wall
+        behind her). Keep every other panel exactly as it is.
+      keep: the overhead panel, the SEVENTEEN, FEBRUARY and WHEN ARE YOU EIGHTEEN panels, with their balloons
     notes:
       - "CAMERA SIDE: Dai on the image LEFT looking right, Akane in the driver's window on the image RIGHT (except the overhead panel)."
       - "Akane wears black leather driving gloves with the knuckles cut out."
     panels:
       - pos: top, wide
-        action: Dai at the driver's window, his hand still flat on the top of the red door, jaw tight, sweat at his temple, holding his ground.
-        cast: [dai:station, {id: roadster, view: front34, camera: "from behind Dai's shoulder, only the top of the driver's door"}]
+        action: >-
+          Seen from behind Dai's shoulder: Dai leaning at the open driver's window, his hand flat on
+          the top of the red door, jaw tight, sweat at his temple; INSIDE the car, right behind the
+          window, Akane sits in the driver's seat with both gloved hands on the wheel, looking ahead
+          through the windshield, not at him.
+        cast: [dai:station, akane, {id: roadster, view: front34, camera: "from behind Dai's shoulder, only the driver's door, window and cabin"}]
         captions: ["MY HEART WAS GOING SO HARD I COULD FEEL IT IN THE HAND."]
         dialogue:
           - dai: "I'M NOT MOVING IT TILL YOU SAY SOMETHING THAT ISN'T NO."
       - pos: middle, wide
+        keep: true
         action: >-
           From high above, looking straight down: the little car at the pump
           island under the canopy lights, Dai a small figure standing at its
@@ -1221,22 +1288,26 @@ pages:
           - {id: dai, outfit: station, note: "small, seen from above"}
           - {id: roadster, view: front34, state: headlights_down, camera: "top-down view from directly above, the car's FRONT pointing to the TOP of the panel, so its driver's door (the car's right side) is on the image RIGHT, Dai standing beside it"}
         sfx: [{text: "tik... tik...", note: "small, moths on the light tubes"}]
+        captions: [{text: "FOR A LONG TIME SHE DIDN'T SAY ANYTHING. THE MOTHS TICKED AGAINST THE CANOPY LIGHTS.", box: [690, 730, 316, 120], draw: true}]
       - pos: lower-right
-        action: Akane, looking ahead.
+        action: Akane seated in the driver's seat, seen through the open window (door top across the bottom of the panel), looking ahead.
         cast: [akane]
         dialogue:
           - akane: "HOW OLD ARE YOU."
       - pos: lower-left
+        keep: true
         action: Dai.
         cast: [dai:station]
         dialogue:
           - dai: "SEVENTEEN."
       - pos: bottom-right
+        keep: true
         action: Akane.
         cast: [akane]
         dialogue:
           - akane: "WHEN ARE YOU EIGHTEEN."
       - pos: bottom-left
+        keep: true
         action: Dai.
         cast: [dai:station]
         dialogue:
@@ -1271,6 +1342,7 @@ pages:
           pop-ups up, turning left toward the bypass; taillights glowing.
         cast: [{id: roadster, view: rear, state: headlights_up, camera: "low view from behind, from the pump island, the car small and going away, turning LEFT, its rear and taillights toward us"}]
         sfx: [{text: "WAAAAN", note: "the engine going up through the gears, fading"}]
+        captions: [{text: "SHE DIDN'T LOOK OVER.", box: [60, 504, 222, 92], draw: true}]
       - pos: bottom, large
         action: >-
           Dai alone on the pump island under the canopy lights, the road empty,

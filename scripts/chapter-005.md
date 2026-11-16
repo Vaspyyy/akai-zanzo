@@ -178,8 +178,8 @@
 - P6 (bottom-left): Close-up: the receipt, a new number written under the old one, nothing crossed out. CAPTION: "I WROTE THE NEW NUMBER UNDER THE OLD ONE AND DIDN'T CROSS ANYTHING OUT."
 
 ## Page 23: 2:05
-- P1 (top, wide): Thursday, 11 p.m.: Dai up a ladder at the price sign by the road, hanging a white number tile; Kubo holding the ladder with one hand, coffee in the other. SFX (sign tiles): "115". CAPTION: "THURSDAY NIGHT. REGULAR 116 CAME DOWN. REGULAR 115 WENT UP."
-- P2 (middle-right): Kubo looking up at the sign. KUBO: "THE BIG STATION ON THE BYPASS WENT TO 114. I'M NOT GOING TO 114 FOR ANYBODY. BUT I'LL GO TO 115, SO NOBODY CAN SAY I DIDN'T TRY."
+- P1 (top, wide): Thursday, 11 p.m.: Dai up a ladder at the price sign by the road, hanging a white number tile; Kubo holding the ladder with one hand, coffee in the other. SFX (sign tiles): "115". CAPTION: "THURSDAY NIGHT. REGULAR 116 CAME DOWN. REGULAR 115 WENT UP." KUBO: "THE BIG STATION ON THE BYPASS WENT TO 114."
+- P2 (middle-right): Kubo looking up at the sign. KUBO: "I'M NOT GOING TO 114 FOR ANYBODY. BUT I'LL GO TO 115, SO NOBODY CAN SAY I DIDN'T TRY."
 - P3 (middle-left): Kubo walking back to the office. KUBO: "CHEAP."
 - P4 (lower, wide): The thick still night: the container cranes with red lights at the top; Dai on the pump island wiping the regular nozzle, which is clean. CAPTION: "A SHIP WAS IN. YOU COULD HEAR IT ALL NIGHT, LIKE A REFRIGERATOR IN THE NEXT ROOM." CAPTION: "I HAD THE WORDS READY. TWO WORDS. ALL THE LONGER ONES TURNED INTO EXCUSES."
 - P5 (bottom-right): Dai's head comes up, listening. SFX: "...WAAAN" CAPTION: "2:05."
@@ -211,7 +211,7 @@
 
 ## Page 27: On air
 - P1 (top, wide): The cranes blink red; Akane in the window, looking at the harbor road. AKANE: "I DON'T TEACH."
-- P2 (middle-right): Dai, fast. DAI: "I KNOW WHERE NEUTRAL GOES NOW. BRAKE, CLUTCH, NEUTRAL, BLIP, GEAR, CLUTCH UP. I'VE DONE IT EVERY NIGHT SINCE THE LAP."
+- P2 (middle-right): Dai, fast. DAI: "I KNOW WHERE NEUTRAL GOES NOW. BRAKE, CLUTCH, NEUTRAL, BLIP, GEAR, CLUTCH UP. EVERY NIGHT SINCE THE LAP."
 - P3 (middle-left): Akane. AKANE: "ON YOUR FUTON."
 - P4 (lower-right): Dai. DAI: "...YES."
 - P5 (lower-left): Akane, her gloved left hand on the gear knob, thumb moving once. AKANE: "ON AIR."
