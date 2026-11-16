@@ -193,3 +193,49 @@ school-gate:
     worn three-storey school building behind, cherry trees in full summer
     leaf, a quiet street outside with utility poles and power lines.
   default_time: noon
+
+school-gym:
+  name: Shiomi Higashi High School gym (opening ceremony)
+  description: >-
+    An old 1990s Japanese school gymnasium: varnished wooden floor with painted
+    basketball lines, a raised stage at the front with a dark curtain, a
+    wooden podium and a round clock on the wall above the stage, a row of
+    small high windows up under the roof propped open, steel roof trusses,
+    basketball hoops folded up against the walls.
+  plate: artwork/locations/school-gym.png
+  default_time: morning
+
+school-corridor:
+  name: Shiomi Higashi High School corridor
+  description: >-
+    A long, worn 1990s school corridor on the third floor: wooden floorboards,
+    a row of tall sliding windows standing OPEN along one side with a view down
+    onto a dusty sports ground with a baseball backstop, the classroom wall
+    with sliding doors and small high windows on the other side, a notice
+    board, fluorescent tubes, hard summer sunlight falling across the floor.
+  plate: artwork/locations/school-corridor.png
+  default_time: noon
+
+school-shoe-lockers:
+  name: school entrance with shoe lockers (getabako)
+  description: >-
+    The ground-floor entrance hall of an old Japanese high school: rows of
+    tall grey steel and wooden shoe lockers with small numbered cubbies
+    (numbers not readable), a low step where students change from indoor
+    shoes to outdoor shoes, a slatted wooden duckboard on the concrete floor,
+    glass double doors standing open to a bright yard.
+  plate: artwork/locations/school-shoe-lockers.png
+  default_time: afternoon
+
+canal-driving-school:
+  name: canal footpath past Shiomi Driving School
+  description: >-
+    A concrete footpath along a straight urban canal with low railings, and
+    beside it a tall green chain-link fence around a small driving-school
+    practice course: painted lane lines, a little crossroads, a short steep
+    practice slope, a crank-shaped narrow lane, a set of real working traffic
+    lights on a pole, and a small control tower in the middle with big windows
+    and a loudspeaker horn. Summer haze, utility poles, low apartment blocks
+    beyond.
+  plate: artwork/locations/canal-driving-school.png
+  default_time: afternoon

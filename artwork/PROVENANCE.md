@@ -108,3 +108,8 @@ Rows appended by `production/az run` (full prompts and refs: `production/logs/pr
 | pages/chapter-004/page-12.png | 2026-11-15 | character-sheets/nobu.png, character-sheets/dai.png, locations/classroom.png, pages/chapter-004/page-11.png | approved | runner: 1 image_gen call(s), empty lettering |
 | pages/chapter-004/page-13.png | 2026-11-15 | character-sheets/dai.png, character-sheets/nobu.png, locations/classroom.png, pages/chapter-004/page-12.png | approved | runner: 1 image_gen call(s), empty lettering |
 | pages/chapter-004/page-14.png | 2026-11-15 | character-sheets/nobu.png, character-sheets/dai.png, pages/chapter-004/page-13.png | approved | runner: 1 image_gen call(s), empty lettering |
+| locations/school-gym.png | 2026-11-16 | locations/classroom.png | approved (ch5 plate) | runner: 1 image_gen call(s) |
+| locations/school-corridor.png | 2026-11-16 | locations/classroom.png | approved (ch5 plate) | runner: 1 image_gen call(s) |
+| locations/school-shoe-lockers.png | 2026-11-16 | locations/classroom.png | approved (ch5 plate) | runner: 1 image_gen call(s) |
+| locations/canal-driving-school.png | 2026-11-16 | locations/bypass-overpass-dawn.png | approved (ch5 plate) | runner: 1 image_gen call(s) |
+| character-sheets/hotta.png | 2026-11-16 | production/runs/ref-src/hotta-ch4.png, character-sheets/nobu.png | approved (ch5; made from ch4 p13/p5 panels) | runner: 1 image_gen call(s) |

@@ -135,3 +135,54 @@ pages:
       rack by the door, fluorescent tubes, worn linoleum, small paper signs
       (no readable words), the owner's tiny counter with an old cash register
       at the far end, a strip of daylight from the arcade behind the camera.
+
+  # ---- added for chapter 5 (2026-11-16)
+  - id: school-gym
+    location: school-gym
+    refs:
+      - {path: artwork/locations/classroom.png, use: "another plate of this manga: copy ONLY its art style, line weight and screentone, not the room"}
+    time: morning, hot late-summer day
+    description: >-
+      Wide view from the back of the empty gym toward the stage: the varnished
+      floor with painted basketball lines, the stage with a dark curtain, an
+      empty wooden podium, a big round wall clock above the stage, the row of
+      small high windows under the roof propped open with bright sky, steel
+      trusses, folded basketball hoops. Completely empty, no people.
+
+  - id: school-corridor
+    location: school-corridor
+    refs:
+      - {path: artwork/locations/classroom.png, use: "a classroom plate of the same school: copy its windows, wood, art style and screentone"}
+    time: early afternoon, hot late summer
+    description: >-
+      Eye-level view down the long empty corridor: the row of tall windows
+      on the LEFT standing open, through them the sunny sports ground below
+      with a baseball backstop; the classroom wall with a sliding door on the
+      right; wooden floorboards with bars of hard sunlight; fluorescent tubes;
+      a notice board. No people.
+
+  - id: school-shoe-lockers
+    location: school-shoe-lockers
+    refs:
+      - {path: artwork/locations/classroom.png, use: "a classroom plate of the same school: copy ONLY its art style and screentone"}
+    time: afternoon, hot late summer
+    description: >-
+      Eye-level view along a row of tall shoe lockers in the school entrance
+      hall: grey steel locker banks with many small cubbies, a few pairs of
+      white indoor shoes and sneakers in them, the low step and a slatted
+      duckboard on the concrete floor, the open glass doors at the end with a
+      bright sunny yard outside. No people.
+
+  - id: canal-driving-school
+    location: canal-driving-school
+    refs:
+      - {path: artwork/locations/bypass-overpass-dawn.png, use: "another plate of this manga: copy ONLY its art style, line weight and screentone"}
+    time: mid-afternoon, white summer heat
+    description: >-
+      Eye-level view from the canal footpath through a tall chain-link fence
+      onto a small empty driving-school practice course: painted lane lines,
+      a little crossroads, a short steep practice slope, a working traffic
+      light on a pole, and a small control tower with big windows and a
+      loudspeaker horn in the middle. The canal with its low railing on the
+      left edge, hazy summer sky, utility poles and low apartment blocks in
+      the distance. No people and NO vehicles.

@@ -26,3 +26,23 @@ pages:
       hands holding a soft, rolled-up car magazine and a cardboard disposable
       camera. He must look completely different from a lean, sharp-eyed boy
       with long messy hair: short, round, buzz-cut, friendly.
+
+  - id: hotta
+    refs:
+      - {path: production/runs/ref-src/hotta-ch4.png, use: "two approved panels of HOTTA-SENSEI from chapter 4: copy his face, receding hair, thin build, towel, tie and owl fan exactly"}
+      - {path: artwork/character-sheets/nobu.png, use: "an approved sheet of this manga: copy ONLY its layout (turnaround left, expression grid right, one detail panel) and its ink and screentone style; NOT his face or body"}
+    description: >-
+      Character sheet for HOTTA-SENSEI, a Japanese high-school homeroom and
+      English teacher in 1995, late 40s: thin and tired, sunken cheeks, a long
+      lined face, heavy-lidded weary eyes, receding black hair, damp and
+      slightly messy, combed back. Clothes: a pale short-sleeved shirt with a
+      loosened dark tie, grey slacks, plain shoes, a white towel hung round
+      his neck. He carries a round flat paper uchiwa fan printed with a
+      cartoon owl. Left half: full-body turnaround (front, three-quarter,
+      side profile, back), standing slightly stooped, fanning himself. Right
+      half: four head close-ups: weary half-closed eyes while talking; a
+      level, serious look straight at the viewer; looking sideways out of a
+      window; wiping his neck with the towel. Detail sketch: the round owl fan
+      held up close. He must match the chapter-4 panels
+      exactly and look nothing like the stocky buzz-cut boy on the layout
+      sheet.

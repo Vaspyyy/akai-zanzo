@@ -112,6 +112,10 @@ characters:
         desc: plain short-sleeved blouse and dark trousers
         ref: artwork/character-sheets/aya.png
         ref_note: the face and hair only
+      tanktop:
+        desc: grey tank top and shorts (no cardigan), barefoot, hair flat on one side from sleeping
+        ref: artwork/character-sheets/aya.png
+        ref_note: the face and hair only
 
   sota:
     name: SOTA
@@ -128,6 +132,14 @@ characters:
       undershirt:
         desc: sleeveless white undershirt and shorts, barefoot
         ref: artwork/character-sheets/sota.png
+      pajamas:
+        desc: thin striped cotton summer pajamas (short sleeves, shorts), barefoot
+        ref: artwork/character-sheets/sota.png
+        ref_note: the face, glasses and hair only
+      school:
+        desc: white short-sleeved shirt, navy shorts, a yellow-covered elementary-school cap in hand, a square leather randoseru school backpack
+        ref: artwork/character-sheets/sota.png
+        ref_note: the face, glasses and hair only
 
   nobu:
     name: NOBU
@@ -160,6 +172,7 @@ characters:
     outfits:
       teacher:
         desc: short-sleeved pale shirt, loosened dark tie, grey slacks, white towel round the neck
+        ref: artwork/character-sheets/hotta.png
 
   shop_owner:
     name: OWNER
@@ -187,7 +200,76 @@ characters:
         desc: shiny dark tracksuit jacket with white side stripes open over a white tank top, matching track pants, gold chain, sneakers
         ref: artwork/character-sheets/goto.png
 
+  principal:
+    name: PRINCIPAL
+    full_name: the school principal
+    traits: >-
+      Portly man in his early 60s, thinning grey hair combed over, round
+      glasses, a heavy, solemn face.
+    tell: "the portly old PRINCIPAL with round glasses at the podium"
+    default_outfit: suit
+    outfits:
+      suit:
+        desc: dark grey suit, white shirt, dark tie
+
+  okuda:
+    name: OKUDA
+    full_name: Okuda (classmate who sits next to Dai)
+    traits: >-
+      Skinny 17-year-old boy with a long face, a short neat side-parted
+      haircut and a sour, undecided mouth. Looks nothing like Dai or Nobu.
+    tell: "the skinny long-faced boy with a neat side part"
+    default_outfit: summer_school
+    outfits:
+      summer_school:
+        desc: white short-sleeved school shirt tucked in, black trousers
+
+  bank_girl:
+    name: GIRL
+    full_name: the girl who sits in front of Dai
+    traits: >-
+      17-year-old schoolgirl with two short braids and a pleased, proud smile.
+    tell: "the schoolgirl with two short braids"
+    default_outfit: summer_school
+    outfits:
+      summer_school:
+        desc: white short-sleeved sailor-style summer blouse with a dark collar and scarf, dark pleated skirt
+
+  learner:
+    name: LEARNER
+    full_name: a learner driver at the driving school
+    traits: >-
+      Young woman of about 18 with a ponytail and big round glasses, panicking
+      at the wheel. Clearly NOT Akane: round glasses, round soft face.
+    tell: "the young learner with big round glasses"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: plain blouse
+
+  instructor:
+    name: INSTRUCTOR
+    full_name: the driving-school instructor
+    traits: >-
+      Middle-aged man with a crew cut and a completely calm, bored face.
+    tell: "the bored middle-aged INSTRUCTOR with a crew cut"
+    default_outfit: uniform
+    outfits:
+      uniform:
+        desc: pale short-sleeved uniform shirt with a dark tie, a clipboard on his knee
+
 cars:
+  school_sedan:
+    name: the driving-school sedan
+    full_name: white 1990s Toyota Corona four-door sedan, Shiomi Driving School car
+    traits: >-
+      Plain white boxy early-1990s Japanese four-door sedan (Toyota Corona
+      type), a small square sign on the roof, the driving school's name painted
+      on the front doors as an unreadable stripe. NOT a sports car, NOT a
+      roadster.
+    rules:
+      - "RIGHT-HAND DRIVE: the learner sits on the car's right, the instructor on the left with his own brake pedal."
+
   roadster:
     name: the red Roadster
     full_name: 1990 Mazda Eunos Roadster (NA, Japanese market), Akane's car
