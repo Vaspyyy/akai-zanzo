@@ -1,0 +1,41 @@
+title: Chapter 6 car reference sheets
+output_dir: artwork/car-sheets
+defaults:
+  kind: car_sheet
+pages:
+  - id: chaser-x90
+    description: >-
+      Technical reference sheet for one 1993 Japanese-market Toyota Chaser X90
+      Tourer V, grey, stock body, right-hand drive. Black and white ink manga,
+      three separate large views: front three-quarter at top, side in middle,
+      directly from rear at bottom. No people, no other cars, no text.
+  - id: skyline-r32
+    description: >-
+      Technical reference sheet for one 1991 Japanese-market Nissan Skyline R32,
+      dark blue shown as dark grey screentone, lowered, right-hand drive, four
+      round taillights. Three separate large views: front three-quarter at top,
+      side in middle, directly from rear at bottom. Ink manga. No people or text.
+  - id: rx7-fc
+    description: >-
+      Technical reference sheet for one white 1990 Japanese-market Mazda RX-7
+      FC3S, right-hand drive, pop-up headlamps down. Three separate large views:
+      front three-quarter at top, side in middle, directly from rear at bottom.
+      Ink manga. No people or text.
+  - id: cefiro-a31
+    description: >-
+      Technical reference sheet for one lowered 1991 Japanese-market Nissan
+      Cefiro A31 sedan, right-hand drive. Three separate large views: front
+      three-quarter at top, side in middle, directly from rear at bottom.
+      Ink manga. No people or text.
+  - id: supra-a80
+    description: >-
+      Technical reference sheet for one black 1994 Japanese-market Toyota Supra
+      A80, rounded body, right-hand drive. Three separate large views: front
+      three-quarter at top, side in middle, directly from rear at bottom.
+      Ink manga. No people or text.
+  - id: starlet-p80
+    description: >-
+      Technical reference sheet for one white 1991 Japanese-market Toyota
+      Starlet GT Turbo EP82 hatchback, right-hand drive. Three separate large
+      views: front three-quarter at top, side in middle, directly from rear at
+      bottom. Ink manga. No people or text.

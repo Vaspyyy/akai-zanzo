@@ -1,0 +1,1178 @@
+chapter: 6
+title: Pier 3
+lettering: empty
+defaults:
+  orientation: portrait
+pages:
+- page: 1
+  title: Four in the morning
+  location: harbor-station-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: Saturday, four a.m. Dai hoses the station forecourt; Kubo sits by the oil rack with coffee.
+    cast:
+    - dai:station
+    - kubo
+    captions:
+    - AT FOUR ON SATURDAY MORNING THE STATION WAS SO QUIET I COULD HEAR THE PRICE SIGN TICKING AS IT COOLED.
+  - pos: middle-right
+    action: Water runs toward the drain.
+    sfx:
+    - HSSSS
+  - pos: middle-left
+    action: Dai closes the hose tap.
+    cast:
+    - dai:station
+    sfx:
+    - KLIK
+  - pos: bottom-right
+    action: Dai.
+    cast:
+    - dai:station
+    dialogue:
+    - dai: KUBO-SAN. THE CARS FROM THE BYPASS. THE SILVIA AND THOSE. WHERE DO THEY GO ON SATURDAYS?
+  - pos: bottom-left
+    action: Kubo watches the drain.
+    cast:
+    - kubo
+    dialogue:
+    - kubo: WHO WANTS TO KNOW.
+- page: 2
+  title: Somebody knows
+  location: harbor-station-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top-right
+    action: Dai.
+    cast:
+    - dai:station
+    dialogue:
+    - dai: A GUY AT SCHOOL. HE READ IT IN A MAGAZINE.
+  - pos: top-left
+    action: Friday lunch, Nobu at Dai's desk with a magazine open to the reader page.
+    cast:
+    - dai:station
+    - nobu:summer_school
+    dialogue:
+    - nobu: SOMEBODY KNOWS. SOMEBODY ALWAYS KNOWS.
+    location: classroom
+  - pos: middle-right
+    action: Nobu raises his eyebrows.
+    cast:
+    - nobu:summer_school
+    dialogue:
+    - nobu: AND YOU SAY YOU RODE IN THE AKAI ZANZO, SO.
+    location: classroom
+  - pos: middle-left
+    action: Dai asleep at his desk, cheek on an English book.
+    cast:
+    - dai:station
+    captions:
+    - I'D SLEPT THROUGH FIFTH PERIOD AFTER THE THURSDAY SHIFT.
+    location: classroom
+  - pos: bottom, wide
+    action: Back at the station, Kubo drinks his coffee.
+    cast:
+    - kubo
+    captions:
+    - I WOKE UP WITH MY CHEEK STUCK TO MY ENGLISH BOOK AND THE DARE STILL THERE.
+- page: 3
+  title: Pier 3
+  location: harbor-station-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top-right
+    action: Kubo, coffee can in hand.
+    cast:
+    - kubo
+    dialogue:
+    - kubo: PIER 3. THE BIG LOT AT THE END. AFTER ONE.
+  - pos: top-left
+    action: Dai looks up.
+    cast:
+    - dai:station
+    captions:
+    - I KNEW THE LOT.
+  - pos: middle, wide
+    action: Memory of an empty concrete lot at night, black rubber circles running over one another, water beyond.
+      No car.
+    captions:
+    - SHE'D STOPPED THERE AFTER THE LAP, TWO WEEKS AGO.
+  - pos: bottom-right
+    action: Dai.
+    cast:
+    - dai:station
+    dialogue:
+    - dai: HOW DO YOU KNOW?
+  - pos: bottom-left
+    action: Kubo puts his can on the rack.
+    cast:
+    - kubo
+    dialogue:
+    - kubo: I SELL THEM GAS. SUNDAY MORNINGS THE DAY MAN TAKES THEIR BOTTLES OUT OF MY BINS.
+  continue_from: 2
+- page: 4
+  title: The drain
+  location: harbor-station-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top-right
+    action: Kubo.
+    cast:
+    - kubo
+    dialogue:
+    - kubo: ENERGY DRINKS. THE LITTLE BROWN ONES.
+  - pos: top-left
+    action: Dai.
+    cast:
+    - dai:station
+    dialogue:
+    - dai: HAVE YOU BEEN?
+  - pos: middle, wide
+    action: Kubo rises with one hand on the rack and takes the hose, recoiling it.
+    cast:
+    - kubo
+    captions:
+    - HE DIDN'T ANSWER THAT. HE COILED THE HOSE AGAIN, BECAUSE I'D COILED IT WRONG.
+  - pos: bottom-right
+    action: Kubo at the hook.
+    cast:
+    - kubo
+    dialogue:
+    - kubo: IF YOU GO, YOU STAND AT THE BACK. SOMEBODY SHOUTS, YOU DON'T WAIT TO HEAR WHAT HE SHOUTED.
+  - pos: bottom-left
+    action: Dai.
+    cast:
+    - dai:station
+    dialogue:
+    - dai: WHY WOULD ANYBODY SHOUT?
+  continue_from: 3
+- page: 5
+  title: Leaves
+  location: hayama-apartment
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: Kubo looks down at the drain.
+    cast:
+    - kubo
+    dialogue:
+    - kubo: LEAVES. YOUR DRAIN'S BLOCKED.
+    location: harbor-station-night
+  - pos: middle-right
+    action: Leaves caught in the drain, water pooled around them. No text.
+  - pos: middle-left
+    action: Saturday at 11:20 p.m., Dai pulls on a plain black T-shirt.
+    cast:
+    - dai
+    captions:
+    - ON SATURDAY AT TWENTY PAST ELEVEN I TOLD MY SISTER I WAS GOING TO STUDY.
+  - pos: bottom, wide
+    action: Aya at the low table, feet in a bowl of water, eating rice with green tea. Window open; moonlight on
+      a distant water tank.
+    cast:
+    - aya
+    captions:
+    - MOM WAS AT THE SUPERMARKET UNTIL MIDNIGHT.
+- page: 6
+  title: Harvest moon
+  location: hayama-apartment
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: Five stalks of pampas grass in the plum jar on the sill.
+    captions:
+    - SOTA HAD PUT FIVE STALKS OF PAMPAS GRASS IN THE PLUM JAR. HIS TEACHER SAID IT WAS THE HARVEST MOON.
+  - pos: middle-right
+    action: Bare table beside the jar.
+    captions:
+    - THERE WERE NO DANGO. NOBODY HAD SAID ANYTHING ABOUT DANGO.
+  - pos: middle-left
+    action: Aya.
+    cast:
+    - aya
+    dialogue:
+    - aya: STUDY.
+  - pos: bottom-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: FOR SANKO. AT KAWAMATA'S.
+  - pos: bottom-left
+    action: Aya.
+    cast:
+    - aya
+    dialogue:
+    - aya: WHO'S KAWAMATA?
+  continue_from: 5
+- page: 7
+  title: At eleven
+  location: hayama-apartment
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: GUY IN MY CLASS. HIS FAMILY'S GOT THE RAMEN SHOP BY THE STATION.
+  - pos: top-left
+    action: Aya.
+    cast:
+    - aya
+    dialogue:
+    - aya: AT ELEVEN AT NIGHT.
+  - pos: middle-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: HE WORKS IN THE SHOP TILL TEN.
+  - pos: middle-left
+    action: Aya lifts one foot from the water and looks at the red marks.
+    cast:
+    - aya
+    dialogue:
+    - aya: DOES HIS FAMILY FEED YOU?
+  - pos: bottom-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: NO.
+  - pos: bottom-left
+    action: Aya puts her foot back.
+    cast:
+    - aya
+    dialogue:
+    - aya: IT'S SATURDAY.
+  continue_from: 6
+- page: 8
+  title: Haircut
+  location: hayama-apartment
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: SO?
+  - pos: top-left
+    action: Aya with her rice bowl.
+    cast:
+    - aya
+    dialogue:
+    - aya: SO FRIDAY CAME AND WENT AND YOU'RE STILL IN. I OWE YOU A HAIRCUT.
+  - pos: middle-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: YOU DON'T HAVE TO.
+  - pos: middle-left
+    action: Aya drinks the tea.
+    cast:
+    - aya
+    dialogue:
+    - aya: I SAID I WOULD. THE NIGHT BEFORE THE TEST. ARE YOU COMING BACK TONIGHT?
+  - pos: bottom-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: LATE. OR I'LL SLEEP THERE.
+  - pos: bottom-left
+    action: Aya.
+    cast:
+    - aya
+    dialogue:
+    - aya: THEN I'LL TELL MOM YOU'RE STAYING OVER. SO SHE DOESN'T SIT UP.
+  continue_from: 7
+- page: 9
+  title: Properly
+  location: hayama-apartment
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: Dai sits on the genkan step, pressing a loose thread in the grey silver tape on his right shoe.
+    cast:
+    - dai
+    captions:
+    - THE SILVER TAPE HAD GONE GREY AT THE TOE.
+  - pos: middle-right
+    action: Closed fusuma, Sota's sleepy voice from behind.
+    cast:
+    - sota:pajamas
+    dialogue:
+    - speaker: sota
+      text: NII-CHAN? ARE YOU GOING TO WORK?
+      offpanel: true
+  - pos: middle-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: STUDYING. GO TO SLEEP.
+  - pos: bottom-right
+    action: Sota in his futon, glasses beside him.
+    cast:
+    - sota:pajamas
+    dialogue:
+    - sota: DID YOU SEE THE MOON? I CAN'T SEE IT FROM HERE. YOU HAVE TO LOOK AT IT FOR ME.
+  - pos: bottom-left
+    action: Dai at the door.
+    cast:
+    - dai
+    dialogue:
+    - dai: I'LL LOOK AT IT.
+  continue_from: 8
+- page: 10
+  title: Forty-eight steps
+  location: danchi-walkway
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top-right
+    action: Sota under his blanket.
+    cast:
+    - sota:pajamas
+    dialogue:
+    - sota: PROPERLY, THOUGH.
+  - pos: top-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: PROPERLY.
+  - pos: middle, wide
+    action: Dai holds down the handle as he closes the steel door. No text.
+    cast:
+    - dai
+  - pos: bottom-right
+    action: His taped shoe on a stair.
+    captions:
+    - I WENT DOWN ALL FORTY-EIGHT STEPS WITHOUT THE SOLE SLAPPING ONCE.
+  - pos: bottom-left
+    action: Moonlit exterior of the danchi stairwell; Dai small below it. No text.
+    cast:
+    - dai
+- page: 11
+  title: White looks older
+  location: harbor-road-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: Kawamata Ramen, shutter down and lantern unlit. Nobu waits beneath it in a buttoned white shirt, track
+      pants, oversized kitchen sandals and shoulder bag.
+    cast:
+    - nobu:meet
+    captions:
+    - NOBU WAS STANDING UNDER THE LANTERN. HIS BAG WAS FULL.
+  - pos: middle-right
+    action: Nobu.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: YOU CAME.
+  - pos: middle-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: I SAID I WOULD.
+  - pos: bottom-right
+    action: Nobu touches his top button.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: IS BLACK RIGHT? I DIDN'T KNOW WHAT YOU WEAR. I THOUGHT, WHITE LOOKS OLDER.
+  - pos: bottom-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: IT'S FINE.
+- page: 12
+  title: For studying
+  location: harbor-road-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: 'Open bag: vocabulary book, magazine, flashlight, disposable camera and two foil-wrapped onigiri.'
+    captions:
+    - A VOCABULARY BOOK IN CASE HIS FATHER CHECKED. THE MAGAZINE, A FLASHLIGHT, THE CAMERA, AND TWO ONIGIRI HIS
+      MOTHER MADE FOR STUDYING.
+  - pos: middle-right
+    action: Nobu offers Dai one onigiri. No text.
+    cast:
+    - dai
+    - nobu:meet
+  - pos: middle-left
+    action: Dai walking, eyes watering as he eats.
+    cast:
+    - dai
+    captions:
+    - UMEBOSHI. SO SALTY MY EYES WATERED. I ATE IT IN FIVE BITES.
+  - pos: bottom-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: WHAT DID YOU TELL YOUR FATHER?
+  - pos: bottom-left
+    action: Nobu.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: THAT I'M STUDYING AT YOURS. FOR YOUR FACTORY TEST. I HAVE TO BE BACK BEFORE HE GETS UP FOR THE STOCK.
+        SIX.
+  continue_from: 11
+- page: 13
+  title: Nobody's anywhere
+  location: harbor-road-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top-right
+    action: Nobu.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: HE SAID IT'S THE FIRST USEFUL THING I'VE DONE ALL YEAR. WHEN YOU PASS HE'LL DO YOU GYOZA.
+  - pos: top-left
+    action: Dai walks quietly for a few steps. No text.
+    cast:
+    - dai
+  - pos: middle-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: I TOLD MY SISTER I'M STUDYING AT YOURS.
+  - pos: middle-left
+    action: Nobu thinks, lips moving.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: SO YOU'RE AT MINE, AND I'M AT YOURS.
+  - pos: bottom-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: YES.
+  - pos: bottom-left
+    action: Nobu looks quietly happy.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: THEN NOBODY'S ANYWHERE.
+  continue_from: 12
+- page: 14
+  title: Back road
+  location: harbor-road-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: The boys pass fish-market sheds by moonlight.
+    captions:
+    - I TOOK US DOWN THE BACK ROAD BEHIND THE FISH-MARKET SHEDS. THAT WAY WE DIDN'T PASS THE STATION.
+    cast:
+    - dai:casual
+    - nobu:meet
+  - pos: middle-right
+    action: Closed sawmill and stacks of pallets casting hard shadows.
+    captions:
+    - IT TOOK FORTY MINUTES.
+  - pos: middle-left
+    action: Their feet on the road, Nobu's sandals loose. No text.
+    cast:
+    - nobu:meet
+  - pos: bottom, wide
+    action: Tiny figures walk between the looming cement silos.
+    captions:
+    - THE ROAD BENT ONE WAY AND THEN THE OTHER.
+    cast:
+    - dai:casual
+    - nobu:meet
+- page: 15
+  title: The rails
+  location: harbor-road-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: A single pole lamp illuminates the freight line crossing the road. Rails shine into darkness both ways.
+      No text.
+  - pos: middle-right
+    action: Nobu stops and looks along the rails. No text.
+    cast:
+    - nobu:meet
+  - pos: middle-left
+    action: Nobu trots after Dai, sandals clapping.
+    cast:
+    - dai
+    - nobu:meet
+    sfx:
+    - CLAP CLAP
+  - pos: bottom-right
+    action: Nobu whispers as they walk the long straight.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: THE MAGAZINE SAYS OSAKA RUNS A LOOP ON THE EXPRESSWAY. THE POLICE THERE STARTED TAKING CARS.
+  - pos: bottom-left
+    action: Nobu falls silent; Dai listens.
+    cast:
+    - dai
+    - nobu:meet
+    captions:
+    - HALFWAY DOWN THE STRAIGHT HE STOPPED TALKING, AND I HEARD WHY.
+  continue_from: 14
+- page: 16
+  title: Music first
+  location: harbor-road-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  panels:
+  - pos: top, wide
+    action: Distant warehouse corner and light beyond, the boys in silhouette.
+    captions:
+    - MUSIC, FIRST. THE SAME SONG FROM THREE OR FOUR CARS, A LITTLE OUT OF TIME WITH ITSELF.
+  - pos: middle-right
+    action: Dai listening.
+    cast:
+    - dai
+    captions:
+    - UNDER THE MUSIC, ENGINES IDLING. I PICKED THEM OUT ONE AT A TIME.
+  - pos: middle-left
+    action: Sound across the dark warehouse wall.
+    captions:
+    - A BIG SIX, SMOOTH. A FOUR WITH A HOLE IN ITS EXHAUST.
+  - pos: bottom-right
+    action: Nobu grips Dai's arm, excited.
+    cast:
+    - dai
+    - nobu:meet
+    dialogue:
+    - nobu: ROTARY.
+  - pos: bottom-left
+    action: The boys round the end of the warehouse toward the light.
+    captions:
+    - AND THERE IT WAS.
+  continue_from: 15
+- page: 17
+  title: The lot
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top, large
+    action: 'Elevated wide view of Pier 3: dry concrete covered in black tire circles, cars in a loose horseshoe,
+      open doors, people, sodium lamps, stacked containers and dark water beyond bollards.'
+    captions:
+    - THE LOT WAS THE SIZE OF THE SPORTS GROUND AT SCHOOL.
+    cast:
+    - id: meet_cars
+      camera: high overhead, small distant cars in a loose horseshoe
+  - pos: middle-right
+    action: The broken moon in the black water between bollards.
+    captions:
+    - ONE OF THE SODIUM LIGHTS WAS OUT.
+  - pos: middle-left
+    action: People leaning and smoking among parked 1995 Japanese cars.
+    captions:
+    - MAYBE TWENTY CARS. MORE TURNING IN. IT WASN'T HALF PAST TWELVE YET.
+    cast:
+    - id: meet_cars
+      camera: eye level among distant parked cars, no close car pose
+  - pos: bottom, wide
+    action: Dai counts moving people; Nobu beside him.
+    cast:
+    - dai
+    - nobu:meet
+    captions:
+    - I COUNTED FIFTY-THREE AND THEN THEY KEPT MOVING AND I STOPPED.
+- page: 18
+  title: Horseshoe
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top, wide
+    action: Low rear view of a dark R32 Skyline, four round taillights; a white older RX-7 beyond.
+    captions:
+    - CARS I KNEW FROM THE ROAD AND FROM NOBU'S MAGAZINE, WHICH IS NOT THE SAME AS KNOWING THEM.
+    cast:
+    - id: skyline
+      view: view
+      camera: low rear at ground level, rear toward viewer
+    - id: rx7
+      view: view
+      camera: distant front three-quarter, white FC beyond Skyline
+  - pos: middle-right
+    action: A lowered Cefiro from high front-left, parked.
+    captions:
+    - THE CEFIRO WAS SO CLOSE TO THE GROUND I DIDN'T KNOW HOW IT GOT OVER THE RAILS.
+    cast:
+    - id: cefiro
+      view: view
+      camera: high front-left above the lowered car
+  - pos: middle-left
+    action: A girl cross-legged on the hood of a black rounded Supra; its owner holds his hands half up. No text.
+    cast:
+    - id: supra
+      view: view
+      camera: close elevated angle down over hood from front right
+  - pos: bottom-right
+    action: A boy alone in an open white Starlet, seen through its window. No text.
+    cast:
+    - id: starlet
+      view: view
+      camera: close view through its right driver window, front points right
+  - pos: bottom-left
+    action: A pager on a belt buzzes; several hands reach to their belts.
+    sfx:
+    - BEEP
+- page: 19
+  title: Eighty yen
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top, wide
+    action: A white van with cooler in back, a man selling canned beer to a queue.
+    captions:
+    - AT THE END OF THE ROW A MAN SOLD CANNED BEER FOR 300 YEN.
+  - pos: middle-right
+    action: Dai watches cans change hands.
+    cast:
+    - dai
+    captions:
+    - THE MACHINE BY OUR DANCHI SOLD THEM FOR 220.
+  - pos: middle-left
+    action: Six cans counted on Dai's fingers.
+    cast:
+    - dai
+    captions:
+    - HE WAS CHARGING 80 YEN MORE. HE'D SOLD SIX WHILE I WATCHED.
+  - pos: bottom-right
+    action: Nobu leaning close to speak into Dai's ear.
+    cast:
+    - dai
+    - nobu:meet
+    dialogue:
+    - nobu: FIFTY PEOPLE. AT LEAST. AND NOBODY'S EVER WRITTEN ABOUT IT. NOT ONE LINE.
+  - pos: bottom-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: FIFTY-THREE.
+- page: 20
+  title: Okabe
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top-right
+    action: Nobu.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: YOU COUNTED?
+  - pos: top, wide
+    action: Older white van in middle of horseshoe, open back. Okabe sits on floor, legs hanging, grey cash box
+      on knees, blue school notebook and walkie-talkie beside him. Faint painted-over name on van.
+    cast:
+    - okabe
+    captions:
+    - PEOPLE WENT TO HIM. THEY DID SOMETHING AND LEFT.
+  - pos: middle-right
+    action: Golf-shirt man holds out a folded 10,000-yen note. No text.
+  - pos: middle-left
+    action: Okabe writes on a torn corner of notebook paper. No text.
+    cast:
+    - okabe
+  - pos: bottom-right
+    action: Note goes into cash box. No text.
+  - pos: bottom-left
+    action: Golf-shirt man pats the scrap in his breast pocket.
+    dialogue:
+    - speaker: caller
+      text: OKABE-SAN.
+      offpanel: true
+- page: 21
+  title: Tire hands
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top, wide
+    action: Okabe raises his pencil without looking up; reading glasses pushed on forehead, soft round face and
+      plain polo.
+    cast:
+    - okabe
+    captions:
+    - HIS HANDS WERE THE FIRST THING I LOOKED AT.
+  - pos: middle-right
+    action: Close-up of tire-blackened creases, short clean nails, counting notes.
+    captions:
+    - TIRE HANDS. BLACK IN THE CREASES, BUT THE NAILS CUT SHORT AND CLEAN.
+  - pos: middle-left
+    action: Okabe licks his thumb.
+    cast:
+    - okabe
+    captions:
+    - HE NEVER COUNTED THE SAME NOTES TWICE. HE DIDN'T NEED TO.
+  - pos: bottom-right
+    action: A young boy receives a chit as others laugh.
+    captions:
+    - FIVE MORE PEOPLE CAME WHILE I STOOD THERE. I ADDED THEM UP WITHOUT MEANING TO.
+  - pos: bottom-left
+    action: Nobu watches Dai.
+    cast:
+    - dai
+    - nobu:meet
+    dialogue:
+    - nobu: YOU'RE DOING IT AGAIN. YOUR MOUTH. YOU COUNT WITH YOUR MOUTH.
+  continue_from: 20
+- page: 22
+  title: The Silvia
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top-right
+    action: Dai closes his mouth. No text.
+    cast:
+    - dai
+  - pos: top-left
+    action: Dai listens, head turning toward road.
+    cast:
+    - dai
+    captions:
+    - THAT WAS WHEN I HEARD THE SILVIA.
+  - pos: middle, wide
+    action: White S13 enters the lot, low front three-quarter from its right flank, nose to lower right, fixed headlights,
+      black wheels, large wing; people part.
+    cast:
+    - id: silvia
+      view: front34
+      camera: low front three-quarter from right flank, nose toward lower right
+    captions:
+    - I KNEW IT BEFORE ITS LIGHTS SWUNG IN.
+    sfx:
+    - POP POP
+  - pos: bottom-right
+    action: Close crop of passenger-door dent as car rolls by, no driver visible.
+    cast:
+    - id: silvia
+      view: front34
+      camera: close on left passenger door from side, no full car
+    captions:
+    - DIRTIER THAN I REMEMBERED. A DENT I DIDN'T REMEMBER AT ALL.
+  - pos: bottom-left
+    action: Tetsu, skinny nineteen-year-old in satin jacket, opens driver's door.
+    cast:
+    - tetsu
+    dialogue:
+    - tetsu: GOTO-SAN.
+- page: 23
+  title: Bridge kid
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top, wide
+    action: Goto stands and stretches, bleached hair, open shiny jacket, white tank, chain and cigarette.
+    cast:
+    - goto
+    captions:
+    - SO THAT WAS HIS NAME.
+  - pos: middle-right
+    action: Goto's eyes stop on Dai.
+    cast:
+    - dai
+    - goto
+    dialogue:
+    - goto: OI.
+  - pos: middle-left
+    action: Goto, Tetsu behind him, approaches the boys.
+    cast:
+    - goto:tracksuit
+    - tetsu
+    - dai:casual
+    - nobu:meet
+    dialogue:
+    - goto: I KNOW YOU. BRIDGE KID.
+  - pos: bottom-right
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: EVENING.
+  - pos: bottom-left
+    action: Goto laughs.
+    cast:
+    - goto
+    dialogue:
+    - goto: EVENING. YOU DROPPED YOUR BEER. YOU CHASED ME DOWN THE STAIRS.
+- page: 24
+  title: Afterimages
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top-right
+    action: Goto blows smoke upward, away from Dai.
+    cast:
+    - dai
+    - goto
+    dialogue:
+    - goto: STILL CHASING AFTERIMAGES?
+  - pos: top-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: NO.
+  - pos: middle-right
+    action: Goto.
+    cast:
+    - goto
+    dialogue:
+    - goto: YOU FIND HIM? THE RICH GUY IN THE TOY?
+  - pos: middle-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: NO.
+  - pos: bottom-right
+    action: Nobu draws breath; Dai's shoe rests lightly on the sandal toe to stop him speaking. No text.
+    cast:
+    - dai
+    - nobu:meet
+  - pos: bottom-left
+    action: Goto.
+    cast:
+    - goto
+    dialogue:
+    - goto: NOBODY FINDS IT. IT FINDS YOU, AND THEN IT LEAVES.
+  continue_from: 23
+- page: 25
+  title: The camera
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top-right
+    action: Goto looks down.
+    cast:
+    - goto
+    dialogue:
+    - goto: WHAT'S THAT.
+  - pos: top-left
+    action: Nobu holds a disposable camera, startled.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: NOTHING. A CAMERA. IT'S OFF. IT DOESN'T GO OFF, IT'S DISPOSABLE, IT'S JUST...
+  - pos: middle-right
+    action: Goto.
+    cast:
+    - goto
+    dialogue:
+    - goto: THAT COMES OUT AGAIN, IT GOES IN THE HARBOR. YOU AND IT.
+  - pos: middle-left
+    action: Nobu zips the camera into his bag.
+    cast:
+    - nobu:meet
+    sfx:
+    - ZIP
+  - pos: bottom-right
+    action: Nobu bows deeply from the waist. No text.
+    cast:
+    - nobu:meet
+  - pos: bottom-left
+    action: Goto laughs and turns away.
+    cast:
+    - goto
+    dialogue:
+    - goto: TETSU. WHO'VE I GOT?
+  continue_from: 24
+- page: 26
+  title: Seventy-five horses
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top-right
+    action: Tetsu.
+    cast:
+    - tetsu
+    dialogue:
+    - tetsu: THE CHASER.
+  - pos: top, wide
+    action: Clean grey Toyota Chaser Tourer V parked under the lights, elevated rear three-quarter of its left flank,
+      nose away left; its permed driver in white loafers stands nearby. Passenger remains inside.
+    captions:
+    - TWO YEARS OLD AT MOST. SO CLEAN IT REFLECTED THE LIGHTS IN LONG STRIPES.
+    cast:
+    - id: chaser
+      view: view
+      camera: elevated rear three-quarter of left flank, nose away left
+  - pos: middle-right
+    action: Nobu, voice back.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: TOURER V. 280 PS. GOTO'S IS A K'S, PROBABLY. 205. THAT'S SEVENTY-FIVE HORSES.
+  - pos: middle-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: I CAN SUBTRACT.
+  - pos: bottom-right
+    action: Nobu.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: I'M JUST SAYING. SEVENTY-FIVE HORSES.
+  - pos: bottom-left
+    action: People hold notes toward Okabe's van.
+    cast:
+    - okabe
+    captions:
+    - THE CROWD THOUGHT SO TOO.
+- page: 27
+  title: Ten pays sixteen
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top-right
+    action: Okabe calls from his van, notebook in hand.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: CHASER, TEN PAYS SIXTEEN. SILVIA, TEN PAYS TWENTY-FIVE.
+  - pos: top-left
+    action: Dai watches and works it out.
+    cast:
+    - dai
+    captions:
+    - THE CAR EVERYBODY THOUGHT WOULD LOSE PAID MORE. OTHERWISE NOBODY WOULD BET ON IT.
+  - pos: middle, wide
+    action: Okabe counts two stacks of five notes on the cash-box lid, two envelopes beside them.
+    cast:
+    - okabe
+    captions:
+    - GOTO AND THE CHASER'S DRIVER EACH GAVE HIM AN ENVELOPE. FIVE TEN-THOUSANDS. FIVE TEN-THOUSANDS.
+  - pos: bottom-right
+    action: Nobu.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: A HUNDRED THOUSAND.
+  - pos: bottom-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: HE KEEPS TEN. WINNER GETS NINETY.
+  continue_from: 26
+- page: 28
+  title: After the silos
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top, wide
+    action: Chaser driver walks around his car; frame the man's shoes and car's lower body, no full car pose.
+    cast:
+    - chaser_driver
+    - id: chaser
+      view: view
+      camera: close low crop on lower body and shoes, no full car
+    captions:
+    - HE WALKED ROUND HIS CAR THREE TIMES.
+  - pos: middle-right
+    action: Driver gestures right then left to a man leaning near the Skyline.
+    cast:
+    - chaser_driver
+    dialogue:
+    - chaser_driver: '...AFTER THE SILOS?'
+  - pos: middle-left
+    action: People turn their heads toward the answer.
+    captions:
+    - THE PEOPLE AROUND HIM HEARD. THEN THE PEOPLE AROUND THEM HEARD.
+  - pos: bottom-right
+    action: Goto crouches at a front tire, thumb along shoulder of tread. No full car.
+    cast:
+    - goto
+    dialogue:
+    - goto: NEW RUBBER. NEVER BEEN WARM.
+  - pos: bottom-left
+    action: Tiny rubber hairs on his thumb; he flicks them away. No text.
+  continue_from: 27
+- page: 29
+  title: The money moves
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top, wide
+    action: Man with a note hesitates at Okabe's van and puts it back in his wallet.
+    cast:
+    - okabe
+    captions:
+    - IT WENT ROUND THE LOT IN ABOUT A MINUTE.
+  - pos: middle-right
+    action: Okabe looks over his glasses, crosses out a line and writes another. No text.
+    cast:
+    - okabe
+  - pos: middle-left
+    action: Okabe calls.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: SILVIA, TEN PAYS FIFTEEN. CHASER, TEN PAYS TWENTY-TWO.
+  - pos: lower-right
+    action: Nobu.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: WHAT HAPPENED? WHY'D IT GO?
+  - pos: lower-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: HE ASKED THE WAY.
+  - pos: bottom-right
+    action: Nobu.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: SO?
+  - pos: bottom-left
+    action: Dai.
+    cast:
+    - dai
+    dialogue:
+    - dai: SO HE'S NEVER DRIVEN IT.
+  continue_from: 28
+- page: 30
+  title: Two
+  location: pier-3-night
+  time: dry September night, 1995
+  notes:
+  - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
+    sold by September 1995.
+  - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  panels:
+  - pos: top, wide
+    action: 'From behind and high above the bollards: the white winged Silvia on left near warehouses and grey Chaser
+      on right, aligned at mouth of lot, viewed over roofs toward the rail-crossing light. Starter between them,
+      crowd at edge.'
+    cast:
+    - id: silvia
+      view: rear
+      camera: high from behind both cars, looking over roofs toward distant rail crossing
+    - id: chaser
+      view: view
+      camera: high above and behind, looking forward across its roof toward the crossing
+    captions:
+    - THEY LINED UP AT THE MOUTH OF THE LOT.
+  - pos: middle-right
+    action: Dai on one bollard, Nobu on the next, gripping Dai's shirt.
+    cast:
+    - dai
+    - nobu:meet
+    captions:
+    - THE CROSSING WAS A KILOMETER AWAY. AFTER IT THE ROAD BENT LEFT AND THE SILOS TOOK IT.
+  - pos: middle-left
+    action: The starter, a scooter boy with helmet pushed back, raises a long black flashlight.
+    captions:
+    - THE MUSIC HAD BEEN TURNED DOWN.
+  - pos: bottom-right
+    action: Close-up of the lit flashlight held still against the night.
+    captions:
+    - I COUNTED TWO.
+  - pos: bottom-left
+    action: His hand brings the flashlight down. No dialogue.
+    captions:
+    - 'CHAPTER 6: PIER 3. END.'

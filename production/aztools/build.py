@@ -287,6 +287,15 @@ class Builder:
         parts: list[str] = []
         check: list[str] = []
 
+        if page.kind == "car_sheet":
+            parts += [t["format-car-sheet"], "STYLE: " + t["style"], t["lettering-plate"]]
+            if refs:
+                parts.append(fill(t["references"], ref_legend="\n".join(f"{i}. {r.legend}" for i, r in enumerate(refs, 1))))
+            parts.append("CAR: " + (page.description or "").strip())
+            parts.append(t["rules-intro"] + "\n- No people. Draw only the specified vehicle and separate views on white.")
+            check += t["self-check-car-sheet"].splitlines()
+            return Job(page, spec, "\n\n".join(parts), check, refs, warnings)
+
         if page.kind == "sheet":
             parts.append(t["format-sheet"])
             parts.append("STYLE: " + t["style"])

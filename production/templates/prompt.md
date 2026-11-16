@@ -108,3 +108,10 @@ RULES:
 
 ## edit
 EDIT MODE: Reference 1 is the current version of this page. Redraw it, keeping everything the same (layout, art style, faces, all lettering) EXCEPT: {change}{keep}
+
+## format-car-sheet
+A landscape vehicle reference sheet on plain white paper, not a comic page. Draw the specified car in separate front three-quarter, side and rear views. No people, no labels.
+
+## self-check-car-sheet
+- The vehicle matches the specified model and era in every view; no people.
+- Separate unobstructed car views on white, no text or watermark.

@@ -147,3 +147,7 @@ Rows appended by `production/az run` (full prompts and refs: `production/logs/pr
 | pages/chapter-005/page-10.png | 2026-11-16 | character-sheets/aya.png, character-sheets/michiko.png, character-sheets/sota.png, character-sheets/dai.png, locations/hayama-apartment.png | approved | runner: 1 image_gen call(s), empty lettering; lettering incomplete: CHECK: 8/8 lines placed; panels found 6, spec 6 (per-panel mapping) |
 | pages/chapter-005/page-12.png | 2026-11-16 | character-sheets/michiko.png, character-sheets/dai.png, character-sheets/aya.png, locations/hayama-apartment.png, pages/chapter-005/page-11.png | approved | runner: 2 image_gen call(s), empty lettering; lettering incomplete: CHECK: 4/4 lines placed; panels found 5, spec 5 (per-panel mapping) |
 | pages/chapter-005/page-01.art.png | 2026-11-16 | production/runs/edit-src/ch5-page-01.masked.png, locations/school-gym.png | approved (bottom-right panel only, pasted into take 1; balloons hand-painted) | runner: 1 image_gen call(s), empty lettering |
+| locations/pier-3-night.png | 2026-11-17 | locations/harbor-road-night.png | generated, not reviewed | runner: 1 image_gen call(s) |
+| character-sheets/okabe.png | 2026-11-17 | character-sheets/nobu.png | generated, not reviewed | runner: 1 image_gen call(s) |
+| car-sheets/supra-a80.png | 2026-11-17 | none | generated, not reviewed | runner: 1 image_gen call(s) |
+| car-sheets/starlet-p80.png | 2026-11-17 | none | generated, not reviewed | runner: 1 image_gen call(s) |

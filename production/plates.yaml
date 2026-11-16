@@ -186,3 +186,16 @@ pages:
       loudspeaker horn in the middle. The canal with its low railing on the
       left edge, hazy summer sky, utility poles and low apartment blocks in
       the distance. No people and NO vehicles.
+
+  - id: pier-3-night
+    location: pier-3-night
+    refs:
+      - {path: artwork/locations/harbor-road-night.png, use: "Copy the harbor's dry night atmosphere and ink style only"}
+    time: dry September night
+    description: >-
+      Wide elevated view of an empty concrete lot at Pier 3, the size of a
+      school sports ground, dry pavement with hundreds of overlapping dark tire
+      circles. Tall sodium light poles down one side, one unlit; shipping
+      containers stacked three high along the back, bollards and dark water
+      reflecting a broken moon on the open side, warehouse road at entrance.
+      Completely empty of people and vehicles. No cars, no vans, no Roadster.

@@ -239,3 +239,13 @@ canal-driving-school:
     beyond.
   plate: artwork/locations/canal-driving-school.png
   default_time: afternoon
+
+pier-3-night:
+  name: Pier 3 harbor lot at night
+  description: >-
+    A large dry concrete harbor lot covered in overlapping black tire circles.
+    Tall sodium lights line one side, one lamp unlit; stacked shipping containers
+    three high at the back, bollards and black harbor water on the open side,
+    warehouses and the harbor road at the entrance. September 1995.
+  plate: artwork/locations/pier-3-night.png
+  default_time: dry night under sodium lamps

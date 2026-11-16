@@ -159,6 +159,51 @@ characters:
           and a little tight over his belly, black school trousers, indoor
           shoes with the heels trodden flat; a canvas school bag
         ref: artwork/character-sheets/nobu.png
+      meet:
+        desc: white short-sleeved shirt buttoned to throat, track pants, oversized black kitchen sandals, canvas shoulder bag
+        ref: artwork/character-sheets/nobu.png
+        ref_note: face and build only; use the described meet clothes
+
+  okabe:
+    name: OKABE
+    full_name: Okabe, tire-shop bookmaker
+    traits: Man in his forties with a soft round face, short dark hair, reading glasses on forehead, tire-blackened finger creases and clean short nails.
+    tell: the round-faced bookmaker with reading glasses on his forehead
+    default_outfit: work
+    outfits:
+      work:
+        desc: plain unmarked polo shirt and ordinary trousers
+        ref: artwork/character-sheets/okabe.png
+
+  tetsu:
+    name: TETSU
+    full_name: Tetsu, Goto's companion
+    traits: Skinny nineteen-year-old man with short dark hair and satin jacket.
+    tell: the skinny young man in a satin jacket
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: plain satin jacket and trousers
+
+  chaser_driver:
+    name: CHASER DRIVER
+    full_name: Chaser driver
+    traits: Man about twenty-two with a perm, white loafers and no socks.
+    tell: the young man with a perm and white loafers
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: casual shirt and trousers, white loafers, no socks
+
+  caller:
+    name: CALLER
+    full_name: an unseen person at the meet
+    traits: A voice in the crowd, off panel.
+    tell: an unseen person
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: ordinary 1995 casual clothes
 
   hotta:
     name: HOTTA-SENSEI
@@ -259,6 +304,85 @@ characters:
         desc: pale short-sleeved uniform shirt with a dark tie, a clipboard on his knee
 
 cars:
+  meet_cars:
+    name: the parked meet cars
+    full_name: 1995 Japanese street cars in a distant crowd
+    traits: Period-correct Japanese coupes and sedans, no Eunos Roadster.
+    rules:
+      - Right-hand drive, no car newer than September 1995.
+
+  skyline:
+    name: dark blue 1992 Nissan Skyline R32
+    full_name: Japanese-market dark blue 1992 Nissan Skyline R32
+    traits: dark blue 1992 Nissan Skyline R32, right-hand drive, Japanese market, period correct.
+    ref: artwork/car-sheets/skyline-rx7-crops.png
+    views:
+      view:
+        ref: artwork/car-sheets/skyline-rx7-crops.png
+        note: left-hand rear-view crop; use for details, draw requested camera angle
+    rules:
+      - Right-hand drive. In a near-side driver window view the front points right.
+
+  rx7:
+    name: white 1990 Mazda RX-7 FC
+    full_name: Japanese-market white 1990 Mazda RX-7 FC
+    traits: white 1990 Mazda RX-7 FC, right-hand drive, Japanese market, period correct.
+    ref: artwork/car-sheets/skyline-rx7-crops.png
+    views:
+      view:
+        ref: artwork/car-sheets/skyline-rx7-crops.png
+        note: right-hand front-view crop; use for details, draw requested camera angle
+    rules:
+      - Right-hand drive. In a near-side driver window view the front points right.
+
+  cefiro:
+    name: lowered 1991 Nissan Cefiro A31
+    full_name: Japanese-market lowered 1991 Nissan Cefiro A31
+    traits: lowered 1991 Nissan Cefiro A31, right-hand drive, Japanese market, period correct.
+    ref: artwork/car-sheets/cefiro-a31-view.png
+    views:
+      view:
+        ref: artwork/car-sheets/cefiro-a31-view.png
+        note: front three-quarter crop; use for details, draw requested camera angle
+    rules:
+      - Right-hand drive. In a near-side driver window view the front points right.
+
+  supra:
+    name: black 1994 Toyota Supra A80
+    full_name: Japanese-market black 1994 Toyota Supra A80
+    traits: black 1994 Toyota Supra A80, right-hand drive, Japanese market, period correct.
+    ref: artwork/car-sheets/supra-a80-view.png
+    views:
+      view:
+        ref: artwork/car-sheets/supra-a80-view.png
+        note: front three-quarter crop; use for details, draw requested camera angle
+    rules:
+      - Right-hand drive. In a near-side driver window view the front points right.
+
+  starlet:
+    name: white 1991 Toyota Starlet EP82 GT Turbo
+    full_name: Japanese-market white 1991 Toyota Starlet EP82 GT Turbo
+    traits: white 1991 Toyota Starlet EP82 GT Turbo, right-hand drive, Japanese market, period correct.
+    ref: artwork/car-sheets/starlet-p80-view.png
+    views:
+      view:
+        ref: artwork/car-sheets/starlet-p80-view.png
+        note: front three-quarter crop; use for details, draw requested camera angle
+    rules:
+      - Right-hand drive. In a near-side driver window view the front points right.
+
+  chaser:
+    name: grey 1993 Toyota Chaser JZX90 Tourer V
+    full_name: Japanese-market grey 1993 Toyota Chaser JZX90 Tourer V
+    traits: grey 1993 Toyota Chaser JZX90 Tourer V, right-hand drive, Japanese market, period correct.
+    ref: artwork/car-sheets/chaser-x90-view.png
+    views:
+      view:
+        ref: artwork/car-sheets/chaser-x90-view.png
+        note: rear crop; use for details, draw requested camera angle
+    rules:
+      - Right-hand drive. In a near-side driver window view the front points right.
+
   school_sedan:
     name: the driving-school sedan
     full_name: white 1990s Toyota Corona four-door sedan, Shiomi Driving School car
@@ -330,5 +454,12 @@ cars:
       (NOT pop-ups; it is not a 180SX). Big aftermarket rear wing, black
       multi-spoke wheels, loud exhaust.
     ref: artwork/car-sheets/silvia-s13.png
+    views:
+      front34:
+        ref: artwork/car-sheets/silvia-s13-front34.png
+        note: front three-quarter crop for detail only; draw the specified camera angle
+      rear:
+        ref: artwork/car-sheets/silvia-s13-rear.png
+        note: rear crop for detail only; draw the specified camera angle
     rules:
       - "RIGHT-HAND DRIVE: the driver sits on the car's right side."

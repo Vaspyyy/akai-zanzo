@@ -46,3 +46,15 @@ pages:
       held up close. He must match the chapter-4 panels
       exactly and look nothing like the stocky buzz-cut boy on the layout
       sheet.
+
+  - id: okabe
+    refs:
+      - {path: artwork/character-sheets/nobu.png, use: "Copy ONLY the sheet layout and ink style, not the face or clothes"}
+    description: >-
+      One character only: OKABE, Japanese tire-shop bookmaker in his forties,
+      soft round face, short dark hair, reading glasses pushed up on his forehead,
+      plain unmarked polo shirt and ordinary trousers. Tire hands black in the
+      finger creases, nails short and clean. Turnaround front, side and back;
+      expressions counting, amused, watching over glasses, calling odds. Detail:
+      his hands with a grey metal cash box and blue spiral school notebook with
+      pencil. Late-1990s seinen manga ink and screentone. No other characters.
