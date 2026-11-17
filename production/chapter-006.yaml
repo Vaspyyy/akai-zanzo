@@ -1016,28 +1016,32 @@ pages:
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
   - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
     not repeat portraits or panel compositions.
+  - Every Goto and Dai panel must use a distinct angle and pose, never repeat the upward-looking laughing portrait
+    from the previous page.
   panels:
   - pos: top-right
-    action: Goto blows smoke upward, away from Dai.
+    action: Goto seen from behind at waist height, cigarette in one raised hand, exhales smoke UP away from Dai.
+      Dai remains in background.
     cast:
     - dai
     - goto
     dialogue:
     - goto: STILL CHASING AFTERIMAGES?
   - pos: top-left
-    action: Dai.
+    action: Dai viewed frontally from a distance, arms folded, speaking.
     cast:
     - dai
     dialogue:
     - dai: NO.
   - pos: middle-right
-    action: Goto.
+    action: Goto waist-up in side profile, leaning against a bollard, speaking with cigarette in hand. No upward
+      tilted head.
     cast:
     - goto
     dialogue:
     - goto: YOU FIND HIM? THE RICH GUY IN THE TOY?
   - pos: middle-left
-    action: Dai.
+    action: Close on Dai looking down, fringe hiding eyes, speaking quietly.
     cast:
     - dai
     dialogue:
@@ -1048,7 +1052,8 @@ pages:
     - dai
     - nobu:meet
   - pos: bottom-left
-    action: Goto.
+    action: Goto in a medium three-quarter view from the side, looking toward the water, cigarette held away from
+      his mouth, speaking.
     cast:
     - goto
     dialogue:
@@ -1064,9 +1069,11 @@ pages:
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
   - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
     not repeat portraits or panel compositions.
+  - Use distinct shots for Goto. Keep all balloons away from faces.
   panels:
   - pos: top-right
-    action: Goto looks down.
+    action: Goto shown waist-up in side profile, head level, pointing at the camera off panel. No upward laughing
+      portrait.
     cast:
     - goto
     dialogue:
@@ -1076,9 +1083,20 @@ pages:
     cast:
     - nobu:meet
     dialogue:
-    - nobu: NOTHING. A CAMERA. IT'S OFF. IT DOESN'T GO OFF, IT'S DISPOSABLE, IT'S JUST...
+    - nobu:
+        text: NOTHING. A CAMERA. IT'S OFF. IT DOESN'T GO OFF, IT'S DISPOSABLE, IT'S JUST...
+        box:
+        - 20
+        - 26
+        - 304
+        - 242
+        draw: true
+        tail:
+        - 347
+        - 240
   - pos: middle-right
-    action: Goto.
+    action: Goto seen from behind at shoulder height, turns head slightly toward Nobu, cigarette held away in hand,
+      speaking. Different pose from other panels.
     cast:
     - goto
     dialogue:
@@ -1089,6 +1107,13 @@ pages:
     - nobu:meet
     sfx:
     - ZIP
+    captions:
+    - text: HE PUT IT IN HIS BAG.
+      box:
+      - 27
+      - 550
+      - 235
+      - 83
   - pos: bottom-right
     action: Nobu bows deeply from the waist. No text.
     cast:
@@ -1158,6 +1183,7 @@ pages:
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
   - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
     not repeat portraits or panel compositions.
+  - Every portrait and pose differs from preceding pages and from other panels on this page.
   panels:
   - pos: top-right
     action: Okabe calls from his van, notebook in hand.
@@ -1166,9 +1192,9 @@ pages:
     dialogue:
     - okabe: CHASER, TEN PAYS SIXTEEN. SILVIA, TEN PAYS TWENTY-FIVE.
   - pos: top-left
-    action: Dai watches and works it out.
-    cast:
-    - dai
+    action: Close-up of Dai’s empty hand as he counts odds on his fingers, the crowded lot soft behind. No face
+      or car close-ups.
+    cast: []
     captions:
     - THE CAR EVERYBODY THOUGHT WOULD LOSE PAID MORE. OTHERWISE NOBODY WOULD BET ON IT.
   - pos: middle, wide
@@ -1184,7 +1210,8 @@ pages:
     dialogue:
     - nobu: A HUNDRED THOUSAND.
   - pos: bottom-left
-    action: Dai.
+    action: Dai waist-up from behind at the edge of the lot, head turned toward Nobu in a small side profile, speaking.
+      Avoid any frontal upward-looking portrait.
     cast:
     - dai
     dialogue:
