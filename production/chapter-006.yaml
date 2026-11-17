@@ -1110,10 +1110,10 @@ pages:
     captions:
     - text: HE PUT IT IN HIS BAG.
       box:
-      - 27
-      - 550
-      - 235
-      - 83
+      - 38
+      - 537
+      - 416
+      - 79
   - pos: bottom-right
     action: Nobu bows deeply from the waist. No text.
     cast:
@@ -1184,6 +1184,7 @@ pages:
   - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
     not repeat portraits or panel compositions.
   - Every portrait and pose differs from preceding pages and from other panels on this page.
+  - Nobu in panel 4 is a small side or back view, not the same open-mouthed close-up as pages 26 and 29.
   panels:
   - pos: top-right
     action: Okabe calls from his van, notebook in hand.
@@ -1204,7 +1205,8 @@ pages:
     captions:
     - GOTO AND THE CHASER'S DRIVER EACH GAVE HIM AN ENVELOPE. FIVE TEN-THOUSANDS. FIVE TEN-THOUSANDS.
   - pos: bottom-right
-    action: Nobu.
+    action: Nobu shown from behind and slightly above, a small waist-up view with his canvas bag, looking toward
+      Dai. He speaks calmly in profile. DO NOT show an open-mouthed frontal close-up.
     cast:
     - nobu:meet
     dialogue:
@@ -1216,7 +1218,7 @@ pages:
     - dai
     dialogue:
     - dai: HE KEEPS TEN. WINNER GETS NINETY.
-  continue_from: 26
+  continue_from: 20
 - page: 28
   title: After the silos
   location: pier-3-night
@@ -1266,11 +1268,13 @@ pages:
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
   - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
     not repeat portraits or panel compositions.
+  - The customer in panel 1 is not the bookmaker Okabe. Every Dai shot uses different framing.
+  - Nobu in panel 6 is a small side or back view, visibly different from his preceding close-up.
   panels:
   - pos: top, wide
-    action: Man with a note hesitates at Okabe's van and puts it back in his wallet.
-    cast:
-    - okabe
+    action: A CUSTOMER, a slim middle-aged man with side-parted hair and a dark golf shirt, stands outside the bookmaker
+      van. He hesitates with a banknote, then puts it back into his own wallet. He is NOT Okabe, has no glasses
+      and no polo shirt.
     captions:
     - IT WENT ROUND THE LOT IN ABOUT A MINUTE.
   - pos: middle-right
@@ -1296,13 +1300,15 @@ pages:
     dialogue:
     - dai: HE ASKED THE WAY.
   - pos: bottom-right
-    action: Nobu.
+    action: Nobu in a small waist-up SIDE PROFILE from behind, one hand open, looking toward Dai, speaks in a puzzled
+      low voice. Do not draw a laughing face or front close-up.
     cast:
     - nobu:meet
     dialogue:
     - nobu: SO?
   - pos: bottom-left
-    action: Dai.
+    action: Dai seen from behind in a waist-up view, head turned slightly toward Nobu, speaking. Different camera
+      and pose from his earlier close-up.
     cast:
     - dai
     dialogue:
@@ -1316,11 +1322,16 @@ pages:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
     sold by September 1995.
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  - 'CRITICAL course geography: both cars face along a clear public harbor road AWAY from the lot, not toward the
+    container stacks or a dead end. The container-yard wall is alongside the road, never blocking it. Both boys
+    stand atop the bollards, not sit.'
   panels:
   - pos: top, wide
-    action: 'From behind and high above the bollards: the white winged Silvia on left near warehouses and grey Chaser
-      on right, aligned at mouth of lot, viewed over roofs toward the rail-crossing light. Starter between them,
-      crowd at edge.'
+    action: From HIGH behind the two cars at the MOUTH OF THE LOT looking OUT onto the straight TWO-LANE HARBOR
+      ROAD. The white winged Silvia is on the LEFT nearest warehouses, grey Chaser on RIGHT. Both face away from
+      the viewer down the OPEN ROAD toward the small distant rail-crossing light; the road is clear and continues
+      out to the horizon, NO container wall or barrier across it. The starter stands BETWEEN them. Spectators remain
+      behind and at the sides of the road.
     cast:
     - id: silvia
       view: rear
@@ -1331,7 +1342,8 @@ pages:
     captions:
     - THEY LINED UP AT THE MOUTH OF THE LOT.
   - pos: middle-right
-    action: Dai on one bollard, Nobu on the next, gripping Dai's shirt.
+    action: Dai STANDS on one bollard, Nobu STANDS on the adjacent bollard, steadying himself by gripping Dai’s
+      shirt. Both stand upright and look down the course.
     cast:
     - dai
     - nobu:meet
@@ -1348,4 +1360,5 @@ pages:
   - pos: bottom-left
     action: His hand brings the flashlight down. No dialogue.
     captions:
-    - 'CHAPTER 6: PIER 3. END.'
+    - text: 'CHAPTER 6: PIER 3. END.'
+      style: small
