@@ -17,17 +17,38 @@ pages:
     - dai:station
     - kubo
     captions:
-    - AT FOUR ON SATURDAY MORNING THE STATION WAS SO QUIET I COULD HEAR THE PRICE SIGN TICKING AS IT COOLED.
+    - text: AT FOUR ON SATURDAY MORNING THE STATION WAS SO QUIET I COULD HEAR THE PRICE SIGN TICKING AS IT COOLED.
+      box:
+      - 34
+      - 32
+      - 440
+      - 150
+      draw: true
   - pos: middle-right
     action: Water runs toward the drain.
     sfx:
     - HSSSS
+    captions:
+    - text: HE WATCHED THE WATER RUN TOWARD THE DRAIN.
+      box:
+      - 693
+      - 641
+      - 320
+      - 120
+      draw: true
   - pos: middle-left
     action: Dai closes the hose tap.
     cast:
     - dai:station
     sfx:
     - KLIK
+    captions:
+    - text: I TURNED THE HOSE OFF.
+      box:
+      - 33
+      - 657
+      - 199
+      - 100
   - pos: bottom-right
     action: Dai.
     cast:
@@ -46,6 +67,8 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Panels 2 through 4 are a Friday daylight classroom flashback. Do not copy the station background into those
+    panels.
   panels:
   - pos: top-right
     action: Dai.
@@ -59,22 +82,30 @@ pages:
     - dai:station
     - nobu:summer_school
     dialogue:
-    - nobu: SOMEBODY KNOWS. SOMEBODY ALWAYS KNOWS.
-    location: classroom
+    - nobu:
+        text: SOMEBODY KNOWS. SOMEBODY ALWAYS KNOWS.
+        box:
+        - 287
+        - 30
+        - 224
+        - 190
+        draw: true
+        tail:
+        - 408
+        - 226
   - pos: middle-right
     action: Nobu raises his eyebrows.
     cast:
     - nobu:summer_school
     dialogue:
     - nobu: AND YOU SAY YOU RODE IN THE AKAI ZANZO, SO.
-    location: classroom
   - pos: middle-left
-    action: Dai asleep at his desk, cheek on an English book.
+    action: Dai asleep at his desk, cheek on an English book. He wears his white short-sleeved summer school shirt
+      in the classroom.
     cast:
-    - dai:station
+    - dai:summer_school
     captions:
     - I'D SLEPT THROUGH FIFTH PERIOD AFTER THE THURSDAY SHIFT.
-    location: classroom
   - pos: bottom, wide
     action: Back at the station, Kubo drinks his coffee.
     cast:
@@ -87,6 +118,8 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top-right
     action: Kubo, coffee can in hand.
@@ -106,7 +139,8 @@ pages:
     captions:
     - SHE'D STOPPED THERE AFTER THE LAP, TWO WEEKS AGO.
   - pos: bottom-right
-    action: Dai.
+    action: Dai asks, shown in a tight side PROFILE facing left at eye level, clearly different from his upturned
+      three-quarter face in panel 2.
     cast:
     - dai:station
     dialogue:
@@ -124,15 +158,21 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the station camera side, but draw new poses throughout; do not duplicate portraits from the preceding reference
+    page.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top-right
-    action: Kubo.
+    action: Kubo in side profile looking down at the drain, coffee can on the rack, framed from behind his shoulder.
+      No frontal portrait.
     cast:
     - kubo
     dialogue:
     - kubo: ENERGY DRINKS. THE LITTLE BROWN ONES.
   - pos: top-left
-    action: Dai.
+    action: Dai in a medium waist-up view at the hose, seen front-on, head level, looking toward Kubo. No upward
+      tilted head.
     cast:
     - dai:station
     dialogue:
@@ -150,7 +190,8 @@ pages:
     dialogue:
     - kubo: IF YOU GO, YOU STAND AT THE BACK. SOMEBODY SHOUTS, YOU DON'T WAIT TO HEAR WHAT HE SHOUTED.
   - pos: bottom-left
-    action: Dai.
+    action: Dai shown from behind at the tap, face in small three-quarter profile, looking toward Kubo. Different
+      pose and camera from all previous panels.
     cast:
     - dai:station
     dialogue:
@@ -191,6 +232,8 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top, wide
     action: Five stalks of pampas grass in the plum jar on the sill.
@@ -225,9 +268,12 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top-right
-    action: Dai.
+    action: Dai seen from behind at the genkan, only his silhouette and profile, turning his head toward Aya. Leave
+      open sky above him for his large balloon.
     cast:
     - dai
     dialogue:
@@ -239,7 +285,7 @@ pages:
     dialogue:
     - aya: AT ELEVEN AT NIGHT.
   - pos: middle-right
-    action: Dai.
+    action: Dai in a small waist-up side profile facing left, at the kitchen doorway, one hand in his jeans pocket.
     cast:
     - dai
     dialogue:
@@ -251,7 +297,8 @@ pages:
     dialogue:
     - aya: DOES HIS FAMILY FEED YOU?
   - pos: bottom-right
-    action: Dai.
+    action: Close on Dai looking DOWN at his hands, bangs obscuring eyes; a new angle, not the face from the previous
+      page.
     cast:
     - dai
     dialogue:
@@ -262,16 +309,19 @@ pages:
     - aya
     dialogue:
     - aya: IT'S SATURDAY.
-  continue_from: 6
+  continue_from: 5
 - page: 8
   title: Haircut
   location: hayama-apartment
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
+  - Different framing and poses in every panel; no repeated close-ups of Dai looking upward.
   panels:
   - pos: top-right
-    action: Dai.
+    action: Dai facing the viewer in a medium shot, standing at the genkan and holding his shoes, speaking.
     cast:
     - dai
     dialogue:
@@ -283,7 +333,7 @@ pages:
     dialogue:
     - aya: SO FRIDAY CAME AND WENT AND YOU'RE STILL IN. I OWE YOU A HAIRCUT.
   - pos: middle-right
-    action: Dai.
+    action: Dai, a close view of his hands holding the taped right shoe, his face in partial profile above, speaking.
     cast:
     - dai
     dialogue:
@@ -295,7 +345,7 @@ pages:
     dialogue:
     - aya: I SAID I WOULD. THE NIGHT BEFORE THE TEST. ARE YOU COMING BACK TONIGHT?
   - pos: bottom-right
-    action: Dai.
+    action: Dai seen from behind at the steel door, one hand on the handle, head turned slightly toward Aya, speaking.
     cast:
     - dai
     dialogue:
@@ -305,31 +355,42 @@ pages:
     cast:
     - aya
     dialogue:
-    - aya: THEN I'LL TELL MOM YOU'RE STAYING OVER. SO SHE DOESN'T SIT UP.
-  continue_from: 7
+    - aya:
+        text: THEN I'LL TELL MOM YOU'RE STAYING OVER. SO SHE DOESN'T SIT UP.
+        box:
+        - 254
+        - 1113
+        - 245
+        - 205
+        draw: true
+        tail:
+        - 252
+        - 1285
+  continue_from: 5
 - page: 9
   title: Properly
   location: hayama-apartment
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top, wide
-    action: Dai sits on the genkan step, pressing a loose thread in the grey silver tape on his right shoe.
+    action: At the genkan, Dai sits on the step. Close enough to show his right sneaker with silver tape around
+      the toe as he presses a loose thread flat.
     cast:
     - dai
     captions:
     - THE SILVER TAPE HAD GONE GREY AT THE TOE.
   - pos: middle-right
     action: Closed fusuma, Sota's sleepy voice from behind.
-    cast:
-    - sota:pajamas
     dialogue:
     - speaker: sota
       text: NII-CHAN? ARE YOU GOING TO WORK?
       offpanel: true
   - pos: middle-left
-    action: Dai.
+    action: Dai in a close side profile, head bowed toward his shoe, speaks softly.
     cast:
     - dai
     dialogue:
@@ -341,12 +402,13 @@ pages:
     dialogue:
     - sota: DID YOU SEE THE MOON? I CAN'T SEE IT FROM HERE. YOU HAVE TO LOOK AT IT FOR ME.
   - pos: bottom-left
-    action: Dai at the door.
+    action: Dai seen from behind, seated at the genkan with his taped shoe, speaking toward the closed fusuma. No
+      standing door shot.
     cast:
     - dai
     dialogue:
     - dai: I'LL LOOK AT IT.
-  continue_from: 8
+  continue_from: 5
 - page: 10
   title: Forty-eight steps
   location: danchi-walkway
@@ -384,6 +446,7 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Do not repeat any Dai pose or portrait. Keep the two Dai panels different sizes and angles.
   panels:
   - pos: top, wide
     action: Kawamata Ramen, shutter down and lantern unlit. Nobu waits beneath it in a buttoned white shirt, track
@@ -399,7 +462,7 @@ pages:
     dialogue:
     - nobu: YOU CAME.
   - pos: middle-left
-    action: Dai.
+    action: Dai in a close SIDE PROFILE facing left, under the dark unlit lantern, speaking quietly.
     cast:
     - dai
     dialogue:
@@ -411,7 +474,8 @@ pages:
     dialogue:
     - nobu: IS BLACK RIGHT? I DIDN'T KNOW WHAT YOU WEAR. I THOUGHT, WHITE LOOKS OLDER.
   - pos: bottom-left
-    action: Dai.
+    action: Dai seen from behind, medium shot with his hands in his jeans pockets, head turned toward Nobu just
+      enough to show a cheek, speaking.
     cast:
     - dai
     dialogue:
@@ -422,9 +486,13 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top, wide
-    action: 'Open bag: vocabulary book, magazine, flashlight, disposable camera and two foil-wrapped onigiri.'
+    action: Open canvas bag containing a vocabulary book, an unlettered plain-cover car magazine with NO readable
+      text, a flashlight, a small simple rectangular cardboard disposable camera with fixed lens and two foil-wrapped
+      onigiri. No brand names or printed letters.
     captions:
     - A VOCABULARY BOOK IN CASE HIS FATHER CHECKED. THE MAGAZINE, A FLASHLIGHT, THE CAMERA, AND TWO ONIGIRI HIS
       MOTHER MADE FOR STUDYING.
@@ -440,7 +508,7 @@ pages:
     captions:
     - UMEBOSHI. SO SALTY MY EYES WATERED. I ATE IT IN FIVE BITES.
   - pos: bottom-right
-    action: Dai.
+    action: Dai in side profile, medium shot while walking, asks Nobu. Different pose from earlier Dai portraits.
     cast:
     - dai
     dialogue:
@@ -450,28 +518,50 @@ pages:
     cast:
     - nobu:meet
     dialogue:
-    - nobu: THAT I'M STUDYING AT YOURS. FOR YOUR FACTORY TEST. I HAVE TO BE BACK BEFORE HE GETS UP FOR THE STOCK.
-        SIX.
-  continue_from: 11
+    - nobu:
+        text: THAT I'M STUDYING AT YOURS. FOR YOUR FACTORY TEST. I HAVE TO BE BACK BEFORE HE GETS UP FOR THE STOCK.
+          SIX.
+        box:
+        - 245
+        - 1142
+        - 245
+        - 300
+        draw: true
+        tail:
+        - 210
+        - 1270
+  continue_from: null
 - page: 13
   title: Nobody's anywhere
   location: harbor-road-night
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top-right
     action: Nobu.
     cast:
     - nobu:meet
     dialogue:
-    - nobu: HE SAID IT'S THE FIRST USEFUL THING I'VE DONE ALL YEAR. WHEN YOU PASS HE'LL DO YOU GYOZA.
+    - nobu:
+        text: HE SAID IT'S THE FIRST USEFUL THING I'VE DONE ALL YEAR. WHEN YOU PASS HE'LL DO YOU GYOZA.
+        box:
+        - 504
+        - 27
+        - 260
+        - 340
+        draw: true
+        tail:
+        - 800
+        - 300
   - pos: top-left
     action: Dai walks quietly for a few steps. No text.
     cast:
     - dai
   - pos: middle-right
-    action: Dai.
+    action: Dai shown from far behind, walking toward the warehouses, hands in pockets; he speaks over his shoulder.
     cast:
     - dai
     dialogue:
@@ -483,7 +573,7 @@ pages:
     dialogue:
     - nobu: SO YOU'RE AT MINE, AND I'M AT YOURS.
   - pos: bottom-right
-    action: Dai.
+    action: Dai in a small front-facing medium view walking, head bowed, speaking. Not a side profile.
     cast:
     - dai
     dialogue:
@@ -494,7 +584,7 @@ pages:
     - nobu:meet
     dialogue:
     - nobu: THEN NOBODY'S ANYWHERE.
-  continue_from: 12
+  continue_from: 11
 - page: 14
   title: Back road
   location: harbor-road-night
@@ -505,7 +595,13 @@ pages:
   - pos: top, wide
     action: The boys pass fish-market sheds by moonlight.
     captions:
-    - I TOOK US DOWN THE BACK ROAD BEHIND THE FISH-MARKET SHEDS. THAT WAY WE DIDN'T PASS THE STATION.
+    - text: I TOOK US DOWN THE BACK ROAD BEHIND THE FISH-MARKET SHEDS. THAT WAY WE DIDN'T PASS THE STATION.
+      box:
+      - 27
+      - 39
+      - 320
+      - 185
+      draw: true
     cast:
     - dai:casual
     - nobu:meet
@@ -530,6 +626,8 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top, wide
     action: A single pole lamp illuminates the freight line crossing the road. Rails shine into darkness both ways.
@@ -545,12 +643,29 @@ pages:
     - nobu:meet
     sfx:
     - CLAP CLAP
+    captions:
+    - text: THEN HE TROTTED TO CATCH UP, SANDALS CLAPPING.
+      box:
+      - 35
+      - 530
+      - 345
+      - 82
   - pos: bottom-right
     action: Nobu whispers as they walk the long straight.
     cast:
     - nobu:meet
     dialogue:
-    - nobu: THE MAGAZINE SAYS OSAKA RUNS A LOOP ON THE EXPRESSWAY. THE POLICE THERE STARTED TAKING CARS.
+    - nobu:
+        text: THE MAGAZINE SAYS OSAKA RUNS A LOOP ON THE EXPRESSWAY. THE POLICE THERE STARTED TAKING CARS.
+        box:
+        - 552
+        - 1064
+        - 307
+        - 248
+        draw: true
+        tail:
+        - 780
+        - 1253
   - pos: bottom-left
     action: Nobu falls silent; Dai listens.
     cast:
@@ -565,13 +680,20 @@ pages:
   time: dry September night, 1995
   notes:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top, wide
-    action: Distant warehouse corner and light beyond, the boys in silhouette.
+    action: Low close shot along the warehouse wall as two small silhouettes of Dai and Nobu approach its far corner,
+      light spilling from beyond; no straight road view.
     captions:
     - MUSIC, FIRST. THE SAME SONG FROM THREE OR FOUR CARS, A LITTLE OUT OF TIME WITH ITSELF.
+    cast:
+    - dai:casual
+    - nobu:meet
   - pos: middle-right
-    action: Dai listening.
+    action: Close profile of Dai listening, ear turned toward the music, eyes off frame; a distinct shot, not a
+      frontal portrait.
     cast:
     - dai
     captions:
@@ -591,7 +713,7 @@ pages:
     action: The boys round the end of the warehouse toward the light.
     captions:
     - AND THERE IT WAS.
-  continue_from: 15
+  continue_from: 14
 - page: 17
   title: The lot
   location: pier-3-night
@@ -679,6 +801,7 @@ pages:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
     sold by September 1995.
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  - Dai buys no beer and holds no cans on this page.
   panels:
   - pos: top, wide
     action: A white van with cooler in back, a man selling canned beer to a queue.
@@ -691,7 +814,8 @@ pages:
     captions:
     - THE MACHINE BY OUR DANCHI SOLD THEM FOR 220.
   - pos: middle-left
-    action: Six cans counted on Dai's fingers.
+    action: Close-up of Dai counting silently on his EMPTY fingers at his side. He is not holding or buying any
+      cans. The beer vendor is far behind.
     cast:
     - dai
     captions:
@@ -753,6 +877,8 @@ pages:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
     sold by September 1995.
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top, wide
     action: Okabe raises his pencil without looking up; reading glasses pushed on forehead, soft round face and
@@ -781,7 +907,17 @@ pages:
     - dai
     - nobu:meet
     dialogue:
-    - nobu: YOU'RE DOING IT AGAIN. YOUR MOUTH. YOU COUNT WITH YOUR MOUTH.
+    - nobu:
+        text: YOU'RE DOING IT AGAIN. YOUR MOUTH. YOU COUNT WITH YOUR MOUTH.
+        box:
+        - 22
+        - 1073
+        - 280
+        - 210
+        draw: true
+        tail:
+        - 210
+        - 1280
   continue_from: 20
 - page: 22
   title: The Silvia
@@ -878,6 +1014,8 @@ pages:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
     sold by September 1995.
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top-right
     action: Goto blows smoke upward, away from Dai.
@@ -924,6 +1062,8 @@ pages:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
     sold by September 1995.
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top-right
     action: Goto looks down.
@@ -1016,6 +1156,8 @@ pages:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
     sold by September 1995.
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top-right
     action: Okabe calls from his van, notebook in hand.
@@ -1056,6 +1198,8 @@ pages:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
     sold by September 1995.
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top, wide
     action: Chaser driver walks around his car; frame the man's shoes and car's lower body, no full car pose.
@@ -1093,6 +1237,8 @@ pages:
   - Maintain right-to-left panel order. One speaker per panel. No red Roadster anywhere. All cars Japanese models
     sold by September 1995.
   - At the meet, populate the empty location plate with people and period cars; the plate itself is empty.
+  - Keep the same camera side and setting as the previous page, but use distinct poses, framing and gestures. Do
+    not repeat portraits or panel compositions.
   panels:
   - pos: top, wide
     action: Man with a note hesitates at Okabe's van and puts it back in his wallet.
