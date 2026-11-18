@@ -313,3 +313,54 @@ kawamata-ramen-night:
     flat), a narrow alley down the side of the building to a back door,
     a street lamp, power lines. No readable signs.
   default_time: ten to four in the morning
+
+# ---- added for chapter 8 (2026-11-18)
+tanabe-yard:
+  name: Tanabe Auto Dismantling, the scrapyard by the harbor
+  description: >-
+    A big 1995 Japanese scrapyard on the water side of the harbor, behind a
+    two-meter corrugated steel fence: stacks of cars crushed flat, each the
+    thickness of a mattress with its paint still on, three and four high;
+    rows of engines on wooden pallets; a wall of old tires; oil drums; a big
+    yellow (light-grey tone) car crusher, a boxy machine with a heavy hinged
+    steel lid; a two-storey grey prefab office by the open gate with an
+    outside steel stair; the ground is packed dirt, crushed shells and
+    puddles of old oil, and weeds grow everywhere the cars aren't. Gulls,
+    harbor cranes far off over the fence.
+  plate: artwork/locations/tanabe-yard.png
+  guards:
+    - No readable signs anywhere except where a panel asks for one.
+  default_time: morning
+tanabe-weeds:
+  name: the weedy strip behind the Corolla stacks in Tanabe's yard
+  description: >-
+    A neglected strip at the back of the scrapyard, behind a stack of crushed
+    white and red Corollas, that the forklift never reaches: waist-high tall
+    yellow weeds (goldenrod) and foxtail grass, the corrugated steel fence
+    behind, a patch where the weeds have died under a car that has sat there
+    for months.
+  plate: artwork/locations/tanabe-yard.png
+  default_time: morning
+tanabe-office:
+  name: inside the prefab office of Tanabe Auto Dismantling
+  description: >-
+    A small cluttered prefab site office: a grey steel desk with a black
+    rotary phone, an electric kettle, a small fridge, a transistor radio, a
+    sink with a cold tap; one plywood wall covered top to bottom in black
+    marker handwriting (names and numbers going back years, most crossed
+    through, not readable); above the desk a faded travel poster of a beach
+    with palm trees, a small green island off the shore joined by a long
+    bridge, and a couple in white walking on the sand with their backs to
+    us. A window onto the yard. A broom by the door.
+  plate: artwork/locations/tanabe-office.png
+  guards:
+    - The marker writing on the wall is small scribbled handwriting that cannot be read; the poster has no readable text.
+  default_time: daytime
+harbor-road-morning:
+  name: harbor road toward the silos, early morning
+  description: >-
+    The harbor road in early morning light: warehouse walls, a few old
+    two-storey wooden houses by a concrete-block works with national flags
+    out on poles for the holiday, the grain silos ahead, cranes over the
+    water, the sun just clear of the cranes, long shadows. Quiet, no traffic.
+  default_time: about 6:15 a.m., clear, the sun just up

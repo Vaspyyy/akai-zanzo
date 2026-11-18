@@ -1,0 +1,30 @@
+title: Chapter 8 car reference sheets
+output_dir: artwork/car-sheets
+defaults:
+  kind: car_sheet
+pages:
+  - id: blue-roadster-wreck
+    refs:
+      - {path: artwork/car-sheets/red-roadster.png, use: "the same car MODEL (Eunos Roadster): copy ONLY its body shape and proportions; this car is a wreck with different paint and all the damage described, NOT this clean car"}
+    description: >-
+      Technical reference sheet for one WRECKED 1989 Japanese-market Mazda
+      Eunos Roadster (NA), right-hand drive, sitting dead in a scrapyard.
+      Black and white ink manga. Marks that must show in every view: faded
+      Mariner Blue paint drawn as a MID-GREY tone, chalky and nearly white on
+      the tops of the doors and fenders; the LEFT front fender is plain WHITE
+      (unpainted, off another car) with a finger-wide gap where it meets the
+      door; the hood is flat matte primer grey; the RIGHT pop-up headlight is
+      stuck HALF UP, the left one is down; the REAR is CRUSHED by a truck: the
+      bumper split and folded under, the trunk lid buckled up into a peak in
+      the middle, both taillights missing (empty holes with wires hanging),
+      the rear plate bent into a V, a crease in both rear fenders running
+      forward; the black vinyl soft top, gone grey, is up and has a big TEAR
+      above the passenger (left) seat; the plastic rear window yellowed and
+      cracked; grimy stock wheels, two tires flat to the rims. Four separate
+      large views on white: TOP LEFT front three-quarter from the front-LEFT
+      (white fender nearest, half-up right headlight visible); TOP RIGHT
+      straight front view (one headlight down, one half up); BOTTOM LEFT flat
+      side view of the RIGHT (driver's) side with the FRONT pointing RIGHT;
+      BOTTOM RIGHT rear three-quarter from behind-left showing the crushed
+      rear and the torn roof. No people, no animals, no other cars, no
+      weeds, no text.

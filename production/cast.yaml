@@ -40,6 +40,20 @@ characters:
           black T-shirt, sleeves rolled up, small white name tag; worn jeans;
           white canvas sneakers; grey work cap (on his head or in his hand)
         ref: artwork/character-sheets/dai-uniform.png
+      station_jacket:
+        desc: >-
+          grey zip-up gas-station work jacket (same grey as the station shirt,
+          a small plain patch on the chest, no readable letters) half zipped
+          over a black T-shirt, with side pockets; worn jeans; white canvas
+          sneakers; no cap
+        ref: artwork/character-sheets/dai-uniform.png
+        ref_note: the face and hair; the jacket is like the grey work shirt but zipped
+      gym_shirt:
+        desc: >-
+          an old, faded white school gym T-shirt with a dark round collar
+          trim, worn jeans, beat-up white canvas low-top sneakers
+        ref: artwork/character-sheets/dai.png
+        ref_note: the face and hair only (the sheet shows other clothes)
 
   kubo:
     name: KUBO
@@ -403,6 +417,75 @@ characters:
       casual:
         desc: white jacket, short skirt
 
+  # ---- added for chapter 8 (2026-11-18)
+  fumie:
+    name: FUMIE
+    full_name: Fumie Tanabe (owner of Tanabe Auto Dismantling)
+    traits: >-
+      Small, square, sturdy Japanese woman over sixty. Grey hair cut as short
+      as a man's, a white towel tied round her forehead. Weathered brown face,
+      deep lines, a cigarette always in the corner of her mouth and her LEFT
+      eye half shut against its smoke. Hands brown, thick and strong, too big
+      for the rest of her; the left thumbnail black and half grown out.
+    tell: "the small, square OLD WOMAN with short grey hair, a white towel round her forehead and a cigarette in her mouth"
+    default_outfit: work
+    outfits:
+      work:
+        desc: >-
+          a man's navy work jacket (dark grey tone) with an orange stitched
+          name patch over the breast pocket (no readable letters), the
+          sleeves rolled up four times, dark work trousers, scuffed safety
+          boots with the steel showing through at the toes
+        ref: artwork/character-sheets/fumie.png
+      gloves:
+        desc: >-
+          the same navy work jacket with the rolled sleeves, dark work
+          trousers, scuffed safety boots, and brown LEATHER work gloves
+        ref: artwork/character-sheets/fumie.png
+
+  cat:
+    name: CAT
+    full_name: the scrapyard cat (nobody's)
+    traits: >-
+      A big brown striped tabby cat (mid-grey tone with dark stripes), heavy
+      and scruffy, with HALF A TAIL (a short stump) and a notch cut out of one
+      ear. Yellow-green eyes drawn pale. Unfriendly look.
+    tell: "the big striped cat with half a tail and a notched ear"
+    default_outfit: none
+    outfits:
+      none:
+        desc: none (an animal)
+
+  owner_boy:
+    name: THE BOY
+    full_name: the Roadster's last owner (memory)
+    traits: Thin young Japanese man of about 22, short hair, wearing a white foam neck collar (cervical brace), stiff and miserable.
+    tell: "the young man in a white neck collar"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: a plain short-sleeved shirt and jeans
+
+  husband:
+    name: HUSBAND
+    full_name: Fumie's husband in 1958 (memory)
+    traits: A lean young Japanese man of the late 1950s, short black hair, seen from behind.
+    tell: "the young man on the beach, seen from behind"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: a white short-sleeved shirt and dark trousers rolled up to the knee, barefoot
+
+  taxi_driver:
+    name: TAXI DRIVER
+    full_name: a taxi driver going home
+    traits: Middle-aged taxi driver seen dimly through the windshield.
+    tell: "the taxi driver"
+    default_outfit: uniform
+    outfits:
+      uniform:
+        desc: white shirt, dark cap
+
 cars:
   meet_cars:
     name: the parked meet cars
@@ -606,3 +689,87 @@ cars:
       convertible.
     rules:
       - "RIGHT-HAND DRIVE."
+
+  # ---- added for chapter 8 (2026-11-18)
+  wreck:
+    name: the blue Roadster wreck
+    full_name: 1989 Mazda Eunos Roadster (NA), faded Mariner Blue, a wreck in Tanabe's yard
+    traits: >-
+      A WRECKED small two-seat convertible, 1989 Mazda Eunos Roadster (NA),
+      the same body shape as a red Roadster but NOT the red one. Its marks,
+      always all drawn: faded Mariner Blue paint shown as a MID-GREY tone,
+      chalky and nearly white on the tops of the doors and fenders; the LEFT
+      front fender is plain WHITE (unpainted, off another car) with a wide gap
+      at the door; the hood is flat matte primer grey; the RIGHT pop-up
+      headlight is stuck HALF UP, the left one is down; the REAR is CRUSHED by
+      a truck (bumper split and folded under, trunk lid buckled up into a
+      peak, both taillights missing, rear plate bent into a V, creases in both
+      rear fenders); the black vinyl soft top, gone grey, is UP and TORN open
+      above the passenger (left) seat; the plastic rear window is yellowed
+      and cracked; grimy stock wheels, two tires flat to the rims. No
+      stickers, no logos.
+    ref: artwork/car-sheets/blue-roadster-wreck.png
+    views:
+      front34:
+        ref: artwork/car-sheets/blue-roadster-wreck-front34.png
+        note: "front three-quarter crop (white left fender, primer hood, right headlight half up); details only, draw the requested camera angle"
+      side:
+        ref: artwork/car-sheets/blue-roadster-wreck-side.png
+        note: "side crop for body details only; never copy this flat pose, draw the requested camera angle"
+      rear:
+        ref: artwork/car-sheets/blue-roadster-wreck-rear.png
+        note: "rear crop showing the crushed back end; details only, draw the requested camera angle"
+      interior:
+        ref: artwork/car-sheets/red-roadster-interior.png
+        note: "interior LAYOUT only (same model): right-hand-drive dashboard, wheel, gauges, gear lever; this car's interior is old, moldy and worn"
+    rules:
+      - "RIGHT-HAND DRIVE (Japanese market): the steering wheel and the driver's seat are on the car's RIGHT side; the torn roof is above the LEFT (passenger) seat."
+      - "In every side view that shows the driver's door, the car's FRONT points to the RIGHT edge of the panel."
+      - "It is a dead wreck sitting in waist-high weeds: never shiny, never moving, never red and never undamaged."
+
+  forklift:
+    name: Fumie's forklift
+    full_name: an old diesel forklift in Tanabe's yard
+    traits: >-
+      An old, battered yellow (light-grey tone) diesel forklift with a steel
+      overhead guard cage, two long forks in front, a black exhaust stack, an
+      open seat, rust and dents. No readable letters.
+
+  corolla:
+    name: the white Corolla
+    full_name: white 1988 Toyota Corolla four-door sedan (E90), a scrap car
+    traits: >-
+      Plain white boxy 1988 Toyota Corolla four-door sedan, the most ordinary
+      car in Japan, stock and a bit dirty. NOT a sports car, NOT a roadster.
+    rules:
+      - "RIGHT-HAND DRIVE."
+
+  taxi:
+    name: the white Crown taxi
+    full_name: white early-1990s Toyota Crown sedan taxi
+    traits: >-
+      A plain WHITE boxy early-1990s Toyota Crown four-door sedan used as a
+      taxi: a small lamp box on the roof (no readable text), NOT a police car
+      (no light bar, no black lower body).
+    rules:
+      - "RIGHT-HAND DRIVE."
+
+  mira:
+    name: the little brown Mira
+    full_name: small brown Daihatsu Mira kei car, engine removed
+    traits: A tiny boxy brown (dark grey tone) Daihatsu Mira kei hatchback with its hood off and no engine.
+
+  magazine_ads:
+    name: the magazine listings
+    full_name: tiny printed photos in a used-car magazine
+    traits: >-
+      A PRINTED magazine page: a grid of tiny photos of small cars on a
+      dealer's lot, each with a price block under it. Only printed pictures,
+      no real car.
+
+  tanker:
+    name: the tanker truck
+    full_name: a parked tanker truck at the gas station
+    traits: >-
+      A big Japanese cab-over tanker truck of the early 1990s, a long round
+      tank behind the cab, parked and dark. No readable letters.

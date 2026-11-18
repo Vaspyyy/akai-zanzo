@@ -1,0 +1,54 @@
+# Single-panel redraws for Chapter 8 (grey-blanked panels, pasted back into the approved art).
+title: Chapter 8 panel fixes
+output_dir: production/runs/ch8-fixes/out
+lettering: empty
+defaults:
+  orientation: portrait
+  notes:
+  - No brand logos, no readable printed words, no Japanese characters.
+pages:
+- page: 1
+  location: classroom
+  time: Monday lunch break, bright September daylight
+  refs:
+  - {path: artwork/car-sheets/red-roadster-front34.png, use: "the car model shown in EVERY tiny magazine photo: a small two-seat convertible sports car with the soft top up and pop-up headlights; copy only its body shape, small and printed"}
+  edit:
+    source: production/runs/ch8-fixes/src/page-01.png
+    change: "Draw new art ONLY inside the two flat grey panels (the middle-row LEFT panel and the third-row LEFT panel). MIDDLE-ROW LEFT: the open used-car magazine seen from above, a grid of about nine tiny printed photos, and EVERY photo shows the same model: a small low two-seat CONVERTIBLE sports car (Eunos Roadster shape: soft top, short nose, pop-up headlights, two doors) parked on a dealer's lot under strings of little plastic flags; no sedans, no hatchbacks; a fat blurred number block under each photo, tiny unreadable text lines; one empty caption box across the top of that panel. THIRD-ROW LEFT: close-up of a stocky boy's chubby finger pressing the last listing at the bottom of a magazine page: one tiny printed photo of a small white two-seat CONVERTIBLE (soft top up, pop-up headlights) above a blurred price block; one empty caption box across the top of that panel."
+    keep: "every other panel exactly as it is, pixel for pixel"
+  panels:
+  - {pos: top-right, keep: true, action: unchanged}
+  - {pos: top-left, keep: true, action: unchanged}
+  - {pos: middle-right, keep: true, action: unchanged}
+  - pos: middle-left
+    action: The open magazine page from above, a grid of tiny printed photos, every one a small two-seat convertible sports car on a dealer's lot under plastic flags.
+    cast:
+    - {id: magazine_ads, camera: "flat top-down view of a printed page; each car is a tiny printed photo"}
+    captions: [EUNOS ROADSTER. 1990. RED.]
+  - {pos: lower-right, keep: true, action: unchanged}
+  - pos: lower-left
+    action: A chubby finger on the last listing, a tiny printed photo of a small white convertible above it.
+    cast:
+    - {id: magazine_ads, camera: "close top-down view of one printed listing"}
+    captions: [EUNOS ROADSTER. 1989. WHITE.]
+  - {pos: "bottom, wide", keep: true, action: unchanged}
+
+- page: 15
+  location: tanabe-weeds
+  time: Friday about 7:25 a.m., clear morning
+  edit:
+    source: production/runs/ch8-fixes/src/page-15.png
+    change: "Draw new art ONLY inside the flat grey wide middle panel: FUMIE (small square old woman, short grey hair, white towel tied round her forehead, cigarette in the corner of her mouth, LEFT eye half shut, navy work jacket with sleeves rolled up thick) seen from slightly BELOW, from her right side, standing with her hands in her jacket pockets among waist-high yellow weeds, the corrugated fence and a hazy white sky behind her, deadpan, a long line of smoke. NO car in this panel at all and no sound effects. One large empty speech balloon at the upper RIGHT of that panel with its tail pointing at her mouth."
+    keep: "every other panel exactly as it is, pixel for pixel"
+  panels:
+  - {pos: top-right, keep: true, action: unchanged}
+  - {pos: top-left, keep: true, action: unchanged}
+  - pos: middle, wide
+    action: Fumie from slightly below, hands in her pockets, weeds and fence behind, deadpan. No car.
+    cast: [fumie]
+    dialogue:
+    - fumie: A HUNDRED AND FIFTY THOUSAND.
+  - {pos: lower-right, keep: true, action: unchanged}
+  - {pos: lower-left, keep: true, action: unchanged}
+  - {pos: bottom-right, keep: true, action: unchanged}
+  - {pos: bottom-left, keep: true, action: unchanged}

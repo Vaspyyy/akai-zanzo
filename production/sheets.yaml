@@ -79,3 +79,29 @@ pages:
       showing the heels worn down on the OUTSIDE edges; his fingers buttoning
       a folded scrap of paper into his breast pocket. Late-1990s seinen manga
       ink and screentone. No other characters.
+
+  # ---- added for chapter 8 (2026-11-18)
+  - id: fumie
+    refs:
+      - {path: artwork/character-sheets/officer.png, use: "an approved sheet of this manga: copy ONLY its layout (turnaround left, expression close-ups right, detail sketches) and its ink and screentone style; NOT his face, body or clothes"}
+    description: >-
+      One character only: FUMIE TANABE, the owner of a scrapyard in a 1995
+      Japanese harbor town, over sixty. Small and SQUARE, short and sturdy,
+      about 150 cm. Grey hair cut as short as a man's, a white towel tied round
+      her forehead like a headband. A weathered brown face with deep lines, a
+      flat nose, sharp amused eyes; a cigarette always stuck in the corner of
+      her mouth, her LEFT eye half shut against its smoke. Her hands are
+      brown, thick and strong, too big for the rest of her; the LEFT thumbnail
+      is black and half grown out. Clothes: a man's navy work jacket (dark
+      grey tone), too big for her, with an orange stitched name patch over the
+      breast pocket (no readable letters), the sleeves rolled up four times
+      into thick cuffs; dark work trousers; scuffed safety boots with the
+      steel showing through at the toes. Left half: full-body turnaround
+      (front, three-quarter, side profile, back), standing square with her
+      fists on her hips. Right half: four head close-ups: a dry sideways look
+      with smoke curling up past the half-shut left eye; laughing through her
+      nose with two lines of smoke; haggling, one thick finger raised; a
+      quiet, faraway look. Detail sketches: her big thick hands (black left
+      thumbnail) peeling a pear with a folding knife; one hand in a brown
+      leather work glove. Late-1990s seinen manga ink and screentone. No
+      other characters, no vehicles.

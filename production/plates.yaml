@@ -235,3 +235,37 @@ pages:
       Black tire circles on the concrete in the foreground, an empty can lying
       on its side. The moon is hidden behind the building, so the wall is in
       shadow and the open concrete is pale.
+
+  # ---- added for chapter 8 (2026-11-18)
+  - id: tanabe-yard
+    location: tanabe-yard
+    time: morning, clear late-summer day, the sky going white
+    refs:
+      - {path: artwork/locations/harbor-station-day.png, use: "another plate of this manga: copy ONLY its art style, line weight and screentone, not the place"}
+    guards:
+      - "Crushed flat car slabs stacked like mattresses are scrap metal and ARE allowed. No intact cars, no forklift, no trucks."
+    description: >-
+      Wide eye-level view across the scrapyard from just inside the open
+      gate: on the left the two-storey grey prefab office with an outside
+      steel stair and a window; in the middle distance stacks of crushed flat
+      cars three and four high in rows, a wall of old tires, rows of engine
+      blocks on pallets, oil drums; on the right the big boxy car crusher with
+      its heavy hinged steel lid raised; at the back a strip of waist-high
+      weeds against the corrugated steel fence; harbor cranes over the fence;
+      packed dirt and crushed shells with oil puddles in the foreground.
+  - id: tanabe-office
+    location: tanabe-office
+    time: daytime, light from the window
+    refs:
+      - {path: artwork/locations/hayama-apartment.png, use: "another interior plate of this manga: copy ONLY its art style, line weight and screentone, not the room"}
+    description: >-
+      Eye-level view into the small prefab site office from the doorway: the
+      grey steel desk on the right with a black rotary phone, a transistor
+      radio and an ashtray; above the desk the faded travel poster (beach,
+      palm trees, a small green island joined to the shore by a long bridge, a
+      couple in white walking on the sand, backs to us, no text); the plywood
+      wall on the left covered in rows of small black marker scribbles, most
+      crossed out, unreadable; an electric kettle and a small fridge, a little
+      sink with a cold tap; a window onto the yard with stacks of scrap
+      outside; a broom leaning by the door; a round blue cookie tin under the
+      desk.
