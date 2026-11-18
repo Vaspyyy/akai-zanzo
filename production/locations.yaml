@@ -249,3 +249,67 @@ pier-3-night:
     warehouses and the harbor road at the entrance. September 1995.
   plate: artwork/locations/pier-3-night.png
   default_time: dry night under sodium lamps
+rail-crossing-night:
+  name: freight rail crossing at the end of the harbor straight, at night
+  description: >-
+    The far end of a dead-flat two-lane harbor road at night, DRY asphalt:
+    a single freight railway track crosses the road on a low raised hump of
+    asphalt and rails, with one old crossing warning light (a single lamp)
+    on a lone pole beside the road and a crossbuck; warehouse walls on the
+    LEFT side of the road, a container yard behind a chain-link fence on the
+    RIGHT; beyond the crossing the road bends LEFT and disappears behind a
+    cluster of tall round concrete grain silos. Sparse orange sodium lamps.
+  plate: artwork/locations/rail-crossing-night.png
+  sources:
+    - artwork/locations/harbor-road-night.png
+  default_time: night
+silo-sbend-night:
+  name: S-bend between the grain silos, at night
+  description: >-
+    A two-lane harbor road at night, DRY asphalt, snaking through an S-bend
+    (first left, then right) between giant round concrete grain silos that
+    tower on both sides, linked by conveyor bridges high above the road;
+    a few sodium lamps on tall poles throw pools of light; painted center
+    line and curbs; dark sky.
+  plate: artwork/locations/silo-sbend-night.png
+  sources:
+    - artwork/locations/harbor-road-night.png
+  default_time: night
+bypass-onramp-night:
+  name: on-ramp up to the Shiomi Bypass, at night
+  description: >-
+    A curving concrete on-ramp climbing from the harbor road up onto an
+    elevated four-lane bypass on concrete pillars, solid concrete parapets,
+    orange sodium lamps along the ramp, industrial buildings and factory
+    chimneys around, dark sky.
+  default_time: night
+warehouse-doorway-night:
+  name: loading doors on the far side of the Pier 3 lot, at night
+  description: >-
+    The long corrugated-steel wall of an old harbor warehouse at the far edge
+    of the Pier 3 lot: a strip of weeds along its foot, a row of loading
+    doors set back into the wall; the first door has a closed roller shutter,
+    the SECOND is a plain steel door with one concrete step up, set back in a
+    deep recess about a meter deep, completely BLACK inside because the moon
+    is behind the building; the moonlit concrete of the lot with black tire
+    circles in front of the wall.
+  plate: artwork/locations/warehouse-doorway-night.png
+  sources:
+    - artwork/locations/pier-3-night.png
+  default_time: night, moon behind the building
+canal-path-night:
+  name: canal footpath toward the station, before dawn
+  description: >-
+    A concrete footpath along a straight urban canal with low metal railings,
+    utility poles and power lines, dark low apartment blocks and shuttered
+    shops beyond, a few street lamps, the sky black with a moon.
+  default_time: about 3:30 a.m.
+kawamata-ramen-night:
+  name: outside Kawamata Ramen by the station, before dawn
+  description: >-
+    A small two-storey family ramen shop on a narrow street near the station:
+    the steel roller shutter pulled down over the shop front, an unlit red
+    paper lantern beside it, a dark window on the upper floor (the family's
+    flat), a narrow alley down the side of the building to a back door,
+    a street lamp, power lines. No readable signs.
+  default_time: ten to four in the morning

@@ -199,3 +199,39 @@ pages:
       containers stacked three high along the back, bollards and dark water
       reflecting a broken moon on the open side, warehouse road at entrance.
       Completely empty of people and vehicles. No cars, no vans, no Roadster.
+
+  - id: rail-crossing-night
+    location: rail-crossing-night
+    weather: dry, clear night
+    time: about 1:30 AM
+    description: >-
+      Eye-level view from the middle of the road looking along the end of the
+      dead-flat harbor straight toward the freight crossing: the single rail
+      track crossing the road on a low hump in the middle distance, one crossing
+      warning lamp on its lone pole at the roadside, warehouse walls on the LEFT,
+      the chain-link fence and stacked containers of a container yard on the
+      RIGHT; beyond the crossing the road bends LEFT and vanishes behind tall
+      round concrete grain silos. Dry asphalt, black sky.
+
+  - id: silo-sbend-night
+    location: silo-sbend-night
+    weather: dry, clear night
+    time: about 1:30 AM
+    description: >-
+      High view from the top of a silo looking down onto the S-bend: the
+      two-lane road curving LEFT then RIGHT between the giant round grain silos,
+      conveyor bridges crossing high above the road, pools of sodium light on the
+      dry asphalt, curbs and a center line. Heavy blacks, dark sky.
+
+  - id: warehouse-doorway-night
+    location: warehouse-doorway-night
+    weather: dry, clear night
+    time: about 1:45 AM, moon behind the building
+    description: >-
+      Eye-level view across the moonlit concrete of the lot toward the long
+      corrugated warehouse wall: a strip of weeds along its foot, a row of
+      loading doors; the first has a closed roller shutter, the second is a deep
+      recessed doorway about a meter deep with one step, pitch BLACK inside.
+      Black tire circles on the concrete in the foreground, an empty can lying
+      on its side. The moon is hidden behind the building, so the wall is in
+      shadow and the open concrete is pale.

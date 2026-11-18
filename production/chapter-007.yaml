@@ -1,0 +1,1253 @@
+chapter: 7
+title: Forty-One
+lettering: empty
+defaults:
+  orientation: portrait
+  location: pier-3-night
+  time: dry September night, 1995, about 1:30 a.m., a bright moon
+  notes:
+  - Right-to-left panel order. One speaker per panel. No red Roadster and no small roadster or convertible anywhere. All cars are Japanese models sold by September 1995, right-hand drive.
+  - "RACE SCREEN DIRECTION: moving cars always head toward the LEFT side of the panel or away into the picture. In side and front three-quarter views the nose points LEFT (we see the LEFT flank); in rear views the car drives away from the camera. Drivers stay hidden in the dark cabin."
+  - Goto's Silvia is WHITE with fixed slim headlights, a big rear wing and black wheels; the Chaser is a clean GREY four-door sedan with big square headlights. Never swap them.
+  - Dry night everywhere, no rain, no wet road. Vary shot sizes and poses; no two panels may look alike.
+pages:
+- page: 1
+  title: The Silvia got away first
+  guards:
+  - The launch panel is the hero image of the chapter; draw it big, with heavy speed lines and smoke.
+  - The flashlight kid (starter) is a scooter boy with his helmet pushed back, holding a long black flashlight pointed DOWN.
+  panels:
+  - pos: top, large, two-thirds of the page, full width
+    action: >-
+      THE LAUNCH at the mouth of the lot on the harbor road. Camera LOW on the tarmac just behind the grey Chaser's
+      RIGHT rear corner. The grey Chaser fills the right foreground, its rear tires spinning in thick billowing white
+      smoke, its tail kicked sideways. Beyond it, on the LEFT side of the road, the white winged Silvia is already a
+      full car length ahead, rear squatting, exhaust popping a flame, clean launch. The starter stands between where
+      they were, leaning back from the blast, flashlight pointed down. Warehouses on the left, spectators at the
+      roadside, the long straight running away to a tiny crossing light.
+    cast:
+    - id: chaser
+      view: rear
+      camera: low on the tarmac behind its RIGHT rear corner, rear three-quarter, car in the right foreground
+    - id: silvia
+      view: rear
+      camera: further away, seen from behind-right, a full length ahead on the left of the road
+    - starter
+    sfx:
+    - BWAAAAN
+    - KYURURURU
+    captions:
+    - THE SILVIA GOT AWAY FIRST.
+  - pos: bottom-right
+    action: Tight close-up of the Chaser's grey rear wheel spinning, a smear of white smoke boiling out of the wheel arch. Only the wheel and arch, no full car.
+    cast:
+    - id: chaser
+      view: rear
+      camera: extreme close-up of the left rear wheel and arch only
+    captions:
+    - THE CHASER'S BACK TIRES SPUN, NEW AND COLD AND SLIPPERY, AND IT SQUIRMED.
+  - pos: bottom-left
+    action: Dai standing on top of a concrete bollard at the lot's edge, hair blown back, tire smoke drifting past, eyes wide, mouth shut. A chubby hand grips the back of his T-shirt from the left.
+    cast:
+    - dai
+    captions:
+    - GOTO WAS A LENGTH CLEAR BEFORE IT HOOKED UP.
+
+- page: 2
+  title: Then it hooked up
+  guards:
+  - Panel 3 shows the race on the open harbor straight away from the lot (warehouse walls, sodium lamps, container yard), not inside the lot.
+  panels:
+  - pos: top-right
+    action: Low close crop of the grey Chaser's rear bumper and left rear tire as the tire bites; the rear squats down; the smoke tears away behind. Only the rear corner, no full car.
+    cast:
+    - id: chaser
+      view: rear
+      camera: low close crop of the rear bumper corner and tire only
+    captions:
+    - THEN IT HOOKED UP.
+  - pos: top-left
+    action: Close-up of Dai's beat-up white canvas sneakers standing on the flat top of a concrete bollard; silver tape on the right toe; little vibration lines around the bollard.
+    cast:
+    - dai
+    sfx:
+    - FWOOOOOSH
+    captions:
+    - ITS SIX CAME ONTO THE TURBO WITH A LONG RISING WHOOSH I COULD FEEL IN THE BOLLARD UNDER MY FEET.
+  - pos: middle, wide
+    action: >-
+      On the open warehouse straight, seen from HIGH AHEAD and to the LEFT (camera up on a lamp post ahead of the
+      cars): both cars charge toward the lower LEFT of the panel. The white Silvia is in the near (left) lane,
+      nearer the camera; the grey Chaser in the far lane, its nose level with the Silvia's rear wheel. Warehouse
+      wall along the near side, sodium lamps, speed lines.
+    cast:
+    - id: silvia
+      view: front34
+      camera: elevated front three-quarter from high ahead-left, nose toward the lower left, near lane
+    - id: chaser
+      view: front34
+      camera: elevated front three-quarter, far lane, half a length behind the Silvia
+    captions:
+    - THE GAP STOPPED GROWING, AND THEN IT STARTED SHRINKING.
+  - pos: bottom, wide
+    action: "From behind Dai and Nobu standing on two bollards (their backs to us, Nobu gripping Dai's shirt): far down the dark straight, two pairs of red taillights side by side, tiny."
+    cast:
+    - dai
+    - nobu:meet
+    captions:
+    - HALFWAY DOWN THE STRAIGHT THE CHASER WAS ALONGSIDE.
+
+- page: 3
+  title: Seventy-five horses
+  panels:
+  - pos: top, wide, large
+    action: >-
+      Straight TOP-DOWN bird's-eye view onto the harbor straight: both cars move toward the TOP of the panel. The grey
+      Chaser in the RIGHT lane is half a length AHEAD of the white winged Silvia in the left lane. Warehouse roofs along
+      the left edge, container stacks along the right edge, lane lines, speed blur.
+    cast:
+    - id: chaser
+      view: side
+      camera: straight down from directly above (roof view), moving toward the top of the panel, right lane
+    - id: silvia
+      view: side
+      camera: straight down from directly above (roof view with the wing visible), left lane, half a length behind
+    sfx:
+    - GOOOOOO
+    captions:
+    - TWO-THIRDS OF THE WAY DOWN IT WAS PAST, ON THE RIGHT. HALF A LENGTH, THEN A LENGTH, THEN THREE.
+  - pos: middle-right
+    action: Nobu on his bollard, both fists clenched in Dai's T-shirt, eyes huge, mouth open.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: SEVENTY-FIVE HORSES.
+  - pos: middle-left
+    action: Dai's face, unblinking, looking down the road, a distant glow in his eyes. Silent.
+    cast:
+    - dai
+  - pos: bottom, wide
+    action: The far end of the dark straight seen from the lot. A single small light on a pole marks the rail crossing; two pairs of tiny red taillights head for it, the right-hand pair three car lengths ahead of the left-hand pair.
+    captions:
+    - ITS TAILLIGHTS PULLING AWAY FROM GOTO'S TOWARD THE LITTLE LIGHT AT THE END.
+
+- page: 4
+  title: The crossing
+  location: rail-crossing-night
+  guards:
+  - The rail crossing is a single freight track on a low hump across the road, with one warning lamp on a pole.
+  panels:
+  - pos: top-right
+    action: Extreme close-up of one slim horizontal tail lamp of the white Silvia flaring bright white against black. No full car.
+    cast:
+    - id: silvia
+      view: rear
+      camera: extreme close-up of one tail lamp only
+    captions:
+    - AT THE CROSSING, BOTH SETS OF BRAKE LIGHTS CAME ON. THE CHASER'S CAME ON LATER.
+  - pos: middle, wide, large
+    action: >-
+      Low LATERAL view at rail level, camera at the roadside: the grey Chaser crosses the rail hump travelling toward
+      the LEFT, nose pointing LEFT; its front end has slammed DOWN onto the road beyond the rails, the rear still up, and
+      a big spray of bright sparks bursts from under its front lip and bounces along the tarmac. The crossing lamp pole
+      and the rails in the foreground.
+    cast:
+    - id: chaser
+      view: side
+      camera: low lateral view at rail level, nose LEFT and dipped hard, rear raised, NOT a flat parked side view
+    sfx:
+    - GA-GOON!
+    - SHAAAA
+    captions:
+    - IT HIT THE BUMP AT THE RAILS, AND ITS NOSE WENT DOWN ONTO THE ROAD, AND A SPRAY OF ORANGE SPARKS CAME OUT FROM UNDER ITS FRONT END.
+  - pos: bottom-right
+    action: Straight rear view from far behind, small in the frame beyond the rails and the lamp pole; the grey Chaser's taillights smeared in a left-right wobble (doubled motion trails).
+    cast:
+    - id: chaser
+      view: rear
+      camera: straight from behind, far away and small, tail smeared sideways
+    captions:
+    - ITS TAILLIGHTS WOBBLED. LEFT, RIGHT, LEFT.
+  - pos: bottom-left
+    action: "High rear three-quarter from behind-RIGHT, up by the crossing lamp: the white winged Silvia floats over the rails perfectly level and calm, no sparks."
+    cast:
+    - id: silvia
+      view: rear
+      camera: high rear three-quarter from behind its right rear corner, looking down, level over the rails
+    captions:
+    - BEHIND IT GOTO'S LIGHTS WENT STEADY OVER THE BUMP AND DIDN'T WOBBLE AT ALL.
+
+- page: 5
+  title: Soft
+  panels:
+  - pos: top-right
+    action: Inside a car at night (right-hand drive footwell), close-up of Goto's sneaker easing OFF the throttle pedal, a thin line of dashboard glow.
+    location: rail-crossing-night
+    captions:
+    - {text: "HE'D LIFTED BEFORE IT.", box: [575,  39,  254,  63]}
+  - pos: top-left
+    action: Goto at the wheel inside his dark car, face lit from below by the gauges, a thin calm grin, no cigarette, both hands on the wheel. Only the cabin interior, no exterior.
+    cast:
+    - goto
+    captions:
+    - {text: "HE'D PUT THE CAR DOWN SOFT.", box: [30,  32,  270,  80], draw: true}
+  - pos: middle, wide
+    action: "From the lot looking far down the harbor road over the water: tall round grain silos rise at the end; two pairs of tiny taillights bend LEFT and slip behind them. No cars drawn larger than dots of light."
+    captions:
+    - {text: "THEN THEY BOTH BENT LEFT AND THE SILOS TOOK THEM.", box: [382,  477,  599,  60]}
+  - pos: lower-right
+    action: A young man leans in through a parked car's open window and turns the stereo knob off; the dashboard stereo glows.
+    sfx:
+    - KLIK
+    captions:
+    - {text: "THE LOT WENT QUIET. SOMEBODY TURNED THEIR STEREO ALL THE WAY OFF.", box: [528,  842,  465,  88], draw: true}
+  - pos: lower-left
+    action: Dai on top of his bollard, eyes closed, head tilted to one side, listening.
+    cast:
+    - dai
+    captions:
+    - {text: "YOU COULD STILL HEAR THEM. THAT'S WHAT I HADN'T KNOWN.", box: [30,  840,  430,  80], draw: true}
+  - pos: bottom, wide
+    action: Across the black harbor water, the dark shapes of silos and warehouse walls; faint concentric sound rings ripple back off them over the water. No cars.
+    sfx:
+    - WOOOOM
+    - BRAP BRAP
+    captions:
+    - THE SOUND CAME BACK TO US ACROSS THE WATER AND OFF THE WALLS.
+
+- page: 6
+  title: A hole in the sound
+  panels:
+  - pos: top, wide
+    action: Big close-up of Dai's face, eyes closed, fringe over his brow, totally focused; the night behind him.
+    cast:
+    - dai
+    captions:
+    - {text: "THE CHASER'S SIX, AHEAD, SMOOTH, GOING UP THROUGH A GEAR. GOTO'S FOUR BEHIND IT, ROUGH, CLOSER THAN IT SHOULD HAVE BEEN.", box: [40,  45,  380,  185], draw: true}
+  - pos: middle-right
+    action: A black handheld walkie-talkie with a long antenna lying on the floor of an open van beside a grey metal cash box and a blue notebook; static lines come off it.
+    sfx:
+    - KSSSH
+    captions:
+    - {text: "OKABE'S WALKIE-TALKIE HISSED ON THE VAN FLOOR.", box: [640,  495,  360,  115], draw: true}
+  - pos: middle-left
+    action: Out at the silos, a teenage lookout on a small scooter by a towering concrete silo wall shouts into a walkie-talkie.
+    location: silo-sbend-night
+    cast:
+    - lookout
+    dialogue:
+    - lookout: SILOS. CHASER, SILVIA. CLOSE. CLOSE.
+  - pos: lower-right
+    action: Extreme close-up of Dai's eyes snapping OPEN.
+    cast:
+    - dai
+    captions:
+    - AND I HEARD IT, BEFORE HE SAID IT.
+  - pos: bottom, wide
+    action: "Inside the Chaser (right-hand drive footwell, dim): a white loafer with no sock lifting OFF the throttle pedal. Only the foot, pedals and the hem of trousers."
+    location: silo-sbend-night
+    captions:
+    - THE CHASER'S ENGINE DROPPED AWAY. JUST FOR A MOMENT, A HOLE IN THE SOUND, A BREATH.
+
+- page: 7
+  title: Silvia inside
+  location: silo-sbend-night
+  guards:
+  - Panel 1 is a SPLASH, the overtake of the race. Big, dramatic, heavy speed lines.
+  panels:
+  - pos: top, large, two-thirds of the page, full width
+    action: >-
+      HIGH OBLIQUE view from the top of a giant silo on the OUTSIDE of the left-hand bend, looking down across the road.
+      Both cars travel toward the LEFT of the panel through the bend between the silos. The grey Chaser runs wide on
+      the outside (nearer the camera), its brake lights glowing, nose lifting off the line; the white winged Silvia
+      dives down the INSIDE (far side of the road), its nose now AHEAD of the Chaser's. Conveyor bridges overhead,
+      pools of sodium light, speed lines.
+    cast:
+    - id: silvia
+      view: front34
+      camera: high oblique from above on the outside of the bend, far side of the road, nose LEFT, ahead
+    - id: chaser
+      view: front34
+      camera: high oblique from above, near side of the road, running wide, nose LEFT
+    sfx:
+    - BRAAAP
+    dialogue:
+    - radio: {text: "SILVIA INSIDE! SILVIA'S INSIDE!", offpanel: true, at: "top right corner, a jagged radio balloon"}
+  - pos: bottom-right
+    action: Back at the lot, Dai in profile on his bollard, eyes open, still.
+    location: pier-3-night
+    cast:
+    - dai
+    captions:
+    - WHEN IT CAME BACK IT WAS BEHIND THE FOUR. NOT AHEAD OF IT. BEHIND.
+  - pos: bottom-left
+    action: At the lot, Tetsu (skinny, satin jacket) and a few young men throw their fists up and shout.
+    location: pier-3-night
+    cast:
+    - tetsu
+    sfx:
+    - OOOOH!
+    captions:
+    - A SHOUT WENT UP FROM TETSU AND A FEW OTHERS.
+
+- page: 8
+  title: How do you hear a lift
+  panels:
+  - pos: top-right
+    action: Nobu on his bollard turns and stares at Dai, mouth open.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: HOW DID YOU...? YOU KNEW BEFORE THE RADIO.
+  - pos: top-left
+    action: Dai, still looking down the road, matter-of-fact.
+    cast:
+    - dai
+    dialogue:
+    - dai: {text: "HE LIFTED.", box: [330,  42,  174,  213], draw: true}
+  - pos: middle-right
+    action: Nobu, baffled, leaning in.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: {text: "HOW DO YOU HEAR A LIFT?", box: [610,  531,  266,  229]}
+  - pos: middle-left
+    action: Dai looks out into the dark over the water, quiet.
+    cast:
+    - dai
+    captions:
+    - I DIDN'T KNOW HOW. I JUST HEARD IT.
+  - pos: bottom, wide
+    action: At the foot of a curving concrete on-ramp up to the elevated bypass, a second teenage lookout on a small scooter holds a walkie-talkie up and shouts into it; sodium lamps; the ramp climbs behind him. No cars in this panel.
+    location: bypass-onramp-night
+    cast:
+    - lookout
+    dialogue:
+    - lookout: ON-RAMP. SILVIA. THEN CHASER. TWO LENGTHS. BOTH UP.
+
+- page: 9
+  title: My overpass
+  panels:
+  - pos: top, wide, large
+    action: >-
+      LOW view from the ground BENEATH the curving on-ramp, looking UP: the white Silvia, then two lengths behind it the
+      grey Chaser, climb the ramp toward the elevated bypass, seen from below against the night sky, their undersides
+      and LEFT flanks visible over the concrete parapet, headlights blazing ahead to the LEFT.
+    location: bypass-onramp-night
+    cast:
+    - id: silvia
+      view: front34
+      camera: worm's-eye view from directly below the ramp, looking up at the car's underside and left flank
+    - id: chaser
+      view: front34
+      camera: worm's-eye view from below, two lengths behind, climbing
+    sfx:
+    - GOOOOOO
+    captions:
+    - {text: "THE ON-RAMP UP TO THE BYPASS.", box: [812, 32, 182, 102]}
+  - pos: middle-right
+    action: Back at the lot, Dai on his bollard, eyes open, the city lights far off.
+    cast:
+    - dai
+    captions:
+    - AFTER THAT THE SOUND WENT UP ONTO THE BYPASS AND FLATTENED INTO THE HUM THE WHOLE CITY MAKES AT NIGHT, AND I LOST THEM.
+  - pos: middle-left
+    action: A small scooter parked on the walkway of the concrete pedestrian overpass over the bypass, behind the tall railing.
+    location: bypass-overpass-night
+    captions:
+    - THE RADIO DIDN'T. SOMEBODY HAD A SCOOTER UP ON THE OVERPASS. MY OVERPASS.
+  - pos: bottom, wide
+    action: The overpass lookout, a teenager in an open-face helmet, leans on the tall railing of the pedestrian overpass, walkie-talkie at his mouth, shouting down the four-lane bypass curve below.
+    location: bypass-overpass-night
+    cast:
+    - lookout
+    dialogue:
+    - lookout: STRAIGHT. CHASER'S COMING. HE'S ON HIM. HE'S ON HIM.
+
+- page: 10
+  title: He's on him
+  panels:
+  - pos: top, large, full width, half the page
+    action: >-
+      On the elevated four-lane bypass straight, camera LOW on the concrete median barrier, looking straight at the
+      oncoming traffic: the white Silvia rushes HEAD-ON at the camera, its slim fixed headlights glaring; right behind
+      it the grey Chaser's big square headlights loom, filling the gap. Speed lines, sodium lamps streaking.
+    location: bypass-overpass-night
+    cast:
+    - id: silvia
+      view: front34
+      camera: low dead head-on from the median barrier, coming straight at us
+    - id: chaser
+      view: front34
+      camera: head-on, close behind the Silvia, big square headlights glaring
+    sfx:
+    - GWOOOOO
+    captions:
+    - {text: "THE CHASER STILL HAD 280 HORSES.", box: [733, 50, 255, 105]}
+  - pos: middle, wide
+    action: At the lot, Okabe (round face, glasses on his forehead) picks the walkie-talkie up off the van floor and holds it on his knee; a ring of faces crowds in close around the open van.
+    cast:
+    - okabe
+    sfx:
+    - KSSSH
+    captions:
+    - A HISS WITH NOTHING IN IT.
+  - pos: bottom, wide
+    action: Close-up of the walkie-talkie resting on Okabe's knee, its speaker grille crackling; tense faces leaning in behind, blurred.
+    dialogue:
+    - radio: {text: "CURVE. SILVIA'S THROUGH. CHASER'S BRAKING. HE'S BRAKING IN THE MIDDLE OF IT.", offpanel: true, at: "tail pointing at the walkie-talkie's speaker"}
+
+- page: 11
+  title: The curve
+  panels:
+  - pos: top, large, full width, more than half the page
+    action: >-
+      From HIGH on the pedestrian overpass looking down along the long sweeping LEFT-hand curve of the four-lane bypass
+      (tall railing in the foreground, median barrier, sodium lamps): the white Silvia is already out of the curve and
+      small in the distance; the grey Chaser is in the MIDDLE of the curve seen from behind and above, its brake lights
+      blazing, nose dipped.
+    location: bypass-overpass-night
+    cast:
+    - id: chaser
+      view: rear
+      camera: high from behind and above, from the overpass, mid-curve, brake lights on
+    - id: silvia
+      view: rear
+      camera: tiny in the distance, already through the curve
+    captions:
+    - I KNEW WHAT THE CURVE LOOKED LIKE WITH NOTHING ON IT, AT DAWN. I COULD SEE THE CHASER IN IT NOW.
+    - THE BRAKE LIGHTS COMING ON WHERE NO ONE WHO KNEW THE ROAD WOULD BRAKE.
+  - pos: middle-right
+    action: Back at the lot, Dai's face, eyes half-lidded, knowing.
+    cast:
+    - dai
+    captions:
+    - HE DIDN'T TRUST IT. I DIDN'T BLAME HIM.
+  - pos: middle-left
+    action: Close-up of the walkie-talkie in Okabe's hand.
+    dialogue:
+    - radio: {text: "EXIT. SILVIA. CHASER.", offpanel: true, at: "tail pointing at the walkie-talkie"}
+  - pos: bottom, wide
+    action: Dai on his bollard turns his head sharply to look the OTHER way along the harbor road, behind the lot, listening.
+    cast:
+    - dai
+    captions:
+    - A FEW SECONDS LATER I HAD THEM AGAIN. THE FOUR IN FRONT AND ROUGH, THE SIX BEHIND IT AND SMOOTH.
+
+- page: 12
+  title: Two lengths
+  guards:
+  - Panel 3 is the FINISH, a big dramatic panel with heavy speed lines.
+  panels:
+  - pos: top-right
+    action: A man in the crowd at the lot edge points down the road, shouting.
+    cast:
+    - caller
+    dialogue:
+    - caller: THERE!
+  - pos: top-left
+    action: Far down the dark harbor road, two pairs of headlights coming straight at us out of the night; the front pair are narrow slits, the pair behind are bigger and square. Only the lights and faint silhouettes.
+    captions:
+    - TWO PAIRS. THE FRONT ONES WERE NARROW SLITS AND THE ONES BEHIND WERE BIGGER AND SQUARER.
+  - pos: middle, wide, large, half the page
+    action: >-
+      THE FINISH at the mouth of the lot. Camera LOW at ground level just past the start line: the white winged Silvia
+      blasts past toward the lower LEFT in a low front three-quarter view, the flashlight kid jumping back on the line,
+      the crowd a blur; the grey Chaser two car lengths behind it. Heavy speed lines.
+    cast:
+    - id: silvia
+      view: front34
+      camera: ground-level front three-quarter of its left flank, blasting toward the lower left
+    - id: chaser
+      view: front34
+      camera: two lengths behind, smaller, same direction
+    - starter
+    sfx:
+    - GOAAAAA
+    captions:
+    - THEY WENT PAST THE FLASHLIGHT KID LIKE THAT. TWO LENGTHS.
+  - pos: bottom-right
+    action: "Rear three-quarter from behind-LEFT, a little way down the road: both cars braking hard, noses dipped right down, brake lights blazing, thin smoke from the tires."
+    cast:
+    - id: silvia
+      view: rear
+      camera: rear three-quarter from behind its left rear corner, nose dipped under braking
+    - id: chaser
+      view: rear
+      camera: rear three-quarter beside it on the right, nose dipped
+    sfx:
+    - GYAAAA
+    captions:
+    - THE NOISE HIT US ALL AT ONCE, AND THEN THE BRAKE LIGHTS, BOTH CARS STANDING ON THEIR NOSES.
+  - pos: bottom-left
+    action: Brake smoke drifts across the crowd at the lot's edge; people wave it from their faces; Dai on his bollard in the haze.
+    cast:
+    - dai
+    captions:
+    - AND THE SMELL, HOT BRAKES AND RUBBER, CAME ACROSS THE LOT A SECOND LATER.
+
+- page: 13
+  title: One sandal
+  panels:
+  - pos: top, wide
+    action: Nobu jumping up and down on his bollard, both arms up, yelling with joy; Dai standing on the next bollard beside him, steady. The harbor water just behind the bollards.
+    cast:
+    - nobu:meet
+    - dai
+    sfx:
+    - YAAAH!
+    captions:
+    - {text: "NOBU WAS JUMPING ON THE BOLLARD.", box: [35, 40, 252, 108]}
+  - pos: middle-right
+    action: "Close on Nobu's foot mid-jump: one oversized black rubber kitchen sandal flies off his foot out over the black water."
+    cast:
+    - nobu:meet
+  - pos: middle-left
+    action: The black sandal hits the dark harbor water with a small splash. No people.
+    sfx:
+    - PLIP
+    captions:
+    - ONE SANDAL CAME OFF AND FELL IN THE WATER. HE DIDN'T NOTICE. NEITHER DID I, THEN.
+  - pos: bottom-right
+    action: Okabe, sitting on the floor of his open van, counts banknotes one by one into Goto's open hand.
+    cast:
+    - okabe
+    - goto
+    captions:
+    - GOTO GOT HIS NINETY THOUSAND FROM OKABE IN NINE NOTES.
+  - pos: bottom-left
+    action: Goto fans out the nine notes and holds them high over his head to the lot, cigarette in his grin; people cheer around him.
+    cast:
+    - goto
+    captions:
+    - HE FANNED THEM OUT AND HELD THEM UP TO THE LOT, AND THE LOT CHEERED, THE PART OF IT THAT HAD MONEY ON THE SILVIA.
+
+- page: 14
+  title: Forty thousand
+  panels:
+  - pos: top-right
+    action: Close on Goto's hands zipping folded banknotes into an inside zip pocket of his shiny tracksuit jacket.
+    cast:
+    - goto
+    sfx:
+    - ZIP
+    captions:
+    - THEN HE FOLDED THEM AND PUT THEM INSIDE HIS TRACKSUIT JACKET, IN A POCKET WITH A ZIP.
+  - pos: top-left
+    action: Dai, lips moving slightly as he counts to himself, eyes on Goto.
+    cast:
+    - dai
+    captions:
+    - FIFTY THOUSAND IN. NINETY BACK. FORTY THOUSAND UP. I DID IT BEFORE I'D DECIDED TO.
+  - pos: middle, wide
+    action: "Memory panel with a soft rounded border, daytime at home in the apartment's tatami room: a thick English dictionary lying open, banknotes flattened between its pages."
+    location: hayama-apartment
+    captions:
+    - FORTY THOUSAND WAS WHAT WAS IN MY ENGLISH DICTIONARY AT HOME, EVERYTHING I'D KEPT SINCE AUGUST.
+  - pos: bottom-right
+    action: The Chaser's driver (perm, white loafers, no socks) crouches at the grey Chaser's front bumper, holding up a lit lighter, peering underneath. Only the front corner of the car.
+    cast:
+    - chaser_driver
+    - id: chaser
+      view: front34
+      camera: low close view of the front bumper corner only, from the front-left
+    captions:
+    - THE CHASER'S DRIVER WAS CROUCHED AT HIS FRONT BUMPER WITH A LIGHTER, LOOKING UNDERNEATH.
+  - pos: bottom-left
+    action: "Extreme close-up under the bumper in the lighter's glow: the black plastic front lip cracked straight across, one piece hanging down."
+    captions:
+    - A CRACK STRAIGHT ACROSS THE BLACK LIP UNDER THE BUMPER, AND A PIECE OF IT HANGING DOWN.
+
+- page: 15
+  title: Can we go home
+  panels:
+  - pos: top-right
+    action: The driver's hand pushes the broken piece of lip back up; it drops down again.
+    cast:
+    - chaser_driver
+    sfx:
+    - KATAN
+    captions:
+    - HE TRIED TO PUSH IT BACK UP. IT CAME DOWN AGAIN.
+  - pos: top-left
+    action: The girl (permed shoulder-length hair) stands by the Chaser's open passenger door on the car's LEFT side, arms crossed, silent. Only the door and part of the grey body.
+    cast:
+    - chaser_girl
+    - id: chaser
+      view: side
+      camera: close on the open left-side passenger door and pillar only, no full car
+    captions:
+    - THE GIRL HAD GOT OUT AT LAST. SHE DIDN'T SAY ANYTHING FOR A LONG TIME.
+  - pos: middle-right
+    action: The girl, flat and tired, looking away.
+    cast:
+    - chaser_girl
+    dialogue:
+    - chaser_girl: CAN WE GO HOME.
+  - pos: middle-left
+    action: The driver, still crouched at the bumper, not looking up.
+    cast:
+    - chaser_driver
+    dialogue:
+    - chaser_driver: IN A MINUTE.
+  - pos: bottom-right
+    action: Nobu comes up walking crooked, one black sandal on and one bare foot, talking eagerly.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: A FRONT LIP FOR A TOURER V. FORTY THOUSAND. MAYBE SIXTY PAINTED.
+  - pos: bottom-left
+    action: Dai looks down at Nobu's bare foot.
+    cast:
+    - dai
+    dialogue:
+    - dai: WHERE'S YOUR SANDAL?
+
+- page: 16
+  title: The one who counts
+  panels:
+  - pos: top-right
+    action: Nobu looks down at his own bare foot on the concrete, blank.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: OH.
+  - pos: top-left
+    action: Okabe sitting on the floor of his open van, writing in a blue spiral notebook on his knee, the grey cash box beside him.
+    cast:
+    - okabe
+    captions:
+    - OKABE HAD TAKEN TEN THOUSAND OFF THE TOP WITHOUT LEAVING THE VAN, AND SOMETHING OFF EVERY PRICE HE'D CALLED, AND HE WAS WRITING IT DOWN.
+  - pos: middle-right
+    action: Okabe looks up from the notebook, straight at the viewer (at Dai), pleasant.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: YOU. THE ONE WHO COUNTS WITH HIS MOUTH.
+  - pos: middle-left
+    action: Nobu flinches, a sweat drop, a small noise.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: {text: "HNK.", box: [37,  746,  88,  101], style: small}
+  - pos: bottom-right
+    action: Okabe, friendly, pencil in hand.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: {text: "FIRST TIME?", box: [801,  1126,  194,  238]}
+  - pos: bottom-left
+    action: Dai, guarded.
+    cast:
+    - dai
+    dialogue:
+    - dai: {text: "YES.", box: [335,  1121,  171,  217]}
+
+- page: 17
+  title: Nobody's got money
+  panels:
+  - pos: top-right
+    action: Okabe pushes his reading glasses down onto his nose and turns a page of the notebook.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: WELCOME. YOU BETTING NEXT ONE?
+  - pos: top-left
+    action: Dai, flat.
+    cast:
+    - dai
+    dialogue:
+    - dai: I'VE GOT NO MONEY.
+  - pos: middle, wide
+    action: Okabe smiles up at him, a warm, practiced salesman's smile.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: NOBODY'S GOT MONEY.
+    captions:
+    - IT WAS A NICE SMILE. I'D SEEN THE SAME ONE ON THE MAN AT THE PACHINKO PARLOR BY THE BOOKSTORE, HANDING OUT TISSUES AT THE DOOR.
+  - pos: lower, wide
+    action: In the lot, the next pair of cars being lined up under the sodium lights. A red (mid-grey tone) Civic hatchback with stickers down its side seen from its rear three-quarter, and the small white Starlet hatchback in front three-quarter. People around.
+    cast:
+    - id: civic
+      camera: rear three-quarter from behind-left, eye level, parked
+    - id: starlet
+      view: view
+      camera: front three-quarter of its left flank, eye level, parked
+    captions:
+    - THE NEXT RUN WAS BEING MADE UP ALREADY. A RED CIVIC WITH STICKERS DOWN THE SIDE, AND THE WHITE STARLET.
+  - pos: bottom-right
+    action: The Starlet boy at the van, standing too straight, banknotes held out in his hand.
+    cast:
+    - starlet_boy
+    dialogue:
+    - starlet_boy: FIFTEEN. THAT'S ALL I'VE GOT. HE WANTS THIRTY.
+  - pos: bottom-left
+    action: The Civic's owner sits on his car's hood eating cup noodles with chopsticks and shakes his head without stopping. Only the hood edge of the car.
+    cast:
+    - civic_owner
+
+- page: 18
+  title: Bet on yourself
+  panels:
+  - pos: top-right
+    action: Okabe glances up at the boy.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: NOBODY BACKING YOU?
+  - pos: top-left
+    action: The Starlet boy looks round at the lot; everyone around him has their back turned.
+    cast:
+    - starlet_boy
+    captions:
+    - THE BOY LOOKED ROUND AT THE LOT. NOBODY LOOKED BACK.
+  - pos: middle-right
+    action: Okabe, kindly, almost fatherly.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: YOU CAN ALWAYS BET ON YOURSELF.
+  - pos: middle-left
+    action: The boy, stiff, quiet.
+    cast:
+    - starlet_boy
+    dialogue:
+    - starlet_boy: THAT'S WHAT THE FIFTEEN IS.
+  - pos: lower-right
+    action: Okabe, smiling.
+    cast:
+    - okabe
+    dialogue:
+    - okabe: THEN BET MORE.
+  - pos: lower-left
+    action: Close on the boy's hand at the back pocket of his jeans, coming out empty.
+    captions:
+    - HIS HAND WENT TO HIS BACK POCKET. IT CAME OUT EMPTY, AND WENT BACK IN, AND CAME OUT EMPTY AGAIN.
+  - pos: bottom, wide
+    action: The walkie-talkie on the van floor blares with static; heads in the crowd whip round toward it, faces alarmed.
+    dialogue:
+    - radio: {text: "PATROL. ON-RAMP. COMING DOWN. PATROL, PATROL...", offpanel: true, at: "tail pointing at the walkie-talkie"}
+    captions:
+    - THAT WAS WHEN THE WALKIE-TALKIE WENT.
+
+- page: 19
+  title: Twenty seconds
+  panels:
+  - pos: top-right
+    action: Okabe snaps the cash box and notebook shut in one movement, pulling his legs into the van, as a hand slams the van's back doors shut on him.
+    cast:
+    - okabe
+    sfx:
+    - BAM
+  - pos: top-left
+    action: The whole lot erupts; headlights snap on everywhere, beams crossing each other, people running for doors.
+    sfx:
+    - VRRAM
+    captions:
+    - {text: "THEN EVERY ENGINE IN THE LOT STARTED AT ONCE.", box: [32,  36,  330,  100], draw: true}
+  - pos: middle-right
+    action: The black rounded Supra pulls away with the girl in the white jacket half in and half out of its passenger door.
+    cast:
+    - supra_girl
+    - id: supra
+      view: view
+      camera: low rear three-quarter from behind-left, pulling away to the left
+    captions:
+    - {text: "IT TOOK ABOUT TWENTY SECONDS.", box: [512,  556,  476,  78], draw: true}
+  - pos: middle-left
+    action: "High view from the front and above, on the harbor road outside the lot: the white winged Silvia swinging round in a reverse turn, tail out, headlights OFF and dark."
+    cast:
+    - id: silvia
+      view: front34
+      camera: high from in front and above, car mid-swing, tail out, headlights dark
+    captions:
+    - {text: "GOTO'S SILVIA WAS GONE TOWARD THE HIGASHI END, AWAY FROM THE ON-RAMP, WITH ITS LIGHTS OFF.", box: [30,  554,  445,  108], draw: true}
+  - pos: bottom, wide
+    action: A big white van tears off with its back door flapping open; cans of beer roll out of a cooler box and burst on the concrete, spraying foam.
+    sfx:
+    - PSSHT
+    captions:
+    - {text: "THE COOLER VAN WENT AFTER IT WITH ITS BACK DOOR FLAPPING AND CANS ROLLING OUT AND BURSTING ON THE CONCRETE.", box: [556,  1026,  434,  124], draw: true}
+
+- page: 20
+  title: Nobody looked
+  panels:
+  - pos: top, wide
+    action: >-
+      Close tracking crop along the grey Chaser's LEFT side at window height as it leaves toward the LEFT: in the
+      passenger window, the girl's white frightened face and her hand flat on the dashboard; at the bottom edge, the
+      broken lip dragging on the road under the front bumper, spitting sparks. No full car.
+    cast:
+    - chaser_girl
+    - id: chaser
+      view: side
+      camera: close tracking crop along the left side, window height, moving left, only the front door and front fender
+    sfx:
+    - GIGIGIGI
+    captions:
+    - THE CHASER WENT LAST OF THE FAST ONES, WITH ITS LIP HANGING DOWN AND SCREAMING ON THE ROAD THE WHOLE WAY.
+  - pos: middle-right
+    action: Nobu alone in the middle of the emptying lot, on one sandal, his bag clutched to his chest, turning round and round; taillights leaving in all directions.
+    cast:
+    - nobu:meet
+    captions:
+    - NOBODY HAD ROOM FOR TWO KIDS ON FOOT. NOBODY LOOKED.
+  - pos: middle-left
+    action: Dai, sharp, already moving.
+    cast:
+    - dai
+    dialogue:
+    - dai: NOBU.
+  - pos: bottom-right
+    action: Dai grabs Nobu's arm and runs, dragging him AWAY from the road across the lot toward the dark warehouses.
+    cast:
+    - dai
+    - nobu:meet
+    captions:
+    - I TOOK HIS ARM AND RAN. NOT TOWARD THE ROAD. AWAY FROM IT.
+  - pos: bottom-left
+    action: The long warehouse wall at the far side of the lot, a strip of weeds, a row of loading doors; the second doorway is recessed and pitch black. No people.
+    location: warehouse-doorway-night
+    captions:
+    - THE SECOND ONE HAD A STEP AND A RECESS, A DOORWAY ABOUT A METER DEEP, AND IT WAS BLACK.
+
+- page: 21
+  title: Moonlight on the concrete
+  location: warehouse-doorway-night
+  time: about 1:45 a.m., moon behind the warehouse
+  panels:
+  - pos: top-right
+    action: Inside the black recessed doorway, Dai crouched in the back against the steel door with his shoulder against the frame, pulling Nobu down beside him. Mostly black, faces just visible.
+    cast:
+    - dai
+    - nobu:meet
+  - pos: top-left
+    action: "Close on Nobu's feet on the concrete step: BOTH bare now."
+    cast:
+    - nobu:meet
+    captions:
+    - {text: "NOW THE OTHER SANDAL WAS GONE TOO.", box: [262,  26,  240,  100], draw: true}
+  - pos: middle, wide
+    action: From the dark doorway looking out over the empty moonlit lot, pale concrete covered in black tire circles, crushed cans and cigarette ends; halfway out, ONE black rubber sandal lying on its side. Nobody there.
+    location: pier-3-night
+    captions:
+    - {text: "A MINUTE BEFORE THERE HAD BEEN A CROWD AND TWENTY-FIVE CARS AND THREE SONGS ARGUING, AND NOW THERE WAS MOONLIGHT ON THE CONCRETE.", box: [578, 524, 426, 168], draw: true}
+  - pos: lower, wide
+    action: On the harbor road beyond the lot, the white-and-black police Crown comes along at an ordinary speed, roof light DARK, headlights on.
+    location: pier-3-night
+    cast:
+    - id: crown
+      view: front34
+      camera: eye-level front three-quarter of its LEFT flank, far side of the lot, nose toward the lower left
+    captions:
+    - {text: "THEN A NEW SOUND, GETTING BIGGER. IT DIDN'T HAVE A SIREN ON.", box: [630,  894,  372,  104], draw: true}
+  - pos: bottom, wide
+    action: "High rear three-quarter from behind-RIGHT (from up by the warehouse roofline): the Crown turns slowly into the empty lot; the red light bar on its roof starts to turn, throwing a red-grey glow."
+    location: pier-3-night
+    cast:
+    - id: crown
+      view: rear
+      camera: high rear three-quarter from behind its right rear corner, turning in slowly
+    captions:
+    - {text: "ONLY THEN DID THE RED LIGHT ON ITS ROOF START TO TURN. A CROWN, WHITE ON TOP AND BLACK BELOW.", box: [600,  1168,  400,  120], draw: true}
+
+- page: 22
+  title: The file
+  location: warehouse-doorway-night
+  time: about 1:50 a.m., moon behind the warehouse
+  panels:
+  - pos: top-right
+    action: Headlight beams sweep across the corrugated wall just above the doorway; below, in the black, Dai has his face pressed down against his knees, eyes open.
+    cast:
+    - dai
+    captions:
+    - I PUT MY FACE DOWN AGAINST MY KNEES AND KEPT MY EYES OPEN.
+  - pos: top-left
+    action: "Close-up in the dark: Dai's hand clamped over Nobu's mouth; Nobu's eyes wide above it."
+    cast:
+    - dai
+    - nobu:meet
+    captions:
+    - NOBU WAS BREATHING THROUGH HIS MOUTH. IT WAS VERY LOUD. I PUT MY HAND OVER IT.
+  - pos: middle-right
+    action: Nobu nods under the hand, eyes shining with fear.
+    cast:
+    - nobu:meet
+    captions:
+    - HE DIDN'T FIGHT. HE NODDED UNDER MY HAND.
+  - pos: middle-left
+    action: "From inside the doorway: far across the lot, the Crown stopped in the middle, its headlights glaring toward us and the roof light turning; the car mostly a dark silhouette behind the glare."
+    cast:
+    - id: crown
+      view: front34
+      camera: far, low, from the doorway, almost head-on, mostly glare and silhouette
+    captions:
+    - IT STOPPED WHERE OKABE'S VAN HAD BEEN. A WOMAN'S VOICE ON ITS RADIO, READING OUT NUMBERS, FLAT.
+  - pos: bottom-right
+    action: Dai's eyes in the dark, hard and still.
+    cast:
+    - dai
+    captions:
+    - IF THEY TOOK MY NAME, THEY'D HAVE THE REST OF IT BY MONDAY. THE FILE.
+  - pos: bottom-left
+    action: Memory panel with a soft border, daytime, a police station counter under fluorescent light; Mom in her supermarket work vest bows to a faceless officer behind the desk.
+    cast:
+    - michiko:supermarket
+    captions:
+    - THEN MOM WOULD COME TO THE POLICE STATION IN HER SUPERMARKET VEST, AND SHE'D HAVE TO SAY WHO SHE WAS TO SOMEONE BEHIND A DESK.
+
+- page: 23
+  title: The older one
+  time: about 1:50 a.m., moonlight
+  panels:
+  - pos: top, wide
+    action: Dai crouched stone still in the black recessed doorway, just the line of his shoulder and one eye catching light.
+    location: warehouse-doorway-night
+    cast:
+    - dai
+    captions:
+    - I DIDN'T MOVE. I KNOW HOW TO BE STILL. I LEARNED IT SOMEWHERE I DON'T TALK ABOUT.
+  - pos: middle-right
+    action: Close on the Crown's passenger door (the car's left side) swinging open; a polished black shoe and a dark trouser leg step down onto the concrete. Only the door and the leg.
+    cast:
+    - id: crown
+      view: front34
+      camera: close on the open left front door and sill only
+    captions:
+    - {text: "THE PASSENGER DOOR OF THE CROWN OPENED, AND A POLICEMAN GOT OUT.", box: [600, 478, 395, 92], draw: true}
+  - pos: middle-left
+    action: The older officer standing beside the car, unhurried, looking out over the lot, red light turning above.
+    cast:
+    - officer
+    captions:
+    - {text: "HE WAS OLDER. GREY AT THE SIDES UNDER HIS CAP. A LITTLE HEAVY IN THE MIDDLE.", box: [262,  474,  304,  116], draw: true}
+  - pos: lower, wide
+    action: The officer, small, standing still in the middle of the vast moonlit lot full of black circles, looking for a long time without moving his head.
+    cast:
+    - officer
+    captions:
+    - HE LOOKED AT THE LOT FOR A LONG TIME, THE WAY KUBO-SAN LISTENS TO AN ENGINE.
+  - pos: bottom, wide
+    action: Low close-up of his polished black shoes walking across the concrete, seen from behind and the side; the heels clearly worn down on the OUTSIDE edges.
+    cast:
+    - officer
+    captions:
+    - HIS SHOES WERE BLACK AND POLISHED, AND THE HEELS WERE WORN DOWN ON THE OUTSIDE EDGES.
+
+- page: 24
+  title: A corner off a page
+  time: about 1:52 a.m., moonlight and headlights
+  panels:
+  - pos: top-right
+    action: The officer stands looking down at a scatter of burst beer cans and foam on the concrete. Silent.
+    cast:
+    - officer
+  - pos: top-left
+    action: He bends down with one hand on his thigh and picks up a small scrap of paper from the concrete.
+    cast:
+    - officer
+    captions:
+    - A SCRAP OF PAPER. A CORNER OFF A PAGE.
+  - pos: middle-right
+    action: Close on his hands buttoning the folded scrap into the breast pocket of his uniform shirt. Silent.
+    cast:
+    - officer
+  - pos: middle-left
+    action: He straightens and turns round slowly toward the warehouses, the headlights behind him throwing his long shadow.
+    cast:
+    - officer
+    captions:
+    - THEN HE TURNED ROUND, SLOWLY, AND LOOKED AT THE WAREHOUSES. AT OUR WALL. AT OUR DOORWAY.
+  - pos: bottom, wide, large
+    action: >-
+      Low over the officer's shoulder (his back and cap in the right foreground): thirty meters of pale moonlit
+      concrete stretch to the long warehouse wall; about halfway, ONE black rubber kitchen sandal lies on its side in
+      the open; beyond it, the black recessed doorway. Nobody visible in the doorway.
+    location: warehouse-doorway-night
+    cast:
+    - officer
+    captions:
+    - BETWEEN HIM AND US THERE WAS THIRTY METERS OF MOONLIT CONCRETE AND, ABOUT HALFWAY, ONE BLACK RUBBER KITCHEN SANDAL.
+
+- page: 25
+  title: Forty-one
+  location: warehouse-doorway-night
+  time: about 1:53 a.m., moon behind the warehouse
+  panels:
+  - pos: top-right
+    action: Close-up of the single black rubber sandal lying on its side on the moonlit concrete, a long shadow across it.
+    captions:
+    - HE LOOKED AT THE SANDAL. THEN HE LOOKED AT THE DOORWAY AGAIN.
+  - pos: top-left
+    action: "Inside the black doorway, close: Nobu shaking, Dai's hand over his mouth, Dai's shoulder pressed hard against the door frame."
+    cast:
+    - dai
+    - nobu:meet
+    captions:
+    - HIS WHOLE BODY WAS SHAKING, VERY FAST AND VERY SMALL. MY SHOULDER HAD STARTED TO HURT AND I DIDN'T MOVE IT.
+  - pos: middle-right
+    action: The officer facing us, the cap's brim shading his eyes completely, headlights glaring behind him, hands at his sides.
+    location: pier-3-night
+    cast:
+    - officer
+    captions:
+    - TWENTY. THIRTY.
+  - pos: middle-left
+    action: Extreme close-up of Dai's eyes in the dark, unblinking.
+    cast:
+    - dai
+    captions:
+    - HE DIDN'T TAKE OUT A FLASHLIGHT. HE DIDN'T CALL TO THE OTHER ONE.
+  - pos: bottom, wide
+    action: "From deep inside the doorway, framed by its black edges: across the moonlit lot the officer stands small and still against the glare of the Crown's headlights, the sandal lying between him and us."
+    cast:
+    - officer
+    captions:
+    - FORTY-ONE.
+
+- page: 26
+  title: Sorry
+  time: about 1:55 a.m., moonlight
+  panels:
+  - pos: top-right
+    action: Through the Crown's open driver's window on the car's RIGHT side, the young officer at the wheel leans and says something, face dim.
+    cast:
+    - officer_driver
+    - id: crown
+      view: front34
+      camera: close on the driver's window on the right side only
+    captions:
+    - THE ONE IN THE CAR SAID SOMETHING. I DIDN'T CATCH IT.
+  - pos: top-left
+    action: The older officer walking back toward the Crown at the same unhurried pace, seen from behind.
+    cast:
+    - officer
+    captions:
+    - HE WALKED BACK THE SAME SPEED AS BEFORE.
+  - pos: middle, wide
+    action: "Far and high over the lot: the Crown, small, rolling out of the lot onto the harbor road and turning up toward the bypass, roof light OFF, taillights glowing."
+    cast:
+    - id: crown
+      view: rear
+      camera: far and high, small, from behind, leaving
+    captions:
+    - THE RED LIGHT STOPPED TURNING, AND ITS ENGINE WENT UP THROUGH THE GEARS, ORDINARY, AND WAS GONE.
+  - pos: lower-right
+    action: In the dark doorway, Nobu wipes his face with both hands.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: {text: "SORRY.", style: small}
+  - pos: lower-left
+    action: Dai, still crouched, looking at him.
+    cast:
+    - dai
+    dialogue:
+    - dai: FOR WHAT?
+  - pos: bottom-right
+    action: Nobu, eyes wet, voice cracking, a weak smile.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: I DON'T KNOW. I THOUGHT I WAS GOING TO CRY. I THINK I DID A BIT.
+  - pos: bottom-left
+    action: Dai, quiet.
+    cast:
+    - dai
+    dialogue:
+    - dai: IT'S FINE.
+
+- page: 27
+  title: Like a moon
+  location: warehouse-doorway-night
+  time: about 2:20 a.m., the moon coming round the corner of the warehouse
+  panels:
+  - pos: top-right
+    action: Nobu, hugging his knees in the doorway, timid.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: WAS THAT A REAL POLICEMAN?
+  - pos: top-left
+    action: Dai, deadpan.
+    cast:
+    - dai
+    dialogue:
+    - dai: NO. THAT WAS A MAN IN A COSTUME.
+  - pos: middle-right
+    action: Nobu laughs one shaky breath into his knees. Silent.
+    cast:
+    - nobu:meet
+  - pos: middle-left, tall
+    action: The full moon, white, over the harbor cranes and the black water, coming round the corner of the warehouse.
+    captions:
+    - {text: "WE STAYED THERE A LONG TIME AFTER THAT. I COUNTED TO THREE HUNDRED, TWICE.", box: [24, 682, 556, 86], draw: true}
+  - pos: lower, wide
+    action: Dai crouched in the doorway, moonlight now reaching down the wall to his face, looking up at the moon.
+    cast:
+    - dai
+    captions:
+    - I LOOKED AT IT FOR SOTA FOR A WHILE, UNTIL I COULD TELL HIM WHAT IT LOOKED LIKE, WHICH WAS LIKE A MOON.
+  - pos: bottom, wide
+    action: Nobu, barefoot, stands alone in the middle of the empty moonlit lot among the black tire circles, holding his one black sandal in both hands and looking at it.
+    location: pier-3-night
+    cast:
+    - nobu:meet
+    captions:
+    - THEN NOBU WENT OUT ACROSS THE LOT AND PICKED UP HIS SANDAL, THE ONE THE POLICEMAN HAD LOOKED AT, AND LOOKED AT IT TOO.
+
+- page: 28
+  title: Clap, pat
+  location: rail-crossing-night
+  time: about 3:00 a.m., moonlight
+  panels:
+  - pos: top, wide
+    action: Seen from behind, small, the two boys walk up the long dark empty straight toward the distant crossing light; Nobu limps, one sandal on, one bare foot.
+    cast:
+    - dai
+    - nobu:meet
+    sfx:
+    - {text: "CLAP PAT", note: small}
+    captions:
+    - WE WENT BACK THE WAY WE'D COME, AND FOR A LONG TIME NEITHER OF US SAID ANYTHING.
+  - pos: middle-right
+    action: At the rail crossing, Nobu sits on the rail and pulls two of Dai's socks onto his bare foot, one over the other; Dai stands beside him, sneakers on bare ankles.
+    cast:
+    - nobu:meet
+    - dai
+    captions:
+    - AT THE FREIGHT LINE I GAVE HIM MY SOCKS.
+  - pos: middle-left
+    action: Nobu looks at Dai's beat-up sneaker with grey silver tape over the toe.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: YOUR SHOE'S GOT TAPE ON IT.
+  - pos: lower-right
+    action: Dai, unbothered.
+    cast:
+    - dai
+    dialogue:
+    - dai: "YES."
+  - pos: lower-left
+    action: Nobu looks down at his one sandal, saying it plainly, like having a cold.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: {text: "I'VE GOT A WHOLE DRAWER OF SHOES. MY FATHER BUYS THEM ON SALE. IN THE WRONG SIZES.", box: [16,  888,  306,  210], draw: true, tail: [300,  980]}
+  - pos: bottom-right
+    action: On a concrete canal footpath, Nobu has stopped dead and shows with both flat hands how the Chaser wobbled; Dai waits.
+    location: canal-path-night
+    cast:
+    - nobu:meet
+    - dai
+    captions:
+    - AT THE CANAL HE STARTED TALKING AGAIN, AND ONCE HE STARTED HE DIDN'T STOP.
+  - pos: bottom-left
+    action: Walking on near the station, Nobu pats the canvas bag on his shoulder, glancing sideways.
+    location: canal-path-night
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: {text: "I TOOK ONE. A PHOTO, WHEN THEY LINED UP. IT'LL JUST BE LIGHTS, PROBABLY. DON'T TELL GOTO.", box: [22,  1196,  300,  300], draw: true, tail: [300,  1300]}
+
+- page: 29
+  title: Next Saturday
+  location: kawamata-ramen-night
+  time: ten to four in the morning, dark
+  panels:
+  - pos: top-right
+    action: Dai, walking, hands in pockets.
+    location: canal-path-night
+    cast:
+    - dai
+    dialogue:
+    - dai: I'M NOT GOING TO TELL GOTO.
+  - pos: top-left
+    action: Nobu, serious for once, not laughing, looking at Dai as they walk.
+    location: canal-path-night
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: YOU DIDN'T TELL HIM YOU SAY YOU RODE IN IT. YOU STOOD ON MY FOOT.
+    - nobu: SO EITHER YOU WERE LYING TO ME, OR YOU WERE LYING TO HIM.
+  - pos: middle-right
+    action: Dai walks on in silence, eyes ahead.
+    cast:
+    - dai
+    captions:
+    - I DIDN'T ANSWER.
+  - pos: middle-left
+    action: Nobu, walking, a small decided nod.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: I'D LIE TO HIM. IF I WERE YOU. HE'S SCARY.
+  - pos: lower-right
+    action: In front of the closed steel shutter of the little ramen shop under its unlit lantern, the window above dark, Nobu looks back over his shoulder.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: SAME TIME NEXT SATURDAY?
+  - pos: lower-left
+    action: Dai, flat.
+    cast:
+    - dai
+    dialogue:
+    - dai: "NO."
+  - pos: bottom, wide
+    action: Nobu nods very seriously and goes down the narrow alley beside the shop toward the back door, one sandal and a foot in two socks, trying to be quiet.
+    cast:
+    - nobu:meet
+    dialogue:
+    - nobu: OKAY. NEXT SATURDAY, THEN.
+
+- page: 30
+  title: Four to three
+  location: canal-driving-school
+  time: about 4:40 a.m., before dawn, moon low
+  guards:
+  - The driving-school floodlight is OFF and the traffic lights are dark. Quiet, understated last page.
+  panels:
+  - pos: top, wide
+    action: The small driving-school practice course behind its tall chain-link fence before dawn; four white boxy driving-school sedans parked in a row by the office with their noses to the wall, moonlight on their roofs; the little practice slope; the control tower dark.
+    cast:
+    - id: school_sedan
+      camera: seen from behind, a row of four parked noses-to-the-wall, eye level from the canal path
+    captions:
+    - AT THE DRIVING SCHOOL I STOPPED AT THE FENCE.
+  - pos: middle-right
+    action: The practice traffic lights on their pole, all three lamps dark.
+    captions:
+    - THE FAKE TRAFFIC LIGHTS, SWITCHED OFF, THREE DEAD EYES ON A POLE.
+  - pos: middle-left
+    action: Close on Dai's fingers hooked through the chain-link wire.
+    cast:
+    - dai
+    captions:
+    - FORTY THOUSAND YEN FOR FOUR MINUTES. SEVEN OF MY NIGHTS, AND A BIT.
+  - pos: lower-right
+    action: Dai standing at the fence, face half in shadow, looking at the cars.
+    cast:
+    - dai
+    captions:
+    - YOU NEEDED A CAR FOR THAT. NOT A GOOD ONE. BUT IT HAD TO BE A CAR, AND SOMEBODY IN IT WHO COULD DRIVE.
+  - pos: lower-left
+    action: Close on Dai's LEFT hand held low beside his hip at console height, fingers curled round an invisible small knob, making a tiny shift movement; nobody would notice it.
+    cast:
+    - dai
+    captions:
+    - FOUR TO THREE. THREE TO TWO.
+  - pos: bottom-right
+    action: The sky over the factory chimneys turning grey; an old refrigerated fish truck rattles down the road toward the harbor; Dai a small figure letting go of the fence.
+    cast:
+    - dai
+    captions:
+    - {text: "I HAD 1,077 YEN, THE SAME AS WHEN I'D LEFT. MY SHIFT STARTED AT TEN THAT NIGHT.", box: [568, 1430, 440, 94], draw: true}
+  - pos: bottom-left
+    action: Inside the dim apartment at early grey light, an old telephone on a small shelf by the kitchen wall, a thick phone book lying underneath it. No people.
+    location: hayama-apartment
+    captions:
+    - {text: "AT HOME THERE WAS A PHONE BOOK UNDER THE PHONE.", box: [136, 1160, 400, 72], draw: true}
+    - {text: "CHAPTER 7: FORTY-ONE. END.", box: [20, 1462, 250, 58], style: small, draw: true}

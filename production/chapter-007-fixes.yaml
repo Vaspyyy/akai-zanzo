@@ -1,0 +1,100 @@
+# Single-panel redraws for Chapter 7 (grey-blanked panels, pasted back into the approved art).
+title: Chapter 7 panel fixes
+output_dir: production/runs/ch7-fixes/out
+lettering: empty
+defaults:
+  orientation: portrait
+  location: pier-3-night
+  time: dry September night, 1995, about 1:30 a.m., a bright moon
+  notes:
+  - No red Roadster and no small roadster or convertible anywhere. Dry night, no rain.
+pages:
+- page: 2
+  edit:
+    source: production/runs/ch7-fixes/src/page-02.png
+    change: "Draw new art ONLY inside the flat grey middle panel (the wide panel in the middle of the page): a close-up of the white Silvia's RIGHT-side door mirror, seen from just behind it outside the car, the mirror filling most of the panel; inside the mirror glass, the big square headlights of the grey Chaser glare, close behind and to the right, getting bigger; speed lines streak past; a slice of the Silvia's white door and the dark harbor road rushing by. One empty caption box at the top left of that panel."
+    keep: "every other panel exactly as it is, pixel for pixel"
+  panels:
+  - {pos: top-right, keep: true, action: unchanged}
+  - {pos: top-left, keep: true, action: unchanged}
+  - pos: middle, wide
+    action: "Close-up of the white Silvia's RIGHT door mirror from just behind it, outside the car; in the mirror glass, the grey Chaser's big square headlights glare close behind, growing. Speed lines, the road blurring past. No full car."
+    cast:
+    - {id: silvia, view: side, camera: "extreme close-up of the right door mirror and a slice of the white door only, from just behind the mirror"}
+    captions:
+    - THE GAP STOPPED GROWING, AND THEN IT STARTED SHRINKING.
+  - {pos: "bottom, wide", keep: true, action: unchanged}
+
+- page: 18
+  edit:
+    source: production/runs/ch7-fixes/src/page-18.png
+    change: "Draw new art ONLY inside the flat grey panel at the lower right (third row, right side): Okabe (round soft face, short dark hair, reading glasses pushed up on his forehead, plain polo shirt) seen in PROFILE from his left side, sitting in the open side door of his van, looking DOWN at the blue notebook on his knee and smiling to himself, pencil touching the page, not looking at anyone. One empty speech balloon in the upper part of that panel with its tail pointing at his mouth."
+    keep: "every other panel exactly as it is, pixel for pixel; the new Okabe must NOT repeat the front-facing close-up of the middle-right panel"
+  panels:
+  - {pos: top-right, keep: true, action: unchanged}
+  - {pos: top-left, keep: true, action: unchanged}
+  - {pos: middle-right, keep: true, action: unchanged}
+  - {pos: middle-left, keep: true, action: unchanged}
+  - pos: lower-right
+    action: Okabe in profile from his left side, in the open van door, looking down at his notebook, smiling to himself, pencil on the page.
+    cast: [okabe]
+    dialogue:
+    - okabe: THEN BET MORE.
+  - {pos: lower-left, keep: true, action: unchanged}
+  - {pos: "bottom, wide", keep: true, action: unchanged}
+
+- page: 20
+  edit:
+    source: production/runs/ch7-fixes/src/page-20.png
+    change: "Draw new art ONLY inside the flat grey panel at the middle right: Nobu (stocky round-faced boy with a BUZZ CUT, white short-sleeved shirt buttoned up, black track pants, canvas bag) standing alone in the middle of the emptying lot, turning round, clutching his bag to his chest, panicked. He wears ONE black rubber sandal on his right foot and his LEFT foot is BARE. Red taillights and headlight streaks leaving in every direction behind him. One empty caption box at the top of that panel."
+    keep: "every other panel exactly as it is, pixel for pixel"
+  panels:
+  - {pos: "top, wide", keep: true, action: unchanged}
+  - pos: middle-right
+    action: Nobu alone in the emptying lot, one sandal on, the other foot bare, bag clutched to his chest, turning round.
+    cast: [nobu:meet]
+    captions:
+    - NOBODY HAD ROOM FOR TWO KIDS ON FOOT. NOBODY LOOKED.
+  - {pos: middle-left, keep: true, action: unchanged}
+  - {pos: bottom-right, keep: true, action: unchanged}
+  - {pos: bottom-left, keep: true, action: unchanged}
+
+- page: 27
+  location: warehouse-doorway-night
+  edit:
+    source: production/runs/ch7-fixes/src/page-27.png
+    change: "Draw new art ONLY inside the TWO flat grey panels. (1) Top right: Nobu (stocky round-faced boy with a BUZZ CUT, white short-sleeved shirt) sits hugging his knees in the black recessed doorway on the concrete step, timid, asking a question; BOTH his feet are BARE, NO sandals anywhere in this panel. One empty speech balloon at the upper left of that panel, tail pointing at him. (2) Second row, left: a big, bright, white FULL MOON clearly visible high in the upper middle of the panel, just coming round the dark corner of the warehouse roof at the right edge, over the harbor cranes and the black water with a moonlight path on it. One empty caption box placed at the BOTTOM of that panel, well below the moon."
+    keep: "every other panel exactly as it is, pixel for pixel"
+  panels:
+  - pos: top-right
+    action: Nobu hugging his knees in the doorway, both feet bare, timid.
+    cast: [nobu:meet]
+    dialogue:
+    - nobu: WAS THAT A REAL POLICEMAN?
+  - {pos: top-left, keep: true, action: unchanged}
+  - {pos: middle-right, keep: true, action: unchanged}
+  - pos: middle-left
+    action: A big full moon high in the panel coming round the warehouse roof corner, over the cranes and water.
+    captions:
+    - {text: "WE STAYED THERE A LONG TIME AFTER THAT. I COUNTED TO THREE HUNDRED, TWICE.", at: bottom of the panel}
+  - {pos: "lower, wide", keep: true, action: unchanged}
+  - {pos: "bottom, wide", keep: true, action: unchanged}
+
+- page: 30
+  location: hayama-apartment
+  edit:
+    source: production/runs/ch7-fixes/src/page-30.png
+    change: "Draw new art ONLY inside the flat grey panel at the bottom left: a quiet close-up inside the dim apartment in grey early-morning light: an old 1990s Japanese push-button home telephone with a curly cord, sitting on a small low wooden shelf against the kitchen wall, and on the shelf BELOW it a thick, worn phone book lying flat. No people. Soft window light. One empty caption box at the top of that panel and one SMALL empty caption box in its bottom corner."
+    keep: "every other panel exactly as it is, pixel for pixel"
+  panels:
+  - {pos: "top, wide", keep: true, action: unchanged}
+  - {pos: middle-right, keep: true, action: unchanged}
+  - {pos: middle-left, keep: true, action: unchanged}
+  - {pos: lower-right, keep: true, action: unchanged}
+  - {pos: lower-left, keep: true, action: unchanged}
+  - {pos: bottom-right, keep: true, action: unchanged}
+  - pos: bottom-left
+    action: Close-up of an old telephone on a small shelf with a thick phone book underneath it, grey dawn light, no people.
+    captions:
+    - AT HOME THERE WAS A PHONE BOOK UNDER THE PHONE.
+    - {text: "CHAPTER 7: FORTY-ONE. END.", style: small}

@@ -1,0 +1,16 @@
+title: Chapter 7 car reference sheets
+output_dir: artwork/car-sheets
+defaults:
+  kind: car_sheet
+pages:
+  - id: crown-patrol
+    description: >-
+      Technical reference sheet for one Japanese police patrol car of 1995: a
+      boxy early-1990s Toyota Crown four-door sedan (S130 generation shape),
+      right-hand drive, Japanese police livery: WHITE roof and upper body above
+      the belt line, BLACK lower body (lower doors, fenders, bumpers), one long
+      red rotating light bar on the roof (drawn in grey tone), a small round
+      police crest on the front doors with NO text, plain steel wheels with
+      hubcaps, a tall whip antenna. Black and white ink manga, three separate
+      large views: front three-quarter at top, side in middle, directly from
+      rear at bottom. No people, no other cars, no text, no Japanese characters.

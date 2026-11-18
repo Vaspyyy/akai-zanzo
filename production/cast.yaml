@@ -303,6 +303,106 @@ characters:
       uniform:
         desc: pale short-sleeved uniform shirt with a dark tie, a clipboard on his knee
 
+  officer:
+    name: OFFICER
+    full_name: the older police officer at Pier 3 (unnamed, recurring)
+    traits: >-
+      Japanese police officer in his late 40s, solid and a little heavy in the
+      middle, broad calm face with a heavy jaw, patient heavy-lidded eyes,
+      short black hair going GREY at the sides under his peaked cap.
+      Unhurried; stands still and looks for a long time.
+    tell: "the OLDER, heavy-set police officer, grey at the sides under his peaked cap"
+    default_outfit: summer_uniform
+    outfits:
+      summer_uniform:
+        desc: >-
+          1995 Japanese police summer uniform: pale short-sleeved shirt with two
+          buttoned breast pockets and shoulder straps, a small badge, dark
+          trousers, black duty belt with a holstered revolver, peaked police cap
+          with a badge, polished black shoes with the heels worn down on the
+          OUTSIDE edges
+        ref: artwork/character-sheets/officer.png
+
+  officer_driver:
+    name: DRIVER
+    full_name: the younger police officer at the wheel of the Crown
+    traits: Young Japanese police officer in his late 20s, thin face, at the wheel; seen only dimly.
+    tell: "the YOUNG officer at the wheel"
+    default_outfit: uniform
+    outfits:
+      uniform:
+        desc: pale short-sleeved police shirt, peaked cap
+
+  starter:
+    name: STARTER
+    full_name: the flashlight kid (race starter)
+    traits: Scooter boy of about 16, helmet pushed back on his head with goggles, thin, in a striped track jacket, holding a long black flashlight.
+    tell: "the scooter boy with his helmet pushed back"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: zip-up track jacket with striped cuffs, jeans, sneakers, open-face helmet pushed back on his head
+
+  lookout:
+    name: LOOKOUT
+    full_name: a scooter lookout on the course with a walkie-talkie
+    traits: Teenage boy of about 16 on a small 50cc scooter, open-face helmet, a walkie-talkie with a long antenna at his mouth.
+    tell: "the teenage lookout on a scooter with a walkie-talkie"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: windbreaker jacket, jeans, open-face helmet
+
+  radio:
+    name: WALKIE-TALKIE
+    full_name: a lookout's voice coming out of Okabe's walkie-talkie
+    traits: A black handheld walkie-talkie with a long antenna; the voice of a lookout far away. Not a person.
+    tell: "the walkie-talkie"
+    default_outfit: none
+    outfits:
+      none:
+        desc: none (an object)
+
+  chaser_girl:
+    name: GIRL
+    full_name: the Chaser driver's girlfriend
+    traits: Young woman of about 21, permed shoulder-length hair, sulky face, small earrings.
+    tell: "the young woman with permed shoulder-length hair, arms crossed"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: a light blouse and a short skirt, heeled sandals
+
+  starlet_boy:
+    name: STARLET BOY
+    full_name: the boy who owns the white Starlet
+    traits: Thin young man of about 18-19, plain short hair, earnest stiff face, stands too straight.
+    tell: "the thin, stiff young man holding banknotes"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: plain white T-shirt tucked into jeans, cheap sneakers
+
+  civic_owner:
+    name: CIVIC OWNER
+    full_name: the red Civic's owner
+    traits: Young man of about 22, dyed brown hair under a backwards cap, eating cup noodles with chopsticks.
+    tell: "the young man in a backwards cap eating cup noodles"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: loose short-sleeved shirt, baggy trousers
+
+  supra_girl:
+    name: SUPRA GIRL
+    full_name: the girl in the white jacket from the Supra
+    traits: Young woman of about 20 with long dyed hair.
+    tell: "the young woman in a white jacket"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: white jacket, short skirt
+
 cars:
   meet_cars:
     name: the parked meet cars
@@ -380,6 +480,15 @@ cars:
       view:
         ref: artwork/car-sheets/chaser-x90-view.png
         note: rear crop; use for details, draw requested camera angle
+      rear:
+        ref: artwork/car-sheets/chaser-x90-view.png
+        note: straight rear crop (taillights, trunk, plate, exhaust); use for details, draw the requested camera angle
+      front34:
+        ref: artwork/car-sheets/chaser-x90-front34.png
+        note: front three-quarter crop showing the LEFT flank with the nose to the right; use for details only, draw the requested camera angle
+      side:
+        ref: artwork/car-sheets/chaser-x90-side.png
+        note: flat left-side crop (nose LEFT); use for body details only, never copy this flat pose, draw the requested camera angle
     rules:
       - Right-hand drive. In a near-side driver window view the front points right.
 
@@ -461,5 +570,39 @@ cars:
       rear:
         ref: artwork/car-sheets/silvia-s13-rear.png
         note: rear crop for detail only; draw the specified camera angle
+      side:
+        ref: artwork/car-sheets/silvia-s13-side.png
+        note: flat left-side crop (nose LEFT); use for body details only, never copy this flat pose, draw the requested camera angle
     rules:
       - "RIGHT-HAND DRIVE: the driver sits on the car's right side."
+
+  crown:
+    name: the police Crown
+    full_name: 1990s Toyota Crown police patrol car (white-and-black)
+    traits: >-
+      Boxy early-1990s Toyota Crown four-door sedan in Japanese police patrol
+      livery: WHITE roof and upper body above the belt line, BLACK lower body
+      (lower doors, fenders, bumpers), a long red rotating light bar on the
+      roof, a small round police crest on the front doors (no readable text),
+      plain steel wheels with hubcaps. NOT a sports car.
+    ref: artwork/car-sheets/crown-patrol.png
+    views:
+      front34:
+        ref: artwork/car-sheets/crown-patrol-front34.png
+        note: front three-quarter crop for details only; draw the requested camera angle
+      rear:
+        ref: artwork/car-sheets/crown-patrol-rear.png
+        note: rear crop for details only; draw the requested camera angle
+    rules:
+      - "RIGHT-HAND DRIVE: the driver sits on the car's right; the passenger door is on the LEFT."
+
+  civic:
+    name: the red Civic
+    full_name: red 1992 Honda Civic SiR hatchback (EG6)
+    traits: >-
+      Red (mid-grey screentone) 1992 Honda Civic SiR three-door hatchback, EG
+      shape: low rounded nose, long glass hatch, stickers down the side.
+      A FOUR-SEAT HATCHBACK with a fixed metal roof: NOT a roadster, NOT a
+      convertible.
+    rules:
+      - "RIGHT-HAND DRIVE."
