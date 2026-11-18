@@ -10,6 +10,8 @@ For automotive manga, technical consistency is storytelling. Every page that sho
 - **Top:** black soft top, **up** in the pilot.
 - **Headlights:** pop-up. State must be drawn deliberately: up when driving at night, down when parked.
 - **Wheels:** silver 14-inch 7-spoke alloy wheels (matches artwork/car-sheets/red-roadster.png, approved reference), same in every panel. Slightly lowered, otherwise stock-looking body: no wing, no body kit.
+- **Trim:** a base car. **No power steering** (heavy at a crawl, lighter as speed rises), **wind-up windows** (a handle, not a button) and **manual door mirrors** pushed by hand; the passenger mirror means leaning across and winding the passenger window down. The alloy wheels were fitted later, not by the factory (who fitted them is not stated).
+- **Gearing (NA6, for engine notes):** in second, 20 km/h is about 1,500 rpm and 25 km/h about 1,900; below about 15 km/h second hammers. In first, 20 km/h is about 2,500 rpm. Idle sits just under 1,000.
 - **Plate:** white Japanese plate; details not legible.
 - **Sound:** high, clean, rising four-cylinder wail. SFX: "WAAAAAN".
 
