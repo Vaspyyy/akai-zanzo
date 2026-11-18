@@ -82,6 +82,14 @@ characters:
       casual:
         desc: dark bomber jacket over a white T-shirt, black jeans, black sneakers, black leather driving gloves with the knuckles cut open
         ref: artwork/character-sheets/akane.png
+      nurse:
+        desc: >-
+          night-shift ER nurse in a 1995 Japanese city hospital: plain WHITE
+          short-sleeved nurse's tunic and white trousers, white flat shoes, a
+          small nurse's watch pinned upside down on the left breast, a pen in
+          the breast pocket, bare hands; her long hair pinned UP in a tight bun
+          (NOT a ponytail), no cap
+        ref: artwork/character-sheets/akane-nurse.png
 
   michiko:
     name: MICHIKO
@@ -486,6 +494,146 @@ characters:
       uniform:
         desc: white shirt, dark cap
 
+  # ---- added for chapter 9 (2026-11-18)
+  dai_cut:
+    name: DAI
+    full_name: Daisuke "Dai" Hayama after his sister's haircut (chapter 9 on)
+    traits: >-
+      17-year-old boy, 172 cm, lean and wiry, slight slouch. FRESHLY CUT SHORT
+      black hair: the sides short above the ears, the back off the collar, the
+      bangs cut straight across a finger's width ABOVE his eyebrows, so his
+      whole forehead and both eyebrows show. A short pale scar line through
+      his LEFT eyebrow (on the image right when he faces us). Narrow, sharp,
+      guarded eyes; thin face.
+    tell: "the YOUNG one, 17, with SHORT freshly cut black hair and his forehead uncovered"
+    default_outfit: summer_school
+    outfits:
+      interview:
+        desc: >-
+          crisp ironed white short-sleeved summer school shirt buttoned all the
+          way to the top and tucked in, black school trousers with a crease,
+          beat-up white canvas sneakers with a strip of tape on the right one
+        ref: artwork/character-sheets/dai-haircut.png
+      summer_school:
+        desc: >-
+          rumpled white short-sleeved summer school shirt with a breast pocket,
+          untucked, top button open, black school trousers, white socks
+          indoors (white canvas sneakers outdoors)
+        ref: artwork/character-sheets/dai-haircut.png
+        ref_note: the face and the short hair; the shirt is rumpled and untucked here
+      station_jacket:
+        desc: >-
+          grey zip-up gas-station work jacket (a small plain patch on the
+          chest, no readable letters) half zipped over a black T-shirt, worn
+          jeans, white canvas sneakers; no cap
+        ref: artwork/character-sheets/dai-haircut.png
+        ref_note: the face and the short hair only (the sheet shows a school shirt)
+      casual:
+        desc: faded plain black T-shirt and loose grey sweatpants (sleeping clothes), barefoot
+        ref: artwork/character-sheets/dai-haircut.png
+        ref_note: the face and the short hair only
+
+  sugimoto:
+    name: SUGIMOTO
+    full_name: Sugimoto (Personnel, Sanko Brake)
+    traits: >-
+      Japanese office man about fifty, a little soft round the middle, neat
+      side-parted black hair thinning at the crown, rimless rectangular
+      glasses, a smooth careful polite face, tired eyes; clicks a ballpoint pen.
+    tell: "the man in a SUIT with rimless glasses, in the middle"
+    default_outfit: suit
+    outfits:
+      suit:
+        desc: plain dark grey suit, white shirt, dark narrow tie, a small lapel pin
+        ref: artwork/character-sheets/sugimoto.png
+
+  line_worker:
+    name: OLD WORKER
+    full_name: an old line worker on the Sanko interview panel (unnamed)
+    traits: >-
+      Old Japanese factory worker about sixty, broad and heavy-shouldered,
+      weathered square face with deep lines, grey stubble, grey hair cropped
+      very short, small steady eyes under heavy brows; big heavy hands with
+      the creases stained grey. Rough, slow voice.
+    tell: "the OLD broad man in a grey work jacket with big grey-creased hands"
+    default_outfit: work
+    outfits:
+      work:
+        desc: grey zip-up factory work jacket with a small plain patch over the breast pocket (no letters), white shirt collar under it
+        ref: artwork/character-sheets/line-worker.png
+
+  young_clerk:
+    name: CLERK
+    full_name: the young note-taker on the Sanko interview panel
+    traits: Thin Japanese man in his twenties, neat short hair, big ears, a notepad, always writing.
+    tell: "the YOUNG thin man with a notepad"
+    default_outfit: suit
+    outfits:
+      suit:
+        desc: white shirt, dark tie, no jacket
+
+  examiner:
+    name: EXAMINER
+    full_name: the man who gives the adding test at Sanko
+    traits: Japanese man in his forties with a grey crew cut and a flat, patient face, holding a silver stopwatch.
+    tell: "the crew-cut man with a STOPWATCH"
+    default_outfit: work
+    outfits:
+      work:
+        desc: grey zip-up factory work jacket over a white shirt, grey trousers
+
+  chin_boy:
+    name: BOY
+    full_name: a candidate from a school across the river
+    traits: Japanese high-school boy of 17 with a short haircut and a square Band-Aid on his chin.
+    tell: "the boy with a Band-Aid on his chin"
+    default_outfit: summer_school
+    outfits:
+      summer_school:
+        desc: white short-sleeved school shirt buttoned to the top, dark grey school trousers
+
+  crewman:
+    name: CREWMAN
+    full_name: the lead ambulance crewman
+    traits: >-
+      Japanese ambulance paramedic in his thirties, calm square face, short
+      hair; works fast without hurrying.
+    tell: "the ambulance CREWMAN in light grey with a white helmet"
+    default_outfit: uniform
+    outfits:
+      uniform:
+        desc: 1995 Japanese fire-department ambulance crew uniform, light grey jacket and trousers with reflective bands, a white helmet with a chin strap, white gloves, black boots
+
+  crew:
+    name: CREW
+    full_name: the two other ambulance crewmen
+    traits: Two Japanese ambulance crewmen in their twenties.
+    tell: "two more crewmen in light grey with white helmets"
+    default_outfit: uniform
+    outfits:
+      uniform:
+        desc: light grey ambulance crew uniforms with reflective bands, white helmets, white gloves, black boots
+
+  dispatcher:
+    name: "PHONE VOICE"
+    full_name: the fire-department dispatcher's voice on the telephone
+    traits: A voice coming out of the telephone receiver. Not a person on the page.
+    tell: "the telephone receiver"
+    default_outfit: none
+    outfits:
+      none:
+        desc: none (a voice from the phone)
+
+  er_nurse:
+    name: NURSE
+    full_name: an older ER nurse at Shiomi Municipal
+    traits: Japanese nurse in her fifties, stocky, short permed grey-streaked hair, white nurse's cap, firm kind face. Clearly NOT the young nurse with the tight bun.
+    tell: "the OLDER nurse in a white cap"
+    default_outfit: uniform
+    outfits:
+      uniform:
+        desc: white short-sleeved nurse's uniform dress, white cap, white shoes
+
 cars:
   meet_cars:
     name: the parked meet cars
@@ -773,3 +921,24 @@ cars:
     traits: >-
       A big Japanese cab-over tanker truck of the early 1990s, a long round
       tank behind the cab, parked and dark. No readable letters.
+
+  # ---- added for chapter 9 (2026-11-18)
+  ambulance:
+    name: the ambulance
+    full_name: 1995 Japanese fire-department ambulance (white high-roof van)
+    traits: >-
+      A WHITE high-roof box van ambulance of the early 1990s (one-box van
+      shape), right-hand drive, a broad RED stripe (dark grey tone) along each
+      side at waist height, a long RED rotating light bar on the front of the
+      roof, frosted windows in the patient area, two wide REAR doors opening
+      outward, plain steel wheels. No readable letters or numbers.
+    ref: artwork/car-sheets/ambulance.png
+    views:
+      rear:
+        ref: artwork/car-sheets/ambulance-rear.png
+        note: "rear view with both rear doors open; details only, draw the requested camera angle"
+      interior:
+        ref: artwork/car-sheets/ambulance-interior.png
+        note: "the patient area seen from the rear doors: stretcher, bench, cabinets; layout only"
+    rules:
+      - "RIGHT-HAND DRIVE: the driver sits on the van's right."

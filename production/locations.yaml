@@ -364,3 +364,73 @@ harbor-road-morning:
     out on poles for the holiday, the grain silos ahead, cranes over the
     water, the sun just clear of the cranes, long shadows. Quiet, no traffic.
   default_time: about 6:15 a.m., clear, the sun just up
+
+# ---- added for chapter 9 (2026-11-18)
+hayama-kitchen-night:
+  name: the Hayama kitchen corner at night (refrigerator, wall clock, phone shelf)
+  description: >-
+    The same cramped 1970s danchi kitchen as the Hayama apartment, seen from
+    the tatami side: a small old white two-door refrigerator with a square
+    biscuit tin on top and a sheet of handwritten paper taped to its side;
+    a round white wall clock with black hands and numbers over the low
+    table; the old sink and gas burner with a single fluorescent tube lit
+    over the sink; a small wooden shelf on the wall beside a hanging
+    calendar holding an old black ROTARY telephone (dial, curly cord); the
+    low table with cushions; the window over the sink black; the sliding
+    fusuma doors to the small tatami room where the boys sleep; a steel
+    front door with a genkan step at the end.
+  plate: artwork/locations/hayama-kitchen-night.png
+  guards:
+    - The telephone is an old black ROTARY phone with a finger dial (no buttons).
+    - The paper on the refrigerator is handwritten lines that cannot be read unless a caption gives the words.
+  default_time: night, only the light over the sink on
+sanko-interview:
+  name: interview room at the Sanko Brake plant
+  description: >-
+    A plain 1990s Japanese factory office meeting room: pale walls, a
+    window with half-closed venetian blinds, grey vinyl floor tiles, a long
+    table covered with a GREEN cloth (mid-grey tone) with three chairs
+    behind it, and about two meters out in front of it, alone in the middle
+    of the empty floor, ONE folding chair facing the table. A door with a
+    small window, a wall clock, nothing on the walls but a calendar.
+  plate: artwork/locations/sanko-interview.png
+  guards:
+    - No readable signs or words anywhere; the name card on the table is a blank white card.
+  default_time: Tuesday afternoon, daylight through the blinds
+sanko-plant:
+  name: the Sanko Brake plant (corridors, test room, canteen)
+  description: >-
+    A 1995 Japanese brake-parts factory where the river comes into the
+    harbor: low grey factory sheds with saw-tooth roofs and a chimney, a
+    two-storey office block, timber yards along the river, a gate with a
+    bus stop. Inside: worn linoleum corridors, a waiting room with folding
+    chairs along one wall under a framed photo portrait of an old man (the
+    founder), a test room with rows of school-style desks, a factory
+    canteen with long tables.
+  guards:
+    - No readable signs or company names anywhere.
+  default_time: Tuesday, a clear September day
+er-bay:
+  name: Shiomi Municipal Hospital emergency department at night
+  description: >-
+    A 1995 Japanese city-hospital emergency room: very bright flat
+    fluorescent ceiling light, pale polished vinyl floor, white walls with a
+    green stripe; treatment bays divided by PALE GREEN curtains hung on rings
+    from steel rails in the ceiling, the curtains stopping about thirty
+    centimeters above the floor; a row of ORANGE moulded plastic chairs
+    along the wall opposite the bays; a round wall clock; automatic glass
+    entrance doors at the end; a steel trolley, a wall-mounted oxygen
+    outlet. No modern screens.
+  plate: artwork/locations/er-bay.png
+  guards:
+    - No readable signs anywhere.
+  default_time: about 1:50 a.m., inside under bright fluorescent light
+ambulance-interior:
+  name: inside a 1995 Japanese ambulance at night
+  description: >-
+    The back of a 1990s Japanese high-roof ambulance van: white walls and
+    ceiling, a stretcher along one side with its back raised, a padded bench
+    along the other side, cabinets and straps, a small black oxygen cylinder,
+    frosted rear windows, a red rotating light outside throwing pink light in
+    through the frosted glass.
+  default_time: about 1:30 a.m., night

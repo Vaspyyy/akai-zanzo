@@ -1,0 +1,23 @@
+title: Chapter 9 car reference sheets
+output_dir: artwork/car-sheets
+defaults:
+  kind: car_sheet
+pages:
+  - id: ambulance
+    description: >-
+      Technical reference sheet for one 1995 Japanese city fire-department
+      AMBULANCE: a white high-roof box van based on a 1990s Toyota HiAce-type
+      one-box van, right-hand drive, with a broad RED stripe (drawn dark grey)
+      along each side at waist height, a long RED rotating light bar on the
+      front of the roof and a small one at the back, frosted rear and side
+      windows in the patient area, two wide REAR doors that open outward,
+      plain steel wheels. No readable letters or numbers anywhere (blank
+      panels where text would be). Black and white ink manga with grey tone.
+      Four separate large views on white: TOP LEFT front three-quarter from
+      the front-RIGHT (driver's side, the steering wheel visible on the
+      right); TOP RIGHT straight rear view with BOTH REAR DOORS OPEN showing
+      the white lit interior and the stretcher; BOTTOM LEFT flat side view of
+      the RIGHT side with the FRONT pointing RIGHT; BOTTOM RIGHT the interior
+      seen from the open rear doors: a stretcher on the left with its back
+      raised, a padded bench along the right wall, white cabinets, straps,
+      a small black oxygen cylinder. No people, no other cars, no text.

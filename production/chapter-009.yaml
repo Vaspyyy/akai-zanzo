@@ -1,0 +1,1397 @@
+chapter: 9
+title: Before Anything Breaks
+lettering: empty
+defaults:
+  orientation: portrait
+  time: late September 1995
+  notes:
+  - Right-to-left panel order. One speaker per panel. All cars are Japanese models sold by September 1995, right-hand drive.
+  - No brand logos, no stickers, no readable signs or printed words anywhere unless a panel asks for them. No Japanese characters.
+  - Vary shot sizes and poses; no two panels on the page may look alike.
+
+pages:
+# ------------------------------------------------------------------ Sunday night, the station
+- page: 1
+  title: Like a can lid
+  location: harbor-station-night
+  time: Sunday 10:10 p.m., night, dry; canopy lights
+  guards:
+  - "Dai still has his OLD long messy hair falling over his eyes on this page (the haircut comes later). His LEFT hand is wrapped in a white gauze bandage round the palm and wrist."
+  - Dai and Kubo both stand the whole page.
+  - No whole car anywhere on this page.
+  panels:
+  - pos: top, wide
+    action: Night under the canopy lights. Dai at the pump island lifts the fuel nozzle off the pump with his RIGHT hand and keeps his bandaged LEFT hand pressed flat against the front of his grey jacket; behind him the lit office booth with Kubo in its doorway. Only the glow of headlights at the panel edge, no car drawn.
+    cast: [dai:station_jacket, kubo]
+    captions:
+    - KUBO-SAN SAW THE BANDAGE AT TEN PAST TEN ON SUNDAY NIGHT. I KEPT THE LEFT HAND AGAINST MY JACKET.
+  - pos: middle-right
+    action: Kubo standing by the pump, holding out one hand palm up toward Dai, waiting, his face patient and unreadable.
+    cast: [kubo]
+    captions:
+    - HE DIDN'T SAY ANYTHING UNTIL THE CAR HAD GONE.
+  - pos: middle-left
+    shot: close-up
+    action: Close-up of Kubo's old lined hands turning Dai's bandaged left hand over, looking at the gauze, the tape and where the bandage goes round the wrist. Silent.
+  - pos: lower-right
+    action: Kubo looking at the hand, eyes narrowed.
+    cast: [kubo]
+    dialogue:
+    - kubo: TANABE'S?
+  - pos: lower-left
+    action: Dai, looking off to the side.
+    cast: [dai:station_jacket]
+    dialogue:
+    - dai: WINDOW MOTOR. COROLLA.
+  - pos: bottom-right
+    action: Kubo handing the hand back, already turning away toward the office.
+    cast: [kubo]
+    dialogue:
+    - kubo: THEY ALL DO THAT. THE HOLE'S GOT AN EDGE ON IT LIKE A CAN LID.
+  - pos: bottom-center
+    action: Kubo standing in the office doorway with his back half turned, looking out at the dark road.
+    cast: [kubo]
+    dialogue:
+    - kubo: SHE'S GOT YOU ON SUNDAYS, THEN.
+  - pos: bottom-left
+    action: Dai alone at the pump island, looking at the ground.
+    cast: [dai:station_jacket]
+    dialogue:
+    - dai: SEVEN OF THEM.
+
+# ------------------------------------------------------------------ Monday evening, the haircut
+- page: 2
+  title: Under the light
+  location: hayama-apartment
+  time: Monday about 8 p.m., night outside, the round fluorescent ceiling light on
+  guards:
+  - "Dai still has his OLD long messy hair on this whole page (the cut has not started). His LEFT hand is bandaged white."
+  - Dai lies on the tatami in panel 1, then sits on a plain kitchen chair on the newspaper from panel 3 on; Aya kneels in panel 1, then stands.
+  panels:
+  - pos: top, wide
+    action: Monday night at home. Dai wakes up lying on the tatami of the small kitchen in his rumpled white school shirt; above him Aya kneels, spreading sheets of newspaper flat over the floor. The window is black.
+    cast: [dai:summer_school, aya:home]
+    captions:
+    - "AT HOME I SLEPT ON THE TATAMI. WHEN I WOKE, MOM HAD GONE TO WORK, AND AYA WAS SPREADING NEWSPAPER ON THE FLOOR."
+  - pos: top-right
+    action: Aya standing over the newspaper, pointing at the floor with one finger, bossy.
+    cast: [aya:home]
+    dialogue:
+    - aya: SIT. NOT THERE. UNDER THE LIGHT.
+  - pos: top-left
+    action: A plain kitchen chair set in the middle of the spread newspaper, right under the round fluorescent ring light on the ceiling; Dai sitting down on it, wary.
+    cast: [dai:summer_school]
+  - pos: middle-right
+    action: Aya behind the chair holding up a black plastic garbage bag with a hole cut in the bottom.
+    cast: [aya:home]
+    dialogue:
+    - aya: HEAD THROUGH.
+  - pos: middle-left
+    action: Dai on the chair with his head through the black garbage bag, the bag hanging over his shoulders and arms like a cape; Aya tucks it into his collar at the back with two fingers, tight.
+    cast: [dai:summer_school, aya:home]
+    sfx: [KASA KASA]
+    captions:
+    - IT CRACKLED EVERY TIME I BREATHED.
+  - pos: lower, wide
+    action: On the low table, Aya unties a long cloth tool roll, the kind carpenters keep chisels in; inside are two combs, a row of black hair clips, an old spray bottle of water and a pair of long, narrow, silver hairdresser's scissors with a little finger hook on one handle.
+    cast: [aya:home]
+    captions:
+    - A CLOTH ROLL, THE KIND CARPENTERS KEEP CHISELS IN.
+  - pos: bottom-right
+    shot: close-up
+    action: Close-up of the long silver scissors lying on the cloth roll, gleaming, nothing like anything else in the shabby room.
+    captions:
+    - THEY DIDN'T LOOK LIKE ANYTHING WE OWNED.
+  - pos: bottom-left
+    action: Aya picking up the scissors, not looking at Dai.
+    cast: [aya:home]
+    dialogue:
+    - aya: DON'T TOUCH THEM. THEY COST MORE THAN YOUR SHOES.
+
+- page: 3
+  title: Snip snip snip
+  location: hayama-apartment
+  time: Monday night, the round fluorescent ceiling light on, the window black
+  continue_from: 2
+  guards:
+  - "Dai's hair is still LONG on this page (it is being cut). He sits on the chair in the black garbage-bag cape; his LEFT hand is bandaged white."
+  - Aya never speaks on this page. She stands behind him until the last panel, where she crouches in front of him.
+  panels:
+  - pos: top-right
+    action: Aya sprays water on Dai's head from the old spray bottle; water runs down behind his ears.
+    cast: [dai:summer_school, aya:home]
+    sfx: [SHU SHU]
+  - pos: top-left
+    action: Dai's wet hair combed straight down over his whole face like a curtain; he looks down at the newspaper through his own hair.
+    cast: [dai:summer_school]
+    captions:
+    - SHE COMBED IT ALL STRAIGHT DOWN, SO I WAS LOOKING AT THE NEWSPAPER THROUGH MY OWN HAIR.
+  - pos: middle, wide
+    action: Close-up of Aya's fingers lifting a lock of wet black hair, the long scissors cutting along the edge of her fingers in quick small bites.
+    sfx: [SNIP SNIP SNIP]
+    captions:
+    - THEN SHE STARTED, AND SHE DIDN'T SAY ANYTHING ELSE FOR A LONG TIME.
+  - pos: lower-right
+    action: Wet clippings of black hair sliding down the garbage bag and falling on the newspaper, onto a printed photo of a grey-haired politician in a suit (anonymous face).
+    captions:
+    - AYA ALWAYS SAYS SOMETHING. SHE TALKS WHILE SHE EATS AND WHILE SHE BRUSHES HER TEETH.
+  - pos: lower-left
+    action: "The black window over the sink at night works as a mirror: reflected in it, Aya standing behind Dai with her mouth shut tight and her eyes narrowed, one foot turned out like a model, scissors raised; Dai in his garbage-bag cape in front."
+    cast: [aya:home, dai:summer_school]
+    captions:
+    - I WATCHED HER IN THE DARK WINDOW. SHE STOOD WITH ONE FOOT TURNED OUT, LIKE THE GIRLS IN HER HAIR MAGAZINE.
+  - pos: bottom-right
+    action: Aya pulling the garbage bag down over Dai's knees; his bandaged left hand lies on his knee and she sees it.
+    cast: [dai:summer_school, aya:home]
+    captions:
+    - SHE SAW THE BANDAGE. SHE LOOKED AT IT FOR A SECOND, AND WENT BACK TO MY EAR.
+  - pos: bottom-left
+    action: Aya crouched in front of the chair, combing Dai's long wet bangs straight UP off his forehead with the comb to see where they fall.
+    cast: [aya:home, dai:summer_school]
+
+- page: 4
+  title: They want eyebrows
+  location: hayama-apartment
+  time: Monday night, the round fluorescent ceiling light on
+  continue_from: 3
+  guards:
+  - "Until panel 6 Dai's bangs are still LONG. In panel 6 Aya cuts them straight across; from panel 6 on his hair is SHORT, the bangs a finger's width above his eyebrows, the forehead uncovered."
+  - "The scar: a short pale line through Dai's LEFT eyebrow (on the image RIGHT when he faces us)."
+  - Aya crouches in front of Dai on this page, then stands for the last panel.
+  panels:
+  - pos: top, wide
+    action: Close-up of the comb holding Dai's wet bangs straight up, stopped still.
+    captions:
+    - THE COMB STOPPED.
+  - pos: upper, large
+    shot: extreme close-up
+    action: "Dai's uncovered forehead and eyes, his wet hair held up by the comb: a short PALE scar line through his LEFT eyebrow (image right), where the hair doesn't grow, about as long as a little fingernail. His eyes look away."
+    cast: [dai:summer_school]
+    captions:
+    - A LINE THROUGH MY LEFT EYEBROW, PALE, WHERE THE HAIR DOESN'T GROW.
+    - I'D HAD BANGS OVER IT SINCE I WAS FOURTEEN. MOM HAD SEEN IT ONCE, THE DAY I CAME HOME.
+  - pos: middle-right
+    action: Aya crouched in front of him, looking at the scar for one second, her face flat. Then she lets the bangs fall back down.
+    cast: [aya:home]
+    dialogue:
+    - aya: THIS IS COMING OFF. THEY WANT EYEBROWS.
+  - pos: middle-left
+    action: Dai, his long wet bangs back over his eyes, low voice.
+    cast: [dai:summer_school]
+    dialogue:
+    - dai: LEAVE SOME.
+  - pos: lower-right
+    action: Aya, one eyebrow up, already lifting the scissors.
+    cast: [aya:home]
+    dialogue:
+    - aya: DID I ASK YOU?
+  - pos: lower-left
+    action: Close-up of the scissors cutting straight across Dai's bangs a little above his eyebrows; the cut hair falls away and his forehead is in the open.
+    cast: [dai_cut:summer_school]
+    sfx: [JAKIN]
+    captions:
+    - I FELT THE AIR COME IN ON MY FOREHEAD, COOL, WHERE THERE HADN'T BEEN ANY AIR FOR THREE YEARS.
+  - pos: bottom, wide
+    action: Aya standing beside the chair combing his new short bangs flat, deadpan; Dai sitting stiffly with his forehead uncovered.
+    cast: [aya:home, dai_cut:summer_school]
+    dialogue:
+    - aya: NOBODY'S GOING TO LOOK AT YOUR EYEBROW. THEY'LL BE WATCHING YOUR MOUTH, IN CASE SOMETHING STUPID COMES OUT OF IT.
+
+- page: 5
+  title: Somebody's son
+  location: hayama-apartment
+  time: Monday night, the round fluorescent ceiling light on
+  continue_from: 4
+  guards:
+  - "Dai's hair is SHORT on the whole page: short sides, back off the collar, bangs a finger's width above the eyebrows, the scar through his LEFT eyebrow visible in close shots. The garbage bag is off; he wears his rumpled white school shirt."
+  - Dai sits the whole page; Aya stands and walks off.
+  panels:
+  - pos: top, wide, large
+    action: Dai on the chair holding a small round hand mirror up to his face under the fluorescent ring, seeing his new short haircut; we see his face from slightly beside the mirror, surprised and young.
+    cast: [dai_cut:summer_school]
+    captions:
+    - I LOOKED LIKE SOMEBODY'S SON.
+  - pos: middle-right
+    shot: close-up
+    action: Close-up of the little hand mirror showing his left eyebrow with the pale scar line through it.
+    captions:
+    - IT DIDN'T LOOK LIKE MUCH. IT LOOKED LIKE A SCAR.
+  - pos: middle-left
+    action: Aya folding the newspaper up with the cut hair inside it.
+    cast: [aya:home]
+    dialogue:
+    - aya: AT THE PLACE BY THE STATION, THAT'S THREE THOUSAND YEN. WITH A WASH.
+  - pos: lower-right
+    action: Dai looking up from the mirror.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: WHICH PLACE?
+  - pos: lower-left
+    action: Aya tipping the hair out of the folded newspaper into a kitchen bin.
+    cast: [aya:home]
+    dialogue:
+    - aya: DOESN'T MATTER WHICH PLACE. YOU OWE ME THREE THOUSAND YEN.
+  - pos: bottom-right
+    action: Dai, flat.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I'LL PAY YOU.
+  - pos: bottom-center
+    action: Aya walking away toward a sliding door with the cloth roll under her arm, not turning round.
+    cast: [aya:home]
+    dialogue:
+    - aya: YOU WON'T.
+  - pos: bottom-left
+    action: Dai alone at the low table with a covered bowl of rice and stew, an egg on top; a closed sliding door behind him. Aya's voice comes from behind the door.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - aya: {text: "AND EAT WHAT MOM LEFT YOU. SHE PUT AN EGG IN IT.", offpanel: true}
+
+# ------------------------------------------------------------------ Tuesday 5 a.m., the iron
+- page: 6
+  title: Hot cotton
+  location: hayama-kitchen-night
+  time: Tuesday 5 a.m., grey pre-dawn light at the window, only the light over the sink on
+  guards:
+  - "The window is pale GREY (just before dawn), not black night and not bright day."
+  - "Dai has SHORT hair now (bangs above the eyebrows); he wears a black T-shirt and sweatpants. Mom kneels at a low ironing board on the kitchen floor the whole page."
+  panels:
+  - pos: top, wide
+    action: Dai lying on his futon in the small tatami room with his eyes open in the grey dawn light; through the half-open fusuma, the dim kitchen and a wisp of steam.
+    cast: [dai_cut:casual]
+    captions:
+    - THE IRON WOKE ME. NOT THE SOUND OF IT. THE SMELL.
+    - HOT COTTON, AND THE STARCH SPRAY MOM KEEPS FOR NEW YEAR AND FUNERALS.
+  - pos: middle-right
+    action: Mom kneeling at a low ironing board on the kitchen floor, in her factory smock with her hair already up in a bun; only the light over the sink is on; a white short-sleeved shirt on the board.
+    cast: [michiko:factory]
+  - pos: middle-left
+    shot: close-up
+    action: Close-up of the iron's tip pressing a white shirt collar point from the tip inwards.
+    captions:
+    - SHE DID THE COLLAR POINTS FROM THE TIP INWARDS, SO THE IRON WOULDN'T PUSH A CREASE INTO THEM.
+  - pos: lower-right
+    action: Dai sitting in the doorway on the floor, his back against the door frame, knees up, watching. Mom's voice comes from off panel; she has not turned round.
+    cast: [dai_cut:casual]
+    dialogue:
+    - michiko: {text: "IT'S FIVE. GO BACK TO SLEEP.", offpanel: true}
+  - pos: lower-left
+    action: The ironed white shirt on a wire hanger hooked over the top of the fusuma frame, stirring a little in the air from the window.
+    captions:
+    - I DIDN'T.
+  - pos: bottom, wide
+    action: Mom lays a wet wrung-out cotton towel over a pair of black school trousers on the board and presses the iron down on it; steam billows up round her hands.
+    cast: [michiko:factory]
+    sfx: [JUWAA]
+    captions:
+    - YOU DO IT THROUGH A CLOTH, OR THE BLACK GOES SHINY. I HADN'T KNOWN THAT.
+
+- page: 7
+  title: What's that
+  location: hayama-kitchen-night
+  time: Tuesday 5 a.m., grey pre-dawn light, only the light over the sink on
+  continue_from: 6
+  guards:
+  - "The window is pale GREY (just before dawn)."
+  - "Dai has SHORT hair, a black T-shirt; his LEFT hand is wrapped in a GREYISH, dirty gauze bandage. Mom kneels at the ironing board the whole page; Dai sits in the doorway, then stands to take the hanger in panel 4 and stays standing."
+  panels:
+  - pos: top-right
+    action: Mom lifting the cloth off the trousers and looking at the crease, not at Dai.
+    cast: [michiko:factory]
+    dialogue:
+    - michiko: NEXT MONDAY I'M AT THE STORE ALL NIGHT. THE STOCKTAKING. EIGHT TILL FIVE.
+  - pos: top-left
+    action: Mom in profile, folding the trousers over the hanger.
+    cast: [michiko:factory]
+    dialogue:
+    - michiko: AYA'S HOME AFTER NINE. YOU'RE OFF MONDAYS.
+  - pos: middle-right
+    action: Dai in the doorway, nodding.
+    cast: [dai_cut:casual]
+    dialogue:
+    - dai_cut: "YES."
+  - pos: middle-left
+    action: Mom holding the hanger with the shirt and trousers up to Dai; Dai standing, reaching for it with his LEFT hand, the dirty bandage in plain view.
+    cast: [michiko:factory, dai_cut:casual]
+    dialogue:
+    - michiko: GOOD.
+  - pos: lower, wide
+    action: Close-up of the iron being set down on its heel on the board; Mom's eyes fixed on Dai's bandaged hand.
+    cast: [michiko:factory]
+    sfx: [KOTO]
+    dialogue:
+    - michiko: WHAT'S THAT.
+  - pos: bottom-right
+    action: Dai standing, holding the hanger, eyes down.
+    cast: [dai_cut:casual]
+    dialogue:
+    - dai_cut: WORK.
+  - pos: bottom-center
+    action: Mom, still kneeling, looking up at him.
+    cast: [michiko:factory]
+    dialogue:
+    - michiko: WORK WHAT.
+  - pos: bottom-left
+    action: Dai looking away at the window.
+    cast: [dai_cut:casual]
+    dialogue:
+    - dai_cut: THE SIGN OUT BY THE ROAD. YOU CHANGE THE NUMBERS BY HAND. THEY'VE GOT METAL EDGES.
+
+- page: 8
+  title: A dirty bandage
+  location: hayama-kitchen-night
+  time: Tuesday about 5:15 a.m., grey dawn light at the window
+  continue_from: 7
+  guards:
+  - "The window is pale GREY (dawn)."
+  - "Dai has SHORT hair. Mom stands up in panel 4 and stays standing."
+  - "The square tin box lives on top of the refrigerator; a paper with handwritten lines is taped to the refrigerator (unreadable)."
+  panels:
+  - pos: top-right
+    shot: close-up
+    action: Close-up of Dai's left hand in the gauze bandage, gone grey round the thumb, a small brown stain near the wrist.
+    captions:
+    - IT HAD BEEN WHITE ON SUNDAY.
+  - pos: top-left
+    action: Mom looking from the bandage to his face.
+    cast: [michiko:factory]
+    dialogue:
+    - michiko: IS IT CLEAN UNDER THERE?
+  - pos: middle-right
+    action: Dai, steady.
+    cast: [dai_cut:casual]
+    dialogue:
+    - dai_cut: "YES."
+  - pos: middle-left
+    action: Mom standing at the old refrigerator, reaching up to take down a square biscuit tin from the top; on the refrigerator is a taped paper with handwritten lines.
+    cast: [michiko:factory]
+    captions:
+    - THE MEDICINE BOX. A SQUARE TIN THAT HAD RICE CRACKERS IN IT ONCE, AND NOW HAS SOTA'S THINGS IN IT.
+  - pos: lower, wide
+    shot: close-up
+    action: Close-up of Mom's worn hands putting a new roll of bandage, still in its wrapper, into Dai's right hand and carefully closing his fingers round it.
+    cast: [michiko:factory]
+    dialogue:
+    - michiko: PUT A CLEAN ONE ON BEFORE YOU GO. A DIRTY BANDAGE, PEOPLE THINK YOU'VE BEEN FIGHTING.
+  - pos: bottom-right
+    action: Mom at the genkan step stepping down into her shoes, her bag on her shoulder.
+    cast: [michiko:factory]
+    dialogue:
+    - michiko: THEY'LL GIVE YOU LUNCH. EAT IT, EVEN IF IT'S BAD.
+  - pos: bottom-left
+    action: Mom at the half-open steel front door, looking back over her shoulder at the white shirt on its hanger.
+    cast: [michiko:factory]
+    captions:
+    - SHE LOOKED BACK AT THE SHIRT THE WAY YOU LOOK BACK AT A STOVE TO CHECK YOU TURNED IT OFF.
+
+# ------------------------------------------------------------------ Tuesday, Sanko Brake
+- page: 9
+  title: Eleven of us
+  location: sanko-plant
+  time: Tuesday morning, clear September day
+  guards:
+  - "Dai has SHORT hair, the scar through his LEFT eyebrow showing; a crisp white shirt buttoned to the TOP; a NEW, very white bandage on his left hand."
+  - Everybody waiting sits on folding chairs.
+  panels:
+  - pos: top-right
+    location: hayama-kitchen-night
+    action: At home in the grey dawn, Dai buttoning the ironed white shirt all the way to the top, the stiff collar standing up against his neck.
+    cast: [dai_cut:interview]
+    captions:
+    - THE SHIRT WAS STILL WARM WHEN I PUT IT ON. I DID THE BUTTONS UP, ALL OF THEM, TO THE TOP.
+  - pos: top-left
+    action: Dai at the sink tearing a strip of tape with his teeth, winding a fresh white bandage round his left palm with his right hand.
+    cast: [dai_cut:interview]
+    captions:
+    - THE NEW BANDAGE WAS VERY WHITE.
+  - pos: middle, wide
+    action: "The factory by the river mouth in morning sun, seen from the gate road: low grey sheds with saw-tooth roofs, a chimney, a two-storey office block, timber yards along the river, a bus stop sign by the gate; Dai small, walking in."
+    cast: [dai_cut:interview]
+    captions:
+    - THE SANKO BRAKE PLANT, TWENTY MINUTES ON THE BUS, WHERE THE RIVER COMES INTO THE HARBOR. 160 YEN. I PAID IT MYSELF.
+  - pos: lower, wide
+    action: A waiting room with a row of folding chairs along one wall under a framed photo portrait of an old man; eleven high-school boys in white summer shirts and different school trousers sit stiffly, collars buttoned, hair short; Dai among them.
+    cast: [dai_cut:interview]
+    captions:
+    - ELEVEN OF US, FROM FIVE SCHOOLS. EVERYBODY'S HAIR WAS SHORT. EVERYBODY'S COLLAR WAS DONE UP.
+  - pos: bottom-right
+    action: A boy across the room with a square Band-Aid on his chin, looking straight back at the viewer, unfriendly.
+    cast: [chin_boy]
+    captions:
+    - ONE BOY HAD A BAND-AID ON HIS CHIN. I LOOKED AT IT AND FELT BETTER. THEN HE CAUGHT ME LOOKING.
+  - pos: bottom-left
+    action: Dai on his folding chair, faint wavy smell lines in the air round him, his nose lifted a little.
+    cast: [dai_cut:interview]
+    captions:
+    - THE WHOLE BUILDING SMELLED OF HOT BRAKES. THE LAST TIME I'D SMELLED IT WAS ACROSS THE PIER 3 LOT.
+
+- page: 10
+  title: Next
+  location: sanko-plant
+  time: Tuesday late morning, daylight through factory windows
+  guards:
+  - "Dai has SHORT hair, white shirt buttoned to the top, a clean white bandage on his left hand. He sits at a school-style desk until panel 6, then sits in the canteen."
+  - The test sheets show only rows of small single digits, not readable words.
+  panels:
+  - pos: top-right
+    action: A test room with rows of school-style desks; boys in white shirts bent over papers; Dai writing, frowning.
+    cast: [dai_cut:interview]
+    captions:
+    - KANJI, HALF OF WHICH I KNEW. FRACTIONS, WHICH I DID BADLY.
+  - pos: top-left
+    action: The examiner in a grey work jacket walking along the desks handing out sheets, a silver stopwatch in his other hand.
+    cast: [examiner]
+    dialogue:
+    - examiner: ADD EACH NUMBER TO THE ONE NEXT TO IT. WRITE ONLY THE LAST FIGURE OF THE ANSWER, IN THE GAP.
+  - pos: middle-right
+    action: The examiner at the front holding the stopwatch up, thumb on the button.
+    cast: [examiner]
+    dialogue:
+    - examiner: WHEN I SAY NEXT, GO TO THE NEXT LINE. DON'T GO BACK.
+  - pos: middle-left
+    shot: close-up
+    action: Close-up of the test sheet, rows and rows of small single printed digits; a pencil writing tiny digits in the gaps between them.
+    captions:
+    - SEVEN AND EIGHT, FIVE. EIGHT AND SIX, FOUR. SIX AND NINE, FIVE.
+  - pos: lower, wide
+    action: Dai working fast, his bandaged left hand holding the paper flat on the desk, eyes sharp; at the next desk a boy moving his lips as he adds, falling behind.
+    cast: [dai_cut:interview]
+    captions:
+    - I WAS GOOD AT IT. IT WAS THE ONLY THING ALL DAY THAT FELT LIKE THE PUMPS.
+  - pos: bottom-right
+    action: Close-up of the stopwatch in the examiner's hand and his mouth opening.
+    cast: [examiner]
+    dialogue:
+    - examiner: NEXT.
+  - pos: bottom-left
+    shot: close-up
+    action: Close-up of Dai's mouth pressed shut, the pencil moving below.
+    cast: [dai_cut:interview]
+    captions:
+    - THE BOY NEXT TO ME WAS MOVING HIS LIPS. I KEPT MINE SHUT.
+
+- page: 11
+  title: One chair
+  location: sanko-plant
+  time: Tuesday, noon to 1 p.m.
+  guards:
+  - "Dai has SHORT hair, white shirt buttoned to the top, a clean white bandage on his left hand."
+  - "From panel 5 on: the interview room (long table with a green cloth, three men behind it, ONE lone chair two meters out in the middle of the floor)."
+  panels:
+  - pos: top-right
+    action: A big factory canteen; line workers in grey jackets eat fast at long tables with their heads down; at the far end of one table the boys in white shirts with plates of curry rice.
+    captions:
+    - LUNCH WAS CURRY RICE IN THE FACTORY CANTEEN.
+  - pos: top-left
+    shot: close-up
+    action: Close-up of a line worker's big hand holding a spoon, the creases of his fingers stained grey.
+    captions:
+    - THEIR HANDS WERE GREY IN THE CREASES. NOT BLACK, LIKE KUBO-SAN'S. GREY, LIKE PENCIL.
+  - pos: middle-right
+    action: Dai's empty plate pushed away, the spoon in it.
+    captions:
+    - I ATE ALL OF MINE. IT WAS BAD.
+  - pos: middle-left
+    action: Dai standing in a linoleum corridor in front of a closed door, knocking with his right knuckles.
+    cast: [dai_cut:interview]
+    sfx: [KON KON KON]
+    captions:
+    - AT ONE O'CLOCK THEY CALLED US IN, ONE AT A TIME. I WAS EIGHTH.
+  - pos: lower-right
+    location: sanko-interview
+    action: Inside the door, Dai bowing stiffly from the waist, hands at his sides.
+    cast: [dai_cut:interview]
+    dialogue:
+    - dai_cut: SHIOMI HIGASHI HIGH SCHOOL, THIRD YEAR. HAYAMA DAISUKE.
+  - pos: lower-left
+    location: sanko-interview
+    action: Sugimoto seated at the long table, gesturing with his pen toward the floor in front of him.
+    cast: [sugimoto]
+    dialogue:
+    - sugimoto: PLEASE SIT DOWN.
+  - pos: bottom, wide, large
+    location: sanko-interview
+    action: "Wide view of the interview room from behind and above Dai's shoulder: three men behind the long green-clothed table, and two meters in front of it, alone in the middle of the bare floor, ONE empty chair; Dai walking toward it."
+    cast: [dai_cut:interview, sugimoto, line_worker, young_clerk]
+    captions:
+    - IN THE MIDDLE OF THE FLOOR THERE WAS ONE CHAIR. NOTHING IN FRONT OF IT. THAT WAS MINE.
+
+- page: 12
+  title: Mom's voice
+  location: sanko-interview
+  time: Tuesday about 1:30 p.m., daylight through the blinds
+  continue_from: 11
+  guards:
+  - "Dai has SHORT hair (forehead uncovered), white shirt buttoned to the top, a clean white bandage on his left hand. He SITS on the lone chair with his hands on his knees the whole page."
+  - "The panel sits behind the table: the old worker on the image RIGHT, Sugimoto in the middle, the young clerk on the image LEFT."
+  panels:
+  - pos: top-right
+    action: Dai sitting on the lone chair in the open middle of the floor, hands on his knees, back straight, the long table and the three men in front of him.
+    cast: [dai_cut:interview]
+    captions:
+    - I'D THOUGHT THERE WOULD BE A TABLE, WITH MY HANDS ON TOP OF IT. THE TABLE WAS THEIRS.
+  - pos: top-left
+    shot: close-up
+    action: Close-up of Dai's hands on his knees, the new white bandage on the left one; below them his right canvas sneaker with a strip of tape on it.
+    captions:
+    - THERE THEY WERE ANYWAY.
+  - pos: middle, wide
+    action: "The three men behind the green cloth: on the image right the OLD broad worker in a grey work jacket with his big grey-creased hands folded on the cloth; in the middle Sugimoto in a dark suit and rimless glasses with a pen and an open folder and a blank white name card; on the image left a thin young clerk with a notepad, writing."
+    cast: [line_worker, sugimoto, young_clerk]
+    captions:
+    - SUGIMOTO, PERSONNEL. AN OLD MAN FROM THE LINE. A YOUNG ONE WHO WROTE DOWN EVERYTHING.
+  - pos: lower-right
+    action: Sugimoto looking at Dai over his folder, clicking his pen.
+    cast: [sugimoto]
+    dialogue:
+    - sugimoto: WHY DID YOU CHOOSE OUR COMPANY?
+  - pos: lower-left
+    action: Dai answering, straight-backed, a little too careful.
+    cast: [dai_cut:interview]
+    dialogue:
+    - dai_cut: BECAUSE IT MAKES BRAKES. AND BRAKES KEEP PEOPLE SAFE. AND I WANT TO DO WORK THAT KEEPS PEOPLE SAFE.
+  - pos: bottom-right
+    action: The young clerk writing something short in his notepad.
+    cast: [young_clerk]
+    captions:
+    - IT CAME OUT IN MOM'S VOICE. I HEARD IT COME OUT.
+  - pos: bottom-left
+    action: Sugimoto nodding, turning a page.
+    cast: [sugimoto]
+    dialogue:
+    - sugimoto: YOUR STRONG POINTS?
+
+- page: 13
+  title: Number ten
+  location: sanko-interview
+  time: Tuesday afternoon, daylight through the blinds
+  continue_from: 12
+  guards:
+  - "Dai has SHORT hair (forehead uncovered, scar through the LEFT eyebrow), white shirt buttoned to the top, white bandage on his left hand. He SITS on the lone chair the whole page."
+  panels:
+  - pos: top-right
+    action: Dai on his chair, plain.
+    cast: [dai_cut:interview]
+    dialogue:
+    - dai_cut: I'VE NEVER BEEN LATE.
+  - pos: top-left
+    action: Sugimoto looking down at the folder, pen still.
+    cast: [sugimoto]
+    dialogue:
+    - sugimoto: NOT THIS YEAR. NOT ONCE. THAT'S GOOD.
+  - pos: middle, wide
+    shot: close-up
+    action: Close-up of the open folder on the green cloth, a small passport photo of Dai glued at the top of the first page, rows of unreadable lines; Sugimoto's pen resting still beside one line near the top.
+    captions:
+    - HIS EYES HAD STOPPED ON ONE LINE. MY JUNIOR HIGH, AND GRADUATED, AND THE YEAR, AND NOTHING ABOVE IT.
+  - pos: lower-right
+    action: Sugimoto reading from the paper, not looking up.
+    cast: [sugimoto]
+    dialogue:
+    - sugimoto: PLEASE TELL US ABOUT YOUR SCHOOL LIFE UP TO NOW.
+  - pos: lower-left
+    action: Sugimoto looking up over his rimless glasses, waiting.
+    cast: [sugimoto]
+    captions:
+    - NUMBER TEN ON HOTTA-SENSEI'S SHEET, WORD FOR WORD.
+  - pos: bottom, large
+    action: Big close-up of Dai's face, jaw set, dark screentone heat rising from the back of his neck behind his ears into his face, eyes hard.
+    cast: [dai_cut:interview]
+    captions:
+    - IT CAME UP THE WAY IT ALWAYS COMES UP, FROM THE BACK OF MY NECK.
+    - YOU KNOW ALREADY. IT'S WRITTEN DOWN SOMEWHERE. READ IT YOURSELF.
+
+- page: 14
+  title: From ten to fourteen
+  location: sanko-interview
+  time: Tuesday afternoon, daylight through the blinds
+  continue_from: 13
+  guards:
+  - "Dai has SHORT hair (forehead uncovered, scar through the LEFT eyebrow), white shirt buttoned to the top, white bandage on his left hand. He SITS on the lone chair the whole page."
+  panels:
+  - pos: top-right
+    shot: close-up
+    action: Close-up of Dai's bandaged left hand shut into a fist on his knee.
+    captions:
+    - MY LEFT HAND HAD SHUT INTO A FIST. UNDER THE BANDAGE THE CUT PULLED.
+  - pos: top-left
+    shot: close-up
+    action: The same fist pressing down hard into his knee, the knuckles white, the fabric of his trousers creasing.
+    captions:
+    - I PRESSED IT DOWN UNTIL THE HOT LINE ACROSS MY PALM WAS THE ONLY THING IN THE ROOM.
+  - pos: middle-right
+    action: Dai's uncovered forehead and eyes, calm coming over his face.
+    cast: [dai_cut:interview]
+    captions:
+    - I COULD FEEL THE AIR ON MY FOREHEAD, WHERE THE BANGS HAD BEEN.
+  - pos: middle-left, large
+    action: Dai looking straight at the panel, level and quiet, his forehead in the open.
+    cast: [dai_cut:interview]
+    dialogue:
+    - dai_cut: FROM TEN TO FOURTEEN I LIVED IN A FACILITY, AND SINCE THEN I'VE GONE TO SCHOOL LIKE EVERYBODY ELSE.
+  - pos: lower-right
+    action: Sugimoto clicking his pen once, writing a short line.
+    cast: [sugimoto]
+    sfx: [KACHI]
+    dialogue:
+    - sugimoto: THANK YOU FOR TELLING US.
+  - pos: lower-left
+    action: The old worker not writing, looking steadily at Dai's face; then looking down at his own folded hands.
+    cast: [line_worker]
+    captions:
+    - THE MAN IN THE WORK JACKET LOOKED AT MY FACE, AND I LET HIM.
+  - pos: bottom-right
+    action: Sugimoto closing the folder.
+    cast: [sugimoto]
+    dialogue:
+    - sugimoto: DO YOU HAVE ANY QUESTIONS FOR US?
+  - pos: bottom-left
+    action: Dai, after a beat.
+    cast: [dai_cut:interview]
+    dialogue:
+    - dai_cut: WHAT DOES A NEW PERSON DO IN THE FIRST YEAR?
+
+- page: 15
+  title: Before anything breaks
+  location: sanko-interview
+  time: Tuesday afternoon (the bus stop and bus are outside, in hazy afternoon sun)
+  continue_from: 14
+  guards:
+  - "Dai has SHORT hair, white shirt buttoned to the top, white bandage on his left hand."
+  panels:
+  - pos: top, wide
+    action: The old worker at the table, unfolding his big grey-creased hands on the green cloth, speaking slowly.
+    cast: [line_worker]
+    dialogue:
+    - line_worker: FIRST YEAR, YOU SWEEP. THEN YOU WATCH. THEN THEY LET YOU NEAR THE PRESS, WITH SOMEBODY STANDING NEXT TO YOU.
+  - pos: middle-right
+    shot: close-up
+    action: Close-up of his big hands folding together again the other way round on the cloth. Silent.
+  - pos: middle-left, large
+    shot: close-up
+    action: Big close-up of the old worker's weathered face, small steady eyes looking straight at Dai.
+    cast: [line_worker]
+    dialogue:
+    - line_worker: AND YOU LEARN THE SOUND IT MAKES WHEN SOMETHING'S WRONG. BEFORE ANYTHING BREAKS.
+  - pos: lower-right
+    action: Dai standing at the door, bowing.
+    cast: [dai_cut:interview]
+    dialogue:
+    - dai_cut: THANK YOU.
+  - pos: lower-left
+    action: Dai standing alone in the empty linoleum corridor with his back to the closed door.
+    cast: [dai_cut:interview]
+    captions:
+    - I DIDN'T KNOW IF I'D PASSED.
+  - pos: bottom-right
+    shot: close-up
+    action: At a bus stop bench outside the factory gate, Dai's left hand opening on his knee; on the white bandage in the middle of the palm, one tiny dark dot.
+    captions:
+    - A RED DOT ON THE NEW BANDAGE, THE SIZE OF A GRAIN OF RICE.
+  - pos: bottom-left
+    action: Dai on a seat of a city bus, his left hand closed into a fist on his knee, looking out of the window at timber yards going by.
+    cast: [dai_cut:interview]
+    captions:
+    - MOM'S SHIRT SMELLED OF HOT BRAKES ALL THE WAY TO THE STATION.
+
+# ------------------------------------------------------------------ Wednesday 4 a.m. and Friday 2:10 a.m., the station
+- page: 16
+  title: Keep that dry
+  location: harbor-station-night
+  time: night (Wednesday 4 a.m., then Friday 2:10 a.m.), dry, canopy lights
+  guards:
+  - "Dai has SHORT hair now (forehead uncovered); grey station jacket; white bandage on his LEFT hand."
+  - The red Roadster in panels 5-8 is IMMACULATE. Akane stays in the driver's seat on the car's RIGHT side.
+  panels:
+  - pos: top-right
+    action: Inside the booth at 4 a.m., Kubo with a can of coffee, looking at Dai's new haircut and his uncovered forehead for a long moment.
+    cast: [kubo]
+    dialogue:
+    - kubo: DID YOU SHOUT AT ANYBODY?
+  - pos: top-center
+    action: Dai on the stool at the counter, short hair, plain.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: "NO."
+  - pos: top-left
+    action: Kubo drinking his coffee, looking out of the window.
+    cast: [kubo]
+    dialogue:
+    - kubo: THEN IT WENT FINE.
+  - pos: middle, wide
+    shot: close-up
+    action: Close-up of hands sliding banknotes out of a brown pay envelope and tucking half of them between the pages of a thick English dictionary.
+    captions:
+    - PAYDAY. 44,800 FOR EIGHT NIGHTS. HALF FOR MOM, HALF INTO THE DICTIONARY.
+  - pos: lower, wide
+    action: Friday 2:10 a.m. The red Roadster stopped at the pump under the canopy lights, pop-up headlights DOWN, a dark figure at the wheel; Dai at its right rear fender with the nozzle in the filler.
+    cast:
+    - {id: roadster, state: headlights_down, view: rear, camera: "HIGH angle from above and behind the car's RIGHT rear corner, looking DOWN on the black soft top and the trunk; the nose points to the upper LEFT of the panel"}
+    - dai_cut:station_jacket
+    captions:
+    - AT TEN PAST TWO ON FRIDAY MORNING THE RED ROADSTER STOPPED AT THE PUMP.
+    dialogue:
+    - akane: {text: "REGULAR. FILL IT UP.", offpanel: true}
+  - pos: bottom-right
+    shot: close-up
+    action: "Close-up on the black vinyl soft top: three banknotes pinned down against the wind by Dai's bandaged left hand, his right hand digging coins out of a change pouch."
+    captions:
+    - "2,714 YEN. MY LEFT HAND HAD TO COME OUT OF MY POCKET TO HOLD HER NOTES DOWN ON THE ROOF."
+  - pos: bottom-center
+    action: Akane at the open driver's window (the car's RIGHT side), her gloved hand on the door, her eyes lowered to Dai's bandage.
+    cast: [akane]
+    dialogue:
+    - akane: KEEP THAT DRY.
+  - pos: bottom-left
+    action: Dai at the window, short hair, the bandaged hand half raised.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: I AM.
+
+# ------------------------------------------------------------------ Friday, Sunday, Monday evening
+- page: 17
+  title: It's on the fridge
+  location: hayama-apartment
+  time: Monday evening (panel 1 is Friday night at the station, panel 2 Sunday in a scrapyard)
+  guards:
+  - "Dai has SHORT hair (forehead uncovered) everywhere."
+  - "From panel 2 on, Dai's LEFT hand has a big square Band-Aid on the heel of the palm instead of a bandage."
+  - No car anywhere on this page.
+  panels:
+  - pos: top-right
+    action: The empty gas-station forecourt at night under the canopy lights, no car; Dai in his grey station jacket alone by the pump with coins in his hand, looking down the dark road.
+    cast: [dai_cut:station_jacket]
+    captions:
+    - SHE PUT THE CHANGE IN THE TRAY WITHOUT COUNTING IT, AND THE WINDOW WENT UP, AND SHE WENT.
+  - pos: top-left
+    shot: close-up
+    action: Sunday in a scrapyard in daylight. Close-up of an old woman's thick brown hands (a black LEFT thumbnail) pressing a big square Band-Aid onto the heel of Dai's left palm.
+    captions:
+    - ON SUNDAY TANABE-SAN SWAPPED THE BANDAGE FOR A BIG SQUARE BAND-AID.
+  - pos: middle-right
+    action: Monday dinner at the low table. Mom, in a dark supermarket work vest, feels Sota's forehead with the back of her hand; Sota coughs a small dry cough into his fist, glasses on.
+    cast: [michiko:supermarket, sota:home]
+    sfx: [KOHO]
+    captions:
+    - SOTA HAD HAD A COUGH SINCE THE WEEKEND. THE SMALL DRY ONE HE GETS WHEN THE WEATHER TURNS.
+  - pos: middle-left
+    action: Mom at the steel front door with her bag on her shoulder and a thermos in it, turning back to speak.
+    cast: [michiko:supermarket]
+    dialogue:
+    - michiko: HE'S HAD HIS MEDICINE. IF HE COUGHS IN THE NIGHT, THE INHALER'S BY HIS PILLOW.
+  - pos: lower-right
+    action: Dai, short hair, rumpled white school shirt, a little impatient.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I KNOW WHERE THE INHALER IS.
+  - pos: lower-left
+    action: Mom, one hand on the door handle, firm.
+    cast: [michiko:supermarket]
+    dialogue:
+    - michiko: TWO PUFFS, AND YOU WAIT. IT'S ON THE FRIDGE.
+  - pos: bottom-right
+    action: Sota doing homework at the low table with his chin on his fist, a blue inhaler beside his notebook, seen past Dai's shoulder.
+    cast: [sota:home]
+    dialogue:
+    - dai_cut: {text: "I KNOW.", offpanel: true}
+    captions:
+    - SHE LOOKED PAST ME AT SOTA, AND WENT.
+  - pos: bottom-left
+    action: 9 p.m. In the small tatami room, Sota lies on his futon in striped pajamas with his glasses on, a blue inhaler beside his pillow.
+    cast: [sota:pajamas]
+    captions:
+    - SOTA WENT TO BED AT NINE, AND COUGHED A FEW TIMES, AND STOPPED.
+
+# ------------------------------------------------------------------ Tuesday 12:45 to 1:30 a.m.
+- page: 18
+  title: Higher, and thinner
+  location: hayama-kitchen-night
+  time: about 12:45 to 12:50 a.m.; only the light over the sink on
+  guards:
+  - "Dai has SHORT hair; rumpled white short-sleeved school shirt with a breast pocket; a big square Band-Aid on the heel of his LEFT palm."
+  - "Sota (11, small, bowl cut) sits up on his futon bent forward, his glasses OFF and folded beside his pillow. Tired and breathing hard, but calm; nothing graphic."
+  panels:
+  - pos: top, wide
+    action: Late at night. Dai sits alone at the low table in the dim kitchen with only the light over the sink on, an open car magazine in front of him that he isn't reading; the wall clock above says a quarter to one; the fusuma to the boys' room is closed.
+    cast: [dai_cut:summer_school]
+    captions:
+    - ON A NIGHT OFF MY BODY STILL THINKS IT'S AT THE PUMPS. AT ONE IN THE MORNING I'M WIDE AWAKE.
+  - pos: upper-right
+    shot: close-up
+    action: Close-up under the table of Dai's left hand closing into a loose fist and opening, the big square Band-Aid on the heel of the palm.
+    captions:
+    - IT CLOSED MOST OF THE WAY NOW.
+  - pos: upper-left
+    action: Dai's head snapping round toward the closed fusuma; a thin wavy sound line comes through it.
+    cast: [dai_cut:summer_school]
+    sfx: [{text: "hyuu... hyuu...", note: small and thin}]
+    captions:
+    - AT TEN TO ONE I HEARD SOTA THROUGH THE FUSUMA.
+  - pos: middle-right
+    action: Dai's face, very still, listening hard.
+    cast: [dai_cut:summer_school]
+    captions:
+    - I'D HEARD HIS CHEST WHISTLE A THOUSAND TIMES. THIS WASN'T THAT. HIGHER, AND THINNER, AND THE BREATH IN WAS TOO SHORT.
+  - pos: middle-left
+    action: Dai's hand sliding the fusuma open onto the dark tatami room.
+    sfx: [SURU]
+  - pos: bottom, large
+    action: In the dark tatami room, lit only by the kitchen light through the fusuma, Sota in thin striped pajamas sits up on his futon bent forward, hands flat on his knees, elbows out, shoulders up by his ears, mouth open, breathing hard. Beside his pillow his round glasses lie neatly folded next to a blue inhaler.
+    cast: [sota:pajamas]
+    captions:
+    - HE'D TAKEN HIS GLASSES OFF HIMSELF, AND FOLDED THEM, AND PUT THEM BESIDE HIS PILLOW, NEXT TO THE INHALER.
+  - pos: bottom-left corner
+    action: Sota looking up at the doorway, eyes big without his glasses, between breaths (a small inset at the lower left of the big panel).
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: {text: "NII-CHAN... SORRY.", style: small}
+
+- page: 19
+  title: Breathe with me
+  location: hayama-kitchen-night
+  time: about 12:50 to 12:53 a.m.; the ceiling light comes on in the small tatami room
+  continue_from: 18
+  guards:
+  - "Dai has SHORT hair; rumpled white school shirt; a big square Band-Aid on his LEFT palm. Dai KNEELS beside Sota's futon from panel 2 on."
+  - "Sota sits up on his futon bent forward the whole page, glasses OFF, hands on his knees, breathing hard but calm. Nothing graphic."
+  panels:
+  - pos: top-right
+    action: Dai in the doorway, quiet and quick.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: DON'T TALK.
+  - pos: top-left
+    action: The ceiling light on; Dai kneeling, shaking the blue inhaler hard, its cap off.
+    cast: [dai_cut:summer_school]
+    sfx: [KACHI, SHAKA SHAKA]
+  - pos: middle-right
+    action: Dai kneeling by the futon, holding Sota's wrist steady with one hand while Sota brings the inhaler to his mouth.
+    cast: [dai_cut:summer_school, sota:pajamas]
+    dialogue:
+    - dai_cut: OUT FIRST. ALL THE WAY. NOW.
+  - pos: middle-left
+    shot: close-up
+    action: Close-up of Sota's hands pressing the inhaler at his lips, a small puff.
+    sfx: [PSHU]
+    captions:
+    - HE COULDN'T HOLD IT. IT CAME OUT AFTER TWO, WITH A COUGH. THE SECOND ONE HE HELD FOR THREE.
+  - pos: lower, wide
+    action: Dai kneeling face to face with Sota, breathing in slowly through his nose to show him, one hand raised to set the pace.
+    cast: [dai_cut:summer_school, sota:pajamas]
+    dialogue:
+    - dai_cut: SLOW. BREATHE WITH ME.
+  - pos: bottom-right
+    action: Sota trying to follow and failing, his shoulders jerking up with each short breath.
+    cast: [sota:pajamas]
+    captions:
+    - HE COULDN'T KEEP UP WITH SLOW. HIS BREATH KEPT CATCHING UP WITH ITSELF.
+  - pos: bottom-left
+    shot: close-up
+    action: "Close-up of the round kitchen wall clock: the hour hand just before 1, the minute hand at 53 minutes (just before the 11)."
+    captions:
+    - THE CLOCK ON THE KITCHEN WALL SAID 12:53.
+
+- page: 20
+  title: Wait twenty minutes
+  location: hayama-kitchen-night
+  time: 12:53 to about 1:05 a.m.; the light is on in the small tatami room
+  continue_from: 19
+  guards:
+  - "Dai has SHORT hair; rumpled white school shirt; a big square Band-Aid on his LEFT palm. He kneels by the futon, then from panel 4 sits on the futon BEHIND Sota with his back to the wall."
+  - "Sota sits bent forward on his futon, glasses off, hands on his knees, breathing hard but calm. Nothing graphic."
+  - "Aya (20, chin-length bob, grey tank top, long cardigan, hair flat on one side) appears only in the last panel, standing in a doorway."
+  panels:
+  - pos: top, wide, large
+    shot: close-up
+    action: Close-up of a sheet of paper taped to the side of the old refrigerator, five lines in a mother's careful handwriting (drawn as unreadable pen strokes) with some words underlined twice. A large EMPTY caption box covers the middle of the paper for the translated text.
+    captions:
+    - "2 PUFFS. WAIT 20 MINUTES. NOT BETTER: 2 MORE. STILL NOT BETTER: HOSPITAL. CAN'T TALK, LIPS BLUE: AMBULANCE."
+    - THE PAPER FROM THE CLINIC, IN MOM'S WRITING.
+  - pos: middle-right
+    action: Dai's face turned toward the refrigerator, reading, jaw tight.
+    cast: [dai_cut:summer_school]
+    captions:
+    - SO I WAITED THE TWENTY MINUTES, BECAUSE THE PAPER SAID TWENTY. HE COULD ALREADY HARDLY TALK.
+  - pos: middle-left
+    action: Sota sitting back an inch, a little easier for a moment, eyes half closed.
+    cast: [sota:pajamas]
+    captions:
+    - FOR A FEW MINUTES IT WAS BETTER. THEN IT CAME BACK UP.
+  - pos: lower-right
+    action: Dai sitting on the futon behind Sota with his back against the wall, trying to pull him back to lean on his chest; Sota pushing Dai's arm off and bending forward again, hands back on his knees.
+    cast: [dai_cut:summer_school, sota:pajamas]
+    captions:
+    - HE DIDN'T WANT TO LEAN. HE WANTED TO BE BENT FORWARD.
+  - pos: lower-left
+    shot: close-up
+    action: Close-up of Dai's hand lying flat on the back of Sota's striped pajama top, between the shoulder blades.
+    captions:
+    - THROUGH HIS PAJAMA TOP I COULD FEEL HIS RIBS WORKING, FAR TOO HARD FOR WHAT WAS COMING IN.
+  - pos: bottom-right
+    action: Dai behind Sota, eyes on the kitchen clock through the open fusuma, lips moving as he counts.
+    cast: [dai_cut:summer_school]
+    captions:
+    - FORTY-FOUR IN A MINUTE. I DIDN'T KNOW WHAT IT SHOULD BE. I KNEW IT WAS TOO MANY.
+  - pos: bottom-left
+    action: The other sliding door opening; Aya standing in it in a tank top and cardigan, her hair flat on one side, squinting at the light.
+    cast: [aya:home]
+    dialogue:
+    - aya: WHAT IS IT?
+
+- page: 21
+  title: It always works
+  location: hayama-kitchen-night
+  time: about 1:05 to 1:13 a.m.; the light is on in the small tatami room
+  continue_from: 20
+  guards:
+  - "Dai has SHORT hair; rumpled white school shirt; Band-Aid on his LEFT palm. He sits behind Sota until panel 6; in panels 6-7 he KNEELS in FRONT of Sota."
+  - "Aya KNEELS at the edge of the futon from panel 2 on, in her tank top and cardigan."
+  - "Sota sits bent forward, glasses off, breathing hard. Show it in his face and shoulders only; nothing graphic, no bare skin."
+  panels:
+  - pos: top-right
+    action: Dai, short and flat, his hand on Sota's back.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: HE'S BAD.
+  - pos: top-left
+    action: Aya kneeling at the edge of the futon; Sota looking at her over his own knees, trying to smile and not having the breath for it.
+    cast: [aya:home, sota:pajamas]
+  - pos: middle-right
+    action: Aya turning to Dai, quick.
+    cast: [aya:home]
+    dialogue:
+    - aya: DID YOU DO THE INHALER?
+  - pos: middle-left
+    action: Dai, eyes on Sota.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: TWO. AT 12:53.
+  - pos: lower, wide
+    action: Aya nodding hard, sure of it, her hand on Sota's knee.
+    cast: [aya:home]
+    dialogue:
+    - aya: THEN IT'LL WORK. IT ALWAYS WORKS.
+  - pos: bottom-right
+    action: "The wall clock at 1:13 (hour hand just past 1, minute hand just before the 3) in the background; in the foreground Dai, kneeling in front of Sota now, holding the inhaler to his mouth again."
+    cast: [dai_cut:summer_school, sota:pajamas]
+    captions:
+    - AT 1:13, TWENTY MINUTES, I GAVE HIM TWO MORE. HALF OF THE FIRST ONE WENT INTO THE AIR.
+  - pos: bottom-left
+    action: Close on Sota's face and shoulders, eyes half closed, his hair stuck to his forehead in points with sweat, the neck of his pajama top rising and falling fast.
+    cast: [sota:pajamas]
+    captions:
+    - EVERY TIME HE BREATHED IN, THE SKIN BETWEEN HIS RIBS SUCKED IN. HE WAS SWEATING.
+
+- page: 22
+  title: Say my name
+  location: hayama-kitchen-night
+  time: about 1:14 a.m.; the light is on in the small tatami room
+  continue_from: 21
+  guards:
+  - "Dai has SHORT hair; rumpled white school shirt. He KNEELS in front of Sota in panels 1-6 and STANDS UP in the last panel."
+  - "Aya kneels at the edge of the futon."
+  - "Sota sits bent forward, glasses off; show it in his face only, calm and clinical; his lips are a pale grey tone in panel 6. Nothing graphic."
+  panels:
+  - pos: top-right
+    action: Aya leaning in, hopeful, one finger raised.
+    cast: [aya:home]
+    dialogue:
+    - aya: IT'S QUIETER. LISTEN. IT'S GOING QUIETER.
+  - pos: top-left
+    action: "Memory, with soft feathered panel edges: a small clinic desk last winter, a doctor in a white coat speaking across the desk to a small woman seen from behind (low bun); behind her a younger Dai holds a child's coat."
+    captions:
+    - LAST WINTER THE CLINIC DOCTOR HAD SAID IT TO MOM. THE NOISE IS THE GOOD PART. THE NOISE IS AIR.
+  - pos: middle-right
+    action: Dai's face, very still, eyes wide and cold with understanding.
+    cast: [dai_cut:summer_school]
+    captions:
+    - WHEN THE NOISE GOES AND HE'S STILL WORKING THAT HARD, YOU DON'T WAIT.
+  - pos: middle-left
+    action: Dai leaning close to Sota's face, steady.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: SOTA. SAY MY NAME.
+  - pos: lower-right
+    shot: close-up
+    action: Close-up of Sota's lips moving, his eyes on Dai, the rest of the word not coming.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: {text: "NII...", style: small}
+    captions:
+    - HE COULDN'T DO THE REST.
+  - pos: lower-left, large
+    shot: close-up
+    action: Close-up of Sota's tired face under the ceiling light, his lips a pale flat grey tone, eyes half closed.
+    cast: [sota:pajamas]
+    captions:
+    - UNDER THE LIGHT HIS LIPS HAD GONE A COLOR I'D NEVER SEEN ON HIM. NOT BLUE, EXACTLY. THE BLUE-GREY OF SKIMMED MILK.
+  - pos: bottom, wide
+    action: Dai standing up, seen from low, his face set.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: AYA.
+
+- page: 23
+  title: Look at me
+  location: hayama-kitchen-night
+  time: about 1:15 a.m.; kitchen and tatami room lights on
+  continue_from: 22
+  guards:
+  - "Dai has SHORT hair; rumpled white school shirt; Band-Aid on his LEFT palm. He STANDS the whole page."
+  - "Aya kneels frozen in panel 1, gets up in panel 4 and runs out in panel 6."
+  - The telephone is an old black ROTARY phone with a finger dial, on a small wall shelf beside a hanging calendar.
+  panels:
+  - pos: top, wide
+    action: Aya kneeling on the edge of the futon, both hands up in front of her mouth with the fingers pressed together, staring at Sota's lips, not moving at all.
+    cast: [aya:home]
+    captions:
+    - SHE DIDN'T MOVE AT ALL.
+  - pos: upper-right
+    action: Dai standing over her, sharp.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: AYA. LOOK AT ME.
+  - pos: upper-left
+    action: Dai pointing toward the front door, giving orders, calm and fast.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: OPEN THE FRONT DOOR. PUT THE STAIR LIGHT ON. THEN GO DOWN TO THE ROAD, AND WHEN THEY COME, WAVE.
+  - pos: middle-right
+    action: Aya getting to her feet, lost, looking up at him.
+    cast: [aya:home]
+    dialogue:
+    - aya: WHEN WHO COMES?
+  - pos: middle-left
+    action: Dai, already turning toward the phone.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: THE AMBULANCE.
+  - pos: lower-right
+    action: Aya at the genkan pushing the steel front door wide open onto the dark outside walkway, sandals on, about to run; her hand slapping the light switch.
+    cast: [aya:home]
+    sfx: [KACHI, PATAPATAPATA]
+  - pos: bottom, wide
+    action: The old black rotary telephone on its little wall shelf beside a hanging calendar; Dai holds the receiver to his ear with his left hand and has his right forefinger in the hole of the 1 on the dial, pulling it round to the stop.
+    cast: [dai_cut:summer_school]
+    sfx: [JIIII]
+    captions:
+    - THE 1. THE 1 AGAIN.
+
+- page: 24
+  title: One-one-nine
+  location: hayama-kitchen-night
+  time: about 1:16 a.m.
+  continue_from: 23
+  guards:
+  - "Dai has SHORT hair; rumpled white school shirt; Band-Aid on his LEFT palm. He stands at the phone shelf holding the receiver to his ear with his LEFT hand the whole page."
+  - Only Dai is in the kitchen; through the open fusuma we may glimpse Sota sitting bent forward on his futon.
+  panels:
+  - pos: top, wide, large
+    shot: extreme close-up
+    action: Extreme close-up of the black rotary dial slowly spinning back from the 9, the finger hole sliding past the other numbers, Dai's finger hovering.
+    sfx: [JI JI JI JI JI JI]
+    captions:
+    - THE 9 GOES ALL THE WAY ROUND, AND COMES BACK SLOWLY, A LONG WAY, TICKING. I COULDN'T MAKE IT GO ANY FASTER.
+  - pos: middle-right
+    shot: close-up
+    action: Close-up of the black receiver against Dai's ear, the curly cord; a voice comes out of it.
+    cast: [dispatcher]
+    dialogue:
+    - dispatcher: 119, FIRE DEPARTMENT. IS IT A FIRE, OR AN AMBULANCE?
+  - pos: middle-left
+    action: Dai at the phone, eyes on the open fusuma.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: AMBULANCE.
+  - pos: lower-right
+    action: Dai in profile, the receiver at his ear, speaking clearly.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: HIGASHI DANCHI, BUILDING 6, ROOM 402. FOURTH FLOOR. NO ELEVATOR.
+    captions:
+    - MY VOICE CAME OUT FLAT AND CLEAR.
+  - pos: lower-left
+    action: Dai seen from behind his shoulder, looking through the open fusuma at Sota bent forward on his futon in the lit tatami room.
+    cast: [dai_cut:summer_school, sota:pajamas]
+    dialogue:
+    - dai_cut: MY BROTHER. HE'S ELEVEN. ASTHMA. FOUR PUFFS, TWO AT 12:53 AND TWO AT 1:13. IT'S NOT DOING ANYTHING.
+  - pos: bottom-right
+    action: Close on Dai's face and the receiver.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: HE CAN'T SAY MORE THAN ONE WORD. HIS LIPS ARE GOING BLUE. FORTY-FOUR IN A MINUTE.
+  - pos: bottom-left
+    shot: close-up
+    action: Close-up of the receiver's earpiece.
+    cast: [dispatcher]
+    dialogue:
+    - dispatcher: KEEP HIM SITTING UP. KEEP THE FRONT DOOR OPEN. THEY'RE COMING.
+
+- page: 25
+  title: It's free
+  location: hayama-kitchen-night
+  time: about 1:17 to 1:25 a.m.
+  continue_from: 24
+  guards:
+  - "Dai has SHORT hair; rumpled white school shirt; Band-Aid on his LEFT palm. He stands at the phone in panels 1-2, then KNEELS in front of Sota's futon."
+  - "Sota sits bent forward, glasses off, hands on his knees, breathing hard; calm, nothing graphic."
+  - "The ambulance is NOT drawn; only its red light on the ceiling."
+  panels:
+  - pos: top-right
+    action: The receiver missing the cradle, hitting its edge and swinging on its curly cord against the shelf; Dai's hand open in the air.
+    sfx: [GATAN]
+    captions:
+    - IT DIDN'T GO IN. MY HAND WAS DOING SOMETHING.
+  - pos: top-left
+    shot: close-up
+    action: Close-up of Dai's two hands together pressing the receiver down into the cradle.
+    captions:
+    - I USED BOTH HANDS THE THIRD TIME, AND IT WENT IN.
+  - pos: middle-right
+    action: Dai kneeling in front of Sota so Sota can see his face, steady; Sota nodding, hands on his knees.
+    cast: [dai_cut:summer_school, sota:pajamas]
+    dialogue:
+    - dai_cut: THEY'RE COMING. SEVEN MINUTES. MAYBE LESS.
+    captions:
+    - I DIDN'T KNOW THAT. I SAID IT ANYWAY.
+  - pos: middle-left
+    action: Sota, one word at a time between breaths, worried.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: {text: "AMBULANCE... COSTS...", style: small}
+  - pos: lower-right
+    action: Dai, gentle and certain.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: IT'S FREE.
+  - pos: lower-left
+    shot: close-up
+    action: Close-up of Sota's small hand squeezing Dai's left hand hard, right over the big square Band-Aid; Dai doesn't pull away.
+    captions:
+    - HE SQUEEZED MY LEFT HAND, THE BAND-AID, HARD. THE CUT LIT UP ALL ALONG MY PALM, AND I LET HIM.
+  - pos: bottom, wide
+    action: The kitchen ceiling and the black window over the sink; a red light sweeps round across the ceiling from the street below.
+    sfx: [PEE-POH PEE-POH]
+    captions:
+    - THE SIREN CAME UP OUT OF THE CITY, AND THEN ITS RED LIGHT WAS ON THE CEILING, TURNING.
+
+- page: 26
+  title: You know the times
+  location: hayama-kitchen-night
+  time: about 1:25 a.m.; the lights on
+  continue_from: 25
+  guards:
+  - "Dai has SHORT hair; rumpled white short-sleeved school shirt with a breast pocket; Band-Aid on his LEFT palm. He kneels at the end of the futon, then stands from panel 6."
+  - "Three ambulance crewmen in light grey uniforms and white helmets. Calm, clinical, unhurried; nothing graphic."
+  - "Sota sits up bent forward on his futon, a clear oxygen mask over his nose and mouth from panel 3 on."
+  panels:
+  - pos: top-right
+    action: The open steel front door, the stair light shining in round its edge; booted feet coming in fast.
+    sfx: [DADADADA]
+    dialogue:
+    - aya: {text: "FOURTH FLOOR, FOURTH FLOOR!", offpanel: true}
+  - pos: top-left
+    action: Three ambulance crewmen in light grey with white helmets in the small tatami room; the first kneels by the futon with his face close to Sota's, kind and calm.
+    cast: [crewman, crew, sota:pajamas]
+    dialogue:
+    - crewman: HELLO. I'M GOING TO HELP YOU BREATHE, ALL RIGHT?
+  - pos: middle, wide
+    action: A clear plastic oxygen mask over Sota's nose and mouth, misting and clearing; a small black oxygen cylinder beside him with its valve hissing; a small grey clip with a red light on his fingertip, wired to a little box in the crewman's gloved hand.
+    cast: [sota:pajamas]
+    sfx: [SHUUU]
+    captions:
+    - IT FOGGED AND CLEARED, FOGGED AND CLEARED. A CLIP ON HIS FINGER WITH A RED LIGHT IN IT.
+  - pos: lower-right
+    action: The crewman looking up at Dai, quick.
+    cast: [crewman]
+    dialogue:
+    - crewman: HOW MANY PUFFS?
+  - pos: lower-left
+    action: Dai kneeling at the end of the futon, clear.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: FOUR. 12:53 AND 1:13.
+  - pos: bottom-right
+    action: Dai standing, handing the whole square biscuit tin of medicines to the crewman; the crewman looks into it.
+    cast: [crewman, dai_cut:summer_school]
+    dialogue:
+    - crewman: HIS WEIGHT?
+  - pos: bottom-left
+    action: Dai standing, lost for the first time, holding the lid of the tin.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: HE'S SMALL FOR ELEVEN.
+    captions:
+    - I KNEW WHAT THE PHARMACY COST IN AUGUST. I DIDN'T KNOW WHAT MY BROTHER WEIGHED.
+
+# ------------------------------------------------------------------ the stairs and the ambulance
+- page: 27
+  title: Forty-eight steps
+  location: danchi-walkway
+  time: about 1:30 a.m., NIGHT; the stair lights on, black sky
+  guards:
+  - "NIGHT: black sky, the outdoor stair lights and walkway lights on."
+  - "Dai has SHORT hair; rumpled white school shirt with Sota's folded glasses in the breast pocket; shoes with the laces undone."
+  - "Sota sits strapped in a folding carry chair, bent forward, a clear oxygen mask on, a small black cylinder in his lap; calm, nothing graphic."
+  - "Aya: tank top, long cardigan, sandals."
+  panels:
+  - pos: top-right
+    action: Indoors in the lit apartment, the crewman standing up from the futon, turning to Dai.
+    cast: [crewman]
+    dialogue:
+    - crewman: THEN YOU COME WITH US. YOU KNOW THE TIMES.
+  - pos: top-left
+    shot: close-up
+    action: Close-up of Dai sliding Sota's round glasses, folded, into the breast pocket of his white shirt.
+  - pos: middle, wide
+    action: The outdoor concrete stairwell of the danchi at night under the stair lights; two crewmen carry Sota down in a folding carry chair, mask on, cylinder in his lap, his eyes looking back up over the mask; Dai follows with his shoelaces flapping; on the landing a steel door is open a crack on its chain with a strip of an old woman's face looking out.
+    cast: [crew, sota:pajamas, dai_cut:summer_school]
+    captions:
+    - FORTY-EIGHT STEPS. EVERY LANDING, SOTA'S EYES CAME ROUND AND FOUND ME OVER THE MASK.
+  - pos: lower, wide
+    action: At the foot of the block at night, the ambulance stands with both rear doors open, its white interior lit, its red roof light throwing red sweeps over the concrete walls and a bicycle shed; Aya stands beside it hugging herself in her cardigan.
+    cast:
+    - {id: ambulance, view: rear, camera: "eye level from the foot of the stairs, a little to the LEFT of straight behind, the rear doors wide open toward us; the van fills the right half of the panel"}
+    - aya:home
+  - pos: bottom-right
+    action: Dai turning to Aya, fast.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: PHONE MOM.
+  - pos: bottom-center
+    action: Aya, arms wrapped round herself.
+    cast: [aya:home]
+    dialogue:
+    - aya: WHAT DO I SAY?
+  - pos: bottom-left
+    action: Dai with one foot on the ambulance's rear step, looking back.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: SAY HE'S BREATHING. THEN STAY BY THE PHONE.
+
+- page: 28
+  title: You're first
+  location: ambulance-interior
+  time: about 1:35 a.m., night; pink-red light coming and going through the frosted windows
+  guards:
+  - "Inside the back of the ambulance the whole page. Sota sits up on the stretcher, a clear oxygen mask on, glasses off, eyes very wide; Dai SITS on the side bench holding his hand; the crewman sits on Sota's other side."
+  - "Dai has SHORT hair; white shirt with the folded glasses in the breast pocket; Band-Aid on his LEFT palm."
+  - "Calm and clinical, nothing graphic. The last panel is big and quiet."
+  panels:
+  - pos: top-right
+    action: The ambulance standing still, rear doors shut; the crewman lowering a radio handset; pink light from the red roof light sliding across the frosted windows.
+    cast: [crewman]
+    dialogue:
+    - crewman: MUNICIPAL WILL TAKE HIM.
+    captions:
+    - WE DIDN'T MOVE. I COUNTED THE RED LIGHT ROUND ELEVEN TIMES.
+  - pos: top-left
+    action: Dai holding Sota's hand on the stretcher; the crewman watching the small box in his hand.
+    cast: [crewman]
+    dialogue:
+    - crewman: EIGHTY-NINE.
+    captions:
+    - THEN, LATER, NINETY. I DIDN'T KNOW WHAT IT MEANT. I KEPT IT ANYWAY.
+  - pos: middle-right
+    shot: close-up
+    action: Close-up of Dai's knee bouncing up and down by itself, and his other hand pressing it still.
+  - pos: middle-left
+    action: Dai leaning down close to the side of Sota's head, by the mask, speaking where only Sota can hear.
+    cast: [dai_cut:summer_school, sota:pajamas]
+    dialogue:
+    - dai_cut: {text: "I'VE GOT A CAR.", style: small}
+  - pos: lower-right
+    shot: close-up
+    action: Close-up of Sota's eyes above the misty mask, very wide without his glasses, moving to Dai.
+    cast: [sota:pajamas]
+  - pos: lower-left
+    action: Dai braced on the bench as the ambulance goes round a corner, holding on, still close to Sota's ear.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: IT'S BLUE. IT DOESN'T RUN. THERE'S A CAT THAT LIVES IN IT. NOBODY KNOWS. NOT MOM. NOT AYA. YOU'RE FIRST.
+  - pos: bottom, large
+    action: Big quiet panel of Sota's face in the clear mask, eyes on Dai, the mask fogging white with a breath; his small fingers tight round Dai's hand; pink light from outside across them. Dai's whisper comes from the edge of the panel.
+    cast: [sota:pajamas]
+    dialogue:
+    - dai_cut: {text: "DON'T TELL MOM.", style: small, offpanel: true}
+    captions:
+    - THE MASK FOGGED, AND CLEARED.
+
+# ------------------------------------------------------------------ the ER
+- page: 29
+  title: Under the curtain
+  location: er-bay
+  time: about 1:45 to 1:55 a.m., inside under bright fluorescent light
+  guards:
+  - "Dai has SHORT hair; rumpled white school shirt with the folded glasses in the breast pocket; shoelaces undone. He SITS on the end orange chair from panel 4 on."
+  - The curtains are pale green (light grey tone) and stop about thirty centimeters above the floor.
+  panels:
+  - pos: top, wide
+    action: The automatic glass doors of the emergency entrance sliding open; inside, very bright; people in white coming from everywhere at once to take the stretcher from the ambulance crew without stopping it, heading for a gap between two curtains.
+    cast: [crew]
+    captions:
+    - INSIDE IT WAS BRIGHTER THAN DAYTIME, AND IT SMELLED OF DISINFECTANT AND FLOOR POLISH.
+  - pos: middle-right
+    action: An older nurse in a white cap putting her hand flat on Dai's chest at the curtain, stopping him.
+    cast: [er_nurse, dai_cut:summer_school]
+    dialogue:
+    - er_nurse: WAIT HERE. SOMEBODY WILL COME.
+  - pos: middle-left
+    action: Low view of the bottom edge of the closed green curtain; under it, feet going back and forth (white nurse's shoes, a doctor's brown slip-ons) and the wheels of the stretcher.
+    sfx: [SHUUUU]
+    captions:
+    - WHITE SHOES. WHITE SHOES. A DOCTOR'S BROWN SLIP-ONS.
+  - pos: lower, wide
+    action: The first ambulance crewman, helmet under his arm, standing in front of Dai, who sits on the end chair of a row of orange plastic chairs.
+    cast: [crewman, dai_cut:summer_school]
+    dialogue:
+    - crewman: YOU DID IT RIGHT WITH THE TIMES. NEXT TIME, DON'T WAIT THE FULL TWENTY. IF HE CAN'T TALK, YOU CALL.
+  - pos: bottom-right
+    action: "A round wall clock showing 1:52 (hour hand near 2, minute hand just past the 10); below it Dai's hand on his shirt pocket over the outline of the folded glasses."
+    captions:
+    - A CLOCK ON THE WALL SAID 1:52. I FELT SOTA'S GLASSES THROUGH THE COTTON.
+  - pos: bottom-center
+    action: Dai's legs from the knees down shaking fast and small, his heels tapping the polished floor, his hands on his knees.
+    sfx: [{text: "tatatata", note: small}]
+    captions:
+    - MY LEGS WERE SHAKING. NOT MY HANDS.
+  - pos: bottom-left
+    shot: close-up
+    action: Close-up of Dai's right palm opening, a small blue inhaler cap in it and a red ring pressed into the skin.
+    captions:
+    - I WAS STILL HOLDING THE CAP OF THE INHALER. I DIDN'T KNOW WHEN I'D PICKED IT UP.
+
+- page: 30
+  title: Keep that dry
+  location: er-bay
+  time: about 1:55 a.m., inside under bright fluorescent light
+  continue_from: 29
+  guards:
+  - "Dai SITS on the end orange chair the whole page; SHORT hair, rumpled white school shirt."
+  - "The nurse is Akane (21) in a white nurse's tunic and trousers, a small watch pinned upside down on her chest, her long hair pinned UP in a tight bun (NOT a ponytail), no cap. In panel 3 her face is cut off by the top of the panel (we see her from the shoulders down); in the last panel she looks up and we see her face."
+  - The last panel is large and quiet.
+  panels:
+  - pos: top-right
+    action: Low view under the edge of the green curtain; three pairs of white shoes standing still round the stretcher wheels.
+    captions:
+    - UNDER THE CURTAIN, THE WHITE SHOES HAD STOPPED GOING BACK AND FORTH.
+  - pos: top-left
+    action: Close-up of the curtain rings sliding fast along the ceiling rail.
+    sfx: [SHAAT]
+  - pos: middle, wide
+    action: The green curtain pulled back half a meter from inside; a nurse in white steps into the gap, a clipboard held against her chest with one arm, reading it; the top of the panel cuts her off at the chin, so we see only her mouth, the upside-down watch pinned to her tunic and the clipboard.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: HAYAMA SOTA'S FAMILY?
+  - pos: lower, wide
+    action: Dai on the orange chair, looking up, his eyes going wide, very still.
+    cast: [dai_cut:summer_school]
+    captions:
+    - I KNEW THE VOICE. THE LAST THING IT HAD SAID TO ME WAS KEEP THAT DRY.
+  - pos: bottom, large
+    action: Akane in the white nurse's uniform in the gap of the green curtain, her hair pinned up tight, lifting her calm, unreadable eyes from the clipboard to look straight at Dai (at the viewer).
+    cast: [akane:nurse]
+    captions:
+    - SHE LOOKED UP.
+    - IT WAS NATSUME.
+    - {text: "CHAPTER 9: BEFORE ANYTHING BREAKS. END.", style: small}

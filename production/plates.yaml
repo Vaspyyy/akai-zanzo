@@ -269,3 +269,53 @@ pages:
       sink with a cold tap; a window onto the yard with stacks of scrap
       outside; a broom leaning by the door; a round blue cookie tin under the
       desk.
+
+  # ---- added for chapter 9 (2026-11-18)
+  - id: hayama-kitchen-night
+    location: hayama-kitchen-night
+    time: about 1 a.m., night; only the fluorescent tube over the sink is lit
+    refs:
+      - {path: artwork/locations/hayama-apartment.png, use: "this SAME apartment: copy its kitchen, sink, gas burner, fusuma, tatami, low table, materials and art style exactly; this plate looks at the other wall of the kitchen"}
+    description: >-
+      Eye-level view across the dim kitchen at night from the tatami-room
+      doorway. On the left the old white two-door refrigerator with a square
+      tin box on top and a sheet of paper with handwritten lines taped to its
+      SIDE facing us; next to it the sink and gas burner under the window,
+      the single fluorescent tube over the sink lit, the window black. On the
+      right wall a hanging calendar and beside it a small wooden wall shelf
+      with an old black ROTARY telephone on it (finger dial, curly cord).
+      High on the wall in the middle a round white wall clock with black
+      numbers and hands. The low table with cushions in the foreground, the
+      steel front door and genkan step at the far end. Heavy shadows outside
+      the pool of light.
+
+  - id: sanko-interview
+    location: sanko-interview
+    time: Tuesday early afternoon, daylight through half-closed blinds
+    refs:
+      - {path: artwork/locations/classroom.png, use: "another plate of this manga: copy ONLY its art style, line weight and screentone, not the room"}
+    description: >-
+      Wide eye-level view of the plain interview room from just inside the
+      door: a long table covered with a green cloth (mid-grey tone) across
+      the far side of the room with three empty chairs behind it, a blank
+      white name card and a closed folder on the cloth; about two meters in
+      front of the table, alone in the middle of the bare grey floor, ONE
+      empty folding chair facing the table. A window with half-closed
+      venetian blinds on the left throwing stripes of light, pale walls, a
+      wall clock, a calendar. Bare and exposed.
+
+  - id: er-bay
+    location: er-bay
+    time: about 1:50 a.m., inside under bright fluorescent light, black night outside the glass doors
+    refs:
+      - {path: artwork/locations/school-corridor.png, use: "another interior plate of this manga: copy ONLY its art style, line weight and screentone, not the place"}
+    description: >-
+      Eye-level view along the emergency-room corridor: on the left a row
+      of treatment bays closed by PALE GREEN curtains (light grey tone) on
+      rings hanging from steel ceiling rails, the curtains stopping about
+      thirty centimeters above the polished floor so you can see under them;
+      on the right a row of five ORANGE moulded plastic chairs (mid-grey tone)
+      against the white wall under a round wall clock; at the far end the
+      automatic glass entrance doors with the black night outside; a steel
+      trolley, a wall oxygen outlet with a dial. Flat, very bright light,
+      reflections on the floor.

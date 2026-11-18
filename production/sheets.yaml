@@ -105,3 +105,87 @@ pages:
       thumbnail) peeling a pear with a folding knife; one hand in a brown
       leather work glove. Late-1990s seinen manga ink and screentone. No
       other characters, no vehicles.
+
+  # ---- added for chapter 9 (2026-11-18)
+  - id: dai-haircut
+    refs:
+      - {path: artwork/character-sheets/dai.png, use: "this SAME boy, Dai: copy his face, thin build, narrow sharp eyes and the sheet layout and ink style exactly; ONLY his hair is different now (cut short, see the description)"}
+    description: >-
+      One character only: DAISUKE "DAI" HAYAMA, 17, the same lean, wiry
+      Japanese high-school boy as on the reference sheet, same thin face and
+      narrow guarded eyes, but with a FRESH SHORT HAIRCUT that his sister just
+      gave him: the black hair is short and neat, the sides cut short above
+      the ears, the back cut off the collar, and the bangs cut straight across
+      a finger's width ABOVE his eyebrows, so his whole forehead and both
+      eyebrows are uncovered. Through his LEFT eyebrow (on the image RIGHT when
+      he faces us) runs a short pale scar line where no hair grows, about as
+      long as a little fingernail. He looks younger and more exposed, like
+      "somebody's son". Clothes: a crisp white short-sleeved summer school
+      shirt buttoned all the way to the top, tucked into black school
+      trousers, beat-up white canvas sneakers with a strip of tape on the
+      right one; a clean white bandage wrapped round his LEFT palm and wrist.
+      Left half: full-body turnaround (front, three-quarter, side profile,
+      back) standing straight, hands at his sides. Right half: four head
+      close-ups with the short hair: neutral and guarded; jaw set, staring
+      straight ahead; eyes lowered; a large close-up of the forehead and the
+      scar through the left eyebrow. Detail sketch: his bandaged left hand
+      closed into a fist on his knee. Late-1990s seinen manga ink and
+      screentone. No other characters.
+
+  - id: akane-nurse
+    refs:
+      - {path: artwork/character-sheets/akane.png, use: "this SAME young woman, Akane: copy her face, eyes, earring and the sheet layout and ink style exactly; ONLY her clothes and hair-do are different (see the description)"}
+    description: >-
+      One character only: AKANE NATSUME, 21, the same tall young Japanese
+      woman as on the reference sheet, same calm, unreadable half-lidded eyes
+      and small earring, now at work as a night-shift emergency-room nurse in
+      a 1995 Japanese city hospital. Her long straight black hair is pinned
+      UP off her neck, all of it, in a tight neat bun at the back of the head,
+      no loose ponytail. Clothes: a plain WHITE short-sleeved nurse's tunic
+      with a small collar and buttons, white straight nurse's trousers, white
+      flat nurse's shoes; a small round nurse's watch pinned upside down to
+      the front of the tunic on the left breast; a pen in the breast pocket;
+      no cap, no gloves. Bare hands with short nails. Left half: full-body
+      turnaround (front, three-quarter, side profile, back) standing straight
+      with a clipboard held against her chest with one arm. Right half: four
+      head close-ups: reading the clipboard, eyes down; looking up straight at
+      the viewer, unreadable; a level, tired look; three-quarter view showing
+      the tight bun. Detail sketches: the upside-down watch pinned to the
+      tunic; her bare hand writing on a clipboard. Late-1990s seinen manga
+      ink and screentone. No other characters.
+
+  - id: sugimoto
+    refs:
+      - {path: artwork/character-sheets/officer.png, use: "an approved sheet of this manga: copy ONLY its layout (turnaround left, expression close-ups right, detail sketches) and its ink and screentone style; NOT his face, body or clothes"}
+    description: >-
+      One character only: SUGIMOTO, the personnel manager of a Japanese
+      brake-parts factory in 1995, about fifty. Medium height, a little soft
+      round the middle, neat side-parted black hair thinning at the crown,
+      rimless rectangular glasses, a smooth, careful, polite office face with
+      tired eyes. Clothes: a plain dark grey suit, white shirt, dark narrow
+      tie, a company pin on the lapel. Left half: full-body turnaround
+      (front, three-quarter, side profile, back), standing with a folder
+      under one arm. Right half: four head close-ups: reading a paper with
+      his eyes lowered; looking up over the glasses, waiting; a polite
+      neutral nod; clicking a ballpoint pen by his chin. Detail sketches: his
+      hand clicking a ballpoint pen over an open folder. Late-1990s seinen
+      manga ink and screentone. No other characters.
+
+  - id: line-worker
+    refs:
+      - {path: artwork/character-sheets/officer.png, use: "an approved sheet of this manga: copy ONLY its layout (turnaround left, expression close-ups right, detail sketches) and its ink and screentone style; NOT his face, body or clothes"}
+    description: >-
+      One character only: an OLD Japanese factory line worker in 1995, about
+      sixty, who sits on an interview panel. Broad and heavy-shouldered, a
+      weathered square face with deep lines, grey stubble, grey hair cropped
+      very short, small steady eyes under heavy brows. Clothes: a grey
+      zip-up factory work jacket (mid-grey tone) with a small plain patch
+      over the breast pocket (no letters), a white shirt collar under it,
+      grey work trousers. His HANDS are big and heavy with the creases
+      stained grey, like pencil. Left half: full-body turnaround (front,
+      three-quarter, side profile, back), standing with his big hands loose.
+      Right half: four head close-ups: looking at someone steadily without
+      blinking; looking down at his hands; speaking slowly, rough; a faint
+      nod. Detail sketches: his big grey-creased hands folded on a table,
+      then folded the other way round. Late-1990s seinen manga ink and
+      screentone. No other characters.
