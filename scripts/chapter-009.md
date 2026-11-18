@@ -1,7 +1,7 @@
 # Chapter 9: "Before Anything Breaks"
 
 **Split:** all of Volume 1 Chapter 5 ("Interview"). Chapter 8 ended with Dai in the wreck's seat with the cat (end of novel Chapter 4).
-**Status:** draft. 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-05.md`.
+**Status:** drawn 2026-11-18. 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-05.md`.
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel. The clinic paper is lettered as a caption box laid over the handwriting.
 **Pacing:** quiet, like Ch4 and Ch8. The haircut in silence; the interview held on Dai's fist; the asthma night built from small exact steps (the clock, the inhaler, the paper, the lips, the dial), never melodramatic. The last page lands on "It was Natsume."
 
@@ -12,6 +12,7 @@
 - **Left hand:** white gauze bandage p1-p16 (dirty grey on Tue 5 a.m., a new very white one from p9, a rice-grain red dot after the interview); from Sunday 24 Sep (p17 on) a big square Band-Aid on the heel of the palm.
 - **Clock times on the night:** quarter to one at the table; 12:50 the wheeze; 12:53 first two puffs; 1:13 two more; 119 about 1:15; ER clock 1:52.
 - **The phone:** black rotary, on the little shelf by the calendar. Dai holds it (receiver in his left hand, dialing with the right); both hands to hang it up the third time.
+- **Sota's glasses** are on until he goes to bed (p17); from the attack (p18) they are off, folded by his pillow, then in Dai's shirt pocket (p27 on). Cast id `sota_ng` on p20-p27.
 - **Sota** is shown through his face, hands, the inhaler, the mask and the people round him; nothing graphic, no bare skin. Prompts stay calm and clinical.
 - **Car shots, one camera each:** red Roadster p16 HIGH from above its right rear corner (pop-ups down), then soft-top roof and driver's window close-ups only; ambulance p27 eye-level rear, doors open, slightly left of straight behind; interior only on p28. No other whole cars.
 - **Posture:** p1 standing; p2-5 Dai on the kitchen chair; p6-8 Mom kneeling at the ironing board, Dai in the doorway then standing; p13-15 Dai seated on the lone chair; p19-21 Dai kneeling, then sitting behind Sota, then kneeling in front; p22-25 standing; p26 kneeling then standing; p28 seated on the bench; p29-30 seated on the orange chair.
@@ -30,7 +31,7 @@
 - P8 (bottom-left): Dai alone at the pump island, looking at the ground. DAI: "SEVEN OF THEM."
 
 ## Page 2: Under the light
-- P1 (top, wide): Monday night at home. Dai wakes up lying on the tatami of the small kitchen in his rumpled white school shirt; above him Aya kneels, spreading sheets of newspaper flat over the floor. The window is black. CAPTION: "AT HOME I SLEPT ON THE TATAMI. WHEN I WOKE, MOM HAD GONE TO WORK, AND AYA WAS SPREADING NEWSPAPER ON THE FLOOR."
+- P1 (top, wide): Monday night at home. Dai wakes up lying on the tatami of the small kitchen in his rumpled white school shirt; above him Aya kneels, spreading sheets of newspaper flat over the floor. The window is black. CAPTION: "WHEN I WOKE, MOM HAD GONE TO WORK, AND AYA WAS SPREADING NEWSPAPER ON THE FLOOR."
 - P2 (top-right): Aya standing over the newspaper, pointing at the floor with one finger, bossy. AYA: "SIT. NOT THERE. UNDER THE LIGHT."
 - P3 (top-left): A plain kitchen chair set in the middle of the spread newspaper, right under the round fluorescent ring light on the ceiling; Dai sitting down on it, wary. No text.
 - P4 (middle-right): Aya behind the chair holding up a black plastic garbage bag with a hole cut in the bottom. AYA: "HEAD THROUGH."
@@ -104,8 +105,8 @@
 
 ## Page 10: Next
 - P1 (top-right): A test room with rows of school-style desks; boys in white shirts bent over papers; Dai writing, frowning. CAPTION: "KANJI, HALF OF WHICH I KNEW. FRACTIONS, WHICH I DID BADLY."
-- P2 (top-left): The examiner in a grey work jacket walking along the desks handing out sheets, a silver stopwatch in his other hand. EXAMINER: "ADD EACH NUMBER TO THE ONE NEXT TO IT. WRITE ONLY THE LAST FIGURE OF THE ANSWER, IN THE GAP."
-- P3 (middle-right): The examiner at the front holding the stopwatch up, thumb on the button. EXAMINER: "WHEN I SAY NEXT, GO TO THE NEXT LINE. DON'T GO BACK."
+- P2 (top-left): The examiner in a grey work jacket walking along the desks handing out sheets, a silver stopwatch in his other hand. EXAMINER: "ADD EACH NUMBER TO THE ONE NEXT TO IT."
+- P3 (middle-right): The examiner at the front holding the stopwatch up, thumb on the button. EXAMINER: "WRITE ONLY THE LAST FIGURE OF THE ANSWER, IN THE GAP. WHEN I SAY NEXT, GO TO THE NEXT LINE. DON'T GO BACK."
 - P4 (middle-left): Close-up of the test sheet, rows and rows of small single printed digits; a pencil writing tiny digits in the gaps between them. CAPTION: "SEVEN AND EIGHT, FIVE. EIGHT AND SIX, FOUR. SIX AND NINE, FIVE."
 - P5 (lower, wide): Dai working fast, his bandaged left hand holding the paper flat on the desk, eyes sharp; at the next desk a boy moving his lips as he adds, falling behind. CAPTION: "I WAS GOOD AT IT. IT WAS THE ONLY THING ALL DAY THAT FELT LIKE THE PUMPS."
 - P6 (bottom-right): Close-up of the stopwatch in the examiner's hand and his mouth opening. EXAMINER: "NEXT."
@@ -187,7 +188,7 @@
 
 ## Page 19: Breathe with me
 - P1 (top-right): Dai in the doorway, quiet and quick. DAI: "DON'T TALK."
-- P2 (top-left): The ceiling light on; Dai kneeling, shaking the blue inhaler hard, its cap off. SFX: "KACHI" SFX: "SHAKA SHAKA"
+- P2 (top-left): The ceiling light on; Dai kneeling, shaking the blue inhaler hard, its cap off. CAPTION: "I PUT THE LIGHT ON. I GOT THE INHALER AND SHOOK IT AND TOOK THE CAP OFF." SFX: "KACHI" SFX: "SHAKA SHAKA"
 - P3 (middle-right): Dai kneeling by the futon, holding Sota's wrist steady with one hand while Sota brings the inhaler to his mouth. DAI: "OUT FIRST. ALL THE WAY. NOW."
 - P4 (middle-left): Close-up of Sota's hands pressing the inhaler at his lips, a small puff. CAPTION: "HE COULDN'T HOLD IT. IT CAME OUT AFTER TWO, WITH A COUGH. THE SECOND ONE HE HELD FOR THREE." SFX: "PSHU"
 - P5 (lower, wide): Dai kneeling face to face with Sota, breathing in slowly through his nose to show him, one hand raised to set the pace. DAI: "SLOW. BREATHE WITH ME."
@@ -199,7 +200,7 @@
 - P2 (middle-right): Dai's face turned toward the refrigerator, reading, jaw tight. CAPTION: "SO I WAITED THE TWENTY MINUTES, BECAUSE THE PAPER SAID TWENTY. HE COULD ALREADY HARDLY TALK."
 - P3 (middle-left): Sota sitting back an inch, a little easier for a moment, eyes half closed. CAPTION: "FOR A FEW MINUTES IT WAS BETTER. THEN IT CAME BACK UP."
 - P4 (lower-right): Dai sitting on the futon behind Sota with his back against the wall, trying to pull him back to lean on his chest; Sota pushing Dai's arm off and bending forward again, hands back on his knees. CAPTION: "HE DIDN'T WANT TO LEAN. HE WANTED TO BE BENT FORWARD."
-- P5 (lower-left): Close-up of Dai's hand lying flat on the back of Sota's striped pajama top, between the shoulder blades. CAPTION: "THROUGH HIS PAJAMA TOP I COULD FEEL HIS RIBS WORKING, FAR TOO HARD FOR WHAT WAS COMING IN."
+- P5 (lower-left): Close-up of Dai's hand lying flat on the back of Sota's striped pajama top, between the shoulder blades. CAPTION: "THROUGH HIS PAJAMA TOP I COULD FEEL HIS RIBS WORKING, FAR TOO HARD."
 - P6 (bottom-right): Dai behind Sota, eyes on the kitchen clock through the open fusuma, lips moving as he counts. CAPTION: "FORTY-FOUR IN A MINUTE. I DIDN'T KNOW WHAT IT SHOULD BE. I KNEW IT WAS TOO MANY."
 - P7 (bottom-left): The other sliding door opening; Aya standing in it in a tank top and cardigan, her hair flat on one side, squinting at the light. AYA: "WHAT IS IT?"
 
@@ -242,7 +243,7 @@
 ## Page 25: It's free
 - P1 (top-right): The receiver missing the cradle, hitting its edge and swinging on its curly cord against the shelf; Dai's hand open in the air. CAPTION: "IT DIDN'T GO IN. MY HAND WAS DOING SOMETHING." SFX: "GATAN"
 - P2 (top-left): Close-up of Dai's two hands together pressing the receiver down into the cradle. CAPTION: "I USED BOTH HANDS THE THIRD TIME, AND IT WENT IN."
-- P3 (middle-right): Dai kneeling in front of Sota so Sota can see his face, steady; Sota nodding, hands on his knees. CAPTION: "I DIDN'T KNOW THAT. I SAID IT ANYWAY." DAI: "THEY'RE COMING. SEVEN MINUTES. MAYBE LESS."
+- P3 (middle-right): Dai kneeling in front of Sota so Sota can see his face, steady; Sota nodding, hands on his knees. CAPTION: "I KNELT IN FRONT OF HIM, SO HE COULD SEE MY FACE." CAPTION: "I DIDN'T KNOW THAT. I SAID IT ANYWAY." DAI: "THEY'RE COMING. SEVEN MINUTES. MAYBE LESS."
 - P4 (middle-left): Sota, one word at a time between breaths, worried. SOTA: "AMBULANCE... COSTS..."
 - P5 (lower-right): Dai, gentle and certain. DAI: "IT'S FREE."
 - P6 (lower-left): Close-up of Sota's small hand squeezing Dai's left hand hard, right over the big square Band-Aid; Dai doesn't pull away. CAPTION: "HE SQUEEZED MY LEFT HAND, THE BAND-AID, HARD. THE CUT LIT UP ALL ALONG MY PALM, AND I LET HIM."
@@ -255,7 +256,7 @@
 - P4 (lower-right): The crewman looking up at Dai, quick. CREWMAN: "HOW MANY PUFFS?"
 - P5 (lower-left): Dai kneeling at the end of the futon, clear. DAI: "FOUR. 12:53 AND 1:13."
 - P6 (bottom-right): Dai standing, handing the whole square biscuit tin of medicines to the crewman; the crewman looks into it. CREWMAN: "HIS WEIGHT?"
-- P7 (bottom-left): Dai standing, lost for the first time, holding the lid of the tin. CAPTION: "I KNEW WHAT THE PHARMACY COST IN AUGUST. I DIDN'T KNOW WHAT MY BROTHER WEIGHED." DAI: "HE'S SMALL FOR ELEVEN."
+- P7 (bottom-left): Dai standing, lost for the first time, holding the lid of the tin. CAPTION: "I KNEW WHAT THE PHARMACY COST. I DIDN'T KNOW WHAT MY BROTHER WEIGHED." DAI: "HE'S SMALL FOR ELEVEN."
 
 ## Page 27: Forty-eight steps
 - P1 (top-right): Indoors in the lit apartment, the crewman standing up from the futon, turning to Dai. CREWMAN: "THEN YOU COME WITH US. YOU KNOW THE TIMES."
@@ -267,7 +268,7 @@
 - P7 (bottom-left): Dai with one foot on the ambulance's rear step, looking back. DAI: "SAY HE'S BREATHING. THEN STAY BY THE PHONE."
 
 ## Page 28: You're first
-- P1 (top-right): The ambulance standing still, rear doors shut; the crewman lowering a radio handset; pink light from the red roof light sliding across the frosted windows. CAPTION: "WE DIDN'T MOVE. I COUNTED THE RED LIGHT ROUND ELEVEN TIMES." CREWMAN: "MUNICIPAL WILL TAKE HIM."
+- P1 (top-right): The ambulance standing still, rear doors shut; the crewman lowering a radio handset; pink light from the red roof light sliding across the frosted windows. CAPTION: "WE DIDN'T MOVE. I COUNTED THE RED LIGHT ROUND, ELEVEN TIMES." CREWMAN: "MUNICIPAL WILL TAKE HIM."
 - P2 (top-left): Dai holding Sota's hand on the stretcher; the crewman watching the small box in his hand. CAPTION: "THEN, LATER, NINETY. I DIDN'T KNOW WHAT IT MEANT. I KEPT IT ANYWAY." CREWMAN: "EIGHTY-NINE."
 - P3 (middle-right): Close-up of Dai's knee bouncing up and down by itself, and his other hand pressing it still. No text.
 - P4 (middle-left): Dai leaning down close to the side of Sota's head, by the mask, speaking where only Sota can hear. DAI: "I'VE GOT A CAR."
@@ -280,13 +281,13 @@
 - P2 (middle-right): An older nurse in a white cap putting her hand flat on Dai's chest at the curtain, stopping him. NURSE: "WAIT HERE. SOMEBODY WILL COME."
 - P3 (middle-left): Low view of the bottom edge of the closed green curtain; under it, feet going back and forth (white nurse's shoes, a doctor's brown slip-ons) and the wheels of the stretcher. CAPTION: "WHITE SHOES. WHITE SHOES. A DOCTOR'S BROWN SLIP-ONS." SFX: "SHUUUU"
 - P4 (lower, wide): The first ambulance crewman, helmet under his arm, standing in front of Dai, who sits on the end chair of a row of orange plastic chairs. CREWMAN: "YOU DID IT RIGHT WITH THE TIMES. NEXT TIME, DON'T WAIT THE FULL TWENTY. IF HE CAN'T TALK, YOU CALL."
-- P5 (bottom-right): A round wall clock showing 1:52 (hour hand near 2, minute hand just past the 10); below it Dai's hand on his shirt pocket over the outline of the folded glasses. CAPTION: "A CLOCK ON THE WALL SAID 1:52. I FELT SOTA'S GLASSES THROUGH THE COTTON."
+- P5 (bottom-right): A round wall clock showing 1:52 (hour hand near 2, minute hand just past the 10); below it Dai's hand on his shirt pocket over the outline of the folded glasses. CAPTION: "1:52 ON THE WALL CLOCK. I FELT SOTA'S GLASSES THROUGH THE COTTON."
 - P6 (bottom-center): Dai's legs from the knees down shaking fast and small, his heels tapping the polished floor, his hands on his knees. CAPTION: "MY LEGS WERE SHAKING. NOT MY HANDS." SFX: "tatatata"
 - P7 (bottom-left): Close-up of Dai's right palm opening, a small blue inhaler cap in it and a red ring pressed into the skin. CAPTION: "I WAS STILL HOLDING THE CAP OF THE INHALER. I DIDN'T KNOW WHEN I'D PICKED IT UP."
 
 ## Page 30: Keep that dry
 - P1 (top-right): Low view under the edge of the green curtain; three pairs of white shoes standing still round the stretcher wheels. CAPTION: "UNDER THE CURTAIN, THE WHITE SHOES HAD STOPPED GOING BACK AND FORTH."
-- P2 (top-left): Close-up of the curtain rings sliding fast along the ceiling rail. SFX: "SHAAT"
+- P2 (top-left): Close-up of the curtain rings sliding fast along the ceiling rail. CAPTION: "THEN THE CURTAIN RINGS RAN ALONG THE RAIL." SFX: "SHAAT"
 - P3 (middle, wide): The green curtain pulled back half a meter from inside; a nurse in white steps into the gap, a clipboard held against her chest with one arm, reading it; the top of the panel cuts her off at the chin, so we see only her mouth, the upside-down watch pinned to her tunic and the clipboard. NATSUME: "HAYAMA SOTA'S FAMILY?"
 - P4 (lower, wide): Dai on the orange chair, looking up, his eyes going wide, very still. CAPTION: "I KNEW THE VOICE. THE LAST THING IT HAD SAID TO ME WAS KEEP THAT DRY."
 - P5 (bottom, large): Akane in the white nurse's uniform in the gap of the green curtain, her hair pinned up tight, lifting her calm, unreadable eyes from the clipboard to look straight at Dai (at the viewer). CAPTION: "SHE LOOKED UP." CAPTION: "IT WAS NATSUME." CAPTION: "CHAPTER 9: BEFORE ANYTHING BREAKS. END."

@@ -533,6 +533,22 @@ characters:
         ref: artwork/character-sheets/dai-haircut.png
         ref_note: the face and the short hair only
 
+  sota_ng:
+    name: SOTA
+    full_name: Sota Hayama WITHOUT his glasses (the asthma night, chapter 9)
+    traits: >-
+      11-year-old boy, small and thin for his age, bowl-cut black hair, big
+      dark eyes. He is NOT wearing glasses: his round glasses are OFF, folded
+      beside his pillow or in his brother's shirt pocket. Bare eyes, no frames
+      on his face in any panel.
+    tell: "the little BROTHER, 11, bowl cut, NO glasses"
+    default_outfit: pajamas
+    outfits:
+      pajamas:
+        desc: thin striped cotton pajamas (short sleeves, shorts), barefoot; NO glasses on his face
+        ref: artwork/character-sheets/sota.png
+        ref_note: the face shape and bowl cut ONLY; IGNORE the glasses on the sheet, he is NOT wearing glasses now
+
   sugimoto:
     name: SUGIMOTO
     full_name: Sugimoto (Personnel, Sanko Brake)

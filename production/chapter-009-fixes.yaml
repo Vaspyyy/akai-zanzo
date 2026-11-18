@@ -1,0 +1,84 @@
+# Redraws for Chapter 9 (edits of approved art; pasted back into artwork/pages/chapter-009/).
+title: Chapter 9 fixes
+output_dir: production/runs/ch9-fixes/out
+lettering: empty
+defaults:
+  orientation: portrait
+  notes:
+  - No brand logos, no readable printed words, no Japanese characters.
+pages:
+- page: 19
+  location: hayama-kitchen-night
+  time: about 12:50 a.m., night
+  edit:
+    source: production/runs/ch9-fixes/src/page-19.png
+    change: "The little boy (11, bowl cut, striped pajamas) must NOT wear glasses anywhere on this page: remove his round glasses from his face in the middle-left, the wide third-row and the bottom-left panels and draw his bare eyes instead (tired, half-closed). His glasses are off, folded beside his pillow. Nothing else changes."
+    keep: "everything else exactly as it is: the layout, every panel border, the young man with short hair, the balloons, the caption boxes, the sound effects, the clock, the kitchen"
+  panels:
+  - {pos: top-left, action: unchanged, keep: true}
+  - {pos: top-right, action: unchanged, keep: true}
+  - pos: middle-right
+    action: The young man holds the boy's wrist while the boy, WITHOUT glasses, uses the inhaler.
+  - pos: middle-left
+    action: Close-up of the boy's hands and the inhaler at his lips (no glasses visible).
+  - pos: lower, wide
+    action: The young man and the boy face to face; the boy has NO glasses, bare tired eyes.
+  - pos: bottom-right
+    action: The boy bent forward on his futon with NO glasses, eyes half closed.
+  - {pos: bottom-left, action: unchanged (the wall clock), keep: true}
+
+- page: 20
+  location: hayama-kitchen-night
+  time: about 1 a.m., night
+  edit:
+    source: production/runs/ch9-fixes/src/page-20.png
+    change: "The little boy (11, bowl cut, striped pajamas) must NOT wear glasses anywhere on this page: remove the round glasses from his face in the second-row LEFT panel and the third-row RIGHT panel and draw his bare eyes instead (tired, half-closed). Nothing else changes."
+    keep: "everything else exactly as it is: the layout, every panel border, the young man with short hair, the young woman, the balloons, the caption boxes, the refrigerator paper, the clock"
+  panels:
+  - {pos: "top, wide", action: unchanged, keep: true}
+  - {pos: middle-right, action: unchanged, keep: true}
+  - pos: middle-left
+    action: The boy sitting back a little, eyes half closed, NO glasses.
+  - {pos: lower-right, action: unchanged, keep: true}
+  - pos: lower-left
+    action: The boy bent forward with the young man behind him; the boy has NO glasses.
+  - {pos: bottom-right, action: unchanged, keep: true}
+  - {pos: bottom-left, action: unchanged, keep: true}
+
+- page: 27
+  location: danchi-walkway
+  time: about 1:30 a.m., night
+  edit:
+    source: production/runs/ch9-fixes/src/page-27.png
+    change: "In the wide second-row panel (the stairwell), the little boy in the carry chair must NOT wear glasses: remove the round glasses from his face, keep the clear oxygen mask, and draw his bare eyes looking back up over the mask. Nothing else on the page changes."
+    keep: "every other panel exactly as it is, pixel for pixel, and the rest of the stairwell panel"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - pos: middle, wide
+    action: Two crewmen carry the boy down the stairs in a carry chair, oxygen mask on, NO glasses, eyes looking back up.
+  - {pos: "lower, wide", action: unchanged, keep: true}
+  - {pos: bottom-right, action: unchanged, keep: true}
+  - {pos: bottom-center, action: unchanged, keep: true}
+  - {pos: bottom-left, action: unchanged, keep: true}
+
+- page: 25
+  location: hayama-kitchen-night
+  time: about 1:20 a.m., night; the light is on in the small tatami room
+  edit:
+    source: production/runs/ch9-fixes/src/page-25.png
+    change: "Draw new art ONLY inside the flat grey panel (the second-row RIGHT, wide panel). In it: inside the small TATAMI ROOM (folded futons stacked behind, a paper-screen sliding door, the lit kitchen doorway far in the background), the little boy (11, bowl cut, striped pajamas, NO glasses) SITS ON HIS FUTON bent forward with his hands flat on his knees and his shoulders up, breathing hard but calm; the young man with SHORT black hair in a white short-sleeved school shirt KNEELS on the tatami directly in FRONT of him, facing him at eye level so the boy can see his face. Seen from the side, the young man on the panel's RIGHT, the boy on the LEFT. One EMPTY caption box at the top left of the panel, one EMPTY caption box at the bottom left, and one large EMPTY speech balloon at the upper right with its tail pointing at the young man."
+    keep: "every other panel exactly as it is, pixel for pixel"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - pos: middle-right, wide
+    action: In the tatami room, the boy (no glasses) sits bent forward on his futon; the young man kneels in front of him, face to face.
+    cast: [dai_cut:summer_school, sota_ng:pajamas]
+    dialogue:
+    - dai_cut: THEY'RE COMING. SEVEN MINUTES. MAYBE LESS.
+    captions: [I KNELT IN FRONT OF HIM., I DIDN'T KNOW THAT.]
+  - {pos: middle-left, action: unchanged, keep: true}
+  - {pos: lower-right, action: unchanged, keep: true}
+  - {pos: lower-left, action: unchanged, keep: true}
+  - {pos: "bottom, wide", action: unchanged, keep: true}
