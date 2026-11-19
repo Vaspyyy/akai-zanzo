@@ -110,7 +110,7 @@ Test: cover the speech tags. You should still know who's talking.
 - Don't summarize stretches of time in big blocks. Use a bridge line or a scene break.
 - Sentiment stays under the surface. Dai doesn't cry easily on the page, and the prose doesn't cry for him.
 
-**Lessons from reviews (Ch1-7).** Reviewers kept catching these:
+**Lessons from reviews (Ch1-8).** Reviewers kept catching these:
 
 - "The way you..." similes: two or three per chapter at most, and few "as if".
 - Every character ending a beat on a deadpan punchline. Give the quip to one person per scene; let the others be plain, tired or kind.
@@ -125,6 +125,7 @@ Test: cover the speech tags. You should still know who's talking.
 - Medical and household devices get the same care as cars: how they are used (a spacer is breathed in through; blood is drawn through the cannula, not the needle's window) and what Dai can read off them (a beep's pitch says up or down, not the number).
 - An early near-success that does the climax's work (Ch7's fifth try already crossed the lot). Let the early tries show a sliver; save the full payoff, and its best details, for the one that counts.
 - Plants bunched in one stretch (a backstory, a phone call, a forbidden object and a hint, one after another) read like a character sheet. One plant per beat; move the rest to other scenes or cut them.
+- A signature line reused across chapters until it is a tic ("On a night off my body still thinks it's at the pumps" in Ch5, 7 and 8; "which is what he does instead of saying good"). Grep the earlier chapters for a line you like before you use it again.
 
 ## 12. Sample passage (Volume 1, Chapter 1: the empty Thursday)
 
