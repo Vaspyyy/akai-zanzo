@@ -126,7 +126,8 @@ class Builder:
             if pn.keep and page.edit:
                 continue
             for c in pn.cast:
-                k = (c.id, c.outfit)
+                # cars: one reference per angle crop (an interior and an exterior view can share a page)
+                k = (c.id, c.view) if c.id in self.reg.cars else (c.id, c.outfit)
                 if k in seen:
                     continue
                 seen.append(k)

@@ -1,0 +1,1601 @@
+chapter: 11
+title: Eleven
+lettering: empty
+
+# Reusable cast entries (YAML anchors). Free-text outfits use the character's default sheet.
+x-cast:
+  dai_sun: &dai_sun {id: dai_cut, outfit: "grey zip-up jacket half zipped over an old faded white gym T-shirt, worn jeans, beat-up white canvas sneakers; BARE hands"}
+  dai_gl: &dai_gl {id: dai_cut, outfit: "grey zip-up jacket half zipped over an old faded white gym T-shirt, worn jeans, beat-up white canvas sneakers; thin WHITE cotton work gloves on both hands"}
+  aka: &aka {id: akane, outfit: "dark bomber jacket ZIPPED UP TO THE CHIN, black jeans, flat thin-soled black canvas shoes, black leather driving gloves with the knuckles cut open; long black hair tied back LOW in a ponytail"}
+  sota: &sota {id: sota, outfit: "thin striped pajamas with TWO cardigans on top (his own, and a bigger old girl's cardigan with the sleeves turned back), socks, round glasses"}
+
+defaults:
+  orientation: portrait
+  time: late September 1995
+  notes:
+  - Right-to-left panel order. One speaker per panel. All cars are Japanese models sold by September 1995, right-hand drive.
+  - No brand logos, no stickers, no readable signs or printed words anywhere unless a panel asks for them. No Japanese characters. No banknotes.
+  - Vary shot sizes and poses; no two panels on the page may look alike.
+
+pages:
+# ------------------------------------------------------------------ Friday 2:15 a.m., the station office
+- page: 1
+  title: Boys who don't go, ask
+  location: harbor-station-night
+  time: Friday 2:15 a.m., NIGHT, dry; the small office booth lit by a fluorescent tube, black night outside
+  guards:
+  - "Dai: SHORT freshly cut black hair (forehead uncovered), grey zip-up station jacket over a black T-shirt, jeans. His LEFT palm has a thin pink healing line, NO bandage, NO Band-Aid."
+  - "Kubo: the OLD night attendant with a grey cap and his shirt buttoned up. Inside the office booth: a counter, a ledger sheet, a pencil, an empty coffee can, a small radio."
+  panels:
+  - pos: top, wide
+    action: Inside the small lit office booth at night. Kubo, behind the counter, stands an empty coffee can upright on it. Dai stands in the open office doorway, his hands in his jacket pockets, waiting. Beyond the glass, the dark empty forecourt.
+    cast: [kubo, dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: GLOVES FOR WHAT?
+    captions:
+    - A QUARTER PAST TWO ON FRIDAY MORNING. KUBO-SAN FINISHED THE COLD COFFEE, AND I WAS STILL IN THE OFFICE DOOR, WAITING FOR THE REST OF IT.
+  - pos: upper-right
+    action: Kubo behind the counter, not looking up, his face patient and unreadable.
+    cast: [kubo]
+    dialogue:
+    - kubo: SHE DIDN'T SAY.
+  - pos: upper-left
+    action: Dai in the doorway, frowning.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: WHAT DID YOU TELL HER?
+  - pos: middle-right
+    action: Kubo dropping the empty coffee can into the bin under the counter.
+    cast: [kubo]
+    dialogue:
+    - kubo: WHAT SHE ASKED.
+    - kubo: WHERE YOU GO ON SUNDAYS.
+  - pos: middle-left
+    action: Dai, guarded.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: SHE DOESN'T KNOW TANABE'S.
+  - pos: lower, wide
+    action: Kubo looking straight at Dai for the first time, old lined face, calm eyes under the grey cap.
+    cast: [kubo]
+    dialogue:
+    - kubo: EVERYBODY ROUND HERE WITH A BROKEN CAR KNOWS TANABE'S.
+  - pos: lower-right
+    action: Dai, quieter, looking at the floor.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: DID YOU TELL HER ABOUT PIER 3?
+  - pos: lower-left
+    action: "Close on Kubo's old hand writing on the ledger sheet with a short pencil: the number 15,000 and a line drawn under it."
+    cast: [{id: kubo, note: "only his hand and sleeve, the face out of frame"}]
+    dialogue:
+    - kubo: YOU ASKED ME WHERE IT WAS.
+    - kubo: THEN YOU NEVER ASKED ME ANYTHING ABOUT IT AGAIN.
+  - pos: bottom, wide
+    action: Kubo putting the pencil down on the counter and looking at Dai, unhurried, almost kind.
+    cast: [kubo]
+    dialogue:
+    - kubo: BOYS WHO DON'T GO, ASK.
+
+# ------------------------------------------------------------------ Friday to Saturday: the 98-yen gloves
+- page: 2
+  title: 98 yen
+  location: harbor-station-night
+  time: Friday 2:15 a.m. (top), before dawn (middle), then Saturday 12:30 p.m. in daylight (bottom)
+  guards:
+  - "Dai: SHORT freshly cut black hair (forehead uncovered). At the station: grey zip-up station jacket. On Saturday: white short-sleeved summer school shirt, untucked, black trousers. His LEFT palm has a thin pink healing line under the thumb, NO bandage, NO Band-Aid."
+  - "No banknotes anywhere; only one 100-yen coin."
+  panels:
+  - pos: top-right
+    action: Dai in the office doorway, thinking, not angry.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: IS SHE GOING TO TEACH ME?
+    captions:
+    - SO THAT WAS THE SIX MINUTES BY THE AIR PUMP. I WAITED TO BE ANGRY WITH HIM. IT DIDN'T COME.
+  - pos: top-left
+    action: Kubo walking away into the back room of the office, his back to us, the radio glowing on a shelf.
+    cast: [kubo]
+    dialogue:
+    - kubo: I DON'T KNOW.
+  - pos: middle, wide
+    action: "Before dawn under the canopy lights, the sky going grey: Dai alone by the pump island looking down at his open LEFT palm. Close enough to see a thin pink healing line across the heel of the palm under the thumb, a little brown crust at the thumb end; no bandage."
+    cast: [dai_cut:station_jacket]
+    captions:
+    - THE BAND-AID HAD COME OFF IN THE BATH ON WEDNESDAY. THERE WAS A PINK LINE NOW. WHEN I MADE A FIST IT PULLED. BUT IT CLOSED.
+  - pos: lower-right
+    location: hardware-shop
+    action: "Saturday daylight in a covered shopping arcade: Dai in his white summer school shirt walking into the open front of a small old hardware shop (buckets and brooms outside)."
+    cast: [dai_cut:summer_school]
+    captions:
+    - SATURDAY. SHE'D SAID BRING GLOVES. TANABE-SAN HAD A BOX OF FIFTY, AND I DIDN'T WANT TO TURN UP IN HERS.
+  - pos: lower-left
+    location: hardware-shop
+    action: "The pegboard of work gloves inside the door: stiff yellow leather gloves with a small card reading 780, long black rubber gloves, white cotton work gloves tied in bundles of twelve with string, and next to the bundle ONE pair alone in a small plastic bag with a card reading 98."
+    captions:
+    - YELLOW LEATHER, 780 YEN. AND NEXT TO THE BUNDLE, ONE PAIR ON ITS OWN IN A PLASTIC BAG. 98 YEN.
+  - pos: bottom-right
+    action: "Memory inset with a soft dark border, night: a woman's hand in a black leather driving glove with the knuckles cut open, resting on a car's round gear knob. Only the gloved hand and the knob."
+    captions:
+    - I THOUGHT ABOUT HERS. BLACK, WITH THE KNUCKLES CUT OUT, GONE SOFT AND SHAPED TO HER FINGERS ON THE LEVER.
+  - pos: bottom-left
+    location: hardware-shop
+    action: "Close on the old wooden shop counter: Dai's hand putting down one silver 100-yen coin; the old shopkeeper's wrinkled hand pushing the little plastic bag of white cotton gloves across to him."
+    cast: [{id: dai_cut, outfit: summer_school, note: "only his hand and white shirt cuff"}]
+    captions:
+    - I BOUGHT THE WHITE ONES. 98 YEN, 100 WITH THE TAX. 487 LEFT.
+
+# ------------------------------------------------------------------ Saturday afternoon at home
+- page: 3
+  title: How much the bus was
+  location: hayama-apartment
+  time: Saturday about 1 p.m., daylight through the window
+  guards:
+  - "Dai: SHORT black hair, white short-sleeved summer school shirt untucked, black trousers, white socks indoors."
+  - "Mom (41): tired, hair in a loose low bun, a worn cardigan. Sota (11): round glasses, bowl cut, pajamas with two cardigans on top."
+  - "Sota's new inhaler: a small blue inhaler that fits into one end of a long CLEAR plastic spacer tube (about the size of a small bottle) with a mouthpiece at the other end."
+  - "The hospital envelope: a long white envelope with a band of printing across the top (not readable)."
+  panels:
+  - pos: top, wide
+    location: danchi-exterior
+    action: "Looking up at the old concrete danchi block in afternoon sun: on a fourth-floor balcony a child's blue futon printed with little trains hangs over the rail, airing. Dai small at the bottom by the stairwell, looking up."
+    cast: [dai_cut:summer_school]
+    captions:
+    - I KNEW SOTA WAS HOME BEFORE I GOT TO THE STAIRS. MOM DOES THAT AFTER ANYBODY'S BEEN SICK.
+  - pos: upper-right
+    action: Mom kneeling at the low table with her household notebook open and a long white hospital envelope beside it; she closes the notebook over the envelope as she looks up at Dai coming in.
+    cast: [michiko:home]
+    dialogue:
+    - michiko: WASH YOUR HANDS. BEFORE YOU GO NEAR HIM.
+  - pos: upper-left
+    action: Through the open fusuma, in the tatami room, Sota sitting on a cushion by the window in pajamas and two cardigans, small and pale, smiling a little; on the windowsill the blue inhaler in its clear spacer tube and a glasses case, lined up straight.
+    cast: [*sota]
+    dialogue:
+    - sota: NII-CHAN. I'M HOME.
+  - pos: middle-right
+    action: Dai drying his hands on a towel, standing over the low table, looking down at his mother.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: HOW MUCH WAS IT?
+  - pos: middle-left
+    action: Close on Mom's hands doing up the clasp of her worn handbag, the notebook inside it.
+    cast: [{id: michiko, outfit: home, note: "only her hands and cardigan sleeves"}]
+    dialogue:
+    - michiko: IT'S PAID.
+  - pos: lower, wide
+    action: Mom looking through the open fusuma at Sota, who reads a comic with his lips moving; she keeps her voice down.
+    cast: [michiko:home]
+    dialogue:
+    - michiko: HE ASKED ME ON THE BUS IF THE HOSPITAL WAS FREE.
+    - michiko: HE SAID YOU TOLD HIM IT WAS.
+  - pos: lower-right
+    action: Dai standing with the towel in his hands, silent, looking at the floor.
+    cast: [dai_cut:summer_school]
+    captions:
+    - I DIDN'T SAY ANYTHING.
+  - pos: lower-left
+    action: Mom getting up from the low table with one hand on it, tired.
+    cast: [michiko:home]
+    dialogue:
+    - michiko: I SAID YES.
+  - pos: bottom, wide
+    action: Close on Mom's tired face, half turned away toward the fusuma, eyes down.
+    cast: [michiko:home]
+    dialogue:
+    - michiko: THEN HE ASKED HOW MUCH THE BUS WAS.
+
+# ------------------------------------------------------------------ Saturday 7 p.m., the inhaler
+- page: 4
+  title: You can count
+  location: hayama-apartment
+  time: Saturday 7 p.m., evening, dark outside the window, the ceiling light on
+  guards:
+  - "Dai: SHORT black hair, rumpled white short-sleeved summer school shirt, black trousers, one sock half off."
+  - "Sota (11): round glasses, bowl cut, pajamas with two cardigans on top."
+  - "THE INHALER: a small blue inhaler canister that fits into one end of a long CLEAR plastic spacer tube (about the size of a small bottle, two clear halves) with a mouthpiece at the other end. Nothing graphic, calm and ordinary."
+  panels:
+  - pos: top, wide
+    action: Dai asleep on his back on the kitchen tatami in his school clothes, one sock half off; Sota kneeling next to his head, waiting patiently, holding the inhaler and the clear tube in his lap.
+    cast: [dai_cut:summer_school, *sota]
+    captions:
+    - I WAS GONE BEFORE I'D TAKEN THE SECOND SOCK OFF. AT SEVEN SOTA WOKE ME BY SITTING NEXT TO MY HEAD AND WAITING.
+  - pos: upper-right
+    action: Sota holding up the inhaler and the clear spacer tube, very serious.
+    cast: [*sota]
+    dialogue:
+    - sota: I HAVE TO DO IT NOW. MORNING AND NIGHT. EVEN WHEN I'M FINE.
+  - pos: upper-left
+    action: Dai propped up on one elbow on the tatami, sleepy.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I KNOW.
+  - pos: middle-right
+    action: Sota, matter-of-fact.
+    cast: [*sota]
+    dialogue:
+    - sota: YOU CAN COUNT.
+  - pos: middle-left
+    action: Close on Sota's small hands shaking the blue inhaler hard.
+    cast: [{<<: *sota, note: "only his small hands and cardigan cuffs"}]
+    sfx: [SHAKA SHAKA]
+  - pos: lower-right
+    action: Sota with his lips round the mouthpiece of the clear spacer tube, pressing the inhaler on the far end once, breathing in slowly, his eyes on his brother; a tiny flap inside the tube.
+    cast: [*sota]
+    sfx: [{text: TIK, note: small}]
+  - pos: lower-left
+    action: Close on Dai's hand held up where Sota can see it, all ten fingers counted out (both hands open).
+    cast: [{id: dai_cut, outfit: summer_school, note: "only his two hands and shirt cuffs"}]
+    captions:
+    - I COUNTED ON MY FINGERS, WHERE HE COULD SEE THEM. HE GOT TO TEN.
+  - pos: bottom, wide
+    action: Sota breathing out through his nose, already shaking the inhaler again; Dai sitting up beside him.
+    cast: [*sota, dai_cut:summer_school]
+    dialogue:
+    - sota: AGAIN.
+
+# ------------------------------------------------------------------ Saturday night: the cat's names
+- page: 5
+  title: Its name
+  location: hayama-apartment
+  time: Saturday evening, ceiling light on (last panel deep night, dark)
+  guards:
+  - "Dai: SHORT black hair. Sota (11): round glasses, bowl cut, pajamas with two cardigans on top."
+  - "The card: a small hospital menu card with a little cartoon drawing of a smiling rice ball at the top."
+  panels:
+  - pos: top-right
+    action: Sota at the kitchen sink, carefully spitting into the middle of the sink after rinsing his mouth, a cup in his hand.
+    cast: [*sota]
+    dialogue:
+    - sota: YOU HAVE TO RINSE. OR YOU GET MOLD IN YOUR MOUTH. THE NURSE SAID.
+  - pos: top-left
+    action: Sota, sitting back down next to Dai on the tatami, holding out a folded menu card he has taken from his cardigan pocket; the little smiling rice ball drawn at its top.
+    cast: [*sota]
+    captions:
+    - A MENU CARD FROM THE WARD. ON THE BACK, IN PENCIL, IN HIS CAREFUL SQUARE WRITING, THERE WAS A LIST.
+  - pos: middle, wide
+    action: "Close on the back of the card in Dai's hands: four short lines of careful pencil handwriting, too small to read. A caption box is laid over the writing."
+    captions:
+    - TORA. CHAIRO. MARU. HANBUN (BECAUSE OF THE TAIL).
+  - pos: lower-right
+    action: Sota, earnest.
+    cast: [*sota]
+    dialogue:
+    - sota: FOR THE CAT. YOU CAN'T KEEP CALLING IT "THE CAT."
+  - pos: lower-left
+    action: Dai looking at the card.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I DON'T CALL IT ANYTHING.
+  - pos: bottom-right
+    action: Sota running one finger down the four names on the card in Dai's hand.
+    cast: [*sota]
+    dialogue:
+    - sota: YOU HAVE TO ASK IT, THOUGH. WHICH ONE. YOU CAN'T JUST PICK FOR IT. IT'S ITS NAME.
+  - pos: bottom-center
+    action: Close on Dai's hand putting the folded card into the pocket of a grey zip-up jacket hanging on a hook, next to a small plastic bag of white cotton gloves.
+    captions:
+    - I PUT IT IN MY JACKET, IN THE POCKET WITH THE GLOVES.
+  - pos: bottom-left
+    action: Deep night, the dark kitchen; Dai lying on his futon with his eyes open, the refrigerator a dark shape with a faint glow.
+    cast: [dai_cut:casual]
+    captions:
+    - AT THREE I WAS STILL LISTENING TO THE REFRIGERATOR. AT HALF PAST FOUR MOM'S ALARM WENT, AND I WAS ALREADY DRESSED.
+    sfx: [{text: JIRIRIRI, note: small, from behind the sliding door}]
+
+# ------------------------------------------------------------------ Sunday 4:30 a.m. to sunrise
+- page: 6
+  title: Kawamata's?
+  location: hayama-apartment
+  time: Sunday 4:30 a.m. (dark, kitchen light on) to about 5:45 a.m. sunrise
+  guards:
+  - "Dai: SHORT black hair, grey zip-up jacket over an old white gym T-shirt, jeans, white sneakers."
+  - "Mom: tired, a cardigan, her hair HALF UP, a hair clip."
+  panels:
+  - pos: top-right
+    action: The dark genkan by the steel front door, lit from the kitchen; Dai sitting on the step tying his sneakers; Mom in the kitchen doorway with her hair half up, holding a hair clip.
+    cast: [*dai_sun, {id: michiko, outfit: "a worn cardigan over a plain top, loose trousers, her hair HALF pinned up"}]
+    dialogue:
+    - michiko: KAWAMATA'S?
+  - pos: top-left
+    action: Dai not looking up from his laces.
+    cast: [*dai_sun]
+    dialogue:
+    - dai_cut: HIS FATHER DOES THE STOCK EARLY.
+  - pos: middle-right
+    action: Mom holding the hair clip between her teeth, looking at him a moment longer, talking round it.
+    cast: [{id: michiko, outfit: "a worn cardigan over a plain top, her hair HALF pinned up, a hair clip held in her teeth"}]
+    dialogue:
+    - michiko: TAKE YOUR JACKET.
+    - michiko: IT'S GONE COLD.
+  - pos: middle-left
+    action: Grey-blue first light, no sun yet. Dai walking fast with his hands in his jacket pockets along a narrow lane behind long corrugated fish-market sheds, stacked fish crates.
+    cast: [*dai_sun]
+    captions:
+    - I WENT THE BACK WAY, BEHIND THE FISH-MARKET SHEDS, SO I WOULDN'T PASS KUBO-SAN'S STATION.
+  - pos: lower, wide
+    action: The tall round grain silos by the harbor; beyond them the sun coming up out of the sea, a bright line on the water; Dai small, walking past at the bottom of the panel.
+    cast: [{<<: *dai_sun, note: "tiny figure in the distance"}]
+    captions:
+    - AT THE SILOS THE SUN CAME UP OUT OF THE WATER.
+  - pos: bottom-right
+    location: tanabe-yard
+    action: Early sun in the scrapyard. Fumie sitting on an upturned crate outside the grey prefab office with a can of coffee, cigarette in her mouth; through the open door behind her a small radio.
+    cast: [fumie:work]
+    dialogue:
+    - fumie: EARLY.
+  - pos: bottom-center
+    location: tanabe-yard
+    action: Dai standing in the yard, a little out of breath.
+    cast: [*dai_sun]
+    dialogue:
+    - dai_cut: IS SHE HERE?
+  - pos: bottom-left
+    location: tanabe-yard
+    action: Fumie drinking from the coffee can, the cigarette moved to the other corner of her mouth to let the can in.
+    cast: [fumie:work]
+    dialogue:
+    - fumie: IS WHO HERE?
+    - fumie: SIT DOWN. THERE'S COFFEE IN THE OFFICE.
+
+# ------------------------------------------------------------------ Sunday about 6:00, the cleared back lot
+- page: 7
+  title: Somebody had cleared it
+  location: tanabe-yard
+  time: Sunday about 5:55 a.m., clear early morning, low sun, long shadows, dew
+  guards:
+  - "Dai: SHORT black hair, grey zip-up jacket over an old white gym T-shirt, jeans, white sneakers, hands in his pockets."
+  - "No cars on this page except crushed-flat car slabs in stacks."
+  panels:
+  - pos: top-right
+    action: Dai walking past the end of a stack of crushed-flat white sedans, about to look round its corner.
+    cast: [*dai_sun]
+    captions:
+    - I DIDN'T SIT DOWN. I WALKED AS FAR AS THE END OF THE COROLLA STACKS AND LOOKED ROUND THE CORNER.
+  - pos: upper, large
+    location: tanabe-backlot
+    action: "BIG panel: the cleared back lot seen from its near corner, Dai small in the left foreground from behind: the open ground of packed earth and white crushed shell, the long double forklift stripes in the dew; at the far end a new straight wall of crushed-flat sedans four high, white and grey and white; older stacks down the left; the corrugated steel fence down the right; harbor cranes far off against a pale morning sky."
+    cast: [{<<: *dai_sun, note: "small, seen from behind in the foreground"}]
+    captions:
+    - IT HAD CHANGED SINCE LAST SUNDAY. A WALL OF THEM AT THE FAR END, FOUR HIGH, WHITE AND GREY AND WHITE.
+  - pos: middle-right
+    location: tanabe-backlot
+    action: "Low close on the ground, eye level with the weeds: the long double stripes of forklift tires pressed through the dew on the weeds and crushed shell, drops of dew shining."
+    captions:
+    - SOMEBODY HAD CLEARED IT. NOT THIS MORNING. THE DEW WAS ON THE STRIPES TOO.
+  - pos: middle-left
+    action: Dai looking back over his shoulder toward the office, puzzled.
+    cast: [*dai_sun]
+    captions:
+    - I LOOKED AT TANABE-SAN.
+  - pos: lower-right
+    action: Fumie on her crate by the office with her coffee can, not looking at Dai, looking away toward the open yard gate.
+    cast: [fumie:work]
+    captions:
+    - SHE WAS LOOKING AT THE GATE.
+  - pos: lower-left
+    location: tanabe-office
+    action: Close on a small old transistor radio on the office windowsill, its speaker grille.
+    sfx: [PI PI PI POOON]
+    captions:
+    - AT SIX THE RADIO IN THE OFFICE GAVE THE TIME SIGNAL. ON THE LONG ONE I HEARD IT IN THE LANE.
+  - pos: bottom, wide
+    action: The empty lane outside the open yard gate in early sun, white shells and potholes, a long corrugated fence; nothing in it yet, only a faint sound coming.
+    sfx: [{text: brrrrrm, note: small and far away}]
+    captions:
+    - IT DIDN'T SOUND THE SAME IN DAYLIGHT. IT SOUNDED SMALLER.
+
+# ------------------------------------------------------------------ the red car arrives
+- page: 8
+  title: White on red
+  location: tanabe-yard
+  time: Sunday 6:00 a.m., clear early morning, low sun, long shadows
+  guards:
+  - "The red Roadster: right-hand drive, black soft top UP, pop-up headlights DOWN (closed). Each car shot has its own camera angle."
+  - "Dai: SHORT black hair, grey zip-up jacket over an old white gym T-shirt, jeans, white sneakers, hands in his pockets."
+  panels:
+  - pos: top-right
+    action: "Ground-level close in the lane outside the gate: a silver 7-spoke alloy wheel of the red car rolling slowly over white shells and potholes, little stones popping out from under the tire. Only the wheel, the tire and the bottom of the red fender."
+    sfx: [PACHI PACHI]
+  - pos: upper, wide
+    action: The red Roadster coming slowly through the open yard gate in first gear, a little white dust behind it; the yellow crusher and the tire wall beside its path.
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "eye level from inside the yard, mid distance, a front three-quarter view of the car's LEFT flank as it rolls through the gate toward us; its nose points toward the lower RIGHT of the panel"}
+  - pos: middle-right
+    action: The car stopped beside the grey prefab office, engine just switched off.
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "HIGH, from the office's outside steel stair, looking steeply down at the car beside the office: we see the black soft-top roof, the windshield and the long hood from above; its nose points toward the lower LEFT corner"}
+    sfx: [{text: TIK... TIK, note: small}]
+  - pos: middle-left
+    action: Close on the car's lower door and sill (the red paint shown as smooth mid-grey tone), a fine film of WHITE dust settling on it.
+    captions:
+    - THE DUST IT HAD BROUGHT IN OFF THE LANE SETTLED ON ITS SILLS, WHITE ON RED. I WANTED TO WIPE IT OFF.
+  - pos: lower-right
+    action: Dai standing by the stack of crushed Corollas with his hands pushed deep in his jacket pockets, staring at the car.
+    cast: [*dai_sun]
+    captions:
+    - I KEPT MY HANDS IN MY POCKETS.
+  - pos: bottom, wide
+    action: "Low close: the car's RIGHT-side (driver's) door swinging open, and a flat thin-soled black canvas shoe stepping down onto the white shells. Only the door, the shoe and the bottom of a black jeans leg."
+    cast: [{<<: *aka, note: "only her foot, shoe and jeans leg; face not shown"}]
+    captions:
+    - SHE GOT OUT.
+
+# ------------------------------------------------------------------ Two years, girl
+- page: 9
+  title: Two years, girl
+  location: tanabe-yard
+  time: Sunday 6:00 a.m., clear early morning sun
+  guards:
+  - "Akane (21): the young WOMAN, long black hair tied back LOW, calm half-lidded eyes; dark bomber jacket ZIPPED to the chin, black jeans, flat black canvas shoes, black fingerless driving gloves."
+  - "Fumie (over 60): small, square, white towel round her forehead, cigarette, navy work jacket with rolled sleeves."
+  panels:
+  - pos: top, large
+    action: "Akane standing beside the open driver's door of the red car in clear early sunlight, seen for the first time in daylight: dark jacket zipped to the chin, hair tied back low, black gloves with the knuckles out. Calm, unreadable. Only the door edge and roof of the car show behind her."
+    cast: [*aka]
+    captions:
+    - I'D NEVER SEEN HER IN DAYLIGHT. I'D SEEN HER UNDER THE CANOPY LIGHTS, THROUGH A CAR WINDOW, AND UNDER THE HOSPITAL'S LIGHTS IN WHITE.
+  - pos: middle-right
+    action: Close on her RIGHT flat canvas shoe on the white shells, a worn grey patch at the outside of the heel where the canvas has gone thin.
+    cast: [{<<: *aka, note: "only her right shoe and the jeans hem"}]
+    captions:
+    - THE RIGHT ONE WAS WORN AT THE OUTSIDE OF THE HEEL. FROM ROLLING THAT HEEL OVER ONTO THE GAS, I THOUGHT. THOUSANDS OF TIMES.
+  - pos: middle-left
+    action: Fumie standing up off her crate, coffee can in hand, looking at the car and then at the driver.
+    cast: [fumie:work]
+    dialogue:
+    - fumie: TWO YEARS, GIRL.
+  - pos: lower-right
+    action: Akane giving a small bow, not much.
+    cast: [*aka]
+    dialogue:
+    - akane: TANABE-SAN.
+  - pos: lower-left
+    action: Close on Fumie taking the cigarette out of her mouth between two thick brown fingers and looking at the end of it, her face unusually soft.
+    cast: [fumie:work]
+    captions:
+    - TANABE-SAN TOOK THE CIGARETTE OUT OF HER MOUTH, WHICH I HAD NEVER SEEN HER DO.
+  - pos: bottom-right
+    action: Fumie with the cigarette back in her mouth, gruff again, jerking her thumb toward the back of the yard.
+    cast: [fumie:work]
+    dialogue:
+    - fumie: THE BACK'S CLEAR, AKANE-CHAN.
+    - fumie: I PUT THE CROWNS ALONG THE END.
+  - pos: bottom-left
+    action: Akane, quietly.
+    cast: [*aka]
+    dialogue:
+    - akane: THANK YOU.
+
+# ------------------------------------------------------------------ the name, the gloves
+- page: 10
+  title: Put them on
+  location: tanabe-yard
+  time: Sunday just after 6 a.m., clear early morning sun
+  guards:
+  - "Dai: SHORT black hair (forehead uncovered), grey zip-up jacket over an old white gym T-shirt, jeans. His LEFT palm: a thin pink healing line, NO bandage, NO Band-Aid."
+  - "Dai's gloves: thin WHITE cotton work gloves, still creased in squares; Akane's are black fingerless leather."
+  - "The red Roadster: right-hand drive, soft top UP, pop-ups DOWN."
+  panels:
+  - pos: top-right
+    action: Close on Dai's face, eyes wide, saying a name to himself without moving his lips.
+    cast: [*dai_sun]
+    captions:
+    - AKANE.
+    - I'D BEEN FILLING HER CAR EVERY THURSDAY SINCE AUGUST. I SAID IT ONCE, INSIDE, AND THEN I PUT IT AWAY SOMEWHERE.
+  - pos: top-left
+    action: Akane looking down at Dai's hands in his pockets.
+    cast: [*aka]
+    dialogue:
+    - akane: KID.
+  - pos: middle-right
+    action: Dai taking his bare hands out of his jacket pockets.
+    cast: [*dai_sun]
+  - pos: middle-left
+    action: Akane, flat.
+    cast: [*aka]
+    dialogue:
+    - akane: GLOVES.
+  - pos: lower, wide
+    action: "Close on Dai's hands taking a pair of thin WHITE cotton work gloves out of a small plastic bag; they are still creased in squares from the packet; a thin pink line across his left palm."
+    cast: [{<<: *dai_sun, note: "only his two hands"}]
+    captions:
+    - WHITE COTTON, 98 YEN, STILL CREASED IN SQUARES FROM THE PACKET. SHE LOOKED AT THEM FOR ABOUT A SECOND.
+  - pos: bottom-right
+    action: Akane already turning back to her car's open door.
+    cast: [*aka]
+    dialogue:
+    - akane: PUT THEM ON.
+  - pos: bottom-left
+    action: "The red car driving slowly round the end of the stack of crushed Corollas, toward the back of the yard; Dai walking behind it in the forklift's tire stripes, pulling on his second white glove."
+    cast:
+    - {id: roadster, view: rear, state: headlights_down, camera: "LOW from behind Dai's back, a rear three-quarter view of the car's RIGHT flank as it turns away round the corner of the stack, ten meters ahead"}
+    - {<<: *dai_gl, note: "seen from behind, walking"}
+    captions:
+    - I WALKED BEHIND IT IN THE STRIPES OF THE FORKLIFT, OVER THE WEEDS, THROUGH THE COLD.
+
+# ------------------------------------------------------------------ the back lot, into the car
+- page: 11
+  title: Get in
+  location: tanabe-backlot
+  time: Sunday about 6:05 a.m., clear low morning sun from behind the car (over the near-end stacks), long shadows toward the far wall
+  guards:
+  - "Dai: SHORT black hair, grey zip-up jacket over a white gym T-shirt, jeans, thin WHITE cotton work gloves."
+  - "Akane: long black hair LOW ponytail, dark bomber jacket zipped to the chin, black fingerless gloves."
+  - "INSIDE the red Roadster (right-hand drive): Dai sits in the RIGHT seat behind the steering wheel; Akane sits in the LEFT (passenger) seat. Seen from in front through the windshield, Dai is on the image LEFT and Akane on the image RIGHT. The gear lever is between them on the center tunnel. Soft top UP."
+  - "The car stands in the middle of the lot with its nose toward the far wall of crushed sedans."
+  panels:
+  - pos: top, wide
+    action: "HIGH bird's-eye view over the whole walled back lot: crushed-car stacks on three sides, the corrugated fence on the right, the open ground with forklift stripes; the small red car stopped in the middle with its nose to the far wall; an old forklift parked at the near corner by the fence with a tiny old woman sitting on it holding a coffee can; Dai a tiny figure beside the car."
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "very HIGH, almost straight down from above the stacks, the car tiny in the middle of the lot, its nose pointing UP the panel toward the far wall"}
+    - {id: forklift, note: "parked at the near corner by the fence, tiny; Fumie (small old woman, white towel round her forehead) sits on it"}
+    captions:
+    - ABOUT FIFTY METERS LONG AND HALF AS WIDE. YOU COULDN'T SEE ANYTHING BUT CARS THAT DIDN'T GO ANYWHERE ANY MORE, AND THE SKY.
+  - pos: upper-right
+    action: Akane walking round the front of the car, passing in front of the closed pop-ups, toward its left (passenger) side.
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "LOW and close, straight head-on at bumper height: the closed pop-ups, the small grille opening and the hood fill the bottom of the panel"}
+    - *aka
+  - pos: upper-left
+    action: Akane lowering herself into the LEFT (passenger) seat and pulling the door shut; only the open door and her shoulder.
+    cast: [{<<: *aka, note: "half inside the car, the door closing"}]
+    sfx: [BATAN]
+  - pos: middle-right
+    action: Close on Dai's white-gloved hand resting on the black soft-top roof above the driver's window (the car's right side).
+    cast: [{<<: *dai_gl, note: "only his gloved hand and jacket sleeve"}]
+    captions:
+    - I STOOD ON THE RIGHT SIDE OF HER CAR WITH MY HAND ON THE ROOF.
+  - pos: middle-left
+    action: Akane in the passenger seat seen from Dai's side through the open driver's door, looking straight ahead, not at him.
+    cast: [*aka]
+    dialogue:
+    - akane: GET IN.
+  - pos: lower, wide
+    action: "Inside the car, seen from in front through the windshield: Dai in the RIGHT (driver's) seat behind the wheel (image LEFT), stiff, holding nothing; Akane in the LEFT seat (image RIGHT), calm; the wall of crushed sedans reflected faintly in the glass."
+    cast:
+    - *dai_gl
+    - *aka
+    - {id: roadster, view: interior, camera: "from in front of the car looking in through the windshield at both seats"}
+    captions:
+    - MY CAR SMELLED OF MOLD AND CAT AND MACKEREL. THIS ONE SMELLED OF ALMOST NOTHING. CLEAN VINYL, A LITTLE GASOLINE, AND THE COLD.
+  - pos: bottom-right
+    action: "Close on the short gear lever on the center tunnel with its round black knob, the shift pattern (1 to 5 and R) printed on top."
+    cast:
+    - {id: roadster, view: interior, camera: "close from above on the gear knob"}
+    captions:
+    - THE PATTERN ON THE KNOB WAS ALL THERE, EVERY NUMBER.
+  - pos: bottom-left
+    action: Akane in the passenger seat, eyes on the windshield.
+    cast: [*aka]
+    dialogue:
+    - akane: SEAT.
+
+# ------------------------------------------------------------------ the seat
+- page: 12
+  title: Seat
+  location: tanabe-backlot
+  time: Sunday about 6:10 a.m., clear low morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai sits in the RIGHT seat behind the steering wheel; Akane sits in the LEFT (passenger) seat. The gear lever is between them. Three pedals in the driver's footwell: clutch on the LEFT, brake in the middle, gas on the RIGHT."
+  - "Dai: SHORT black hair, grey zip-up jacket, jeans, thin WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: "Low close in the driver's footwell edge: Dai's white-gloved hand feeling under the front of his seat and finding the adjusting bar."
+    cast:
+    - {<<: *dai_gl, note: "only his gloved hand and knee"}
+    - {id: roadster, view: interior, camera: "low, beside the front edge of the driver's seat"}
+    dialogue:
+    - {speaker: akane, text: "PULL IT UP. ALL THE WAY BACK.", offpanel: true}
+  - pos: top-left
+    action: Dai pushing back with his feet, the seat sliding back on its rails and banging against the stop; his body jolting.
+    cast:
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from the passenger side looking across at Dai in profile"}
+    sfx: [GA-CHAN]
+  - pos: middle, wide
+    action: "Close in the driver's footwell from the side: three pedals; Dai's LEFT foot in a white sneaker pushing the LEFT pedal (the clutch), his leg stretched out straight and the pedal still not at the floor."
+    cast:
+    - {<<: *dai_gl, note: "only his legs and sneakers"}
+    - {id: roadster, view: interior, camera: "low in the driver's footwell, side view of the pedals"}
+    dialogue:
+    - {speaker: akane, text: "LEFT FOOT. CLUTCH TO THE FLOOR.", offpanel: true}
+    captions:
+    - MY LEG RAN OUT BEFORE THE PEDAL DID.
+  - pos: lower-right
+    action: Dai pulling the bar again and walking the seat forward with his heels, a click at a time.
+    cast: [*dai_gl]
+    dialogue:
+    - {speaker: akane, text: "FORWARD.", offpanel: true}
+    sfx: [KACHI KACHI KACHI]
+  - pos: lower-left
+    action: Akane glancing down at his knee, expressionless.
+    cast: [*aka]
+    dialogue:
+    - akane: KNEE.
+  - pos: bottom-right
+    action: Dai, his left foot holding the clutch to the floor with the knee still bent.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: BENT.
+  - pos: bottom-left
+    action: "Dai with both arms out straight, his gloved wrists laid on top of the steering wheel rim; to reach it his shoulders have come forward off the seat back."
+    cast:
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from behind and above the passenger seat, looking past Akane's shoulder at Dai and the wheel"}
+    dialogue:
+    - {speaker: akane, text: "ARMS OUT. WRISTS ON TOP OF THE WHEEL.", offpanel: true}
+
+# ------------------------------------------------------------------ hands and mirrors
+- page: 13
+  title: Not the glass
+  location: tanabe-backlot
+  time: Sunday about 6:12 a.m., clear low morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. Wind-up windows with a crank HANDLE on each door (no buttons); door mirrors moved by hand."
+  - "Dai: SHORT black hair, grey zip-up jacket, thin WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: Akane, eyes on him for a moment.
+    cast: [*aka]
+    dialogue:
+    - akane: SHOULDERS BACK.
+  - pos: top-left
+    action: Dai pulling the backrest lever on the side of his seat by the door and leaning; the backrest coming up.
+    cast: [*dai_gl]
+    sfx: [KACHI KACHI]
+  - pos: middle-right
+    action: Akane, short.
+    cast: [*aka]
+    dialogue:
+    - akane: HANDS.
+  - pos: middle-left
+    action: "Close on the steering wheel: Dai's white-gloved hands at nine and three, the thumbs lying ALONG the rim, not hooked round it."
+    cast:
+    - {<<: *dai_gl, note: "only his gloved hands"}
+    - {id: roadster, view: interior, camera: "close on the steering wheel from the driver's eye"}
+    dialogue:
+    - {speaker: akane, text: "THUMBS ALONG THE RIM. NOT ROUND IT.", offpanel: true}
+    captions:
+    - THE BOOK HAD SAID WHY. SHE DIDN'T SAY WHY.
+  - pos: lower-right
+    action: Dai reaching up and grabbing the rear-view mirror with his whole gloved hand flat on the glass.
+    cast:
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from the passenger seat, looking up at the rear-view mirror and Dai's raised hand"}
+    dialogue:
+    - {speaker: akane, text: "NOT THE GLASS.", offpanel: true}
+  - pos: lower-left
+    action: "Dai winding his window down with the crank handle on his door and reaching out to push the RIGHT door mirror with one gloved finger."
+    cast: [*dai_gl]
+    captions:
+    - A HANDLE, NOT A BUTTON, THE SAME AS IN MINE.
+  - pos: bottom-right
+    action: "Akane with her window wound down, reaching out to the LEFT door mirror with her gloved hand and tipping it a little at a time."
+    cast: [*aka]
+    dialogue:
+    - akane: SAY WHEN.
+  - pos: bottom-left
+    action: Dai looking into the door mirror on his right.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: THERE.
+
+# ------------------------------------------------------------------ the feet on the bypass
+- page: 14
+  title: What did my feet do
+  location: tanabe-backlot
+  time: Sunday about 6:15 a.m., clear low morning sun (the memory panel is NIGHT)
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. Pedals in the driver's footwell: clutch LEFT, brake middle, gas RIGHT."
+  - "Dai: SHORT black hair, grey zip-up jacket, thin WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: Akane winding her window back up with the crank handle.
+    cast: [*aka]
+    dialogue:
+    - akane: BELT.
+  - pos: top-left
+    action: Close on Dai's gloved hands pulling the seat belt across and clicking it into the buckle himself.
+    cast: [{<<: *dai_gl, note: "only his gloved hands and the belt"}]
+    sfx: [KACHIN]
+    captions:
+    - SHE'D DONE IT FOR ME, THE LAST TIME I WAS IN THIS CAR. I DIDN'T KNOW IF SHE REMEMBERED.
+  - pos: middle, wide
+    action: Akane in profile looking straight ahead through the windshield at the wall of crushed cars, not at Dai.
+    cast:
+    - *aka
+    - {id: roadster, view: interior, camera: "from the driver's side, Akane in profile against her side window"}
+    dialogue:
+    - akane: THAT NIGHT. ON THE BYPASS.
+    - akane: WHAT DID MY FEET DO?
+  - pos: middle-right
+    action: Dai answering at once, sure of it.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: EVERY TIME YOU SLOWED DOWN. BRAKE FIRST, WITH THE BALL OF YOUR RIGHT FOOT. THEN THE CLUTCH, ALL THE WAY. LEVER OUT.
+    captions:
+    - I DIDN'T HAVE TO THINK. I'D DONE IT ON MY FUTON, ON THE PUMP-ISLAND CURB, AND UNDER THE DINNER TABLE AGAINST AYA'S SHIN.
+  - pos: middle-left
+    action: "Memory inset with a dark border, NIGHT: a dark footwell lit orange by passing streetlights, a woman's right foot in a flat canvas shoe on the brake pedal rolling its heel over onto the gas pedal, the left foot pressing the clutch."
+    dialogue:
+    - {speaker: dai_cut, text: "THEN THE HEEL GOES OVER ONTO THE GAS, QUICK, MORE LIKE A HICCUP THAN A PUSH. LEVER INTO THE LOWER GEAR. CLUTCH UP.", offpanel: true}
+  - pos: lower-right
+    action: Dai, finishing, looking ahead.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: AND YOUR RIGHT FOOT NEVER CAME OFF THE BRAKE WHILE YOU DID IT.
+  - pos: lower-left
+    action: Akane, unmoved.
+    cast: [*aka]
+    dialogue:
+    - akane: UNDER THE OVERPASS.
+  - pos: bottom, wide
+    action: "Two-shot from behind the seats: the backs of their heads, Dai on the image RIGHT behind the wheel, Akane on the image LEFT; through the windshield the wall of crushed sedans."
+    cast:
+    - *dai_gl
+    - *aka
+    - {id: roadster, view: interior, camera: "from behind the two seats, over the soft top's rear window"}
+    dialogue:
+    - dai_cut: NOTHING. YOU'D ALREADY DONE IT ALL. RIGHT FOOT FLAT ON THE GAS, ALL THE WAY ROUND. LEFT FOOT ON THE FLOOR BESIDE THE CLUTCH.
+
+# ------------------------------------------------------------------ the left foot
+- page: 15
+  title: What did my left foot do
+  location: tanabe-backlot
+  time: Sunday about 6:17 a.m., clear low morning sun (the memory panel is NIGHT)
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. The gear lever is between them; Dai works it with his LEFT hand. The ignition key is on the right of the steering column."
+  - "Dai: SHORT black hair, grey zip-up jacket, thin WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: Close on Akane's calm face in three-quarter view, saying nothing.
+    cast: [*aka]
+    captions:
+    - SHE DIDN'T SAY YES OR NO.
+  - pos: top-left
+    action: Akane still looking straight ahead through the windshield.
+    cast: [*aka]
+    dialogue:
+    - akane: WHEN WE LEFT KUBO'S. OFF THE FORECOURT.
+    - akane: WHAT DID MY LEFT FOOT DO?
+  - pos: middle-right
+    action: Dai with his mouth half open, about to answer, and nothing coming.
+    cast: [*dai_gl]
+  - pos: middle-left
+    location: harbor-station-night
+    action: "Memory inset with a dark border, NIGHT: the gas station forecourt seen through a car's windshield as the car pulls out, the canopy lights sliding overhead, a small old man in a cap in the lit office door, the dark harbor road coming. No people inside the car are shown."
+    captions:
+    - I'D BEEN LOOKING AT THE ROAD COMING. I HADN'T LOOKED DOWN ONCE.
+  - pos: lower-right
+    action: Dai, low.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: I DON'T KNOW.
+  - pos: lower-left
+    action: Akane putting her gloved hands together in her lap.
+    cast: [*aka]
+    dialogue:
+    - akane: "NO."
+  - pos: bottom-right
+    action: Akane, matter-of-fact, eyes ahead.
+    cast: [*aka]
+    dialogue:
+    - akane: CLUTCH IN. HOLD IT. NEUTRAL. START IT.
+  - pos: bottom-left
+    action: "Close: Dai's left gloved hand wobbling the gear lever side to side to feel it loose in neutral while his right hand turns the key."
+    cast:
+    - {<<: *dai_gl, note: "only his gloved hands"}
+    - {id: roadster, view: interior, camera: "close on the center tunnel and the steering column from above"}
+    sfx: [KYURURU... BURON]
+    captions:
+    - LOOSE IN THE MIDDLE, THE WAY THE BOOK SAID. THE ENGINE CAUGHT, AND WENT UP, AND CAME DOWN, AND SAT THERE.
+
+# ------------------------------------------------------------------ stall one
+- page: 16
+  title: One
+  location: tanabe-backlot
+  time: Sunday about 6:20 a.m., clear low morning sun from behind the car
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. Pedals: clutch LEFT, brake middle, gas RIGHT. Two small warning lamps on the dash: a battery symbol and an oil-can symbol."
+  - "Dai: SHORT black hair, grey zip-up jacket, thin WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  - "The red Roadster outside: soft top UP, pop-ups DOWN, the car faces the wall of crushed sedans."
+  panels:
+  - pos: top-right
+    action: Close on the round tachometer, its needle sitting just under the 1.
+    cast: [{id: roadster, view: interior, camera: "close on the gauges through the steering wheel"}]
+    sfx: [{text: BURORORO, note: small and steady}]
+    captions:
+    - THROUGH THE SEAT AND THE WHEEL AND THE PEDAL I COULD FEEL ALL FOUR OF THEM GOING, SMALL AND QUICK AND BUSY. MY OWN CAR HAD NEVER DONE THIS.
+  - pos: top-left
+    action: "Close: Dai's LEFT gloved hand pushing the gear lever forward and away into first."
+    cast: [{<<: *dai_gl, note: "only his gloved left hand"}]
+    dialogue:
+    - {speaker: akane, text: "FIRST.", offpanel: true}
+    sfx: [{text: KACHI, note: small}]
+  - pos: middle, wide
+    action: Akane looking out of the windshield, giving the instructions evenly; Dai beside her gripping the wheel.
+    cast:
+    - *aka
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from in front through the windshield: Dai on the image LEFT behind the wheel, Akane on the image RIGHT"}
+    dialogue:
+    - akane: HANDBRAKE DOWN. NO GAS. LEAVE YOUR RIGHT FOOT ON THE FLOOR.
+    - akane: BRING THE CLUTCH UP UNTIL IT MOVES. WHEN IT MOVES, STOP YOUR FOOT.
+  - pos: lower-right
+    action: "Close in the footwell, motion lines: Dai's left foot springing up off the clutch pedal all at once."
+    cast: [{<<: *dai_gl, note: "only his left leg and sneaker"}]
+    captions:
+    - MY FOOT CAME UP THE WAY YOU LET GO OF A LIGHT SWITCH.
+  - pos: lower-left, large
+    action: The whole car lunging half a meter forward at the wall of crushed sedans, its nose dipping hard, dust jumping from the tires.
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "LOW, close to the ground just ahead of the car's LEFT front corner, the nose dipping down toward the camera, the wall of crushed cars behind the camera's back"}
+    sfx: [GAKUN!]
+  - pos: bottom-right
+    action: Dai's head snapping forward and back against the headrest, eyes wide; Akane beside him barely moving.
+    cast: [*dai_gl, *aka]
+    sfx: [BUSUN]
+  - pos: bottom-left
+    action: Close on the dashboard behind the steering wheel, two small red warning lamps lit (a battery symbol and an oil-can symbol), drawn as bright white lamps with dark surrounds.
+    cast: [{id: roadster, view: interior, camera: "close on the dashboard lamps"}]
+    dialogue:
+    - {speaker: fumie, text: "ONE.", offpanel: true, at: "small, at the panel edge, from far behind"}
+    captions:
+    - TWO RED LIGHTS. OUTSIDE, A GULL. THE TICK OF SOMETHING HOT UNDER THE HOOD. BEHIND US, ON THE FORKLIFT, TANABE-SAN'S VOICE.
+
+# ------------------------------------------------------------------ stall two
+- page: 17
+  title: Two
+  location: tanabe-backlot
+  time: Sunday about 6:22 a.m., clear low morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. The handbrake lever is between the seats."
+  - "Dai: SHORT black hair, grey zip-up jacket, thin WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  - "Fumie: on the old forklift parked at the near corner of the lot by the fence, behind the car."
+  panels:
+  - pos: top-right
+    action: Akane's gloved hand already on the handbrake lever between the seats, pulling it up; she speaks without looking at him.
+    cast: [*aka]
+    dialogue:
+    - akane: CLUTCH IN. NEUTRAL. START IT. HANDBRAKE.
+    captions:
+    - SHE'D PULLED THE HANDBRAKE ON HERSELF, WHILE I WAS STILL LOOKING AT THE RED LIGHTS.
+  - pos: top-left
+    action: Close on Dai's left leg trembling from the thigh down as he holds the clutch pedal halfway, shake lines.
+    cast: [{<<: *dai_gl, note: "only his leg and sneaker"}]
+    sfx: [{text: PURU PURU, note: small}]
+    captions:
+    - THE SECOND TIME I WENT SLOWLY. SO SLOWLY THAT MY LEG STARTED TO SHAKE.
+  - pos: middle, wide
+    action: Dai's face in close-up, startled, his eyes going wide as the car under him gives a small heave.
+    cast: [*dai_gl]
+    captions:
+    - NEAR THE TOP THE CAR GAVE A SMALL HEAVE, LIKE IT HAD REMEMBERED SOMETHING. IT FRIGHTENED ME.
+  - pos: lower-right
+    action: Close on the footwell, his sneaker jumping right off the clutch pedal into the air.
+    cast: [{<<: *dai_gl, note: "only his sneaker and the pedal"}]
+  - pos: lower-left
+    action: "Seen from the passenger side: Dai thrown forward hard against the seat belt across his chest, both hands slipping on the wheel; the car leaping."
+    cast:
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from beside Akane's seat looking across at Dai"}
+    sfx: [GAKON!]
+  - pos: bottom-right
+    action: Fumie sitting on the forklift seat with her coffee can, deadpan, the cigarette in her mouth.
+    cast: [fumie:work, {id: forklift, note: "only its seat and steel guard cage around her"}]
+    dialogue:
+    - fumie: TWO.
+  - pos: bottom-center
+    action: Akane, still not looking at his feet.
+    cast: [*aka]
+    dialogue:
+    - akane: HEEL ON THE FLOOR.
+  - pos: bottom-left
+    action: Dai, defensive.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: IT IS.
+
+# ------------------------------------------------------------------ stall three
+- page: 18
+  title: Three
+  location: tanabe-backlot
+  time: Sunday about 6:24 a.m., clear low morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. Pedals: clutch LEFT, brake middle, gas RIGHT."
+  - "Dai: SHORT black hair, grey zip-up jacket, thin WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: Akane, calm, eyes still ahead.
+    cast: [*aka]
+    dialogue:
+    - akane: IT'S IN THE AIR. YOUR WHOLE LEG'S LIFTING.
+    - akane: HEEL ON THE FLOOR. MOVE THE FRONT OF THE FOOT. NOT THE LEG.
+  - pos: top-left
+    action: "Close in the footwell: Dai's heel planted hard on the floor mat, only the front of his sneaker lifting on the clutch pedal."
+    cast: [{<<: *dai_gl, note: "only his sneaker and ankle"}]
+    captions:
+    - WHICH IS A DIFFERENT THING. I'D NEVER KNOWN IT WAS. IT FELT LIKE HOLDING A PENCIL WITH THE WRONG HAND.
+  - pos: middle, wide
+    action: "The whole cabin shivering: Dai and Akane in their seats with small fast shake lines round them, seen from in front through the windshield (Dai on the image LEFT, Akane on the image RIGHT); an inset of the tachometer needle sinking."
+    cast:
+    - *dai_gl
+    - *aka
+    - {id: roadster, view: interior, camera: "from in front looking in through the windshield, slightly from above"}
+    sfx: [BURURURU]
+    captions:
+    - I HELD MY FOOT THERE. I THOUGHT I DID.
+  - pos: lower-right
+    action: Dai looking down at his own foot, dismayed.
+    cast: [*dai_gl]
+    captions:
+    - WHEN I LOOKED DOWN, MY FOOT WAS HIGHER ON THE PEDAL THAN WHERE I'D STOPPED IT.
+  - pos: lower-left
+    action: Fumie on the forklift seen from low below, against the sky and the stacks, holding up three thick fingers, the coffee can in the other hand.
+    cast: [fumie:work, {id: forklift, note: "the steel guard cage over her, from below"}]
+    dialogue:
+    - fumie: THREE.
+  - pos: bottom-right
+    action: Akane, turning her head a little toward him for the first time.
+    cast: [*aka]
+    dialogue:
+    - akane: YOU STOPPED. THEN YOU KEPT GOING. IT TOLD YOU TO STOP.
+  - pos: bottom-center
+    action: Dai, frustrated.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: IT DIDN'T SAY ANYTHING.
+  - pos: bottom-left
+    action: Akane, eyes back on the windshield.
+    cast: [*aka]
+    dialogue:
+    - akane: IT SHOOK.
+
+# ------------------------------------------------------------------ stall four
+- page: 19
+  title: Four
+  location: tanabe-backlot
+  time: Sunday about 6:26 a.m., clear low morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. The gear lever is between them; Dai works it with his LEFT hand. Gear pattern on the knob: 1 top-left, 2 bottom-left, 3 top-middle, 4 bottom-middle, 5 top-right, R bottom-right."
+  - "Dai: SHORT black hair, grey zip-up jacket, thin WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top, wide
+    action: "Close: Dai's LEFT gloved hand yanking the gear lever forward, not far enough across to the left, his eyes not on it; motion lines."
+    cast:
+    - {<<: *dai_gl, note: "his gloved hand and the side of his tense face"}
+    - {id: roadster, view: interior, camera: "low from the passenger seat across the center tunnel"}
+    captions:
+    - THE FOURTH TIME I WANTED IT SO MUCH I DIDN'T LOOK WHERE THE LEVER WAS.
+  - pos: upper-right
+    action: "The driver's floor and pedals with heavy vibration lines coming up through the floor, Dai's feet on the pedals."
+    cast: [{<<: *dai_gl, note: "only his legs and sneakers"}]
+    sfx: [DODODODO]
+    captions:
+    - IT MOVED A HAND'S WIDTH, VERY HEAVILY, WITH A LONG LOW HAMMERING COMING UP THROUGH THE FLOOR, AND DIED.
+  - pos: upper-left
+    action: Akane, without turning.
+    cast: [*aka]
+    dialogue:
+    - akane: WHICH GEAR?
+  - pos: middle-right
+    action: "Close from above on the gear knob: the lever stands in the THIRD position (top-middle of the pattern)."
+    cast: [{id: roadster, view: interior, camera: "straight down on the gear knob"}]
+    captions:
+    - IT WAS IN THIRD.
+  - pos: middle-left
+    action: Fumie on the forklift calling out across the lot, one hand cupped by her mouth, cigarette in the other.
+    cast: [fumie:work, {id: forklift, note: "only the seat and part of the guard cage"}]
+    dialogue:
+    - fumie: FOUR.
+  - pos: lower, wide
+    action: Dai red in the face, staring ahead, sweat at his temple; beside him Akane sitting with her gloved hands folded in her lap, waiting, patient.
+    cast:
+    - *dai_gl
+    - *aka
+    - {id: roadster, view: interior, camera: "from in front through the windshield: Dai on the image LEFT, Akane on the image RIGHT"}
+    captions:
+    - MY FACE HAD GONE HOT UNDER THE COLD. SHE SAT WITH HER GLOVED HANDS IN HER LAP AND WAITED.
+  - pos: bottom-right
+    action: Three tiny side-by-side close-ups of Dai's gloved hands in sequence, drawn as one strip inside this panel (key turning, lever wobbled to neutral, handbrake gripped).
+    cast: [{<<: *dai_gl, note: "only his gloved hands"}]
+    captions:
+    - CLUTCH IN. NEUTRAL. KEY. HANDBRAKE.
+  - pos: bottom-left
+    action: Dai looking hard at the gear knob with his eyes as his left hand moves the lever across to the left and forward into first.
+    cast: [*dai_gl]
+    captions:
+    - FIRST GEAR. ACROSS AND FORWARD. I LOOKED AT IT WITH MY EYES AND FELT IT WITH MY HAND.
+
+# ------------------------------------------------------------------ stall five
+- page: 20
+  title: Five
+  location: tanabe-backlot
+  time: Sunday about 6:28 a.m., clear low morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. Dai's door window is on his RIGHT. The handbrake lever is between the seats."
+  - "Dai: SHORT black hair, grey zip-up jacket, thin WHITE cotton work gloves, now gone GREY across the palms. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: Close on Dai's left leg straining, the heel on the floor and the front of the foot holding the clutch pedal very still; sweat on his jaw.
+    cast: [{<<: *dai_gl, note: "his leg and the side of his face"}]
+    captions:
+    - THE CAR HEAVED, AND THIS TIME I MADE MY FOOT STOP AND STAY STOPPED. THEN A HAIR MORE, AND A HAIR MORE.
+  - pos: top-left
+    action: Ground-level close on the car's right front tire and silver 7-spoke wheel on the crushed shell, one white shell cracking under the tread. Only the wheel, the tire and the ground.
+    sfx: [PAKI... PAKI]
+  - pos: middle, wide
+    action: "From inside, looking past Dai's profile out of his RIGHT door window: a clump of foxtail grass by the door sliding slowly backwards past the glass; his eyes following it."
+    cast:
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from the passenger seat looking across Dai at his window"}
+    captions:
+    - A CLUMP OF FOXTAIL BY MY DOOR WENT SLOWLY BACKWARDS PAST THE WINDOW, AND I UNDERSTOOD THAT WE WERE MOVING.
+  - pos: lower-right
+    action: "The view through the windshield over the dashboard and the steering wheel rim: the wall of crushed sedans ahead, getting closer."
+    cast: [{id: roadster, view: interior, camera: "Dai's point of view through the windshield"}]
+    captions:
+    - THE CROWNS WERE IN FRONT OF US, AND NOBODY HAD TOLD ME WHAT CAME NEXT.
+  - pos: lower-left
+    action: "Close: Dai's right sneaker stamping down on the middle (brake) pedal; the whole cabin jolting with impact lines."
+    cast: [{<<: *dai_gl, note: "only his right leg and sneaker"}]
+    sfx: [GAKON!]
+    dialogue:
+    - {speaker: fumie, text: "FIVE.", offpanel: true, at: "small, at the top edge"}
+  - pos: bottom-right
+    action: Akane reaching across in silence and pulling the handbrake on between the seats, not looking at him.
+    cast: [*aka]
+    captions:
+    - SHE DIDN'T SAY ANYTHING AT ALL.
+  - pos: bottom-left
+    action: "Close on Dai's two hands on the steering wheel rim: the white cotton gloves already gone GREY across the palms from the rim."
+    cast:
+    - {<<: *dai_gl, note: "only his hands; the gloves grey across the palms"}
+    - {id: roadster, view: interior, camera: "close on the wheel rim"}
+    dialogue:
+    - {speaker: akane, text: "AGAIN.", offpanel: true}
+
+# ------------------------------------------------------------------ stall six
+- page: 21
+  title: Six
+  location: tanabe-backlot
+  time: Sunday about 6:31 a.m., clear low morning sun from behind the car
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  - "The car faces the far wall; BEHIND it are the stacks of crushed white Corollas and, at their corner by the fence, Fumie's forklift."
+  panels:
+  - pos: top, wide
+    action: Dai's face, determined again, both hands on the wheel.
+    cast: [*dai_gl]
+    dialogue:
+    - {speaker: akane, text: "A LITTLE. UP TO TWO. THEN THE CLUTCH.", offpanel: true}
+    captions:
+    - SOME OF THEM I CAN'T TELL APART NOW. I COULD THEN. EVERY ONE HAD ITS OWN SHAPE.
+  - pos: upper-right
+    action: Close on the car's round tachometer (white numbers 0 to 8 on a black dial), the needle flung up to 4, speed lines round the dial.
+    sfx: [WAAAAAN!]
+  - pos: middle, large
+    action: "The back wheels spinning on the shell, throwing a spray of crushed shell back against the stack of crushed Corollas behind the car; the engine screaming between the stacks."
+    cast:
+    - {id: roadster, view: rear, state: headlights_down, camera: "at GROUND level directly behind the car, low and close, the two rear tires spinning and shell flying toward the camera"}
+    sfx: [JAJAJAJA]
+  - pos: middle-left
+    action: Inside, Dai and Akane both pitched forward as the car falls on its nose and dies.
+    cast:
+    - {<<: *dai_gl, note: "seen from behind the two seats: Dai on the image RIGHT behind the steering wheel"}
+    - {<<: *aka, note: "seen from behind, on the image LEFT in the passenger seat"}
+    captions:
+    - I TOOK MY FOOT OFF THE GAS IN FRIGHT. THE CAR FELL ON ITS FACE AND DIED.
+  - pos: lower-right
+    action: Dai twisted round in his seat, looking back over his RIGHT shoulder out of the small rear window.
+    cast: [*dai_gl]
+    dialogue:
+    - {speaker: fumie, text: "MIND MY COROLLAS!", offpanel: true}
+  - pos: lower-left
+    action: Fumie standing up on the forklift's step, her coffee can held out to one side, glaring across the lot.
+    cast: [fumie:work, {id: forklift, note: "she stands up on its step"}]
+    dialogue:
+    - fumie: SIX.
+  - pos: bottom, wide
+    action: Akane in profile when he turns back, her voice flat.
+    cast: [*aka]
+    dialogue:
+    - akane: TWO.
+    - akane: NOT FOUR.
+
+# ------------------------------------------------------------------ stalls seven and eight
+- page: 22
+  title: You put it on
+  location: tanabe-backlot
+  time: Sunday about 6:34 a.m., clear low morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. The handbrake lever is between the seats; the gear lever on the center tunnel, worked with Dai's LEFT hand."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: Dai pressed back in his seat, straining, as the car squats on its back wheels without moving; a wavy line of hot smell.
+    cast: [*dai_gl]
+    captions:
+    - UP TO TWO. THE CAR SQUATTED DOWN ON ITS BACK WHEELS AND PULLED AGAINST THEM, AND A HOT SMELL CAME UP FROM SOMEWHERE, AND IT STALLED.
+  - pos: top-left
+    action: Ground-level close on a rear tire squashed down on the shell, a faint wisp of heat. Only the wheel, the tire, the rear fender edge and the ground.
+    sfx: [GUGUGU]
+    dialogue:
+    - {speaker: fumie, text: "SEVEN.", offpanel: true, at: "small, at the panel edge"}
+  - pos: middle-right
+    action: Akane, eyes ahead.
+    cast: [*aka]
+    dialogue:
+    - akane: HANDBRAKE.
+  - pos: middle-left
+    action: "Close on the handbrake lever between the seats: it is pulled UP. Dai's eyes looking down at it."
+    cast:
+    - {<<: *dai_gl, note: "only his eyes at the top edge of the panel"}
+    - {id: roadster, view: interior, camera: "close on the handbrake lever from above"}
+    captions:
+    - IT WAS UP. SHE'D PULLED IT ON WHILE I WAS TURNED ROUND LOOKING AT THE FORKLIFT, AND I HADN'T SEEN HER DO IT.
+  - pos: lower-right
+    action: Dai turning to her, half accusing.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: YOU PUT IT ON.
+  - pos: lower-left
+    action: Akane, not turning.
+    cast: [*aka]
+    dialogue:
+    - akane: "YES."
+  - pos: bottom, wide
+    action: Dai, pleased with himself, his left hand pulling the gear lever straight back into second, clutch pedal down.
+    cast:
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from behind the seats over Dai's left shoulder"}
+    captions:
+    - THE NEXT ONE MOVED. TWO METERS. I WAS SO PLEASED THAT I WENT FOR SECOND, THE WAY I'D DONE IT ON MY FUTON A THOUSAND TIMES.
+  - pos: bottom-right
+    action: Big slow shaking through everything, Dai's teeth clenched and rattling, his hands juddering on the wheel, heavy vibration lines.
+    cast: [*dai_gl]
+    sfx: [DOGOGOGO]
+    dialogue:
+    - {speaker: fumie, text: "EIGHT.", offpanel: true, at: "small, at the panel edge"}
+  - pos: bottom-left
+    action: Akane, quietly.
+    cast: [*aka]
+    dialogue:
+    - akane: IT SHOOK.
+
+# ------------------------------------------------------------------ stalls nine and ten
+- page: 23
+  title: I had you down for nine
+  location: tanabe-backlot
+  time: Sunday about 6:37 a.m., clear morning sun, a little higher now
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  - "The cat: big striped tabby with HALF A TAIL (a short stump) and a notched ear."
+  panels:
+  - pos: top-right
+    action: Dai, sullen, staring ahead.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: I KNOW.
+  - pos: top-left
+    action: Akane, still looking out of the windshield.
+    cast: [*aka]
+    dialogue:
+    - akane: YOU FELT IT SHAKE. YOU KEPT GOING.
+  - pos: middle-right
+    action: Fumie on the forklift seat, looking pleased about something, the coffee can raised.
+    cast: [fumie:work, {id: forklift, note: "only the seat and guard cage"}]
+    dialogue:
+    - fumie: NINE.
+    captions:
+    - I DON'T REMEMBER THE ONE AFTER THAT AT ALL.
+  - pos: middle-left
+    action: The big striped cat with half a tail sitting on an old tire at the end of a stack of crushed cars, watching, its stump of a tail wrapped round its feet.
+    cast: [cat]
+    captions:
+    - THE CAT HAD COME OUT OF THE WEEDS BY THEN, WITH ITS TAIL WRAPPED ROUND ITS FEET, THE HALF OF IT THERE WAS.
+  - pos: lower, wide
+    action: "The red car hopping forward three times in a row across the shell, drawn with three motion arcs and dust puffs, while inside Dai's calf shakes."
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "HIGH oblique from the top of the stacks on the LEFT side of the lot, looking down at the car's LEFT flank (passenger side), its nose pointing to the LEFT edge of the panel"}
+    sfx: [GAKU GAKU GAKUN]
+    captions:
+    - THEN MY LEFT LEG WENT. MY CALF STARTED TO SHAKE ON ITS OWN. THE CAR WENT FORWARD IN THREE HOPS. ON THE THIRD ONE, IT DIED.
+  - pos: bottom-right
+    action: Fumie half off the forklift, pointing at the car with her cigarette, outraged.
+    cast: [fumie:work]
+    dialogue:
+    - fumie: TEN.
+    - fumie: I HAD YOU DOWN FOR NINE!
+  - pos: bottom-center
+    action: Dai turning his head toward the back window.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: HAD ME DOWN FOR WHAT?
+  - pos: bottom-left
+    action: Fumie standing on the ground by the forklift stretching her back with both hands on it.
+    cast: [fumie:work]
+    dialogue:
+    - fumie: I BET MYSELF A COFFEE. NOW I OWE MYSELF.
+    - fumie: DON'T LOOK AT ME. LOOK AT YOUR FEET.
+
+# ------------------------------------------------------------------ stall eleven
+- page: 24
+  title: Bang
+  location: tanabe-backlot
+  time: Sunday about 6:40 a.m., clear morning sun, now over the stacks behind the car
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. The rear-view mirror is at the top center of the windshield."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: The empty old tire at the end of the stack; the last of a stumpy striped tail disappearing into the weeds.
+    captions:
+    - THE CAT GOT OFF ITS TIRE AND WENT BACK INTO THE WEEDS.
+  - pos: top-left
+    action: Close on Dai's grey-palmed gloved hands gripping the wheel, damp.
+    cast: [{<<: *dai_gl, note: "only his hands"}]
+    captions:
+    - MY HANDS WERE WET INSIDE THE GLOVES. I COULD FEEL MY HEART IN THE CUT.
+  - pos: middle-right
+    action: The rear-view mirror with the low sun blazing white in it.
+    cast: [{id: roadster, view: interior, camera: "close on the rear-view mirror from below"}]
+    captions:
+    - THE SUN HAD COME UP OVER THE STACKS AND WAS IN THE MIRROR, AND I DIDN'T MOVE THE MIRROR.
+  - pos: middle-left
+    action: Dai staring ahead, jaw tight, angry at himself.
+    cast: [*dai_gl]
+    dialogue:
+    - {speaker: akane, text: "CLUTCH IN. NEUTRAL. START IT.", offpanel: true}
+    captions:
+    - I DIDN'T KNOW WHAT A CLUTCH COST. I KNEW IT WASN'T MINE.
+  - pos: lower-right
+    action: "Close in the footwell, speed lines: the left foot snapping up off the clutch while the right foot stamps the gas."
+    cast: [{<<: *dai_gl, note: "only his legs and sneakers"}]
+    captions:
+    - TO MAKE IT GO. TO MAKE IT JUST GO.
+  - pos: lower-left, large
+    action: "The car bucking violently: Akane's gloved hand shoots out flat against the dashboard to brace; Dai thrown against the belt."
+    cast:
+    - *aka
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from in front through the windshield, close: Dai on the image LEFT, Akane on the image RIGHT with her hand flat on the dash"}
+    sfx: [BANG!]
+  - pos: bottom, wide
+    action: The car rocking forward and back on its springs, then still, alone in the middle of the walled lot.
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "front three-quarter of the car's RIGHT flank, slightly from above, from the corner of the lot by the fence at the far end; the car rocking"}
+    captions:
+    - WE ROCKED FORWARD AND BACK ON THE SPRINGS, TWICE, AND WERE STILL.
+
+# ------------------------------------------------------------------ eleven
+- page: 25
+  title: Nobody says anything about eleven
+  location: tanabe-backlot
+  time: Sunday about 6:41 a.m., clear morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. The handbrake lever is between the seats."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top, wide
+    action: "A still, silent panel through the windshield: the dash with its two small lit warning lamps in the foreground, a gull standing on top of the wall of crushed cars beyond."
+    cast: [{id: roadster, view: interior, camera: "from the driver's seat, looking over the dashboard through the windshield"}]
+    captions:
+    - NOBODY SAID ANYTHING. THE RED LIGHTS. THE GULL. THE HOT TICK UNDER THE HOOD. A LONG WAY OFF, A FISH TRUCK GOING DOWN THROUGH ITS GEARS ON THE HARBOR ROAD.
+  - pos: upper-right
+    action: Fumie standing by the forklift at the far corner of the lot, small in the panel, coffee can in hand.
+    cast: [fumie:work]
+    dialogue:
+    - fumie: ELEVEN.
+    - fumie: FALL DOWN SEVEN TIMES, GET UP EIGHT, THEY SAY.
+  - pos: upper-left
+    action: Close on Fumie's thick hand flicking a lighter at a new cigarette.
+    cast: [{id: fumie, outfit: work, note: "only her hand, the lighter and the cigarette at her mouth"}]
+    sfx: [{text: KACHI, note: small}]
+    dialogue:
+    - fumie: NOBODY SAYS ANYTHING ABOUT ELEVEN.
+  - pos: middle-right
+    action: Close on Dai's right knee jigging up and down, and his gloved hand pressing down on it until it stops.
+    cast: [{<<: *dai_gl, note: "only his knee and gloved hand"}]
+    captions:
+    - MY RIGHT KNEE HAD STARTED GOING UP AND DOWN. I PUT MY HAND ON IT, AND IT STOPPED.
+  - pos: middle-left
+    action: Akane pulling the handbrake on and taking her hand back, then speaking.
+    cast: [*aka]
+    dialogue:
+    - akane: FEET ON THE FLOOR. BOTH OF THEM.
+    - akane: SHUT YOUR EYES.
+  - pos: lower-right
+    action: Dai turning to look at her, surprised.
+    cast: [*dai_gl]
+  - pos: lower-left
+    action: Akane, unmoved, eyes ahead.
+    cast: [*aka]
+    dialogue:
+    - akane: SHUT THEM.
+  - pos: bottom, wide
+    action: Dai with his eyes shut, the low morning sun on his face and closed lids, his gloved hands loose on the wheel; quiet.
+    cast: [*dai_gl]
+    captions:
+    - IT WAS RED BEHIND MY LIDS, FROM THE SUN.
+
+# ------------------------------------------------------------------ the bite
+- page: 26
+  title: Tell me when it bites
+  location: tanabe-backlot
+  time: Sunday about 6:43 a.m., clear morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. Pedals: clutch LEFT, brake middle, gas RIGHT."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves; his EYES ARE SHUT on this page until the last panel. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top-right
+    action: Dai, eyes shut, his left hand finding the gear lever and his right the key by feel.
+    cast:
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from the passenger seat, Dai in three-quarter view"}
+    dialogue:
+    - {speaker: akane, text: "START IT.", offpanel: true}
+    sfx: [{text: BURORORO, note: small}]
+    captions:
+    - SMALL AND QUICK AND BUSY, UNDER THE SEAT AND UNDER MY HANDS.
+  - pos: top-left
+    action: Akane watching the windshield, speaking low.
+    cast: [*aka]
+    dialogue:
+    - akane: FIRST. HANDBRAKE DOWN. NO GAS.
+  - pos: middle-right
+    action: Akane, quieter still, a three-quarter close-up.
+    cast: [*aka]
+    dialogue:
+    - akane: CLUTCH UP. SLOWLY. DON'T MOVE.
+    - akane: TELL ME WHEN IT BITES.
+  - pos: middle-left
+    action: "Close in the footwell: the heel on the floor mat, the front of the sneaker rising on the clutch pedal, very slowly."
+    cast: [{<<: *dai_gl, note: "only his sneaker and ankle"}]
+    captions:
+    - MY HEEL ON THE FLOOR. THE FRONT OF MY FOOT. UP. UP.
+  - pos: lower, wide
+    action: "Dai in big close-up with his eyes shut, listening with his whole face; around him, very faint and soft, the drawn shapes of sound waves."
+    cast: [*dai_gl]
+    captions:
+    - I'D LISTENED TO ENGINES EVERY NIGHT SINCE AUGUST. WITH MY EYES SHUT THERE WAS NO STACK COMING AND NO NUMBERS, ONLY THE ENGINE.
+  - pos: bottom-right
+    action: Close on Dai's back pressing into the seat back, his shoulder blade against the cloth, eyes still shut.
+    cast: [{<<: *dai_gl, note: "his shoulder, the side of his face, the seat back"}]
+    captions:
+    - NEAR THE TOP ITS NOTE DROPPED. THE SMALLEST STEP, LIKE SOMEONE IN THE NEXT ROOM HAD LEANED ON A TABLE. AND THE SEAT PRESSED INTO MY BACK, AS FAR AS A COIN IS THICK.
+  - pos: bottom-center
+    action: Dai, eyes still shut, barely moving his lips.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: THERE.
+  - pos: bottom-left
+    action: Akane, the corner of her eye on him.
+    cast: [*aka]
+    dialogue:
+    - akane: HOLD IT.
+    - akane: OPEN YOUR EYES.
+
+# ------------------------------------------------------------------ the roll
+- page: 27
+  title: We moved
+  location: tanabe-backlot
+  time: Sunday about 6:44 a.m., clear morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  - "The red Roadster outside: soft top UP, pop-ups DOWN."
+  panels:
+  - pos: top-right
+    action: Dai opening his eyes; beyond the windshield the wall of crushed sedans exactly where it was.
+    cast: [*dai_gl]
+    captions:
+    - THE STACK WAS WHERE IT HAD BEEN. THE CAR WAS LEANING ON MY FOOT, WAITING.
+  - pos: top-left
+    action: Akane, eyes ahead.
+    cast: [*aka]
+    dialogue:
+    - akane: A LITTLE GAS. UP TO TWO.
+    - akane: THEN LET IT UP. SLOWLY.
+  - pos: middle-right
+    action: Close on the tachometer, the needle steady on the 2.
+    cast: [{id: roadster, view: interior, camera: "close on the tachometer through the wheel"}]
+  - pos: middle-left
+    action: Ground-level close on a silver 7-spoke wheel beginning to roll forward over the white crushed shell, the shell crunching under the tread. Only the wheel, the tire and the ground.
+    sfx: [JARI...]
+  - pos: lower, large
+    action: "BIG panel: the red car rolling smoothly forward across the open lot toward us, no hop, no jump; behind it the long empty lot, the stacks of Corollas at the far end, the forklift small at the corner with a tiny figure standing by it."
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "HIGH from on top of the wall of crushed sedans at the far end of the lot, looking back down the lot: the car rolls toward the camera, seen from above its front, its whole roof and hood visible, the lot stretching away behind it"}
+    sfx: [JARI JARI JARI]
+    captions:
+    - WE MOVED. NOT A JUMP, NOT A HOP. WE ROLLED FORWARD OFF THE SPOT WHERE WE'D BEEN FOR TWENTY MINUTES, AND THE ENGINE'S NOTE WENT WITH US INSTEAD OF DYING UNDER US.
+  - pos: bottom, wide
+    action: Dai's face, astonished and open, as the car rolls.
+    cast: [*dai_gl]
+    dialogue:
+    - {speaker: akane, text: "STEER.", offpanel: true}
+
+# ------------------------------------------------------------------ second gear, the lap
+- page: 28
+  title: Second gear
+  location: tanabe-backlot
+  time: Sunday about 6:45 a.m., clear morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. No power steering."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  - "The red Roadster outside: soft top UP, pop-ups DOWN. Each car shot has its own camera angle."
+  panels:
+  - pos: top-right
+    action: Dai hauling the heavy steering wheel round with both arms, straining.
+    cast:
+    - *dai_gl
+    - {id: roadster, view: interior, camera: "from the passenger seat looking across at Dai and the wheel"}
+    captions:
+    - THE WHEEL WAS HEAVY, SO HEAVY AT THAT SPEED THAT I HAD TO HAUL IT ROUND WITH BOTH ARMS.
+  - pos: top-left
+    action: Close on the speedometer, the needle on 20.
+    cast: [{id: roadster, view: interior, camera: "close on the speedometer"}]
+    dialogue:
+    - {speaker: akane, text: "MORE GAS. NOT MUCH.", offpanel: true}
+  - pos: middle-right
+    action: "Close: Dai's LEFT gloved hand pulling the gear lever straight back into second, all the way home."
+    cast: [{<<: *dai_gl, note: "only his gloved left hand"}]
+    dialogue:
+    - {speaker: akane, text: "SECOND.", offpanel: true}
+    sfx: [{text: KACHI, note: small}]
+    captions:
+    - THE CAR GAVE ONE NOD, AND NOTHING HAMMERED.
+  - pos: middle, large
+    action: "Wide: the little red car far away, crossing in front of the long wall of crushed sedans at the far end of the lot in second gear, a thin trail of dust; the whole walled lot and the sky."
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "eye level, wide, from the near corner by the forklift: the car small and far away, side-on, driving across in front of the far wall from the left side of the panel toward the right; its front points to the RIGHT"}
+    captions:
+    - WE WENT ROUND THE BACK LOT IN SECOND GEAR.
+  - pos: lower-right
+    action: "Glimpse through a narrow gap between two stacks of crushed cars: beyond, over waist-high weeds, a hump of old grey vinyl soft top with a tear in it. Nothing else of that car shows."
+    captions:
+    - THROUGH A GAP BETWEEN TWO STACKS, FOR A SECOND, A HUMP OF GREY VINYL OVER THE WEEDS, WITH A TEAR IN IT. MINE.
+  - pos: lower-left
+    action: "The red car passing close in front of the forklift, motion lines; Dai visible at the wheel through his window; the old woman with the towel round her forehead standing beside the forklift with her cigarette, turning her head to watch it go by."
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "eye level, side-on to the car's RIGHT (driver's) flank as it passes, its FRONT pointing to the RIGHT edge of the panel, speed lines behind it"}
+    - {id: forklift, note: "Fumie (small square OLD WOMAN, short grey hair, white towel round her forehead, cigarette) stands beside it"}
+    captions:
+    - UNDER US THE SHELL WENT ON CRUNCHING, ALL THE WAY ROUND, AND IT WAS THE BEST SOUND I HAD EVER HEARD.
+  - pos: bottom-right
+    action: Akane glancing sideways at him, the corner of her mouth almost moving.
+    cast: [*aka]
+    dialogue:
+    - akane: BREATHE.
+    captions:
+    - I HADN'T BEEN. I BREATHED.
+  - pos: bottom-left
+    action: Dai's feet in the footwell, the clutch and the brake both pressed down, the car coming to a gentle stop.
+    cast: [{<<: *dai_gl, note: "only his legs and sneakers"}]
+    dialogue:
+    - {speaker: akane, text: "CLUTCH. BRAKE. NEUTRAL. HANDBRAKE.", offpanel: true}
+
+# ------------------------------------------------------------------ the rules
+- page: 29
+  title: Lie to me once
+  location: tanabe-backlot
+  time: Sunday about 6:47 a.m., clear morning sun
+  guards:
+  - "INSIDE the red Roadster (right-hand drive): Dai in the RIGHT seat behind the wheel, Akane in the LEFT seat. The engine is OFF; very still."
+  - "Dai: SHORT black hair, grey zip-up jacket, grey-palmed WHITE cotton work gloves. Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail."
+  panels:
+  - pos: top, wide
+    action: Close on Dai's gloved fingers turning the ignition key back; the quiet cabin, dust in the sunlight.
+    cast:
+    - {<<: *dai_gl, note: "only his gloved hand on the key"}
+    - {id: roadster, view: interior, camera: "close on the steering column and key"}
+    dialogue:
+    - {speaker: akane, text: "SWITCH IT OFF.", offpanel: true}
+    captions:
+    - SHE DIDN'T SAY GOOD. IT WAS VERY QUIET IN THERE. THE RADIO IN THE OFFICE, A LONG WAY BEHIND US, AND THE SHELL UNDER THE TIRES SETTLING.
+  - pos: upper-right
+    action: Akane looking out of the windshield, not at him.
+    cast: [*aka]
+    dialogue:
+    - akane: HERE. SUNDAYS. SIX O'CLOCK.
+    - akane: UNTIL YOU HAVE A LICENSE, YOU DRIVE HERE, AND NOWHERE ELSE.
+  - pos: upper-left
+    action: Dai, straight-backed.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: "YES."
+  - pos: middle-right
+    action: Akane, the same flat voice.
+    cast: [*aka]
+    dialogue:
+    - akane: NOT THE HARBOR ROAD. NOT THE LANE. NOT ROUND THE BLOCK ONCE AT NIGHT WHEN NOBODY'S LOOKING.
+  - pos: middle-left
+    action: Extreme close-up of Akane's eyes, something hard and old in them for a second.
+    cast: [*aka]
+    dialogue:
+    - akane: NEVER THE BYPASS.
+  - pos: lower-right
+    action: Dai, quietly.
+    cast: [*dai_gl]
+    dialogue:
+    - dai_cut: "YES."
+  - pos: lower-left
+    action: Akane, still facing the windshield.
+    cast: [*aka]
+    dialogue:
+    - akane: LIE TO ME ONCE AND WE'RE DONE.
+  - pos: bottom, wide
+    action: "Two-shot from in front through the windshield: Dai (image LEFT) turned toward her, choosing his words; Akane (image RIGHT) facing ahead."
+    cast:
+    - *dai_gl
+    - *aka
+    - {id: roadster, view: interior, camera: "from in front through the windshield"}
+    dialogue:
+    - dai_cut: HERE AND NOWHERE ELSE. NEVER THE BYPASS. I WON'T LIE TO YOU.
+    captions:
+    - I DIDN'T SAY YES TO THAT ONE STRAIGHT AWAY. I WANTED TO SAY IT RIGHT.
+
+# ------------------------------------------------------------------ the reset, the gate
+- page: 30
+  title: Eleven
+  location: tanabe-yard
+  time: Sunday about 6:50 a.m., clear morning sun
+  guards:
+  - "Dai: SHORT black hair, grey zip-up jacket over a white gym T-shirt, jeans. His LEFT palm: a thin pink healing line, NO bandage."
+  - "Akane: dark jacket zipped to the chin, black fingerless gloves, low ponytail. Inside her right-hand-drive car she sits in the RIGHT (driver's) seat now."
+  - "The red Roadster: soft top UP, pop-ups DOWN; it leaves through the yard gate."
+  panels:
+  - pos: top-right
+    action: Akane looking at him, not long, the way she had looked at the white gloves.
+    cast: [*aka]
+    dialogue:
+    - akane: OUT.
+  - pos: top-left
+    action: "Dai standing outside the car holding the top of the open door, his legs gone soft; he has pulled off the white gloves: their palms are grey, the left one has a small brown mark in the middle."
+    cast: [{<<: *dai_sun, note: "holding a pair of grey-palmed white cotton gloves"}]
+    captions:
+    - I TOOK THE GLOVES OFF. THE PALMS WERE GREY, AND THE LEFT ONE HAD A SMALL BROWN MARK WHERE THE CRUST ON THE CUT HAD COME AWAY. I PUT THEM IN MY POCKET WITH SOTA'S LIST.
+  - pos: upper-middle right
+    action: "Akane, now in the RIGHT (driver's) seat, pushing the seat back with her feet, then leaning all the way across to the passenger window to tip the left door mirror with the side of her gloved hand."
+    cast: [*aka]
+    captions:
+    - SHE PUT EVERYTHING BACK WHERE IT HAD BEEN. THE SEAT, ONE SHORT OF THE END. THE MIRRORS. I WATCHED HER DO ALL OF IT AND DIDN'T HELP.
+  - pos: upper-middle left
+    action: Dai at the open window, puzzled.
+    cast: [*dai_sun]
+    dialogue:
+    - dai_cut: WHY?
+  - pos: middle-right
+    action: Akane turning the key, looking ahead, not answering the question.
+    cast: [*aka]
+    dialogue:
+    - akane: SIX O'CLOCK. NEXT SUNDAY.
+  - pos: middle-left
+    action: "From the forklift corner past the office: the red car small and far away, stopped in the open yard gate; Fumie and Dai seen from behind in the foreground, watching."
+    cast:
+    - {id: roadster, view: rear, state: headlights_down, camera: "far away, straight from behind at eye level, the car small in the gateway, stopped"}
+    - fumie:work
+    - {<<: *dai_sun, note: "seen from behind"}
+    captions:
+    - AT THE GATE IT STOPPED. HER WINDOW DIDN'T COME DOWN. THEN SHE WENT OUT INTO THE LANE, AND I COULDN'T HEAR IT ANY MORE.
+  - pos: lower-right
+    action: Fumie by the forklift with her cigarette, still watching the empty gate.
+    cast: [fumie:work]
+    dialogue:
+    - fumie: ELEVEN.
+  - pos: lower-left
+    action: Dai beside her, looking at the gate as well.
+    cast: [*dai_sun]
+    dialogue:
+    - dai_cut: I KNOW.
+  - pos: bottom, wide, large
+    action: "Fumie in close-up, her eyes on the empty gate, her mouth open on the next word and stopping; then she turns away. Morning sun, the cigarette smoke going straight up."
+    cast: [fumie:work]
+    dialogue:
+    - fumie: THAT GIRL HASN'T SET FOOT IN MY YARD SINCE THEY BROUGHT IN THE...
+    - fumie: GET BACK TO WORK.
+    captions:
+    - {text: "CHAPTER 11: ELEVEN. END.", style: small}

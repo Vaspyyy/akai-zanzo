@@ -511,3 +511,36 @@ childrens-ward:
   guards:
     - No readable signs anywhere.
   default_time: afternoon, daylight through the big window
+# ---- added for chapter 11 (2026-11-19)
+tanabe-backlot:
+  name: the cleared back lot of Tanabe's scrapyard (the lesson ground)
+  description: >-
+    An open rectangle of ground about 50 meters long and 25 wide at the back
+    of the scrapyard, walled in on all four sides: packed earth with crushed
+    white and grey shell rolled into it, soft and dark in the low places
+    where the dew has collected, weeds and foxtail grass at the edges; the
+    long double stripes of a forklift's tires running back and forth across
+    it in the dew. At the FAR end a new wall of crushed-flat sedans stacked
+    four high (white and grey and white); down the LEFT long side older
+    stacks of crushed vans and sedans three high; down the RIGHT long side
+    the yard's tall corrugated steel back fence; at the NEAR end the stacks
+    of crushed white Corollas where you come in. From inside you see only
+    the stacks, the sky and the tops of harbor cranes far off.
+  plate: artwork/locations/tanabe-backlot.png
+  guards:
+    - "The back lot is walled in: crushed-flat car stacks on three sides (far end, left side, near end) and the corrugated steel fence on the right side. No road, office or gate visible from inside it."
+    - "Sunday sunrise, about 6 a.m.: low clear morning sun, long soft shadows, dew on the ground; NOT midday, NOT night."
+  default_time: Sunday about 6 a.m., clear sunrise
+hardware-shop:
+  name: small hardware shop in the covered shopping street behind the station
+  description: >-
+    A narrow old 1995 Japanese hardware shop opening onto a covered shopping
+    arcade: buckets, brooms and coils of rope by the open front, and just
+    inside the door a pegboard of work gloves on hooks: stiff yellow leather
+    gloves, long black rubber gloves, white cotton work gloves tied in
+    bundles of twelve with string, single pairs in small plastic bags, each
+    with a small handwritten price card; an old wooden counter with a cash
+    register and an old man shopkeeper in a cardigan behind it.
+  guards:
+    - "Price cards show only the numbers the panel gives; no other readable words."
+  default_time: Saturday early afternoon, daylight

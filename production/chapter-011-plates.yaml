@@ -1,0 +1,31 @@
+# Location plate for chapter 11 (the back lot). Run: production/az run -c chapter-011-plates
+title: Chapter 11 plates
+output_dir: artwork/locations
+defaults:
+  kind: plate
+  orientation: landscape
+
+pages:
+  - id: tanabe-backlot
+    location: tanabe-backlot
+    time: Sunday about 6 a.m., clear sunrise, low sun from BEHIND the viewer, long shadows stretching away toward the far wall
+    weather: dry, cold, clear; dew on the ground and weeds
+    refs:
+      - {path: artwork/locations/tanabe-yard.png, use: "the plate of the same scrapyard: copy its art style, line weight, screentone and the look of its crushed-flat car stacks, corrugated fence and harbor cranes; NOT its office, crusher or composition"}
+    guards:
+      - "Crushed-flat car slabs stacked like mattresses are scrap metal and ARE allowed. No intact cars, no forklift, no people, no trucks."
+    description: >-
+      Wide eye-level view down the length of the empty back lot from its near
+      end: an open rectangle of packed earth with crushed white shell rolled
+      in, grey and white, darker damp patches in the low places, weeds and
+      foxtail at the edges. Across it, in the dew, the long double stripes of
+      forklift tires going back and forth. At the FAR end, a long straight
+      wall of crushed-flat sedans stacked FOUR high, alternating white and
+      grey, freshly stacked and neat. Down the LEFT side, older uneven stacks
+      of crushed vans and sedans three high, rusty, a crushed van with a
+      sliding door still on. Down the RIGHT side, the tall corrugated steel
+      back fence of the yard, running the whole length. In the near
+      foreground at the left edge the corner of a stack of crushed white
+      Corollas. Above it all a pale clear morning sky and the tops of two
+      harbor cranes far away; a gull. Low early sun from behind the viewer
+      lights the far wall and throws long soft shadows forward.
