@@ -1,7 +1,7 @@
 # Chapter 10: "Nobody Waits Up"
 
 **Split:** all of Volume 1 Chapter 6 ("Night Shift"). Chapter 9 ended on the curtain opening: "She looked up. / It was Natsume."
-**Status:** 25 of 30 pages drawn 2026-11-19 (p4-p7, p23 wait for the Codex usage reset). 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-06.md`.
+**Status:** drawn 2026-11-19. 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-06.md`.
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel.
 **Pacing:** quiet, like Ch4, Ch8 and Ch9. The ER told in small exact hands-and-numbers beats; the deposit coin by coin; the vending machine with room and silence (p16-p19); the dawn bench slow; the last page lands on Kubo's line and nothing after it.
 

@@ -186,12 +186,12 @@ pages:
     shot: close-up
     action: Close-up of the nurse's bare hands with short nails holding the boy's thin wrist, her fingertips on the inside of it.
     captions:
-    - I'D SEEN HER HANDS DO HEEL-AND-TOE, TWO IN THE MORNING ON THE BYPASS. NOW THEY WERE BARE. SHORT NAILS.
+    - {text: "I'D SEEN HER HANDS DO HEEL-AND-TOE, TWO IN THE MORNING ON THE BYPASS. NOW THEY WERE BARE. SHORT NAILS.", box: [612, 20, 392, 160], draw: true}
   - pos: top-left
     action: Dai on the round stool in the corner, elbows on his knees, watching the nurse count with her lips shut.
     cast: [dai_cut:summer_school]
     captions:
-    - SHE'D HAD A SHIFT. THE THURSDAY SHE DIDN'T COME. THIS WAS THE JOB.
+    - {text: "SHE'D HAD A SHIFT. THE THURSDAY SHE DIDN'T COME. THIS WAS THE JOB.", box: [150, 20, 438, 112], draw: true}
   - pos: middle-right
     action: Sota turning his head on the pillow, finding Dai in the corner.
     cast: [sota_ng:pajamas]
@@ -219,7 +219,7 @@ pages:
     sfx: [PI]
     captions:
     - THE GREEN NUMBERS SAID 93. IN THE AMBULANCE IT HAD BEEN 89, THEN 90.
-    - WHEN THE NUMBER WENT UP, THE BEEP WENT UP. I HEARD IT CLIMB, AND LOOKED, AND IT SAID 94.
+    - {text: "WHEN THE NUMBER WENT UP, THE BEEP WENT UP. I HEARD IT CLIMB, AND LOOKED, AND IT SAID 94.", box: [520, 1390, 484, 124], draw: true}
 
 - page: 5
   title: Look at me
@@ -287,12 +287,12 @@ pages:
     shot: close-up
     action: Close-up of the nurse's hands holding the boy's RIGHT hand flat, palm down, on the board.
     captions:
-    - SHE LET GO OF THE LEFT HAND ONLY WHEN SHE HAD THE RIGHT ONE FLAT ON THE BOARD. THE SECOND TIME IT WENT IN.
+    - {text: "SHE LET GO OF THE LEFT HAND ONLY WHEN SHE HAD THE RIGHT ONE FLAT ON THE BOARD. THE SECOND TIME IT WENT IN.", box: [566, 20, 438, 140], draw: true}
   - pos: top-left
     action: The nurse writing small labels on three little capped sample tubes standing in a rack, fast.
     cast: [akane:nurse]
     captions:
-    - THREE SMALL TUBES. SHE LABELLED THEM FASTER THAN I COULD READ WHAT SHE WROTE.
+    - {text: "THREE SMALL TUBES. SHE LABELLED THEM FASTER THAN I COULD READ WHAT SHE WROTE.", box: [20, 20, 510, 112], draw: true}
   - pos: middle, wide
     shot: close-up
     action: "Close-up: the nurse's fingers tearing a strip of white tape off a roll with two fingers and taping the small RIGHT hand flat to the board, a thin clear tube taped along it; at the top of the panel the clear drip chamber under the bag with one drop falling."
@@ -351,8 +351,8 @@ pages:
     action: Dai on the stool, his back suddenly bolt upright, eyes wide, staring at the curtain.
     cast: [dai_cut:summer_school]
     captions:
-    - MY BACK HAD GONE STRAIGHT BEFORE I'D THOUGHT ANYTHING. PIER 3, THE CHIT, THE DOORWAY.
-    - A BORED YOUNG VOICE ASKED HIS NAME. HE GAVE THE NAME OF A SHIP. I MADE MY BACK GO ROUND AGAIN. IT TOOK A WHILE.
+    - {text: "MY BACK HAD GONE STRAIGHT BEFORE I'D THOUGHT ANYTHING. PIER 3, THE CHIT, THE DOORWAY.", box: [489, 752, 300, 192], draw: true}
+    - {text: "A BORED YOUNG VOICE ASKED HIS NAME. HE GAVE THE NAME OF A SHIP. I MADE MY BACK GO ROUND AGAIN. IT TOOK A WHILE.", box: [489, 946, 517, 112], draw: true}
   - pos: middle-left
     action: The doctor with his stethoscope disc on Sota's back through the pajamas, listening.
     cast: [young_doctor]
@@ -378,7 +378,7 @@ pages:
     action: Sota, small and wet-voiced in the mask.
     cast: [sota:pajamas]
     dialogue:
-    - sota: {text: "I DIDN'T... HEAR IT.", style: small}
+    - sota: {text: "I DIDN'T... HEAR IT.", box: [330, 1318, 172, 128], draw: true, tail: [320, 1410]}
 
 - page: 8
   title: I missed it
