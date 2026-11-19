@@ -44,3 +44,12 @@ All names PROVISIONAL unless the story bible says otherwise. Visual specs are bi
 - **Not shown in the pilot** except a gloved hand and a silhouette.
 - **Look (draft):** tall, long straight black hair in a low ponytail, calm unreadable eyes. Black leather driving gloves with the knuckles cut open.
 - **Role:** the "Akai Zanzō." Later teaches Dai technique and mods, and believes in him.
+
+## The Sasakis (佐々木), family friends [CANON, the creator's idea, 2026-11-19]
+
+First seen in novel V1 ch6 / manga ch10 p26: the little girl asleep in the bed next to Sota's on the children's ward, and her mother asleep in the chair beside her. They live in the old town across the canal (a different school district from the Hayamas). Their role: family friends who help out now and then and give Michiko some hope in people. Arc and beats: `novel/OUTLINE.md` §6.
+
+- **Kazue Sasaki, 35 (mother):** permed shoulder-length hair, cardigan (as drawn in manga ch10; production cast key `ward_mother`). Part-time at a dry cleaner's by the station. Warm, chatty, practical; calls Michiko "Hayama-san". Knows the children's ward and its night routines by heart.
+- **Hiroshi Sasaki, 38 (father):** taxi driver (LPG Toyota Crown Comfort-type taxi). Few words, dry taxi-driver jokes. A father who sits in waiting rooms.
+- **Ken Sasaki, 11 (son):** Sota's age, Mini 4WD know-it-all, visited his sister on the ward.
+- **Mai Sasaki, 5 (daughter):** nephrotic syndrome (a childhood kidney illness that comes back in relapses, treated with steroids, puffy face in a relapse); in and out of Shiomi Municipal's children's ward; good long-term outlook. Sota was beside her for his ward days.

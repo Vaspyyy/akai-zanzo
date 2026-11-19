@@ -93,6 +93,7 @@ See `continuity/characters.md`, `continuity/cars.md`, `continuity/locations.md`.
 - **Goto:** 20s street racer in a white Nissan Silvia S13; first person to tell Dai about the "Akai Zanzō."
 - **Kubo:** 50s night attendant at the harbor gas station. Hires Dai in Chapter 2. Has an ear for engines.
 - **Dai's job:** from Chapter 2, night-shift attendant at the harbor gas station (where Akane fills up every Thursday). He tells his mother he got a job, which is true, but not why.
+- **The Sasakis [CANON, the creator's idea, 2026-11-19]:** the family from the bed next to Sota's on the children's ward (novel V1 ch6, manga ch10 p26: the little girl asleep, her mother asleep in the chair). They become family friends who help out now and then, and give Michiko some hope in people: a warm break from the grim side of the story. Kind, ordinary, never saints and never a plot device for rescue. Details in `continuity/characters.md` and `novel/OUTLINE.md` §6.
 
 ## 11. Discussion ideas [PROPOSALS, NOT CANON]
 

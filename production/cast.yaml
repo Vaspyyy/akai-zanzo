@@ -712,7 +712,7 @@ characters:
 
   ward_mother:
     name: MOTHER
-    full_name: the mother of the little girl in the next bed
+    full_name: Kazue Sasaki, the mother of the little girl (Mai) in the next bed; recurring family friend from manga ch13 on
     traits: Japanese woman about thirty-five, permed shoulder-length hair, asleep in a chair with her mouth open, a cardigan.
     tell: "the young mother asleep in the chair by the next bed"
     default_outfit: home
