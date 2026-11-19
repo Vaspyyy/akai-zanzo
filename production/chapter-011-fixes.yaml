@@ -1,0 +1,35 @@
+# Panel redraws for Chapter 11. The grey panel in each source is redrawn, then pasted back into
+# artwork/pages/chapter-011/page-NN.art.png at the same gutter and re-lettered from chapter-011.yaml.
+# Source p15: page-15.art.png with the top-left panel filled grey (PIL rectangle [14,13,658,399], fill 150).
+# Run: production/az run -c chapter-011-fixes -p 15 --no-letter --attempts 1
+title: Chapter 11 fixes
+output_dir: production/runs/ch11-fixes/out
+lettering: empty
+defaults:
+  orientation: portrait
+  notes:
+  - No brand logos, no readable printed words, no Japanese characters.
+pages:
+- page: 15
+  location: tanabe-backlot
+  time: Sunday about 6:17 a.m., clear low morning sun
+  edit:
+    source: production/runs/ch11-fixes/src/page-15.png
+    change: "Redraw ONLY the flat grey TOP-LEFT panel. New content: inside the small red two-seat car (right-hand drive), Akane sits in the LEFT PASSENGER seat with NO steering wheel in front of her (the wheel is on the far side, in front of the driver's seat). Seen from the driver's seat looking across at her: Akane in three-quarter view, calm, looking straight ahead through the windshield; behind her, her passenger door window with the corrugated steel fence outside; the low black dashboard in front of her with the glovebox; the gear lever at the lower edge of the panel. Draw TWO empty white speech balloons at the top of the panel, side by side, both with short tails pointing at her: the RIGHT one roomy for about 7 words, the LEFT one for about 6 words."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, all people, the memory panel, the balloons, the caption boxes and the sound effect"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - pos: top-left
+    action: "Akane in the LEFT passenger seat, NO steering wheel in front of her, seen from the driver's seat, looking ahead through the windshield."
+    cast:
+    - {id: akane, outfit: "dark bomber jacket ZIPPED UP TO THE CHIN, black fingerless leather driving gloves; long black hair tied back LOW in a ponytail"}
+    - {id: roadster, view: interior, camera: "from the driver's seat looking across at the passenger seat"}
+    dialogue:
+    - akane: WHEN WE LEFT KUBO'S. OFF THE FORECOURT.
+    - akane: WHAT DID MY LEFT FOOT DO?
+  - {pos: middle-right, action: unchanged, keep: true}
+  - {pos: middle-left, action: unchanged, keep: true}
+  - {pos: lower-right, action: unchanged, keep: true}
+  - {pos: lower-left, action: unchanged, keep: true}
+  - {pos: bottom-right, action: unchanged, keep: true}
+  - {pos: bottom-left, action: unchanged, keep: true}

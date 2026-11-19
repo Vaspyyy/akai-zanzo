@@ -33,7 +33,7 @@ pages:
     dialogue:
     - dai_cut: GLOVES FOR WHAT?
     captions:
-    - A QUARTER PAST TWO ON FRIDAY MORNING. KUBO-SAN FINISHED THE COLD COFFEE, AND I WAS STILL IN THE OFFICE DOOR, WAITING FOR THE REST OF IT.
+    - {text: "A QUARTER PAST TWO ON FRIDAY MORNING. KUBO-SAN FINISHED THE COLD COFFEE, AND I WAS STILL IN THE OFFICE DOOR, WAITING FOR THE REST OF IT.", box: [18, 20, 470, 168], draw: true}
   - pos: upper-right
     action: Kubo behind the counter, not looking up, his face patient and unreadable.
     cast: [kubo]
@@ -70,7 +70,7 @@ pages:
     cast: [{id: kubo, note: "only his hand and sleeve, the face out of frame"}]
     dialogue:
     - kubo: YOU ASKED ME WHERE IT WAS.
-    - kubo: THEN YOU NEVER ASKED ME ANYTHING ABOUT IT AGAIN.
+    - kubo: {text: "THEN YOU NEVER ASKED ME ANYTHING ABOUT IT AGAIN.", box: [16, 1068, 236, 190], draw: true, tail: [200, 1280]}
   - pos: bottom, wide
     action: Kubo putting the pencil down on the counter and looking at Dai, unhurried, almost kind.
     cast: [kubo]
@@ -108,7 +108,7 @@ pages:
     action: "Saturday daylight in a covered shopping arcade: Dai in his white summer school shirt walking into the open front of a small old hardware shop (buckets and brooms outside)."
     cast: [dai_cut:summer_school]
     captions:
-    - SATURDAY. SHE'D SAID BRING GLOVES. TANABE-SAN HAD A BOX OF FIFTY, AND I DIDN'T WANT TO TURN UP IN HERS.
+    - {text: "SATURDAY. SHE'D SAID BRING GLOVES. TANABE-SAN HAD A BOX OF FIFTY, AND I DIDN'T WANT TO TURN UP IN HERS.", box: [668, 1050, 337, 162], draw: true}
   - pos: lower-left
     location: hardware-shop
     action: "The pegboard of work gloves inside the door: stiff yellow leather gloves with a small card reading 780, long black rubber gloves, white cotton work gloves tied in bundles of twelve with string, and next to the bundle ONE pair alone in a small plastic bag with a card reading 98."
@@ -117,7 +117,7 @@ pages:
   - pos: bottom-right
     action: "Memory inset with a soft dark border, night: a woman's hand in a black leather driving glove with the knuckles cut open, resting on a car's round gear knob. Only the gloved hand and the knob."
     captions:
-    - I THOUGHT ABOUT HERS. BLACK, WITH THE KNUCKLES CUT OUT, GONE SOFT AND SHAPED TO HER FINGERS ON THE LEVER.
+    - {text: "I THOUGHT ABOUT HERS. BLACK, WITH THE KNUCKLES CUT OUT, GONE SOFT AND SHAPED TO HER FINGERS ON THE LEVER.", box: [554, 1392, 452, 130], draw: true}
   - pos: bottom-left
     location: hardware-shop
     action: "Close on the old wooden shop counter: Dai's hand putting down one silver 100-yen coin; the old shopkeeper's wrinkled hand pushing the little plastic bag of white cotton gloves across to him."
@@ -166,13 +166,13 @@ pages:
     action: Mom looking through the open fusuma at Sota, who reads a comic with his lips moving; she keeps her voice down.
     cast: [michiko:home]
     dialogue:
-    - michiko: HE ASKED ME ON THE BUS IF THE HOSPITAL WAS FREE.
-    - michiko: HE SAID YOU TOLD HIM IT WAS.
+    - michiko: {text: "HE ASKED ME ON THE BUS", box: [562, 1074, 188, 136], draw: true, tail: [640, 1165]}
+    - michiko: {text: "IF THE HOSPITAL WAS FREE. HE SAID YOU TOLD HIM IT WAS.", box: [334, 1066, 236, 178], draw: true, tail: [556, 1140]}
   - pos: lower-right
     action: Dai standing with the towel in his hands, silent, looking at the floor.
     cast: [dai_cut:summer_school]
     captions:
-    - I DIDN'T SAY ANYTHING.
+    - {text: "SHE KEPT HER VOICE DOWN.", box: [785, 1078, 215, 62], draw: true}
   - pos: lower-left
     action: Mom getting up from the low table with one hand on it, tired.
     cast: [michiko:home]
@@ -203,7 +203,7 @@ pages:
     action: Sota holding up the inhaler and the clear spacer tube, very serious.
     cast: [*sota]
     dialogue:
-    - sota: I HAVE TO DO IT NOW. MORNING AND NIGHT. EVEN WHEN I'M FINE.
+    - sota: {text: "I HAVE TO DO IT NOW. MORNING AND NIGHT. EVEN WHEN I'M FINE.", box: [770, 436, 232, 215], draw: true, tail: [800, 600]}
   - pos: upper-left
     action: Dai propped up on one elbow on the tatami, sleepy.
     cast: [dai_cut:summer_school]
@@ -270,7 +270,7 @@ pages:
     action: Sota running one finger down the four names on the card in Dai's hand.
     cast: [*sota]
     dialogue:
-    - sota: YOU HAVE TO ASK IT, THOUGH. WHICH ONE. YOU CAN'T JUST PICK FOR IT. IT'S ITS NAME.
+    - sota: {text: "YOU HAVE TO ASK IT, THOUGH. IT'S ITS NAME.", box: [828, 1102, 178, 240], draw: true, tail: [820, 1250]}
   - pos: bottom-center
     action: Close on Dai's hand putting the folded card into the pocket of a grey zip-up jacket hanging on a hook, next to a small plastic bag of white cotton gloves.
     captions:
@@ -295,7 +295,7 @@ pages:
     action: The dark genkan by the steel front door, lit from the kitchen; Dai sitting on the step tying his sneakers; Mom in the kitchen doorway with her hair half up, holding a hair clip.
     cast: [*dai_sun, {id: michiko, outfit: "a worn cardigan over a plain top, loose trousers, her hair HALF pinned up"}]
     dialogue:
-    - michiko: KAWAMATA'S?
+    - michiko: {text: "KAWAMATA'S?", box: [662, 22, 205, 112], draw: true, tail: [650, 95]}
   - pos: top-left
     action: Dai not looking up from his laces.
     cast: [*dai_sun]
@@ -328,14 +328,14 @@ pages:
     action: Dai standing in the yard, a little out of breath.
     cast: [*dai_sun]
     dialogue:
-    - dai_cut: IS SHE HERE?
+    - dai_cut: {text: "IS SHE HERE?", box: [504, 1160, 142, 132], draw: true, tail: [560, 1300]}
   - pos: bottom-left
     location: tanabe-yard
     action: Fumie drinking from the coffee can, the cigarette moved to the other corner of her mouth to let the can in.
     cast: [fumie:work]
     dialogue:
-    - fumie: IS WHO HERE?
-    - fumie: SIT DOWN. THERE'S COFFEE IN THE OFFICE.
+    - fumie: {text: "IS WHO HERE?", box: [228, 1160, 138, 132], draw: true, tail: [250, 1290]}
+    - fumie: {text: "SIT DOWN. THERE'S COFFEE IN THE OFFICE.", box: [14, 1156, 222, 184], draw: true, tail: [150, 1345]}
 
 # ------------------------------------------------------------------ Sunday about 6:00, the cleared back lot
 - page: 7
@@ -350,39 +350,39 @@ pages:
     action: Dai walking past the end of a stack of crushed-flat white sedans, about to look round its corner.
     cast: [*dai_sun]
     captions:
-    - I DIDN'T SIT DOWN. I WALKED AS FAR AS THE END OF THE COROLLA STACKS AND LOOKED ROUND THE CORNER.
+    - {text: "I DIDN'T SIT DOWN. I WALKED AS FAR AS THE END OF THE COROLLA STACKS AND LOOKED ROUND THE CORNER.", box: [655, 14, 358, 128], draw: true}
   - pos: upper, large
     location: tanabe-backlot
     action: "BIG panel: the cleared back lot seen from its near corner, Dai small in the left foreground from behind: the open ground of packed earth and white crushed shell, the long double forklift stripes in the dew; at the far end a new straight wall of crushed-flat sedans four high, white and grey and white; older stacks down the left; the corrugated steel fence down the right; harbor cranes far off against a pale morning sky."
     cast: [{<<: *dai_sun, note: "small, seen from behind in the foreground"}]
     captions:
-    - IT HAD CHANGED SINCE LAST SUNDAY. A WALL OF THEM AT THE FAR END, FOUR HIGH, WHITE AND GREY AND WHITE.
+    - {text: "IT HAD CHANGED SINCE LAST SUNDAY. A WALL OF THEM AT THE FAR END, FOUR HIGH, WHITE AND GREY AND WHITE.", box: [278, 24, 384, 118], draw: true}
   - pos: middle-right
     location: tanabe-backlot
     action: "Low close on the ground, eye level with the weeds: the long double stripes of forklift tires pressed through the dew on the weeds and crushed shell, drops of dew shining."
     captions:
-    - SOMEBODY HAD CLEARED IT. NOT THIS MORNING. THE DEW WAS ON THE STRIPES TOO.
+    - {text: "SOMEBODY HAD CLEARED IT. NOT THIS MORNING. THE DEW WAS ON THE STRIPES TOO.", box: [596, 541, 419, 100], draw: true}
   - pos: middle-left
     action: Dai looking back over his shoulder toward the office, puzzled.
     cast: [*dai_sun]
     captions:
-    - I LOOKED AT TANABE-SAN.
+    - {text: "I LOOKED AT TANABE-SAN.", box: [8, 546, 243, 89], draw: true}
   - pos: lower-right
     action: Fumie on her crate by the office with her coffee can, not looking at Dai, looking away toward the open yard gate.
     cast: [fumie:work]
     captions:
-    - SHE WAS LOOKING AT THE GATE.
+    - {text: "SHE WAS LOOKING AT THE GATE.", box: [722, 871, 293, 94], draw: true}
   - pos: lower-left
     location: tanabe-office
     action: Close on a small old transistor radio on the office windowsill, its speaker grille.
     sfx: [PI PI PI POOON]
     captions:
-    - AT SIX THE RADIO IN THE OFFICE GAVE THE TIME SIGNAL. ON THE LONG ONE I HEARD IT IN THE LANE.
+    - {text: "AT SIX THE RADIO IN THE OFFICE GAVE THE TIME SIGNAL. ON THE LONG ONE I HEARD IT IN THE LANE.", box: [8, 876, 520, 99]}
   - pos: bottom, wide
     action: The empty lane outside the open yard gate in early sun, white shells and potholes, a long corrugated fence; nothing in it yet, only a faint sound coming.
     sfx: [{text: brrrrrm, note: small and far away}]
     captions:
-    - IT DIDN'T SOUND THE SAME IN DAYLIGHT. IT SOUNDED SMALLER.
+    - {text: "IT DIDN'T SOUND THE SAME IN DAYLIGHT. IT SOUNDED SMALLER.", box: [8, 1267, 422, 92]}
 
 # ------------------------------------------------------------------ the red car arrives
 - page: 8
@@ -396,6 +396,8 @@ pages:
   - pos: top-right
     action: "Ground-level close in the lane outside the gate: a silver 7-spoke alloy wheel of the red car rolling slowly over white shells and potholes, little stones popping out from under the tire. Only the wheel, the tire and the bottom of the red fender."
     sfx: [PACHI PACHI]
+    captions:
+    - COMING SLOWLY OVER THE SHELLS AND THE POTHOLES, IN FIRST GEAR.
   - pos: upper, wide
     action: The red Roadster coming slowly through the open yard gate in first gear, a little white dust behind it; the yellow crusher and the tire wall beside its path.
     cast:
@@ -530,7 +532,7 @@ pages:
     - {id: roadster, view: front34, state: headlights_down, camera: "very HIGH, almost straight down from above the stacks, the car tiny in the middle of the lot, its nose pointing UP the panel toward the far wall"}
     - {id: forklift, note: "parked at the near corner by the fence, tiny; Fumie (small old woman, white towel round her forehead) sits on it"}
     captions:
-    - ABOUT FIFTY METERS LONG AND HALF AS WIDE. YOU COULDN'T SEE ANYTHING BUT CARS THAT DIDN'T GO ANYWHERE ANY MORE, AND THE SKY.
+    - {text: "ABOUT FIFTY METERS LONG AND HALF AS WIDE. YOU COULDN'T SEE ANYTHING BUT CARS THAT DIDN'T GO ANYWHERE ANY MORE, AND THE SKY.", box: [22, 16, 476, 122], draw: true}
   - pos: upper-right
     action: Akane walking round the front of the car, passing in front of the closed pop-ups, toward its left (passenger) side.
     cast:
@@ -557,7 +559,7 @@ pages:
     - *aka
     - {id: roadster, view: interior, camera: "from in front of the car looking in through the windshield at both seats"}
     captions:
-    - MY CAR SMELLED OF MOLD AND CAT AND MACKEREL. THIS ONE SMELLED OF ALMOST NOTHING. CLEAN VINYL, A LITTLE GASOLINE, AND THE COLD.
+    - {text: "MY CAR SMELLED OF MOLD AND CAT AND MACKEREL. THIS ONE SMELLED OF ALMOST NOTHING. CLEAN VINYL, A LITTLE GASOLINE, AND THE COLD.", box: [22, 1032, 300, 205], draw: true}
   - pos: bottom-right
     action: "Close on the short gear lever on the center tunnel with its round black knob, the shift pattern (1 to 5 and R) printed on top."
     cast:
@@ -592,6 +594,8 @@ pages:
     - *dai_gl
     - {id: roadster, view: interior, camera: "from the passenger side looking across at Dai in profile"}
     sfx: [GA-CHAN]
+    captions:
+    - THE SEAT RAN BACK ON ITS RAILS AND HIT THE END.
   - pos: middle, wide
     action: "Close in the driver's footwell from the side: three pedals; Dai's LEFT foot in a white sneaker pushing the LEFT pedal (the clutch), his leg stretched out straight and the pedal still not at the floor."
     cast:
@@ -643,6 +647,8 @@ pages:
     action: Dai pulling the backrest lever on the side of his seat by the door and leaning; the backrest coming up.
     cast: [*dai_gl]
     sfx: [KACHI KACHI]
+    captions:
+    - THE BACKREST CAME UP TWO CLICKS.
   - pos: middle-right
     action: Akane, short.
     cast: [*aka]
@@ -712,13 +718,11 @@ pages:
     action: Dai answering at once, sure of it.
     cast: [*dai_gl]
     dialogue:
-    - dai_cut: EVERY TIME YOU SLOWED DOWN. BRAKE FIRST, WITH THE BALL OF YOUR RIGHT FOOT. THEN THE CLUTCH, ALL THE WAY. LEVER OUT.
-    captions:
-    - I DIDN'T HAVE TO THINK. I'D DONE IT ON MY FUTON, ON THE PUMP-ISLAND CURB, AND UNDER THE DINNER TABLE AGAINST AYA'S SHIN.
+    - dai_cut: {text: "EVERY TIME YOU SLOWED DOWN. BRAKE FIRST, WITH THE BALL OF YOUR RIGHT FOOT. THEN THE CLUTCH, ALL THE WAY. LEVER OUT.", box: [714, 764, 296, 278], draw: true, tail: [712, 860]}
   - pos: middle-left
     action: "Memory inset with a dark border, NIGHT: a dark footwell lit orange by passing streetlights, a woman's right foot in a flat canvas shoe on the brake pedal rolling its heel over onto the gas pedal, the left foot pressing the clutch."
     dialogue:
-    - {speaker: dai_cut, text: "THEN THE HEEL GOES OVER ONTO THE GAS, QUICK, MORE LIKE A HICCUP THAN A PUSH. LEVER INTO THE LOWER GEAR. CLUTCH UP.", offpanel: true}
+    - {speaker: dai_cut, text: "THEN THE HEEL GOES OVER ONTO THE GAS, MORE LIKE A HICCUP THAN A PUSH. CLUTCH UP.", offpanel: true, box: [12, 763, 318, 182], draw: true, tail: [330, 880]}
   - pos: lower-right
     action: Dai, finishing, looking ahead.
     cast: [*dai_gl]
@@ -736,7 +740,7 @@ pages:
     - *aka
     - {id: roadster, view: interior, camera: "from behind the two seats, over the soft top's rear window"}
     dialogue:
-    - dai_cut: NOTHING. YOU'D ALREADY DONE IT ALL. RIGHT FOOT FLAT ON THE GAS, ALL THE WAY ROUND. LEFT FOOT ON THE FLOOR BESIDE THE CLUTCH.
+    - dai_cut: {text: "NOTHING. YOU'D ALREADY DONE IT ALL. RIGHT FOOT FLAT ON THE GAS, ALL THE WAY ROUND. LEFT FOOT ON THE FLOOR BESIDE THE CLUTCH.", box: [616, 1298, 394, 226], draw: true, tail: [630, 1480]}
 
 # ------------------------------------------------------------------ the left foot
 - page: 15
@@ -788,7 +792,7 @@ pages:
     - {id: roadster, view: interior, camera: "close on the center tunnel and the steering column from above"}
     sfx: [KYURURU... BURON]
     captions:
-    - LOOSE IN THE MIDDLE, THE WAY THE BOOK SAID. THE ENGINE CAUGHT, AND WENT UP, AND CAME DOWN, AND SAT THERE.
+    - {text: "THE ENGINE CAUGHT, AND WENT UP, AND CAME DOWN, AND SAT THERE.", box: [19, 1438, 512, 82], draw: true}
 
 # ------------------------------------------------------------------ stall one
 - page: 16
@@ -805,7 +809,7 @@ pages:
     cast: [{id: roadster, view: interior, camera: "close on the gauges through the steering wheel"}]
     sfx: [{text: BURORORO, note: small and steady}]
     captions:
-    - THROUGH THE SEAT AND THE WHEEL AND THE PEDAL I COULD FEEL ALL FOUR OF THEM GOING, SMALL AND QUICK AND BUSY. MY OWN CAR HAD NEVER DONE THIS.
+    - {text: "I COULD FEEL ALL FOUR OF THEM GOING, SMALL AND QUICK AND BUSY. MY OWN CAR HAD NEVER DONE THIS.", box: [502, 20, 502, 112], draw: true}
   - pos: top-left
     action: "Close: Dai's LEFT gloved hand pushing the gear lever forward and away into first."
     cast: [{<<: *dai_gl, note: "only his gloved left hand"}]
@@ -841,7 +845,7 @@ pages:
     dialogue:
     - {speaker: fumie, text: "ONE.", offpanel: true, at: "small, at the panel edge, from far behind"}
     captions:
-    - TWO RED LIGHTS. OUTSIDE, A GULL. THE TICK OF SOMETHING HOT UNDER THE HOOD. BEHIND US, ON THE FORKLIFT, TANABE-SAN'S VOICE.
+    - {text: "TWO RED LIGHTS. A GULL. THE TICK OF SOMETHING HOT UNDER THE HOOD. BEHIND US, TANABE-SAN'S VOICE.", box: [20, 1394, 418, 122], draw: true}
 
 # ------------------------------------------------------------------ stall two
 - page: 17

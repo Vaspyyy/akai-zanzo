@@ -1,7 +1,7 @@
 # Chapter 11: "Eleven"
 
 **Split:** all of Volume 1 Chapter 7 ("Clutch"). Chapter 10 ended on Kubo's "She says bring gloves." (end of novel Chapter 6).
-**Status:** script 2026-11-19. 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-07.md`. **Spec:** `production/chapter-011.yaml` (this script is generated from it).
+**Status:** p1-16 drawn 2026-11-19; p17-30 wait for the image limit to reset (see `reviews/chapter-011.md`). 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-07.md`. **Spec:** `production/chapter-011.yaml` (this script is generated from it).
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel. Sota's list of cat names is a caption box laid over his pencil writing.
 **Pacing:** quiet and full, like Ch8-10. Friday's talk with Kubo; a Saturday of small household things (the gloves, the envelope, the inhaler, the names); then the first lesson in the back lot, built from small exact steps (seat, mirrors, hands, belt), eleven stalls that each look and feel different with Fumie's count as the beat, and the payoff on its own pages: eyes shut, the bite, the first clean roll and the lap in second. The ending stays as quiet and cut off as the novel's.
 
@@ -46,8 +46,8 @@
 - P3 (upper-left): Through the open fusuma, in the tatami room, Sota sitting on a cushion by the window in pajamas and two cardigans, small and pale, smiling a little; on the windowsill the blue inhaler in its clear spacer tube and a glasses case, lined up straight. SOTA: "NII-CHAN. I'M HOME."
 - P4 (middle-right): Dai drying his hands on a towel, standing over the low table, looking down at his mother. DAI: "HOW MUCH WAS IT?"
 - P5 (middle-left): Close on Mom's hands doing up the clasp of her worn handbag, the notebook inside it. MOM: "IT'S PAID."
-- P6 (lower, wide): Mom looking through the open fusuma at Sota, who reads a comic with his lips moving; she keeps her voice down. MOM: "HE ASKED ME ON THE BUS IF THE HOSPITAL WAS FREE." MOM: "HE SAID YOU TOLD HIM IT WAS."
-- P7 (lower-right): Dai standing with the towel in his hands, silent, looking at the floor. CAPTION: "I DIDN'T SAY ANYTHING."
+- P6 (lower, wide): Mom looking through the open fusuma at Sota, who reads a comic with his lips moving; she keeps her voice down. MOM: "HE ASKED ME ON THE BUS" MOM: "IF THE HOSPITAL WAS FREE. HE SAID YOU TOLD HIM IT WAS."
+- P7 (lower-right): Dai standing with the towel in his hands, silent, looking at the floor. CAPTION: "SHE KEPT HER VOICE DOWN."
 - P8 (lower-left): Mom getting up from the low table with one hand on it, tired. MOM: "I SAID YES."
 - P9 (bottom, wide): Close on Mom's tired face, half turned away toward the fusuma, eyes down. MOM: "THEN HE ASKED HOW MUCH THE BUS WAS."
 
@@ -67,7 +67,7 @@
 - P3 (middle, wide): Close on the back of the card in Dai's hands: four short lines of careful pencil handwriting, too small to read. A caption box is laid over the writing. CAPTION: "TORA. CHAIRO. MARU. HANBUN (BECAUSE OF THE TAIL)."
 - P4 (lower-right): Sota, earnest. SOTA: "FOR THE CAT. YOU CAN'T KEEP CALLING IT "THE CAT.""
 - P5 (lower-left): Dai looking at the card. DAI: "I DON'T CALL IT ANYTHING."
-- P6 (bottom-right): Sota running one finger down the four names on the card in Dai's hand. SOTA: "YOU HAVE TO ASK IT, THOUGH. WHICH ONE. YOU CAN'T JUST PICK FOR IT. IT'S ITS NAME."
+- P6 (bottom-right): Sota running one finger down the four names on the card in Dai's hand. SOTA: "YOU HAVE TO ASK IT, THOUGH. IT'S ITS NAME."
 - P7 (bottom-center): Close on Dai's hand putting the folded card into the pocket of a grey zip-up jacket hanging on a hook, next to a small plastic bag of white cotton gloves. CAPTION: "I PUT IT IN MY JACKET, IN THE POCKET WITH THE GLOVES."
 - P8 (bottom-left): Deep night, the dark kitchen; Dai lying on his futon with his eyes open, the refrigerator a dark shape with a faint glow. CAPTION: "AT THREE I WAS STILL LISTENING TO THE REFRIGERATOR. AT HALF PAST FOUR MOM'S ALARM WENT, AND I WAS ALREADY DRESSED." SFX: "JIRIRIRI"
 
@@ -91,7 +91,7 @@
 - P7 (bottom, wide): The empty lane outside the open yard gate in early sun, white shells and potholes, a long corrugated fence; nothing in it yet, only a faint sound coming. CAPTION: "IT DIDN'T SOUND THE SAME IN DAYLIGHT. IT SOUNDED SMALLER." SFX: "brrrrrm"
 
 ## Page 8: White on red
-- P1 (top-right): Ground-level close in the lane outside the gate: a silver 7-spoke alloy wheel of the red car rolling slowly over white shells and potholes, little stones popping out from under the tire. Only the wheel, the tire and the bottom of the red fender. SFX: "PACHI PACHI"
+- P1 (top-right): Ground-level close in the lane outside the gate: a silver 7-spoke alloy wheel of the red car rolling slowly over white shells and potholes, little stones popping out from under the tire. Only the wheel, the tire and the bottom of the red fender. CAPTION: "COMING SLOWLY OVER THE SHELLS AND THE POTHOLES, IN FIRST GEAR." SFX: "PACHI PACHI"
 - P2 (upper, wide): The red Roadster coming slowly through the open yard gate in first gear, a little white dust behind it; the yellow crusher and the tire wall beside its path. Silent. No text.
 - P3 (middle-right): The car stopped beside the grey prefab office, engine just switched off. SFX: "TIK... TIK"
 - P4 (middle-left): Close on the car's lower door and sill (the red paint shown as smooth mid-grey tone), a fine film of WHITE dust settling on it. CAPTION: "THE DUST IT HAD BROUGHT IN OFF THE LANE SETTLED ON ITS SILLS, WHITE ON RED. I WANTED TO WIPE IT OFF."
@@ -128,7 +128,7 @@
 
 ## Page 12: Seat
 - P1 (top-right): Low close in the driver's footwell edge: Dai's white-gloved hand feeling under the front of his seat and finding the adjusting bar. NATSUME (off): "PULL IT UP. ALL THE WAY BACK."
-- P2 (top-left): Dai pushing back with his feet, the seat sliding back on its rails and banging against the stop; his body jolting. SFX: "GA-CHAN"
+- P2 (top-left): Dai pushing back with his feet, the seat sliding back on its rails and banging against the stop; his body jolting. CAPTION: "THE SEAT RAN BACK ON ITS RAILS AND HIT THE END." SFX: "GA-CHAN"
 - P3 (middle, wide): Close in the driver's footwell from the side: three pedals; Dai's LEFT foot in a white sneaker pushing the LEFT pedal (the clutch), his leg stretched out straight and the pedal still not at the floor. NATSUME (off): "LEFT FOOT. CLUTCH TO THE FLOOR." CAPTION: "MY LEG RAN OUT BEFORE THE PEDAL DID."
 - P4 (lower-right): Dai pulling the bar again and walking the seat forward with his heels, a click at a time. NATSUME (off): "FORWARD." SFX: "KACHI KACHI KACHI"
 - P5 (lower-left): Akane glancing down at his knee, expressionless. NATSUME: "KNEE."
@@ -137,7 +137,7 @@
 
 ## Page 13: Not the glass
 - P1 (top-right): Akane, eyes on him for a moment. NATSUME: "SHOULDERS BACK."
-- P2 (top-left): Dai pulling the backrest lever on the side of his seat by the door and leaning; the backrest coming up. SFX: "KACHI KACHI"
+- P2 (top-left): Dai pulling the backrest lever on the side of his seat by the door and leaning; the backrest coming up. CAPTION: "THE BACKREST CAME UP TWO CLICKS." SFX: "KACHI KACHI"
 - P3 (middle-right): Akane, short. NATSUME: "HANDS."
 - P4 (middle-left): Close on the steering wheel: Dai's white-gloved hands at nine and three, the thumbs lying ALONG the rim, not hooked round it. NATSUME (off): "THUMBS ALONG THE RIM. NOT ROUND IT." CAPTION: "THE BOOK HAD SAID WHY. SHE DIDN'T SAY WHY."
 - P5 (lower-right): Dai reaching up and grabbing the rear-view mirror with his whole gloved hand flat on the glass. NATSUME (off): "NOT THE GLASS."
@@ -149,8 +149,8 @@
 - P1 (top-right): Akane winding her window back up with the crank handle. NATSUME: "BELT."
 - P2 (top-left): Close on Dai's gloved hands pulling the seat belt across and clicking it into the buckle himself. CAPTION: "SHE'D DONE IT FOR ME, THE LAST TIME I WAS IN THIS CAR. I DIDN'T KNOW IF SHE REMEMBERED." SFX: "KACHIN"
 - P3 (middle, wide): Akane in profile looking straight ahead through the windshield at the wall of crushed cars, not at Dai. NATSUME: "THAT NIGHT. ON THE BYPASS." NATSUME: "WHAT DID MY FEET DO?"
-- P4 (middle-right): Dai answering at once, sure of it. DAI: "EVERY TIME YOU SLOWED DOWN. BRAKE FIRST, WITH THE BALL OF YOUR RIGHT FOOT. THEN THE CLUTCH, ALL THE WAY. LEVER OUT." CAPTION: "I DIDN'T HAVE TO THINK. I'D DONE IT ON MY FUTON, ON THE PUMP-ISLAND CURB, AND UNDER THE DINNER TABLE AGAINST AYA'S SHIN."
-- P5 (middle-left): Memory inset with a dark border, NIGHT: a dark footwell lit orange by passing streetlights, a woman's right foot in a flat canvas shoe on the brake pedal rolling its heel over onto the gas pedal, the left foot pressing the clutch. DAI (off): "THEN THE HEEL GOES OVER ONTO THE GAS, QUICK, MORE LIKE A HICCUP THAN A PUSH. LEVER INTO THE LOWER GEAR. CLUTCH UP."
+- P4 (middle-right): Dai answering at once, sure of it. DAI: "EVERY TIME YOU SLOWED DOWN. BRAKE FIRST, WITH THE BALL OF YOUR RIGHT FOOT. THEN THE CLUTCH, ALL THE WAY. LEVER OUT."
+- P5 (middle-left): Memory inset with a dark border, NIGHT: a dark footwell lit orange by passing streetlights, a woman's right foot in a flat canvas shoe on the brake pedal rolling its heel over onto the gas pedal, the left foot pressing the clutch. DAI (off): "THEN THE HEEL GOES OVER ONTO THE GAS, MORE LIKE A HICCUP THAN A PUSH. CLUTCH UP."
 - P6 (lower-right): Dai, finishing, looking ahead. DAI: "AND YOUR RIGHT FOOT NEVER CAME OFF THE BRAKE WHILE YOU DID IT."
 - P7 (lower-left): Akane, unmoved. NATSUME: "UNDER THE OVERPASS."
 - P8 (bottom, wide): Two-shot from behind the seats: the backs of their heads, Dai on the image RIGHT behind the wheel, Akane on the image LEFT; through the windshield the wall of crushed sedans. DAI: "NOTHING. YOU'D ALREADY DONE IT ALL. RIGHT FOOT FLAT ON THE GAS, ALL THE WAY ROUND. LEFT FOOT ON THE FLOOR BESIDE THE CLUTCH."
@@ -163,16 +163,16 @@
 - P5 (lower-right): Dai, low. DAI: "I DON'T KNOW."
 - P6 (lower-left): Akane putting her gloved hands together in her lap. NATSUME: "NO."
 - P7 (bottom-right): Akane, matter-of-fact, eyes ahead. NATSUME: "CLUTCH IN. HOLD IT. NEUTRAL. START IT."
-- P8 (bottom-left): Close: Dai's left gloved hand wobbling the gear lever side to side to feel it loose in neutral while his right hand turns the key. CAPTION: "LOOSE IN THE MIDDLE, THE WAY THE BOOK SAID. THE ENGINE CAUGHT, AND WENT UP, AND CAME DOWN, AND SAT THERE." SFX: "KYURURU... BURON"
+- P8 (bottom-left): Close: Dai's left gloved hand wobbling the gear lever side to side to feel it loose in neutral while his right hand turns the key. CAPTION: "THE ENGINE CAUGHT, AND WENT UP, AND CAME DOWN, AND SAT THERE." SFX: "KYURURU... BURON"
 
 ## Page 16: One
-- P1 (top-right): Close on the round tachometer, its needle sitting just under the 1. CAPTION: "THROUGH THE SEAT AND THE WHEEL AND THE PEDAL I COULD FEEL ALL FOUR OF THEM GOING, SMALL AND QUICK AND BUSY. MY OWN CAR HAD NEVER DONE THIS." SFX: "BURORORO"
+- P1 (top-right): Close on the round tachometer, its needle sitting just under the 1. CAPTION: "I COULD FEEL ALL FOUR OF THEM GOING, SMALL AND QUICK AND BUSY. MY OWN CAR HAD NEVER DONE THIS." SFX: "BURORORO"
 - P2 (top-left): Close: Dai's LEFT gloved hand pushing the gear lever forward and away into first. NATSUME (off): "FIRST." SFX: "KACHI"
 - P3 (middle, wide): Akane looking out of the windshield, giving the instructions evenly; Dai beside her gripping the wheel. NATSUME: "HANDBRAKE DOWN. NO GAS. LEAVE YOUR RIGHT FOOT ON THE FLOOR." NATSUME: "BRING THE CLUTCH UP UNTIL IT MOVES. WHEN IT MOVES, STOP YOUR FOOT."
 - P4 (lower-right): Close in the footwell, motion lines: Dai's left foot springing up off the clutch pedal all at once. CAPTION: "MY FOOT CAME UP THE WAY YOU LET GO OF A LIGHT SWITCH."
 - P5 (lower-left, large): The whole car lunging half a meter forward at the wall of crushed sedans, its nose dipping hard, dust jumping from the tires. SFX: "GAKUN!"
 - P6 (bottom-right): Dai's head snapping forward and back against the headrest, eyes wide; Akane beside him barely moving. SFX: "BUSUN"
-- P7 (bottom-left): Close on the dashboard behind the steering wheel, two small red warning lamps lit (a battery symbol and an oil-can symbol), drawn as bright white lamps with dark surrounds. FUMIE (off): "ONE." CAPTION: "TWO RED LIGHTS. OUTSIDE, A GULL. THE TICK OF SOMETHING HOT UNDER THE HOOD. BEHIND US, ON THE FORKLIFT, TANABE-SAN'S VOICE."
+- P7 (bottom-left): Close on the dashboard behind the steering wheel, two small red warning lamps lit (a battery symbol and an oil-can symbol), drawn as bright white lamps with dark surrounds. FUMIE (off): "ONE." CAPTION: "TWO RED LIGHTS. A GULL. THE TICK OF SOMETHING HOT UNDER THE HOOD. BEHIND US, TANABE-SAN'S VOICE."
 
 ## Page 17: Two
 - P1 (top-right): Akane's gloved hand already on the handbrake lever between the seats, pulling it up; she speaks without looking at him. NATSUME: "CLUTCH IN. NEUTRAL. START IT. HANDBRAKE." CAPTION: "SHE'D PULLED THE HANDBRAKE ON HERSELF, WHILE I WAS STILL LOOKING AT THE RED LIGHTS."
