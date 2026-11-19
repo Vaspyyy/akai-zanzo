@@ -1,0 +1,1537 @@
+chapter: 10
+title: Nobody Waits Up
+lettering: empty
+defaults:
+  orientation: portrait
+  time: late September 1995
+  notes:
+  - Right-to-left panel order. One speaker per panel. All cars are Japanese models sold by September 1995, right-hand drive.
+  - No brand logos, no stickers, no readable signs or printed words anywhere unless a panel asks for them. No Japanese characters.
+  - Vary shot sizes and poses; no two panels on the page may look alike.
+
+pages:
+# ------------------------------------------------------------------ the ER bay, Tue 26 Sep, 1:54 a.m.
+- page: 1
+  title: Come in, please
+  location: er-bay
+  time: Tuesday 1:54 a.m., inside under bright fluorescent light, black night outside the glass doors
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "The monitor is a small grey box with a little window of green digits; the digits read exactly the number the panel gives (93, 94 or 96), never 888."
+  - "Dai has SHORT hair (forehead uncovered), a rumpled white short-sleeved school shirt untucked with a pair of small round glasses folded in the breast pocket, black trousers, white canvas sneakers with the laces UNDONE; a square Band-Aid on the heel of his LEFT palm."
+  - "The nurse is Akane (21): white nurse's tunic and trousers, a small watch pinned upside down on her chest, a pen in the breast pocket, her long hair pinned UP in a tight bun, no cap. She is calm and unreadable."
+  - "Sota (11) is calm and clinical: a clear plastic nebulizer mask with white mist coming out of its side holes, a clear tube from the mask to the wall, a clip on one finger with a cable; NO glasses on his face. Nothing graphic."
+  - The wall clock reads 1:54 (hour hand just short of 2, minute hand on the 11).
+  panels:
+  - pos: top-right
+    action: Close on the nurse standing in the gap of the pale green curtain, her calm eyes on the viewer for a second, then dropping back to the clipboard against her chest, her pen making a small mark.
+    cast: [akane:nurse]
+    captions:
+    - {text: "SHE LOOKED AT ME FOR ABOUT A SECOND. THEN SHE LOOKED BACK DOWN AT THE CLIPBOARD, AND HER PEN MADE A SMALL MARK ON IT.", box: [507, 20, 305, 200], draw: true}
+  - pos: top-left
+    shot: close-up
+    action: "The round white wall clock high on the wall over the row of orange plastic chairs, showing 1:54: the hour hand just short of the 2, the minute hand on the 11."
+    captions:
+    - THE CLOCK OVER THE ORANGE CHAIRS SAID 1:54.
+  - pos: middle-right
+    action: The nurse at the curtain gap, flat, looking at the viewer.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: ARE YOU THE FAMILY?
+  - pos: middle-left
+    action: Dai getting up off the end orange chair, half standing, eyes fixed ahead.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: HIS BROTHER.
+  - pos: lower-right
+    action: The nurse holding the green curtain open with one hand, already turning in.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: COME IN, PLEASE.
+  - pos: lower-left
+    shot: close-up
+    action: Dai's legs walking across the shiny floor toward the curtain, his white sneakers with the laces undone and trailing.
+    captions:
+    - PLEASE. MY LEGS HAD STOPPED SHAKING SOMEWHERE BETWEEN MY BROTHER'S NAME AND THE CLIPBOARD. I ONLY FOUND OUT WHEN I WAS WALKING ON THEM.
+  - pos: bottom, wide
+    location: er-treatment-bay
+    action: "Inside the curtained bay: a high bed with its back raised; a steel stand with a clear bag hanging, not connected yet; a small grey box with a green-digit window on a wall shelf, a cable running to a clip on the boy's finger; the wall behind the bed full of outlets and dials; a clear tube from the wall to a clear plastic nebulizer mask on Sota, who sits folded forward over a pillow on a wheeled table pushed across the bed, arms crossed on the pillow, chin on his arms; thin white mist curling out of the mask's side holes past his ears."
+    cast: [sota_ng:pajamas]
+    sfx: [SHUUUU]
+    captions:
+    - BEHIND THE CURTAIN IT WAS SMALLER THAN IT HAD SOUNDED.
+  - pos: bottom-left
+    location: er-treatment-bay
+    action: Sota lifting his head off his arms, trying to sit up; the nurse bending to him with one hand resting lightly on his back, her face gentle.
+    cast: [akane:nurse, sota_ng:pajamas]
+    dialogue:
+    - akane: STAY LIKE THAT. THAT'S THE BEST WAY.
+
+- page: 2
+  title: Sit there
+  location: er-treatment-bay
+  time: about 1:56 a.m., inside under bright fluorescent light
+  continue_from: 1
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "Dai: SHORT hair, rumpled white school shirt with the folded glasses in the breast pocket, laces undone. He stands just inside the curtain until the last panel, where he sits on the round steel stool in the corner."
+  - "Akane: white nurse's uniform, upside-down watch, hair pinned up in a tight bun."
+  - "The doctor is a tall young man in a white coat, hair flattened at the back from sleeping; he looks nothing like Dai."
+  panels:
+  - pos: top-right
+    action: Dai standing just inside the curtain, staring at the nurse's back as she bends over the bed.
+    cast: [dai_cut:summer_school]
+    captions:
+    - IT WAS TO HIM, NOT ME. IT WAS HER VOICE, BUT SLOWER, AND LOWER, WITH THE ENDS OF THE WORDS LEFT SOFT.
+  - pos: top-left
+    action: The young doctor at the end of the bed holding up a strip of tablets in a blister pack; an open square biscuit tin full of medicine packets sits on the end of the bed.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: THESE. EVERY DAY?
+  - pos: middle-right
+    action: Dai answering quickly.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: MORNING AND NIGHT.
+  - pos: middle-left
+    action: The doctor glancing up from the tablets.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: THE LAST ONE?
+  - pos: lower-right
+    action: Dai, thinking back, precise.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: {text: "AFTER DINNER. MOM SAID HE'D HAD IT, WHEN SHE LEFT. HALF PAST SEVEN.", box: [563, 785, 225, 290], draw: true, tail: [790, 950]}
+  - pos: lower-left
+    action: The nurse writing on her clipboard without looking at her hand, while her other hand turns a round dial on the oxygen outlet in the wall.
+    cast: [akane:nurse]
+    captions:
+    - SHE WROTE IT DOWN WITHOUT LOOKING AT HER OWN HAND. THE HISS WENT DOWN HALF A NOTE.
+  - pos: bottom-right
+    action: Dai, quietly, a step toward her.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: NATSUME-SAN.
+  - pos: bottom-left
+    action: The nurse not looking at him, pointing her pen at a round steel stool in the corner beside a steel pedal bin; Dai sitting down on the stool.
+    cast: [akane:nurse, dai_cut:summer_school]
+    dialogue:
+    - akane: SIT THERE, PLEASE.
+
+- page: 3
+  title: Eleven
+  location: er-treatment-bay
+  time: about 2 a.m., inside under bright fluorescent light
+  continue_from: 2
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "Sota sits folded forward over the pillow on the table across the bed, clear plastic nebulizer mask with mist, NO glasses. Calm and clinical."
+  - "Akane crouches beside the bed with her face level with Sota's, close, gentle. Hair pinned up, white uniform, the upside-down watch."
+  panels:
+  - pos: top-right
+    shot: extreme close-up
+    action: A small round nurse's watch pinned UPSIDE DOWN to the front of a white tunic, beside a pen in the breast pocket.
+    captions:
+    - SHE HAD A WATCH PINNED TO HER UNIFORM UPSIDE DOWN, SO SHE COULD READ IT LOOKING DOWN.
+  - pos: top-left
+    action: The nurse crouched by the bed with her face level with Sota's, close, so he doesn't have to turn his head.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: SOTA-KUN. YOU KNOW BIRTHDAY CANDLES?
+  - pos: middle-right
+    action: The nurse, soft, one finger raised as if holding a candle.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: {text: "BREATHE OUT LIKE YOU'RE BLOWING THEM OUT. SLOWLY. ALL OF THEM, ONE AFTER THE OTHER.", box: [503, 537, 278, 250], draw: true, tail: [785, 640]}
+  - pos: middle-left
+    shot: close-up
+    action: Close on Sota's bare eyes over the misty mask, moving toward her, his lips moving inside the mask.
+    cast: [sota_ng:pajamas]
+    dialogue:
+    - sota_ng: {text: "HOW... MANY?", style: small}
+  - pos: lower, wide, large
+    shot: close-up
+    action: The nurse's face close to the boy's, gentle and calm, the kindest look she has.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: ELEVEN.
+  - pos: bottom-right
+    action: Sota breathing out slowly; a puff of white mist from the mask's side holes.
+    cast: [sota_ng:pajamas]
+    sfx: [FUUUU]
+  - pos: bottom-left
+    action: The nurse's eyes on the upside-down watch on her chest.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: GOOD. AGAIN.
+
+- page: 4
+  title: Glasses
+  location: er-treatment-bay
+  time: about 2:05 a.m., inside under bright fluorescent light
+  continue_from: 3
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "The monitor is a small grey box with a little window of green digits; the digits read exactly the number the panel gives (93, 94 or 96), never 888."
+  - "Sota has NO glasses in panels 1-3; from panel 4 on he WEARS his round glasses, the lenses fogged white by the mist from the mask."
+  - "Dai sits on the round steel stool in the corner; SHORT hair, white school shirt."
+  - "The grey box is a small grey monitor on a wall shelf with a small window of green digits: it reads 94."
+  panels:
+  - pos: top-right
+    shot: close-up
+    action: Close-up of the nurse's bare hands with short nails holding the boy's thin wrist, her fingertips on the inside of it.
+    captions:
+    - I'D SEEN HER HANDS DO HEEL-AND-TOE, TWO IN THE MORNING ON THE BYPASS. NOW THEY WERE BARE. SHORT NAILS.
+  - pos: top-left
+    action: Dai on the round stool in the corner, elbows on his knees, watching the nurse count with her lips shut.
+    cast: [dai_cut:summer_school]
+    captions:
+    - SHE'D HAD A SHIFT. THE THURSDAY SHE DIDN'T COME. THIS WAS THE JOB.
+  - pos: middle-right
+    action: Sota turning his head on the pillow, finding Dai in the corner.
+    cast: [sota_ng:pajamas]
+    dialogue:
+    - sota_ng: NII-CHAN. GLASSES.
+  - pos: middle-left
+    action: Dai leaning over the bed, carefully putting the small round glasses on Sota's face over the elastic strap of the mask.
+    cast: [dai_cut:summer_school, sota:pajamas]
+    captions:
+    - I PUT THEM ON HIM, CAREFULLY, OVER THE ELASTIC OF THE MASK.
+  - pos: lower-right
+    shot: close-up
+    action: Close-up of Sota's face in the mask with his round glasses on, both lenses gone WHITE with mist, turned toward the viewer.
+    cast: [sota:pajamas]
+    captions:
+    - THE LENSES WENT WHITE AT ONCE. HE TURNED THEM TOWARD ME ANYWAY.
+  - pos: lower-left
+    action: The nurse at the wall outlet, not turning round, as Dai's hand reaches toward the glasses.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: LEAVE THEM.
+  - pos: bottom, wide
+    shot: close-up
+    action: "The small grey monitor box on the wall shelf, its little window showing green digits 94; a thin cable runs down to a clip on a small finger."
+    sfx: [PI]
+    captions:
+    - THE GREEN NUMBERS SAID 93. IN THE AMBULANCE IT HAD BEEN 89, THEN 90.
+    - WHEN THE NUMBER WENT UP, THE BEEP WENT UP. I HEARD IT CLIMB, AND LOOKED, AND IT SAID 94.
+
+- page: 5
+  title: Look at me
+  location: er-treatment-bay
+  time: about 2:10 a.m., inside under bright fluorescent light
+  continue_from: 4
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "Sota wears his round glasses, lenses fogged white, the clear plastic nebulizer mask on. His LEFT hand is laid flat on a small padded board on this page. Calm and clinical: show hands, the board, a rubber strap, faces. NO needle drawn, NO blood."
+  - "The doctor: tall young man in a white coat with a stethoscope, hair flattened at the back."
+  panels:
+  - pos: top-right
+    action: The doctor coming back through the curtain with a small steel tray and a little board the size of a ruler wrapped in white gauze.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: A DRIP. IN THE BACK OF YOUR HAND. IT'LL STING, AND THEN IT WON'T.
+  - pos: top-left
+    shot: close-up
+    action: Close-up of the nurse's two hands laying the boy's LEFT hand flat, palm down, on the small gauze-wrapped board.
+  - pos: middle-right
+    action: The nurse with her face down beside Sota's, close, calm, holding his attention.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: CANDLES. LOOK AT ME, NOT HIM.
+  - pos: middle-left
+    shot: close-up
+    action: Close on the small hand on the board with a rubber strap round the wrist; the doctor's fingers tapping the back of the hand. No needle visible.
+    sfx: [{text: "PAN PAN", note: small}]
+    captions:
+    - THE DOCTOR PUT A RUBBER STRAP ROUND SOTA'S WRIST, SLAPPED THE BACK OF HIS HAND TWICE, AND WENT IN.
+  - pos: lower-right
+    action: Sota's whole body tight over the pillow, eyes squeezed shut behind the fogged glasses, silent.
+    cast: [sota:pajamas]
+    captions:
+    - SOTA'S WHOLE BODY WENT TIGHT. HE DIDN'T MAKE ANY NOISE.
+  - pos: lower-left
+    action: The doctor frowning, pressing a small cotton ball on the back of the left hand.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: HM.
+  - pos: bottom-right
+    action: Sota, small, into the mask, eyes down.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: {text: "SORRY.", style: small}
+  - pos: bottom-left
+    action: The doctor, matter-of-fact, already reaching for a new strap.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: OTHER HAND.
+
+- page: 6
+  title: Good boy
+  location: er-treatment-bay
+  time: about 2:15 a.m., inside under bright fluorescent light
+  continue_from: 5
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "Sota's RIGHT hand now lies taped flat to the small board (the drip goes in the back of the RIGHT hand); his LEFT hand is free, with a small cotton ball taped on its back. Calm and clinical: no needle, no blood."
+  - "Sota wears his round glasses, lenses fogged white, the clear plastic nebulizer mask on."
+  panels:
+  - pos: top-right
+    shot: close-up
+    action: Close-up of the nurse's hands holding the boy's RIGHT hand flat, palm down, on the board.
+    captions:
+    - SHE LET GO OF THE LEFT HAND ONLY WHEN SHE HAD THE RIGHT ONE FLAT ON THE BOARD. THE SECOND TIME IT WENT IN.
+  - pos: top-left
+    action: The nurse writing small labels on three little capped sample tubes standing in a rack, fast.
+    cast: [akane:nurse]
+    captions:
+    - THREE SMALL TUBES. SHE LABELLED THEM FASTER THAN I COULD READ WHAT SHE WROTE.
+  - pos: middle, wide
+    shot: close-up
+    action: "Close-up: the nurse's fingers tearing a strip of white tape off a roll with two fingers and taping the small RIGHT hand flat to the board, a thin clear tube taped along it; at the top of the panel the clear drip chamber under the bag with one drop falling."
+    sfx: [{text: "pito", note: small}]
+    captions:
+    - EVERY STRIP THE SAME LENGTH. ONE DROP. ONE DROP.
+  - pos: lower-right
+    action: The nurse close to Sota's face, gentle.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: DID YOU BLOW THEM ALL OUT?
+  - pos: lower-left
+    action: Sota holding up his free LEFT hand, all five fingers spread, a small cotton ball taped on its back; his right hand taped to the board on the pillow.
+    cast: [sota:pajamas]
+    captions:
+    - ALL FIVE FINGERS, AND THEN AGAIN, AND THEN ONE.
+  - pos: bottom-right
+    action: The nurse, the faintest softening at her mouth.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: GOOD BOY.
+  - pos: bottom-left
+    action: The nurse, straight-backed and businesslike again, walking past Dai's stool and out through the curtain with the little tubes, not looking at him; Dai on the stool watching her go.
+    cast: [akane:nurse, dai_cut:summer_school]
+    captions:
+    - THEN SHE STOOD UP AND WAS SOMEONE ELSE AGAIN, AND WENT PAST ME, AND DIDN'T LOOK AT ME, ANY MORE THAN SHE LOOKED AT THE BIN.
+
+- page: 7
+  title: The next bay
+  location: er-treatment-bay
+  time: about 2:15 a.m., inside under bright fluorescent light
+  continue_from: 6
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "Dai sits on the round steel stool the whole page; SHORT hair, white school shirt."
+  - "Sota wears his round glasses fogged white, the clear plastic nebulizer mask on, his RIGHT hand taped to the board."
+  - "The next bay is only seen as shoes and feet under the curtain's bottom edge; no other faces."
+  panels:
+  - pos: top, wide
+    action: Quiet wide view of the bay; Sota folded over the pillow with the mist going up, Dai small on the stool in the corner; nobody else.
+    cast: [sota:pajamas, dai_cut:summer_school]
+    sfx: [SHUUUU]
+    captions:
+    - FOR A WHILE THEN IT WAS ONLY SOTA AND ME AND THE HISS.
+  - pos: upper-right
+    action: Low view under the bottom edge of the green curtain into the next bay; a man's feet on a bed step, one black business shoe on, the other off, a dark sock with a hole in the heel.
+    captions:
+    - IN THE NEXT BAY A MAN WAS SINGING TWO LINES OF AN ENKA ABOUT A HARBOR IN THE RAIN, OVER AND OVER. HE KEPT LOSING THE THIRD.
+  - pos: upper-left
+    action: The same low view under the curtain; a pair of plain, polished black shoes walks in and stands beside the man's feet.
+    sfx: [{text: "ZZT", note: small}]
+    captions:
+    - THEN OTHER SHOES CAME. BLACK, PLAIN, POLISHED. A RADIO ON SOMEBODY'S BELT CRACKLED AND SAID A NUMBER.
+  - pos: middle-right
+    action: Dai on the stool, his back suddenly bolt upright, eyes wide, staring at the curtain.
+    cast: [dai_cut:summer_school]
+    captions:
+    - MY BACK HAD GONE STRAIGHT BEFORE I'D THOUGHT ANYTHING. PIER 3, THE CHIT, THE DOORWAY.
+    - A BORED YOUNG VOICE ASKED HIS NAME. HE GAVE THE NAME OF A SHIP. I MADE MY BACK GO ROUND AGAIN. IT TOOK A WHILE.
+  - pos: middle-left
+    action: The doctor with his stethoscope disc on Sota's back through the pajamas, listening.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: OUT. OUT. OUT.
+  - pos: lower-right
+    shot: close-up
+    action: Close-up of the nurse's thumb snapping the top off a small plastic ampoule over the little cup under the mask; mist thickening.
+    sfx: [PAKI]
+    dialogue:
+    - young_doctor: {text: "MOVING AIR.", offpanel: true}
+  - pos: lower-left
+    action: Sota turning his head on the pillow toward Dai, mist going up past his white lenses.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: DID IT... HAVE THE SIREN ON? THE AMBULANCE.
+  - pos: bottom-right
+    action: Dai on the stool, leaning in.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: ALL THE WAY.
+  - pos: bottom-left
+    action: Sota, small and wet-voiced in the mask.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: {text: "I DIDN'T... HEAR IT.", style: small}
+
+- page: 8
+  title: I missed it
+  location: er-treatment-bay
+  time: about 2:20 a.m., inside under bright fluorescent light
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "Dai: SHORT hair, rumpled white school shirt (no glasses in the pocket now), laces undone. He sits on the stool in panel 1, then stands at the phone."
+  - "Sota wears his round glasses fogged white, the clear plastic nebulizer mask on, RIGHT hand taped to the board."
+  - "Aya (20, chin-length bob) is at home in the dim kitchen at night in a grey tank top and long cardigan, holding the receiver of an old black rotary phone."
+  panels:
+  - pos: top, wide
+    action: Dai on the stool, leaning toward the bed, gentle.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: IT WAS LOUD.
+  - pos: upper, large
+    action: Big quiet panel of Sota on the pillow, his face in the clear plastic nebulizer mask, the mist going up past his white-fogged round glasses, thinking.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: I MISSED IT.
+  - pos: middle-right
+    action: Two men in pale tunics wheeling a mobile X-ray machine with an arm into the bay.
+    cast: [xray_tech]
+    dialogue:
+    - xray_tech: X-RAY. FAMILY OUTSIDE, PLEASE.
+    captions:
+    - AT ABOUT 2:20.
+  - pos: middle-left
+    location: er-bay
+    action: Dai in the bright corridor in front of a GREEN public payphone fixed on the wall past the orange chairs.
+    cast: [dai_cut:summer_school]
+    captions:
+    - I WAS STANDING IN FRONT OF THE GREEN PHONE BEFORE I KNEW WHY. THEN I KNEW WHY. NOBODY HAD TOLD AYA WHERE.
+  - pos: lower-right
+    shot: close-up
+    action: Close-up of a bronze 10-yen coin going into the coin slot of the green payphone.
+    sfx: [CHARIN]
+    captions:
+    - I HAD 757 YEN. I PUT IN A 10-YEN COIN AND DIALED.
+  - pos: lower-left
+    location: er-bay
+    action: Dai at the green payphone with the receiver at his ear.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: IT'S ME.
+  - pos: bottom-right
+    action: Aya at home in the dim night kitchen holding the receiver of an old black rotary phone to her ear, tense.
+    cast: [aya:home]
+    dialogue:
+    - aya: WHERE ARE YOU?
+  - pos: bottom-left
+    location: er-bay
+    action: Dai at the payphone, his forehead almost on the phone.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: MUNICIPAL.
+
+- page: 9
+  title: More
+  location: er-bay
+  time: about 2:22 a.m.; the ER bright, the Hayama kitchen dim at night
+  continue_from: 8
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Alternating panels: Dai at the GREEN payphone in the bright hospital corridor, and Aya at home in the dim night kitchen at the old black rotary phone. Each panel has only ONE of them."
+  - "Dai: SHORT hair, rumpled white school shirt, sneakers with the laces UNDONE. Aya: chin-length bob, grey tank top, long cardigan."
+  panels:
+  - pos: top-right
+    location: hayama-kitchen-night
+    action: Aya at the rotary phone on its wall shelf, holding the receiver, her other hand pressed to her chest.
+    cast: [aya:home]
+    dialogue:
+    - aya: I KNOW. MOM RANG THE FIRE DEPARTMENT. SHE'S IN A TAXI. ...IS HE...
+  - pos: top-left
+    action: Dai at the payphone, looking back over his shoulder toward the green curtains.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: BETTER. HE'S GOT A MASK WITH MIST IN IT AND A DRIP. THEY'RE DOING AN X-RAY. IT SAYS 94.
+  - pos: middle-right
+    location: hayama-kitchen-night
+    action: Aya, frowning.
+    cast: [aya:home]
+    dialogue:
+    - aya: WHAT SAYS 94?
+  - pos: middle-left
+    action: Dai, close, the receiver at his ear.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: A BOX. IT WAS 89 IN THE AMBULANCE.
+  - pos: lower-right
+    location: hayama-kitchen-night
+    action: Aya leaning against the wall by the phone shelf.
+    cast: [aya:home]
+    dialogue:
+    - aya: {text: "WHAT'S IT SUPPOSED TO SAY?", box: [495, 655, 215, 140], draw: true, tail: [735, 700]}
+  - pos: lower-left
+    action: Dai, quiet.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I DON'T KNOW. MORE.
+  - pos: bottom, wide
+    location: hayama-kitchen-night
+    action: Aya silent at the phone in the dim kitchen at night, the old refrigerator beside her, the round wall clock above; she holds the receiver without speaking.
+    cast: [aya:home]
+    captions:
+    - {text: "SHE DIDN'T SAY ANYTHING FOR A WHILE. I COULD HEAR OUR KITCHEN BEHIND HER. THE REFRIGERATOR, AND THE CLOCK.", box: [20, 1195, 440, 112], draw: true}
+  - pos: bottom-right
+    location: hayama-kitchen-night
+    action: Aya, cross, close.
+    cast: [aya:home]
+    dialogue:
+    - aya: YOU WENT DOWN THE STAIRS WITH YOUR LACES UNDONE. I WATCHED YOU. YOU'LL KILL YOURSELF.
+  - pos: bottom-left
+    action: Dai looking down at his white sneakers with the laces undone.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I'M FINE.
+
+- page: 10
+  title: The green vest
+  location: er-bay
+  time: 2:35 a.m., the ER bright inside, black night outside the glass doors
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Mom (Michiko, 41): the supermarket's GREEN work vest (mid-grey tone) with a small blank white name tag, plain long-sleeved top, loose dark trousers, WHITE rubber shop shoes, a shoulder bag; half her hair has come out of the low bun."
+  - "Dai: SHORT hair, white school shirt, laces UNDONE."
+  panels:
+  - pos: top-right
+    action: Aya at home at the black rotary phone, already lowering the receiver.
+    cast: [aya:home]
+    dialogue:
+    - aya: DO THEM UP. PHONE AGAIN IF... IF ANYTHING.
+  - pos: top-left
+    action: Dai at the green payphone holding the receiver a little away from his ear, the line dead.
+    cast: [dai_cut:summer_school]
+    sfx: [{text: "TUUU", note: small}]
+    captions:
+    - SHE PUT THE PHONE DOWN BEFORE I COULD SAY I WOULD.
+  - pos: middle, wide
+    action: View from inside through the glass doors of the emergency entrance at night; outside, Mom running across the lit forecourt toward the doors, her bag bouncing on her shoulder; far behind her a white taxi pulling away, small.
+    cast:
+    - michiko:vest
+    - {id: taxi, camera: "far behind her, small, seen from its rear left corner as it drives away out of the forecourt toward the left edge, tail lights on"}
+    captions:
+    - MOM CAME AT 2:35.
+  - pos: lower-right
+    action: Mom coming through the sliding glass doors, slowing from a run to a fast walk.
+    cast: [michiko:vest]
+    captions:
+    - AT THE DOORS SHE STOPPED RUNNING AND WALKED, FAST, BECAUSE IT WAS A HOSPITAL.
+  - pos: lower-left
+    action: Mom standing in the corridor, full figure, out of breath, her face pale and set.
+    cast: [michiko:vest]
+    captions:
+    - THE SUPERMARKET'S GREEN VEST WITH HAYAMA ON THE NAME TAG. THE WHITE RUBBER SHOES THEY WEAR ON THE SHOP FLOOR. SHE HADN'T CHANGED THEM.
+  - pos: bottom-right
+    shot: close-up
+    action: Close-up on the floor; Mom's white rubber shop shoes facing Dai's white canvas sneakers with the laces undone.
+    captions:
+    - SHE LOOKED AT MY FACE, AND THEN DOWN AT MY LACES, AND THEN AT THE CURTAIN.
+  - pos: bottom-left
+    action: Dai nodding toward the green curtain.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: BEHIND THERE.
+
+- page: 11
+  title: Separately
+  location: er-treatment-bay
+  time: about 2:40 a.m., inside under bright fluorescent light
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "The monitor is a small grey box with a little window of green digits; the digits read exactly the number the panel gives (93, 94 or 96), never 888."
+  - "Sota sits up against the raised bed now, his round glasses on (fogged white), the clear plastic nebulizer mask, his RIGHT hand taped to the small board, the drip tube from it. Calm."
+  - "Mom wears the GREEN supermarket vest (mid-grey tone) with a small blank name tag, white rubber shoes, half her hair out of the bun."
+  panels:
+  - pos: top-right
+    action: Sota has pulled the mask down to his chin; the nurse lifting it back over his nose and mouth.
+    cast: [akane:nurse, sota:pajamas]
+    dialogue:
+    - akane: BACK ON, PLEASE.
+  - pos: top-left
+    action: Sota through the mask, his fogged glasses turned to Mom (off panel).
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: {text: "MOM.", style: small}
+    captions:
+    - AND SOMETHING ELSE THAT MIGHT HAVE BEEN SORRY.
+  - pos: middle, wide
+    action: Mom by the bed with her hand resting on Sota's damp hair, leaving it there, not speaking.
+    cast: [michiko:vest, sota:pajamas]
+    captions:
+    - SHE PUT HER HAND ON HIS HEAD, ON HIS WET HAIR, AND LEFT IT THERE. SHE DIDN'T SAY ANYTHING.
+  - pos: lower-right
+    action: Close on Mom's tired eyes moving from the drip bag to the board to the grey box, one after another.
+    cast: [michiko:vest]
+    captions:
+    - SHE LOOKED AT THE DRIP, AND THE BOARD, AND THE TAPE, AND THE BOX WITH THE NUMBERS, AS IF SHE WAS GOING TO HAVE TO PAY FOR THEM SEPARATELY.
+  - pos: lower-left
+    shot: close-up
+    action: Close-up of Mom's hands wiping the small round glasses on the front of her vest.
+  - pos: bottom-right
+    shot: close-up
+    action: The round glasses back on Sota's face above the mask, both lenses gone white again at once.
+    cast: [sota:pajamas]
+  - pos: bottom-left
+    action: Mom taking the glasses off and wiping them again on her vest, patient.
+    cast: [michiko:vest]
+    captions:
+    - SHE TOOK THEM OFF AND WIPED THEM AGAIN.
+
+- page: 12
+  title: Some days
+  location: er-treatment-bay
+  time: about 2:50 a.m., inside under bright fluorescent light
+  continue_from: 11
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "Mom: GREEN supermarket vest (mid-grey tone), blank name tag, half her hair out of the bun."
+  - "Akane: white nurse's uniform, hair pinned up, a fresh clipboard."
+  - "The doctor: tall young man in a white coat with a stethoscope, hair flattened at the back."
+  panels:
+  - pos: top-right
+    action: The doctor standing at the end of the bed, talking to Mom (off panel), serious and kind.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: IT WAS A BIG ATTACK. A MAJOR ONE. THE DRIP IS MEDICINE TO OPEN HIS CHEST UP, AND A STEROID.
+  - pos: top-left
+    action: The doctor, one hand in his coat pocket.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: HE'S GETTING BETTER ON IT, BUT SLOWLY. WE'D LIKE TO KEEP HIM. SOME DAYS. WE'LL SEE.
+  - pos: middle-right
+    action: Mom, very still.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: SOME DAYS.
+  - pos: middle-left
+    action: The doctor nodding toward the nurse.
+    cast: [young_doctor]
+    dialogue:
+    - young_doctor: HE'LL GO UP TO THE CHILDREN'S WARD WHEN THERE'S A BED. THE NURSE WILL DO THE FORMS WITH YOU.
+  - pos: lower, wide
+    action: The nurse standing NEXT TO Mom, shoulder to shoulder, both looking down at the same clipboard; Mom holding out a small card from her worn purse.
+    cast: [akane:nurse, michiko:vest]
+    captions:
+    - THE NURSE WAS NATSUME. SHE STOOD NEXT TO MOM, NOT ACROSS FROM HER, SO THEY WERE BOTH LOOKING AT THE SAME PAPER.
+    - NAME. DATE OF BIRTH. ADDRESS. ALLERGIES. THE INSURANCE CARD. SHE ALWAYS HAS IT IN HER PURSE.
+  - pos: bottom-right
+    action: The nurse, flat, pen ready.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: WHO'LL BE WITH HIM IN THE DAYTIME.
+  - pos: bottom-left
+    action: Mom saying it to the clipboard, not to the nurse, counting on her fingers.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: {text: "I'M AT THE FACTORY FROM HALF PAST FIVE. UNTIL TWO.", box: [381, 1218, 174, 238], draw: true, tail: [372, 1330]}
+    - michiko: {text: "TODAY I'M OFF, I SWAPPED. THEN THE SUPERMARKET FROM EIGHT TILL TWELVE.", box: [20, 1218, 196, 298], draw: true, tail: [208, 1330]}
+
+- page: 13
+  title: They'll tell you
+  location: er-treatment-bay
+  time: about 3 a.m.
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Mom: GREEN supermarket vest (mid-grey tone), blank name tag, white rubber shoes, half her hair out of the bun."
+  - "From panel 6 on: the dark hospital lobby at the NIGHT WINDOW. The sign over the hatch is plain with NO readable letters."
+  panels:
+  - pos: top-right
+    action: Mom, still to the clipboard.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: I CAN COME BETWEEN. TWO TILL HALF PAST SEVEN. HIS SISTER CAN DO EVENINGS. SOME EVENINGS.
+  - pos: top-left
+    shot: close-up
+    action: Close-up of the nurse's pen writing line after line on the form on her clipboard.
+    captions:
+    - NATSUME WROTE IT DOWN. ALL OF IT. SHE DIDN'T LOOK UP WHILE SHE DID.
+  - pos: middle-right
+    action: The nurse, not looking up.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: THE NIGHT WINDOW'S BY THE MAIN DOORS. THEY'LL TAKE A DEPOSIT FOR TONIGHT.
+  - pos: middle-left
+    action: Mom, her hand tightening on her purse.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: HOW MUCH?
+  - pos: lower-right
+    action: The nurse already turning away with the clipboard.
+    cast: [akane:nurse]
+    dialogue:
+    - akane: THEY'LL TELL YOU.
+  - pos: lower, wide
+    location: hospital-night-window
+    action: The dark main lobby at night; the small lit hatch in the wall with its sliding glass and narrow ledge, a plain blank sign board above it, an old man in a cardigan inside with a small radio; Mom and Dai walking up to it, small.
+    cast: [michiko:vest, dai_cut:summer_school]
+    captions:
+    - {text: "THE NIGHT WINDOW WAS A HATCH IN THE WALL BY THE LOCKED MAIN ENTRANCE. NIGHT AND HOLIDAY RECEPTION, THE SIGN SAID.", box: [20, 812, 562, 112], draw: true}
+  - pos: bottom-right
+    location: hospital-night-window
+    action: The old man in a brown cardigan behind the sliding glass, reading glasses low on his nose, holding a paper, polite and kind.
+    cast: [night_clerk]
+    dialogue:
+    - night_clerk: {text: "TEN THOUSAND TONIGHT, PLEASE, AS A DEPOSIT. THE REST IS SETTLED AT THE CASHIER WHEN HE GOES HOME.", box: [740, 1222, 265, 292], draw: true, tail: [745, 1330]}
+  - pos: bottom-left
+    location: hospital-night-window
+    action: Mom at the ledge, opening her small worn purse.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: {text: "TEN THOUSAND.", box: [22, 1224, 182, 162], draw: true, tail: [200, 1300]}
+
+- page: 14
+  title: Thirty
+  location: hospital-night-window
+  time: about 3 a.m., the lobby dark except the lit hatch
+  continue_from: 13
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Close-ups of money on the narrow ledge and the coin tray under the glass: Japanese yen notes and coins of 1995 (no readable printing needed). 10-yen coins are bronze-brown; 100 and 500 are silver."
+  - "Mom: GREEN vest (mid-grey tone), worn small purse. Akane passes far behind in panel 6 in her white uniform with a folder."
+  panels:
+  - pos: top-right
+    shot: close-up
+    action: Close-up of a 5,000-yen note and three 1,000-yen notes laid in the tray, Mom's fingers smoothing them flat.
+    captions:
+    - {text: "A 5,000-YEN NOTE AND THREE 1,000S. SHE SMOOTHED THEM FLAT. THAT WAS THE NOTES. THE TAXI HAD BEEN THE REST OF THEM.", box: [482, 17, 522, 150], draw: true}
+  - pos: top-left
+    shot: close-up
+    action: Close-up of two big silver 500-yen coins and seven silver 100-yen coins set beside the notes.
+    captions:
+    - TWO 500-YEN COINS. SEVEN 100S. THAT MADE 9,700.
+  - pos: middle, wide
+    shot: extreme close-up
+    action: Extreme close-up of Mom's worn finger sliding one bronze 10-yen coin off the edge of the open purse into the tray.
+    sfx: [{text: "chin", note: small}]
+    captions:
+    - THEN THE 10S, WHICH SHE KEEPS FOR THE PHONE. THIRTY OF THEM, THE LAST THREE HUNDRED YEN. ONE AT A TIME, WITH ONE FINGER.
+  - pos: lower-right
+    action: The old man in the cardigan behind the glass stacking the coins, patient, unhurried.
+    cast: [night_clerk]
+    captions:
+    - THE MAN IN THE CARDIGAN DIDN'T HURRY HER. HE STACKED THEM AS THEY CAME, IN PILES OF TEN.
+  - pos: lower-left
+    shot: close-up
+    action: Two neat little towers of brown 10-yen coins on the tray and a third tower growing beside them.
+    sfx: [{text: "chin... chin...", note: small}]
+    captions:
+    - {text: "A LITTLE TOWER OF BROWN COINS, AND THEN A SECOND ONE.", box: [31, 818, 278, 79]}
+  - pos: bottom, wide
+    action: From behind Mom and Dai at the lit ledge; behind them, across the dark lobby, the nurse in white walking past with a folder under her arm, small.
+    cast: [michiko:vest, dai_cut:summer_school, akane:nurse]
+    captions:
+    - SOMEBODY WALKED PAST BEHIND US IN WHITE SHOES.
+
+- page: 15
+  title: Click
+  location: hospital-night-window
+  time: about 3:10 a.m., then 4:20 a.m.
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "Akane walks, white uniform, hair pinned up; only her eyes move."
+  - "Mom: GREEN vest. Sota in the last panel: lying on a wheeled bed, glasses on, a clear plastic nebulizer mask connected to a small oxygen cylinder, RIGHT hand on the board."
+  panels:
+  - pos: top-right
+    shot: close-up
+    action: Close on the nurse's face in profile as she walks, her eyes sliding sideways toward the ledge without her head turning.
+    cast: [akane:nurse]
+    captions:
+    - {text: "HER EYES WENT TO THE LEDGE, TO THE TWO PILES OF 10-YEN COINS AND THE THIRD ONE MOM WAS STILL BUILDING.", box: [678, 320, 327, 126], draw: true}
+  - pos: top-center
+    shot: extreme close-up
+    action: Her eyes alone, now on the viewer.
+    cast: [akane:nurse]
+    captions:
+    - THEN THEY WENT TO ME.
+  - pos: top-left
+    action: An empty dim corridor corner, nobody.
+    captions:
+    - THEN SHE WAS ROUND THE CORNER.
+  - pos: middle-right
+    action: The old man stamping a carbon receipt twice with a rubber stamp.
+    cast: [night_clerk]
+    sfx: [PON PON]
+    captions:
+    - {text: "HE STAMPED IT TWICE.", box: [548, 484, 187, 61]}
+  - pos: middle-left
+    action: Mom bowing to the hatch over the ledge, purse in her hands.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: THANK YOU VERY MUCH.
+  - pos: lower, wide
+    action: Dai standing behind his mother in the dark lobby, face still, looking at her bowed back.
+    cast: [dai_cut:summer_school]
+    captions:
+    - IN MY ENGLISH DICTIONARY, ON THE SHELF AT HOME, AT THE END OF SOTA'S FUTON, THERE WERE 42,400 YEN.
+  - pos: bottom-right
+    shot: close-up
+    action: Close-up of the thin worn purse snapping shut on a folded receipt and a small card.
+    sfx: [PACHIN]
+    captions:
+    - {text: "THE PURSE SHUT WITH A CLICK. THERE WASN'T MUCH IN IT TO STOP IT SHUTTING.", box: [648, 1402, 357, 120], draw: true}
+  - pos: bottom-left
+    action: Inside a huge hospital bed lift; Sota lying on the wheeled bed with a small oxygen cylinder by his feet and the drip bag on a hook; Mom walking beside him holding the bed rail.
+    cast: [sota:pajamas, michiko:vest]
+    captions:
+    - AT TWENTY PAST FOUR THEY TOOK HIM UP TO THE CHILDREN'S WARD. FIFTH FLOOR.
+
+# ------------------------------------------------------------------ 5:02 a.m., the vending machine
+- page: 16
+  title: Hot
+  location: hospital-night-entrance
+  time: about 4:30 to 5:02 a.m., NIGHT outside, the corridors dim
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "NIGHT: everything outside the windows and glass doors is black."
+  - "Dai: SHORT hair, rumpled white school shirt, laces undone. He sits on the bench from panel 3 on."
+  - "The vending machine: plain white cabinet, no brand or logo; top rows of buttons pale, the BOTTOM row of buttons dark (red) with small white HOT labels."
+  panels:
+  - pos: top-right
+    action: On the dim children's ward at night, a short round kind nurse in a white cap at a room door with her hand on Dai's arm.
+    cast: [ward_nurse, dai_cut:summer_school]
+    dialogue:
+    - ward_nurse: ONE FAMILY MEMBER OVERNIGHT. MOTHER, I THINK. BIG BROTHER CAN COME BACK AT VISITING TIME.
+    captions:
+    - IT SMELLED OF MILK AND DISINFECTANT.
+  - pos: top-left
+    action: Through the half-closed door, Sota on the bed lifting his free LEFT hand a little (his right is on the board); in the foreground Dai's hand lifted back.
+    cast: [sota:pajamas]
+  - pos: middle, wide
+    action: Downstairs in the dim corridor, Dai sitting on the bench across from the vending machine; a man in grey overalls swinging a floor polisher from side to side in long slow curves, the floor shining behind him.
+    cast: [dai_cut:summer_school]
+    sfx: [WOOOON]
+    captions:
+    - THE FIRST BUS WASN'T UNTIL AFTER SIX. EVERY TIME I SHUT MY EYES I WAS IN THE AMBULANCE, SO I KEPT THEM OPEN.
+  - pos: lower, wide, large
+    action: The tall vending machine glowing in the dim empty corridor, its light on the polished floor; Dai small on the bench opposite, hands between his knees.
+    cast: [dai_cut:summer_school]
+    captions:
+    - TUESDAY. 5:02 A.M.
+  - pos: bottom-right
+    shot: close-up
+    action: "Close-up of the machine's bottom row: dark (red) buttons with small white HOT labels under dummy cans: a coffee can, a tea can, and a can with a simple picture of an ear of corn on it."
+    captions:
+    - {text: "THE BOTTOM ROW HAD GONE RED, WHICH THEY DO WHEN THE WEATHER TURNS. COFFEE, TEA, A CAN OF CORN SOUP WITH A PICTURE OF CORN ON IT.", box: [580, 1258, 425, 126], draw: true}
+  - pos: bottom-left
+    action: Dai's reflection in the machine's glass front, small, sitting on the bench, short hair, the empty corridor behind him going off to the ER doors.
+    cast: [dai_cut:summer_school]
+    captions:
+    - IN THE GLASS I COULD SEE MYSELF ON THE BENCH, SMALL, WITH MY HAIR SHORT.
+
+- page: 17
+  title: Ask his doctor
+  location: hospital-night-entrance
+  time: 5:02 a.m., NIGHT outside, the corridor dim
+  continue_from: 16
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Akane wears a plain NAVY cardigan (dark tone) open over the white nurse's uniform; hair still pinned up in a tight bun. She never sits down; she stands a meter and a half from the end of Dai's bench with her back to the vending machine."
+  - "Dai SITS on the bench the whole page."
+  - "The can is a small plain steel can with no brand, only a simple picture of corn."
+  panels:
+  - pos: top, wide
+    action: At the end of the dim corridor the ER double doors swinging open; the nurse coming out in a navy cardigan over her white uniform, walking toward the glowing machine without looking at the bench.
+    cast: [akane:nurse_cardigan]
+    captions:
+    - THE ER DOORS OPENED, AND NATSUME CAME OUT.
+  - pos: upper-right
+    shot: close-up
+    action: Close-up of her fingers putting a 100-yen coin and a 10-yen coin into the machine's coin slot.
+    sfx: [{text: "charin", note: small}]
+    captions:
+    - {text: "A 100 AND A 10.", box: [572, 400, 227, 51]}
+  - pos: upper-left
+    shot: close-up
+    action: Her finger pressing the dark bottom-row button under the corn can; in the slot below, a can dropping.
+    sfx: [GOTON]
+    captions:
+    - {text: "THE ONE WITH THE CORN.", box: [27, 398, 262, 58], draw: true}
+  - pos: middle-right
+    action: The nurse holding the hot can in both hands for a moment, eyes down, warming her fingers.
+    cast: [akane:nurse_cardigan]
+    captions:
+    - THE FIRST HOT CAN I'D SEEN THIS YEAR.
+  - pos: middle-left
+    action: She stands a meter and a half from the end of Dai's bench with her back to the machine, opening the can; Dai on the bench, looking up at her.
+    cast: [akane:nurse_cardigan, dai_cut:summer_school]
+    sfx: [{text: "kashu", note: small}]
+    captions:
+    - SHE DIDN'T SIT DOWN.
+  - pos: lower-right
+    action: Dai on the bench, his mouth half open, the words gone.
+    cast: [dai_cut:summer_school]
+    captions:
+    - {text: "I'D HAD SOMETHING READY TO SAY SINCE FOUR O'CLOCK. NOW IT WAS GONE.", box: [508, 1082, 292, 120], draw: true}
+    dialogue:
+    - dai_cut: NATSUME-SAN.
+  - pos: lower-left
+    action: The nurse looking at the ER doors, not at him, the can in her hand.
+    cast: [akane:nurse_cardigan]
+    dialogue:
+    - akane: {text: "THERE'S A MACHINE FOR HOME. A NEBULIZER. IT MAKES HIS MEDICINE INTO MIST.", box: [196, 1082, 302, 208], draw: true, tail: [196, 1180]}
+  - pos: bottom-right
+    action: The nurse drinking, then lowering the can.
+    cast: [akane:nurse_cardigan]
+    dialogue:
+    - akane: MORNINGS AND NIGHTS. SOME KIDS IT HELPS A LOT. SOME IT DOESN'T.
+  - pos: bottom-left
+    action: Dai, leaning forward on the bench.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: HOW MUCH IS IT?
+
+- page: 18
+  title: That road
+  location: hospital-night-entrance
+  time: about 5:05 a.m., NIGHT outside, the corridor dim
+  continue_from: 17
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Akane STANDS the whole page, navy cardigan over the white uniform, hair pinned up; Dai SITS on the bench the whole page."
+  - "No car is drawn: only headlight beams sweeping across the black forecourt outside the glass doors."
+  panels:
+  - pos: top-right
+    action: The nurse, flat, sipping from the can.
+    cast: [akane:nurse_cardigan]
+    dialogue:
+    - akane: ASK HIS DOCTOR.
+  - pos: top-left
+    shot: close-up
+    action: Close-up of two fingers tapping the bottom of the tilted can, sharp, to get the last of the corn out.
+    sfx: [TON TON]
+    captions:
+    - SHE KNEW ABOUT THE CORN. EVERYBODY LEAVES THE LAST OF IT STUCK AT THE BOTTOM. SHE KNEW HOW TO GET IT OUT.
+  - pos: middle, wide
+    action: The glass doors of the night entrance with the black forecourt outside; two headlight beams sweeping across the dark and away. No car drawn, only the moving light.
+    captions:
+    - A CAR CAME INTO THE FORECOURT AND WENT ROUND AND OUT AGAIN. SOMEBODY LOST.
+  - pos: lower-right
+    action: The nurse, looking at the doors.
+    cast: [akane:nurse_cardigan]
+    dialogue:
+    - akane: YOUR MOTHER WORKS TWO JOBS.
+  - pos: lower-left
+    action: Dai on the bench, silent, his hands clasped between his knees, looking at the floor.
+    cast: [dai_cut:summer_school]
+  - pos: bottom-right
+    action: The nurse turning the empty-ish can round in her fingers, looking at it.
+    cast: [akane:nurse_cardigan]
+    dialogue:
+    - akane: YOUR BROTHER CAN'T BREATHE.
+  - pos: bottom-center
+    action: The nurse's eyes coming up, level and cool.
+    cast: [akane:nurse_cardigan]
+    dialogue:
+    - akane: AND YOU WANT THAT ROAD.
+  - pos: bottom-left
+    action: Dai's face hardening, jaw set, looking straight up at her.
+    cast: [dai_cut:summer_school]
+    captions:
+    - IT CAME UP THE BACK OF MY NECK. I LET IT.
+    dialogue:
+    - dai_cut: YOU DRIVE IT.
+
+- page: 19
+  title: Nobody waits up
+  location: hospital-night-entrance
+  time: about 5:07 a.m., NIGHT outside, the corridor dim
+  continue_from: 18
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Akane STANDS, navy cardigan over the white uniform, hair pinned up; Dai SITS on the bench."
+  - "A quiet page with big panels and much empty space."
+  panels:
+  - pos: top, wide
+    action: The nurse standing by the glowing machine, finishing the soup, holding the empty can; Dai on the bench a meter and a half away; neither speaks.
+    cast: [akane:nurse_cardigan, dai_cut:summer_school]
+  - pos: upper, large
+    action: Big panel of the nurse in profile against the glow of the machine, not looking at Dai, her face unreadable.
+    cast: [akane:nurse_cardigan]
+    dialogue:
+    - akane: NOBODY WAITS UP FOR ME.
+  - pos: middle-right
+    shot: close-up
+    action: Her hand dropping the empty can into the can bin beside the machine, onto other cans.
+    sfx: [KAN]
+    captions:
+    - IT HIT THE OTHER CANS IN THERE, AND THAT WAS THE LOUDEST THING IN THE CORRIDOR.
+  - pos: middle-left
+    action: Her back going away through the ER double doors at the end of the corridor, the doors swinging shut behind her by themselves.
+    cast: [akane:nurse_cardigan]
+  - pos: bottom, wide
+    action: Dai alone on the bench in the dim corridor, looking across at the glowing machine and its dark bottom row of buttons.
+    cast: [dai_cut:summer_school]
+    captions:
+    - I WAS LOOKING AT THE RED BUTTONS. THE COFFEE AND THE TEA AND THE CORN.
+    - I HAD 747 YEN. I DIDN'T BUY ANYTHING.
+
+# ------------------------------------------------------------------ the dawn bench
+- page: 20
+  title: Still hot
+  location: hospital-bench-dawn
+  time: about 5:15 to 5:25 a.m., grey early dawn, the streetlights still on
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "DAWN: a flat pale grey sky, streetlights still lit, no sun yet."
+  - "Mom: GREEN supermarket vest (mid-grey tone), blank name tag, white rubber shoes, shoulder bag, hair half out of the bun. Dai: SHORT hair, white school shirt, laces UNDONE."
+  - "From panel 2 on they SIT side by side on the outdoor bench, Mom on the right, Dai on the left."
+  panels:
+  - pos: top-right
+    location: hospital-night-entrance
+    action: Indoors by the vending machine, Mom standing in front of Dai's bench, tired, beckoning with her head.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: COME OUTSIDE.
+    captions:
+    - AT A QUARTER PAST FIVE MOM CAME DOWN.
+  - pos: top-left
+    action: Outside at grey dawn, Mom and Dai sitting side by side on the bench by the bus stop, small, under the pale hospital wall; the empty car park with its streetlights still on.
+    cast: [michiko:vest, dai_cut:summer_school]
+    captions:
+    - {text: "THE SKY OVER THE CAR PARK WAS GOING FROM GREY TO THE COLOR OF DISHWATER. THE STREETLIGHTS WERE STILL ON. THEY HADN'T BEEN TOLD.", box: [18, 16, 548, 102], draw: true}
+  - pos: middle, wide
+    shot: close-up
+    action: Close-up of Mom's red-knuckled hands on her lap taking two rice balls wrapped in foil out of her bag, and pouring steaming tea from a thermos into its cup.
+    captions:
+    - THE TWO ONIGIRI SHE'D TAKEN TO THE STOCKTAKING. SHE HADN'T EATEN EITHER. AND BARLEY TEA, WHICH WE ONLY DRINK COLD. SHE'D MADE IT HOT AT SEVEN LAST NIGHT. IT WAS STILL HOT.
+  - pos: lower-right
+    action: Mom on the bench handing Dai the cup, looking at the car park.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: {text: "HE'S ASLEEP. SITTING UP. WITH HIS GLASSES ON. THE NURSE IS GOING TO TAKE THEM OFF WHEN HE'S PROPERLY GONE.", box: [665, 822, 340, 260], draw: true, tail: [660, 980]}
+  - pos: lower-left
+    action: Dai with the cup of tea in both hands.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: HE FOLDS THEM HIMSELF.
+  - pos: bottom-right
+    action: Mom eating a little of her rice ball; her knuckles red, a black ink mark on her thumb.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: I KNOW.
+    captions:
+    - {text: "HER HANDS WERE RED AT THE KNUCKLES FROM THE FREEZERS. A BLACK MARK ON HER THUMB FROM SOME PRICE GUN.", box: [505, 1406, 498, 114], draw: true}
+  - pos: bottom-center
+    action: Mom, quiet, to the car park.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: THE DOCTOR SAID YOU RANG AT THE RIGHT TIME.
+  - pos: bottom-left
+    action: Dai looking down into the tea.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: {text: "I WAITED THE TWENTY MINUTES.", box: [15, 1210, 175, 162], draw: true, tail: [180, 1330]}
+
+- page: 21
+  title: I wrote the paper
+  location: hospital-bench-dawn
+  time: about 5:25 a.m., grey early dawn, the streetlights still on
+  continue_from: 20
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "DAWN, flat grey sky, streetlights on. Mom (GREEN vest) on the right, Dai (SHORT hair, white shirt) on the left of the bench, both SITTING the whole page."
+  panels:
+  - pos: top-right
+    action: Mom, looking at the car park.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: THE PAPER SAYS TWENTY.
+  - pos: top-left
+    action: Dai, low.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: THE AMBULANCE MAN SAID I SHOULDN'T HAVE.
+  - pos: middle, wide
+    action: The two of them on the bench seen from behind, small, looking out at the empty car park and the lit streetlights under the grey sky. Silent.
+    cast: [michiko:vest, dai_cut:summer_school]
+  - pos: lower, large
+    shot: close-up
+    action: Mom's tired face close, eyes on the car park, very plain.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: I WROTE THE PAPER.
+  - pos: bottom-right
+    action: Dai drinking the tea from the thermos cup.
+    cast: [dai_cut:summer_school]
+    captions:
+    - I DRANK THE TEA.
+  - pos: bottom-center
+    action: Mom, turning the rice ball in her hands.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: {text: "AYA SAID YOU TOLD HER WHAT TO DO. SHE COULDN'T MOVE, AND THEN YOU TOLD HER, AND SHE COULD.", box: [486, 1203, 212, 315], draw: true, tail: [480, 1350]}
+  - pos: bottom-left
+    action: Mom nearly smiling.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: SHE WAS VERY ANGRY ABOUT IT.
+
+- page: 22
+  title: Waiting rooms
+  location: hospital-bench-dawn
+  time: about 5:35 a.m., grey dawn getting lighter, the streetlights still on
+  continue_from: 21
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "DAWN, flat grey sky. Mom (GREEN vest) on the right, Dai on the left, both SITTING on the bench."
+  panels:
+  - pos: top, wide
+    action: A newspaper boy on a small motorbike with a basket of newspapers stopping at the red mailbox by the hospital entrance, the bench small at the side.
+  - pos: upper-right
+    action: Mom, saying it to the car park.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: YOUR FATHER NEVER SAT IN A HOSPITAL WITH ANY OF YOU. NOT ONCE.
+  - pos: upper-left
+    action: Mom, her eyes far away.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: {text: "HE'D DRIVE US TO THE DOOR. THEN HE'D GO AND PLAY PACHINKO UNTIL IT WAS OVER. HE SAID HE COULDN'T STAND WAITING ROOMS.", box: [15, 403, 290, 312], draw: true, tail: [305, 560]}
+  - pos: middle-right
+    action: Mom stopping, as if she heard herself, looking down at the rice ball in her hand.
+    cast: [michiko:vest]
+  - pos: middle-left
+    action: Dai with the rice ball halfway to his mouth, jaw still.
+    cast: [dai_cut:summer_school]
+    captions:
+    - {text: "I'D STOPPED CHEWING. I STARTED AGAIN. THE RICE HAD GONE HARD IN MY MOUTH, AND I SWALLOWED IT ANYWAY.", box: [18, 748, 362, 142], draw: true}
+  - pos: lower-right
+    action: Mom, practical again.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: EAT THE REST. THEN GO HOME AND SLEEP. I'LL RING THE SCHOOL AT EIGHT AND SAY YOU'RE SICK.
+  - pos: lower-left
+    action: Dai.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I'VE GOT WORK TONIGHT.
+  - pos: bottom, wide
+    action: Mom opening her small worn purse on her knee and looking into it.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: THEN SLEEP MORE.
+    captions:
+    - SHE OPENED HER PURSE, FOR THE BUS. SHE LOOKED INTO IT. I SAW HER LOOK.
+
+- page: 23
+  title: Thank you
+  location: hospital-bench-dawn
+  time: about 5:40 a.m., grey dawn turning pale, then morning light
+  continue_from: 22
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Dawn turning to early morning. Mom: GREEN vest, WHITE rubber shop shoes. Dai: SHORT hair, white school shirt. In panel 4 Dai TIES his laces; from then on they are tied."
+  panels:
+  - pos: top-right
+    action: Dai, already standing up.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I'LL WALK.
+  - pos: top-center
+    action: Mom looking up at him from the bench.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: IT'S AN HOUR.
+  - pos: top-left
+    action: Dai, small shrug.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I KNOW THE WAY.
+  - pos: middle, wide
+    action: Dai bent down tying his white sneaker laces in double knots; Mom on the bench watching, screwing the cup back onto the thermos.
+    cast: [dai_cut:summer_school, michiko:vest]
+    captions:
+    - I DID UP MY LACES, BOTH OF THEM, DOUBLE KNOTS. SHE WATCHED ME DO IT.
+  - pos: lower-right
+    shot: close-up
+    action: Close-up of Mom's red-knuckled hand on the back of Dai's head, on the short hair, just for a second.
+    captions:
+    - SHE PUT HER HAND ON THE BACK OF MY HEAD, JUST FOR A SECOND, THE WAY SHE'D PUT IT ON SOTA'S.
+  - pos: lower-left
+    action: Mom, looking at him, quiet.
+    cast: [michiko:vest]
+    dialogue:
+    - michiko: DAISUKE. THANK YOU.
+  - pos: bottom, wide
+    action: Mom walking back in through the glass night entrance in her white rubber shoes on the right; on the left Dai walking away along an empty road in the growing morning light, head down, looking at his feet.
+    cast: [michiko:vest, dai_cut:summer_school]
+    captions:
+    - BY HALFWAY IT WAS LIGHT, AND I HADN'T SEEN IT HAPPEN, BECAUSE I WAS LOOKING AT MY FEET.
+
+# ------------------------------------------------------------------ Tuesday afternoon, Wednesday
+- page: 24
+  title: Ninety-six
+  location: childrens-ward
+  time: Tuesday afternoon, daylight
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "THE MASK: Sota's mask is a CLEAR, see-through soft PLASTIC nebulizer mask (shaped like an oxygen mask, we see his nose and mouth through it) held by a thin elastic strap, with a small plastic cup hanging under the chin and small holes in the sides that puff thin WHITE MIST; a clear tube runs from it. It is NEVER a paper, cloth or surgical face mask."
+  - "The monitor is a small grey box with a little window of green digits; the digits read exactly the number the panel gives (93, 94 or 96), never 888."
+  - "DAYTIME everywhere on this page."
+  - "On the ward: Mom asleep in the chair in the GREEN vest; Sota asleep sitting up in bed with the clear plastic nebulizer mask on (mist), NO glasses (they are folded on the locker), his RIGHT hand on the board with the drip."
+  - "The kitchen clock reads ten to three (hour hand near 3, minute hand on the 10)."
+  panels:
+  - pos: top-right
+    location: hayama-apartment
+    shot: close-up
+    action: Close-up of a handwritten note on the low table at home in square handwriting, beside a folded futon edge, in afternoon light.
+    captions:
+    - "THE NOTE: RICE IN THE COOKER. YOU STILL OWE ME 3,000."
+  - pos: top-left
+    location: hayama-apartment
+    action: "The round kitchen wall clock at ten to three in the afternoon (hour hand near the 3, minute hand on the 10), the old refrigerator below it, daylight through the window."
+    captions:
+    - WHEN I WOKE, THE CLOCK SAID TEN TO THREE AND THE REFRIGERATOR WAS HUMMING TO NOBODY.
+  - pos: middle, wide
+    action: "The six-bed ward by day: Mom asleep in the chair by the bed, still in the green vest, her head against the wall, one arm through the bed rail and her hand round Sota's ankle; Sota asleep sitting up against his pillow with the clear plastic nebulizer mask on and the mist going."
+    cast: [michiko:vest, sota_ng:pajamas]
+    captions:
+    - VISITING TIME WAS THREE TILL EIGHT. MOM WAS ASLEEP IN THE CHAIR BY HIS BED, HER HAND ROUND SOTA'S ANKLE.
+  - pos: lower-right
+    shot: close-up
+    action: Close-up of small round glasses folded on top of the bedside locker, the LEFT arm folded over the right.
+    captions:
+    - HIS GLASSES WERE ON THE LOCKER, FOLDED, THE LEFT ARM OVER THE RIGHT. THAT'S HOW HE DOES IT.
+  - pos: lower-left
+    shot: close-up
+    action: The small grey monitor box on the ward wall shelf, green digits 96.
+    sfx: [{text: "pi", note: small}]
+    captions:
+    - THE BOX SAID 96. ITS BEEP WAS HIGHER THAN IT HAD BEEN DOWNSTAIRS.
+  - pos: bottom, wide
+    action: Dai standing at the end of the bed, hands in his pockets, listening, not waking them; daylight from the big window.
+    cast: [dai_cut:summer_school]
+    captions:
+    - I DIDN'T WAKE EITHER OF THEM. AT HALF PAST FIVE I WALKED HOME AGAIN, AND AT TEN I WAS AT THE PUMPS.
+
+- page: 25
+  title: Just gyoza
+  location: school-shoe-lockers
+  time: Wednesday morning, then lunch, daylight
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "Nobu: stocky, round-faced, BUZZ CUT, white school shirt untucked. Dai: SHORT hair, white school shirt, tired."
+  panels:
+  - pos: top-right
+    action: Nobu at the shoe lockers stepping into his indoor shoes with the heels trodden flat, looking at Dai.
+    cast: [nobu:summer_school]
+    dialogue:
+    - nobu: YOU WEREN'T HERE YESTERDAY. HOTTA-SENSEI SAID YOU WERE SICK.
+  - pos: top-left
+    action: Nobu looking at him properly, frowning.
+    cast: [nobu:summer_school]
+    dialogue:
+    - nobu: YOU LOOK SICK. YOU LOOK LIKE THE GUY WITH THE CHASER.
+  - pos: middle-right
+    action: Dai at his locker, flat.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: MY BROTHER'S IN HOSPITAL. ASTHMA. MONDAY NIGHT.
+  - pos: middle-left
+    action: Nobu, mouth shut, putting his outdoor shoes into his locker side by side, carefully.
+    cast: [nobu:summer_school]
+    captions:
+    - NOBU OPENED HIS MOUTH, AND SHUT IT AGAIN. HE PUT HIS SHOES IN HIS LOCKER SIDE BY SIDE, CAREFULLY, WHICH HE NEVER DOES.
+  - pos: lower, wide
+    location: classroom
+    shot: close-up
+    action: Lunch in the classroom; on Dai's wooden desk a plastic food container with six cold gyoza stuck together at the edges.
+    captions:
+    - AT LUNCH HE PUT SIX GYOZA ON MY DESK. COLD, STUCK TOGETHER AT THE EDGES.
+    dialogue:
+    - nobu: {text: "MY FATHER SAYS THEY'RE YESTERDAY'S. THEY'RE NOT YESTERDAY'S.", offpanel: true, box: [24, 950, 330, 170], draw: true, tail: [16, 1060]}
+  - pos: bottom-right
+    location: classroom
+    action: Nobu leaning on the next desk, earnest.
+    cast: [nobu:summer_school]
+    dialogue:
+    - nobu: {text: "HE MADE THEM THIS MORNING. HE JUST SAYS THAT.", box: [805, 1166, 200, 190], draw: true, tail: [860, 1330]}
+  - pos: bottom-center
+    location: classroom
+    action: Nobu pushing the container an inch closer with one finger.
+    cast: [nobu:summer_school]
+    dialogue:
+    - nobu: {text: "IT'S NOT THE PASSING GYOZA. THIS IS JUST GYOZA.", box: [388, 1166, 182, 232], draw: true, tail: [528, 1300]}
+  - pos: bottom-left
+    location: classroom
+    action: Dai at his desk eating a gyoza with chopsticks; Nobu beside him watching, quiet.
+    cast: [dai_cut:summer_school, nobu:summer_school]
+    captions:
+    - I ATE ALL SIX. HE DIDN'T SAY ONE HORSEPOWER FIGURE.
+
+- page: 26
+  title: Everybody's got a name
+  location: childrens-ward
+  time: Wednesday about 4 p.m., daylight
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "DAYTIME. Sota sits up on his pillow WEARING his round glasses, NO mask: a thin clear tube under his nose with two little prongs; the drip still in his RIGHT hand, taped flat on its small board. Calm."
+  - "Dai STANDS by the bed the whole page; SHORT hair, white school shirt."
+  - "In the next bed a little girl asleep and her mother asleep in the chair beside her; they never speak."
+  panels:
+  - pos: top, wide
+    action: The ward corridor by day; the playroom windows with paper fish stuck on them, crayon scales; inside, a television on with nobody watching.
+    captions:
+    - AFTER SCHOOL I TOOK THE BUS TO MUNICIPAL. 160 YEN. 587 LEFT.
+  - pos: upper, wide
+    action: "The six-bed room by the window: in the near bed a little girl asleep with her young mother asleep in the chair beside her, mouth open; in the next bed by the window Sota sitting up on his pillow with his round glasses on and the thin nasal tube, his right hand on the board, a hospital lunch tray pushed to the end of the bed; Dai arriving."
+    cast: [sota:pajamas, ward_mother, dai_cut:summer_school]
+  - pos: middle-right
+    action: Sota, hoarse, earnest.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: NII-CHAN. I DIDN'T TELL.
+  - pos: middle-left
+    action: Dai at the bedside.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: I KNOW.
+  - pos: lower-right
+    action: Sota glancing at the sleeping mother in the next chair, leaning in, whispering.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: {text: "NOT ANYBODY. ...IS IT REALLY BLUE?", box: [846, 993, 159, 228], draw: true, tail: [840, 1080]}
+  - pos: lower-left
+    action: Dai rubbing the ball of his own thumb against his fingers to show him.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: FADED. YOU RUB IT WITH YOUR THUMB AND IT COMES BACK. THEN IT GOES AGAIN.
+  - pos: bottom-right
+    action: Sota thinking about that.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: WHAT'S THE CAT CALLED?
+  - pos: bottom-left
+    action: Dai, simply.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: IT ISN'T ANYBODY'S. IT HASN'T GOT A NAME.
+
+- page: 27
+  title: Is the hospital free too
+  location: childrens-ward
+  time: Wednesday about 4:15 p.m., daylight
+  continue_from: 26
+  guards:
+  - "Dai's FEET: he wears his white canvas SNEAKERS (never socks only, never slippers)."
+  - "DAYTIME. Sota WEARS his round glasses, thin nasal tube, drip in his RIGHT hand on the board. Dai STANDS by the bed."
+  - The last panel is big and quiet.
+  panels:
+  - pos: top-right
+    action: Sota, shocked.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: EVERYBODY'S GOT A NAME.
+  - pos: top-left
+    action: Sota holding up with his free left hand a new inhaler (not blue) fitted into a clear plastic tube spacer.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: FOR EVERY DAY. MORNING AND NIGHT. EVEN WHEN I'M FINE. THE DOCTOR SAID.
+  - pos: middle-right
+    shot: close-up
+    action: Close-up of Dai's fingers turning the inhaler over; no label, no price.
+    captions:
+    - IT DIDN'T HAVE A PRICE ON IT. MEDICINE NEVER HAS A PRICE ON IT. IT GOES ON A PIECE OF PAPER SOMEWHERE ELSE.
+  - pos: middle-left
+    action: Sota pulling the sheet up a little, over the board on his right hand.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: NII-CHAN. THE AMBULANCE WAS FREE.
+  - pos: lower-right
+    action: Dai.
+    cast: [dai_cut:summer_school]
+    dialogue:
+    - dai_cut: YES.
+  - pos: lower-left
+    action: Sota, looking up at him.
+    cast: [sota:pajamas]
+    dialogue:
+    - sota: IS THE HOSPITAL FREE TOO?
+  - pos: bottom-right
+    action: The sleeping mother in the next chair shifting a little; far off through the door the playroom television glowing. Silent.
+    cast: [ward_mother]
+  - pos: bottom-left, large
+    action: Dai standing by the bed, his hands at his sides; Sota's head going back on the pillow, eyes closing behind his glasses, relieved.
+    cast: [dai_cut:summer_school, sota:pajamas]
+    dialogue:
+    - dai_cut: YES.
+    captions:
+    - HE WAS ASLEEP BEFORE I'D WORKED OUT WHAT TO DO WITH MY HANDS.
+
+# ------------------------------------------------------------------ Thursday shift, Fri 29 Sep 2:06 a.m.
+- page: 28
+  title: Thursday
+  location: harbor-station-night
+  time: Thursday 10 p.m. to Friday 2:06 a.m., NIGHT, dry; canopy lights
+  guards:
+  - "NIGHT, dry. Dai: SHORT hair, grey zip-up station jacket over a black T-shirt, jeans; square Band-Aid on his LEFT palm."
+  - "Kubo: old man, grey cap, shirt buttoned up, a can of coffee."
+  - "Akane in casual clothes: dark bomber jacket, black driving gloves, long hair in a LOW ponytail; she stays in the driver's seat."
+  - "The red Roadster: right-hand drive, soft top up, pop-up headlights. Each car shot has its own angle; nothing is copied from a reference page."
+  panels:
+  - pos: top, wide
+    action: Night at the harbor gas station, the empty forecourt under the canopy lights; Dai alone at the pump island, small.
+    cast: [dai_cut:station_jacket]
+    captions:
+    - ON THURSDAY NIGHT I DIDN'T KNOW IF SHE'D COME. ON THE OTHER NIGHTS, NOW I KNEW, SHE WAS IN THAT CORRIDOR IN WHITE SHOES.
+  - pos: upper-right
+    action: Dai by the lit office booth, answering someone off panel.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: STILL IN. HE'S EATING.
+    captions:
+    - KUBO-SAN ASKED ABOUT SOTA AT TEN.
+  - pos: upper-left
+    action: Kubo in the office doorway with his can of coffee, nodding at the dark road.
+    cast: [kubo]
+    captions:
+    - HE NODDED AT THE ROAD, WHICH IS WHAT HE DOES INSTEAD OF SAYING GOOD. I DIDN'T TELL HIM WHO THE NURSE WAS.
+  - pos: middle-right
+    action: Dai sweeping the clean empty forecourt with a long broom.
+    cast: [dai_cut:station_jacket]
+    captions:
+    - {text: "AT ONE, NOTHING. AT HALF PAST ONE I SWEPT THE FORECOURT, WHICH DIDN'T NEED IT.", box: [722, 650, 283, 128], draw: true}
+  - pos: middle-left
+    action: Far down the dark harbor road beyond the forecourt, two small round lit headlights coming.
+    cast:
+    - {id: roadster, view: front34, state: headlights_up, camera: "very far away down the dark road at road level, straight head-on, the car tiny: only the two round lit pop-up headlights and the low dark shape"}
+    sfx: [VWOOOM]
+    captions:
+    - AT 2:06 SHE CAME IN OFF THE BYPASS. POP-UPS FIRST, FAR DOWN THE ROAD. THEN THE SOUND.
+  - pos: lower, wide
+    action: High view from above the canopy edge looking steeply down at the forecourt; the red Roadster stopped beside the pump island, Dai walking toward its driver's window.
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "HIGH, looking almost straight down from above the canopy edge: we see the black soft-top roof, the long hood and the windshield from above; the car's right (driver) side is next to the pump island; its nose points toward the lower LEFT corner of the panel"}
+    - dai_cut:station_jacket
+  - pos: bottom-right
+    action: "Close on the open driver's window from outside: Akane at the wheel in her dark jacket and black gloves, long hair in a low ponytail, looking straight ahead, not at us. Only the window frame and the door top of the red car show."
+    cast: [akane]
+    dialogue:
+    - akane: REGULAR. FILL IT UP.
+  - pos: bottom-left
+    action: Dai leaning over the hood wiping the windshield with a squeegee, seen from inside the office looking out; Kubo's shoulder and his coffee can in the foreground doorway.
+    cast: [dai_cut:station_jacket, kubo]
+
+- page: 29
+  title: Then she didn't go
+  location: harbor-station-night
+  time: Friday about 2:08 a.m., NIGHT, dry; canopy lights
+  guards:
+  - "NIGHT. Dai: SHORT hair, grey station jacket. Akane: dark bomber jacket, black driving gloves, low ponytail; she sits in the driver's seat until the last panel."
+  - "Panels 1-6 are close shots at the driver's window only: no whole car."
+  - "The red Roadster's whole body appears only in the last panel, small and far, from a new angle."
+  panels:
+  - pos: top-right
+    action: Akane at the wheel looking straight ahead through the clean windshield, her gloved hands on the rim.
+    cast: [akane]
+    dialogue:
+    - akane: YOUR BROTHER.
+  - pos: top-left
+    action: Dai bent at her open window, one hand on the roof edge.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: HE'S ON THE WARD STILL. THEY SAY HE CAN COME HOME ON SATURDAY, IF HE KEEPS ON LIKE THIS.
+  - pos: middle-right
+    action: Akane, eyes ahead.
+    cast: [akane]
+    dialogue:
+    - akane: DID THEY START HIM ON ANYTHING?
+  - pos: middle-left
+    action: Dai at the window.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: A NEW INHALER. FOR EVERY DAY. YOU BREATHE IT THROUGH A TUBE.
+  - pos: lower-right
+    action: Akane, a small nod; behind Dai the pump nozzle clicking off.
+    cast: [akane]
+    dialogue:
+    - akane: GOOD.
+    sfx: [KACHUN]
+  - pos: lower-left
+    shot: close-up
+    action: "Close-up at the window: coins of change (one silver 100-yen coin at the bottom, small coins on top) passing from Dai's palm into her black-gloved hand."
+    captions:
+    - 24.8 LITERS. 2,852 YEN. SHE PUT THE CHANGE IN THE TRAY UNDER THE RADIO WITHOUT COUNTING IT.
+  - pos: bottom, wide
+    action: From Dai's distance across the forecourt; at the dim far end of the canopy by the wall, next to the air-pump stand, the red Roadster parked with its pop-ups down; Akane crouched by its front wheel with a small tire gauge.
+    cast:
+    - {id: roadster, view: rear, state: headlights_down, camera: "from about twenty meters away across the forecourt at standing eye level, a REAR THREE-QUARTER view of the car's RIGHT rear corner, small in the frame, parked nose-in toward the wall at the dim end of the canopy beside the air pump"}
+    - akane
+    captions:
+    - THEN SHE DIDN'T GO.
+
+- page: 30
+  title: Bring gloves
+  location: harbor-station-night
+  time: Friday about 2:10 to 2:16 a.m., NIGHT, dry; canopy lights
+  guards:
+  - "NIGHT. Kubo: old man, grey cap, shirt buttoned up; walks stiffly on a bad knee. Dai: SHORT hair, grey station jacket."
+  - "Kubo and Akane at the air pump are seen ONLY from far away (from where Dai works): small figures, NO speech balloons in those panels."
+  - "The last panel is large and quiet."
+  panels:
+  - pos: top-right
+    action: Kubo crossing the forecourt toward the wall, not fast, stiff on his bad knee, lighting a cigarette as he goes.
+    cast: [kubo]
+  - pos: top-left
+    action: Dai at the side of a big refrigerated box truck holding the diesel nozzle; far beyond, at the dim wall by the air pump, two small figures.
+    cast:
+    - dai_cut:station_jacket
+    - {id: fish_truck, camera: "side-on at eye level, filling the right half of the panel, its cab at the right edge; only the white box body and the fuel tank area show"}
+    captions:
+    - A FISH TRUCK CAME IN. I DID ALL OF IT. IN BETWEEN I LOOKED OVER. I COULDN'T HEAR ANYTHING.
+  - pos: middle-right
+    action: Far shot across the forecourt; by the wall, Kubo standing over the crouched young woman at her second tire, his cigarette held away from himself, talking. Small figures, no balloons.
+    cast: [kubo, akane]
+    captions:
+    - I'D NEVER SEEN HIM TALK THAT LONG.
+  - pos: middle-left
+    action: Far shot; Kubo pointing his cigarette down the dark harbor road toward the distant grain silos; the young woman standing, looking down the road. Small figures, silent, no balloons.
+    cast: [kubo, akane]
+  - pos: lower, wide
+    action: In the foreground Dai, seen from behind his shoulder, holding a small key tied to a block of wood; far across the forecourt at the dim wall the young woman standing by her car, looking over toward him, the tire gauge in her gloved hand.
+    cast: [dai_cut:station_jacket, akane]
+    captions:
+    - SHE LOOKED OVER AT ME. I WAS HOLDING THE FISH TRUCK'S TOILET KEY ON ITS BLOCK OF WOOD.
+    - I PUT THE KEY DOWN.
+  - pos: bottom-right
+    action: Small and far, from behind, the red Roadster driving away out onto the dark harbor road, its tail lights two red dots.
+    cast:
+    - {id: roadster, view: rear, state: headlights_up, camera: "small and far, seen straight from behind and slightly above as it drives away down the dark road toward the top of the panel, only the tail lights and the soft-top silhouette"}
+    captions:
+    - {text: "SIX MINUTES BY THE OFFICE CLOCK. THEN THE POP-UPS CAME UP, AND SHE WAS GONE.", box: [710, 984, 294, 105], draw: true}
+  - pos: bottom-center
+    action: Kubo in the office putting out his cigarette on the sole of his shoe, then drinking from his coffee can, grimacing a little at the cold.
+    cast: [kubo]
+    captions:
+    - {text: "HE FOUND HIS COFFEE HAD GONE COLD, AND DRANK IT ANYWAY.", box: [358, 984, 330, 84], draw: true}
+  - pos: bottom-left
+    action: Dai standing in the office doorway.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: {text: "WHAT DID SHE WANT?", box: [190, 985, 158, 170], draw: true, tail: [190, 1090]}
+  - pos: bottom, large
+    action: Kubo in the lit office booth with the cold coffee can, looking out at the dark road where she went, quiet, unhurried.
+    cast: [kubo]
+    dialogue:
+    - kubo: SUNDAY. SIX A.M. TANABE'S.
+    - kubo: SHE SAYS BRING GLOVES.
+    captions:
+    - {text: "CHAPTER 10: NOBODY WAITS UP. END.", box: [728, 1446, 275, 74], draw: true}

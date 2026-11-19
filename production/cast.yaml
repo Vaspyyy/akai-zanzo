@@ -90,6 +90,13 @@ characters:
           the breast pocket, bare hands; her long hair pinned UP in a tight bun
           (NOT a ponytail), no cap
         ref: artwork/character-sheets/akane-nurse.png
+      nurse_cardigan:
+        desc: >-
+          the same white nurse's tunic and trousers and white flat shoes, with a
+          plain NAVY knitted cardigan (dark tone) open over the tunic; hair
+          still pinned UP in a tight bun
+        ref: artwork/character-sheets/akane-nurse.png
+        ref_note: the face and the pinned-up hair; add the navy cardigan over the uniform
 
   michiko:
     name: MICHIKO
@@ -114,6 +121,13 @@ characters:
         desc: plain supermarket work vest (dark tone) over a T-shirt, loose trousers
         ref: artwork/character-sheets/michiko.png
         ref_note: the face and hair only
+      vest:
+        desc: >-
+          the supermarket's GREEN work vest (drawn in mid-grey tone) over a
+          plain long-sleeved top, a small blank white name tag on the vest,
+          loose dark trousers, WHITE rubber shop-floor shoes, a worn shoulder
+          bag; half her hair has come out of the low bun
+        ref: artwork/character-sheets/michiko-vest.png
 
   aya:
     name: AYA
@@ -650,6 +664,62 @@ characters:
       uniform:
         desc: white short-sleeved nurse's uniform dress, white cap, white shoes
 
+  young_doctor:
+    name: DOCTOR
+    full_name: the young night doctor in the Shiomi Municipal ER
+    traits: >-
+      Japanese doctor about 28, thin and tall, a long tired face with stubble,
+      black hair pressed FLAT at the back and sticking up at the crown from
+      sleeping on it, no glasses, a white doctor's coat over a pale scrub top,
+      a stethoscope round his neck, brown leather slip-on shoes.
+    tell: "the tall young DOCTOR in a white coat with a stethoscope, hair flattened at the back"
+    default_outfit: coat
+    outfits:
+      coat:
+        desc: white doctor's coat, pale scrub top and trousers, stethoscope, brown slip-on shoes
+
+  xray_tech:
+    name: TECH
+    full_name: a hospital X-ray technician
+    traits: Japanese man in his thirties in a pale blue technician's tunic, short hair, pushing a mobile X-ray machine.
+    tell: "the X-ray man in a pale tunic"
+    default_outfit: tunic
+    outfits:
+      tunic:
+        desc: pale blue (light grey tone) technician's tunic and trousers
+
+  night_clerk:
+    name: CLERK
+    full_name: the older man at the hospital night window
+    traits: >-
+      Japanese man about sixty, small and neat, thinning grey hair combed
+      over, reading glasses low on his nose, a patient kind face.
+    tell: "the OLD man in a cardigan behind the glass"
+    default_outfit: cardigan
+    outfits:
+      cardigan:
+        desc: a brown knitted cardigan over a white shirt
+
+  ward_nurse:
+    name: NURSE
+    full_name: the night nurse on the children's ward
+    traits: Japanese nurse about forty-five, round and short, round cheerful face, short hair under a small white cap.
+    tell: "the ROUND, kind nurse with a white cap"
+    default_outfit: uniform
+    outfits:
+      uniform:
+        desc: pale pink (light grey tone) nurse's uniform dress, white cap, white shoes
+
+  ward_mother:
+    name: MOTHER
+    full_name: the mother of the little girl in the next bed
+    traits: Japanese woman about thirty-five, permed shoulder-length hair, asleep in a chair with her mouth open, a cardigan.
+    tell: "the young mother asleep in the chair by the next bed"
+    default_outfit: home
+    outfits:
+      home:
+        desc: a beige cardigan over a blouse, slacks
+
 cars:
   meet_cars:
     name: the parked meet cars
@@ -958,3 +1028,11 @@ cars:
         note: "the patient area seen from the rear doors: stretcher, bench, cabinets; layout only"
     rules:
       - "RIGHT-HAND DRIVE: the driver sits on the van's right."
+
+  fish_truck:
+    name: the fish truck
+    full_name: a big 1990s Japanese refrigerated box truck (fish delivery)
+    traits: >-
+      A big white Japanese cab-over truck with a tall insulated white box body
+      and a refrigeration unit on the front of the box; plain, no readable
+      writing; right-hand drive.

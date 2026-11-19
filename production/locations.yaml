@@ -434,3 +434,80 @@ ambulance-interior:
     frosted rear windows, a red rotating light outside throwing pink light in
     through the frosted glass.
   default_time: about 1:30 a.m., night
+# ---- added for chapter 10 (2026-11-19)
+er-treatment-bay:
+  name: inside a curtained treatment bay of the Shiomi Municipal ER
+  description: >-
+    A small 1995 Japanese emergency-room treatment bay closed in by PALE
+    GREEN curtains (light grey tone) on ceiling rails, the curtains stopping
+    about thirty centimeters above the polished floor. A high hospital bed
+    with its back raised and side rails; a wheeled over-bed table across it;
+    a steel drip stand with a clear bag; on a wall shelf a small GREY BOX
+    monitor with a green-digit display window and a cable; the wall behind
+    the bed full of oxygen and suction outlets with round dials and flow
+    meters; a round steel stool in the corner beside a steel pedal bin; a
+    small steel trolley. Very bright flat fluorescent light. No modern
+    screens.
+  plate: artwork/locations/er-treatment-bay.png
+  guards:
+    - No readable signs anywhere. The monitor is a small grey box with only a few green digits, never a modern flat screen.
+  default_time: about 2 a.m., inside under bright fluorescent light
+
+hospital-night-window:
+  name: the hospital's night reception window by the locked main entrance
+  description: >-
+    The dim main lobby of a 1995 Japanese city hospital at night: the big
+    glass main doors locked and dark, the daytime counters shuttered, rows of
+    empty benches; in the side wall a small reception HATCH with a sliding
+    glass panel and a narrow ledge in front of it, a plain sign board above
+    it, and behind the glass a lit little office with a desk, a small radio,
+    a tray of rubber stamps and a coin tray. One pool of light round the
+    hatch, the rest of the lobby in shadow.
+  plate: artwork/locations/hospital-night-window.png
+  guards:
+    - The sign board over the hatch is plain, with no readable letters (the caption gives its words).
+  default_time: about 3 a.m., night; the lobby dark except the lit hatch
+
+hospital-night-entrance:
+  name: the corridor by the hospital's night entrance, with the vending machine
+  description: >-
+    A long 1995 Japanese hospital corridor near the night entrance, half the
+    ceiling lights off: polished vinyl floor, white walls with a green stripe;
+    against one wall a single tall drinks VENDING MACHINE glowing, its top
+    rows of buttons pale and its BOTTOM ROW of buttons dark (red) with small
+    white HOT labels, dummy cans behind glass, a can bin beside it; opposite
+    it a plain bench with a vinyl seat; at the far end of the corridor the
+    double doors to the ER; to one side the glass doors of the night entrance
+    with the dark forecourt beyond.
+  plate: artwork/locations/hospital-night-entrance.png
+  guards:
+    - No brand names or logos on the vending machine or the cans; the only words allowed on it are small HOT labels on the bottom-row buttons.
+  default_time: about 5 a.m., night still outside, the corridor dim
+
+hospital-bench-dawn:
+  name: the bench by the bus stop outside the hospital at dawn
+  description: >-
+    Outside a big 1990s Japanese city hospital building of pale concrete and
+    rows of windows: by the night entrance a plain bench beside a bus-stop
+    pole with a timetable board and a small roof; a wide car park with a few
+    parked cars beyond, low hedges, tall streetlights still lit; the
+    hospital's name in big raised letters on the wall above (not readable);
+    a red mailbox at the kerb.
+  plate: artwork/locations/hospital-bench-dawn.png
+  guards:
+    - The hospital name on the wall and the bus timetable are not readable.
+  default_time: about 5:20 a.m., grey early dawn, the streetlights still on
+
+childrens-ward:
+  name: the six-bed room on the children's ward, fifth floor
+  description: >-
+    A 1995 Japanese hospital children's ward room: six beds with white metal
+    frames and side rails, three along each wall, thin curtains on ceiling
+    rails between them; a big window along the end wall with the city below;
+    small bedside lockers; plain chairs for parents; oxygen outlets on the
+    wall above each bed; children's drawings taped on the wall. Outside in
+    the corridor a playroom with paper fish stuck on its windows.
+  plate: artwork/locations/childrens-ward.png
+  guards:
+    - No readable signs anywhere.
+  default_time: afternoon, daylight through the big window

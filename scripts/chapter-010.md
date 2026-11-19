@@ -1,7 +1,7 @@
 # Chapter 10: "Nobody Waits Up"
 
 **Split:** all of Volume 1 Chapter 6 ("Night Shift"). Chapter 9 ended on the curtain opening: "She looked up. / It was Natsume."
-**Status:** script 2026-11-19. 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-06.md`.
+**Status:** 25 of 30 pages drawn 2026-11-19 (p4-p7, p23 wait for the Codex usage reset). 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-06.md`.
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel.
 **Pacing:** quiet, like Ch4, Ch8 and Ch9. The ER told in small exact hands-and-numbers beats; the deposit coin by coin; the vending machine with room and silence (p16-p19); the dawn bench slow; the last page lands on Kubo's line and nothing after it.
 
@@ -302,8 +302,8 @@
 - P2 (top-left): Dai at the big refrigerated fish truck with the diesel nozzle; far beyond, two small figures by the wall at the air pump. CAPTION: "A FISH TRUCK CAME IN. I DID ALL OF IT. IN BETWEEN I LOOKED OVER. I COULDN'T HEAR ANYTHING."
 - P3 (middle-right): Far: Kubo standing over her with his cigarette held away, talking; she at her second tire. CAPTION: "I'D NEVER SEEN HIM TALK THAT LONG."
 - P4 (middle-left): Far: Kubo pointing the cigarette down the harbor road toward the silos; she standing, looking down it. Silent.
-- P5 (lower-right): Natsume looking over at Dai; Dai holding the fish truck's toilet key on its block of wood. CAPTION: "SHE LOOKED OVER AT ME. I PUT THE KEY DOWN."
-- P6 (lower-left): Small, from behind: the Roadster's tail lights going out onto the harbor road. CAPTION: "SIX MINUTES BY THE OFFICE CLOCK. THEN THE POP-UPS CAME UP, AND THE SOUND WENT UP THE WAY IT DOES, AND THEN IT WAS GONE."
-- P7 (bottom-right): Kubo in the office putting out the cigarette on the sole of his shoe, the cold coffee in his other hand. CAPTION: "HE FOUND HIS COFFEE HAD GONE COLD, AND DRANK IT ANYWAY."
-- P8 (bottom-center): Dai in the office doorway. DAI: "WHAT DID SHE WANT?"
-- P9 (bottom-left, large): Kubo looking at the road where she'd gone. KUBO: "SUNDAY. SIX A.M. TANABE'S." / "SHE SAYS BRING GLOVES." CAPTION (small): "CHAPTER 10: NOBODY WAITS UP. END."
+- P5 (lower, wide): Dai in the foreground holding the fish truck's toilet key on its block of wood; far across the forecourt Natsume looking over at him. CAPTIONS: "SHE LOOKED OVER AT ME. I WAS HOLDING THE FISH TRUCK'S TOILET KEY ON ITS BLOCK OF WOOD." / "I PUT THE KEY DOWN."
+- P6 (bottom-right): Small, from behind: the Roadster's tail lights going out onto the harbor road. CAPTION: "SIX MINUTES BY THE OFFICE CLOCK. THEN THE POP-UPS CAME UP, AND THE SOUND WENT UP THE WAY IT DOES, AND THEN IT WAS GONE."
+- P7 (bottom-center): Kubo in the office putting out the cigarette on the sole of his shoe, the cold coffee in his other hand. CAPTION: "HE FOUND HIS COFFEE HAD GONE COLD, AND DRANK IT ANYWAY."
+- P8 (bottom-left): Dai in the office doorway. DAI: "WHAT DID SHE WANT?"
+- P9 (bottom, large): Kubo looking at the road where she'd gone. KUBO: "SUNDAY. SIX A.M. TANABE'S." / "SHE SAYS BRING GLOVES." CAPTION (small): "CHAPTER 10: NOBODY WAITS UP. END."

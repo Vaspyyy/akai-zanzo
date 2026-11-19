@@ -319,3 +319,81 @@ pages:
       automatic glass entrance doors with the black night outside; a steel
       trolley, a wall oxygen outlet with a dial. Flat, very bright light,
       reflections on the floor.
+
+  # ---- added for chapter 10 (2026-11-19)
+  - id: er-treatment-bay
+    location: er-treatment-bay
+    time: about 2 a.m., inside under bright fluorescent light
+    refs:
+      - {path: artwork/locations/er-bay.png, use: "the corridor outside these bays: copy its curtains, rails, floor, materials, light and art style exactly; this plate is INSIDE one bay"}
+    description: >-
+      Eye-level view inside one curtained ER treatment bay, standing at the
+      foot of the empty bed: the high hospital bed with its back raised and
+      steel side rails in the middle, a wheeled over-bed table pushed across
+      it with a pillow on it; behind the bed the wall full of oxygen and
+      suction outlets with round dials, flow meters and coiled clear tubes;
+      a steel drip stand with an empty clear bag beside the bed; on a small
+      wall shelf a grey box monitor with a small green-digit display window;
+      in the right corner a round steel stool next to a steel pedal bin; the
+      PALE GREEN curtains on rails closing the bay on three sides, stopping
+      thirty centimeters above the polished floor. Bright, flat light.
+
+  - id: hospital-night-window
+    location: hospital-night-window
+    time: about 3 a.m., night; the lobby dark except the lit hatch
+    refs:
+      - {path: artwork/locations/er-bay.png, use: "another interior of this same hospital: copy its art style, materials and light; not the room"}
+    description: >-
+      Eye-level view across the dark main lobby of the hospital at night
+      toward the side wall: in the wall a small reception HATCH with a
+      sliding glass panel and a narrow ledge in front, a plain blank sign
+      board over it, behind the glass a lit little office with a desk, a
+      small radio, a tray of rubber stamps and a shallow coin tray in the
+      hatch; on the left the big glass main doors, locked, with the black
+      night outside; empty rows of benches in shadow; the shuttered daytime
+      counters. The only real light is the warm pool round the hatch.
+
+  - id: hospital-night-entrance
+    location: hospital-night-entrance
+    time: about 5 a.m., night still outside, the corridor dim
+    refs:
+      - {path: artwork/locations/er-bay.png, use: "another corridor of this same hospital: copy its floor, walls with the stripe, light fittings and art style; this is a different, dimmer corridor"}
+    description: >-
+      Eye-level view down a long dim hospital corridor at night, half the
+      ceiling lights off: on the left wall a single tall drinks vending
+      machine glowing white, rows of dummy cans behind its glass, the top
+      rows of buttons pale and the BOTTOM row of buttons dark (they are red)
+      with tiny white HOT labels, a can bin beside it; on the right wall,
+      opposite the machine, a plain bench with a vinyl seat; at the far end
+      the closed double doors to the ER with small windows; on the right near
+      the bench the glass doors of the night entrance with the black
+      forecourt outside. Polished floor reflecting the machine's glow.
+
+  - id: hospital-bench-dawn
+    location: hospital-bench-dawn
+    time: about 5:20 a.m., grey early dawn, the streetlights still on
+    weather: dry, still, cool
+    refs:
+      - {path: artwork/locations/bypass-overpass-dawn.png, use: "another dawn plate of this manga: copy its dawn light, sky tone and art style; not the place"}
+    description: >-
+      Wide eye-level view outside the hospital at grey early dawn: on the
+      left the pale concrete wall of the big hospital with rows of windows
+      and big raised letters high up (not readable), the glass night
+      entrance; in front of it a plain bench beside a bus-stop pole with a
+      small timetable board and a little roof; a red mailbox at the kerb; a
+      wide car park beyond with a few parked cars far away, low hedges, tall
+      streetlights still lit; the sky pale grey and flat, getting lighter at
+      the bottom.
+
+  - id: childrens-ward
+    location: childrens-ward
+    time: afternoon, daylight through the big window
+    refs:
+      - {path: artwork/locations/er-bay.png, use: "another interior of this same hospital: copy its art style and materials; this is a calmer ward room by day"}
+    description: >-
+      Eye-level view into a six-bed children's ward room by day from the
+      door: three beds along each side wall with white metal frames, side
+      rails and white sheets, all empty, thin curtains pulled back on ceiling
+      rails between them; small bedside lockers; plain chairs; oxygen outlets
+      above each bed; a big window along the end wall with soft daylight and
+      city roofs below; a few children's crayon drawings taped on the wall.
