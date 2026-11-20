@@ -1,0 +1,54 @@
+# Panel redraws for Chapter 12. The grey panel in each source is redrawn, then pasted back into
+# artwork/pages/chapter-012/page-NN.art.png at the same gutter and re-lettered from chapter-012.yaml.
+# Source p06: page-06.art.png with the middle-right panel filled grey (PIL rectangle [438,772,1005,1116], fill 150).
+# Run: production/az run -c chapter-012-fixes -p 6 --no-letter --attempts 1
+title: Chapter 12 fixes
+output_dir: production/runs/ch12-fixes/out
+lettering: empty
+defaults:
+  orientation: portrait
+  notes:
+  - No brand logos, no readable printed words, no Japanese characters.
+pages:
+- page: 6
+  location: tanabe-weeds
+  time: Sunday about 3:35 p.m., clear afternoon sun
+  edit:
+    source: production/runs/ch12-fixes/src/page-06.png
+    change: "Redraw ONLY the flat grey MIDDLE-RIGHT panel. New content: a close view into the dusty engine bay of an old small car while the starter cranks it: the long low four-cylinder engine with its ribbed black cam cover on top and a round oil filler cap, and at the FRONT of the engine a tall black PLASTIC timing-belt COVER, CLOSED and bolted on (NO pulleys or gears visible anywhere), grey dust, dry leaves and cat hair on everything; the whole engine blurred by short shaky vibration lines, the fan pulley at the bottom a spinning blur. One EMPTY rectangular caption box at the lower right of the panel, roomy for about 22 words. No people, no text."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, all people, the balloons, the caption boxes and the sound effects"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - {pos: middle, action: unchanged, keep: true}
+  - pos: middle-right
+    action: "The dusty engine bay while the starter cranks: the black plastic timing-belt cover CLOSED at the front of the engine, vibration lines, no pulleys visible."
+    cast: [{id: wreck, view: engine, camera: "close, from above the right fender, looking down at the engine with its timing cover ON"}]
+    captions:
+    - THIS ONE LIMPED ON SOME BEATS AND SKIPPED OTHERS, TOO QUICK AND TOO LIGHT. IT SPUN LIKE IT HAD ALMOST NOTHING TO PUSH.
+  - {pos: lower-left, action: unchanged, keep: true}
+  - {pos: bottom-right, action: unchanged, keep: true}
+  - {pos: bottom-center, action: unchanged, keep: true}
+  - {pos: bottom-left, action: unchanged, keep: true}
+
+# Source p24: page-24.art.png with the bottom-right panel filled grey (PIL rectangle [386,1136,1004,1518], fill 150).
+- page: 24
+  location: tanabe-weeds
+  time: Sunday about 12:30 p.m., hazy midday sun
+  edit:
+    source: production/runs/ch12-fixes/src/page-24.png
+    change: "Redraw ONLY the flat grey BOTTOM-RIGHT panel. New content: back at the SCRAPYARD (NOT a shop): in a strip of waist-high yellow weeds in front of a tall corrugated steel fence, with a stack of crushed-flat white sedans behind, an old battered yellow (light grey) diesel forklift is slowly lowering the FRONT end of a wrecked small two-seat convertible down onto its wheels; its forks are under the car's front end. The car is seen in a SIDE VIEW of its RIGHT (driver's) side, its FRONT POINTING RIGHT, middle distance, eye level: faded grey chalky paint, matte primer hood, the right pop-up headlight stuck HALF UP, the rear crushed with the trunk lid buckled up into a peak, the grey soft top torn, plain rusty STEEL wheels with tires; the forklift stands at the right edge of the panel at the car's nose. No people, no text, no balloons."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, all people, the banknotes, the balloons, the caption boxes and the sound effects"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - {pos: middle-right, action: unchanged, keep: true}
+  - {pos: middle-left, action: unchanged, keep: true}
+  - {pos: lower-right, action: unchanged, keep: true}
+  - {pos: lower-left, action: unchanged, keep: true}
+  - pos: bottom-right
+    action: "In the scrapyard weeds by the corrugated fence: the forklift lowering the wreck's front onto its wheels; side view of the car's RIGHT side, front pointing RIGHT."
+    cast:
+    - {id: forklift, camera: "at the car's nose on the right edge, side-on"}
+    - {id: wreck, view: side, camera: "eye level, side view of the RIGHT (driver's) side, middle distance, the car's FRONT pointing RIGHT"}
+  - {pos: bottom-left, action: unchanged, keep: true}

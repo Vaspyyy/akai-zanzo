@@ -1,7 +1,7 @@
 # Chapter 12: "Timing Belt"
 
 **Split:** all of Volume 1 Chapter 8 ("Timing Belt"). Chapter 11 ended on Fumie's cut-off line and "Get back to work." (end of novel Chapter 7).
-**Status:** drawn 2026-11-20. 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-08.md`. **Spec:** `production/chapter-012.yaml` (this script is generated from it). **References:** `production/chapter-012-cars.yaml`, `production/chapter-012-plates.yaml`.
+**Status:** pages 1-29 drawn 2026-11-20; page 30 waits for the image quota (reset Sat 21 Nov 17:40). 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-08.md`. **Spec:** `production/chapter-012.yaml` (this script is generated from it). **References:** `production/chapter-012-cars.yaml`, `production/chapter-012-plates.yaml`.
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel.
 **Pacing:** dense and quiet, like Ch8-11 (240 panels). Kubo's diagnosis is detective work by ear and by hand on its own fourteen pages: the dry ground, the dipstick, the starter's wrong limp, the cam that doesn't move, the bare pulleys, the rubber tooth, the engine turned by hand. Then home (Aya's nose, Sota's "How much is a belt?"), the grey soap, the tire trip to Okabe's, the car on its own wheels, the staff room, payday, the letter. Mom reads it with her back turned at the stove, wordless and unexplained. The ending is as quiet as the novel's: 4 a.m., the letter he can't read, the tooth.
 
@@ -59,8 +59,8 @@
 
 ## Page 5: Turn it when I say
 - P1 (top-right): Close in the engine bay: Kubo's index finger tracing a thick battery cable forward along the inner wing to a bolt under a red rubber cap.
-- P2 (top-left): Close on the red clamp's teeth biting onto the bare bolt, the rubber cap folded back. SFX: "KACHI"
-- P3 (middle-right): Close on the black clamp scratching once across a bare metal bracket on the side of the engine, then clamping on. SFX: "GARI"
+- P2 (top-left): Close on the red clamp's teeth biting onto the bare bolt, the rubber cap folded back. CAPTION: "HE FOLDED THE CAP BACK AND PUT THE RED CLAMP ON THE BOLT." SFX: "KACHI"
+- P3 (middle-right): Close on the black clamp scratching once across a bare metal bracket on the side of the engine, then clamping on. CAPTION: "THE BLACK ONE WENT ON BARE METAL, AFTER ONE SCRATCH WITH THE CLAMP'S TEETH." SFX: "GARI"
 - P4 (middle-left): Kubo straightening up beside the raised hood, wiping his fingers on his trousers. KUBO: "THE OLD ONE'LL DRINK SOME OF IT. DOESN'T MATTER."
 - P5 (lower, wide): Kubo looking straight at Dai across the raised hood, giving orders. KUBO: "GET IN. CLUTCH TO THE FLOOR. NEUTRAL." KUBO: "TURN IT WHEN I SAY. STOP WHEN I SAY."
 - P6 (bottom-right): Inside the car, seen from behind the seats: Dai dropping into the RIGHT (driver's) seat behind the wheel on the image RIGHT; on the image LEFT the cat standing up off the passenger seat, stretching, and climbing out through the tear in the roof above it without hurrying. CAPTION: "THE CAT STOOD UP, AND STRETCHED, AND WENT OUT THROUGH THE TEAR IN THE TOP WITHOUT HURRYING."
@@ -85,7 +85,7 @@
 - P5 (lower-right): Kubo holding out a heavy black flashlight to Dai, pointing at the filler hole with his chin. KUBO: "SHINE IT DOWN THERE. TELL ME WHEN THAT MOVES."
 - P6 (lower-left): Extreme close-up in the flashlight beam, down the round filler hole: under a shine of old oil a curved steel shape like the top of an egg, with one drop of oil hanging off it. KUBO (off): "THAT'S A CAM. WHEN THE ENGINE TURNS, THAT TURNS."
 - P7 (bottom-right): Kubo getting down slowly onto a flattened cardboard box in the weeds, one knee and then the other, a long steel bar and a big socket in his hand. CAPTION: "HE GOT DOWN THEN. SLOWLY, ONE KNEE AND THEN THE OTHER."
-- P8 (bottom-left): Low side view: Kubo on his back, sliding in under the front of the car, only his legs and boots sticking out; Dai standing at the white left fender, bent over the engine with the flashlight. SFX: "KACHA" SFX: "GIIIII"
+- P8 (bottom-left): Low side view: Kubo on his back, sliding in under the front of the car, only his legs and boots sticking out; Dai standing at the white left fender, bent over the engine with the flashlight. CAPTION: "HE SLID IN UNDER THE FRONT WITH A LONG BAR AND A BIG SOCKET." SFX: "KACHA" SFX: "GIIIII"
 
 ## Page 8: Once round
 - P1 (top-right): Dai bent over the filler hole with the flashlight, eyes fixed on it. KUBO (off): "WELL?"
@@ -104,7 +104,7 @@
 - P5 (lower-right): Kubo pointing down with the ratchet toward the bottom pulley where his bar had been. KUBO: "THE BOTTOM OF THE ENGINE TURNS THE TOP." KUBO: "CRANK DOWN THERE. CAMS UP HERE."
 - P6 (lower-left): Close on the ratchet tip pointing up at the two bare toothed pulleys. KUBO (off): "THE CAMS OPEN THE VALVES. THAT BELT HOLDS THE TWO TOGETHER."
 - P7 (bottom-right): Kubo's lined face, flat and certain. KUBO: "BELT GOES, THE BOTTOM KEEPS TURNING. THE TOP STOPS."
-- P8 (bottom-left): Kubo turning the stripped piece of belt over to the light between finger and thumb, studying it. KUBO: "SOMETHING'S BEEN EATING THAT BELT. PROBABLY THE TENSIONER." KUBO: "WE'LL SEE WHEN IT'S APART."
+- P8 (bottom-left): Kubo turning the stripped piece of belt over to the light between finger and thumb, studying it. KUBO: "SOMETHING'S BEEN EATING THAT BELT." KUBO: "PROBABLY THE TENSIONER. WE'LL SEE WHEN IT'S APART."
 
 ## Page 10: The one-six has room
 - P1 (top-right): Dai looking down at the tiny rubber tooth in his left palm, very still. CAPTION: "I LOOKED AT THE TOOTH IN MY HAND."
@@ -148,8 +148,8 @@
 ## Page 14: It can't stand on those
 - P1 (top-right): Dai, quietly. DAI: "WHAT HAPPENED TO IT?"
 - P2 (top-left): Kubo's profile, eyes still on the cranes. KUBO: "THE BUBBLE."
-- P3 (upper-middle, wide): Close on the red toolbox: the folded rag going into the top drawer and the drawer pushed shut. SFX: "KASHAN"
-- P4 (middle-right): Kubo counting it off on his fingers, matter-of-fact. KUBO: "BELT. TENSIONER AND THE IDLER. THE PUMP BEHIND IT, WHILE IT'S OPEN, OR YOU DO ALL THIS AGAIN IN A YEAR." KUBO: "THEN YOU LINE UP THE MARKS, TOP AND BOTTOM, AND TURN IT OVER TWICE BY HAND. IF THE MARKS COME BACK TO THE SAME PLACE, IT'S RIGHT."
+- P3 (upper-middle, wide): Close on the red toolbox: the folded rag going into the top drawer and the drawer pushed shut. CAPTION: "HE PUT THE RAG IN THE TOOLBOX AND SHUT THE DRAWER." SFX: "KASHAN"
+- P4 (middle-right): Kubo counting it off on his fingers, matter-of-fact. KUBO: "BELT. TENSIONER AND THE IDLER. THE PUMP BEHIND IT, WHILE IT'S OPEN." KUBO: "LINE UP THE MARKS, TURN IT TWICE BY HAND. IF THEY COME BACK TO THE SAME PLACE, IT'S RIGHT."
 - P5 (middle-left): Dai, listening hard. DAI: "HOW LONG?"
 - P6 (lower-right): Kubo bending to pick up the red toolbox by its worn handle. KUBO: "AN AFTERNOON. IF NOTHING'S SEIZED."
 - P7 (lower-left): Dai, the hard question. DAI: "HOW MUCH ARE THE PARTS?"
@@ -158,7 +158,7 @@
 
 ## Page 15: Wash
 - P1 (top-right): Dusk in the little cluttered prefab site office of the scrapyard (steel desk, rotary phone, small sink): Dai wiping his hands on the gasoline rag beside the small cold-water sink, the broom leaning by the door. CAPTION: "I SWEPT THE OFFICE. I SKIPPED THE YARD TAP AND WIPED MY HANDS ON THE GASOLINE RAG LIKE HE HAD, AND WENT HOME."
-- P2 (top-left): Mom at the gas ring with her back to the room, frying in a deep pan, steam and spatter. SFX: "JUWAAA"
+- P2 (top-left): Mom at the gas ring with her back to the room, frying in a deep pan, steam and spatter. CAPTION: "THE KITCHEN WAS ALL OIL AND NOISE." SFX: "JUWAAA"
 - P3 (middle-right): The low table: Sota kneeling over a worksheet of fractions, pencil in his mouth; at the far end Aya with a hair magazine open, not looking up.
 - P4 (middle-left): Dai at the genkan step, pulling off his sneakers. DAI: "I'M BACK."
 - P5 (lower-right): Mom's back at the stove, chopsticks in the pan, not turning round. MOM: "WASH."
@@ -209,7 +209,7 @@
 
 ## Page 20: The kid who watches money
 - P1 (top-right): Fumie in her cab, both hands on the wheel, not moving. FUMIE: "I'M NOT GETTING OUT FOR HIM."
-- P2 (top-left): Close on Fumie's thick brown hand pressing the horn in the middle of the steering wheel. SFX: "PAAP! PAAP!"
+- P2 (top-left): Close on Fumie's thick brown hand pressing the horn in the middle of the steering wheel. CAPTION: "SHE PRESSED THE HORN TWICE." SFX: "PAAP! PAAP!"
 - P3 (middle-right): Okabe coming out of the dark shed wiping his hands on a rag, pleasant.
 - P4 (middle-left): Okabe bowing politely at the truck's driver's window, which is on the cab's RIGHT side. OKABE: "TANABE-SAN, ALWAYS A PLEASURE."
 - P5 (lower-right): Fumie staring straight ahead through her windshield, cigarette in. FUMIE: "EIGHT CROWN WHEELS, AND DON'T START."
@@ -232,7 +232,7 @@
 - P1 (top-right): Beside the shed: used small-car tires standing in towers by size, chalk marks on them; Okabe pulling four matching ones out and standing them up in a row. OKABE: "ALL FOUR THE SAME. FIVE MILLIMETERS LEFT. FOUR THOUSAND EACH, ON AND BALANCED." OKABE: "YOU DON'T WANT THOSE."
 - P2 (top-left): Dai, shaking his head once. DAI: "NO."
 - P3 (middle-right): Okabe standing four different tires up in a new row, two the same and two odd ones. OKABE: "NO. THESE, THEN. LOOK."
-- P4 (middle-left): Okabe crouching with a grunt, his thumb on the shoulder of the first tire beside a little triangle molded into the rubber at the edge of the tread. OKABE: "SLIP SIGN. FIND THE TRIANGLE, AND IN THE GROOVE UNDER IT THERE'S A BAR ACROSS." OKABE: "WHEN THE TREAD'S DOWN LEVEL WITH THE BAR, THE TIRE'S FINISHED. ONE POINT SIX MILLIMETERS."
+- P4 (middle-left): Okabe crouching with a grunt, his thumb on the shoulder of the first tire beside a little triangle molded into the rubber at the edge of the tread. OKABE: "SLIP SIGN. FIND THE TRIANGLE." OKABE: "UNDER IT, A BAR ACROSS THE GROOVE. TREAD DOWN TO THE BAR, THE TIRE'S FINISHED. ONE POINT SIX MILLIMETERS."
 - P5 (lower-right): Extreme close-up: a small metal tread-depth gauge pushed into a tread groove, its little scale reading 4. OKABE (off): "THIS ONE'S GOT FOUR."
 - P6 (lower-left): Close on the tire's plain sidewall: Okabe's finger beside a small molded oval with the number 243 in it. OKABE (off): "TWO, FOUR, THREE. TWENTY-FOURTH WEEK, NINETEEN NINETY-THREE. RUBBER GOES HARD, OLD. THESE ARE YOUNG ENOUGH."
 - P7 (bottom-right): Close on the middle of the third tire's tread: a little stub of brown rubber plugged into a nail hole, trimmed flat. OKABE (off): "THIS ONE'S PLUGGED. NAIL. SOMEBODY FIXED IT PROPERLY."
@@ -246,7 +246,7 @@
 - P5 (middle-left): Okabe taking the gauge back. OKABE: "HARDER."
 - P6 (lower, wide): Okabe working out the price aloud on a carbon pad, pencil moving, glasses pulled down onto his nose. OKABE: "THE GOOD PAIR, TWO THOUSAND FIVE HUNDRED EACH. THE OTHER TWO, FIFTEEN HUNDRED. BETTER PAIR ON THE BACK." OKABE: "FITTING AND BALANCING, SEVEN HUNDRED A WHEEL. WITH THE TAX, ELEVEN THOUSAND ONE HUNDRED AND TWENTY-FOUR. OLD TIRES, THREE HUNDRED EACH TO GET RID OF."
 - P7 (bottom-right): Dai, quick. DAI: "I'LL TAKE THEM BACK."
-- P8 (bottom-center): Okabe smiling. OKABE: "TANABE-SAN'S GOT A PRESS, HASN'T SHE." OKABE: "CALL IT ELEVEN THOUSAND. THE HUNDRED AND TWENTY-FOUR'S FOR COMING BACK."
+- P8 (bottom-center): Okabe smiling. OKABE: "TANABE-SAN'S GOT A PRESS, HASN'T SHE." OKABE: "CALL IT 11,000. THE 124'S FOR COMING BACK."
 - P9 (bottom-left): Inside the shed: the tire machine breaking an old tire off its rim with a thump of air; Okabe levering a new one on with a bar, soap on the bead from a pot with a brush. SFX: "BASHU!"
 
 ## Page 24: Business is business
@@ -262,7 +262,7 @@
 ## Page 25: On its own four feet
 - P1 (top, wide): The forks sliding out from under; the car sinking down onto its new tires and settling. CAPTION: "THE FORKS CAME OUT FROM UNDER. THE CAR SANK DOWN ONTO THE TIRES AND SAT THERE." SFX: "GISHI..."
 - P2 (middle, large): BIG: the wreck standing level in the weeds on four plain steel wheels for the first time, its right pop-up still stuck half up and staring off toward the fence, the back still folded, the torn top; Dai small beside it. CAPTION: "IT STOOD LEVEL FOR THE FIRST TIME SINCE I'D KNOWN IT." CAPTION: "THE BACK WAS STILL FOLDED. BUT IT STOOD ON ITS OWN FOUR FEET IN THE WEEDS."
-- P3 (lower-right): Close on Dai's hand pushing down on the white front fender; the car rocking on its springs, motion lines, coming back. SFX: "GISHI GISHI"
+- P3 (lower-right): Close on Dai's hand pushing down on the white front fender; the car rocking on its springs, motion lines, coming back. CAPTION: "WHEN I PUSHED ON THE FENDER, IT ROCKED ON ITS SPRINGS AND CAME BACK." SFX: "GISHI GISHI"
 - P4 (lower-left): The striped cat with half a tail walking round a new tire, smelling it. CAPTION: "THE CAT CAME OUT OF THE WEEDS AND WALKED ROUND IT ONCE, SLOWLY, SMELLING EACH NEW TIRE."
 - P5 (bottom-right): The cat in mid-jump up through the tear in the grey soft top.
 - P6 (bottom-left): Dai sitting on the flattened cardboard box in the weeds beside the car, counting in his head, the gloves in his lap. CAPTION: "I'D HAD 65,287 YEN AFTER PAYDAY. I HAD 54,287. I DIDN'T DO THE SUM WITH THE 280,000 IN IT."
@@ -271,12 +271,12 @@
 - P1 (top-right): Dai at his desk with his cheek on his forearm, asleep, a line of ink running off the edge of his notebook page, the pen still in his fingers. CAPTION: "ON MONDAY I'D BEEN AWAKE SINCE HALF PAST FOUR ON SUNDAY MORNING. IN MATH THERE WAS A LINE OF INK ACROSS MY NOTEBOOK."
 - P2 (top-left): Sixth period: Dai sitting bolt upright with his eyes open and blank; Hotta-sensei standing beside his desk with the English textbook, saying nothing. CAPTION: "OKUDA WAS KICKING MY CHAIR. HE SAVED IT FOR THE END OF HOMEROOM." SFX: "GATAN"
 - P3 (upper-middle, wide): Hotta-sensei at the front by the blackboard, not looking up from his register. HOTTA: "HAYAMA. STAFF ROOM."
-- P4 (middle, wide): The staff room: desk islands piled with papers and tea cups; at the far end a teacher asleep in his chair with a newspaper over his face; Hotta sitting at his desk, Dai standing in front of it. CAPTION: "THE STAFF ROOM SMELLED OF GREEN TEA AND CIGARETTES. THE OWL FAN STOOD IN A JAR OF PENS ON HIS DESK, CLOSED."
-- P5 (lower-right): Hotta seated, reading from a sheet of paper with names on it. HOTTA: "ONO-SENSEI SAYS YOU'VE SLEPT THROUGH EVERY MATH LESSON SINCE SEPTEMBER. IWAI-SENSEI SAYS THE SAME FOR HISTORY."
-- P6 (lower-center): Hotta with his hands folded on the desk. HOTTA: "MIDTERMS START ON THE TWENTY-FOURTH. NO CREDITS, NO GRADUATION. NO GRADUATION, NO JOB."
+- P4 (middle, wide): The staff room: desk islands piled with papers and tea cups; at the far end a teacher asleep in his chair with a newspaper over his face; Hotta sitting at his desk, Dai standing in front of it. HOTTA: "ONO-SENSEI SAYS YOU'VE SLEPT THROUGH EVERY MATH LESSON SINCE SEPTEMBER." CAPTION: "THE STAFF ROOM SMELLED OF GREEN TEA AND CIGARETTES. THE OWL FAN STOOD IN A JAR OF PENS ON HIS DESK, CLOSED."
+- P5 (lower-right): Hotta seated, reading from a sheet of paper with names on it. HOTTA: "IWAI-SENSEI SAYS THE SAME FOR HISTORY."
+- P6 (lower-center): Hotta with his hands folded on the desk. HOTTA: "MIDTERMS ON THE 24TH. NO GRADUATION, NO JOB."
 - P7 (lower-left): Dai standing, low. DAI: "SANKO HASN'T SAID YET."
 - P8 (bottom-right): Hotta looking out of the window at the baseball team running on the sports ground. HOTTA: "I WROTE, NEVER LATE. I WROTE, WORKS HARD. IF YOU DON'T GRADUATE, NEXT YEAR THEY TAKE THREE FROM US, NOT FIVE." HOTTA: "NOT YOU. THE BOYS AFTER YOU."
-- P9 (bottom-center): Hotta turning back to Dai, quieter. HOTTA: "I KNOW YOU WORK NIGHTS. YOUR MOTHER TOLD ME. I'D RATHER NOBODY HAD TO."
+- P9 (bottom-center): Hotta turning back to Dai, quieter. HOTTA: "I KNOW YOU WORK NIGHTS. I'D RATHER NOBODY HAD TO."
 - P10 (bottom-left): Close on Dai's hands on the edge of the desk: dark in the creases of the knuckles, black round two nails. HOTTA (off): "WASH BEFORE THE EXAMS. THEY'LL THINK YOU'VE STARTED AT THE PRESS ALREADY."
 
 ## Page 27: It was in the box

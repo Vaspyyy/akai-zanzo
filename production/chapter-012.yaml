@@ -38,7 +38,7 @@ pages:
     cast:
     - *kubo_own
     captions:
-    - KUBO-SAN CAME THROUGH TANABE-SAN'S GATE AT TEN PAST THREE ON SUNDAY AFTERNOON, ON A GREEN SUPER CUB.
+    - {text: "KUBO-SAN CAME THROUGH TANABE-SAN'S GATE AT TEN PAST THREE ON SUNDAY AFTERNOON, ON A GREEN SUPER CUB.", box: [14, 12, 410, 120], draw: true}
   - pos: upper-right
     action: "Close on the battered red steel toolbox roped to the rack: the carry handle's paint worn away to bare grey metal in the shape of fingers."
     cast: [{id: supercub, camera: "extreme close-up of the toolbox handle on the rear rack from above"}]
@@ -54,15 +54,15 @@ pages:
     action: "Memory inset with a soft dark border, night: inside the lit station office booth, Kubo seated behind the counter with an open newspaper; through the window behind him a big white fish truck going past in the dark."
     cast: [kubo]
     dialogue:
-    - kubo: WHAT DID IT DO?
+    - kubo: {text: "WHAT DID IT DO?", box: [866, 728, 140, 132], draw: true, tail: [846, 880]}
     captions:
-    - I'D TOLD HIM ON THURSDAY NIGHT, AT ABOUT FOUR, BETWEEN TWO FISH TRUCKS. NOT ALL OF IT.
+    - {text: "I'D TOLD HIM ON THURSDAY NIGHT, AT ABOUT FOUR, BETWEEN TWO FISH TRUCKS. NOT ALL OF IT.", box: [516, 726, 344, 122], draw: true}
   - pos: middle-left
     location: harbor-station-night
     action: "Memory inset, night: Dai in the grey station jacket standing in the office doorway, hands in his pockets, telling it flatly."
     cast: [dai_cut:station_jacket]
     dialogue:
-    - dai_cut: DIED AT A RED LIGHT. IN MARCH. THE MAN SAT THERE TURNING THE KEY, AND A FISH TRUCK WENT INTO THE BACK OF HIM.
+    - dai_cut: {text: "DIED AT A RED LIGHT. IN MARCH. THE MAN SAT THERE TURNING THE KEY, AND A FISH TRUCK WENT INTO THE BACK OF HIM.", box: [16, 727, 362, 252], draw: true, tail: [392, 836]}
   - pos: lower-right
     location: harbor-station-night
     action: "Memory inset, night: close on Kubo's old hands turning a page of the newspaper, his face hidden behind it."
@@ -73,7 +73,7 @@ pages:
     action: "Daylight again: close on Dai's dirty hands dropping rusty bolts into a row of old coffee tins on a pallet."
     cast: [{<<: *dai_yard, note: "only his hands"}]
     captions:
-    - THAT MORNING I'D STALLED FOUR TIMES INSTEAD OF ELEVEN. THEN I'D SWEPT, AND SORTED BOLTS, AND SWEPT AGAIN.
+    - {text: "THAT MORNING I'D STALLED FOUR TIMES INSTEAD OF ELEVEN. THEN I'D SWEPT, AND SORTED BOLTS, AND SWEPT AGAIN.", box: [16, 1058, 380, 150], draw: true}
   - pos: bottom, wide
     action: "Kubo putting the green motorbike up on its stand beside the grey prefab office and getting off it slowly, one hand on the seat, his bad knee stiff."
     cast:
@@ -151,7 +151,7 @@ pages:
     - *kubo_own
     - {id: wreck, view: front34, camera: "low, ground level, just the front bumper and the shadow under the engine, from the front-RIGHT corner"}
     dialogue:
-    - kubo: NOTHING'S DRIPPED.
+    - kubo: {text: "NOTHING'S DRIPPED.", box: [760, 328, 204, 124], draw: true, tail: [852, 468]}
   - pos: upper-left
     action: "Looking down through the big tear in the grey soft top: the scruffy striped cat with half a tail lying on the passenger seat in a patch of sun, staring straight up at us."
     cast: [cat]
@@ -236,10 +236,14 @@ pages:
     action: Close on the red clamp's teeth biting onto the bare bolt, the rubber cap folded back.
     cast: [{<<: *kubo_own, note: "only his fingers"}]
     sfx: [KACHI]
+    captions:
+    - HE FOLDED THE CAP BACK AND PUT THE RED CLAMP ON THE BOLT.
   - pos: middle-right
     action: "Close on the black clamp scratching once across a bare metal bracket on the side of the engine, then clamping on."
     cast: [{<<: *kubo_own, note: "only his hand"}]
     sfx: [GARI]
+    captions:
+    - THE BLACK ONE WENT ON BARE METAL, AFTER ONE SCRATCH WITH THE CLAMP'S TEETH.
   - pos: middle-left
     action: Kubo straightening up beside the raised hood, wiping his fingers on his trousers.
     cast: [*kubo_own]
@@ -258,17 +262,17 @@ pages:
     - cat
     - {id: wreck, view: interior, camera: "from behind and above the two seats, looking forward at the raised hood through the windshield"}
     captions:
-    - THE CAT STOOD UP, AND STRETCHED, AND WENT OUT THROUGH THE TEAR IN THE TOP WITHOUT HURRYING.
+    - {text: "THE CAT STOOD UP, AND STRETCHED, AND WENT OUT THROUGH THE TEAR IN THE TOP WITHOUT HURRYING.", box: [604, 1418, 400, 100], draw: true}
   - pos: bottom-center
     action: "Close in the footwell and console: Dai's sneaker pushing the clutch pedal to the floor; his LEFT hand on the gear lever, which wobbles loose."
     cast: [{<<: *dai_yard, note: "only his left hand on the lever and his sneaker on the clutch"}]
     captions:
-    - THE LEVER WOBBLED LOOSE IN THE MIDDLE.
+    - {text: "THE LEVER WOBBLED LOOSE IN THE MIDDLE.", box: [314, 1418, 270, 100], draw: true}
   - pos: bottom-left
     action: "Close on the dashboard: the key turned one click, and two small warning lamps lit, a battery shape and an oil-can shape, glowing in the dim cabin."
     cast: [{id: wreck, view: interior, camera: "close on the instrument cluster from the driver's eye line"}]
     captions:
-    - TWO RED LIGHTS CAME ON IN THE DASH. THE SAME TWO AS IN HERS.
+    - {text: "TWO RED LIGHTS CAME ON IN THE DASH. THE SAME TWO AS IN HERS.", box: [20, 1418, 278, 100], draw: true}
 
 # ------------------------------------------------------------------ the starter
 - page: 6
@@ -299,7 +303,7 @@ pages:
     action: "Close on the dusty engine, a blur of vibration lines, the fan pulley spinning fast."
     cast: [{id: wreck, view: engine, camera: "close on the front of the engine at fender height"}]
     captions:
-    - THIS ONE LIMPED ON SOME BEATS AND SKIPPED OTHERS, TOO QUICK AND TOO LIGHT. IT SPUN LIKE IT HAD ALMOST NOTHING TO PUSH.
+    - {text: "THIS ONE LIMPED ON SOME BEATS AND SKIPPED OTHERS, TOO QUICK AND TOO LIGHT. IT SPUN LIKE IT HAD ALMOST NOTHING TO PUSH.", box: [640, 966, 364, 150], draw: true}
   - pos: lower-left
     action: Kubo's raised hand closing into a fist.
     cast: [*kubo_own]
@@ -308,7 +312,7 @@ pages:
   - pos: bottom-right
     action: "Silent: the tops of the crushed-car stacks against the sky, one gull gliding over them."
     captions:
-    - THE QUIET CAME BACK. A GULL, SOMEWHERE OVER THE STACKS.
+    - {text: "THE QUIET CAME BACK. A GULL, SOMEWHERE OVER THE STACKS.", box: [726, 1406, 280, 114], draw: true}
   - pos: bottom-center
     action: "Kubo standing at the front of the car with his head DOWN and his hands hanging at his sides, eyes on nothing, listening; sound lettering from the starter behind him."
     cast: [*kubo_own]
@@ -319,7 +323,7 @@ pages:
     action: "Memory inset with a soft border, summer daylight under the concrete canopy of a small old gas station by the harbor: an old boxy sedan rolling in, squeal lines from its engine; Kubo in his grey station uniform sitting on a stool, NOT turning his head."
     cast: [kubo]
     captions:
-    - IN AUGUST AN OLD SEDAN HAD COME IN SQUEALING, AND HE'D SAID "BELT'S GOING" WITHOUT TURNING HIS HEAD.
+    - {text: "IN AUGUST AN OLD SEDAN HAD COME IN SQUEALING, AND HE'D SAID \"BELT'S GOING\" WITHOUT TURNING HIS HEAD.", box: [20, 1142, 372, 120], draw: true}
 
 # ------------------------------------------------------------------ the cam
 - page: 7
@@ -357,7 +361,7 @@ pages:
   - pos: lower-left
     action: "Extreme close-up in the flashlight beam, down the round filler hole: under a shine of old oil a curved steel shape like the top of an egg, with one drop of oil hanging off it."
     dialogue:
-    - {speaker: kubo, text: "THAT'S A CAM. WHEN THE ENGINE TURNS, THAT TURNS.", offpanel: true}
+    - {speaker: kubo, text: "THAT'S A CAM. WHEN THE ENGINE TURNS, THAT TURNS.", offpanel: true, box: [296, 790, 200, 244], draw: true, tail: [508, 1000]}
   - pos: bottom-right
     action: "Kubo getting down slowly onto a flattened cardboard box in the weeds, one knee and then the other, a long steel bar and a big socket in his hand."
     cast: [*kubo_own]
@@ -370,6 +374,8 @@ pages:
     - *dai_yard
     - {id: wreck, view: side, camera: "at ground level, side-on to the car's LEFT (passenger) side, only the front half of the car, its front pointing LEFT"}
     sfx: [KACHA, {text: GIIIII, note: a long creak}]
+    captions:
+    - HE SLID IN UNDER THE FRONT WITH A LONG BAR AND A BIG SOCKET.
 
 # ------------------------------------------------------------------ nothing moves; the cover comes off
 - page: 8
@@ -430,7 +436,7 @@ pages:
   - pos: upper-right
     action: "Close on the inside bottom edge of the removed plastic cover: a little line of black crumbs caught along it."
     captions:
-    - INSIDE THE COVER, CAUGHT ALONG ITS BOTTOM EDGE, THERE WERE BLACK CRUMBS.
+    - {text: "INSIDE THE COVER, CAUGHT ALONG ITS BOTTOM EDGE, THERE WERE BLACK CRUMBS.", box: [356, 366, 244, 154], draw: true}
   - pos: upper-left
     action: "Kubo holding one crumb up to the light between his finger and thumb: a tiny square rubber tooth."
     cast: [*kubo_own]
@@ -453,7 +459,7 @@ pages:
     action: Close on the ratchet tip pointing up at the two bare toothed pulleys.
     cast: [{<<: *kubo_own, note: "only his hand and the ratchet"}]
     dialogue:
-    - {speaker: kubo, text: "THE CAMS OPEN THE VALVES. THAT BELT HOLDS THE TWO TOGETHER.", offpanel: true}
+    - {speaker: kubo, text: "THE CAMS OPEN THE VALVES. THAT BELT HOLDS THE TWO TOGETHER.", offpanel: true, box: [18, 850, 252, 240], draw: true, tail: [40, 1102]}
   - pos: bottom-right
     action: Kubo's lined face, flat and certain.
     cast: [*kubo_own]
@@ -463,8 +469,8 @@ pages:
     action: Kubo turning the stripped piece of belt over to the light between finger and thumb, studying it.
     cast: [*kubo_own]
     dialogue:
-    - kubo: SOMETHING'S BEEN EATING THAT BELT. PROBABLY THE TENSIONER.
-    - kubo: WE'LL SEE WHEN IT'S APART.
+    - kubo: {text: "SOMETHING'S BEEN EATING THAT BELT.", box: [262, 1226, 246, 152], draw: true, tail: [330, 1400]}
+    - kubo: {text: "PROBABLY THE TENSIONER. WE'LL SEE WHEN IT'S APART.", box: [16, 1226, 250, 168], draw: true, tail: [200, 1410]}
 
 # ------------------------------------------------------------------ March; the valves
 - page: 10
@@ -547,7 +553,7 @@ pages:
     action: "Close on the bottom pulley turning under the bar, motion lines, the whole engine turning with it."
     sfx: [{text: SHUUU..., note: a soft sigh like a bicycle pump}]
     captions:
-    - THE WHOLE ENGINE TURNED ON THE END OF MY ARM, WITH A SOFT SIGH FROM SOMEWHERE INSIDE, LIKE A BICYCLE PUMP.
+    - {text: "THE WHOLE ENGINE TURNED ON THE END OF MY ARM, WITH A SOFT SIGH FROM SOMEWHERE INSIDE, LIKE A BICYCLE PUMP.", box: [18, 1084, 494, 106], draw: true}
   - pos: bottom-right
     action: "Dai's arms pulling the bar round again, the bar arcing; Kubo's boots in the light beyond."
     cast: [{<<: *dai_yard, note: "only his arms"}]
@@ -559,7 +565,7 @@ pages:
     action: "Looking up from under the bumper at Kubo standing above, against the sky, talking down to the boy."
     cast: [*kubo_own]
     dialogue:
-    - kubo: ANYTHING TOUCHING IN THERE, YOU'D FEEL IT.
+    - kubo: {text: "ANYTHING TOUCHING IN THERE, YOU'D FEEL IT.", box: [298, 1218, 212, 202], draw: true, tail: [290, 1316]}
     - kubo: IN YOUR HANDS. BEFORE YOU HEARD IT.
 
 # ------------------------------------------------------------------ it's a belt; Fumie with coffee
@@ -584,7 +590,7 @@ pages:
     cast: [*kubo_own]
     dialogue:
     - kubo: IT'S A BELT. NOTHING'S JAMMED, ANYWAY.
-    - kubo: THE REST, A GAUGE TELLS YOU, ONCE IT'S GOT A BELT ON.
+    - kubo: {text: "THE REST, A GAUGE TELLS YOU, ONCE IT'S GOT A BELT ON.", box: [460, 372, 228, 240], draw: true, tail: [676, 500]}
   - pos: middle-left
     action: "Fumie coming round the end of a stack of crushed white sedans through the weeds, a can of coffee in each hand, cigarette in her mouth."
     cast: [fumie]
@@ -681,12 +687,14 @@ pages:
     action: "Close on the red toolbox: the folded rag going into the top drawer and the drawer pushed shut."
     cast: [{<<: *kubo_own, note: "only his hand"}]
     sfx: [KASHAN]
+    captions:
+    - {text: "HE PUT THE RAG IN THE TOOLBOX AND SHUT THE DRAWER.", box: [700, 516, 304, 92], draw: true}
   - pos: middle-right
     action: Kubo counting it off on his fingers, matter-of-fact.
     cast: [*kubo_own]
     dialogue:
-    - kubo: BELT. TENSIONER AND THE IDLER. THE PUMP BEHIND IT, WHILE IT'S OPEN, OR YOU DO ALL THIS AGAIN IN A YEAR.
-    - kubo: THEN YOU LINE UP THE MARKS, TOP AND BOTTOM, AND TURN IT OVER TWICE BY HAND. IF THE MARKS COME BACK TO THE SAME PLACE, IT'S RIGHT.
+    - kubo: {text: "BELT. TENSIONER AND THE IDLER. THE PUMP BEHIND IT, WHILE IT'S OPEN.", box: [762, 630, 246, 236], draw: true, tail: [756, 744]}
+    - kubo: {text: "LINE UP THE MARKS, TURN IT TWICE BY HAND. IF THEY COME BACK TO THE SAME PLACE, IT'S RIGHT.", box: [392, 628, 262, 262], draw: true, tail: [620, 740]}
   - pos: middle-left
     action: Dai, listening hard.
     cast: [*dai_yard]
@@ -706,7 +714,7 @@ pages:
     action: "Close, low: one tire flat on its rusty steel rim in the weeds, and the next with cracks across its sidewall deep enough to stand a coin in; Kubo's boots beside them."
     cast: [{id: wreck, view: side, camera: "very low close on the two tires on the car's LEFT side, from the ground"}]
     dialogue:
-    - {speaker: kubo, text: "I'LL FIND OUT. YOU'LL PAY ME WHEN I'VE GOT THEM. IT'LL WANT TO ROLL. IT CAN'T STAND ON THOSE.", offpanel: true}
+    - {speaker: kubo, text: "I'LL FIND OUT. YOU'LL PAY ME WHEN I'VE GOT THEM. IT'LL WANT TO ROLL. IT CAN'T STAND ON THOSE.", offpanel: true, box: [728, 1150, 280, 250], draw: true, tail: [1012, 1330]}
   - pos: bottom-left
     location: tanabe-yard
     action: "Five o'clock, long shadows: Kubo riding out through the yard gate on the little green motorbike, the toolbox roped on behind, one hand lifted without turning."
@@ -730,11 +738,13 @@ pages:
     action: "Dusk in the little cluttered prefab site office of the scrapyard (steel desk, rotary phone, small sink): Dai wiping his hands on the gasoline rag beside the small cold-water sink, the broom leaning by the door."
     cast: [*dai_yard]
     captions:
-    - I SWEPT THE OFFICE. I SKIPPED THE YARD TAP AND WIPED MY HANDS ON THE GASOLINE RAG LIKE HE HAD, AND WENT HOME.
+    - {text: "I SWEPT THE OFFICE. I SKIPPED THE YARD TAP AND WIPED MY HANDS ON THE GASOLINE RAG LIKE HE HAD, AND WENT HOME.", box: [596, 20, 408, 128], draw: true}
   - pos: top-left
     action: "Mom at the gas ring with her back to the room, frying in a deep pan, steam and spatter."
     cast: [michiko:home]
     sfx: [JUWAAA]
+    captions:
+    - THE KITCHEN WAS ALL OIL AND NOISE.
   - pos: middle-right
     action: "The low table: Sota kneeling over a worksheet of fractions, pencil in his mouth; at the far end Aya with a hair magazine open, not looking up."
     cast: [*sota_home, aya:home]
@@ -863,14 +873,14 @@ pages:
     - akane
     - {id: roadster, view: interior, camera: "close on the open driver's window from outside, only the door edge and window frame"}
     dialogue:
-    - akane: YOUR BROTHER. STILL DOING HIS INHALER?
+    - akane: {text: "YOUR BROTHER. STILL DOING HIS INHALER?", box: [804, 1144, 204, 184], draw: true, tail: [796, 1290]}
     captions:
-    - ON THURSDAY NATSUME FILLED UP AT TEN PAST TWO.
+    - {text: "ON THURSDAY NATSUME FILLED UP AT TEN PAST TWO.", box: [614, 1424, 394, 96], draw: true}
   - pos: bottom-center
     action: Night under the gas-station canopy, Dai at the pump in the grey station jacket, the nozzle in his hand.
     cast: [dai_cut:station_jacket]
     dialogue:
-    - dai_cut: MORNING AND NIGHT.
+    - dai_cut: {text: "MORNING AND NIGHT.", box: [438, 1140, 170, 150], draw: true, tail: [430, 1226]}
   - pos: bottom-left
     action: "Night: close on Akane's gloved hand on the window ledge, two fingers lifting."
     cast: [{id: akane, note: "only her gloved hand"}]
@@ -892,9 +902,9 @@ pages:
     action: "Early morning in the cleared back lot of the scrapyard (packed shell ground, crushed-car stacks behind): low close at ground level on the front bumper of a small RED car stopping exactly level with an old tire lying flat on the shell ground."
     cast: [{id: roadster, view: front34, state: headlights_down, camera: "ground level, close on the front bumper and left front wheel only, from the side, the old tire in the foreground"}]
     dialogue:
-    - {speaker: akane, text: AGAIN., offpanel: true}
+    - {speaker: akane, text: AGAIN., offpanel: true, box: [872, 20, 134, 96], draw: true, tail: [1012, 150]}
     captions:
-    - "ON SUNDAY SHE MADE ME STOP WITH THE FRONT BUMPER LEVEL WITH AN OLD TIRE AND SAID \"AGAIN\" EIGHTEEN TIMES. I COUNTED. SHE DIDN'T."
+    - {text: "ON SUNDAY SHE MADE ME STOP WITH THE FRONT BUMPER LEVEL WITH AN OLD TIRE AND SAID \"AGAIN\" EIGHTEEN TIMES. I COUNTED. SHE DIDN'T.", box: [452, 18, 412, 148], draw: true}
   - pos: top-left
     action: "Dai kneeling in the weeds by the wreck's front wheel, leaning on a cross-shaped wheel brace to break the rusty nuts loose."
     cast: [*dai_yard]
@@ -926,7 +936,7 @@ pages:
     cast: [fumie]
     dialogue:
     - fumie: OKABE TIRE. BY THE CANAL. EVEN A THIEF HAS HIS THREE REASONS, THEY SAY.
-    - fumie: OKABE'S GOT FOUR. BUT HE'S THE CHEAPEST THIEF THERE IS.
+    - fumie: {text: "OKABE'S GOT FOUR. BUT HE'S THE CHEAPEST THIEF THERE IS.", box: [16, 1222, 246, 238], draw: true, tail: [196, 1446]}
 
 # ------------------------------------------------------------------ the truck to Okabe Tire
 - page: 19
@@ -947,7 +957,7 @@ pages:
     action: "Inside the truck cab: Dai in the LEFT passenger seat on an old towel, the floor at his feet all sand and crumpled receipts; the cab's door window beside him on the image LEFT."
     cast: [*dai_yard]
     captions:
-    - I GOT IN ON THE LEFT. THE SEAT HAD A TOWEL OVER IT, AND THE FLOOR WAS ALL SAND AND RECEIPTS.
+    - {text: "I GOT IN ON THE LEFT. THE SEAT HAD A TOWEL OVER IT, AND THE FLOOR WAS ALL SAND AND RECEIPTS.", box: [688, 426, 318, 138], draw: true}
   - pos: upper-left
     action: "Inside the cab, seen from the passenger seat: Fumie at the big flat steering wheel in the RIGHT seat, both hands on top of it, cigarette in, leaning forward over the wheel at a crossing; her door window on the image RIGHT."
     cast: [fumie]
@@ -961,12 +971,12 @@ pages:
   - pos: lower-right
     action: "Memory inset with a soft dark border, night, a harbor lot: a round-faced man in his forties with reading glasses pushed up in his hair, sitting in the open back of a white van, a grey cash box on his knees, lifting his pencil without looking up."
     captions:
-    - "AT PIER 3 SOMEBODY HAD CALLED ACROSS THE LOT, \"OKABE-SAN,\" AND HE'D LIFTED HIS PENCIL WITHOUT LOOKING UP."
+    - {text: "AT PIER 3 SOMEBODY HAD CALLED ACROSS THE LOT, \"OKABE-SAN,\" AND HE'D LIFTED HIS PENCIL WITHOUT LOOKING UP.", box: [634, 1020, 374, 134], draw: true}
   - pos: lower-left
     location: okabe-tire
     action: "The long tin shed open at the front by the canal, towers of used tires tied in fours outside, a welding shop on one side and a shuttered coffee shop with a FOR LEASE sign on the other."
     captions:
-    - OKABE TIRE WAS A LONG TIN SHED OPEN AT THE FRONT, BETWEEN A WELDING SHOP AND A COFFEE SHOP WITH ITS SHUTTER DOWN.
+    - {text: "OKABE TIRE WAS A LONG TIN SHED OPEN AT THE FRONT, BETWEEN A WELDING SHOP AND A COFFEE SHOP WITH ITS SHUTTER DOWN.", box: [18, 1022, 486, 100], draw: true}
   - pos: bottom-right
     location: okabe-tire
     action: "Inside the dark shed: a wheel spinning on the balancing machine, whining; a car up on the lift behind."
@@ -976,7 +986,7 @@ pages:
     action: "Parked to one side, nose out: an older white van, the shop name on its side painted over in a white that doesn't quite match, the words OKABE TIRE still readable through it."
     cast: [{id: okabe_van, camera: "front three-quarter of its LEFT side, close, eye level, the painted-over lettering on the side"}]
     captions:
-    - IN DAYLIGHT YOU COULD READ IT EASILY.
+    - {text: "IN DAYLIGHT YOU COULD READ IT EASILY.", box: [18, 1296, 266, 96], draw: true}
 
 # ------------------------------------------------------------------ the kid who watches money
 - page: 20
@@ -995,6 +1005,8 @@ pages:
     action: "Close on Fumie's thick brown hand pressing the horn in the middle of the steering wheel."
     cast: [{id: fumie, note: "only her hand"}]
     sfx: [PAAP! PAAP!]
+    captions:
+    - SHE PRESSED THE HORN TWICE.
   - pos: middle-right
     action: Okabe coming out of the dark shed wiping his hands on a rag, pleasant.
     cast: [okabe:overalls]
@@ -1043,7 +1055,7 @@ pages:
     action: Okabe, friendly, rag in hand.
     cast: [okabe:overalls]
     dialogue:
-    - okabe: I DIDN'T SEE YOU AGAIN. MOST OF THEM COME BACK THE NEXT SATURDAY.
+    - okabe: {text: "I DIDN'T SEE YOU AGAIN. MOST OF THEM COME BACK THE NEXT SATURDAY.", box: [298, 20, 238, 240], draw: true, tail: [290, 176]}
   - pos: middle-right
     action: Dai, guarded, hands in his jacket pockets.
     cast: [*dai_yard]
@@ -1069,7 +1081,7 @@ pages:
     action: Dai, flat.
     cast: [*dai_yard]
     dialogue:
-    - dai_cut: TANABE-SAN'S.
+    - dai_cut: {text: "TANABE-SAN'S.", box: [852, 1220, 156, 150], draw: true, tail: [858, 1330]}
   - pos: bottom-center
     action: "Through the truck's windshield: Fumie looking straight ahead with her cigarette, not looking at anybody."
     cast: [fumie]
@@ -1107,8 +1119,8 @@ pages:
     action: "Okabe crouching with a grunt, his thumb on the shoulder of the first tire beside a little triangle molded into the rubber at the edge of the tread."
     cast: [okabe:overalls]
     dialogue:
-    - okabe: SLIP SIGN. FIND THE TRIANGLE, AND IN THE GROOVE UNDER IT THERE'S A BAR ACROSS.
-    - okabe: WHEN THE TREAD'S DOWN LEVEL WITH THE BAR, THE TIRE'S FINISHED. ONE POINT SIX MILLIMETERS.
+    - okabe: {text: "SLIP SIGN. FIND THE TRIANGLE.", box: [340, 516, 182, 170], draw: true, tail: [338, 646]}
+    - okabe: {text: "UNDER IT, A BAR ACROSS THE GROOVE. TREAD DOWN TO THE BAR, THE TIRE'S FINISHED. ONE POINT SIX MILLIMETERS.", box: [16, 514, 270, 318], draw: true, tail: [256, 700]}
   - pos: lower-right
     action: "Extreme close-up: a small metal tread-depth gauge pushed into a tread groove, its little scale reading 4."
     cast: [{id: okabe, outfit: overalls, note: "only his fingers"}]
@@ -1143,12 +1155,12 @@ pages:
     action: "Dai standing, bent forward over an upright tire, pushing the gauge into the groove under the little triangle, concentrating."
     cast: [*dai_yard]
     captions:
-    - I FOUND THE TRIANGLES. FOUR MILLIMETERS. THREE AND A HALF. I FOUND THE OVALS.
+    - {text: "I FOUND THE TRIANGLES. FOUR MILLIMETERS. THREE AND A HALF. I FOUND THE OVALS.", box: [612, 20, 394, 112], draw: true}
   - pos: top-left
     action: Dai pointing at two of the tires in turn.
     cast: [*dai_yard]
     dialogue:
-    - dai_cut: THIS ONE'S THE SAME AS THE FIRST ONE. THIS ONE'S NINETY-TWO.
+    - dai_cut: {text: "THIS ONE'S THE SAME AS THE FIRST ONE. THIS ONE'S NINETY-TWO.", box: [310, 22, 292, 212], draw: true, tail: [312, 150]}
   - pos: middle-right
     action: Okabe, testing him.
     cast: [okabe:overalls]
@@ -1174,13 +1186,13 @@ pages:
     action: Dai, quick.
     cast: [*dai_yard]
     dialogue:
-    - dai_cut: I'LL TAKE THEM BACK.
+    - dai_cut: {text: "I'LL TAKE THEM BACK.", box: [848, 1168, 160, 162], draw: true, tail: [860, 1300]}
   - pos: bottom-center
     action: Okabe smiling.
     cast: [okabe:overalls]
     dialogue:
-    - okabe: TANABE-SAN'S GOT A PRESS, HASN'T SHE.
-    - okabe: CALL IT ELEVEN THOUSAND. THE HUNDRED AND TWENTY-FOUR'S FOR COMING BACK.
+    - okabe: {text: "TANABE-SAN'S GOT A PRESS, HASN'T SHE.", box: [518, 1166, 184, 184], draw: true, tail: [580, 1360]}
+    - okabe: {text: "CALL IT 11,000. THE 124'S FOR COMING BACK.", box: [386, 1164, 162, 230], draw: true, tail: [470, 1390]}
   - pos: bottom-left
     action: "Inside the shed: the tire machine breaking an old tire off its rim with a thump of air; Okabe levering a new one on with a bar, soap on the bead from a pot with a brush."
     cast: [okabe:overalls]
@@ -1257,12 +1269,14 @@ pages:
     - *dai_yard
     - {id: wreck, view: front34, camera: "low, from weed height, front three-quarter of the LEFT flank (white fender nearest), a little far, the whole car level, the half-up right headlight staring off toward the fence on the image RIGHT"}
     captions:
-    - IT STOOD LEVEL FOR THE FIRST TIME SINCE I'D KNOWN IT.
-    - THE BACK WAS STILL FOLDED. BUT IT STOOD ON ITS OWN FOUR FEET IN THE WEEDS.
+    - {text: "IT STOOD LEVEL FOR THE FIRST TIME SINCE I'D KNOWN IT.", box: [638, 452, 368, 100], draw: true}
+    - {text: "THE BACK WAS STILL FOLDED. BUT IT STOOD ON ITS OWN FOUR FEET IN THE WEEDS.", box: [160, 452, 478, 100], draw: true}
   - pos: lower-right
     action: "Close on Dai's hand pushing down on the white front fender; the car rocking on its springs, motion lines, coming back."
     cast: [{<<: *dai_yard, note: "only his hand and arm"}]
     sfx: [GISHI GISHI]
+    captions:
+    - {text: "WHEN I PUSHED ON THE FENDER, IT ROCKED ON ITS SPRINGS AND CAME BACK.", box: [560, 1040, 446, 104], draw: true}
   - pos: lower-left
     action: "The striped cat with half a tail walking round a new tire, smelling it."
     cast: [cat]
@@ -1291,7 +1305,7 @@ pages:
     action: "Dai at his desk with his cheek on his forearm, asleep, a line of ink running off the edge of his notebook page, the pen still in his fingers."
     cast: [*dai_gak]
     captions:
-    - ON MONDAY I'D BEEN AWAKE SINCE HALF PAST FOUR ON SUNDAY MORNING. IN MATH THERE WAS A LINE OF INK ACROSS MY NOTEBOOK.
+    - {text: "ON MONDAY I'D BEEN AWAKE SINCE HALF PAST FOUR ON SUNDAY MORNING. IN MATH THERE WAS A LINE OF INK ACROSS MY NOTEBOOK.", box: [538, 22, 468, 130], draw: true}
   - pos: top-left
     location: classroom
     action: "Sixth period: Dai sitting bolt upright with his eyes open and blank; Hotta-sensei standing beside his desk with the English textbook, saying nothing."
@@ -1308,18 +1322,20 @@ pages:
   - pos: middle, wide
     action: "The staff room: desk islands piled with papers and tea cups; at the far end a teacher asleep in his chair with a newspaper over his face; Hotta sitting at his desk, Dai standing in front of it."
     cast: [hotta:cardigan, *dai_gak]
+    dialogue:
+    - hotta: {text: "ONO-SENSEI SAYS YOU'VE SLEPT THROUGH EVERY MATH LESSON SINCE SEPTEMBER.", box: [16, 658, 420, 166], draw: true, tail: [280, 780]}
     captions:
     - THE STAFF ROOM SMELLED OF GREEN TEA AND CIGARETTES. THE OWL FAN STOOD IN A JAR OF PENS ON HIS DESK, CLOSED.
   - pos: lower-right
     action: Hotta seated, reading from a sheet of paper with names on it.
     cast: [hotta:cardigan]
     dialogue:
-    - hotta: ONO-SENSEI SAYS YOU'VE SLEPT THROUGH EVERY MATH LESSON SINCE SEPTEMBER. IWAI-SENSEI SAYS THE SAME FOR HISTORY.
+    - hotta: {text: "IWAI-SENSEI SAYS THE SAME FOR HISTORY.", box: [652, 910, 186, 200], draw: true, tail: [836, 1010]}
   - pos: lower-center
     action: Hotta with his hands folded on the desk.
     cast: [hotta:cardigan]
     dialogue:
-    - hotta: MIDTERMS START ON THE TWENTY-FOURTH. NO CREDITS, NO GRADUATION. NO GRADUATION, NO JOB.
+    - hotta: {text: "MIDTERMS ON THE 24TH. NO GRADUATION, NO JOB.", box: [434, 902, 206, 256], draw: true, tail: [444, 1040]}
   - pos: lower-left
     action: Dai standing, low.
     cast: [*dai_gak]
@@ -1329,18 +1345,18 @@ pages:
     action: "Hotta looking out of the window at the baseball team running on the sports ground."
     cast: [hotta:cardigan]
     dialogue:
-    - hotta: I WROTE, NEVER LATE. I WROTE, WORKS HARD. IF YOU DON'T GRADUATE, NEXT YEAR THEY TAKE THREE FROM US, NOT FIVE.
+    - hotta: {text: "I WROTE, NEVER LATE. I WROTE, WORKS HARD. IF YOU DON'T GRADUATE, NEXT YEAR THEY TAKE THREE FROM US, NOT FIVE.", box: [698, 1230, 310, 292], draw: true, tail: [700, 1420]}
     - hotta: NOT YOU. THE BOYS AFTER YOU.
   - pos: bottom-center
     action: Hotta turning back to Dai, quieter.
     cast: [hotta:cardigan]
     dialogue:
-    - hotta: I KNOW YOU WORK NIGHTS. YOUR MOTHER TOLD ME. I'D RATHER NOBODY HAD TO.
+    - hotta: {text: "I KNOW YOU WORK NIGHTS. I'D RATHER NOBODY HAD TO.", box: [374, 1232, 180, 262], draw: true, tail: [370, 1360]}
   - pos: bottom-left
     action: "Close on Dai's hands on the edge of the desk: dark in the creases of the knuckles, black round two nails."
     cast: [{<<: *dai_gak, note: "only his hands on the desk edge"}]
     dialogue:
-    - {speaker: hotta, text: "WASH BEFORE THE EXAMS. THEY'LL THINK YOU'VE STARTED AT THE PRESS ALREADY.", offpanel: true}
+    - {speaker: hotta, text: "WASH BEFORE THE EXAMS. THEY'LL THINK YOU'VE STARTED AT THE PRESS ALREADY.", offpanel: true, box: [18, 1230, 256, 236], draw: true, tail: [276, 1300]}
 
 # ------------------------------------------------------------------ Wednesday 18 Oct: payday, the letter
 - page: 27
@@ -1358,7 +1374,7 @@ pages:
     dialogue:
     - kubo: PARTS COME SATURDAY.
     captions:
-    - AT SIX ON WEDNESDAY MORNING KUBO-SAN PUT THE BROWN ENVELOPE ON THE COUNTER. EIGHT NIGHTS. 44,800.
+    - {text: "AT SIX ON WEDNESDAY MORNING KUBO-SAN PUT THE BROWN ENVELOPE ON THE COUNTER. EIGHT NIGHTS. 44,800.", box: [612, 392, 396, 128], draw: true}
   - pos: top-center
     action: In the station office booth at dawn, Dai in the grey station jacket, the envelope in his hand.
     cast: [dai_cut:station_jacket]
@@ -1411,7 +1427,7 @@ pages:
   - pos: top-left
     action: "Close on the unfolded letter in Dai's hands, the typed lines too small to read; a caption box laid over the middle of the page."
     captions:
-    - "NOTICE OF PROVISIONAL EMPLOYMENT. POSITION: PRODUCTION (SHIOMI PLANT). START: 1 APRIL 1996. THIS OFFER IS CONDITIONAL UPON YOUR GRADUATION."
+    - {text: "NOTICE OF PROVISIONAL EMPLOYMENT. POSITION: PRODUCTION (SHIOMI PLANT). START: 1 APRIL 1996. THIS OFFER IS CONDITIONAL UPON YOUR GRADUATION.", box: [44, 100, 506, 140], draw: true}
   - pos: middle-right
     action: "Dai turning the letter round on the table and pushing it back to his mother."
     cast: [*dai_gak]
