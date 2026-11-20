@@ -760,8 +760,8 @@ pages:
     action: Akane still looking straight ahead through the windshield.
     cast: [*aka]
     dialogue:
-    - akane: WHEN WE LEFT KUBO'S. OFF THE FORECOURT.
-    - akane: WHAT DID MY LEFT FOOT DO?
+    - akane: {text: "WHEN WE LEFT KUBO'S. OFF THE FORECOURT.", box: [372, 14, 248, 206], draw: true, tail: [320, 190]}
+    - akane: {text: "WHAT DID MY LEFT FOOT DO?", box: [197, 18, 169, 185]}
   - pos: middle-right
     action: Dai with his mouth half open, about to answer, and nothing coming.
     cast: [*dai_gl]
@@ -919,7 +919,7 @@ pages:
     action: "Close in the footwell: Dai's heel planted hard on the floor mat, only the front of his sneaker lifting on the clutch pedal."
     cast: [{<<: *dai_gl, note: "only his sneaker and ankle"}]
     captions:
-    - WHICH IS A DIFFERENT THING. I'D NEVER KNOWN IT WAS. IT FELT LIKE HOLDING A PENCIL WITH THE WRONG HAND.
+    - {text: "WHICH IS A DIFFERENT THING. I'D NEVER KNOWN IT WAS. IT FELT LIKE HOLDING A PENCIL WITH THE WRONG HAND.", box: [18, 16, 440, 114], draw: true}
   - pos: middle, wide
     action: "The whole cabin shivering: Dai and Akane in their seats with small fast shake lines round them, seen from in front through the windshield (Dai on the image LEFT, Akane on the image RIGHT); an inset of the tachometer needle sinking."
     cast:
@@ -928,7 +928,7 @@ pages:
     - {id: roadster, view: interior, camera: "from in front looking in through the windshield, slightly from above"}
     sfx: [BURURURU]
     captions:
-    - I HELD MY FOOT THERE. I THOUGHT I DID.
+    - {text: "I HELD MY FOOT THERE. I THOUGHT I DID.", box: [630, 800, 372, 70], draw: true}
   - pos: lower-right
     action: Dai looking down at his own foot, dismayed.
     cast: [*dai_gl]
@@ -943,12 +943,12 @@ pages:
     action: Akane, turning her head a little toward him for the first time.
     cast: [*aka]
     dialogue:
-    - akane: YOU STOPPED. THEN YOU KEPT GOING. IT TOLD YOU TO STOP.
+    - akane: {text: "YOU STOPPED. THEN YOU KEPT GOING. IT TOLD YOU TO STOP.", box: [796, 1294, 210, 232], draw: true, tail: [790, 1420]}
   - pos: bottom-center
     action: Dai, frustrated.
     cast: [*dai_gl]
     dialogue:
-    - dai_cut: IT DIDN'T SAY ANYTHING.
+    - dai_cut: {text: "IT DIDN'T SAY ANYTHING.", box: [478, 1294, 176, 186], draw: true, tail: [500, 1430]}
   - pos: bottom-left
     action: Akane, eyes back on the windshield.
     cast: [*aka]
@@ -976,7 +976,7 @@ pages:
     cast: [{<<: *dai_gl, note: "only his legs and sneakers"}]
     sfx: [DODODODO]
     captions:
-    - IT MOVED A HAND'S WIDTH, VERY HEAVILY, WITH A LONG LOW HAMMERING COMING UP THROUGH THE FLOOR, AND DIED.
+    - {text: "IT MOVED A HAND'S WIDTH, VERY HEAVILY, WITH A LONG LOW HAMMERING, AND DIED.", box: [236, 336, 392, 100], draw: true}
   - pos: upper-left
     action: Akane, without turning.
     cast: [*aka]
@@ -1028,6 +1028,8 @@ pages:
   - pos: top-left
     action: Ground-level close on the car's right front tire and silver 7-spoke wheel on the crushed shell, one white shell cracking under the tread. Only the wheel, the tire and the ground.
     sfx: [PAKI... PAKI]
+    captions:
+    - SOMETHING CRACKLED UNDER THE FRONT TIRES. ONCE, AND THEN AGAIN.
   - pos: middle, wide
     action: "From inside, looking past Dai's profile out of his RIGHT door window: a clump of foxtail grass by the door sliding slowly backwards past the glass; his eyes following it."
     cast:
@@ -1090,12 +1092,12 @@ pages:
     - {<<: *dai_gl, note: "seen from behind the two seats: Dai on the image RIGHT behind the steering wheel"}
     - {<<: *aka, note: "seen from behind, on the image LEFT in the passenger seat"}
     captions:
-    - I TOOK MY FOOT OFF THE GAS IN FRIGHT. THE CAR FELL ON ITS FACE AND DIED.
+    - {text: "I TOOK MY FOOT OFF THE GAS IN FRIGHT. THE CAR FELL ON ITS FACE AND DIED.", box: [550, 801, 259, 168], draw: true}
   - pos: lower-right
     action: Dai twisted round in his seat, looking back over his RIGHT shoulder out of the small rear window.
     cast: [*dai_gl]
     dialogue:
-    - {speaker: fumie, text: "MIND MY COROLLAS!", offpanel: true}
+    - {speaker: fumie, text: "MIND MY COROLLAS!", offpanel: true, box: [37, 810, 470, 75]}
   - pos: lower-left
     action: Fumie standing up on the forklift's step, her coffee can held out to one side, glaring across the lot.
     cast: [fumie:work, {id: forklift, note: "she stands up on its step"}]
@@ -1138,7 +1140,7 @@ pages:
     - {<<: *dai_gl, note: "only his eyes at the top edge of the panel"}
     - {id: roadster, view: interior, camera: "close on the handbrake lever from above"}
     captions:
-    - IT WAS UP. SHE'D PULLED IT ON WHILE I WAS TURNED ROUND LOOKING AT THE FORKLIFT, AND I HADN'T SEEN HER DO IT.
+    - {text: "IT WAS UP. SHE'D PULLED IT ON WHILE I WAS TURNED ROUND LOOKING AT THE FORKLIFT.", box: [18, 754, 472, 98], draw: true}
   - pos: lower-right
     action: Dai turning to her, half accusing.
     cast: [*dai_gl]
@@ -1155,18 +1157,18 @@ pages:
     - *dai_gl
     - {id: roadster, view: interior, camera: "from behind the seats over Dai's left shoulder"}
     captions:
-    - THE NEXT ONE MOVED. TWO METERS. I WAS SO PLEASED THAT I WENT FOR SECOND, THE WAY I'D DONE IT ON MY FUTON A THOUSAND TIMES.
+    - {text: "THE NEXT ONE MOVED. TWO METERS. I WAS SO PLEASED THAT I WENT FOR SECOND.", box: [598, 1420, 408, 102], draw: true}
   - pos: bottom-right
     action: Big slow shaking through everything, Dai's teeth clenched and rattling, his hands juddering on the wheel, heavy vibration lines.
     cast: [*dai_gl]
     sfx: [DOGOGOGO]
     dialogue:
-    - {speaker: fumie, text: "EIGHT.", offpanel: true, at: "small, at the panel edge"}
+    - {speaker: fumie, text: "EIGHT.", offpanel: true, box: [246, 1152, 112, 86], draw: true, tail: [262, 1150]}
   - pos: bottom-left
     action: Akane, quietly.
     cast: [*aka]
     dialogue:
-    - akane: IT SHOOK.
+    - akane: {text: "IT SHOOK.", box: [12, 1142, 134, 184], draw: true, tail: [140, 1260]}
 
 # ------------------------------------------------------------------ stalls nine and ten
 - page: 23
@@ -1222,8 +1224,8 @@ pages:
     action: Fumie standing on the ground by the forklift stretching her back with both hands on it.
     cast: [fumie:work]
     dialogue:
-    - fumie: I BET MYSELF A COFFEE. NOW I OWE MYSELF.
-    - fumie: DON'T LOOK AT ME. LOOK AT YOUR FEET.
+    - fumie: {text: "I BET MYSELF A COFFEE. NOW I OWE MYSELF.", box: [12, 1184, 186, 180], draw: true, tail: [190, 1260]}
+    - fumie: {text: "DON'T LOOK AT ME. LOOK AT YOUR FEET.", box: [12, 1368, 178, 164], draw: true, tail: [180, 1420]}
 
 # ------------------------------------------------------------------ stall eleven
 - page: 24
@@ -1247,7 +1249,7 @@ pages:
     action: The rear-view mirror with the low sun blazing white in it.
     cast: [{id: roadster, view: interior, camera: "close on the rear-view mirror from below"}]
     captions:
-    - THE SUN HAD COME UP OVER THE STACKS AND WAS IN THE MIRROR, AND I DIDN'T MOVE THE MIRROR.
+    - {text: "THE SUN HAD COME UP OVER THE STACKS AND WAS IN THE MIRROR, AND I DIDN'T MOVE THE MIRROR.", box: [576, 636, 430, 94], draw: true}
   - pos: middle-left
     action: Dai staring ahead, jaw tight, angry at himself.
     cast: [*dai_gl]
@@ -1267,6 +1269,8 @@ pages:
     - *dai_gl
     - {id: roadster, view: interior, camera: "from in front through the windshield, close: Dai on the image LEFT, Akane on the image RIGHT with her hand flat on the dash"}
     sfx: [BANG!]
+    captions:
+    - {text: "HER HAND WENT OUT FLAT AGAINST THE DASH.", box: [26, 1098, 348, 64], draw: true}
   - pos: bottom, wide
     action: The car rocking forward and back on its springs, then still, alone in the middle of the walled lot.
     cast:
@@ -1369,12 +1373,12 @@ pages:
     action: Close on Dai's back pressing into the seat back, his shoulder blade against the cloth, eyes still shut.
     cast: [{<<: *dai_gl, note: "his shoulder, the side of his face, the seat back"}]
     captions:
-    - NEAR THE TOP ITS NOTE DROPPED. THE SMALLEST STEP, LIKE SOMEONE IN THE NEXT ROOM HAD LEANED ON A TABLE. AND THE SEAT PRESSED INTO MY BACK, AS FAR AS A COIN IS THICK.
+    - {text: "NEAR THE TOP ITS NOTE DROPPED. THE SMALLEST STEP. AND THE SEAT PRESSED INTO MY BACK, AS FAR AS A COIN IS THICK.", box: [676, 1380, 330, 146], draw: true}
   - pos: bottom-center
     action: Dai, eyes still shut, barely moving his lips.
     cast: [*dai_gl]
     dialogue:
-    - dai_cut: THERE.
+    - dai_cut: {text: "THERE.", box: [352, 1366, 126, 120], draw: true, tail: [430, 1340]}
   - pos: bottom-left
     action: Akane, the corner of her eye on him.
     cast: [*aka]
@@ -1448,7 +1452,7 @@ pages:
     action: "Close: Dai's LEFT gloved hand pulling the gear lever straight back into second, all the way home."
     cast: [{<<: *dai_gl, note: "only his gloved left hand"}]
     dialogue:
-    - {speaker: akane, text: "SECOND.", offpanel: true}
+    - {speaker: akane, text: "SECOND.", offpanel: true, box: [856, 380, 150, 120], draw: true, tail: [1005, 470]}
     sfx: [{text: KACHI, note: small}]
     captions:
     - THE CAR GAVE ONE NOD, AND NOTHING HAMMERED.
@@ -1461,7 +1465,7 @@ pages:
   - pos: lower-right
     action: "Glimpse through a narrow gap between two stacks of crushed cars: beyond, over waist-high weeds, a hump of old grey vinyl soft top with a tear in it. Nothing else of that car shows."
     captions:
-    - THROUGH A GAP BETWEEN TWO STACKS, FOR A SECOND, A HUMP OF GREY VINYL OVER THE WEEDS, WITH A TEAR IN IT. MINE.
+    - {text: "THROUGH A GAP BETWEEN TWO STACKS, A HUMP OF GREY VINYL OVER THE WEEDS, WITH A TEAR IN IT. MINE.", box: [692, 856, 314, 140], draw: true}
   - pos: lower-left
     action: "The red car passing close in front of the forklift, motion lines; Dai visible at the wheel through his window; the old woman with the towel round her forehead standing beside the forklift with her cigarette, turning her head to watch it go by."
     cast:
@@ -1480,7 +1484,7 @@ pages:
     action: Dai's feet in the footwell, the clutch and the brake both pressed down, the car coming to a gentle stop.
     cast: [{<<: *dai_gl, note: "only his legs and sneakers"}]
     dialogue:
-    - {speaker: akane, text: "CLUTCH. BRAKE. NEUTRAL. HANDBRAKE.", offpanel: true}
+    - {speaker: akane, text: "CLUTCH. BRAKE. NEUTRAL. HANDBRAKE.", offpanel: true, box: [12, 1210, 214, 226], draw: true, tail: [20, 1420]}
 
 # ------------------------------------------------------------------ the rules
 - page: 29
@@ -1504,7 +1508,7 @@ pages:
     action: Akane looking out of the windshield, not at him.
     cast: [*aka]
     dialogue:
-    - akane: HERE. SUNDAYS. SIX O'CLOCK.
+    - akane: {text: "HERE. SUNDAYS. SIX O'CLOCK.", box: [818, 352, 190, 176], draw: true, tail: [830, 480]}
     - akane: UNTIL YOU HAVE A LICENSE, YOU DRIVE HERE, AND NOWHERE ELSE.
   - pos: upper-left
     action: Dai, straight-backed.
@@ -1515,12 +1519,12 @@ pages:
     action: Akane, the same flat voice.
     cast: [*aka]
     dialogue:
-    - akane: NOT THE HARBOR ROAD. NOT THE LANE. NOT ROUND THE BLOCK ONCE AT NIGHT WHEN NOBODY'S LOOKING.
+    - akane: {text: "NOT THE HARBOR ROAD. NOT THE LANE. NOT ROUND THE BLOCK ONCE AT NIGHT WHEN NOBODY'S LOOKING.", box: [734, 676, 276, 246], draw: true, tail: [760, 820]}
   - pos: middle-left
     action: Extreme close-up of Akane's eyes, something hard and old in them for a second.
     cast: [*aka]
     dialogue:
-    - akane: NEVER THE BYPASS.
+    - akane: {text: "NEVER THE BYPASS.", box: [316, 696, 150, 196], draw: true, tail: [330, 860]}
   - pos: lower-right
     action: Dai, quietly.
     cast: [*dai_gl]
@@ -1566,7 +1570,7 @@ pages:
     action: "Akane, now in the RIGHT (driver's) seat, pushing the seat back with her feet, then leaning all the way across to the passenger window to tip the left door mirror with the side of her gloved hand."
     cast: [*aka]
     captions:
-    - SHE PUT EVERYTHING BACK WHERE IT HAD BEEN. THE SEAT, ONE SHORT OF THE END. THE MIRRORS. I WATCHED HER DO ALL OF IT AND DIDN'T HELP.
+    - {text: "SHE PUT EVERYTHING BACK WHERE IT HAD BEEN. THE SEAT, ONE SHORT OF THE END. THE MIRRORS. I WATCHED HER DO ALL OF IT AND DIDN'T HELP.", box: [606, 388, 404, 150], draw: true}
   - pos: upper-middle left
     action: Dai at the open window, puzzled.
     cast: [*dai_sun]

@@ -33,3 +33,52 @@ pages:
   - {pos: lower-left, action: unchanged, keep: true}
   - {pos: bottom-right, action: unchanged, keep: true}
   - {pos: bottom-left, action: unchanged, keep: true}
+
+# Source p18: page-18.art.png with the wide second-row panel filled grey (PIL rectangle [16,372,1009,863], fill 150).
+- page: 18
+  location: tanabe-backlot
+  time: Sunday about 6:24 a.m., clear low morning sun
+  edit:
+    source: production/runs/ch11-fixes/src/page-18.png
+    change: "Redraw ONLY the flat grey wide SECOND-ROW panel. New content: the small red two-seat roadster (black soft top up, pop-up headlights closed) seen from IN FRONT, close, through its windshield, slightly from above, the whole car shivering with small fast shake lines round it. RIGHT-HAND DRIVE: the steering wheel is on the IMAGE LEFT side of the windshield, and the young man with short black hair and white cotton gloves sits behind it on the IMAGE LEFT, gripping the wheel; the young woman with long black hair in a low ponytail sits on the IMAGE RIGHT with NO steering wheel in front of her, calm. Behind the car the open lot and the corrugated fence. A small inset box in the upper right corner of the panel: a round tachometer with its needle sinking toward 1. The hand-drawn sound effect BURURURU large across the top left. One EMPTY rectangular caption box at the lower right, roomy for about 7 words."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, all people, the balloons, the caption boxes"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - pos: middle, wide
+    action: "The car from in front through the windshield, shivering: Dai behind the wheel on the IMAGE LEFT, Akane on the IMAGE RIGHT."
+    cast:
+    - {id: dai_cut, outfit: "grey zip-up jacket over a white gym T-shirt, thin WHITE cotton work gloves"}
+    - {id: akane, outfit: "dark bomber jacket ZIPPED UP TO THE CHIN, black fingerless leather driving gloves; long black hair tied back LOW in a ponytail"}
+    - {id: roadster, view: front34, state: headlights_down, camera: "close, straight in front of the car and slightly above the hood, looking in through the windshield; the steering wheel on the IMAGE LEFT"}
+    sfx: [BURURURU]
+    captions:
+    - I HELD MY FOOT THERE. I THOUGHT I DID.
+  - {pos: lower-right, action: unchanged, keep: true}
+  - {pos: lower-left, action: unchanged, keep: true}
+  - {pos: bottom-right, action: unchanged, keep: true}
+  - {pos: bottom-center, action: unchanged, keep: true}
+  - {pos: bottom-left, action: unchanged, keep: true}
+
+# Source p27: page-27.art.png with the big third-row panel filled grey (PIL rectangle [18,757,1006,1291], fill 150).
+- page: 27
+  location: tanabe-backlot
+  time: Sunday about 6:44 a.m., clear morning sun from behind the camera
+  edit:
+    source: production/runs/ch11-fixes/src/page-27.png
+    change: "Redraw ONLY the big flat grey THIRD-ROW panel. New content: a HIGH view from on top of a wall of crushed-flat cars, looking down the long open lot of crushed white shell with forklift stripes. The small red two-seat roadster (black soft top up, pop-up headlights closed) rolls smoothly TOWARD the camera, seen from above its front: hood and windshield visible. RIGHT-HAND DRIVE: through the windshield the young man with short black hair sits behind the steering wheel on the IMAGE LEFT, the young woman with long black hair on the IMAGE RIGHT, both tiny. Down the RIGHT side of the lot the long corrugated steel fence; down the LEFT side stacks of crushed vans and sedans; at the FAR end of the lot a row of stacked crushed white sedans with a small old yellow forklift parked at their corner by the fence and a tiny old woman standing next to it. Harbor cranes far off, morning sky. The hand-drawn sound effect JARI JARI JARI along the lower left. One EMPTY rectangular caption box at the upper left, roomy for about 35 words."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, all people, the balloons, the caption boxes, the sound effects"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - {pos: middle-right, action: unchanged, keep: true}
+  - {pos: middle-left, action: unchanged, keep: true}
+  - pos: lower, large
+    action: "High from on top of the far wall: the car rolling toward the camera down the lot, Dai behind the wheel on the IMAGE LEFT, Akane on the IMAGE RIGHT; the forklift small at the far end."
+    cast:
+    - {id: roadster, view: front34, state: headlights_down, camera: "HIGH from on top of a wall of crushed cars, looking down the lot at the car rolling toward the camera; steering wheel on the IMAGE LEFT"}
+    - {id: forklift, note: "small, at the far end by the fence, a tiny old woman standing beside it"}
+    sfx: [JARI JARI JARI]
+    captions:
+    - WE MOVED. NOT A JUMP, NOT A HOP. WE ROLLED FORWARD OFF THE SPOT WHERE WE'D BEEN FOR TWENTY MINUTES, AND THE ENGINE'S NOTE WENT WITH US INSTEAD OF DYING UNDER US.
+  - {pos: bottom, wide, action: unchanged, keep: true}

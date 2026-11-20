@@ -1,7 +1,7 @@
 # Chapter 11: "Eleven"
 
 **Split:** all of Volume 1 Chapter 7 ("Clutch"). Chapter 10 ended on Kubo's "She says bring gloves." (end of novel Chapter 6).
-**Status:** p1-16 drawn 2026-11-19; p17-30 wait for the image limit to reset (see `reviews/chapter-011.md`). 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-07.md`. **Spec:** `production/chapter-011.yaml` (this script is generated from it).
+**Status:** drawn 2026-11-19/20. 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-07.md`. **Spec:** `production/chapter-011.yaml` (this script is generated from it).
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel. Sota's list of cat names is a caption box laid over his pencil writing.
 **Pacing:** quiet and full, like Ch8-10. Friday's talk with Kubo; a Saturday of small household things (the gloves, the envelope, the inhaler, the names); then the first lesson in the back lot, built from small exact steps (seat, mirrors, hands, belt), eleven stalls that each look and feel different with Fumie's count as the beat, and the payoff on its own pages: eyes shut, the bite, the first clean roll and the lap in second. The ending stays as quiet and cut off as the novel's.
 
@@ -196,7 +196,7 @@
 
 ## Page 19: Four
 - P1 (top, wide): Close: Dai's LEFT gloved hand yanking the gear lever forward, not far enough across to the left, his eyes not on it; motion lines. CAPTION: "THE FOURTH TIME I WANTED IT SO MUCH I DIDN'T LOOK WHERE THE LEVER WAS."
-- P2 (upper-right): The driver's floor and pedals with heavy vibration lines coming up through the floor, Dai's feet on the pedals. CAPTION: "IT MOVED A HAND'S WIDTH, VERY HEAVILY, WITH A LONG LOW HAMMERING COMING UP THROUGH THE FLOOR, AND DIED." SFX: "DODODODO"
+- P2 (upper-right): The driver's floor and pedals with heavy vibration lines coming up through the floor, Dai's feet on the pedals. CAPTION: "IT MOVED A HAND'S WIDTH, VERY HEAVILY, WITH A LONG LOW HAMMERING, AND DIED." SFX: "DODODODO"
 - P3 (upper-left): Akane, without turning. NATSUME: "WHICH GEAR?"
 - P4 (middle-right): Close from above on the gear knob: the lever stands in the THIRD position (top-middle of the pattern). CAPTION: "IT WAS IN THIRD."
 - P5 (middle-left): Fumie on the forklift calling out across the lot, one hand cupped by her mouth, cigarette in the other. FUMIE: "FOUR."
@@ -206,7 +206,7 @@
 
 ## Page 20: Five
 - P1 (top-right): Close on Dai's left leg straining, the heel on the floor and the front of the foot holding the clutch pedal very still; sweat on his jaw. CAPTION: "THE CAR HEAVED, AND THIS TIME I MADE MY FOOT STOP AND STAY STOPPED. THEN A HAIR MORE, AND A HAIR MORE."
-- P2 (top-left): Ground-level close on the car's right front tire and silver 7-spoke wheel on the crushed shell, one white shell cracking under the tread. Only the wheel, the tire and the ground. SFX: "PAKI... PAKI"
+- P2 (top-left): Ground-level close on the car's right front tire and silver 7-spoke wheel on the crushed shell, one white shell cracking under the tread. Only the wheel, the tire and the ground. CAPTION: "SOMETHING CRACKLED UNDER THE FRONT TIRES. ONCE, AND THEN AGAIN." SFX: "PAKI... PAKI"
 - P3 (middle, wide): From inside, looking past Dai's profile out of his RIGHT door window: a clump of foxtail grass by the door sliding slowly backwards past the glass; his eyes following it. CAPTION: "A CLUMP OF FOXTAIL BY MY DOOR WENT SLOWLY BACKWARDS PAST THE WINDOW, AND I UNDERSTOOD THAT WE WERE MOVING."
 - P4 (lower-right): The view through the windshield over the dashboard and the steering wheel rim: the wall of crushed sedans ahead, getting closer. CAPTION: "THE CROWNS WERE IN FRONT OF US, AND NOBODY HAD TOLD ME WHAT CAME NEXT."
 - P5 (lower-left): Close: Dai's right sneaker stamping down on the middle (brake) pedal; the whole cabin jolting with impact lines. FUMIE (off): "FIVE." SFX: "GAKON!"
@@ -226,10 +226,10 @@
 - P1 (top-right): Dai pressed back in his seat, straining, as the car squats on its back wheels without moving; a wavy line of hot smell. CAPTION: "UP TO TWO. THE CAR SQUATTED DOWN ON ITS BACK WHEELS AND PULLED AGAINST THEM, AND A HOT SMELL CAME UP FROM SOMEWHERE, AND IT STALLED."
 - P2 (top-left): Ground-level close on a rear tire squashed down on the shell, a faint wisp of heat. Only the wheel, the tire, the rear fender edge and the ground. FUMIE (off): "SEVEN." SFX: "GUGUGU"
 - P3 (middle-right): Akane, eyes ahead. NATSUME: "HANDBRAKE."
-- P4 (middle-left): Close on the handbrake lever between the seats: it is pulled UP. Dai's eyes looking down at it. CAPTION: "IT WAS UP. SHE'D PULLED IT ON WHILE I WAS TURNED ROUND LOOKING AT THE FORKLIFT, AND I HADN'T SEEN HER DO IT."
+- P4 (middle-left): Close on the handbrake lever between the seats: it is pulled UP. Dai's eyes looking down at it. CAPTION: "IT WAS UP. SHE'D PULLED IT ON WHILE I WAS TURNED ROUND LOOKING AT THE FORKLIFT."
 - P5 (lower-right): Dai turning to her, half accusing. DAI: "YOU PUT IT ON."
 - P6 (lower-left): Akane, not turning. NATSUME: "YES."
-- P7 (bottom, wide): Dai, pleased with himself, his left hand pulling the gear lever straight back into second, clutch pedal down. CAPTION: "THE NEXT ONE MOVED. TWO METERS. I WAS SO PLEASED THAT I WENT FOR SECOND, THE WAY I'D DONE IT ON MY FUTON A THOUSAND TIMES."
+- P7 (bottom, wide): Dai, pleased with himself, his left hand pulling the gear lever straight back into second, clutch pedal down. CAPTION: "THE NEXT ONE MOVED. TWO METERS. I WAS SO PLEASED THAT I WENT FOR SECOND."
 - P8 (bottom-right): Big slow shaking through everything, Dai's teeth clenched and rattling, his hands juddering on the wheel, heavy vibration lines. FUMIE (off): "EIGHT." SFX: "DOGOGOGO"
 - P9 (bottom-left): Akane, quietly. NATSUME: "IT SHOOK."
 
@@ -249,7 +249,7 @@
 - P3 (middle-right): The rear-view mirror with the low sun blazing white in it. CAPTION: "THE SUN HAD COME UP OVER THE STACKS AND WAS IN THE MIRROR, AND I DIDN'T MOVE THE MIRROR."
 - P4 (middle-left): Dai staring ahead, jaw tight, angry at himself. NATSUME (off): "CLUTCH IN. NEUTRAL. START IT." CAPTION: "I DIDN'T KNOW WHAT A CLUTCH COST. I KNEW IT WASN'T MINE."
 - P5 (lower-right): Close in the footwell, speed lines: the left foot snapping up off the clutch while the right foot stamps the gas. CAPTION: "TO MAKE IT GO. TO MAKE IT JUST GO."
-- P6 (lower-left, large): The car bucking violently: Akane's gloved hand shoots out flat against the dashboard to brace; Dai thrown against the belt. SFX: "BANG!"
+- P6 (lower-left, large): The car bucking violently: Akane's gloved hand shoots out flat against the dashboard to brace; Dai thrown against the belt. CAPTION: "HER HAND WENT OUT FLAT AGAINST THE DASH." SFX: "BANG!"
 - P7 (bottom, wide): The car rocking forward and back on its springs, then still, alone in the middle of the walled lot. CAPTION: "WE ROCKED FORWARD AND BACK ON THE SPRINGS, TWICE, AND WERE STILL."
 
 ## Page 25: Nobody says anything about eleven
@@ -268,7 +268,7 @@
 - P3 (middle-right): Akane, quieter still, a three-quarter close-up. NATSUME: "CLUTCH UP. SLOWLY. DON'T MOVE." NATSUME: "TELL ME WHEN IT BITES."
 - P4 (middle-left): Close in the footwell: the heel on the floor mat, the front of the sneaker rising on the clutch pedal, very slowly. CAPTION: "MY HEEL ON THE FLOOR. THE FRONT OF MY FOOT. UP. UP."
 - P5 (lower, wide): Dai in big close-up with his eyes shut, listening with his whole face; around him, very faint and soft, the drawn shapes of sound waves. CAPTION: "I'D LISTENED TO ENGINES EVERY NIGHT SINCE AUGUST. WITH MY EYES SHUT THERE WAS NO STACK COMING AND NO NUMBERS, ONLY THE ENGINE."
-- P6 (bottom-right): Close on Dai's back pressing into the seat back, his shoulder blade against the cloth, eyes still shut. CAPTION: "NEAR THE TOP ITS NOTE DROPPED. THE SMALLEST STEP, LIKE SOMEONE IN THE NEXT ROOM HAD LEANED ON A TABLE. AND THE SEAT PRESSED INTO MY BACK, AS FAR AS A COIN IS THICK."
+- P6 (bottom-right): Close on Dai's back pressing into the seat back, his shoulder blade against the cloth, eyes still shut. CAPTION: "NEAR THE TOP ITS NOTE DROPPED. THE SMALLEST STEP. AND THE SEAT PRESSED INTO MY BACK, AS FAR AS A COIN IS THICK."
 - P7 (bottom-center): Dai, eyes still shut, barely moving his lips. DAI: "THERE."
 - P8 (bottom-left): Akane, the corner of her eye on him. NATSUME: "HOLD IT." NATSUME: "OPEN YOUR EYES."
 
@@ -285,7 +285,7 @@
 - P2 (top-left): Close on the speedometer, the needle on 20. NATSUME (off): "MORE GAS. NOT MUCH."
 - P3 (middle-right): Close: Dai's LEFT gloved hand pulling the gear lever straight back into second, all the way home. NATSUME (off): "SECOND." CAPTION: "THE CAR GAVE ONE NOD, AND NOTHING HAMMERED." SFX: "KACHI"
 - P4 (middle, large): Wide: the little red car far away, crossing in front of the long wall of crushed sedans at the far end of the lot in second gear, a thin trail of dust; the whole walled lot and the sky. CAPTION: "WE WENT ROUND THE BACK LOT IN SECOND GEAR."
-- P5 (lower-right): Glimpse through a narrow gap between two stacks of crushed cars: beyond, over waist-high weeds, a hump of old grey vinyl soft top with a tear in it. Nothing else of that car shows. CAPTION: "THROUGH A GAP BETWEEN TWO STACKS, FOR A SECOND, A HUMP OF GREY VINYL OVER THE WEEDS, WITH A TEAR IN IT. MINE."
+- P5 (lower-right): Glimpse through a narrow gap between two stacks of crushed cars: beyond, over waist-high weeds, a hump of old grey vinyl soft top with a tear in it. Nothing else of that car shows. CAPTION: "THROUGH A GAP BETWEEN TWO STACKS, A HUMP OF GREY VINYL OVER THE WEEDS, WITH A TEAR IN IT. MINE."
 - P6 (lower-left): The red car passing close in front of the forklift, motion lines; Dai visible at the wheel through his window; the old woman with the towel round her forehead standing beside the forklift with her cigarette, turning her head to watch it go by. CAPTION: "UNDER US THE SHELL WENT ON CRUNCHING, ALL THE WAY ROUND, AND IT WAS THE BEST SOUND I HAD EVER HEARD."
 - P7 (bottom-right): Akane glancing sideways at him, the corner of her mouth almost moving. NATSUME: "BREATHE." CAPTION: "I HADN'T BEEN. I BREATHED."
 - P8 (bottom-left): Dai's feet in the footwell, the clutch and the brake both pressed down, the car coming to a gentle stop. NATSUME (off): "CLUTCH. BRAKE. NEUTRAL. HANDBRAKE."
