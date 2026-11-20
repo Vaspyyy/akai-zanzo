@@ -36,7 +36,7 @@ All eight are PROVISIONAL until you approve or replace them.
 
 ## 2. Novel to manga mapping
 
-One novel chapter becomes one manga chapter of 25-30 pages by default. Chapters with a race or two big set pieces split into two. The manga may cut interior monologue and turn quiet passages into silent panels, but never adds plot that contradicts the novel.
+One novel chapter becomes one manga chapter of about 40 pages (38-45, at about 5-6 panels a page; see STORY_BIBLE §8 "Page density") by default. Chapters with a race or two big set pieces split into two. The manga may cut interior monologue and turn quiet passages into silent panels, but never adds plot that contradicts the novel.
 
 | Novel | Manga |
 | --- | --- |

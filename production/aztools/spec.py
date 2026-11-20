@@ -307,9 +307,21 @@ def prev_path(p: Path) -> Path:
     return p.with_name(p.stem + ".prev.png")
 
 
+# Owner, 2026-11-21: ch11-12 at ~8 panels a page felt too dense; ch4 (4.7) and ch8 (6.8) felt right.
+# Keep the chapter's panel count, spread it over more pages (about 40), and leave room for big panels.
+MAX_PANELS_PER_PAGE = 7
+AVG_PANELS_PER_PAGE = 6.0
+
+
 def lint(spec: Spec, reg: Registry) -> list[str]:
     """Return ERROR/WARN strings for a spec."""
     out = []
+    story = [p for p in spec.pages if p.kind == "page" and p.panels and not p.edit]
+    if len(story) >= 10:
+        avg = sum(len(p.panels) for p in story) / len(story)
+        if avg > AVG_PANELS_PER_PAGE:
+            out.append(f"WARN {spec.path.name}: {avg:.1f} panels per page on average (owner wants about 5-6); "
+                       f"add pages instead of packing them")
     seen = set()
     for pg in spec.pages:
         w = f"{spec.path.name} {pg.label}"
@@ -322,6 +334,9 @@ def lint(spec: Spec, reg: Registry) -> list[str]:
             out.append(f"ERROR {w}: unknown location '{pg.location}'")
         if pg.kind == "page" and not pg.panels:
             out.append(f"ERROR {w}: no panels")
+        if pg.kind == "page" and len(pg.panels) > MAX_PANELS_PER_PAGE and not pg.edit:
+            out.append(f"WARN {w}: {len(pg.panels)} panels on one page (owner wants at most {MAX_PANELS_PER_PAGE}, about 5-6 on average); "
+                       f"split it over more pages")
         if pg.kind == "plate" and not pg.location:
             out.append(f"ERROR {w}: plate needs a location")
         for r in pg.refs:

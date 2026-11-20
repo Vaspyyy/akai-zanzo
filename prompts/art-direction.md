@@ -7,6 +7,7 @@
 ## Pages
 
 - **Portrait page, 2:3 aspect** (e.g. 1024x1536), white page margins and white gutters between panels, panel borders in black ink.
+- **Page density (owner, 2026-11-21):** about 5-6 panels per page on average, never more than 7 (`az lint` warns). Keep the chapter's full content by adding pages (about 40 per chapter), not by packing them. Every scene gets at least one wide or silent breathing panel, and big moments get a half or full page.
 - **Reading order is right-to-left** (Japanese manga): the first panel is top-right, then moves left, then down. Prompts describe each panel by position.
 - **English lettering:** dialogue in white oval speech balloons with tails pointing to the speaker, black uppercase comic lettering (clean manga scanlation style). Inner thoughts / narration in rectangular caption boxes. Sound effects as big hand-drawn English letters integrated into the art. All text exactly as written in the script; no extra text, no Japanese characters, no watermark, no page numbers.
 - A double-page spread is one landscape image (3:2).
