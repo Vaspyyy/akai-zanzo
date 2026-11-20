@@ -67,3 +67,6 @@ Every page was reviewed on its own, then in pairs on overview sheets (`productio
 - p23 bottom: Okabe's two balloons graze his eyes.
 - p29: Sota lies on the tatami holding his inhaler instead of a comic.
 - Unscripted SFX: none of note.
+
+## Page 30 stand-in (2026-11-20, 21:15)
+The owner asked for page 30 right away instead of waiting for the Codex reset, and accepted a different look. It was drawn by Gemini through T3's Antigravity provider from the same az prompt and refs. Gemini laid the panels out left to right, so the art was mirrored (the two small sound effects were pasted back unmirrored), resized to 1024x1536 and lettered with `az letter` (7/7 captions placed; the P8 caption is 18 px, below the 20 px rule, and the grown P1 caption covers most of Dai). A scheduled run on Sat 21 Nov at 17:50 redraws p30 with GPT to match the chapter.
