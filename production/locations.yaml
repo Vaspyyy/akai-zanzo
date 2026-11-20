@@ -544,3 +544,35 @@ hardware-shop:
   guards:
     - "Price cards show only the numbers the panel gives; no other readable words."
   default_time: Saturday early afternoon, daylight
+okabe-tire:
+  name: Okabe Tire, a used-tire shop by the canal
+  description: >-
+    A long low corrugated-tin shed, open along its whole front, on a road
+    beside a straight concrete canal in the old town: between a small welding
+    shop (sparks, gas bottles) on one side and a small coffee shop with its
+    steel shutter down and a FOR LEASE sign in its window on the other.
+    Outside, towers of used tires tied in fours with rope, chalk marks on
+    them. Inside it is dark: a two-post car lift, a tire-changing machine,
+    a wheel-balancing machine, an air hose on a reel, a pot of tire soap with
+    a brush, a wall of tires racked by size, an old desk with a carbon
+    receipt pad. Oil-stained concrete floor.
+  plate: artwork/locations/okabe-tire.png
+  guards:
+    - "Tires have plain sidewalls: NO brand names or logos on any tire."
+    - "The only readable words: FOR LEASE on the shuttered coffee shop, and OKABE TIRE showing through the paint on the van when the van is in a panel."
+  default_time: Sunday late morning, overcast daylight
+staff-room:
+  name: the teachers' staff room at Shiomi Higashi High School
+  description: >-
+    A long, crowded 1990s Japanese school staff room: grey steel teachers'
+    desks pushed together in islands of six, piled with papers, textbooks,
+    tea cups and ashtrays; old wooden chairs and swivel chairs; a big
+    blackboard schedule on the wall, a kettle and a stack of tea cups by the
+    sink, metal cabinets, fluorescent tubes; tall windows along one side over
+    the dusty sports ground with a baseball backstop. Smells of green tea
+    and cigarettes.
+  plate: artwork/locations/staff-room.png
+  guards:
+    - "No readable writing on the papers or the blackboard."
+  default_time: weekday afternoon, about 3:30 p.m.
+

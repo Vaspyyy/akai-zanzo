@@ -1,0 +1,58 @@
+# Vehicle reference sheets for chapter 12. Run: production/az run -c chapter-012-cars
+title: Chapter 12 vehicle reference sheets
+output_dir: artwork/car-sheets
+defaults:
+  kind: car_sheet
+pages:
+  - id: blue-roadster-wreck-engine
+    refs:
+      - {path: artwork/car-sheets/blue-roadster-wreck-front34.png, use: "the same wrecked car from outside: its matte primer hood, white left fender and faded grey paint; this sheet shows its ENGINE BAY with the hood up"}
+    description: >-
+      Technical reference sheet of the ENGINE BAY of one wrecked 1989
+      Japanese-market Mazda Eunos Roadster (NA, 1.6-litre twin-cam
+      four-cylinder, right-hand drive), black-and-white ink manga. TWO large
+      views side by side on white. LEFT VIEW, "as found": looking down into
+      the bay from the front-left corner with the matte primer-grey hood
+      propped open on its thin rod: a long, low inline four-cylinder engine
+      set far back, a ribbed black cam cover across its top with a round
+      screw-on oil filler cap on it and the dipstick loop beside, the air
+      intake pipe, the radiator at the front; at the FRONT of the engine,
+      just behind the radiator, a tall black PLASTIC timing-belt cover held
+      by a row of small bolts; a thick red-capped battery cable running
+      forward along the inner wing (the battery is in the trunk). Everything
+      under grey DUST, a drift of dry brown leaves in the corner by the
+      windshield, brown cat hair on every surface. RIGHT VIEW, "opened":
+      close on the front of the same engine with the upper plastic cover
+      REMOVED: two toothed cam pulleys side by side, each the size of a
+      saucer, with NOTHING round them; below them a broken black toothed
+      rubber belt hanging in a loose loop down into the dark behind the
+      lower covers, one hand-long stretch of it stripped flat with no teeth
+      and frayed threads at the edges, snapped through next to the flat
+      part; the crank pulley at the bottom with a big bolt in its center.
+      No people, no hands, no tools, no text or labels.
+  - id: supercub
+    description: >-
+      Technical reference sheet for one old step-through motorbike of the
+      Honda Super Cub 50 type, 1980s, Japan, as an old man rides it to work:
+      GREEN body (drawn in mid-grey tone), cream-white plastic leg shield,
+      round headlight on the handlebars, long flat black seat, small spoked
+      17-inch wheels, a chrome-and-black muffler, a steel rear rack. Roped
+      onto the rack with old knotted rope: a battered RED steel cantilever
+      toolbox (dark grey tone) with a carry handle on top whose paint is worn
+      off to bare grey metal in the shape of fingers. Three views on white:
+      LEFT side view, front three-quarter, rear three-quarter. Also a small
+      detail view of the worn toolbox handle. No people, no logos, no text.
+  - id: flatbed
+    description: >-
+      Technical reference sheet for one old Japanese two-ton cab-over
+      FLATBED truck of the early 1980s, right-hand drive, owned by a
+      scrapyard: a flat-fronted boxy cab with a big flat windshield, round
+      headlights in the grille panel, faded WHITE paint with rust round the
+      wheel arches and dents, a low steel flatbed with fold-down drop sides,
+      dual rear wheels, plain steel wheels. On BOTH doors the single word
+      TANABE in faded pink letters (drawn in a pale grey tone). Views on
+      white: TOP LEFT front three-quarter from the front-LEFT; TOP RIGHT
+      straight front view; BOTTOM LEFT flat side view of the RIGHT (driver's)
+      side with the FRONT pointing RIGHT; BOTTOM RIGHT rear three-quarter
+      from behind-left showing the empty flatbed. No people, no other
+      writing, no logos, no cargo.

@@ -1,0 +1,1522 @@
+chapter: 12
+title: Timing Belt
+lettering: empty
+
+# Reusable cast entries (YAML anchors). Free-text outfits use the character's default sheet.
+x-cast:
+  dai_yard: &dai_yard {id: dai_cut, outfit: "grey zip-up jacket half zipped over an old faded white gym T-shirt, worn jeans, beat-up white canvas sneakers; BARE hands with black grime in the knuckle creases"}
+  dai_tee: &dai_tee {id: dai_cut, outfit: "old faded white gym T-shirt (no jacket), worn jeans, white socks indoors"}
+  dai_night: &dai_night {id: dai_cut, outfit: "faded plain black T-shirt and loose grey sweatpants, barefoot"}
+  dai_gak: &dai_gak {id: dai_cut, outfit: "black gakuran winter school uniform (stand collar open, worn carelessly), black trousers"}
+  kubo_own: &kubo_own {id: kubo, outfit: own}
+  sota_home: &sota_home {id: sota, outfit: "a long-sleeved striped T-shirt and shorts, socks, round glasses"}
+  sota_pj: &sota_pj {id: sota, outfit: "long-sleeved striped cotton pajamas, round glasses"}
+  aya_coat: &aya_coat {id: aya, outfit: "a plain light coat over her plain work blouse and dark trousers, a shoulder bag"}
+  wreck_note: &wreck_note "The blue wreck's marks: faded grey paint chalky on top, WHITE left front fender, matte primer hood, RIGHT pop-up headlight stuck half up, crushed rear with the trunk lid peaked, soft top torn above the LEFT (passenger) seat. Right-hand drive."
+
+defaults:
+  orientation: portrait
+  time: October 1995
+  notes:
+  - Right-to-left panel order. One speaker per panel. All cars are Japanese models sold by October 1995, right-hand drive.
+  - No brand logos, no stickers, no readable signs or printed words anywhere unless a panel asks for them. No Japanese characters. No banknotes unless a panel asks for them.
+  - Vary shot sizes and poses; no two panels on the page may look alike.
+
+pages:
+
+# ------------------------------------------------------------------ Sunday 8 Oct, 3:10 p.m.: Kubo at the gate
+- page: 1
+  title: Older than me
+  location: tanabe-yard
+  time: Sunday 3:10 p.m. in October, clear afternoon, the sun already lower in the west
+  guards:
+  - "Kubo (late 50s, grey cap) in his own clothes: an old faded light work jacket over a buttoned grey shirt, NOT the station uniform."
+  - "Dai: SHORT black hair (forehead uncovered), grey zip-up jacket over a white gym T-shirt, jeans."
+  panels:
+  - pos: top, wide
+    action: "The open gate of the scrapyard (corrugated fence, the grey prefab office to the left): Kubo riding in slowly on a small old green step-through motorbike with a battered red steel toolbox roped onto the rear rack behind him."
+    cast:
+    - *kubo_own
+    captions:
+    - KUBO-SAN CAME THROUGH TANABE-SAN'S GATE AT TEN PAST THREE ON SUNDAY AFTERNOON, ON A GREEN SUPER CUB.
+  - pos: upper-right
+    action: "Close on the battered red steel toolbox roped to the rack: the carry handle's paint worn away to bare grey metal in the shape of fingers."
+    cast: [{id: supercub, camera: "extreme close-up of the toolbox handle on the rear rack from above"}]
+    captions:
+    - THE TOOLBOX WAS OLDER THAN ME. YOU COULD TELL FROM THE HANDLE.
+  - pos: upper-left
+    action: Dai standing by the big boxy car crusher with a broom in both hands, stopped mid-sweep, looking toward the gate.
+    cast: [*dai_yard]
+    captions:
+    - I WAS SWEEPING ROUND THE PRESS. I STOPPED.
+  - pos: middle-right
+    location: harbor-station-night
+    action: "Memory inset with a soft dark border, night: inside the lit station office booth, Kubo seated behind the counter with an open newspaper; through the window behind him a big white fish truck going past in the dark."
+    cast: [kubo]
+    dialogue:
+    - kubo: WHAT DID IT DO?
+    captions:
+    - I'D TOLD HIM ON THURSDAY NIGHT, AT ABOUT FOUR, BETWEEN TWO FISH TRUCKS. NOT ALL OF IT.
+  - pos: middle-left
+    location: harbor-station-night
+    action: "Memory inset, night: Dai in the grey station jacket standing in the office doorway, hands in his pockets, telling it flatly."
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: DIED AT A RED LIGHT. IN MARCH. THE MAN SAT THERE TURNING THE KEY, AND A FISH TRUCK WENT INTO THE BACK OF HIM.
+  - pos: lower-right
+    location: harbor-station-night
+    action: "Memory inset, night: close on Kubo's old hands turning a page of the newspaper, his face hidden behind it."
+    cast: [{id: kubo, note: "only his hands and the newspaper"}]
+    captions:
+    - HE'D TURNED A PAGE OF HIS NEWSPAPER AND SAID NOTHING ELSE ALL NIGHT.
+  - pos: lower-left
+    action: "Daylight again: close on Dai's dirty hands dropping rusty bolts into a row of old coffee tins on a pallet."
+    cast: [{<<: *dai_yard, note: "only his hands"}]
+    captions:
+    - THAT MORNING I'D STALLED FOUR TIMES INSTEAD OF ELEVEN. THEN I'D SWEPT, AND SORTED BOLTS, AND SWEPT AGAIN.
+  - pos: bottom, wide
+    action: "Kubo putting the green motorbike up on its stand beside the grey prefab office and getting off it slowly, one hand on the seat, his bad knee stiff."
+    cast:
+    - {id: supercub, camera: "side view of the bike's LEFT side at eye level, middle distance, its front pointing LEFT, parked by the office stair"}
+    - *kubo_own
+    captions:
+    - I HADN'T EXPECTED ANYTHING ELSE FROM THE DAY.
+
+# ------------------------------------------------------------------ Fumie on the step
+- page: 2
+  title: Still alive
+  location: tanabe-yard
+  time: Sunday about 3:15 p.m., clear afternoon sun from the west
+  guards:
+  - "Fumie (over sixty): short grey hair, white towel round her forehead, cigarette in the corner of her mouth, LEFT eye half shut, navy jacket with rolled sleeves. She stands on the office step."
+  - "Kubo (late 50s, grey cap) in his own clothes, NOT the station uniform."
+  panels:
+  - pos: top-right
+    action: Fumie standing on the step of the grey prefab office with her cigarette, arms folded, squinting at Kubo.
+    cast: [fumie]
+    dialogue:
+    - fumie: KUBO.
+    - fumie: STILL ALIVE.
+  - pos: top-left
+    action: Kubo standing by his parked motorbike, touching the peak of his cap, deadpan.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: TANABE-SAN.
+  - pos: middle-right
+    action: Fumie talking round the cigarette, not moving from her step.
+    cast: [fumie]
+    dialogue:
+    - fumie: IF YOU'VE COME TO BUY, I'M SHUT.
+    - fumie: IF YOU'VE COME FOR THE BOY, HE'S WORKING.
+  - pos: middle-left
+    action: Kubo, unhurried, untying the rope that holds the red toolbox on the rack.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: TILL FIVE.
+  - pos: lower, wide
+    action: "Fumie on the step, eyes going from the red toolbox to Dai standing a little way off with his broom; through the open office door behind her a small transistor radio on the windowsill."
+    cast: [fumie, *dai_yard]
+    captions:
+    - SHE LOOKED AT THE TOOLBOX, AND AT ME WITH THE BROOM, FOR LONG ENOUGH THAT THE RADIO INSIDE FINISHED ONE ENKA AND STARTED ANOTHER.
+  - pos: bottom-right
+    action: Fumie turning to go back inside, jerking her chin toward the back of the yard.
+    cast: [fumie]
+    dialogue:
+    - fumie: BEHIND THE COROLLAS.
+    - fumie: HE SWEEPS THE OFFICE AFTER.
+  - pos: bottom-left
+    location: tanabe-weeds
+    action: "Kubo carrying the red steel toolbox himself, low in one hand, limping on a stiff knee through waist-high yellow weeds past a stack of crushed white sedans; Dai a step behind him with empty hands."
+    cast: [*kubo_own, *dai_yard]
+    captions:
+    - HE CARRIED IT HIMSELF, WITH HIS BAD KNEE GOING STIFF ON EVERY STEP. HE DIDN'T LET ME TAKE IT.
+
+# ------------------------------------------------------------------ the walk round, the cat, the hood
+- page: 3
+  title: Nothing's dripped
+  location: tanabe-weeds
+  time: Sunday about 3:20 p.m., clear afternoon sun from the west
+  notes: [*wreck_note]
+  panels:
+  - pos: top, wide
+    action: "BIRD'S-EYE view from high on top of the crushed-car stack: the wreck sitting in its patch of dead weeds, and small Kubo walking round it, looking only at its tires; the trunk lid standing up in its peak, the white left fender, the torn roof."
+    cast:
+    - *kubo_own
+    - {id: wreck, view: rear, camera: "almost straight down from high above, far, the whole car small in the weeds, its nose toward the TOP of the panel"}
+    captions:
+    - HE WALKED ROUND THE CAR ONCE, PAST THE WHITE FENDER AND THE FOLDED-UP BACK, AND LOOKED ONLY AT THE TIRES.
+  - pos: upper-right
+    action: "Kubo crouched at the front of the car with one hand on the bumper, peering at the ground under the engine: the weeds there dead and dry, no dark patch."
+    cast:
+    - *kubo_own
+    - {id: wreck, view: front34, camera: "low, ground level, just the front bumper and the shadow under the engine, from the front-RIGHT corner"}
+    dialogue:
+    - kubo: NOTHING'S DRIPPED.
+  - pos: upper-left
+    action: "Looking down through the big tear in the grey soft top: the scruffy striped cat with half a tail lying on the passenger seat in a patch of sun, staring straight up at us."
+    cast: [cat]
+  - pos: middle-right
+    action: Close on Kubo's lined face staring back at the cat, expressionless.
+    cast: [*kubo_own]
+  - pos: middle-left
+    action: Dai beside the driver's door, a little embarrassed.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: IT CAME WITH THE CAR.
+  - pos: lower-right
+    action: "Close inside the old moldy footwell: Dai's hand reaching under the dashboard by his knee and pulling the hood-release lever."
+    cast: [{<<: *dai_yard, note: "only his hand and sleeve"}]
+    sfx: [KAKON]
+  - pos: lower-left
+    action: "Close on the front edge of the primer-grey hood, popped up a finger's width; Kubo's old fingers slipping under it and finding the catch without looking."
+    cast: [{<<: *kubo_own, note: "only his hand"}]
+  - pos: bottom, wide
+    action: "Kubo lifting the primer-grey hood up and setting the thin prop rod; Dai at the white left fender looking in beside him."
+    cast:
+    - *kubo_own
+    - *dai_yard
+    - {id: wreck, view: front34, camera: "eye level, straight on from just in front of the nose, close: only the raised hood and the two men behind it, the half-up right headlight on the image LEFT"}
+    captions:
+    - HE LIFTED THE HOOD AND SET THE ROD, AND WE BOTH LOOKED IN.
+
+# ------------------------------------------------------------------ dust, the dipstick, the battery
+- page: 4
+  title: Black, not white
+  location: tanabe-weeds
+  time: Sunday about 3:25 p.m., clear afternoon sun
+  notes: [*wreck_note]
+  panels:
+  - pos: top, large
+    action: "BIG: looking down into the dusty engine bay over the left fender: grey dust over everything, a drift of dry leaves in the corner by the windshield, brown cat hair on every surface, the long low engine with its ribbed cam cover across the top."
+    cast: [{id: wreck, view: engine, camera: "from above the left fender looking down and forward into the bay"}]
+    captions:
+    - DUST. DRY LEAVES, AND CAT HAIR ON EVERYTHING, AND UNDER ALL THAT THE ENGINE, LONG AND LOW.
+    - I'D NEVER OPENED IT. I HADN'T WANTED TO LOOK AT SOMETHING I DIDN'T KNOW HOW TO READ.
+  - pos: middle-right
+    action: Kubo drawing out the long dipstick and wiping it between his thumb and finger.
+    cast: [*kubo_own]
+  - pos: middle-left
+    action: "Close on Kubo's fingertips rubbing a smear of black oil, held under his nose; he smells it."
+    cast: [{<<: *kubo_own, note: "only his fingers and the lower half of his face"}]
+    dialogue:
+    - kubo: BLACK. NOT WHITE. NO WATER IN IT.
+  - pos: lower-right
+    action: Kubo sliding the dipstick back in, glancing round the bay.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: BATTERY.
+  - pos: lower-left
+    action: Dai pointing back at the crushed trunk with his thumb.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: IN THE TRUNK. THE TRUNK DOESN'T OPEN.
+  - pos: bottom-right
+    location: tanabe-yard
+    action: "Kubo walking back from the office through the weeds carrying a car battery against his stomach in both arms; a white chalk tick on its top."
+    cast: [*kubo_own]
+    captions:
+    - A BATTERY FROM THE SHELF BY THE OFFICE DOOR, THE ONES TANABE-SAN TAKES OUT OF WRECKS AND CHARGES.
+  - pos: bottom-left
+    action: "Low close by the front left wheel: the battery set down on a flattened piece of cardboard in the weeds; Kubo's hands lifting a pair of jump leads out of the toolbox drawer, wound up neat and tied with string."
+    cast: [{<<: *kubo_own, note: "only his hands"}]
+
+# ------------------------------------------------------------------ the leads, get in
+- page: 5
+  title: Turn it when I say
+  location: tanabe-weeds
+  time: Sunday about 3:30 p.m., clear afternoon sun
+  notes: [*wreck_note]
+  panels:
+  - pos: top-right
+    action: "Close in the engine bay: Kubo's index finger tracing a thick battery cable forward along the inner wing to a bolt under a red rubber cap."
+    cast:
+    - {<<: *kubo_own, note: "only his hand"}
+    - {id: wreck, view: engine, camera: "close on the inner wing and the cable from the side"}
+  - pos: top-left
+    action: Close on the red clamp's teeth biting onto the bare bolt, the rubber cap folded back.
+    cast: [{<<: *kubo_own, note: "only his fingers"}]
+    sfx: [KACHI]
+  - pos: middle-right
+    action: "Close on the black clamp scratching once across a bare metal bracket on the side of the engine, then clamping on."
+    cast: [{<<: *kubo_own, note: "only his hand"}]
+    sfx: [GARI]
+  - pos: middle-left
+    action: Kubo straightening up beside the raised hood, wiping his fingers on his trousers.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: THE OLD ONE'LL DRINK SOME OF IT. DOESN'T MATTER.
+  - pos: lower, wide
+    action: Kubo looking straight at Dai across the raised hood, giving orders.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: GET IN. CLUTCH TO THE FLOOR. NEUTRAL.
+    - kubo: TURN IT WHEN I SAY. STOP WHEN I SAY.
+  - pos: bottom-right
+    action: "Inside the car, seen from behind the seats: Dai dropping into the RIGHT (driver's) seat behind the wheel on the image RIGHT; on the image LEFT the cat standing up off the passenger seat, stretching, and climbing out through the tear in the roof above it without hurrying."
+    cast:
+    - *dai_yard
+    - cat
+    - {id: wreck, view: interior, camera: "from behind and above the two seats, looking forward at the raised hood through the windshield"}
+    captions:
+    - THE CAT STOOD UP, AND STRETCHED, AND WENT OUT THROUGH THE TEAR IN THE TOP WITHOUT HURRYING.
+  - pos: bottom-center
+    action: "Close in the footwell and console: Dai's sneaker pushing the clutch pedal to the floor; his LEFT hand on the gear lever, which wobbles loose."
+    cast: [{<<: *dai_yard, note: "only his left hand on the lever and his sneaker on the clutch"}]
+    captions:
+    - THE LEVER WOBBLED LOOSE IN THE MIDDLE.
+  - pos: bottom-left
+    action: "Close on the dashboard: the key turned one click, and two small warning lamps lit, a battery shape and an oil-can shape, glowing in the dim cabin."
+    cast: [{id: wreck, view: interior, camera: "close on the instrument cluster from the driver's eye line"}]
+    captions:
+    - TWO RED LIGHTS CAME ON IN THE DASH. THE SAME TWO AS IN HERS.
+
+# ------------------------------------------------------------------ the starter
+- page: 6
+  title: Half of it isn't pushing back
+  location: tanabe-weeds
+  time: Sunday about 3:35 p.m., clear afternoon sun
+  notes: [*wreck_note]
+  panels:
+  - pos: top-right
+    action: Dai in the driver's seat, very still, looking down at the two lit lamps; the raised hood fills the windshield in front of him.
+    cast:
+    - *dai_yard
+    - {id: wreck, view: interior, camera: "from the passenger seat across to Dai"}
+    captions:
+    - I SAT THERE AND LOOKED AT THEM.
+  - pos: top-left
+    action: Kubo at the front of the car beside the raised hood, one hand lifted.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: NOW.
+  - pos: middle, wide
+    action: "Close on Dai's hand twisting the key hard; jagged sound effect lettering across the panel, the engine bay shuddering lightly through the gap under the raised hood."
+    cast: [{<<: *dai_yard, note: "only his hand and wrist on the key"}]
+    sfx: [RRR-RRRR-RR-RRRR]
+    captions:
+    - AT THE STATION I'D HEARD A HUNDRED CARS START. EVERY STARTER HAS A LIMP IN IT. UH, UH, UH, UH. STEADY, EVERY TIME A PISTON HAS TO COME UP AND SQUEEZE.
+  - pos: lower-right
+    action: "Close on the dusty engine, a blur of vibration lines, the fan pulley spinning fast."
+    cast: [{id: wreck, view: engine, camera: "close on the front of the engine at fender height"}]
+    captions:
+    - THIS ONE LIMPED ON SOME BEATS AND SKIPPED OTHERS, TOO QUICK AND TOO LIGHT. IT SPUN LIKE IT HAD ALMOST NOTHING TO PUSH.
+  - pos: lower-left
+    action: Kubo's raised hand closing into a fist.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: STOP.
+  - pos: bottom-right
+    action: "Silent: the tops of the crushed-car stacks against the sky, one gull gliding over them."
+    captions:
+    - THE QUIET CAME BACK. A GULL, SOMEWHERE OVER THE STACKS.
+  - pos: bottom-center
+    action: "Kubo standing at the front of the car with his head DOWN and his hands hanging at his sides, eyes on nothing, listening; sound lettering from the starter behind him."
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: AGAIN.
+    sfx: [{text: RRR-RR-RRRR, note: small}]
+  - pos: bottom-left
+    action: "Memory inset with a soft border, summer daylight under the concrete canopy of a small old gas station by the harbor: an old boxy sedan rolling in, squeal lines from its engine; Kubo in his grey station uniform sitting on a stool, NOT turning his head."
+    cast: [kubo]
+    captions:
+    - IN AUGUST AN OLD SEDAN HAD COME IN SQUEALING, AND HE'D SAID "BELT'S GOING" WITHOUT TURNING HIS HEAD.
+
+# ------------------------------------------------------------------ the cam
+- page: 7
+  title: That's a cam
+  location: tanabe-weeds
+  time: Sunday about 3:40 p.m., clear afternoon sun
+  notes: [*wreck_note]
+  panels:
+  - pos: top-right
+    action: Kubo half turned toward the driver's window, waiting.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: STOP. WHAT DO YOU HEAR?
+  - pos: top-left
+    action: Dai in the driver's seat, frowning, thinking hard, one hand still on the key.
+    cast: [*dai_yard]
+    captions:
+    - I THOUGHT ABOUT IT.
+  - pos: middle-right
+    action: Dai leaning out of the open driver's door, sure of it.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: IT'S TOO FAST.
+    - dai_cut: HALF OF IT ISN'T PUSHING BACK.
+  - pos: middle-left
+    action: "Kubo unscrewing the round oil filler cap from the top of the cam cover; the cap set upside down on the fender. A small nod."
+    cast: [*kubo_own]
+    captions:
+    - HE NODDED.
+  - pos: lower-right
+    action: Kubo holding out a heavy black flashlight to Dai, pointing at the filler hole with his chin.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: SHINE IT DOWN THERE. TELL ME WHEN THAT MOVES.
+  - pos: lower-left
+    action: "Extreme close-up in the flashlight beam, down the round filler hole: under a shine of old oil a curved steel shape like the top of an egg, with one drop of oil hanging off it."
+    dialogue:
+    - {speaker: kubo, text: "THAT'S A CAM. WHEN THE ENGINE TURNS, THAT TURNS.", offpanel: true}
+  - pos: bottom-right
+    action: "Kubo getting down slowly onto a flattened cardboard box in the weeds, one knee and then the other, a long steel bar and a big socket in his hand."
+    cast: [*kubo_own]
+    captions:
+    - HE GOT DOWN THEN. SLOWLY, ONE KNEE AND THEN THE OTHER.
+  - pos: bottom-left
+    action: "Low side view: Kubo on his back, sliding in under the front of the car, only his legs and boots sticking out; Dai standing at the white left fender, bent over the engine with the flashlight."
+    cast:
+    - *kubo_own
+    - *dai_yard
+    - {id: wreck, view: side, camera: "at ground level, side-on to the car's LEFT (passenger) side, only the front half of the car, its front pointing LEFT"}
+    sfx: [KACHA, {text: GIIIII, note: a long creak}]
+
+# ------------------------------------------------------------------ nothing moves; the cover comes off
+- page: 8
+  title: Once round
+  location: tanabe-weeds
+  time: Sunday about 3:45 p.m., clear afternoon sun
+  notes: [*wreck_note]
+  panels:
+  - pos: top-right
+    action: Dai bent over the filler hole with the flashlight, eyes fixed on it.
+    cast: [*dai_yard]
+    dialogue:
+    - {speaker: kubo, text: "WELL?", offpanel: true}
+  - pos: top-left
+    action: "Extreme close-up of the same curved steel cam in the beam: it hasn't moved; the drop of oil still hanging, not fallen."
+    dialogue:
+    - {speaker: dai_cut, text: NOTHING., offpanel: true}
+  - pos: middle-right
+    action: Kubo's boots sticking out from under the front bumper, the toes pushing as he heaves on the bar.
+    cast: [{<<: *kubo_own, note: "only his legs and boots"}]
+    sfx: [GIII, GIII]
+    dialogue:
+    - {speaker: kubo, text: "THAT'S ONCE ROUND. DOWN HERE.", offpanel: true}
+  - pos: middle-left
+    action: Kubo standing again with one hand flat on the fender, waiting for his knee to let him go, face tight.
+    cast: [*kubo_own]
+    captions:
+    - HE CAME OUT, WHICH TOOK LONGER THAN GOING IN.
+  - pos: lower-right
+    action: "Close on the open top drawer of the red toolbox: a rail of sockets in order; Kubo's hand coming out with the right one without looking."
+    cast: [{<<: *kubo_own, note: "only his hand"}]
+  - pos: lower-left
+    action: "Close on the fender: small bolts laid out in a neat row in the order they came out, Kubo's thumb wiping the last one before he sets it down."
+    cast: [{<<: *kubo_own, note: "only his hand"}]
+    captions:
+    - HE WIPED EACH ONE WITH HIS THUMB BEFORE HE PUT IT DOWN.
+  - pos: bottom, large
+    action: "Close on the front of the engine with the black plastic upper cover lifted away: two toothed pulleys side by side, each as big as a saucer, with NOTHING round them."
+    cast:
+    - {<<: *kubo_own, note: "only his hands lifting the cover away at the edge of the panel"}
+    - {id: wreck, view: engine, camera: "straight at the front of the engine, close, slightly from above"}
+    captions:
+    - THE COVER CAME OFF. BEHIND IT WERE TWO PULLEYS WITH TEETH ROUND THE EDGE, EACH AS BIG AS A SAUCER.
+
+# ------------------------------------------------------------------ the belt, the tooth
+- page: 9
+  title: There
+  location: tanabe-weeds
+  time: Sunday about 3:50 p.m., clear afternoon sun
+  guards:
+  - "Dai's LEFT palm shows a thin pink healed line across the heel of the hand under the thumb; no bandage."
+  panels:
+  - pos: top, wide
+    action: "Close: the broken black toothed belt lying in a loose loop down past the bare pulleys into the dark behind the lower covers; one hand-long stretch stripped flat, no teeth, threads fraying out of its edges, snapped right through next to it."
+    cast: [{id: wreck, view: engine, camera: "close, looking down past the pulleys into the gap behind the lower covers"}]
+    captions:
+    - ROUND THEM SHOULD HAVE GONE A BELT. THERE WAS NOTHING ROUND THEM.
+  - pos: upper-right
+    action: "Close on the inside bottom edge of the removed plastic cover: a little line of black crumbs caught along it."
+    captions:
+    - INSIDE THE COVER, CAUGHT ALONG ITS BOTTOM EDGE, THERE WERE BLACK CRUMBS.
+  - pos: upper-left
+    action: "Kubo holding one crumb up to the light between his finger and thumb: a tiny square rubber tooth."
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: THERE.
+  - pos: middle, wide
+    action: "Close on Dai's open LEFT palm with its thin pink healed line; Kubo's old fingers dropping the tiny square rubber tooth into it."
+    cast:
+    - {<<: *dai_yard, note: "only his open left hand"}
+    - {<<: *kubo_own, note: "only his fingers"}
+    captions:
+    - A RUBBER TOOTH, SMALLER THAN MY LITTLE FINGERNAIL. IT WEIGHED NOTHING.
+  - pos: lower-right
+    action: Kubo pointing down with the ratchet toward the bottom pulley where his bar had been.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: THE BOTTOM OF THE ENGINE TURNS THE TOP.
+    - kubo: CRANK DOWN THERE. CAMS UP HERE.
+  - pos: lower-left
+    action: Close on the ratchet tip pointing up at the two bare toothed pulleys.
+    cast: [{<<: *kubo_own, note: "only his hand and the ratchet"}]
+    dialogue:
+    - {speaker: kubo, text: "THE CAMS OPEN THE VALVES. THAT BELT HOLDS THE TWO TOGETHER.", offpanel: true}
+  - pos: bottom-right
+    action: Kubo's lined face, flat and certain.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: BELT GOES, THE BOTTOM KEEPS TURNING. THE TOP STOPS.
+  - pos: bottom-left
+    action: Kubo turning the stripped piece of belt over to the light between finger and thumb, studying it.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: SOMETHING'S BEEN EATING THAT BELT. PROBABLY THE TENSIONER.
+    - kubo: WE'LL SEE WHEN IT'S APART.
+
+# ------------------------------------------------------------------ March; the valves
+- page: 10
+  title: The one-six has room
+  location: tanabe-weeds
+  time: Sunday about 3:55 p.m., clear afternoon sun
+  panels:
+  - pos: top-right
+    action: Dai looking down at the tiny rubber tooth in his left palm, very still.
+    cast: [*dai_yard]
+    captions:
+    - I LOOKED AT THE TOOTH IN MY HAND.
+  - pos: top-left
+    action: "Memory inset with a soft grey border, a dull March day: from the passenger seat of a small car, a young man's hand turning the ignition key again and again; through the windshield a red traffic light by the fish market; the hazard-light switch blinking on the dash."
+    cast: [{id: owner_boy, note: "only his hand on the key and his sleeve"}]
+    captions:
+    - IN MARCH A MAN HAD SAT AT THE RED LIGHT BY THE FISH MARKET WITH HIS HAZARDS GOING, TURNING THE KEY.
+  - pos: middle-right
+    action: "Memory inset, soft border: the small car's yellowed rear window filling up with the huge flat front of a white truck, much too close."
+    cast: [{id: fish_truck, camera: "seen through a car's rear window from inside, only its flat cab front and grille"}]
+    captions:
+    - THE STARTER HAD SPUN JUST LIKE THIS. THEN THE FISH TRUCK.
+  - pos: middle-left
+    action: "Memory inset, soft border, summer, an old wooden-desk classroom: Nobu at a school desk at lunch with a bento, talking happily with his chopsticks in the air."
+    cast: [nobu]
+    captions:
+    - NOBU HAD TOLD ME ONCE, AT LUNCH, ABOUT AN ENGINE HE COULDN'T AFFORD ANYWAY. IF THE BELT WENT, THE PISTONS HIT THE VALVES, AND YOU MIGHT AS WELL BUY A NEW CAR.
+  - pos: lower-right
+    action: Dai looking up from the tooth at Kubo.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: DID IT BREAK THE VALVES?
+    - dai_cut: WHEN THE MAN KEPT TURNING IT.
+  - pos: lower-left
+    action: Kubo setting the ratchet down on the flattened cardboard.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: SOME ENGINES, IT WOULD.
+    - kubo: NOT THIS ONE. THE ONE-SIX HAS ROOM.
+  - pos: bottom-right
+    action: Kubo, explaining with one hand flat, rising and stopping short.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: THE VALVES HANG OPEN, THE PISTONS COME UP, AND THEY COME UP SHORT.
+  - pos: bottom-left
+    action: Dai, intent.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: HOW SHORT?
+
+# ------------------------------------------------------------------ under the car: heavy, easy, heavy
+- page: 11
+  title: Heavy, easy, heavy
+  location: tanabe-weeds
+  time: Sunday about 4 p.m., afternoon sun getting lower
+  panels:
+  - pos: top-right
+    action: Kubo nodding down at the flattened box by the front wheel.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: SHORT ENOUGH.
+    - kubo: GET UNDER THERE. THE BAR'S STILL ON.
+  - pos: top-left
+    action: "Dai lying on his back on the flattened cardboard box, sliding in head first under the front of the car, the tooth closed in one fist."
+    cast: [*dai_yard]
+  - pos: middle, wide
+    action: "UNDER THE CAR, from Dai's eye line: dark, the oily underside of the engine above; a long steel bar coming down from a bolt in the middle of the bottom pulley to Dai's hands; beyond, in the bright gap, Kubo's work boots by the front wheel and his hand resting on his knee."
+    cast:
+    - {<<: *dai_yard, note: "only his hands on the bar"}
+    - {<<: *kubo_own, note: "only his boots and one hand on his knee, outside in the light"}
+    captions:
+    - UNDER THE CAR IT SMELLED OF OLD OIL AND DUST AND CAT.
+    dialogue:
+    - {speaker: kubo, text: "PULL IT. TOWARD YOU. SLOWLY.", offpanel: true}
+  - pos: lower-right
+    action: "Close on Dai's face under the car, straining, teeth set."
+    cast: [*dai_yard]
+    sfx: [GII...]
+  - pos: lower-left
+    action: "Close on the bottom pulley turning under the bar, motion lines, the whole engine turning with it."
+    sfx: [{text: SHUUU..., note: a soft sigh like a bicycle pump}]
+    captions:
+    - THE WHOLE ENGINE TURNED ON THE END OF MY ARM, WITH A SOFT SIGH FROM SOMEWHERE INSIDE, LIKE A BICYCLE PUMP.
+  - pos: bottom-right
+    action: "Dai's arms pulling the bar round again, the bar arcing; Kubo's boots in the light beyond."
+    cast: [{<<: *dai_yard, note: "only his arms"}]
+    dialogue:
+    - {speaker: kubo, text: KEEP GOING., offpanel: true}
+    captions:
+    - ROUND, AND ROUND AGAIN. HEAVY, EASY, HEAVY.
+  - pos: bottom-left
+    action: "Looking up from under the bumper at Kubo standing above, against the sky, talking down to the boy."
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: ANYTHING TOUCHING IN THERE, YOU'D FEEL IT.
+    - kubo: IN YOUR HANDS. BEFORE YOU HEARD IT.
+
+# ------------------------------------------------------------------ it's a belt; Fumie with coffee
+- page: 12
+  title: They still bring me cars with a belt
+  location: tanabe-weeds
+  time: Sunday about 4:10 p.m., afternoon sun getting lower
+  notes: [*wreck_note]
+  panels:
+  - pos: top-right
+    action: "Under the car: Dai lying still with both hands on his chest, the tiny rubber tooth between two fingers of one."
+    cast: [*dai_yard]
+    captions:
+    - THERE WAS NOTHING. ONLY THE SIGH, AND THE CREAK OF THE BAR.
+  - pos: top-left
+    action: Close on Dai's face under the engine, quiet.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: SO IT'S A BELT.
+  - pos: middle-right
+    action: Kubo leaning on the fender, looking down toward the boy's sneakers.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: IT'S A BELT. NOTHING'S JAMMED, ANYWAY.
+    - kubo: THE REST, A GAUGE TELLS YOU, ONCE IT'S GOT A BELT ON.
+  - pos: middle-left
+    action: "Fumie coming round the end of a stack of crushed white sedans through the weeds, a can of coffee in each hand, cigarette in her mouth."
+    cast: [fumie]
+  - pos: lower, wide
+    action: "Low, at weed height: Fumie handing one coffee can to Kubo over the raised hood; in the foreground Dai's two sneakers sticking out from under the front of the car. She doesn't look down at them."
+    cast:
+    - fumie
+    - *kubo_own
+    - {<<: *dai_yard, note: "only his legs and sneakers sticking out"}
+    captions:
+    - SHE DIDN'T GIVE ONE TO ME, UNDER THE CAR WITH MY FEET STICKING OUT.
+  - pos: bottom-right
+    action: Fumie peering into the open front of the engine at the two bare pulleys.
+    cast: [fumie]
+    dialogue:
+    - fumie: A BELT.
+  - pos: bottom-center
+    action: Kubo opening his coffee can with one thumb.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: AND WHATEVER ATE IT.
+  - pos: bottom-left
+    action: "Fumie taking the cigarette out of the corner of her mouth just far enough to drink."
+    cast: [fumie]
+    dialogue:
+    - fumie: THIRTY-SEVEN YEARS.
+    - fumie: THEY STILL BRING ME CARS WITH A BELT.
+
+# ------------------------------------------------------------------ the garage
+- page: 13
+  title: The bubble
+  location: tanabe-weeds
+  time: Sunday about 4:30 p.m., low golden afternoon sun, long shadows
+  notes: [*wreck_note]
+  panels:
+  - pos: top-right
+    action: "Fumie walking away toward the office through the weeds, small, back to us."
+    cast: [fumie]
+    captions:
+    - SHE WENT BACK TO THE OFFICE.
+  - pos: top-left
+    action: "Kubo putting the black plastic cover back on the front of the engine, loose, with only two bolts."
+    cast: [*kubo_own]
+  - pos: middle-right
+    action: "Kubo wiping his hands on a rag wet from a battered red gasoline can standing in the weeds; then again on a clean corner."
+    cast: [*kubo_own]
+    captions:
+    - HE WIPED HIS HANDS ON A RAG HE'D WET FROM THE RED CAN OF GASOLINE TANABE-SAN KEEPS FOR THE FORKLIFT.
+  - pos: middle-left
+    action: "Close on Kubo's old hands with the rag: a white burn scar on the back of the LEFT hand, black in the creases of every knuckle."
+    cast: [{<<: *kubo_own, note: "only his hands"}]
+    captions:
+    - THE WHITE BURN SCAR ON THE BACK OF THE LEFT ONE. BLACK IN THE CREASES OF EVERY KNUCKLE.
+  - pos: lower-right
+    action: Dai standing by the fender, dusty from lying under the car, watching him.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: YOU'VE DONE THIS BEFORE.
+  - pos: lower-center
+    action: Kubo folding the rag in four, not looking up.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: SOME.
+  - pos: lower-left
+    action: Dai, pushing.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: WHERE?
+  - pos: bottom, large
+    action: "BIG, quiet: Kubo seen from behind and a little to the side, standing in the weeds beside the raised hood, looking away over the crushed-car stacks at the harbor cranes in the low gold light."
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: I HAD A GARAGE.
+    - kubo: MY OWN. TWELVE YEARS.
+
+# ------------------------------------------------------------------ the parts, the tires, five o'clock
+- page: 14
+  title: It can't stand on those
+  location: tanabe-weeds
+  time: Sunday about 4:40 p.m., low golden sun, long shadows (the last panel 5 p.m.)
+  notes: [*wreck_note]
+  panels:
+  - pos: top-right
+    action: Dai, quietly.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: WHAT HAPPENED TO IT?
+  - pos: top-left
+    action: "Kubo's profile, eyes still on the cranes."
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: THE BUBBLE.
+  - pos: upper-middle, wide
+    action: "Close on the red toolbox: the folded rag going into the top drawer and the drawer pushed shut."
+    cast: [{<<: *kubo_own, note: "only his hand"}]
+    sfx: [KASHAN]
+  - pos: middle-right
+    action: Kubo counting it off on his fingers, matter-of-fact.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: BELT. TENSIONER AND THE IDLER. THE PUMP BEHIND IT, WHILE IT'S OPEN, OR YOU DO ALL THIS AGAIN IN A YEAR.
+    - kubo: THEN YOU LINE UP THE MARKS, TOP AND BOTTOM, AND TURN IT OVER TWICE BY HAND. IF THE MARKS COME BACK TO THE SAME PLACE, IT'S RIGHT.
+  - pos: middle-left
+    action: Dai, listening hard.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: HOW LONG?
+  - pos: lower-right
+    action: Kubo bending to pick up the red toolbox by its worn handle.
+    cast: [*kubo_own]
+    dialogue:
+    - kubo: AN AFTERNOON. IF NOTHING'S SEIZED.
+  - pos: lower-left
+    action: Dai, the hard question.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: HOW MUCH ARE THE PARTS?
+  - pos: bottom-right
+    action: "Close, low: one tire flat on its rusty steel rim in the weeds, and the next with cracks across its sidewall deep enough to stand a coin in; Kubo's boots beside them."
+    cast: [{id: wreck, view: side, camera: "very low close on the two tires on the car's LEFT side, from the ground"}]
+    dialogue:
+    - {speaker: kubo, text: "I'LL FIND OUT. YOU'LL PAY ME WHEN I'VE GOT THEM. IT'LL WANT TO ROLL. IT CAN'T STAND ON THOSE.", offpanel: true}
+  - pos: bottom-left
+    location: tanabe-yard
+    action: "Five o'clock, long shadows: Kubo riding out through the yard gate on the little green motorbike, the toolbox roped on behind, one hand lifted without turning."
+    cast:
+    - *kubo_own
+    - {id: supercub, camera: "from behind, far, rear view going out through the gate into the low sun"}
+    dialogue:
+    - kubo: TEN O'CLOCK.
+
+# ------------------------------------------------------------------ home: wash
+- page: 15
+  title: Wash
+  location: hayama-apartment
+  time: Sunday evening about 6:30 p.m., dark outside the window, the ceiling light on
+  guards:
+  - "Mom (41): hair in a loose low bun, worn cardigan, frying at the gas ring with her BACK to the room."
+  - "Aya (20): chin-length black bob, grey tank top under a long cardigan. Sota (11): round glasses, bowl cut, long-sleeved T-shirt."
+  - "Dai: SHORT black hair, old white gym T-shirt, jeans; black grime in the creases of his knuckles."
+  panels:
+  - pos: top-right
+    action: "Dusk in the little cluttered prefab site office of the scrapyard (steel desk, rotary phone, small sink): Dai wiping his hands on the gasoline rag beside the small cold-water sink, the broom leaning by the door."
+    cast: [*dai_yard]
+    captions:
+    - I SWEPT THE OFFICE. I SKIPPED THE YARD TAP AND WIPED MY HANDS ON THE GASOLINE RAG LIKE HE HAD, AND WENT HOME.
+  - pos: top-left
+    action: "Mom at the gas ring with her back to the room, frying in a deep pan, steam and spatter."
+    cast: [michiko:home]
+    sfx: [JUWAAA]
+  - pos: middle-right
+    action: "The low table: Sota kneeling over a worksheet of fractions, pencil in his mouth; at the far end Aya with a hair magazine open, not looking up."
+    cast: [*sota_home, aya:home]
+  - pos: middle-left
+    action: Dai at the genkan step, pulling off his sneakers.
+    cast: [*dai_tee]
+    dialogue:
+    - dai_cut: I'M BACK.
+  - pos: lower-right
+    action: "Mom's back at the stove, chopsticks in the pan, not turning round."
+    cast: [michiko:home]
+    dialogue:
+    - michiko: WASH.
+  - pos: lower-left
+    action: "Dai at the kitchen sink washing his hands under the sheet of handwritten clinic paper taped to the side of the fridge."
+    cast: [*dai_tee]
+    captions:
+    - THE BLACK DIDN'T COME OUT OF THE CREASES. IT NEVER COMES OUT OF KUBO-SAN'S, EITHER.
+  - pos: bottom-right
+    action: "Aya, passing behind Dai at the sink with the rice bowls, stopped dead: one short breath in through her nose, her eyes sliding to the back of his neck."
+    cast: [aya:home]
+    sfx: [{text: sn, note: small}]
+    captions:
+    - BEHIND ME SHE STOPPED. SHE BREATHED IN ONCE THROUGH HER NOSE, SHORT.
+  - pos: bottom-center
+    action: "Aya back at her place, turning a page of her magazine, face blank."
+    cast: [aya:home]
+    captions:
+    - THEN SHE FILLED THE BOWLS AND WENT BACK TO HER MAGAZINE, AND TURNED A PAGE.
+  - pos: bottom-left
+    action: "Mom kneeling at the low table over a plate of battered mackerel, chopsticks lifted, looking at her children one after the other, counting."
+    cast: [michiko:home]
+    captions:
+    - SHE LOOKED AT ALL OF US, ONE AFTER THE OTHER, COUNTING. SHE DIDN'T SAY ANYTHING ABOUT THE SMELL.
+
+# ------------------------------------------------------------------ how much is a belt
+- page: 16
+  title: How much is a belt?
+  location: hayama-apartment
+  time: night, the dark tatami room behind the fusuma, a faint strip of kitchen light
+  guards:
+  - "Sota (11): round glasses, bowl cut, long-sleeved striped pajamas. Dai: SHORT black hair, black T-shirt. Both lie on futons on the tatami."
+  - "The inhaler: a small blue inhaler in a long clear plastic spacer tube."
+  panels:
+  - pos: top, wide
+    action: "Night, the dim tatami room: Sota lying on his side on his futon facing Dai, his glasses still on, the blue inhaler and its clear tube by his pillow; whispering, eyes shining."
+    cast: [*sota_pj]
+    dialogue:
+    - sota: DID YOU ASK IT? ITS NAME?
+    captions:
+    - SOTA DID HIS INHALER, AND I COUNTED FOR HIM ON MY FINGERS, TEN AND TEN. HE LAY DOWN FACING ME WITH HIS GLASSES STILL ON.
+  - pos: upper-right
+    action: Dai on his futon, a tiny smile in the dark.
+    cast: [*dai_night]
+    dialogue:
+    - dai_cut: IT WENT OUT THROUGH THE ROOF WHEN I TURNED THE KEY.
+  - pos: upper-left
+    action: Sota's eyes going big behind his glasses, up on one elbow.
+    cast: [*sota_pj]
+    dialogue:
+    - sota: YOU TURNED THE KEY? DID IT GO?
+  - pos: middle, wide
+    action: "Dai on his back looking at the ceiling, explaining slowly; through the gap in the fusuma a strip of kitchen light and the shape of Mom at the sink."
+    cast: [*dai_night]
+    dialogue:
+    - dai_cut: NO. IT'S THE BELT.
+    - dai_cut: THERE'S A BELT INSIDE THAT MAKES THE TOP HALF GO ROUND WITH THE BOTTOM HALF, AND IT BROKE.
+  - pos: lower-right
+    action: Sota thinking about it, chin on his pillow.
+    cast: [*sota_pj]
+    dialogue:
+    - sota: CAN YOU BUY A BELT?
+  - pos: lower-left
+    action: Dai, eyes closing.
+    cast: [*dai_night]
+    dialogue:
+    - dai_cut: KUBO-SAN SAYS YOU CAN.
+  - pos: bottom-right
+    action: "Close on Sota in the dark, glasses glinting, the most important question in the world."
+    cast: [*sota_pj]
+    dialogue:
+    - sota: HOW MUCH IS A BELT?
+  - pos: bottom-center
+    action: Dai looking at the ceiling, awake now.
+    cast: [*dai_night]
+    dialogue:
+    - dai_cut: I DON'T KNOW YET.
+  - pos: bottom-left
+    action: "Close: Dai's hands setting Sota's folded round glasses on the windowsill beside the blue inhaler, the left arm folded over the right; Sota asleep on his back below."
+    cast: [{<<: *dai_night, note: "only his hands"}, {<<: *sota_pj, note: "asleep, small in the background"}]
+    captions:
+    - HE WAS ASLEEP BEFORE I'D GOT BACK UNDER THE BLANKET.
+
+# ------------------------------------------------------------------ the grit soap; Natsume
+- page: 17
+  title: 168 yen
+  location: hayama-apartment
+  time: Monday about 4 p.m., grey afternoon light (top); Monday 9:30 p.m. (middle); Friday 2:10 a.m. at the station (bottom)
+  guards:
+  - "The new soap: a block of GREY soap with visible grit in it, in a paper wrapper printed with a simple drawing of two hands, a small price sticker reading 168. Next to it the family's plain WHITE soap."
+  panels:
+  - pos: top-right
+    action: "Dai, sleepy, in a black T-shirt at the kitchen sink, about to wash his face, stopping: a new bar of soap by the tap."
+    cast: [*dai_night]
+    captions:
+    - ON MONDAY I CAME HOME AT FOUR AND SLEPT. WHEN I GOT UP TO WASH MY FACE, THERE WAS A NEW BAR OF SOAP BY THE SINK.
+  - pos: top-left
+    action: "Extreme close-up of the grey grit soap in its paper wrapper with the drawing of two hands, the 168 price sticker; beside it the plain white soap."
+    captions:
+    - IT WASN'T OUR SOAP. THE KIND THE FISH-MARKET MEN BUY. THE PRICE STICKER WAS FROM THE SUPERMARKET WHERE AYA WORKS.
+  - pos: middle-right
+    action: Dai's hand picking the grey soap up, and putting it down again.
+    cast: [{<<: *dai_night, note: "only his hand"}]
+    captions:
+    - I PICKED IT UP AND PUT IT DOWN.
+  - pos: middle-left
+    action: "Through the half-open fusuma: the tired mother (hair in a loose low bun, cardigan) asleep on her futon with a damp folded towel over her eyes."
+  - pos: lower, wide
+    action: "Night: Aya, home from work, in her light coat, washing her own hands at the sink with the WHITE soap; the grey soap right beside her hand; she doesn't glance at it."
+    cast: [*aya_coat]
+    captions:
+    - AYA CAME HOME AT HALF PAST NINE AND WASHED HER HANDS WITH THE WHITE SOAP. SHE DIDN'T LOOK AT THE GREY ONE ONCE.
+  - pos: bottom-right
+    action: "Night under the fluorescent gas-station canopy: close on Akane's face in the open driver's window of the red car, gloved hand on the door, looking up at us."
+    cast:
+    - akane
+    - {id: roadster, view: interior, camera: "close on the open driver's window from outside, only the door edge and window frame"}
+    dialogue:
+    - akane: YOUR BROTHER. STILL DOING HIS INHALER?
+    captions:
+    - ON THURSDAY NATSUME FILLED UP AT TEN PAST TWO.
+  - pos: bottom-center
+    action: Night under the gas-station canopy, Dai at the pump in the grey station jacket, the nozzle in his hand.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: MORNING AND NIGHT.
+  - pos: bottom-left
+    action: "Night: close on Akane's gloved hand on the window ledge, two fingers lifting."
+    cast: [{id: akane, note: "only her gloved hand"}]
+    dialogue:
+    - {speaker: akane, text: GOOD., offpanel: true}
+    captions:
+    - I DIDN'T TELL HER ABOUT THE BELT.
+
+# ------------------------------------------------------------------ Sunday 15 Oct: again; the wheels come off
+- page: 18
+  title: The cheapest thief
+  location: tanabe-weeds
+  time: Sunday 15 October, about 9 a.m., hazy morning sun (the top panel at 6:30 a.m. in the back lot)
+  notes: [*wreck_note]
+  guards:
+  - "The wreck's wheels are plain rusty STEEL wheels with no covers."
+  panels:
+  - pos: top-right
+    action: "Early morning in the cleared back lot of the scrapyard (packed shell ground, crushed-car stacks behind): low close at ground level on the front bumper of a small RED car stopping exactly level with an old tire lying flat on the shell ground."
+    cast: [{id: roadster, view: front34, state: headlights_down, camera: "ground level, close on the front bumper and left front wheel only, from the side, the old tire in the foreground"}]
+    dialogue:
+    - {speaker: akane, text: AGAIN., offpanel: true}
+    captions:
+    - "ON SUNDAY SHE MADE ME STOP WITH THE FRONT BUMPER LEVEL WITH AN OLD TIRE AND SAID \"AGAIN\" EIGHTEEN TIMES. I COUNTED. SHE DIDN'T."
+  - pos: top-left
+    action: "Dai kneeling in the weeds by the wreck's front wheel, leaning on a cross-shaped wheel brace to break the rusty nuts loose."
+    cast: [*dai_yard]
+    sfx: [GAKIN]
+  - pos: middle, wide
+    action: "The old forklift lifting the crushed back of the wreck onto two stacks of old tires, Fumie at its wheel with her cigarette; Dai stepping back."
+    cast:
+    - fumie
+    - {id: forklift, camera: "seen from its side, at the rear of the car, forks raised"}
+    - {id: wreck, view: rear, camera: "eye level, wide, side-on to the car's LEFT (passenger) side with its FRONT pointing LEFT, the forklift at the rear on the right lifting it"}
+  - pos: lower-right
+    action: "Dai rolling a plain rusty steel wheel out of the weeds, its flat tire flopping on the rim."
+    cast: [*dai_yard]
+    captions:
+    - PLAIN STEEL, RUSTY AT THE EDGES, NO COVERS. THE TWO FLAT TIRES FLOPPED ON THE RIMS AS THEY WENT ROUND.
+  - pos: lower-left
+    action: Fumie climbing down off the forklift, cigarette in.
+    cast: [fumie]
+    dialogue:
+    - fumie: OKABE'S.
+    - fumie: I'VE GOT CROWN WHEELS TO TAKE HIM ANYWAY.
+  - pos: bottom-right
+    action: Dai stopped with his hand on the last wheel, looking up sharply.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: OKABE.
+  - pos: bottom-left
+    action: Fumie looking at him over her cigarette, left eye half shut.
+    cast: [fumie]
+    dialogue:
+    - fumie: OKABE TIRE. BY THE CANAL. EVEN A THIEF HAS HIS THREE REASONS, THEY SAY.
+    - fumie: OKABE'S GOT FOUR. BUT HE'S THE CHEAPEST THIEF THERE IS.
+
+# ------------------------------------------------------------------ the truck to Okabe Tire
+- page: 19
+  title: Okabe Tire
+  location: tanabe-yard
+  time: Sunday about 10:30 a.m., hazy late-morning daylight
+  guards:
+  - "Fumie's truck is RIGHT-HAND DRIVE: she drives from the cab's RIGHT seat, Dai rides in the LEFT seat."
+  panels:
+  - pos: top, wide
+    action: "The forklift lifting a wooden pallet stacked with car wheels up onto the back of Fumie's old white two-ton flatbed truck; TANABE in faded pale letters on its door."
+    cast:
+    - {id: forklift, camera: "from behind-left, forks raised high at the truck's flatbed"}
+    - {id: flatbed, camera: "high rear three-quarter from behind-LEFT, from the office stair, the flatbed nearest us"}
+    captions:
+    - HER TRUCK WAS A TWO-TON FLATBED WITH TANABE ON THE DOORS IN THE SAME FADED PINK AS THE GATE.
+  - pos: upper-right
+    action: "Inside the truck cab: Dai in the LEFT passenger seat on an old towel, the floor at his feet all sand and crumpled receipts; the cab's door window beside him on the image LEFT."
+    cast: [*dai_yard]
+    captions:
+    - I GOT IN ON THE LEFT. THE SEAT HAD A TOWEL OVER IT, AND THE FLOOR WAS ALL SAND AND RECEIPTS.
+  - pos: upper-left
+    action: "Inside the cab, seen from the passenger seat: Fumie at the big flat steering wheel in the RIGHT seat, both hands on top of it, cigarette in, leaning forward over the wheel at a crossing; her door window on the image RIGHT."
+    cast: [fumie]
+    captions:
+    - SHE LEANED FORWARD AT EVERY CROSSING AS IF SHE DIDN'T TRUST IT.
+  - pos: middle, wide
+    action: "The road beside a straight concrete canal behind the long fish-market sheds, the truck small in the distance."
+    cast: [{id: flatbed, camera: "far, from across the canal, a small side view of the truck's RIGHT side with its FRONT pointing RIGHT"}]
+    captions:
+    - AT THE END OF THE HARBOR ROAD SHE TURNED INLAND, ALONG THE CANAL.
+  - pos: lower-right
+    action: "Memory inset with a soft dark border, night, a harbor lot: a round-faced man in his forties with reading glasses pushed up in his hair, sitting in the open back of a white van, a grey cash box on his knees, lifting his pencil without looking up."
+    captions:
+    - "AT PIER 3 SOMEBODY HAD CALLED ACROSS THE LOT, \"OKABE-SAN,\" AND HE'D LIFTED HIS PENCIL WITHOUT LOOKING UP."
+  - pos: lower-left
+    location: okabe-tire
+    action: "The long tin shed open at the front by the canal, towers of used tires tied in fours outside, a welding shop on one side and a shuttered coffee shop with a FOR LEASE sign on the other."
+    captions:
+    - OKABE TIRE WAS A LONG TIN SHED OPEN AT THE FRONT, BETWEEN A WELDING SHOP AND A COFFEE SHOP WITH ITS SHUTTER DOWN.
+  - pos: bottom-right
+    location: okabe-tire
+    action: "Inside the dark shed: a wheel spinning on the balancing machine, whining; a car up on the lift behind."
+    sfx: [WEEEEN]
+  - pos: bottom-left
+    location: okabe-tire
+    action: "Parked to one side, nose out: an older white van, the shop name on its side painted over in a white that doesn't quite match, the words OKABE TIRE still readable through it."
+    cast: [{id: okabe_van, camera: "front three-quarter of its LEFT side, close, eye level, the painted-over lettering on the side"}]
+    captions:
+    - IN DAYLIGHT YOU COULD READ IT EASILY.
+
+# ------------------------------------------------------------------ the kid who watches money
+- page: 20
+  title: The kid who watches money
+  location: okabe-tire
+  time: Sunday about 11 a.m., flat overcast daylight
+  guards:
+  - "Okabe (forties): soft round face, reading glasses pushed up into his hair, NAVY work overalls with the sleeves rolled. Fumie stays in the cab of her truck."
+  panels:
+  - pos: top-right
+    action: Fumie in her cab, both hands on the wheel, not moving.
+    cast: [fumie]
+    dialogue:
+    - fumie: I'M NOT GETTING OUT FOR HIM.
+  - pos: top-left
+    action: "Close on Fumie's thick brown hand pressing the horn in the middle of the steering wheel."
+    cast: [{id: fumie, note: "only her hand"}]
+    sfx: [PAAP! PAAP!]
+  - pos: middle-right
+    action: Okabe coming out of the dark shed wiping his hands on a rag, pleasant.
+    cast: [okabe:overalls]
+  - pos: middle-left
+    action: "Okabe bowing politely at the truck's driver's window, which is on the cab's RIGHT side."
+    cast:
+    - okabe:overalls
+    - {id: flatbed, camera: "close on the cab's driver's door and window only, at eye level"}
+    dialogue:
+    - okabe: TANABE-SAN, ALWAYS A PLEASURE.
+  - pos: lower-right
+    action: Fumie staring straight ahead through her windshield, cigarette in.
+    cast: [fumie]
+    dialogue:
+    - fumie: EIGHT CROWN WHEELS, AND DON'T START.
+  - pos: lower-left
+    action: "Okabe laughing, one hand up; behind him the truck cab, the radio in it turned up."
+    cast: [okabe:overalls]
+    captions:
+    - SHE LEFT THE ENGINE RUNNING AND TURNED THE RADIO UP.
+  - pos: bottom-right
+    action: "At the back of the truck by the pallet of wheels: Okabe glancing at Dai, then looking again, his eyes narrowing behind nothing, the glasses up in his hair."
+    cast: [okabe:overalls]
+    captions:
+    - HE LOOKED AT ME INSTEAD. THEN HE LOOKED AT ME A SECOND TIME.
+  - pos: bottom-left
+    action: Close on Okabe's round face, a pleasant little smile.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: AH.
+    - okabe: THE KID WHO WATCHES MONEY.
+
+# ------------------------------------------------------------------ whose?
+- page: 21
+  title: Of course
+  location: okabe-tire
+  time: Sunday about 11 a.m., flat overcast daylight
+  guards:
+  - "Okabe: soft round face, reading glasses pushed up into his hair, navy overalls. Dai: SHORT black hair, grey zip-up jacket."
+  panels:
+  - pos: top-right
+    action: "Close on the truck's radio in the dashboard, the dial glowing; Fumie's elbow at the edge."
+    captions:
+    - IN THE CAB THE RADIO WAS DOING THE HORSE RACING.
+  - pos: top-left
+    action: Okabe, friendly, rag in hand.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: I DIDN'T SEE YOU AGAIN. MOST OF THEM COME BACK THE NEXT SATURDAY.
+  - pos: middle-right
+    action: Dai, guarded, hands in his jacket pockets.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: I WORK.
+  - pos: middle-left
+    action: "Okabe looking down at the four rusty steel wheels on the pallet, his face going straight into business."
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: GOOD. WORK'S GOOD.
+    - okabe: BASE CAR. FOURTEEN-INCH STEEL. ONE-EIGHTY-FIVE, SIXTY, FOURTEEN. WHAT'S IT ON?
+  - pos: lower-right
+    action: Dai answering.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: AN EIGHTY-NINE ROADSTER.
+  - pos: lower-left
+    action: Okabe, one eyebrow up.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: WHOSE?
+  - pos: bottom-right
+    action: Dai, flat.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: TANABE-SAN'S.
+  - pos: bottom-center
+    action: "Through the truck's windshield: Fumie looking straight ahead with her cigarette, not looking at anybody."
+    cast: [fumie]
+  - pos: bottom-left
+    action: Okabe glancing along the truck at the cab, smiling to himself.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: OF COURSE.
+
+# ------------------------------------------------------------------ the slip sign
+- page: 22
+  title: Slip sign
+  location: okabe-tire
+  time: Sunday about 11:10 a.m., flat overcast daylight
+  guards:
+  - "Every tire has a PLAIN sidewall: NO brand names, NO logos. Only small molded numbers where a panel asks for them."
+  panels:
+  - pos: top-right
+    action: "Beside the shed: used small-car tires standing in towers by size, chalk marks on them; Okabe pulling four matching ones out and standing them up in a row."
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: ALL FOUR THE SAME. FIVE MILLIMETERS LEFT. FOUR THOUSAND EACH, ON AND BALANCED.
+    - okabe: YOU DON'T WANT THOSE.
+  - pos: top-left
+    action: Dai, shaking his head once.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: NO.
+  - pos: middle-right
+    action: "Okabe standing four different tires up in a new row, two the same and two odd ones."
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: NO. THESE, THEN. LOOK.
+  - pos: middle-left
+    action: "Okabe crouching with a grunt, his thumb on the shoulder of the first tire beside a little triangle molded into the rubber at the edge of the tread."
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: SLIP SIGN. FIND THE TRIANGLE, AND IN THE GROOVE UNDER IT THERE'S A BAR ACROSS.
+    - okabe: WHEN THE TREAD'S DOWN LEVEL WITH THE BAR, THE TIRE'S FINISHED. ONE POINT SIX MILLIMETERS.
+  - pos: lower-right
+    action: "Extreme close-up: a small metal tread-depth gauge pushed into a tread groove, its little scale reading 4."
+    cast: [{id: okabe, outfit: overalls, note: "only his fingers"}]
+    dialogue:
+    - {speaker: okabe, text: THIS ONE'S GOT FOUR., offpanel: true}
+  - pos: lower-left
+    action: "Close on the tire's plain sidewall: Okabe's finger beside a small molded oval with the number 243 in it."
+    cast: [{id: okabe, outfit: overalls, note: "only his finger"}]
+    dialogue:
+    - {speaker: okabe, text: "TWO, FOUR, THREE. TWENTY-FOURTH WEEK, NINETEEN NINETY-THREE. RUBBER GOES HARD, OLD. THESE ARE YOUNG ENOUGH.", offpanel: true}
+  - pos: bottom-right
+    action: "Close on the middle of the third tire's tread: a little stub of brown rubber plugged into a nail hole, trimmed flat."
+    dialogue:
+    - {speaker: okabe, text: "THIS ONE'S PLUGGED. NAIL. SOMEBODY FIXED IT PROPERLY.", offpanel: true}
+  - pos: bottom-left
+    action: Okabe holding the gauge out to Dai.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: I'D DRIVE ON IT. I WOULDN'T DRIVE ON IT FAST.
+    - okabe: YOU DO THE OTHER TWO.
+
+# ------------------------------------------------------------------ harder
+- page: 23
+  title: Harder
+  location: okabe-tire
+  time: Sunday about 11:20 a.m., flat overcast daylight
+  guards:
+  - "Every tire has a PLAIN sidewall: NO brand names, NO logos."
+  - "Dai STANDS and bends forward over the upright tires; he does not crouch."
+  panels:
+  - pos: top-right
+    action: "Dai standing, bent forward over an upright tire, pushing the gauge into the groove under the little triangle, concentrating."
+    cast: [*dai_yard]
+    captions:
+    - I FOUND THE TRIANGLES. FOUR MILLIMETERS. THREE AND A HALF. I FOUND THE OVALS.
+  - pos: top-left
+    action: Dai pointing at two of the tires in turn.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: THIS ONE'S THE SAME AS THE FIRST ONE. THIS ONE'S NINETY-TWO.
+  - pos: middle-right
+    action: Okabe, testing him.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: SO?
+  - pos: middle-center
+    action: Dai, thinking.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: OLDER.
+  - pos: middle-left
+    action: Okabe taking the gauge back.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: HARDER.
+  - pos: lower, wide
+    action: "Okabe working out the price aloud on a carbon pad, pencil moving, glasses pulled down onto his nose."
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: THE GOOD PAIR, TWO THOUSAND FIVE HUNDRED EACH. THE OTHER TWO, FIFTEEN HUNDRED. BETTER PAIR ON THE BACK.
+    - okabe: FITTING AND BALANCING, SEVEN HUNDRED A WHEEL. WITH THE TAX, ELEVEN THOUSAND ONE HUNDRED AND TWENTY-FOUR. OLD TIRES, THREE HUNDRED EACH TO GET RID OF.
+  - pos: bottom-right
+    action: Dai, quick.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: I'LL TAKE THEM BACK.
+  - pos: bottom-center
+    action: Okabe smiling.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: TANABE-SAN'S GOT A PRESS, HASN'T SHE.
+    - okabe: CALL IT ELEVEN THOUSAND. THE HUNDRED AND TWENTY-FOUR'S FOR COMING BACK.
+  - pos: bottom-left
+    action: "Inside the shed: the tire machine breaking an old tire off its rim with a thump of air; Okabe levering a new one on with a bar, soap on the bead from a pot with a brush."
+    cast: [okabe:overalls]
+    sfx: [BASHU!]
+
+# ------------------------------------------------------------------ business is business; on its own wheels
+- page: 24
+  title: Business is business
+  location: okabe-tire
+  time: Sunday about 11:40 a.m., overcast daylight; back at the yard about 12:30 p.m. (bottom panels)
+  guards:
+  - "1995 banknotes only: one 10,000-yen note (portrait of an old man with a side parting, Fukuzawa) and one 1,000-yen note (a man with a moustache, Natsume Soseki); no other notes."
+  panels:
+  - pos: top-right
+    action: "The balancing machine spinning a wheel on its new used tire; Okabe tapping a small lead weight onto the steel rim with a hammer."
+    cast: [okabe:overalls]
+    sfx: [KON KON]
+  - pos: top-left
+    action: "Close on Dai's hand holding out a 10,000-yen note and a 1,000-yen note; Okabe's hand taking them without counting."
+    cast: [{<<: *dai_yard, note: "only his hand"}, {id: okabe, outfit: overalls, note: "only his hand"}]
+    captions:
+    - THE MONEY FROM THE DICTIONARY. HE TOOK IT WITHOUT COUNTING.
+  - pos: middle-right
+    action: Okabe with a carbon receipt pad and pencil, glasses on his nose.
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: NAME?
+  - pos: middle-left
+    action: Dai, not blinking.
+    cast: [*dai_yard]
+    dialogue:
+    - dai_cut: TANABE.
+  - pos: lower-right
+    action: "Okabe looking at Dai over his glasses for a second, then writing; close on the receipt pad where the name TANABE stands in pencil."
+    cast: [okabe:overalls]
+    dialogue:
+    - okabe: BUSINESS IS BUSINESS.
+  - pos: lower-left
+    action: "Fumie in the cab driving home, both hands on top of the wheel, the radio on."
+    cast: [fumie]
+    dialogue:
+    - fumie: FOUR THOUSAND A WHEEL. HE SAID THREE AND A HALF.
+  - pos: bottom-right
+    action: "Back at the scrapyard, in the waist-high weeds: the forklift's forks lowering the front of the wreck down onto its wheels with fresh used tires, slowly."
+    cast:
+    - {id: forklift, camera: "at the car's front on the right, side-on"}
+    - {id: wreck, view: side, camera: "eye level, side view of the RIGHT (driver's) side, middle distance, the car's FRONT pointing RIGHT, the forklift at the front on the right"}
+  - pos: bottom-left
+    action: "In the weeds: close on Dai on one knee doing up the wheel nuts with the cross-shaped brace, a plain steel wheel with a used tire."
+    cast: [*dai_yard]
+    captions:
+    - I DID THE NUTS UP IN A STAR, THE ORDER SHE SHOWED ME, AND THEN AGAIN, HARDER.
+
+# ------------------------------------------------------------------ standing level
+- page: 25
+  title: On its own four feet
+  location: tanabe-weeds
+  time: Sunday about 12:40 p.m., hazy midday sun
+  notes: [*wreck_note]
+  guards:
+  - "The wreck NOW stands level on four plain rusty STEEL wheels with used tires (no wheel covers, plain sidewalls); none of its tires is flat any more."
+  panels:
+  - pos: top, wide
+    action: "The forks sliding out from under; the car sinking down onto its new tires and settling."
+    cast:
+    - {id: forklift, camera: "only its fork tips sliding out at the edge of the panel"}
+    - {id: wreck, view: rear, camera: "low rear three-quarter from behind-LEFT, close, the crushed back end and the left rear wheel, the forks sliding out under the side"}
+    sfx: [GISHI...]
+    captions:
+    - THE FORKS CAME OUT FROM UNDER. THE CAR SANK DOWN ONTO THE TIRES AND SAT THERE.
+  - pos: middle, large
+    action: "BIG: the wreck standing level in the weeds on four plain steel wheels for the first time, its right pop-up still stuck half up and staring off toward the fence, the back still folded, the torn top; Dai small beside it."
+    cast:
+    - *dai_yard
+    - {id: wreck, view: front34, camera: "low, from weed height, front three-quarter of the LEFT flank (white fender nearest), a little far, the whole car level, the half-up right headlight staring off toward the fence on the image RIGHT"}
+    captions:
+    - IT STOOD LEVEL FOR THE FIRST TIME SINCE I'D KNOWN IT.
+    - THE BACK WAS STILL FOLDED. BUT IT STOOD ON ITS OWN FOUR FEET IN THE WEEDS.
+  - pos: lower-right
+    action: "Close on Dai's hand pushing down on the white front fender; the car rocking on its springs, motion lines, coming back."
+    cast: [{<<: *dai_yard, note: "only his hand and arm"}]
+    sfx: [GISHI GISHI]
+  - pos: lower-left
+    action: "The striped cat with half a tail walking round a new tire, smelling it."
+    cast: [cat]
+    captions:
+    - THE CAT CAME OUT OF THE WEEDS AND WALKED ROUND IT ONCE, SLOWLY, SMELLING EACH NEW TIRE.
+  - pos: bottom-right
+    action: "The cat in mid-jump up through the tear in the grey soft top."
+    cast: [cat]
+  - pos: bottom-left
+    action: "Dai sitting on the flattened cardboard box in the weeds beside the car, counting in his head, the gloves in his lap."
+    cast: [*dai_yard]
+    captions:
+    - "I'D HAD 65,287 YEN AFTER PAYDAY. I HAD 54,287. I DIDN'T DO THE SUM WITH THE 280,000 IN IT."
+
+# ------------------------------------------------------------------ Monday 16 Oct: the staff room
+- page: 26
+  title: The boys after you
+  location: staff-room
+  time: Monday 16 October; class in daylight (top), then the staff room about 3:40 p.m., afternoon light from the windows
+  guards:
+  - "Dai: SHORT black hair, black gakuran winter school uniform with the collar open."
+  - "Hotta-sensei now wears a plain GREY cardigan over his shirt and loosened tie, NO towel. In the staff room he SITS at his desk and Dai STANDS."
+  panels:
+  - pos: top-right
+    location: classroom
+    action: "Dai at his desk with his cheek on his forearm, asleep, a line of ink running off the edge of his notebook page, the pen still in his fingers."
+    cast: [*dai_gak]
+    captions:
+    - ON MONDAY I'D BEEN AWAKE SINCE HALF PAST FOUR ON SUNDAY MORNING. IN MATH THERE WAS A LINE OF INK ACROSS MY NOTEBOOK.
+  - pos: top-left
+    location: classroom
+    action: "Sixth period: Dai sitting bolt upright with his eyes open and blank; Hotta-sensei standing beside his desk with the English textbook, saying nothing."
+    cast: [*dai_gak, hotta:cardigan]
+    sfx: [GATAN]
+    captions:
+    - OKUDA WAS KICKING MY CHAIR. HE SAVED IT FOR THE END OF HOMEROOM.
+  - pos: upper-middle, wide
+    location: classroom
+    action: Hotta-sensei at the front by the blackboard, not looking up from his register.
+    cast: [hotta:cardigan]
+    dialogue:
+    - hotta: HAYAMA. STAFF ROOM.
+  - pos: middle, wide
+    action: "The staff room: desk islands piled with papers and tea cups; at the far end a teacher asleep in his chair with a newspaper over his face; Hotta sitting at his desk, Dai standing in front of it."
+    cast: [hotta:cardigan, *dai_gak]
+    captions:
+    - THE STAFF ROOM SMELLED OF GREEN TEA AND CIGARETTES. THE OWL FAN STOOD IN A JAR OF PENS ON HIS DESK, CLOSED.
+  - pos: lower-right
+    action: Hotta seated, reading from a sheet of paper with names on it.
+    cast: [hotta:cardigan]
+    dialogue:
+    - hotta: ONO-SENSEI SAYS YOU'VE SLEPT THROUGH EVERY MATH LESSON SINCE SEPTEMBER. IWAI-SENSEI SAYS THE SAME FOR HISTORY.
+  - pos: lower-center
+    action: Hotta with his hands folded on the desk.
+    cast: [hotta:cardigan]
+    dialogue:
+    - hotta: MIDTERMS START ON THE TWENTY-FOURTH. NO CREDITS, NO GRADUATION. NO GRADUATION, NO JOB.
+  - pos: lower-left
+    action: Dai standing, low.
+    cast: [*dai_gak]
+    dialogue:
+    - dai_cut: SANKO HASN'T SAID YET.
+  - pos: bottom-right
+    action: "Hotta looking out of the window at the baseball team running on the sports ground."
+    cast: [hotta:cardigan]
+    dialogue:
+    - hotta: I WROTE, NEVER LATE. I WROTE, WORKS HARD. IF YOU DON'T GRADUATE, NEXT YEAR THEY TAKE THREE FROM US, NOT FIVE.
+    - hotta: NOT YOU. THE BOYS AFTER YOU.
+  - pos: bottom-center
+    action: Hotta turning back to Dai, quieter.
+    cast: [hotta:cardigan]
+    dialogue:
+    - hotta: I KNOW YOU WORK NIGHTS. YOUR MOTHER TOLD ME. I'D RATHER NOBODY HAD TO.
+  - pos: bottom-left
+    action: "Close on Dai's hands on the edge of the desk: dark in the creases of the knuckles, black round two nails."
+    cast: [{<<: *dai_gak, note: "only his hands on the desk edge"}]
+    dialogue:
+    - {speaker: hotta, text: "WASH BEFORE THE EXAMS. THEY'LL THINK YOU'VE STARTED AT THE PRESS ALREADY.", offpanel: true}
+
+# ------------------------------------------------------------------ Wednesday 18 Oct: payday, the letter
+- page: 27
+  title: It was in the box
+  location: hayama-apartment
+  time: Wednesday 18 October; 6 a.m. at the station (top), then 4:10 p.m. at home, afternoon light through the window
+  guards:
+  - "1995 banknotes only: 10,000-yen notes (Fukuzawa) and 1,000-yen notes (Natsume Soseki), and silver 100-yen coins."
+  - "The envelope: long, white, with a window showing a typed name; in its corner a small company name printed in red (drawn dark grey), not readable at this size."
+  - "Mom (41): loose low bun, worn cardigan, kneeling at the low table. Her folded DRY towel on the table."
+  panels:
+  - pos: top-right
+    action: "Early morning grey light in the small gas-station office booth: Kubo in his station uniform laying a brown pay envelope on the counter; HAYAMA pencilled on it."
+    cast: [kubo]
+    dialogue:
+    - kubo: PARTS COME SATURDAY.
+    captions:
+    - AT SIX ON WEDNESDAY MORNING KUBO-SAN PUT THE BROWN ENVELOPE ON THE COUNTER. EIGHT NIGHTS. 44,800.
+  - pos: top-center
+    action: In the station office booth at dawn, Dai in the grey station jacket, the envelope in his hand.
+    cast: [dai_cut:station_jacket]
+    dialogue:
+    - dai_cut: HOW MUCH?
+  - pos: top-left
+    action: In the station office booth at dawn, Kubo turning away to the back room.
+    cast: [kubo]
+    dialogue:
+    - kubo: SATURDAY.
+  - pos: middle-right
+    action: "Close on the top of the shoe cabinet in the genkan: two 10,000-yen notes and two 1,000-yen notes laid in a row, four 100-yen coins on top of them."
+    captions:
+    - "I COUNTED 22,400 ONTO THE SHOE CABINET, THE COINS ON TOP OF THE NOTES SO THEY WOULDN'T BLOW. THE OTHER 22,400 WENT IN THE DICTIONARY."
+  - pos: middle-left
+    action: "At a wooden school desk: close on Dai's thumbnail pressing hard into the pink line on his left palm under his desk."
+    cast: [{<<: *dai_gak, note: "only his left hand"}]
+    captions:
+    - I STAYED AWAKE FOR ALL OF MATH BY PRESSING MY THUMBNAIL INTO THE LINE ON MY PALM.
+  - pos: lower, wide
+    action: "Afternoon: Mom sitting at the low table, upright, awake when she should be asleep; in front of her a folded dry towel and a long white window envelope. Sota on a cushion by the window with a comic he isn't reading."
+    cast: [michiko:home, *sota_home]
+    captions:
+    - WHEN I CAME HOME AT TEN PAST FOUR, MOM WAS SITTING AT THE LOW TABLE. SHE SHOULD HAVE BEEN ASLEEP.
+  - pos: bottom-right
+    action: "Close on the envelope on the table: a long white envelope with a window, the small red-printed company name in its corner."
+    captions:
+    - SANKO BRAKE INDUSTRIES, LTD.
+  - pos: bottom-center
+    action: Mom looking up at Dai, very still.
+    cast: [michiko:home]
+    dialogue:
+    - michiko: IT WAS IN THE BOX. WHEN I CAME IN.
+  - pos: bottom-left
+    action: "Close on Mom's two fingers pushing the unopened envelope across the table toward Dai."
+    cast: [{id: michiko, outfit: home, note: "only her hand"}]
+
+# ------------------------------------------------------------------ she read it twice
+- page: 28
+  title: The kettle
+  location: hayama-apartment
+  time: Wednesday about 4:15 p.m., afternoon light through the window; the wall clock shows about a quarter past four
+  guards:
+  - "THE LETTER: two white sheets folded in three, typed lines too small to read, a round red stamp at the bottom (drawn dark grey)."
+  - "Mom (41): loose low bun, worn cardigan. In the stove panel she stands with her BACK to us, one hand flat on the counter, shoulders up. Her face is NOT shown there."
+  panels:
+  - pos: top-right
+    action: "Close on Dai's thumb tearing the envelope open along the top."
+    cast: [{<<: *dai_gak, note: "only his hands"}]
+  - pos: top-left
+    action: "Close on the unfolded letter in Dai's hands, the typed lines too small to read; a caption box laid over the middle of the page."
+    captions:
+    - "NOTICE OF PROVISIONAL EMPLOYMENT. POSITION: PRODUCTION (SHIOMI PLANT). START: 1 APRIL 1996. THIS OFFER IS CONDITIONAL UPON YOUR GRADUATION."
+  - pos: middle-right
+    action: "Dai turning the letter round on the table and pushing it back to his mother."
+    cast: [*dai_gak]
+    captions:
+    - I READ IT TO THE END. THEN I TURNED IT ROUND AND PUSHED IT BACK TO HER.
+  - pos: middle-left
+    action: "Mom reading the letter, down to the stamp."
+    cast: [michiko:home]
+  - pos: lower-right
+    action: "Close on Mom's finger moving slowly under the typed lines, reading it again from the top."
+    cast: [{id: michiko, outfit: home, note: "only her hand on the letter"}]
+  - pos: lower-left
+    action: "Mom pushing herself up from the low table with both hands flat on either side of the letter."
+    cast: [michiko:home]
+  - pos: bottom, large
+    action: "BIG and silent: Mom standing at the gas stove with her BACK to the room, the kettle on the lit ring, one hand flat on the counter beside the stove, her shoulders drawn UP under the cardigan and staying up. In the foreground, out of focus, the low table, the letter, Dai's still hands. The wall clock above the phone shelf. NO face, NO tears shown, no text at all."
+    cast: [{id: michiko, outfit: home, note: "from behind only"}]
+
+# ------------------------------------------------------------------ the fridge, Aya
+- page: 29
+  title: Pressed it twice
+  location: hayama-apartment
+  time: Wednesday about 4:20 p.m. (top and middle); 9:30 p.m., night (bottom)
+  guards:
+  - "Mom (41): loose low bun, worn cardigan. The refrigerator door: a garbage-collection calendar held by two round magnets; after she takes one magnet the calendar hangs crooked by one corner, and the white letter is pinned flat in the middle of the door."
+  - "Aya: chin-length bob, a light coat, a shoulder bag."
+  panels:
+  - pos: top-right
+    action: "Sota's comic lying face down on the tatami; Sota looking at Dai, scared and quiet."
+    cast: [*sota_home]
+  - pos: top-left
+    action: "Mom's back at the stove: her shoulders coming down."
+    cast: [{id: michiko, outfit: home, note: "from behind only"}]
+  - pos: middle-right
+    action: "Close on Mom's hand turning the gas knob off; the kettle silent, no steam."
+    cast: [{id: michiko, outfit: home, note: "only her hand"}]
+    captions:
+    - SHE TURNED THE GAS OFF BEFORE THE KETTLE HAD EVEN STARTED TO SING. SHE DIDN'T MAKE ANY TEA.
+  - pos: middle-left
+    action: "Mom at the refrigerator taking one round magnet off the garbage calendar, which swings crooked."
+    cast: [michiko:home]
+  - pos: lower-right
+    action: "Close on Mom's thumb pressing the letter flat to the refrigerator door, twice."
+    cast: [{id: michiko, outfit: home, note: "only her hand"}]
+  - pos: lower-left
+    action: "Mom at the sink wringing out her towel, not looking at anyone."
+    cast: [michiko:home]
+    dialogue:
+    - michiko: THERE'S RICE FROM YESTERDAY. HEAT IT FOR HIM AT SIX.
+    - michiko: I'LL DO THE MISO WHEN I'M UP.
+  - pos: bottom-right
+    action: "Night: Aya in her coat with her bag still on her shoulder, standing in front of the refrigerator reading the letter on its door."
+    cast: [*aya_coat]
+  - pos: bottom-left
+    action: Close on Aya's face in profile, to the refrigerator, dry.
+    cast: [*aya_coat]
+    dialogue:
+    - aya: GOOD.
+    - aya: NOW YOU CAN PAY ME MY THREE THOUSAND YEN.
+
+# ------------------------------------------------------------------ Thursday 19 Oct, 4 a.m.
+- page: 30
+  title: The tooth
+  location: hayama-kitchen-night
+  time: Thursday about 4 a.m., DARK; the fluorescent tube is OFF; the only light is a dim grey glow through the frosted glass over the sink from the stair lamp outside
+  guards:
+  - "Dai: SHORT black hair, black T-shirt and grey sweatpants, barefoot."
+  - "On the refrigerator DOOR: a white square (the letter) pinned flat with a round magnet, and beside it a calendar hanging crooked by one corner. On the fridge's SIDE the handwritten clinic paper. Nothing is readable in the dark."
+  - "Very dark, quiet, still. Heavy blacks and soft grey tones."
+  panels:
+  - pos: top, wide
+    action: "The dark kitchen at four in the morning: only grey shapes in the faint light from the frosted glass over the sink: the low table, the phone on its shelf, the refrigerator with a white square on its door and a crooked calendar; Dai standing in front of it, small, barefoot."
+    cast: [*dai_night]
+    captions:
+    - WEDNESDAY IS A NIGHT OFF. AT A QUARTER TO FOUR MY EYES CAME OPEN ON THEIR OWN, IN TIME FOR A SHIFT I DIDN'T HAVE.
+  - pos: upper-right
+    action: "Close on Dai's bare feet on the cold kitchen floor."
+    cast: [{<<: *dai_night, note: "only his bare feet"}]
+    captions:
+    - THE FLOOR WAS COLD UNDER MY FEET.
+  - pos: upper-left
+    action: "Dai opening the refrigerator: its light spilling out across the floor and his face, and the white letter on the door swinging away from him into the dark with the door."
+    cast: [*dai_night]
+    captions:
+    - I COULDN'T READ IT. WHEN THE LIGHT CAME ON, THE LETTER SWUNG AWAY FROM ME WITH THE DOOR.
+  - pos: middle-right
+    action: "The refrigerator shut again, dark; the white square a pale shape on the door."
+    sfx: [{text: vuuun, note: "small, the refrigerator humming"}]
+    captions:
+    - I DIDN'T NEED TO READ IT. PRODUCTION. SHIOMI PLANT. 1 APRIL 1996. CONDITIONAL UPON YOUR GRADUATION.
+  - pos: middle-left
+    action: "The closed fusuma in the dark, a blanket's edge showing at the bottom gap."
+    captions:
+    - BEHIND THE FUSUMA SOTA TURNED OVER, AND MOM BREATHED, SLOW.
+  - pos: lower-right
+    action: "The dark genkan: Dai's hand deep in the pocket of his grey zip-up jacket hanging on a hook by the steel door, a white cotton glove poking out of the pocket."
+    cast: [{<<: *dai_night, note: "only his arm and hand"}]
+    captions:
+    - MY JACKET WAS HANGING IN THE GENKAN. I FOUND IT BY FEEL, AT THE BOTTOM, IN THE SEAM.
+  - pos: lower-left
+    action: "Close in the dim grey light: the tiny square rubber tooth from the belt lying in Dai's open palm with the pink line."
+    cast: [{<<: *dai_night, note: "only his open hand"}]
+  - pos: bottom, wide
+    action: "Dai standing in front of the dark refrigerator with his hand closed at his side, looking at the pale square on its door; through the window over the sink, far below on the main road, the headlights of one big truck going by."
+    cast: [*dai_night]
+    sfx: [{text: gooo, note: "small, distant gears grinding"}]
+    captions:
+    - UNTIL THE FIRST FISH TRUCK WENT BY ON THE MAIN ROAD BELOW, TOWARD THE HARBOR, GRINDING THROUGH ITS GEARS AT THE CORNER.

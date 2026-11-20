@@ -68,6 +68,13 @@ characters:
       station:
         desc: grey work shirt BUTTONED UP and tucked in, name tag on the chest pocket, sleeves rolled, dark work trousers with a belt, work boots, grey work cap
         ref: artwork/character-sheets/kubo.png
+      own:
+        desc: >-
+          his own Sunday clothes: an old faded work jacket (light grey tone) open
+          over a plain grey shirt BUTTONED UP, dark work trousers with a belt,
+          worn work boots, his grey cap; no name tag
+        ref: artwork/character-sheets/kubo.png
+        ref_note: the face, cap and build; the clothes here are his own, not the station uniform
 
   akane:
     name: AKANE
@@ -210,6 +217,12 @@ characters:
       work:
         desc: plain unmarked polo shirt and ordinary trousers
         ref: artwork/character-sheets/okabe.png
+      overalls:
+        desc: >-
+          plain NAVY work overalls (dark grey tone) with the sleeves rolled up,
+          no name or logo, reading glasses pushed up into his hair, a rag in one hand
+        ref: artwork/character-sheets/okabe.png
+        ref_note: the face, glasses and build; he wears navy work overalls here, not the polo shirt
 
   tetsu:
     name: TETSU
@@ -254,6 +267,12 @@ characters:
       teacher:
         desc: short-sleeved pale shirt, loosened dark tie, grey slacks, white towel round the neck
         ref: artwork/character-sheets/hotta.png
+      cardigan:
+        desc: >-
+          autumn: a plain GREY knitted cardigan over a pale long-sleeved shirt and
+          a loosened dark tie, grey slacks; NO towel round his neck
+        ref: artwork/character-sheets/hotta.png
+        ref_note: the face, receding hair and thin build; no towel now, a grey cardigan instead
 
   shop_owner:
     name: OWNER
@@ -956,6 +975,9 @@ cars:
       interior:
         ref: artwork/car-sheets/red-roadster-interior.png
         note: "interior LAYOUT only (same model): right-hand-drive dashboard, wheel, gauges, gear lever; this car's interior is old, moldy and worn"
+      engine:
+        ref: artwork/car-sheets/blue-roadster-wreck-engine.png
+        note: "the engine bay only: dusty long low four-cylinder, leaves and cat hair, the black plastic timing-belt cover at the FRONT of the engine behind the radiator; details only, draw the requested camera angle"
     rules:
       - "RIGHT-HAND DRIVE (Japanese market): the steering wheel and the driver's seat are on the car's RIGHT side; the torn roof is above the LEFT (passenger) seat."
       - "In every side view that shows the driver's door, the car's FRONT points to the RIGHT edge of the panel."
@@ -1036,3 +1058,48 @@ cars:
       A big white Japanese cab-over truck with a tall insulated white box body
       and a refrigeration unit on the front of the box; plain, no readable
       writing; right-hand drive.
+
+  # ---- added for chapter 12 (2026-11-20)
+  supercub:
+    name: Kubo's Super Cub
+    full_name: Kubo's old green Honda Super Cub 50 step-through motorbike
+    traits: >-
+      A small old 1970s-80s step-through motorbike (Super Cub shape): GREEN
+      body drawn in MID-GREY tone, a cream-white plastic leg shield, a round
+      headlight on the handlebars, a long flat black seat, small spoked
+      wheels, a steel rear rack; a battered RED steel toolbox (dark grey tone)
+      tied onto the rack with old rope, its handle worn to bare metal. No
+      logos, no readable letters.
+    ref: artwork/car-sheets/supercub.png
+    rules:
+      - "It is a small step-through motorbike, NOT a scooter with a big body and NOT a sport bike."
+
+  flatbed:
+    name: Fumie's flatbed truck
+    full_name: Fumie's old two-ton cab-over flatbed truck
+    traits: >-
+      An old early-1980s Japanese two-ton cab-over FLATBED truck: a flat
+      boxy cab with a big flat windshield and round headlights, faded white
+      paint with rust round the wheel arches, a low steel flatbed with drop
+      sides, dual rear wheels. On both doors the word TANABE in faded pink
+      letters (drawn in a PALE grey tone). No other writing, no logos.
+    ref: artwork/car-sheets/flatbed.png
+    views:
+      front34:
+        ref: artwork/car-sheets/flatbed-front34.png
+        note: "front three-quarter crop for details only; draw the requested camera angle"
+    rules:
+      - "RIGHT-HAND DRIVE: Fumie drives from the cab's RIGHT side; the passenger sits on the LEFT."
+      - "In a side view that shows the driver's door, the truck's FRONT points to the RIGHT edge of the panel."
+
+  okabe_van:
+    name: Okabe's white van
+    full_name: Okabe's older white one-box van
+    traits: >-
+      An older plain WHITE Japanese one-box van (late 1980s), boxy, a little
+      dented, plain steel wheels. On its side a painted-over shop name in a
+      white that doesn't quite match, through which the words OKABE TIRE can
+      still be read. No other writing.
+    rules:
+      - "RIGHT-HAND DRIVE."
+

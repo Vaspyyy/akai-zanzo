@@ -1,0 +1,44 @@
+# Location plates for chapter 12. Run: production/az run -c chapter-012-plates
+title: Chapter 12 plates
+output_dir: artwork/locations
+defaults:
+  kind: plate
+  orientation: landscape
+pages:
+  - id: okabe-tire
+    location: okabe-tire
+    time: Sunday late morning, flat overcast daylight
+    refs:
+      - {path: artwork/locations/tanabe-yard.png, use: "another plate of this manga: copy ONLY its art style, line weight and screentone, not the place"}
+    guards:
+      - "No vehicles at all, no people. Tires have plain sidewalls with no brand names."
+    description: >-
+      Wide eye-level view across the road at the open front of a long low
+      corrugated-tin shed beside a straight concrete canal: the whole front
+      of the shed open, its inside dark with a two-post car lift (empty), a
+      tire-changing machine with its turntable, a wheel-balancing machine, a
+      coiled air hose, racks of tires along the back wall. Outside along the
+      front, towers of used tires tied in fours with rope, white chalk marks
+      on their treads. To the LEFT of the shed a narrow welding shop with gas
+      bottles at its door; to the RIGHT a small coffee shop with its steel
+      shutter pulled down and a paper sign in its window that reads FOR
+      LEASE. The canal's low concrete railing runs along the foreground,
+      utility poles and wires, low old buildings beyond. Oil stains on the
+      concrete. The only readable words: FOR LEASE.
+  - id: staff-room
+    location: staff-room
+    time: weekday afternoon, about 3:30 p.m., daylight from the windows
+    refs:
+      - {path: artwork/locations/classroom.png, use: "a plate of the same school: copy its windows, materials, art style, line weight and screentone"}
+    guards:
+      - "No people. No readable writing."
+    description: >-
+      Eye-level view down a long 1990s Japanese high-school staff room:
+      grey steel teachers' desks pushed together in islands of six, piled
+      high with stacks of papers, textbooks, files, green tea cups and
+      ashtrays, a jar of pens on one desk; swivel chairs; tall windows down
+      the left side with afternoon light and a view of a dusty sports ground
+      and a baseball backstop; on the right wall metal cabinets, a big
+      blackboard with a grid of chalk lines (no readable words), a kettle
+      and cups on a small sink counter; fluorescent tubes on the ceiling; a
+      faint haze of cigarette smoke.
