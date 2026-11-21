@@ -4,7 +4,7 @@ Everything that defines the story lives in this repo. A new thread changes nothi
 
 ## State
 - **Novel (light novel):** Volume 1, chapters 1-9 written, reviewed and built (`novel/volume-01/`). Next to write: **Ch10** (plan in `novel/OUTLINE.md` §7).
-- **Manga:** chapters 1-12 drawn (`scripts/`, `production/chapter-NNN.yaml`, `reviews/`). Ch12 p30 is a Gemini stand-in; a GPT redraw is scheduled for Sat 21 Nov 17:50, as a T3 scheduled task bound to the original thread. Next to draw: **Ch13**, which adapts novel Ch9 (mapping in `novel/OUTLINE.md` §2: novel V1 chN = manga ch(N+4) from Ch4 on).
+- **Manga:** chapters 1-12 drawn (`scripts/`, `production/chapter-NNN.yaml`, `reviews/`). Next to draw: **Ch13**, which adapts novel Ch9 (mapping in `novel/OUTLINE.md` §2: novel V1 chN = manga ch(N+4) from Ch4 on).
 - **Builds:** `./tools-build.sh NNN` (manga) and `novel/build-epub.sh` (novel) both copy the results to `~/Dokumente/Akai Zanzō/`.
 
 ## Read first
