@@ -110,7 +110,7 @@ Test: cover the speech tags. You should still know who's talking.
 - Don't summarize stretches of time in big blocks. Use a bridge line or a scene break.
 - Sentiment stays under the surface. Dai doesn't cry easily on the page, and the prose doesn't cry for him.
 
-**Lessons from reviews (Ch1-9).** Reviewers kept catching these:
+**Lessons from reviews (Ch1-10).** Reviewers kept catching these:
 
 - "The way you..." similes: two or three per chapter at most, and few "as if".
 - Every character ending a beat on a deadpan punchline. Give the quip to one person per scene; let the others be plain, tired or kind.
@@ -127,6 +127,7 @@ Test: cover the speech tags. You should still know who's talking.
 - Plants bunched in one stretch (a backstory, a phone call, a forbidden object and a hint, one after another) read like a character sheet. One plant per beat; move the rest to other scenes or cut them.
 - Physical logistics behind a correct sum or scene: where the cash physically is (the dictionary is at home; from the pumps he goes straight to school), where the sun stands against the lot map, which way bodies pitch under engine braking, and ages compared against the cast table.
 - A signature line reused across chapters until it is a tic ("On a night off my body still thinks it's at the pumps" in Ch5, 7 and 8; "which is what he does instead of saying good"). Grep the earlier chapters for a line you like before you use it again.
+- Announcing a moment before it arrives: a memory introduced as "it came anyway", or Dai explaining how a race will be lost before it's run. Show the clues he really saw, let a guess stay a guess, and let the event arrive on its own.
 
 ## 12. Sample passage (Volume 1, Chapter 1: the empty Thursday)
 
