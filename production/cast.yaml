@@ -730,14 +730,118 @@ characters:
         desc: pale pink (light grey tone) nurse's uniform dress, white cap, white shoes
 
   ward_mother:
-    name: MOTHER
+    name: KAZUE
     full_name: Kazue Sasaki, the mother of the little girl (Mai) in the next bed; recurring family friend from manga ch13 on
-    traits: Japanese woman about thirty-five, permed shoulder-length hair, asleep in a chair with her mouth open, a cardigan.
-    tell: "the young mother asleep in the chair by the next bed"
+    traits: >-
+      Japanese woman about thirty-five, a warm, lively, round-cheeked face
+      that smiles easily, thick PERMED dark hair in loose curls down to her
+      shoulders, a little untidy. Short and solid. Her knuckles are RED and
+      chapped (drawn as a darker tone on the backs of her fingers) from hot
+      water at the dry cleaner's.
+    tell: "the warm MOTHER, about 35, with thick curly permed shoulder-length hair and a brown cardigan"
     default_outfit: home
     outfits:
       home:
         desc: a beige cardigan over a blouse, slacks
+        ref: artwork/character-sheets/kazue.png
+        ref_note: the face and the permed hair
+      cardigan:
+        desc: >-
+          a brown knitted cardigan (mid-grey tone) with the cuffs pushed up to
+          the elbows over a plain pale blouse, dark slacks, flat shoes, a
+          shoulder handbag
+        ref: artwork/character-sheets/kazue.png
+
+  # ---- added for manga chapter 13 (2026-11-21)
+  ken:
+    name: KEN
+    full_name: Ken Sasaki (11, Mai's big brother, Mini 4WD know-it-all)
+    traits: >-
+      11-year-old Japanese boy, a head taller and sturdier than a small boy
+      of his age, square face, confident know-it-all look, black hair
+      clipped SO SHORT the scalp shows through, thick eyebrows. No glasses.
+      Looks nothing like the thin boy with round glasses and a bowl cut.
+    tell: "the sturdy BOY, 11, with scalp-short clipped hair, NO glasses, holding a green tackle box"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: >-
+          a navy zip-up track jacket with two white stripes down each sleeve
+          over a T-shirt, knee-length shorts, white socks, sneakers; a green
+          plastic fishing tackle box with a carry handle
+        ref: artwork/character-sheets/ken.png
+
+  mai:
+    name: MAI
+    full_name: Mai Sasaki (5, Ken's little sister, on steroids for her kidneys)
+    traits: >-
+      Small 5-year-old Japanese girl. Her cheeks are VERY round, puffy and
+      shiny, rounder than a five-year-old's should be (a steroid "moon
+      face"), so her eyes look small; straight black hair in a short bob
+      with a little hair clip. A white cotton gauze face mask, usually pulled
+      DOWN under her chin. Loud and happy.
+    tell: "the tiny GIRL, 5, with very round puffy cheeks and a white mask under her chin"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: >-
+          a pink (light grey tone) knitted cardigan over a dress, white
+          tights, small red shoes; a lollipop
+        ref: artwork/character-sheets/mai.png
+
+  fujita:
+    name: FUJITA
+    full_name: Fujita, owner of the hobby shop
+    traits: >-
+      Japanese man in his fifties, balding, round reading glasses on a cord,
+      a patient bored face, a stopwatch on a string round his neck.
+    tell: "the balding MAN in a shop apron with a stopwatch"
+    default_outfit: apron
+    outfits:
+      apron:
+        desc: a plain dark work apron over a checked shirt; on the apron's bib the word FUJITA in white letters
+
+  ishiguro:
+    name: ISHIGURO
+    full_name: Ishiguro, body-shop owner by the timber yards
+    traits: >-
+      Thin Japanese man about sixty, narrow face, a pencil tucked behind EACH
+      ear, a dry squint.
+    tell: "the THIN old man with a pencil behind each ear"
+    default_outfit: overalls
+    outfits:
+      overalls:
+        desc: grey work overalls smudged with paint dust, rolled sleeves
+
+  nobu_father:
+    name: NOBU'S FATHER
+    full_name: Mr. Kawamata, Nobu's father, owner of Kawamata Ramen
+    traits: >-
+      Japanese man about fifty, Nobu's round face with all the softness
+      boiled out of it: lean, hard cheeks, deep lines, small sharp eyes,
+      short-cropped grey-black hair; strong forearms. Says almost nothing.
+    tell: "the LEAN ramen cook, about 50, with a towel tied round his head"
+    default_outfit: kitchen
+    outfits:
+      kitchen:
+        desc: a plain white T-shirt, a white towel tied round his head, a dark apron
+
+  typer_driver:
+    name: THE YOUNG MAN
+    full_name: the driver of the white Integra Type R (unnamed)
+    traits: >-
+      Japanese young man about 22, slim, neat SHORT black hair cut tidily
+      with a side part, a smooth calm pleasant face, polite attentive eyes,
+      a small composed smile. Very tidy. Looks nothing like Dai: older,
+      softer, well groomed.
+    tell: "the NEAT young man, about 22, tidy side-parted hair, sweater over a white collar"
+    default_outfit: sweater
+    outfits:
+      sweater:
+        desc: >-
+          a plain V-neck sweater (mid-grey tone) over a white collared shirt,
+          dark trousers, a wristwatch on a metal strap
+        ref: artwork/character-sheets/typer-driver.png
 
 cars:
   meet_cars:
@@ -1103,3 +1207,70 @@ cars:
     rules:
       - "RIGHT-HAND DRIVE."
 
+
+  # ---- added for manga chapter 13 (2026-11-21)
+  integra:
+    name: the white Type R
+    full_name: 1995 Honda Integra Type R (DC2, Japanese market), brand new, white
+    traits: >-
+      Brand-new WHITE 1995 Japanese-market Integra Type R (DC2): a low
+      three-door coupe with a sloping fastback hatch, NARROW slanted
+      one-piece headlights across the front, a small mesh-less grille, a
+      tall wide rear WING standing up off the hatch on two struts, plain
+      15-inch five-spoke alloy wheels, black unscuffed tires. Spotless
+      paint, not a chip. White Japanese number plate, characters not
+      legible. A small plain badge on the nose with NO readable logo; NO
+      lettering anywhere on the car (no TYPE R script, no maker name).
+    ref: artwork/car-sheets/integra-dc2.png
+    views:
+      front34:
+        ref: artwork/car-sheets/integra-dc2-front34.png
+        note: "front three-quarter and front views; details only, draw the requested camera angle"
+      side:
+        ref: artwork/car-sheets/integra-dc2-side.png
+        note: "flat side view of the RIGHT (driver's) side, front pointing RIGHT; body details only, draw the requested camera angle"
+      rear:
+        ref: artwork/car-sheets/integra-dc2-rear.png
+        note: "rear three-quarter with the tall wing; details only, draw the requested camera angle"
+    rules:
+      - "RIGHT-HAND DRIVE (Japanese market): the steering wheel and the driver are on the car's RIGHT side."
+      - "In every side view that shows the driver, the car's FRONT points to the RIGHT edge of the panel."
+      - "It is NOT a Roadster and NOT a convertible: a fixed steel roof, a hatchback coupe with a big wing."
+
+  sota_car:
+    name: Sota's Mini 4WD
+    full_name: Sota's blue Mini 4WD toy car (battery-powered slot-less racing toy)
+    traits: >-
+      A small battery-powered racing TOY car about as long as a hand
+      (15 cm): a BLUE (mid-grey tone) plastic chassis, a CLEAR see-through
+      plastic body with a pale lightning-bolt sticker down each side, four
+      fat little rubber tires, and at each corner a little WHITE plastic
+      roller wheel lying FLAT, sideways, on a short arm, sticking out past
+      the bumpers. No brand names or logos.
+    ref: artwork/car-sheets/mini4wd.png
+    rules:
+      - "It is a TOY on a toy track (or in a hand or on a table), never a real car."
+
+  ken_car:
+    name: Ken's Mini 4WD
+    full_name: Ken's red tuned Mini 4WD toy car
+    traits: >-
+      A small racing TOY car the size of a hand: a RED (dark grey tone)
+      plastic body with rows of round holes cut through it to make it
+      lighter, small shiny METAL roller wheels at each corner. No brand names
+      or logos.
+    ref: artwork/car-sheets/mini4wd.png
+    rules:
+      - "It is a TOY on a toy track (or in a hand), never a real car."
+
+  burnt_roadster:
+    name: the burned white Roadster
+    full_name: a white 1990s Eunos Roadster burned out by a wiring fire, at Ishiguro's
+    traits: >-
+      A small WHITE two-seat convertible of the same model as the red
+      Roadster (round pop-up headlights), its soft top REMOVED (open cockpit,
+      no roof), the whole FRONT black and blistered by fire: scorched hood,
+      melted bumper, burned-out headlights, soot streaks down the doors.
+      Flat tires. Right-hand drive. NOT red.
+    rules:
+      - "It is WHITE and burned black at the front, never red, never clean."

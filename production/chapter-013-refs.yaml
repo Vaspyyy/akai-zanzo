@@ -1,0 +1,145 @@
+# Reference sheets and the plate for chapter 13. Run: production/az run -c chapter-013-refs
+title: Chapter 13 references
+output_dir: artwork/character-sheets
+pages:
+  - id: kazue
+    kind: sheet
+    refs:
+      - {path: production/runs/ref-src/kazue-ch10.png, use: "two panels of this same woman from chapter 10, asleep in a hospital chair: copy her face shape and her thick curly permed shoulder-length hair exactly (she is awake on the new sheet)"}
+      - {path: artwork/character-sheets/nobu.png, use: "an approved sheet of this manga: copy ONLY its layout (turnaround left, expression grid right, one detail panel) and its ink and screentone style; NOT his face, body or clothes"}
+    description: >-
+      Character sheet for KAZUE SASAKI, 35, a Japanese mother in 1995 who
+      works part-time at a dry cleaner's: short and solid, a warm, lively,
+      round-cheeked face that smiles easily, thick PERMED dark hair in loose
+      curls down to her shoulders, a little untidy. Her knuckles are RED and
+      chapped from hot water (a darker tone on the backs of her fingers).
+      Clothes: a brown knitted cardigan (mid-grey tone) with the cuffs pushed
+      up to the elbows over a plain pale blouse, dark slacks, flat shoes, a
+      shoulder handbag. Left half: full-body turnaround (front,
+      three-quarter, side profile, back), standing at ease. Right half: four
+      head close-ups: a warm open smile while talking; a matter-of-fact look
+      ("it might rain on Tuesday"); calling across a room to her son; asleep
+      sitting up with her head back and her mouth open. Detail sketch: her
+      red-knuckled hands writing on the back of a small paper receipt held
+      on her knee with a ballpoint pen.
+
+  - id: ken
+    kind: sheet
+    refs:
+      - {path: artwork/character-sheets/sota.png, use: "an approved sheet of this manga: copy ONLY its layout and its ink and screentone style; this boy must look COMPLETELY DIFFERENT from the boy on it (no glasses, no bowl cut, bigger)"}
+    description: >-
+      Character sheet for KEN SASAKI, 11, a Japanese schoolboy in 1995 who
+      knows everything about Mini 4WD racing toys: a head taller and sturdier
+      than a small boy his age, square face, confident know-it-all look,
+      black hair clipped SO SHORT the scalp shows through, thick eyebrows, NO
+      glasses. Clothes: a navy zip-up track jacket with two white stripes
+      down each sleeve over a T-shirt, knee-length shorts, white socks,
+      sneakers. He carries a GREEN plastic fishing tackle box with a carry
+      handle, held against his chest. Left half: full-body turnaround
+      (front, three-quarter, side profile, back) holding the tackle box.
+      Right half: four head close-ups: explaining eagerly, one finger up;
+      looking someone up and down, unimpressed; staring in surprise; turning
+      away hiding a grin at one corner of his mouth. Detail sketch: the
+      tackle box OPEN, every compartment full of tiny metal wheels, little
+      motors, springs and a tiny screwdriver.
+
+  - id: mai
+    kind: sheet
+    refs:
+      - {path: artwork/character-sheets/sota.png, use: "an approved sheet of this manga: copy ONLY its layout and its ink and screentone style, NOT the boy"}
+    description: >-
+      Character sheet for MAI SASAKI, a small 5-year-old Japanese girl on
+      steroid medicine for a kidney illness: her cheeks are VERY round,
+      puffy and shiny, rounder than a five-year-old's should be (a "moon
+      face"), so her eyes look small; straight black hair in a short bob
+      with a little hair clip. Loud and happy, not sad. Clothes: a pink
+      (light grey tone) knitted cardigan over a dress, white tights, small
+      shoes. A white cotton gauze face mask: shown worn over her nose and
+      mouth in one view and pulled DOWN under her chin in the others. Left
+      half: full-body turnaround (front, three-quarter, side, back). Right
+      half: four head close-ups: yelling "GO!" with her mouth wide open;
+      sucking a lollipop in one round cheek; looking up shyly; masked, eyes
+      only. Detail sketch: her small hand holding a round lollipop.
+
+  - id: typer-driver
+    kind: sheet
+    refs:
+      - {path: artwork/character-sheets/sugimoto.png, use: "an approved sheet of this manga: copy ONLY its layout and its ink and screentone style; NOT this man's face, glasses or suit"}
+    description: >-
+      Character sheet for an unnamed young Japanese man of about 22 in 1995,
+      polite and precise: slim, neat SHORT black hair cut tidily with a side
+      part, a smooth calm pleasant face, attentive eyes, a small composed
+      smile. Very tidy. Clothes: a plain V-neck sweater (mid-grey tone) over
+      a white collared shirt, dark trousers, a wristwatch on a metal strap.
+      Left half: half-body turnaround (front, three-quarter, side profile)
+      seated as if in a car seat, shoulders square. Right half: four head
+      close-ups: a polite "good evening" face; a pleasant small smile with
+      the eyes not smiling; looking down at something on another person's
+      chest; turning his head to look back over his shoulder through an
+      open window. Detail sketch: his two hands resting on a small leather
+      steering-wheel rim at exactly nine and three o'clock, thumbs along the
+      rim (no car, just the wheel rim). No glasses.
+
+  - id: integra-dc2
+    kind: car_sheet
+    output: artwork/car-sheets/integra-dc2.png
+    description: >-
+      Technical reference sheet for one brand-new WHITE 1995 Japanese-market
+      Honda Integra Type R (DC2), right-hand drive: a low three-door coupe
+      with a sloping fastback hatch, NARROW slanted one-piece headlights
+      across the front (NOT four round lamps), a slim grille, a tall wide
+      rear WING standing up off the hatch on two struts, plain 15-inch
+      five-spoke alloy wheels, black tires. Spotless white paint (pure
+      white paper with crisp ink lines and light grey shading). White number
+      plates, characters not legible. A small plain badge on the nose with
+      NO readable letters; NO lettering, logos or stickers anywhere. Views
+      on white: TOP LEFT front three-quarter from the front-LEFT, low;
+      TOP RIGHT straight front view; BOTTOM LEFT flat side view of the
+      RIGHT (driver's) side with the FRONT pointing RIGHT and the steering
+      wheel visible through the right window; BOTTOM RIGHT rear
+      three-quarter from behind-RIGHT showing the tall wing and the
+      taillights. No people.
+
+  - id: mini4wd
+    kind: car_sheet
+    output: artwork/car-sheets/mini4wd.png
+    description: >-
+      Prop reference sheet for two small battery-powered racing TOY cars of
+      the Japanese 1990s Mini 4WD kind (each about 15 cm long, no track, no
+      people), black-and-white ink with grey tone. TOP ROW, the BLUE car:
+      a blue (mid-grey tone) plastic chassis, a CLEAR see-through plastic
+      body shell with a pale lightning-bolt sticker down each side, four fat
+      little rubber tires, and at each of the four corners a little WHITE
+      plastic roller wheel lying FLAT (horizontal) on a short arm, sticking
+      out past the bumpers; three views: three-quarter from above, side
+      view, and UNDERSIDE (two AA batteries in the chassis, a tiny motor at
+      the back, the four flat rollers). BOTTOM ROW, the RED car: a red (dark
+      grey tone) body shell with rows of round holes drilled through it,
+      small shiny METAL roller wheels at the corners, low and mean; two
+      views: three-quarter from above and side view. Bottom right: a GREEN
+      plastic fishing tackle box, open, every little compartment full of
+      tiny metal wheels, little motors with colored labels, springs and a
+      tiny screwdriver. No brand names, logos or readable text anywhere.
+
+  - id: fujita-hobby
+    kind: plate
+    location: fujita-hobby
+    output: artwork/locations/fujita-hobby.png
+    orientation: landscape
+    time: Saturday about 2 p.m., fluorescent light, dull glow through the painted-over windows
+    refs:
+      - {path: artwork/locations/staff-room.png, use: "another plate of this manga: copy ONLY its art style, line weight and screentone, not the place"}
+    guards:
+      - "No people, no toy cars on the track. No readable words; the box art on the kits is blurred shapes."
+    description: >-
+      Wide eye-level view down the length of the long narrow room from near
+      the top of the stairs: model kit boxes stacked on shelves up both walls
+      to the ceiling; the white plastic three-lane TRACK on short legs filling
+      the middle of the floor, a long loop with a tight curve at each end,
+      the low lane walls clearly visible; in the near straight the lane-change
+      BRIDGE: the three lanes climb a short ramp over a hump and come down
+      the other side crossed over; folding stools round the track; at the
+      far end the wooden counter with a small till and a roll of tape, and
+      behind it rows of small plastic parts bags hanging on pegs, each with
+      a little price sticker; painted-over windows down the right side
+      glowing dull white; fluorescent tubes.

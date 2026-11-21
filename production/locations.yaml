@@ -576,3 +576,70 @@ staff-room:
     - "No readable writing on the papers or the blackboard."
   default_time: weekday afternoon, about 3:30 p.m.
 
+
+# ---- added for manga chapter 13 (2026-11-21)
+fujita-hobby:
+  name: Fujita's hobby shop, upstairs over the shoe shop
+  description: >-
+    One long narrow room up a flight of stairs, its street windows painted
+    over white so only a dull glow comes through; fluorescent tubes on the
+    ceiling; plastic model kits in their boxes on shelves up all the walls
+    to the ceiling; at the far end a wooden counter with a small till and a
+    roll of tape, and above it rows of little plastic bags of parts hanging
+    on pegs, each with a handwritten price sticker; worn carpet tiles. In
+    the middle of the floor the TRACK: white plastic on short legs, knee
+    high, three lanes side by side with low walls as high as a matchbox,
+    running round a long loop with a tight curve at each end; halfway along
+    the near straight the lanes climb a short RAMP over a hump (the lane
+    change BRIDGE) and come down the other side crossed over. Folding
+    stools round it.
+  plate: artwork/locations/fujita-hobby.png
+  guards:
+    - No readable brand names or logos on the kit boxes or anywhere; box art is blurred shapes.
+  default_time: Saturday about 2 p.m.
+covered-street:
+  name: the covered shopping street near the station
+  description: >-
+    A 1995 Japanese shotengai: a narrow pedestrian street under an arched
+    translucent arcade roof on steel ribs, small shops on both sides with
+    their goods out front, hanging paper banners with no readable words,
+    bicycles parked along the middle; a shoe shop with racks of shoes on
+    the pavement and, beside its door, a steep narrow stairway going up to
+    the floor above.
+  guards:
+    - No readable signs or brand names.
+  default_time: Saturday afternoon
+ishiguro-body-shop:
+  name: Ishiguro's body shop between the timber yards
+  description: >-
+    A small car body shop in a rusty corrugated tin shed on the river road,
+    squeezed between two timber yards whose stacks of fresh pale planks show
+    over the fences on both sides; a concrete apron with oil stains, a paint
+    booth curtain, a compressor, pallets; behind the shed a gravel patch with
+    a burned car.
+  guards:
+    - No readable signs.
+  default_time: Monday about 3:30 p.m., clear October afternoon
+river-road:
+  name: the river road toward the harbor, past the Sanko Brake plant
+  description: >-
+    A long straight two-lane road beside a wide grey river with a low
+    concrete embankment, timber yards, a cement works with a tall silo,
+    utility poles; then a long grey fence along a factory with saw-tooth
+    roofs and a chimney, and a wide steel gate with a guard hut, over which
+    a sign reads SANKO BRAKE INDUSTRIES in red (drawn dark).
+  guards:
+    - The only readable words are SANKO BRAKE INDUSTRIES over the gate and SANKO on jacket pockets, only where a panel asks.
+  default_time: Monday about 4:45 p.m., the sun low and orange
+kawamata-ramen:
+  name: inside Kawamata Ramen by the station, evening
+  description: >-
+    A tiny family ramen shop: a worn wooden counter with EIGHT round red
+    stools, behind it the open kitchen with big steaming stock pots, a
+    flat iron gyoza pan, ladles on hooks, bowls stacked on a shelf; steam
+    everywhere; a small TV high in the corner; paper menu strips on the wall
+    with no readable words; a sliding glass front door with a short noren
+    curtain, dark outside.
+  guards:
+    - Menu strips and the noren have no readable words.
+  default_time: Monday about 7 p.m.
