@@ -1,7 +1,7 @@
 # Chapter 12: "Timing Belt"
 
 **Split:** all of Volume 1 Chapter 8 ("Timing Belt"). Chapter 11 ended on Fumie's cut-off line and "Get back to work." (end of novel Chapter 7).
-**Status:** pages 1-29 drawn 2026-11-20; page 30 waits for the image quota (reset Sat 21 Nov 17:40). 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-08.md`. **Spec:** `production/chapter-012.yaml` (this script is generated from it). **References:** `production/chapter-012-cars.yaml`, `production/chapter-012-plates.yaml`.
+**Status:** drawn 2026-11-20 (p1-29) and 2026-11-21 (p30). 30 pages, right-to-left. **Source:** `novel/volume-01/chapter-08.md`. **Spec:** `production/chapter-012.yaml` (this script is generated from it). **References:** `production/chapter-012-cars.yaml`, `production/chapter-012-plates.yaml`.
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel.
 **Pacing:** dense and quiet, like Ch8-11 (240 panels). Kubo's diagnosis is detective work by ear and by hand on its own fourteen pages: the dry ground, the dipstick, the starter's wrong limp, the cam that doesn't move, the bare pulleys, the rubber tooth, the engine turned by hand. Then home (Aya's nose, Sota's "How much is a belt?"), the grey soap, the tire trip to Okabe's, the car on its own wheels, the staff room, payday, the letter. Mom reads it with her back turned at the stove, wordless and unexplained. The ending is as quiet as the novel's: 4 a.m., the letter he can't read, the tooth.
 

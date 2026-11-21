@@ -1,13 +1,13 @@
 # Chapter 12 review
 
-Build: `./tools-build.sh 012` -> `build/akai-zanzo-ch012.{cbz,pdf}` (**29 pages so far**), copied to the documents folder (`~/Dokumente/Akai Zanzō`).
+Build: `./tools-build.sh 012` -> `build/akai-zanzo-ch012.{cbz,pdf}` (30 pages), copied to the documents folder (`~/Dokumente/Akai Zanzō`).
 Script: `scripts/chapter-012.md` ("Timing Belt", adapts all of novel Vol. 1 Ch. 8 "Timing Belt"; generated from the spec). Spec: `production/chapter-012.yaml`; references: `production/chapter-012-cars.yaml`, `production/chapter-012-plates.yaml`; single-panel redraws: `production/chapter-012-fixes.yaml`.
 
-**Page 30 (4 a.m., the dark kitchen, the tooth) is not drawn yet.** Its job hit the Codex usage limit at 20:51 on 20 Nov (`resets_at` = Sat 21 Nov 17:40). Its spec is final: run `production/az run -c 12 -p 30`, review it, rebuild.
+Page 30 was drawn last, on Sat 21 Nov after the Codex reset (see the end of this file).
 
 Drawn 2026-11-20 from 19:29, about 66 image calls:
 - 5 references (9 calls): the wreck's engine bay (`car-sheets/blue-roadster-wreck-engine.png`: as found, then with the cover off and the broken belt), Kubo's green Super Cub with the roped-on red toolbox (`car-sheets/supercub.png`), Fumie's two-ton flatbed with TANABE on the doors (`car-sheets/flatbed.png`, plus a hand crop `flatbed-front34.png`), and plates for Okabe Tire and the staff room (`locations/okabe-tire.png`, `locations/staff-room.png`).
-- 29 pages, one take each (about 230 panels), plus 2 single-panel redraws.
+- 30 pages (about 240 panels): p01-p29 one take each on 20 Nov, p30 on 21 Nov (two takes), plus 2 single-panel redraws.
 - The first batch was cut off at 19:49 after p01, p03 and p04 (its provenance rows were added by hand); the rest ran in a second batch from 20:10.
 - New cast: Kubo's own Sunday clothes (`kubo:own`), Okabe in navy overalls (`okabe:overalls`), Hotta in a grey cardigan (`hotta:cardigan`); cars `supercub`, `flatbed`, `okabe_van`; the wreck's `engine` view. New locations `okabe-tire`, `staff-room`.
 
@@ -68,5 +68,17 @@ Every page was reviewed on its own, then in pairs on overview sheets (`productio
 - p29: Sota lies on the tatami holding his inhaler instead of a comic.
 - Unscripted SFX: none of note.
 
-## Page 30 stand-in (2026-11-20, 21:15)
-The owner asked for page 30 right away instead of waiting for the Codex reset, and accepted a different look. It was drawn by Gemini through T3's Antigravity provider from the same az prompt and refs. Gemini laid the panels out left to right, so the art was mirrored (the two small sound effects were pasted back unmirrored), resized to 1024x1536 and lettered with `az letter` (7/7 captions placed; the P8 caption is 18 px, below the 20 px rule, and the grown P1 caption covers most of Dai). A scheduled run on Sat 21 Nov at 17:50 redraws p30 with GPT to match the chapter.
+## Page 30 (GPT, 2026-11-21)
+The Gemini stand-in of 20 Nov (drawn while Codex was locked, mirrored and lettered by hand) was replaced on Sat 21 Nov after the 17:40 reset with a GPT-6.1 Terra page from the same spec, so the whole chapter now has one look. 3 image_gen calls:
+- Take 1 (2 calls) was rejected: the garbage calendar hung flat on the wall, not crooked on the fridge door next to the letter as on p29, and the "gooo" sound effect was clipped by the last caption.
+- Take 2 (1 call), with p29 added as a reference for the fridge door, passes. Checks:
+  - the dark kitchen with the tube off and the wall clock at about 4:00;
+  - the crooked calendar and the letter on the fridge door in all three fridge views, matching p29;
+  - the refrigerator light swinging the letter away (P3);
+  - the tooth in Dai's palm (P7), his hand at his side in the last panel;
+  - the fish truck's lights in the window, "vuuun" and "gooo" clear of the captions;
+  - right-to-left order;
+  - every caption 20 px or larger (three boxes pinned).
+- Kept nits: in the last panel his hand is too small to see as a fist, and the palm close-up doesn't show the pink line.
+
+The chapter now builds at 30 pages.

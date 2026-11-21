@@ -1495,14 +1495,17 @@ pages:
   time: Thursday about 4 a.m., DARK; the fluorescent tube is OFF; the only light is a dim grey glow through the frosted glass over the sink from the stair lamp outside
   guards:
   - "Dai: SHORT black hair, black T-shirt and grey sweatpants, barefoot."
-  - "On the refrigerator DOOR: a white square (the letter) pinned flat with a round magnet, and beside it a calendar hanging crooked by one corner. On the fridge's SIDE the handwritten clinic paper. Nothing is readable in the dark."
+  - "On the refrigerator DOOR (not on the wall): a small paper garbage calendar hanging CROOKED, tilted by one corner from a single round magnet, and below it a white square (the letter) pinned flat with the other round magnet, exactly like the fridge door in reference page 29. On the fridge's SIDE the handwritten clinic paper. NO calendar on the wall. Nothing is readable in the dark."
+  - "The small sound effect 'gooo' sits at the lower LEFT of the last panel, clear of the caption box."
   - "Very dark, quiet, still. Heavy blacks and soft grey tones."
+  refs:
+  - {path: artwork/pages/chapter-012/page-29.art.png, use: "the previous page: copy the refrigerator door exactly (the crooked garbage calendar on one magnet, the letter below it on the other) and the kitchen; NOT its people or its daylight"}
   panels:
   - pos: top, wide
     action: "The dark kitchen at four in the morning: only grey shapes in the faint light from the frosted glass over the sink: the low table, the phone on its shelf, the refrigerator with a white square on its door and a crooked calendar; Dai standing in front of it, small, barefoot."
     cast: [*dai_night]
     captions:
-    - WEDNESDAY IS A NIGHT OFF. AT A QUARTER TO FOUR MY EYES CAME OPEN ON THEIR OWN, IN TIME FOR A SHIFT I DIDN'T HAVE.
+    - {text: "WEDNESDAY IS A NIGHT OFF. AT A QUARTER TO FOUR MY EYES CAME OPEN ON THEIR OWN, IN TIME FOR A SHIFT I DIDN'T HAVE.", box: [16, 14, 450, 112], draw: true}
   - pos: upper-right
     action: "Close on Dai's bare feet on the cold kitchen floor."
     cast: [{<<: *dai_night, note: "only his bare feet"}]
@@ -1517,7 +1520,7 @@ pages:
     action: "The refrigerator shut again, dark; the white square a pale shape on the door."
     sfx: [{text: vuuun, note: "small, the refrigerator humming"}]
     captions:
-    - I DIDN'T NEED TO READ IT. PRODUCTION. SHIOMI PLANT. 1 APRIL 1996. CONDITIONAL UPON YOUR GRADUATION.
+    - {text: "I DIDN'T NEED TO READ IT. PRODUCTION. SHIOMI PLANT. 1 APRIL 1996. CONDITIONAL UPON YOUR GRADUATION.", box: [646, 742, 360, 128], draw: true}
   - pos: middle-left
     action: "The closed fusuma in the dark, a blanket's edge showing at the bottom gap."
     captions:
@@ -1535,4 +1538,4 @@ pages:
     cast: [*dai_night]
     sfx: [{text: gooo, note: "small, distant gears grinding"}]
     captions:
-    - UNTIL THE FIRST FISH TRUCK WENT BY ON THE MAIN ROAD BELOW, TOWARD THE HARBOR, GRINDING THROUGH ITS GEARS AT THE CORNER.
+    - {text: "UNTIL THE FIRST FISH TRUCK WENT BY ON THE MAIN ROAD BELOW, TOWARD THE HARBOR, GRINDING THROUGH ITS GEARS AT THE CORNER.", box: [540, 1292, 466, 120], draw: true}
