@@ -76,15 +76,15 @@ pages:
     action: "Sota pushing the little blue toy car along the low table with one finger, its tiny gears ticking."
     cast: [*sota_home, {id: sota_car, camera: "from above at a slant, rolling along the table under his finger"}]
     dialogue:
-    - sota: THE HOBBY SHOP. OVER THE SHOE SHOP, IN THE COVERED STREET.
+    - sota: {text: "THE HOBBY SHOP. OVER THE SHOE SHOP.", box: [838, 26, 166, 212], draw: true, tail: [840, 250]}
     - sota: IT'S A HUNDRED YEN TO GO IN. KEN SAYS YOU CAN'T WIN ANYTHING WITHOUT A TUNED MOTOR. BUT YOU CAN GO IN.
     sfx: [{text: tik tik tik, note: small}]
   - pos: top-left
     action: "Sota, explaining seriously, glasses pushed up."
     cast: [*sota_home]
     dialogue:
-    - sota: KEN'S FROM THE HOSPITAL. HIS SISTER HAD THE BED NEXT TO MINE. MAI-CHAN. SHE'S FIVE.
-    - sota: HE KNOWS EVERYTHING ABOUT MOTORS. HE'S GOT A TACKLE BOX.
+    - sota: {text: "KEN'S FROM THE HOSPITAL. HIS SISTER HAD THE BED NEXT TO MINE.", box: [332, 26, 174, 336], draw: true, tail: [350, 350]}
+    - sota: {text: "MAI-CHAN. SHE'S FIVE. HE KNOWS EVERYTHING ABOUT MOTORS. HE'S GOT A TACKLE BOX.", box: [24, 26, 232, 330], draw: true, tail: [244, 300]}
   - pos: middle, wide
     location: childrens-ward
     action: "Memory inset with a soft grey border, daytime: a children's-ward bed by the window, a little girl asleep in it with the blanket up to her chin; an empty chair beside it."
@@ -94,7 +94,7 @@ pages:
     action: "Sota talking to the toy car, not looking up; behind him, out of focus, the tired mother's back at the stove (small woman, black-and-grey hair in a loose low bun, worn cardigan)."
     cast: [*sota_home]
     dialogue:
-    - sota: MOM'S AT THE FACTORY TILL TWO. THEN SHE SLEEPS. AND AYA'S WORKING.
+    - sota: {text: "MOM'S AT THE FACTORY TILL TWO. THEN SHE SLEEPS. AND AYA'S WORKING.", box: [772, 870, 222, 270], draw: true, tail: [760, 1010]}
   - pos: lower-left
     action: "Close on the mother's hand in a worn cardigan sleeve turning the knob of the gas burner off under the frying pan; she does not turn round."
     captions:
@@ -251,7 +251,7 @@ pages:
     cast: [{<<: *sota_out, note: "from behind, climbing"}]
     sfx: [WHIIIIIN, KARAKARAKARA]
     captions:
-    - A HIGH THIN WHINING, LOTS OF IT AT ONCE, AND UNDER IT A RATTLE, PLASTIC ON PLASTIC, AND BOYS SHOUTING.
+    - {text: "A HIGH THIN WHINING, LOTS OF IT AT ONCE, AND UNDER IT A RATTLE, PLASTIC ON PLASTIC, AND BOYS SHOUTING.", box: [552, 925, 449, 118], draw: true}
   - pos: middle-left
     action: "Close on the wooden counter at the far end: rows of little plastic bags of parts hanging on pegs, each with a handwritten price sticker reading 280, 350 or 600."
     captions:
@@ -261,7 +261,7 @@ pages:
     cast: [{id: fujita, note: "small, far off, at the start of the track"}]
     captions:
     - UPSTAIRS IT WAS ONE LONG ROOM WITH THE WINDOWS PAINTED OVER. MODEL KITS IN BOXES WENT UP THE WALLS TO THE CEILING.
-    - THE MIDDLE OF THE FLOOR WAS THE TRACK.
+    - {text: "THE MIDDLE OF THE FLOOR WAS THE TRACK.", box: [22, 1438, 300, 84], draw: true}
 
 - page: 7
   title: Sasaki Ken
@@ -483,12 +483,12 @@ pages:
     action: "The balding man in the apron at the till tearing a strip of tape off a roll and holding it down to them without a word."
     cast: [fujita]
     captions:
-    - THE MAN IN THE APRON GAVE US A STRIP OF TAPE OFF A ROLL BY THE TILL WITHOUT ASKING WHAT IT WAS FOR.
+    - {text: "THE MAN IN THE APRON GAVE US A STRIP OF TAPE OFF A ROLL BY THE TILL WITHOUT ASKING WHAT IT WAS FOR.", box: [552, 1410, 450, 106], draw: true}
   - pos: lower-left
     action: "Close on the underside of the upside-down blue toy car: two 10-yen coins stacked flat between the front wheels; Sota's thumbnail pressing down the edges of the tape; Dai's fingers holding the car."
     cast: [{id: sota_car, camera: "underside, close, upside down in two hands"}]
     captions:
-    - I LAID THE TWO COINS FLAT UNDER THE FRONT, ONE ON TOP OF THE OTHER, AND SOTA TAPED THEM DOWN. THE CAR WEIGHED ABOUT TWO 10-YEN COINS MORE.
+    - {text: "I LAID THE TWO COINS FLAT UNDER THE FRONT, ONE ON TOP OF THE OTHER, AND SOTA TAPED THEM DOWN. THE CAR WEIGHED ABOUT TWO 10-YEN COINS MORE.", box: [16, 1398, 530, 120], draw: true}
 
 - page: 13
   title: We already lost
@@ -507,7 +507,7 @@ pages:
     action: "Sota, calm and matter-of-fact, already walking to the start."
     cast: [*sota_out]
     dialogue:
-    - sota: THIS ISN'T A REAL RACE ANY MORE. WE ALREADY LOST.
+    - sota: {text: "THIS ISN'T A REAL RACE ANY MORE. WE ALREADY LOST.", box: [276, 44, 250, 226], draw: true, tail: [262, 222]}
   - pos: middle-right
     action: "Close on Sota's hands setting the switched-on toy car down in a lane at the start."
     cast: [{<<: *sota_out, note: "only his hands"}, {id: sota_car, camera: "from behind and above, at the start line"}]
@@ -538,7 +538,7 @@ pages:
     action: "High view of the whole white track: the little blue car alone going round, small, kids round the edge watching."
     cast: [{id: sota_car, camera: "bird's-eye from the ceiling, tiny"}]
     captions:
-    - IT WENT ROUND THE WHOLE TRACK, AND OVER THE BRIDGE AGAIN, AND ROUND THAT CORNER AGAIN.
+    - {text: "IT WENT ROUND THE WHOLE TRACK, AND OVER THE BRIDGE AGAIN, AND ROUND THAT CORNER AGAIN.", box: [660, 466, 342, 130], draw: true}
   - pos: upper-left
     action: "Sota with both hands clapped over his mouth, eyes huge behind his glasses."
     cast: [*sota_out]
@@ -596,7 +596,7 @@ pages:
     action: "Close on Kazue: thick permed curls, brown cardigan with the cuffs pushed up, red chapped knuckles on the hand holding her bag strap."
     cast: [*kazue]
     captions:
-    - PERMED HAIR DOWN TO HER SHOULDERS, A BROWN CARDIGAN WITH THE CUFFS PUSHED UP, AND RED KNUCKLES, THE KIND YOU GET FROM HOT WATER.
+    - {text: "PERMED HAIR DOWN TO HER SHOULDERS, A BROWN CARDIGAN WITH THE CUFFS PUSHED UP, AND RED KNUCKLES, THE KIND YOU GET FROM HOT WATER.", box: [800, 600, 202, 340], draw: true}
   - pos: upper-left
     location: childrens-ward
     action: "Memory inset with a soft grey border: the same woman asleep in a chair on the children's ward, head back against the wall, mouth open."
@@ -612,12 +612,12 @@ pages:
     action: "Dai, caught out, deadpan."
     cast: [*dai_jacket]
     dialogue:
-    - dai_cut: YOU WERE ASLEEP.
+    - dai_cut: {text: "YOU WERE ASLEEP.", box: [592, 1284, 166, 178]}
   - pos: lower-left
     action: "Kazue smiling broadly."
     cast: [*kazue]
     dialogue:
-    - ward_mother: I'M ALWAYS ASLEEP IN THAT CHAIR. I WAKE UP WHEN ANYBODY NEW COMES IN, AND I'M BACK ASLEEP BEFORE THEY'VE NOTICED.
+    - ward_mother: {text: "I'M ALWAYS ASLEEP IN THAT CHAIR. I WAKE UP WHEN ANYBODY NEW COMES IN, AND I'M BACK ASLEEP BEFORE THEY'VE NOTICED.", box: [190, 1270, 386, 242], draw: true, tail: [170, 1440]}
 
 - page: 17
   title: Mostly cheeks
@@ -641,7 +641,7 @@ pages:
     cast: [*kazue]
     dialogue:
     - ward_mother: IT'S THE MEDICINE. SHE EATS LIKE A SUMO WRESTLER ON IT, AND SHE CATCHES EVERYTHING GOING, SO IT'S THE MASK.
-    - ward_mother: SHE'S HOME NOW, TILL THE NEXT TIME. HOW'S YOUR MOTHER?
+    - ward_mother: {text: "SHE'S HOME NOW, TILL THE NEXT TIME. HOW'S YOUR MOTHER?", box: [330, 530, 262, 240], draw: true, tail: [350, 790]}
     captions:
     - SHE SAID IT THE WAY YOU'D SAY IT MIGHT RAIN ON TUESDAY.
   - pos: lower-right
@@ -653,8 +653,8 @@ pages:
     action: "Memory inset with a soft grey border, daytime on a hospital children's ward (white metal bed, curtain on a rail, window): a ward chair beside a child's bed; Mom in her light-blue factory smock asleep sitting up in it, her handbag on her knees."
     cast: [{id: michiko, outfit: factory, note: "asleep sitting up"}]
     dialogue:
-    - {speaker: ward_mother, text: "HAYAMA-SAN CAME EVERY AFTERNOON STRAIGHT FROM THE FACTORY AND WENT TO SLEEP SITTING UP WITH HER BAG ON HER KNEES.", offpanel: true}
-    - {speaker: ward_mother, text: "I SAID, YOU GO HOME, I'M HERE ANYWAY. SHE SAID THANK YOU. SHE DIDN'T GO.", offpanel: true}
+    - {speaker: ward_mother, text: "HAYAMA-SAN CAME EVERY AFTERNOON STRAIGHT FROM THE FACTORY AND WENT TO SLEEP SITTING UP WITH HER BAG ON HER KNEES.", offpanel: true, box: [236, 1118, 452, 236], draw: true, tail: [690, 1250]}
+    - {speaker: ward_mother, text: "I SAID, YOU GO HOME, I'M HERE ANYWAY. SHE SAID THANK YOU. SHE DIDN'T GO.", offpanel: true, box: [262, 1362, 420, 152], draw: true, tail: [690, 1440]}
 
 - page: 18
   title: For nights
@@ -712,13 +712,13 @@ pages:
     dialogue:
     - mai: GO!
     captions:
-    - KEN DIDN'T HEAR HER. SOTA'S CAR CAME OFF THE BRIDGE AGAIN, NOSE DOWN, AND WENT ROUND, AND ROUND.
+    - {text: "KEN DIDN'T HEAR HER. SOTA'S CAR CAME OFF THE BRIDGE AGAIN, NOSE DOWN, AND WENT ROUND, AND ROUND.", box: [386, 26, 400, 120], draw: true}
   - pos: top-left
     location: fujita-hobby
     action: "Dai sliding the slip into his jacket pocket next to white cotton gloves, a folded paper list and a tiny square black rubber tooth."
     cast: [{<<: *dai_jacket, note: "only his hand and pocket"}]
     captions:
-    - ON THE FRONT IT SAID FUJITA, AND THE DATE, AND AA ALKALINE X2, 380. I PUT IT IN MY POCKET, WITH THE GLOVES AND SOTA'S LIST OF CAT NAMES AND THE RUBBER TOOTH.
+    - {text: "ON THE FRONT IT SAID FUJITA, AND THE DATE, AND AA ALKALINE X2, 380. I PUT IT IN MY POCKET, WITH THE GLOVES AND SOTA'S LIST OF CAT NAMES AND THE RUBBER TOOTH.", box: [18, 20, 360, 180], draw: true}
   - pos: middle, wide
     action: "The kitchen at six in the evening, the tube light on: Mom at the sink starting the rice, Dai holding the slip out to her."
     cast: [*mom, *dai_jacket]
@@ -841,7 +841,7 @@ pages:
     dialogue:
     - {speaker: akane, text: "HARDER. LIKE YOU MEAN TO STOP FROM A HUNDRED.", offpanel: true}
     captions:
-    - THE PEDAL SANK UNTIL IT WAS LEVEL WITH THE GAS. THAT WAS WHAT THE HUNDRED WAS FOR.
+    - {text: "THE PEDAL SANK UNTIL IT WAS LEVEL WITH THE GAS. THAT WAS WHAT THE HUNDRED WAS FOR.", box: [596, 1424, 400, 90], draw: true}
 
 - page: 23
   title: A centimeter of rubber
@@ -896,8 +896,8 @@ pages:
     action: "Akane, eyes front again, listing it."
     cast: [akane]
     dialogue:
-    - akane: CLUTCH IN. BLIP. INTO FIRST. CLUTCH UP.
-    - akane: ON THE BYPASS IT'S FOUR TO THREE. HERE IT'S TWO TO ONE. THE FEET ARE THE SAME.
+    - akane: {text: "CLUTCH IN. BLIP. INTO FIRST. CLUTCH UP.", box: [842, 30, 162, 240], draw: true, tail: [880, 300]}
+    - akane: {text: "ON THE BYPASS IT'S FOUR TO THREE. HERE IT'S TWO TO ONE. THE FEET ARE THE SAME.", box: [640, 30, 198, 304], draw: true, tail: [770, 360]}
   - pos: top-left, large
     action: "Bird's-eye of the back lot: an old tire standing on its edge against the tall corrugated fence halfway along; the small red Roadster running along the fence toward it, tracks in the dew."
     cast: [{id: roadster, view: front34, state: headlights_down, camera: "bird's-eye from high above the left-side stacks, the car small, running along the fence from right to left"}]
@@ -947,13 +947,13 @@ pages:
     action: "Akane in profile against her side window, looking straight ahead through the windshield, explaining in her flat voice."
     cast: [akane]
     dialogue:
-    - akane: THE CAR. IT NODDED. YOUR BRAKE CAME OFF WHEN YOU BLIPPED.
-    - akane: THE BRAKE DOESN'T MOVE. ONLY THE SIDE OF THE FOOT.
+    - akane: {text: "THE CAR. IT NODDED. YOUR BRAKE CAME OFF WHEN YOU BLIPPED.", box: [670, 447, 302, 186]}
+    - akane: {text: "THE BRAKE DOESN'T MOVE. ONLY THE SIDE OF THE FOOT.", box: [370, 474, 281, 172]}
   - pos: lower-right
     action: "Fumie sitting sideways on the seat of her old forklift at the corner of the lot with a can of coffee, watching, saying nothing."
     cast: [fumie, {id: forklift, camera: "side-on from inside the car across the lot, the forklift small at the corner"}]
     captions:
-    - AFTER THAT THE CAR TOLD ME THROUGH THE SEAT BEFORE SHE DID. TANABE-SAN SAT ON THE FORKLIFT WITH HER COFFEE AND DIDN'T SAY ANYTHING THIS TIME.
+    - {text: "AFTER THAT THE CAR TOLD ME THROUGH THE SEAT BEFORE SHE DID. TANABE-SAN SAT ON THE FORKLIFT WITH HER COFFEE AND DIDN'T SAY ANYTHING THIS TIME.", box: [444, 780, 555, 120], draw: true}
   - pos: lower-left
     action: "From inside the car past Dai's shoulder: low sun coming up over a stack of crushed sedans straight into the windshield, glare."
     cast: [{<<: *dai_gloves, note: "his shoulder and squinting eye only"}]
@@ -978,7 +978,7 @@ pages:
     cast: [{<<: *dai_gloves, note: "only his left hand"}, {id: roadster, view: interior, camera: "close on the gear lever and console"}]
     sfx: [KOKU]
     captions:
-    - AND WHILE THE NEEDLE WAS STILL UP I PUT THE LEVER INTO FIRST, AND IT WENT IN, ALL THE WAY HOME.
+    - {text: "AND WHILE THE NEEDLE WAS STILL UP I PUT THE LEVER INTO FIRST, AND IT WENT IN, ALL THE WAY HOME.", box: [664, 16, 340, 128], draw: true}
   - pos: top-left, large
     action: "BIG: the red Roadster level and calm, slowing past the old tire against the fence, morning sun on it."
     cast: [{id: roadster, view: front34, state: headlights_down, camera: "ground level by the fence, front three-quarter of its RIGHT flank, the old tire big in the foreground"}]
@@ -1097,7 +1097,7 @@ pages:
   - pos: top, wide
     action: "The small gas station at ten at night: the lit office booth under the flat canopy, the empty forecourt, warehouses behind."
     captions:
-    - AT TEN THAT NIGHT THERE WERE THREE CARDBOARD BOXES ON THE SHELF IN KUBO-SAN'S BACK ROOM, NEXT TO THE RADIO. ONE LONG AND FLAT, TWO SQUARE.
+    - {text: "AT TEN THAT NIGHT THERE WERE THREE CARDBOARD BOXES ON THE SHELF IN KUBO-SAN'S BACK ROOM, NEXT TO THE RADIO. ONE LONG AND FLAT, TWO SQUARE.", box: [470, 20, 534, 128], draw: true}
   - pos: upper-right
     action: "Close on the shelf: one long flat cardboard box and two square ones beside an old transistor radio; on top a receipt held down by a folded paper tide table. No readable words on the boxes."
     captions:
@@ -1338,7 +1338,7 @@ pages:
     action: "Nobu staring at the fence for a long time."
     cast: [*nobu_gak]
     dialogue:
-    - nobu: A SCRAPYARD.
+    - nobu: {text: "A SCRAPYARD.", box: [588, 482, 196, 170], draw: true, tail: [720, 690]}
   - pos: upper-left
     action: "Fumie on the forklift with its lights on, switched off, peering at the two boys coming through the gate with a roof between them."
     cast: [fumie, {id: forklift, camera: "front three-quarter, low, its headlights on, at dusk"}]
@@ -1353,7 +1353,7 @@ pages:
     action: "Fumie looking Nobu over past her cigarette."
     cast: [fumie]
     dialogue:
-    - fumie: KAWAMATA RAMEN? BY THE STATION? YOUR FATHER'S SOUP'S TOO SALTY.
+    - fumie: {text: "KAWAMATA RAMEN? BY THE STATION? YOUR FATHER'S SOUP'S TOO SALTY.", box: [14, 950, 252, 232], draw: true, tail: [290, 1060]}
   - pos: bottom, wide
     action: "Nobu bowing deeply with his end of the bundle still in his hands, so that Dai at the other end is pulled into a bow too."
     cast: [*nobu_gak, *dai_gak]
@@ -1378,27 +1378,24 @@ pages:
     cast: [cat]
     captions:
     - HE LOOKED IN THROUGH THE TEAR IN THE TOP. THE CAT LOOKED BACK AT HIM FROM THE PASSENGER SEAT.
+  # Drawn with 5 panels (the Dai "Tanabe-san's" beat became an off-panel voice in the door panel).
   - pos: upper-left, large
     action: "Nobu crouched by the driver's door rubbing the faded paint with his thumb, the color coming back darker for a moment, his face reverent."
     cast: [*nobu_gak]
     dialogue:
     - nobu: AN EIGHTY-NINE. THE FIRST YEAR. THE ONE-SIX.
     - nobu: MARINER BLUE. THEY ONLY DID MARINER BLUE IN THE FIRST... WHOSE IS IT?
-  - pos: middle-right
-    action: "Dai, hands in his pockets."
-    cast: [*dai_gak]
-    dialogue:
-    - dai_cut: TANABE-SAN'S. TILL I'VE PAID FOR IT.
+    - {speaker: dai_cut, text: "TANABE-SAN'S. TILL I'VE PAID FOR IT.", offpanel: true, box: [418, 846, 188, 178], draw: true, tail: [606, 1010]}
   - pos: lower-right
     action: "Nobu, looking up."
     cast: [*nobu_gak]
     dialogue:
-    - nobu: DOES IT GO?
+    - nobu: {text: "DOES IT GO?", box: [582, 1118, 150, 180]}
   - pos: bottom-left
     action: "Dai, plain."
     cast: [*dai_gak]
     dialogue:
-    - dai_cut: NO. NOT YET.
+    - dai_cut: {text: "NO. NOT YET.", box: [38, 1122, 204, 200]}
 
 - page: 37
   title: Twenty-six exposures
@@ -1493,12 +1490,12 @@ pages:
     action: "Nobu opening a math textbook on the counter between the bowls, at a page with a hump-shaped curve drawn on it."
     cast: [*nobu_gak]
     dialogue:
-    - nobu: MIDTERM TOMORROW. FIRST THING. YOU DON'T KNOW ANY OF IT. HALF OF IT'S THE PARABOLA.
+    - nobu: {text: "MIDTERM TOMORROW. FIRST THING. YOU DON'T KNOW ANY OF IT. HALF OF IT'S THE PARABOLA.", box: [506, 20, 282, 246], draw: true, tail: [690, 280]}
   - pos: top-left
     action: "Nobu drawing an arc in the air with a chopstick, enthusiastic."
     cast: [*nobu_gak]
     dialogue:
-    - nobu: IT'S A CAR COMING OFF A JUMP. IT GOES UP, IT STOPS GOING UP AT THE TOP, AND IT COMES DOWN THE SAME WAY. ALL YOU HAVE TO FIND IS WHERE THE TOP IS.
+    - nobu: {text: "IT'S A CAR COMING OFF A JUMP. IT GOES UP, IT STOPS GOING UP AT THE TOP, AND IT COMES DOWN THE SAME WAY. ALL YOU HAVE TO FIND IS WHERE THE TOP IS.", box: [16, 16, 464, 214], draw: true, tail: [300, 262]}
   - pos: middle-right
     action: "Dai frowning at the curve in the book."
     cast: [*dai_gak]
@@ -1668,8 +1665,8 @@ pages:
     - {id: integra, view: front34, camera: "low front three-quarter of its LEFT flank, turning in toward us under the canopy, the wing visible over the roof"}
     - {<<: *dai_bare, note: "small, from behind, in the foreground"}
     captions:
-    - IT WAS WHITE. BRAND NEW, THE TIRES STILL BLACK AND SHINY ON THE SHOULDERS WHERE NOBODY HAD CORNERED ON THEM.
-    - I'D SEEN IT ON THE COVER OF EVERY CAR MAGAZINE IN THE BOOKSHOP THAT MONTH. I'D NEVER SEEN ONE WITH MY OWN EYES.
+    - {text: "IT WAS WHITE. BRAND NEW, THE TIRES STILL BLACK AND SHINY ON THE SHOULDERS WHERE NOBODY HAD CORNERED ON THEM.", box: [160, 1010, 844, 98], draw: true}
+    - {text: "I'D SEEN IT ON THE COVER OF EVERY CAR MAGAZINE IN THE BOOKSHOP THAT MONTH. I'D NEVER SEEN ONE WITH MY OWN EYES.", box: [160, 1110, 844, 96], draw: true}
 
 - page: 44
   title: Nine and three
@@ -1684,7 +1681,7 @@ pages:
     action: "The driver's window of the white coupe down; the neat young man looking up, polite."
     cast: [typer_driver, {id: integra, view: side, camera: "close on the open driver's window from outside, the car's right side"}]
     dialogue:
-    - typer_driver: GOOD EVENING. HIGH-OCTANE, PLEASE. FULL.
+    - typer_driver: {text: "GOOD EVENING. HIGH-OCTANE, PLEASE. FULL.", box: [796, 20, 214, 200], draw: true, tail: [786, 205]}
   - pos: top-left
     action: "Dai at the rear of the car with the nozzle in, looking along the flawless flank to the tall wing."
     cast: [*dai_bare, {id: integra, view: rear, camera: "close rear three-quarter from behind-RIGHT, the tall wing and taillights, Dai at the filler"}]
@@ -1727,7 +1724,7 @@ pages:
     cast: [typer_driver]
     dialogue:
     - typer_driver: I CAN'T SHOW YOU. IT'S BEING RUN IN. THE BOOK SAYS KEEP IT UNDER FOUR THOUSAND FOR THE FIRST THOUSAND KILOMETERS.
-    - typer_driver: IT'S DONE FOUR HUNDRED AND TWELVE.
+    - typer_driver: {text: "IT'S DONE FOUR HUNDRED AND TWELVE.", box: [40, 170, 190, 200], draw: true, tail: [238, 300]}
   - pos: middle-right
     action: "Dai at the window, not knowing what to say."
     cast: [*dai_bare]
@@ -1737,7 +1734,7 @@ pages:
     action: "The young man, hands back at nine and three, turning his head to Dai, courteous and precise."
     cast: [typer_driver]
     dialogue:
-    - typer_driver: EXCUSE ME. I'VE BEEN ASKING AT ALL THE STATIONS BETWEEN HERE AND THE BYPASS.
+    - typer_driver: {text: "EXCUSE ME. I'VE BEEN ASKING AT ALL THE STATIONS BETWEEN HERE AND THE BYPASS.", box: [384, 516, 232, 318], draw: true, tail: [396, 760]}
     - typer_driver: DOES A RED ROADSTER FILL UP HERE? AN NA. RED, ON SILVER SEVEN-SPOKE WHEELS. AT NIGHT, I'M TOLD.
   - pos: lower-right
     action: "Close on Dai's face, the answer out before he has thought."

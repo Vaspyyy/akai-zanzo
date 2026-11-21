@@ -1,7 +1,7 @@
 # Chapter 13: "Twenty Yen"
 
 **Split:** all of Volume 1 Chapter 9 ("Type R"). Chapter 12 ended at 4 a.m. in the dark kitchen with the Sanko letter and the rubber tooth (end of novel Chapter 8).
-**Status:** scripted 2026-11-21. 46 pages, right-to-left. **Source:** `novel/volume-01/chapter-09.md`. **Spec:** `production/chapter-013.yaml` (this script is generated from it). **References:** `production/chapter-013-refs.yaml`.
+**Status:** drawn 2026-11-21. 46 pages, right-to-left. **Source:** `novel/volume-01/chapter-09.md`. **Spec:** `production/chapter-013.yaml` (this script is generated from it). **References:** `production/chapter-013-refs.yaml`.
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel.
 **Pacing (new layout, the creator's request of 2026-11-21):** the first chapter at about 5-6 panels a page (257 panels over 46 pages, 5.6 a page, never more than 7). Every scene opens on a wide establishing panel; quiet beats stay silent. Half-page panels for the big moments: the laugh at Fujita's with the car going round on its own (p15), the white car turning in at 4 a.m. (p43) and "You're a bad liar, Hayama-kun." (p46). The chapter is the warm one: Mom's onigiri, the twenty yen, the Sasakis, Mom putting Kazue's number in the phone book, Nobu's oath and the passing gyoza. The Type R driver is planted, not announced: no name, no caption about who he is, and the title is "Twenty Yen", not "Type R".
 
@@ -26,8 +26,8 @@
 - P6 (bottom-left): Dai sitting cross-legged at the low table, chin on his hand, one eyebrow up. DAI: "FUJITA'S?"
 
 ## Page 2: Two o'clock
-- P1 (top-right): Sota pushing the little blue toy car along the low table with one finger, its tiny gears ticking. SOTA: "THE HOBBY SHOP. OVER THE SHOE SHOP, IN THE COVERED STREET." SOTA: "IT'S A HUNDRED YEN TO GO IN. KEN SAYS YOU CAN'T WIN ANYTHING WITHOUT A TUNED MOTOR. BUT YOU CAN GO IN." SFX: "tik tik tik"
-- P2 (top-left): Sota, explaining seriously, glasses pushed up. SOTA: "KEN'S FROM THE HOSPITAL. HIS SISTER HAD THE BED NEXT TO MINE. MAI-CHAN. SHE'S FIVE." SOTA: "HE KNOWS EVERYTHING ABOUT MOTORS. HE'S GOT A TACKLE BOX."
+- P1 (top-right): Sota pushing the little blue toy car along the low table with one finger, its tiny gears ticking. SOTA: "THE HOBBY SHOP. OVER THE SHOE SHOP." SOTA: "IT'S A HUNDRED YEN TO GO IN. KEN SAYS YOU CAN'T WIN ANYTHING WITHOUT A TUNED MOTOR. BUT YOU CAN GO IN." SFX: "tik tik tik"
+- P2 (top-left): Sota, explaining seriously, glasses pushed up. SOTA: "KEN'S FROM THE HOSPITAL. HIS SISTER HAD THE BED NEXT TO MINE." SOTA: "MAI-CHAN. SHE'S FIVE. HE KNOWS EVERYTHING ABOUT MOTORS. HE'S GOT A TACKLE BOX."
 - P3 (middle, wide): Memory inset with a soft grey border, daytime: a children's-ward bed by the window, a little girl asleep in it with the blanket up to her chin; an empty chair beside it. CAPTION: "I REMEMBERED THE BED BY THE WINDOW, AND THE LITTLE GIRL ASLEEP IN IT. I HADN'T SEEN A BOY."
 - P4 (lower-right): Sota talking to the toy car, not looking up; behind him, out of focus, the tired mother's back at the stove (small woman, black-and-grey hair in a loose low bun, worn cardigan). SOTA: "MOM'S AT THE FACTORY TILL TWO. THEN SHE SLEEPS. AND AYA'S WORKING."
 - P5 (lower-left): Close on the mother's hand in a worn cardigan sleeve turning the knob of the gas burner off under the frying pan; she does not turn round. CAPTION: "MOM TURNED THE GAS OFF UNDER THE EGGS. SHE DIDN'T LOOK ROUND." SFX: "kachi"
@@ -285,10 +285,9 @@
 ## Page 36: Mariner Blue
 - P1 (top, wide): In the weeds behind the Corolla stacks: the long blue tarp bundle laid on the ground beside the wreck; Nobu standing very still, silent, looking at the car. CAPTION: "NOBU DIDN'T SAY ANYTHING. THAT WAS HOW I KNEW. I'D NEVER HEARD HIM NOT SAY ANYTHING FOR THIS LONG."
 - P2 (upper-right): Looking down through the big tear in the grey soft top: the striped cat on the passenger seat staring straight up at us. CAPTION: "HE LOOKED IN THROUGH THE TEAR IN THE TOP. THE CAT LOOKED BACK AT HIM FROM THE PASSENGER SEAT."
-- P3 (upper-left, large): Nobu crouched by the driver's door rubbing the faded paint with his thumb, the color coming back darker for a moment, his face reverent. NOBU: "AN EIGHTY-NINE. THE FIRST YEAR. THE ONE-SIX." NOBU: "MARINER BLUE. THEY ONLY DID MARINER BLUE IN THE FIRST... WHOSE IS IT?"
-- P4 (middle-right): Dai, hands in his pockets. DAI: "TANABE-SAN'S. TILL I'VE PAID FOR IT."
-- P5 (lower-right): Nobu, looking up. NOBU: "DOES IT GO?"
-- P6 (bottom-left): Dai, plain. DAI: "NO. NOT YET."
+- P3 (upper-left, large): Nobu crouched by the driver's door rubbing the faded paint with his thumb, the color coming back darker for a moment, his face reverent. NOBU: "AN EIGHTY-NINE. THE FIRST YEAR. THE ONE-SIX." NOBU: "MARINER BLUE. THEY ONLY DID MARINER BLUE IN THE FIRST... WHOSE IS IT?" DAI (off): "TANABE-SAN'S. TILL I'VE PAID FOR IT."
+- P4 (lower-right): Nobu, looking up. NOBU: "DOES IT GO?"
+- P5 (bottom-left): Dai, plain. DAI: "NO. NOT YET."
 
 ## Page 37: Twenty-six exposures
 - P1 (top, wide): Nobu lifting a cardboard disposable camera to his eye at the car; Dai's hand coming in flat over the front of the lens. CAPTION: "HIS HAND CAME OUT OF HIS BAG WITH THE DISPOSABLE CAMERA IN IT. I PUT MY HAND OVER THE FRONT OF IT."
