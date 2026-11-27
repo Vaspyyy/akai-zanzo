@@ -231,6 +231,8 @@ pages:
     action: "Close on Mom's hands turning the gas knob off and wiping on her apron."
     cast: [{<<: *mom_apron, note: "only her hands and apron"}]
     sfx: [{text: kachi, note: small}]
+    captions:
+    - THE FRYING STOPPED.
   - pos: top-left
     action: "Mom opening the steel door a few centimeters on its chain; a woman's warm face with curly permed hair in the gap, lit by the stair lamp."
     cast: [*mom_apron, {<<: *kazue, note: "only her face in the gap"}]
@@ -238,6 +240,8 @@ pages:
     action: "Close on Mom's fingers sliding the door chain out of its slot."
     cast: [{<<: *mom_apron, note: "only her hand"}]
     sfx: [{text: chara, note: small}]
+    captions:
+    - THEN SHE SHUT IT, AND SLID THE CHAIN OFF, AND OPENED IT AGAIN PROPERLY.
   - pos: middle-left, large
     action: "The door open properly: Kazue on the concrete landing under the stair lamp, holding up a wire hanger by its hook; on it, in a clear plastic cleaner's cover with a paper tag, a child's navy padded jacket with a hood. Apologetic smile."
     cast: [*kazue]
@@ -277,8 +281,8 @@ pages:
     action: "Kazue lifting the hanger a little so the paper tag turns in the stair light."
     cast: [*kazue]
     dialogue:
-    - ward_mother: IT'S ONLY HAD THE ONE WINTER. THE ZIP'S GOOD. I HAD IT CLEANED.
-    - ward_mother: IT'S NO USE TO ANYBODY IN MY CUPBOARD.
+    - ward_mother: {text: "IT'S ONLY HAD THE ONE WINTER. THE ZIP'S GOOD. I HAD IT CLEANED.", box: [267, 553, 269, 180]}
+    - ward_mother: {text: "IT'S NO USE TO ANYBODY IN MY CUPBOARD.", box: [34, 562, 222, 176], draw: true, tail: [150, 740]}
   - pos: lower-right
     action: "Mom, eyes lowered, quiet."
     cast: [*mom_apron]
@@ -344,8 +348,8 @@ pages:
     action: "Kazue brightening, hands free now."
     cast: [*kazue]
     dialogue:
-    - ward_mother: MAI SAYS HELLO TO SOTA-KUN. SHE SAYS IT EVERY DAY.
-    - ward_mother: AND KEN SAYS FUJITA'S TOMORROW, TWO O'CLOCK, AND BRING THE ONE WITH THE COINS ON.
+    - ward_mother: {text: "MAI SAYS HELLO TO SOTA-KUN. SHE SAYS IT EVERY DAY.", box: [292, 626, 262, 186], draw: true, tail: [262, 700]}
+    - ward_mother: {text: "AND KEN SAYS FUJITA'S TOMORROW, TWO O'CLOCK, AND BRING THE ONE WITH THE COINS ON.", box: [206, 826, 300, 256], draw: true, tail: [200, 900]}
   - pos: lower-right
     action: "Kazue leaning to smile past Mom at the boy."
     cast: [*kazue]
@@ -435,7 +439,7 @@ pages:
     action: "Close on Sota inside the hood, delighted."
     cast: [*sota_jacket]
     dialogue:
-    - sota: IT'S WARM, NII-CHAN. IT'S WARM ALREADY. THERE'S A POCKET ON THE INSIDE. WITH A ZIP.
+    - sota: {text: "IT'S WARM, NII-CHAN. IT'S WARM ALREADY. THERE'S A POCKET ON THE INSIDE. WITH A ZIP.", box: [494, 566, 240, 400], draw: true, tail: [740, 760]}
   - pos: middle-left
     action: "Dai in the fusuma doorway in his white T-shirt, leaning on the frame."
     cast: [*dai_tee]
@@ -670,7 +674,7 @@ pages:
     action: "Memory inset with a soft grey border, night: Kubo from behind going into a small back room and reaching up to turn up an old radio."
     cast: [{<<: *kubo, note: "from behind"}]
     captions:
-    - KUBO-SAN WOULD WAIT FOR THE PADS. HE'D SAY "WEDNESDAY" AND GO INTO THE BACK AND TURN THE RADIO UP.
+    - {text: "KUBO-SAN WOULD WAIT FOR THE PADS. HE'D SAY \"WEDNESDAY\" AND GO INTO THE BACK AND TURN THE RADIO UP.", box: [600, 1060, 406, 150], draw: true}
   - pos: bottom-left
     action: "Dai at the sink washing the rice bowl, eyes on the water."
     cast: [*dai_home]
@@ -708,7 +712,7 @@ pages:
     action: "Sota at the low table, holding up the toy car, explaining happily to Dai (only Dai's shoulder at the edge)."
     cast: [*sota_jacket]
     dialogue:
-    - sota: THE COINS STAYED ON ALL THE WAY ROUND. EVERY LAP. KEN LOOKED UNDERNEATH IT TWICE WHEN HE THOUGHT NOBODY WAS WATCHING.
+    - sota: {text: "THE COINS STAYED ON ALL THE WAY ROUND. EVERY LAP. KEN LOOKED UNDERNEATH IT TWICE WHEN HE THOUGHT NOBODY WAS WATCHING.", box: [470, 892, 420, 256], draw: true, tail: [470, 1050]}
   - pos: bottom, wide
     location: hayama-genkan
     action: "Close on Sota's hands hanging the navy jacket on the hook by the door by the little loop inside the collar, the strip of white tape showing."
@@ -731,7 +735,7 @@ pages:
     action: "The genkan: Mom bent on the step putting her shoes on; Dai standing on the kitchen floor above her, looking down at the top of her head."
     cast: [*mom_vest, *dai_home]
     captions:
-    - AT TWENTY-FIVE PAST SEVEN, WHILE SHE PUT HER SHOES ON, I SAID IT TO THE TOP OF HER HEAD.
+    - {text: "AT TWENTY-FIVE PAST SEVEN, WHILE SHE PUT HER SHOES ON, I SAID IT TO THE TOP OF HER HEAD.", box: [20, 16, 420, 120], draw: true}
   - pos: middle, wide
     action: "Dai, hands in his pockets, eyes on the door, not on her."
     cast: [*dai_home]
@@ -764,7 +768,7 @@ pages:
     action: "11 p.m.: Dai zipping up his own plain grey jacket in the dark room, white cotton gloves in its pocket."
     cast: [*dai_night]
     captions:
-    - AT ELEVEN I PUT ON MY OWN JACKET, THE ONE WITHOUT A NAME ON IT, WITH THE GLOVES FOR SIX O'CLOCK IN ITS POCKET.
+    - {text: "AT ELEVEN I PUT ON MY OWN JACKET, THE ONE WITHOUT A NAME ON IT, WITH THE GLOVES FOR SIX O'CLOCK IN ITS POCKET.", box: [758, 22, 246, 236], draw: true}
   - pos: top-left
     action: "Close on Dai's fingers taking the 10,000-yen note out of the dictionary, leaving the 1,000-yen note and two coins."
     cast: [{<<: *dai_night, note: "only his hand"}]
@@ -809,8 +813,8 @@ pages:
     action: "HALF-PAGE establishing: the Pier 3 lot with no moon, black sky, the tall sodium lights down one side (one lamp dead), stacked containers at the back, about fifteen period cars parked in a horseshoe with their doors open and engines idling, small groups standing close with hands in their armpits, breath showing; a plain white one-box van in the middle with its back doors open."
     cast: [{id: meet_cars, camera: "wide high view across the lot, parked in a loose horseshoe, all at different angles"}, {id: okabe_van, camera: "far, small in the middle of the lot, seen from behind with its back doors open"}]
     captions:
-    - THE LOT WAS SMALLER WITH NO MOON ON IT, OR IT FELT SMALLER. THE LAMP THAT HAD BEEN OUT IN SEPTEMBER WAS STILL OUT.
-    - FIFTEEN CARS OR SO. ONE STEREO, NOT FOUR. I COUNTED THIRTY-ONE PEOPLE WITH MY MOUTH SHUT.
+    - {text: "THE LOT WAS SMALLER WITH NO MOON ON IT, OR IT FELT SMALLER. THE LAMP THAT HAD BEEN OUT IN SEPTEMBER WAS STILL OUT.", box: [16, 16, 670, 112], draw: true}
+    - {text: "FIFTEEN CARS OR SO. ONE STEREO, NOT FOUR. I COUNTED THIRTY-ONE PEOPLE WITH MY MOUTH SHUT.", box: [380, 478, 618, 120], draw: true}
   - pos: middle-right
     action: "Dai standing at the back against the stacked containers, hands in his jacket pockets, watching."
     cast: [*dai_night]
@@ -1114,7 +1118,7 @@ pages:
     dialogue:
     - radio: {text: QUIET., at: "tail pointing at the walkie-talkie"}
     captions:
-    - IT SAID "QUIET" FROM THE ON-RAMP EVERY FEW MINUTES, IN A BORED VOICE, AND EVERY TIME A FEW PEOPLE LOOKED UP THE ROAD ANYWAY. SO DID I.
+    - {text: "IT SAID \"QUIET\" FROM THE ON-RAMP EVERY FEW MINUTES, IN A BORED VOICE, AND EVERY TIME A FEW PEOPLE LOOKED UP THE ROAD ANYWAY. SO DID I.", box: [541, 1376, 462, 138], draw: true}
   - pos: bottom-left
     action: "At the mouth of the lot: the two cars side by side at the start line on the dark straight, the small white hatchback in the LEFT lane by the warehouse walls, the black coupe in the RIGHT lane; a scooter boy with a flashlight standing between and ahead of them."
     cast: [starter, {id: starlet, view: side, camera: "low from the warehouse wall, front three-quarter of its LEFT flank, nose pointing LEFT, near"}, {id: supra, view: side, camera: "beyond the white car in the far lane, LEFT flank, nose pointing LEFT"}]
@@ -1136,10 +1140,12 @@ pages:
     action: "Dai standing on top of the last bollard at the corner, 20 meters behind the starter, looking down the road."
     cast: [*dai_night]
     captions:
-    - I STOOD ON THE LAST BOLLARD AT THE CORNER, WHERE I'D STOOD BEFORE. SOMEBODY TURNED THE STEREO OFF.
+    - I STOOD ON THE LAST BOLLARD AT THE CORNER, WHERE I'D STOOD BEFORE, TWENTY METERS BEHIND HIM.
   - pos: top-left
     action: "Close on a hand turning the knob of a car cassette stereo off."
     sfx: [{text: putsu, note: small}]
+    captions:
+    - SOMEBODY TURNED THE STEREO OFF.
   - pos: middle-right
     action: "Close on the white hatchback's little rear corner and exhaust pipe trembling at a steady idle, a thin heat haze."
     sfx: [WEEEEEEEN]
@@ -1196,7 +1202,7 @@ pages:
   - pos: middle-right
     action: "Very far: the lone crossing light on its pole at the end of the straight; just short of it one pair of taillights flaring bright with braking, the other pair still dark and well behind."
     captions:
-    - AT THE CROSSING THE SUPRA'S BRAKE LIGHTS CAME ON EARLY, A LONG WAY BEFORE THE BUMP, AND STAYED ON ALL THE WAY OVER IT.
+    - {text: "AT THE CROSSING THE SUPRA'S BRAKE LIGHTS CAME ON EARLY, A LONG WAY BEFORE THE BUMP, AND STAYED ON ALL THE WAY OVER IT.", box: [650, 428, 352, 166], draw: true}
   - pos: middle-left
     location: rail-crossing-night
     action: "Cutaway at the rail crossing, low at rail level beside the track: the small white hatchback bouncing over the hump, brake lights just flicking on; ahead of it, small, the black coupe's red lights turning LEFT toward the silos."
@@ -1228,13 +1234,15 @@ pages:
     action: "Close on the walkie-talkie on the van floor, Okabe's hand near it, faces leaning in."
     cast: [radio]
     dialogue:
-    - radio: {text: "SILOS. SUPRA, STARLET. STARLET'S ON HIM. STARLET'S RIGHT ON HIM.", at: "jagged radio balloon, tail to the walkie-talkie"}
+    - radio: {text: "SILOS. SUPRA, STARLET. STARLET'S ON HIM. STARLET'S RIGHT ON HIM.", box: [600, 34, 400, 300], draw: true, tail: [610, 400]}
     captions:
     - A BOY, AND HIS VOICE KEPT CRACKING.
   - pos: middle, large
     action: "Cutaway in the S-bend between the giant silos, ground level from the inside curb of the first left-hander: the black coupe sweeping LEFT through the bend, tail stepping out, and the small white hatchback's nose right at its rear bumper, both moving toward the LEFT of the panel."
     cast: [{id: supra, view: front34, camera: "ground level from the inside curb, front three-quarter of the LEFT flank, nose pointing LEFT, tail stepping out"}, {id: starlet, view: front34, camera: "right behind it, nose pointing LEFT, headlights glaring on the black car's tail"}]
     sfx: [GYAAAA]
+    captions:
+    - THE SILOS.
   - pos: bottom, wide
     action: "A teenage lookout on a small scooter beside a silo, helmet pushed back, shouting into his walkie-talkie, eyes huge."
     cast: [lookout]
@@ -1290,7 +1298,7 @@ pages:
     action: "From the bollard looking down the long dark straight: far away under the crossing light, a pair of headlights pointing back at the lot."
     sfx: [{text: "bata... bata... bata", note: slow, small}]
     captions:
-    - A BIG SIX AT ALMOST NOTHING, AND UNDER IT A SLAPPING, SLOW. THEN HEADLIGHTS AT THE CROSSING, POINTING AT US.
+    - {text: "A BIG SIX AT ALMOST NOTHING, AND UNDER IT A SLAPPING, SLOW. THEN HEADLIGHTS AT THE CROSSING, POINTING AT US.", box: [22, 1226, 470, 150], draw: true}
 
 - page: 38
   title: Down on the rim
@@ -1363,7 +1371,7 @@ pages:
     action: "The thin young man at the van counting notes in his hands; Okabe watching from the doorway, smiling."
     cast: [*sboy, {<<: *okabe, note: "in the doorway"}]
     captions:
-    - THE BOY GOT THREE 10,000S, A 5,000 AND A 1,000, AND COUNTED THEM TWICE. OKABE WATCHED HIM AND SMILED.
+    - {text: "THE BOY GOT THREE 10,000S, A 5,000 AND A 1,000, AND COUNTED THEM TWICE. OKABE WATCHED HIM AND SMILED.", box: [18, 1430, 500, 102], draw: true}
 
 - page: 40
   title: Twenty-eight
@@ -1446,7 +1454,7 @@ pages:
     action: "Over Okabe's shoulder: far across the lot, the man in the leather jacket small on his bollard by the dark shape of his car; Okabe calling across with a hand up."
     cast: [{<<: *okabe, note: "from behind, calling"}, {<<: *owner, note: "tiny, far, on the bollard"}]
     dialogue:
-    - okabe: MONDAY. COME BY THE SHOP. I'LL DO YOU A PAIR FOR THE BACK.
+    - okabe: {text: "MONDAY. COME BY THE SHOP. I'LL DO YOU A PAIR FOR THE BACK.", box: [172, 41, 377, 278]}
   - pos: middle-right
     action: "The man on the bollard lifting his head a little. Silent."
     cast: [*owner]
@@ -1511,8 +1519,8 @@ pages:
   - pos: middle-right
     action: "Memory close, low: two pairs of very polished black shoes on the concrete landing, seen through the chained gap of the door."
     captions:
-    - MOM KEPT THE CHAIN ON AND SAID HE WASN'T HERE. ONE OF THEM SAID THAT WAS ALL RIGHT, THEY'D COME AGAIN.
-    - THEY DID.
+    - {text: "MOM KEPT THE CHAIN ON AND SAID HE WASN'T HERE. ONE OF THEM SAID THAT WAS ALL RIGHT, THEY'D COME AGAIN.", box: [488, 500, 330, 160], draw: true}
+    - {text: "THEY DID.", box: [800, 776, 200, 84], draw: true}
   - pos: middle-left
     action: "Memory: the cupboard under the kitchen sink, open and empty, dark. Silent."
     captions:

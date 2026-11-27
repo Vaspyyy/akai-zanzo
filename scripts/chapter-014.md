@@ -1,7 +1,7 @@
 # Chapter 14: "Ten Pays Thirty"
 
 **Split:** all of Volume 1 Chapter 10 ("Side Bet"). Chapter 13 ended at 4 a.m. Friday with "You're a bad liar, Hayama-kun." and the Type R's note fading.
-**Status:** script and spec 2026-11-27. 47 pages, right-to-left. **Source:** `novel/volume-01/chapter-10.md`. **Spec:** `production/chapter-014.yaml` (this script is generated from it). **References:** `production/chapter-014-refs.yaml`.
+**Status:** drawn 2026-11-27. 47 pages, right-to-left. **Source:** `novel/volume-01/chapter-10.md`. **Spec:** `production/chapter-014.yaml` (this script is generated from it). **References:** `production/chapter-014-refs.yaml`.
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel.
 **Pacing (new layout):** 238 panels over 47 pages, 5.1 a page, never more than 7. Every scene opens wide; quiet beats stay silent. Big panels: Mom's bow to the closed door (p10), "Your rice is cold" (p17), Pier 3 with no moon (p23), the cords in the tire (p26), the launch (p33), the Supra spinning at the silos (p36, full page), the payout (p40), the father's silver balls (p43), the dawn overpass (p46-47). The title is Okabe's price for the Starlet.
 
@@ -59,9 +59,9 @@
 - P5 (bottom, wide): Dai's view through a narrow gap between two sliding fusuma doors: a vertical strip of the kitchen, the tired mother at the gas stove frying, her back to us, and beyond her the genkan and the steel door. CAPTION: "THE FUSUMA BETWEEN MY FUTON AND THE KITCHEN HASN'T SHUT ALL THE WAY SINCE SOTA RAN INTO IT WHEN HE WAS SEVEN."
 
 ## Page 6: Sasaki-san
-- P1 (top-right): Close on Mom's hands turning the gas knob off and wiping on her apron. SFX: "kachi"
+- P1 (top-right): Close on Mom's hands turning the gas knob off and wiping on her apron. CAPTION: "THE FRYING STOPPED." SFX: "kachi"
 - P2 (top-left): Mom opening the steel door a few centimeters on its chain; a woman's warm face with curly permed hair in the gap, lit by the stair lamp.
-- P3 (middle-right): Close on Mom's fingers sliding the door chain out of its slot. SFX: "chara"
+- P3 (middle-right): Close on Mom's fingers sliding the door chain out of its slot. CAPTION: "THEN SHE SHUT IT, AND SLID THE CHAIN OFF, AND OPENED IT AGAIN PROPERLY." SFX: "chara"
 - P4 (middle-left, large): The door open properly: Kazue on the concrete landing under the stair lamp, holding up a wire hanger by its hook; on it, in a clear plastic cleaner's cover with a paper tag, a child's navy padded jacket with a hood. Apologetic smile. KAZUE: "I'M SORRY, AT DINNERTIME."
 - P5 (bottom, wide): Kazue, chatty, laughing at herself, the hanger still up. KAZUE: "YOU NEVER RANG, SO I THOUGHT, WELL, I'LL JUST GO ROUND." KAZUE: "THE LADY ON THE THIRD FLOOR TOLD ME WHICH DOOR. THROUGH HER CHAIN."
 
@@ -250,8 +250,8 @@
 - P5 (bottom-left): At the mouth of the lot: the two cars side by side at the start line on the dark straight, the small white hatchback in the LEFT lane by the warehouse walls, the black coupe in the RIGHT lane; a scooter boy with a flashlight standing between and ahead of them. CAPTION: "THE STARLET TOOK THE LEFT LANE, BY THE WAREHOUSES, AND THE SUPRA THE RIGHT. THE KID WITH THE FLASHLIGHT WAS A DIFFERENT KID."
 
 ## Page 32: Never the same twice
-- P1 (top-right): Dai standing on top of the last bollard at the corner, 20 meters behind the starter, looking down the road. CAPTION: "I STOOD ON THE LAST BOLLARD AT THE CORNER, WHERE I'D STOOD BEFORE. SOMEBODY TURNED THE STEREO OFF."
-- P2 (top-left): Close on a hand turning the knob of a car cassette stereo off. SFX: "putsu"
+- P1 (top-right): Dai standing on top of the last bollard at the corner, 20 meters behind the starter, looking down the road. CAPTION: "I STOOD ON THE LAST BOLLARD AT THE CORNER, WHERE I'D STOOD BEFORE, TWENTY METERS BEHIND HIM."
+- P2 (top-left): Close on a hand turning the knob of a car cassette stereo off. CAPTION: "SOMEBODY TURNED THE STEREO OFF." SFX: "putsu"
 - P3 (middle-right): Close on the white hatchback's little rear corner and exhaust pipe trembling at a steady idle, a thin heat haze. CAPTION: "THE STARLET'S LITTLE FOUR SAT ON ONE NOTE, A HIGH, STEADY HUM, AND STAYED ON IT." SFX: "WEEEEEEEN"
 - P4 (middle-left): Inside the black coupe's dark footwell: a loafer with its back trodden down pumping the accelerator pedal, never still. CAPTION: "THE SUPRA'S SIX WENT UP AND FELL BACK AND UP AGAIN, NEVER THE SAME TWICE. HIS FOOT COULDN'T KEEP STILL ON IT." SFX: "BWOM... BWAAN... BWOM"
 - P5 (bottom, wide): From behind the starter: the scooter boy's arm raising a long black flashlight high, its beam pointing at the black sky; the two cars' taillights beyond him. CAPTION: "THE FLASHLIGHT WENT UP, AND STAYED UP, AND CAME DOWN."
@@ -269,7 +269,7 @@
 
 ## Page 35: Silos
 - P1 (top, wide): Close on the walkie-talkie on the van floor, Okabe's hand near it, faces leaning in. CAPTION: "A BOY, AND HIS VOICE KEPT CRACKING." RADIO: "SILOS. SUPRA, STARLET. STARLET'S ON HIM. STARLET'S RIGHT ON HIM."
-- P2 (middle, large): Cutaway in the S-bend between the giant silos, ground level from the inside curb of the first left-hander: the black coupe sweeping LEFT through the bend, tail stepping out, and the small white hatchback's nose right at its rear bumper, both moving toward the LEFT of the panel. SFX: "GYAAAA"
+- P2 (middle, large): Cutaway in the S-bend between the giant silos, ground level from the inside curb of the first left-hander: the black coupe sweeping LEFT through the bend, tail stepping out, and the small white hatchback's nose right at its rear bumper, both moving toward the LEFT of the panel. CAPTION: "THE SILOS." SFX: "GYAAAA"
 - P3 (bottom, wide): A teenage lookout on a small scooter beside a silo, helmet pushed back, shouting into his walkie-talkie, eyes huge. LOOKOUT: "HE'S OUT! SUPRA'S OUT, HE'S ROUND, HE'S GONE RIGHT ROUND!"
 
 ## Page 36: He's gone right round

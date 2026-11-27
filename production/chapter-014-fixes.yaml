@@ -1,0 +1,83 @@
+# Panel redraws for Chapter 14. The grey panel in each source is redrawn, then pasted back into
+# artwork/pages/chapter-014/page-NN.art.png at the same place and re-lettered from chapter-014.yaml.
+# Sources: page-NN.art.png with one panel filled grey (PIL rectangle, fill 150):
+#   p37 [18,25,1004,483]; p39 [526,1188,1005,1528]; p47 [582,24,1004,512].
+# Run: production/az run -c chapter-014-fixes -p 37,39,47 --no-letter --attempts 1
+title: Chapter 14 fixes
+output_dir: production/runs/ch14-fixes/out
+lettering: empty
+defaults:
+  orientation: portrait
+  notes:
+  - No brand logos, no readable printed words, no Japanese characters.
+  - DRY night, no rain, no wet ground.
+pages:
+- page: 37
+  location: pier-3-night
+  time: Sunday about 1:55 a.m., no moon, sodium lights
+  edit:
+    source: production/runs/ch14-fixes/src/page-37.png
+    change: "Redraw ONLY the flat grey TOP panel (wide). New content: the Pier 3 harbor lot at night under tall sodium lamps, seen from among the crowd: about twenty young men and a few young women in 1995 jackets standing between parked cars with open doors, reacting to bad news: men turning away, one with both hands on his head, one kicking a car's tire, others groaning with their mouths open, a few shaking their heads; stacked containers behind, black sky, dry ground. One EMPTY rectangular caption box at the top center of the panel, roomy for about 9 words. No speech balloons, no text."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, the walkie-talkie, the lookout, the hands, the balloons, the caption boxes and the sound effects"
+  panels:
+  - pos: top, wide
+    action: "The crowd in the lot groaning, men turning away, a hand on a head, someone kicking a tire."
+    cast: [{id: meet_cars, camera: "parked at different angles behind the crowd, partly hidden"}]
+    captions:
+    - A NOISE WENT ACROSS THE LOT, MOSTLY A GROAN.
+  - {pos: upper-right, action: unchanged, keep: true}
+  - {pos: upper-left, action: unchanged, keep: true}
+  - {pos: middle, action: unchanged, keep: true}
+  - {pos: bottom, action: unchanged, keep: true}
+
+- page: 39
+  location: pier-3-night
+  time: Sunday about 2 a.m., no moon, sodium lights
+  edit:
+    source: production/runs/ch14-fixes/src/page-39.png
+    change: "Redraw ONLY the flat grey panel at the LOWER RIGHT. New content: night in the harbor lot under sodium lamps: a crowd of about fifteen young men seen from behind and the side, a few of them cheering with their arms up, but most standing with their hands in their pockets, glum, not cheering; stacked containers behind. Keep the EMPTY rectangular caption box at the top of the panel, roomy for about 14 words. No speech balloons, no cars, no text."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, all people, the cars, the banknotes, the balloons, the caption boxes and the sound effects"
+  panels:
+  - {pos: top, action: unchanged, keep: true}
+  - {pos: upper-right, action: unchanged, keep: true}
+  - {pos: upper-left, action: unchanged, keep: true}
+  - {pos: middle, action: unchanged, keep: true}
+  - pos: lower-right
+    action: "A few people in the crowd cheering, arms up; most standing with their hands in their pockets."
+    captions:
+    - A FEW PEOPLE CHEERED. MOST OF THEM HAD MONEY ON THE OTHER ONE.
+  - {pos: bottom-left, action: unchanged, keep: true}
+
+- page: 47
+  location: bypass-overpass-dawn
+  time: Sunday 5:30 a.m., grey dawn, a street lamp still on
+  edit:
+    source: production/runs/ch14-fixes/src/page-47.png
+    change: "Redraw ONLY the flat grey panel at the TOP RIGHT. New content: close-up, from above, of a teenage boy's two hands (grey jacket cuffs) holding Japanese money from 1995, fanned out so EACH note shows: TWO large 10,000-yen notes (portrait of an older man with swept-back hair, number 10000), ONE 5,000-yen note (portrait of a man with round glasses, number 5000), THREE smaller 1,000-yen notes (portrait of a man with a moustache, number 1000); in the palm a few SMALL coins only: one 50-yen coin with a hole, four bronze 10-yen coins, one gold-tone 5-yen coin with a hole and two tiny 1-yen coins. NO 100-yen or 500-yen coins. Grey concrete behind. One EMPTY rectangular caption box at the top of the panel, roomy for about 10 words. No other text."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, the boy, the road, the car, the caption boxes"
+  panels:
+  - pos: top-right
+    action: "Close under the lamp: Dai's hands holding two 10,000-yen notes, one 5,000-yen note, three 1,000-yen notes and a few small coins."
+    captions:
+    - TWO 10,000S. A 5,000. THREE 1,000S. 97 YEN IN COINS.
+  - {pos: top-left, action: unchanged, keep: true}
+  - {pos: middle, action: unchanged, keep: true}
+  - {pos: lower, action: unchanged, keep: true}
+  - {pos: bottom, action: unchanged, keep: true}
+
+# Source p08: page-08.art.png with the middle panel filled grey (PIL rectangle [26,586,996,978], fill 150).
+- page: 8
+  location: hayama-genkan
+  time: Friday 6:45 p.m., the stair lamp lit outside
+  edit:
+    source: production/runs/ch14-fixes/src/page-08.png
+    change: "Redraw ONLY the flat grey MIDDLE panel (wide). New content: the same warm woman with thick curly permed shoulder-length hair, beige coat over a brown cardigan, standing OUTSIDE on the concrete landing of the apartment block at night under a bare stair lamp, an outdoor concrete staircase and a metal railing behind her, the open grey steel door frame at the right edge of the panel; she holds the wire hanger by its hook LOWERED at her side, and on the hanger, inside a CLEAR plastic dry-cleaner's cover with a small paper tag, hangs a child's NAVY (dark tone) padded winter jacket with a hood; she is talking, kind and practical, smiling a little. One EMPTY white oval speech balloon on the RIGHT side of the panel with its tail pointing at her mouth, roomy for about 30 words. No other text."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, the boy on the stairs, the coat on the hook, the woman in the bottom panels, the balloons and the caption boxes"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - pos: middle, wide
+    action: "Kazue on the landing, kind and practical, the hanger with the jacket in its clear cover lowered at her side."
+    cast: [{id: ward_mother, outfit: "a BEIGE knee-length coat open over a brown knitted cardigan and a pale blouse, dark slacks, a shoulder handbag"}]
+  - {pos: lower-right, action: unchanged, keep: true}
+  - {pos: bottom, action: unchanged, keep: true}
