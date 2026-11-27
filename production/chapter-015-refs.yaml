@@ -1,0 +1,124 @@
+# Reference sheets and plates for chapter 15. Run: production/az run -c chapter-015-refs
+# Angle crops of the MR2 sheets are cut by hand afterwards (no image calls):
+#   artwork/car-sheets/mr2-wreck-{front34,side}.png, artwork/car-sheets/mr2-interior-*.png
+title: Chapter 15 references
+output_dir: artwork/car-sheets
+pages:
+  - id: mr2-wreck
+    kind: car_sheet
+    output: artwork/car-sheets/mr2-wreck.png
+    refs:
+      - {path: artwork/car-sheets/blue-roadster-wreck.png, use: "an approved car sheet of this manga: copy ONLY its sheet layout, ink line weight and screentone style; NOT this car's shape (the new car is a completely different, wedge-shaped mid-engine coupe with a fixed steel roof)"}
+    description: >-
+      Technical reference sheet for one WRECKED first-generation Toyota MR2
+      (AW11 shape, mid-1980s), Japanese market, right-hand drive, painted
+      BLACK (solid black ink under a dull grey film of dust, with one or two
+      finger-wiped streaks where the black shows deep and glossy). The car:
+      small, low and WEDGE-shaped, a two-seat coupe with a FIXED steel roof,
+      the ENGINE BEHIND THE SEATS: a blunt sharp-edged nose with NO grille,
+      two pop-up headlight lids SHUT flat into the nose, a thin black
+      bumper, the doors set well forward, a long flat engine deck behind the
+      cabin, a squared-off tail, an air intake vent on the flank just behind
+      the door. Only its RIGHT side (the driver's side) is damaged; the left
+      side is never shown. The damage, always all drawn: the front RIGHT
+      wheel pushed back into its arch and turned IN the wrong way, its tire
+      flat and cracked; the right front fender behind the headlight lid
+      creased in two places; the RIGHT DOOR folded inward into a deep
+      U-shaped dent from the sill to the roof, as if the car hit something
+      upright not much wider than a man (nothing is in the dent: just the
+      empty U); the sill under it bent UP off the ground; the roof above it
+      kinked down; the door window gone, a fringe of little glass cubes left
+      in the rubber along the bottom; the side vent behind the door pushed
+      in with it. The windshield still in place but gone WHITE with a
+      starburst crack HIGH UP ON THE RIGHT next to the pillar, cracks
+      running to every edge. Dull plain steel-look wheels, no logos. NO
+      maker badges, NO lettering, NO stickers anywhere; plate holder empty.
+      Views on white: TOP LEFT low front three-quarter from the front-RIGHT
+      (the nose, the shut lids, the turned-in flat front right wheel, the
+      creased fender, the start of the folded door); TOP RIGHT straight
+      front view (the blunt grille-less wedge nose, lids shut, the white
+      cracked windshield); BOTTOM, across the full width, a flat side view
+      of the RIGHT side with the FRONT pointing RIGHT, showing the whole
+      deep U fold in the door, the bent sill, the kinked roof, the empty
+      window and the pushed-in vent. No people, no tarp, no background.
+
+  - id: mr2-interior
+    kind: car_sheet
+    output: artwork/car-sheets/mr2-interior.png
+    refs:
+      - {path: artwork/car-sheets/mr2-wreck.png, use: "the same wrecked black car from outside: match its cabin, the folded right door and the white cracked windshield"}
+    description: >-
+      Detail reference sheet, five numbered-free boxes on white, for the
+      INSIDE of the same wrecked black first-generation MR2 (right-hand
+      drive, the steering wheel on the RIGHT). Box 1 (large, top left):
+      looking in through the empty driver's window from outside: the
+      inside of the driver's door has been pushed IN as far as the MIDDLE
+      OF THE DRIVER'S SEAT, its trim panel buckled and torn, the black seat
+      crushed under it on the right half; dust, a few cubes of broken glass
+      on the seat. Box 2 (top right): the steering wheel close-up: a SMALL
+      aftermarket three-spoke wheel with a THICK black leather rim and
+      metal spokes, the round horn button in the middle completely PLAIN
+      and BLANK (NO letters, NO logo, NO emblem). Box 3 (middle): the
+      windshield seen from inside: gone milky WHITE, a starburst crack HIGH
+      UP ON THE RIGHT next to the right pillar, cracks running out from it
+      to every edge, the only clear patch in the BOTTOM LEFT corner;
+      the rear-view mirror in the middle of the top edge. Box 4 (bottom
+      left): a small Japanese shrine charm (omamori) hanging on a thin cord
+      from the rear-view mirror: a little flat brocade bag about as big as
+      a matchbox with a tied cord knot at the top, woven pattern; the right
+      half drawn in DARK tone (red) and the left half much PALER (faded to
+      pink by the sun), and down the front in gold thread the words
+      TRAFFIC SAFETY in small capitals, one word above the other. Box 5
+      (bottom right): the same charm turned round on its cord, showing its
+      BACK, with the smaller words SHIOMI HACHIMAN-GU in small capitals.
+      Ink and grey screentone only. NO other readable text, NO brand
+      names or logos anywhere. No people.
+
+  - id: tanabe-tarp-strip
+    kind: plate
+    location: tanabe-tarp-strip
+    output: artwork/locations/tanabe-tarp-strip.png
+    orientation: landscape
+    time: Sunday about 6:30 a.m. in late October, clear low morning sun, long shadows
+    refs:
+      - {path: artwork/locations/tanabe-yard.png, use: "the plate of the same scrapyard: the same corrugated fence, the same tire stacks, ink and screentone style"}
+    guards:
+      - "No people. No cars or vehicles visible: only the covered shape under the grey canvas. No readable words."
+    description: >-
+      Eye-level view along a narrow neglected strip at the very back of the
+      scrapyard, about two meters wide, running away from us: on the LEFT a
+      tall WALL of old tires stacked in rows higher than a man; on the
+      RIGHT the yard's tall corrugated steel back fence with wooden fence
+      posts; between them waist-high dead weeds, foxtail grass and broken
+      glass glinting on packed dirt. At the FAR END of the strip, against
+      the fence, a long LOW shape under a heavy GREY CANVAS tarp (plain
+      grey heavy canvas, not blue plastic), roped down, an old tire
+      holding down each corner; nothing under it can be seen. Harbor
+      cranes far off over the fence top, a pale clear morning sky, gulls.
+
+  - id: bypass-foot-dawn
+    kind: plate
+    location: bypass-foot-dawn
+    output: artwork/locations/bypass-foot-dawn.png
+    orientation: landscape
+    time: about 6:10 a.m. in early November, before sunrise, the sky thin yellow along the bottom behind the harbor cranes, street lamps still on
+    refs:
+      - {path: artwork/locations/bypass-overpass-dawn.png, use: "the plate of the same overpass and bypass seen from the deck: the same concrete overpass, the same four-lane curve, the same newer guardrail section, the same lamps and factories"}
+    guards:
+      - "No people. No cars. No readable words. Dry road, no rain."
+    description: >-
+      At ROAD LEVEL on the outside of the long sweeping left-hand curve of
+      the four-lane bypass, at the bottom of the far stairs of the concrete
+      pedestrian overpass: in the foreground a strip of bare concrete
+      between the stairs and the road; the FOOT of the stairs on the left,
+      a big SQUARE grey concrete base (the pillar) where the stair flight
+      comes down, and low down on its side that faces the road a PALER
+      patch where somebody has scrubbed the concrete clean; the overpass
+      deck crossing above and the stair flight climbing up beside it. Along
+      the outside of the curve a steel guardrail: the section right by the
+      stairs is visibly NEWER (bright clean steel, bright unrusted bolts),
+      while the old rail running away on either side is dull and stained
+      with rust round its bolts. The empty road curving away; on the far
+      side over the factory roofs, the harbor cranes black against a sky
+      that is grey above and thin pale yellow along the bottom, no sun yet.
+      Cold, still, early.

@@ -505,3 +505,7 @@ Chapter 007 review: every page inspected singly and as consecutive pairs; see `r
 | pages/chapter-014/page-09.png | 2026-11-27 | character-sheets/michiko.png, character-sheets/kazue.png, character-sheets/sota.png, locations/hayama-genkan.png, pages/chapter-014/page-08.png | approved 2026-11-27 (one take) | runner: 2 image_gen call(s), empty lettering; lettering incomplete: CHECK: 6/6 lines placed; panels found 6, spec 6 (per-panel mapping) |
 | pages/chapter-014/page-10.png | 2026-11-27 | character-sheets/michiko.png, character-sheets/kazue.png, locations/hayama-genkan.png, pages/chapter-014/page-09.png | approved 2026-11-27 (one take) | runner: 2 image_gen call(s), empty lettering; lettering incomplete: CHECK: 4/4 lines placed; panels found 4, spec 4 (per-panel mapping) |
 | car-sheets/supra-a80-{front34,side,rear}.png, car-sheets/starlet-p80-{front34,side,rear}.png | 2026-11-27 | car-sheets/supra-a80.png, car-sheets/starlet-p80.png | approved 2026-11-27 | hand crops of the existing sheets (magick -crop), no image_gen |
+| car-sheets/mr2-wreck.png | 2026-11-27 | car-sheets/blue-roadster-wreck.png | generated, not reviewed | runner: 1 image_gen call(s) |
+| locations/tanabe-tarp-strip.png | 2026-11-27 | locations/tanabe-yard.png | generated, not reviewed | runner: 1 image_gen call(s) |
+| locations/bypass-foot-dawn.png | 2026-11-27 | locations/bypass-overpass-dawn.png | generated, not reviewed | runner: 1 image_gen call(s) |
+| car-sheets/mr2-interior.png | 2026-11-27 | car-sheets/mr2-wreck.png | generated, not reviewed | runner: 2 image_gen call(s) |

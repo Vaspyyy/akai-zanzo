@@ -929,6 +929,17 @@ characters:
       casual:
         desc: a padded work vest over a sweater, a knitted cap
 
+  # ---- added for manga chapter 15 (2026-11-27)
+  bakery_driver:
+    name: BAKERY DRIVER
+    full_name: a bakery van driver at the harbor station at night
+    traits: A fussy Japanese man in his thirties with a thin moustache and a white cap, leaning out of his van window.
+    tell: "the fussy van driver in a white cap"
+    default_outfit: work
+    outfits:
+      work:
+        desc: a white work jacket and a white cap
+
 cars:
   meet_cars:
     name: the parked meet cars
@@ -1378,3 +1389,64 @@ cars:
       Flat tires. Right-hand drive. NOT red.
     rules:
       - "It is WHITE and burned black at the front, never red, never clean."
+
+  # ---- added for manga chapter 15 (2026-11-27)
+  mr2:
+    name: the black MR2 wreck
+    full_name: a wrecked black first-generation Toyota MR2 (AW11 shape) under the grey tarp at Tanabe's
+    traits: >-
+      A WRECKED small low WEDGE-shaped two-seat mid-engine coupe with a FIXED
+      steel roof (first-generation MR2 shape): a blunt grille-less nose with
+      two pop-up headlight lids SHUT flat, doors set well forward, a long
+      flat engine deck behind the cabin, an air vent on the flank behind the
+      door. Solid BLACK paint under a dull grey film of dust. Its RIGHT side
+      (the driver's side) is wrecked: the front right wheel pushed back into
+      its arch and turned in, the tire flat and cracked; the fender behind
+      the headlight creased twice; the right door folded into a deep empty
+      U from sill to roof, the sill bent up, the roof kinked, the window
+      gone (a fringe of glass cubes in the bottom rubber), the vent behind
+      the door pushed in; the windshield gone white with a starburst crack
+      high up on the right by the pillar. NO maker badges, NO logos, NO
+      lettering. It is NOT a Roadster, NOT a convertible, NOT red.
+    ref: artwork/car-sheets/mr2-wreck.png
+    views:
+      front34:
+        ref: artwork/car-sheets/mr2-wreck-front34.png
+        note: "front three-quarter of the right side and the nose; details only, draw the requested camera angle"
+      side:
+        ref: artwork/car-sheets/mr2-wreck-side.png
+        note: "flat side view of the RIGHT side, front pointing RIGHT, the U-folded door; body and damage details only, draw the requested camera angle"
+      interior:
+        ref: artwork/car-sheets/mr2-interior-detail.png
+        note: "the inside: the door pushed in to the middle of the seat, the small three-spoke wheel with a BLANK horn button, the white starred windshield, the charm; details only"
+    rules:
+      - "RIGHT-HAND DRIVE: the steering wheel and the driver's seat are on the car's RIGHT side, the wrecked side."
+      - "In a side view that shows the wrecked right side, the car's FRONT points to the RIGHT edge of the panel."
+      - "Only the RIGHT side and the nose are ever shown. The horn button is blank: NO logo or letters on the steering wheel."
+      - "Nothing stands in the U-shaped dent: no pole, no post, no person; no blood, no stains."
+
+  bluebird:
+    name: the seatless Bluebird
+    full_name: a scrap 1980s Nissan Bluebird sedan with no seats, at Tanabe's
+    traits: >-
+      A plain boxy 1980s Japanese four-door sedan (Bluebird shape), dull pale
+      grey, dirty, its seats gone, sitting on its wheels in the weeds; no
+      badges, no lettering.
+    rules:
+      - "RIGHT-HAND DRIVE."
+
+  bakery_van:
+    name: the bakery van
+    full_name: a bakery's white delivery van
+    traits: A plain WHITE early-1990s Japanese one-box delivery van, clean, no readable writing.
+    rules:
+      - "RIGHT-HAND DRIVE."
+
+  empty_flatbed:
+    name: an empty flatbed truck
+    full_name: a passing two-ton flatbed truck with nothing on it
+    traits: >-
+      A plain early-1990s Japanese two-ton cab-over flatbed truck with an
+      EMPTY flat bed, dull white cab, NO writing on the doors, no logos.
+    rules:
+      - "RIGHT-HAND DRIVE."

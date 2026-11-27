@@ -671,3 +671,49 @@ bypass-footpath-night:
     empty, factory chimneys and cranes beyond, black sky; the steps of the
     pedestrian overpass ahead.
   default_time: about 2:50 a.m., no moon, dry
+
+# ---- added for manga chapter 15 (2026-11-27)
+tanabe-tarp-strip:
+  name: the weed strip behind the tire wall in Tanabe's yard, with the grey tarp at the end
+  description: >-
+    A narrow neglected strip about two meters wide at the very back of the
+    scrapyard: on one side a tall wall of old tires stacked higher than a
+    man, on the other the tall corrugated steel back fence with wooden
+    posts; dead weeds, foxtail grass and broken glass on packed dirt. At the
+    far end, against the fence, a long low shape under a heavy GREY canvas
+    tarp (every other cover in the yard is blue plastic), roped down, an
+    old tire on each corner. Where the strip opens out at the other end
+    you see the corner of the big yellow car crusher (the press).
+  plate: artwork/locations/tanabe-tarp-strip.png
+  guards:
+    - "The tarp is GREY heavy canvas, never blue plastic."
+  default_time: Sunday morning, low clear sun
+bypass-foot-dawn:
+  name: road level at the foot of the far overpass stairs, by the new guardrail
+  description: >-
+    At road level on the outside of the long left-hand curve of the
+    four-lane Shiomi Bypass, at the bottom of the far stairs of the concrete
+    pedestrian overpass: a strip of bare concrete between the stairs and
+    the road; the foot of the stairs, a big square grey concrete base (the
+    pillar), with a paler scrubbed patch low down on the side facing the
+    road; the overpass deck above. Along the outside of the curve a steel
+    guardrail whose section by the stairs is visibly NEWER (bright steel,
+    bright bolts) than the dull, rust-stained old rail on either side.
+    Harbor cranes over the factory roofs to the east.
+  plate: artwork/locations/bypass-foot-dawn.png
+  guards:
+    - "The road has FOUR lanes (two each way) with a median barrier. Dry, no rain."
+    - "The new guardrail section by the stairs is clearly brighter and newer than the old rail on either side."
+  default_time: Friday about 6:10 a.m., early November, before sunrise
+overpass-town-foot:
+  name: the town-side foot of the overpass, with a drinks machine by the bus stop
+  description: >-
+    The bottom of the near (town-side) stairs of the concrete pedestrian
+    overpass: a bus stop pole and a small bench, and a 1995 Japanese drinks
+    vending machine with rows of can samples behind its glass, a top row
+    of HOT drinks with labels under the buttons, a coin slot, a note slot,
+    a change tray and a big flap at the bottom where the cans drop out; a
+    dent in its side. The bypass behind a guardrail, street lamps.
+  guards:
+    - "No brand names or logos on the machine or the cans; can labels are plain shapes. The only readable words: HOT and 110 if the panel asks."
+  default_time: Friday about 6:10 a.m., before sunrise
