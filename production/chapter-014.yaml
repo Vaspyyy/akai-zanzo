@@ -1,0 +1,1631 @@
+chapter: 14
+title: Ten Pays Thirty
+lettering: empty
+
+# Reusable cast entries (YAML anchors). Free-text outfits use the character's default sheet.
+x-cast:
+  dai_gak: &dai_gak {id: dai_cut, outfit: "black gakuran winter school uniform (stand collar open, worn carelessly), black trousers, white canvas sneakers, a worn canvas school bag on his shoulder; BAREHEADED"}
+  dai_tee: &dai_tee {id: dai_cut, outfit: "a plain white T-shirt and black school uniform trousers, white socks"}
+  dai_home: &dai_home {id: dai_cut, outfit: "an old faded white long-sleeved T-shirt, worn jeans, white socks indoors"}
+  dai_night: &dai_night {id: dai_cut, outfit: "a plain grey zip-up jacket with NO name tag, open over a faded dark flannel shirt with a BUTTONED breast pocket, worn jeans, beat-up white canvas sneakers (the right one held together with silver tape); white cotton work gloves poking out of a jacket pocket"}
+  kubo: &kubo {id: kubo, outfit: station}
+  mom_apron: &mom_apron {id: michiko, outfit: "a worn cardigan with the sleeves pushed up and a plain apron over loose trousers, socks"}
+  mom_factory: &mom_factory {id: michiko, outfit: factory}
+  mom_vest: &mom_vest {id: michiko, outfit: vest}
+  kazue: &kazue {id: ward_mother, outfit: "a BEIGE knee-length coat open over a brown knitted cardigan and a pale blouse, dark slacks, flat shoes, a shoulder handbag"}
+  sota_home: &sota_home {id: sota, outfit: "a long-sleeved striped T-shirt and shorts, socks, round glasses"}
+  sota_jacket: &sota_jacket {id: sota, outfit: "Ken's NAVY padded winter jacket with a HOOD (dark tone), a little too big, over shorts, socks, round glasses"}
+  okabe: &okabe {id: okabe, outfit: "a dark padded jacket zipped half up over a sweater, ordinary trousers, reading glasses pushed up into his hair"}
+  sboy: &sboy {id: starlet_boy, outfit: "a cheap thin windbreaker open over a white T-shirt with a breast pocket, jeans, cheap sneakers"}
+  owner: &owner {id: supra_owner, outfit: leather}
+  night_dai: &night_dai "Dai: SHORT black hair (forehead uncovered), plain grey zip-up jacket with NO name tag over a dark flannel shirt, jeans."
+  dry_night: &dry_night "DRY night, NO moon, black sky: no rain, no wet ground, no puddles, no reflections on the asphalt."
+  notes_95: &notes_95 "Banknotes are 1995 Japanese notes only: the 10,000-yen note is a large light-toned note with an oval portrait of an older man with swept-back hair; the 1,000-yen note is smaller, blue-grey tone, with a portrait of a man with a moustache; the 5,000-yen note is in between, with a portrait of a man with round glasses. No other designs, no holograms, no foreign money."
+  supra_marks: &supra_marks "The black Supra: a round, low, glossy BLACK sports coupe with four round headlamps in two pairs, a tall rear wing on struts and round taillights; NO maker badges or lettering. Right-hand drive."
+  starlet_marks: &starlet_marks "The white Starlet: a small boxy WHITE three-door hatchback with a hood scoop and a small roof spoiler; NO maker badges or lettering. Right-hand drive."
+  geography: &geography "Race geography: from the lot the cars run AWAY down a dead-flat 1 km straight with warehouse walls on the LEFT and the container yard and water on the RIGHT, to a rail crossing with one light on a pole, then the road bends LEFT behind tall round grain silos. The Starlet starts in the LEFT lane (warehouse side), the Supra in the RIGHT lane."
+
+defaults:
+  orientation: portrait
+  time: October 1995
+  notes:
+  - Right-to-left panel order. One speaker per panel. All cars are Japanese models sold by October 1995, right-hand drive.
+  - No brand logos, no maker badges, no stickers, no readable signs or printed words anywhere unless a panel asks for them. No Japanese characters. No banknotes unless a panel asks for them.
+  - DRY weather in every scene of this chapter. No rain.
+  - Roomy panels with breathing space; vary shot sizes and poses; no two panels on the page may look alike.
+
+pages:
+
+# ================================================================== Fri 27 Oct, 6 a.m.: the station
+- page: 1
+  title: Six o'clock
+  location: harbor-station-night
+  time: Friday 6 a.m. in late October, the sky just going grey before sunrise, the canopy tube lights still on
+  guards:
+  - "Dai: SHORT black hair, BAREHEADED, black school gakuran, a canvas bag on his shoulder."
+  - "Kubo: the OLD man, late 50s, grey cap, grey work shirt buttoned up."
+  panels:
+  - pos: top, wide
+    action: "Establishing: the small shabby gas station on the empty harbor road at first light, the sky pale grey over the warehouses and cranes, the canopy tubes still lit, nobody at the pumps."
+    captions:
+    - FRIDAY. 6 A.M.
+  - pos: upper-right
+    action: "Close on a navy work cap lying on the office counter beside an old cash till, its strap band done up tight."
+    captions:
+    - AT SIX MY CAP WAS STILL ON THE OFFICE COUNTER BY THE TILL, WHERE I'D PUT IT AT TWO, WITH THE BAND ON THE TIGHTEST HOLE. I LEFT IT THERE.
+  - pos: upper-left
+    action: "Dai in his school gakuran, bag on his shoulder, halfway out of the office door, his back to the room."
+    cast: [*dai_gak]
+  - pos: middle, wide
+    action: "Inside the cramped office: Kubo behind the counter folding a newspaper into four with his weathered hands, not looking up."
+    cast: [*kubo]
+    dialogue:
+    - kubo: WHEN THE WHEELS WERE OFF.
+  - pos: lower-right
+    action: "Dai stopped in the doorway, looking back over his shoulder, grey dawn behind him. Silent."
+    cast: [*dai_gak]
+  - pos: lower-left
+    action: "Closer on Kubo, eyes up from the folded paper under the brim of his cap."
+    cast: [*kubo]
+    dialogue:
+    - kubo: AT TANABE'S.
+    - kubo: WHAT WAS BEHIND THEM?
+
+- page: 2
+  title: What was behind them
+  location: harbor-station-night
+  time: Friday 6 a.m., grey first light outside, office lights on
+  guards:
+  - "Dai: SHORT black hair, BAREHEADED, black gakuran. Memory panels have a soft grey border and are in daylight."
+  panels:
+  - pos: top, wide
+    location: tanabe-yard
+    action: "Memory inset with a soft grey border, daylight in a scrapyard: the front of a small red open sports car lifted off the ground on the forks of a forklift; Dai crouching at the front LEFT wheel, pulling the wheel off toward himself."
+    cast: [{<<: *dai_gak, outfit: "grey zip-up jacket, jeans, white cotton work gloves"}, {id: roadster, view: front34, camera: "low front three-quarter of the LEFT flank, the nose lifted high on forklift forks, the left front wheel coming off"}]
+    captions:
+    - I HADN'T THOUGHT ABOUT IT SINCE. BUT I'D SEEN IT, THE WAY YOU SEE THINGS YOU DON'T KNOW THE NAMES OF YET.
+  - pos: middle-right, large
+    action: "Memory close-up with a soft grey border: behind the removed wheel, a steel brake disc standing on its edge, big as a dinner plate, brown with rust all over except a smooth worn band round the outside with fine grooves in it and a raised lip at the very edge; a lump of iron (the caliper) sitting over the top of it."
+    dialogue:
+    - {speaker: dai_cut, text: "A ROUND PLATE. RUSTY. SMOOTH IN A RING ROUND THE OUTSIDE, WITH GROOVES IN THE RING.", offpanel: true}
+  - pos: middle-left
+    action: "Dai in the office doorway, thinking it through, eyes on nothing."
+    cast: [*dai_gak]
+    dialogue:
+    - dai_cut: AND A RIDGE RIGHT AT THE EDGE, STICKING UP. A LIP.
+  - pos: lower-right
+    action: "Kubo behind the counter, waiting, saying nothing, the folded newspaper under his hand."
+    cast: [*kubo]
+  - pos: lower-left
+    action: "Memory close-up with a soft grey border, looking down into the iron caliper: a thin black brake pad on a steel backing plate pressed against the disc, thinner than a coin."
+    dialogue:
+    - {speaker: dai_cut, text: "THE IRON THING ON TOP. THERE WAS A BLACK PIECE IN THERE AGAINST THE PLATE, ON A STEEL BACK. THINNER THAN A 10-YEN COIN.", offpanel: true}
+  - pos: bottom, wide
+    action: "Dai in the doorway, frowning slightly, sure of it."
+    cast: [*dai_gak]
+    dialogue:
+    - dai_cut: ON THE LEFT ONE THE STEEL WAS NEARLY ON THE PLATE.
+
+- page: 3
+  title: Pads
+  location: harbor-station-night
+  time: Friday about 6 a.m., grey dawn outside, office lights on
+  guards:
+  - "Dai: SHORT black hair, BAREHEADED, black gakuran. Kubo: OLD, grey cap."
+  panels:
+  - pos: top-right
+    action: "Kubo sliding the folded newspaper under the counter."
+    cast: [*kubo]
+    dialogue:
+    - kubo: PADS. THE FRONTS. THE DISCS, WE'LL SEE WHEN THEY'RE OFF.
+  - pos: top-left
+    action: "From behind Kubo: he looks out through the office window past the two pumps at the harbor road, which is only just going grey."
+    cast: [{<<: *kubo, note: "from behind, head turned to the window"}]
+    dialogue:
+    - kubo: AFTER SUNDAY IT'LL ROLL. THEN IT'LL WANT TO STOP.
+  - pos: middle-right
+    action: "Dai in the doorway, the bag strap in his fist."
+    cast: [*dai_gak]
+    dialogue:
+    - dai_cut: HOW MUCH?
+  - pos: middle-left
+    action: "Kubo, flat, not looking at him."
+    cast: [*kubo]
+    dialogue:
+    - kubo: SIX THOUSAND. ABOUT. I'LL GET THEM SATURDAY.
+  - pos: lower-right
+    action: "Close on Dai, quick, decided."
+    cast: [*dai_gak]
+    dialogue:
+    - dai_cut: I'LL BRING IT SUNDAY.
+  - pos: bottom-left
+    action: "Kubo nodding once, taking a coffee mug off a shelf and drinking from it, a small grimace."
+    cast: [*kubo]
+    captions:
+    - HE TOOK HIS COFFEE OFF THE SHELF, FOUND IT WAS COLD, AND DRANK IT ANYWAY.
+
+- page: 4
+  title: School
+  location: harbor-station-night
+  time: Friday 6 a.m. dawn at the station (top), then school by day
+  guards:
+  - "Dai: SHORT black hair, BAREHEADED, black gakuran."
+  - "Hotta-sensei: thin tired teacher in a grey cardigan and loosened tie, no towel."
+  panels:
+  - pos: top-right
+    action: "Kubo with the mug at his mouth, speaking into the cup."
+    cast: [*kubo]
+    dialogue:
+    - kubo: THE HONDA. AT FOUR.
+  - pos: top-left
+    action: "Dai in the doorway, face blank."
+    cast: [*dai_gak]
+    dialogue:
+    - dai_cut: HIGH-OCTANE. FULL.
+    captions:
+    - THAT WAS TRUE.
+  - pos: middle-right
+    action: "Kubo looking at Dai over the rim of the mug; behind him a balding day attendant pats his shirt pockets for a pen. Silent."
+    cast: [*kubo, day_man]
+    captions:
+    - HE LOOKED AT ME OVER THE CUP FOR AS LONG AS IT TOOK THE DAY MAN TO FIND A PEN.
+  - pos: middle-left
+    action: "Close on Kubo lowering the mug, one word."
+    cast: [*kubo]
+    dialogue:
+    - kubo: SCHOOL.
+  - pos: lower, wide
+    location: classroom
+    action: "The classroom by day, wooden desks, autumn light: Hotta-sensei at the front reading names off a list, not looking up from it."
+    cast: [{id: hotta, outfit: cardigan}]
+    dialogue:
+    - hotta: TUESDAY, HAYAMA. DON'T MAKE ME COME TO YOUR HOUSE.
+    captions:
+    - IN HOMEROOM HOTTA-SENSEI READ OUT THE NAMES WHOSE COMPANY FORMS HADN'T COME IN. MINE WAS THE LAST.
+  - pos: bottom, wide
+    location: classroom
+    action: "Dai at a desk by the window, chin propped on his fist, fighting to keep his eyes open."
+    cast: [*dai_gak]
+    captions:
+    - I STAYED AWAKE UNTIL SIXTH PERIOD, AND THEN ONLY LOST A BIT OF IT.
+
+# ================================================================== Fri evening: Ken's jacket
+- page: 5
+  title: The knock
+  location: hayama-apartment
+  time: Friday afternoon, then 6:40 p.m., dark outside
+  panels:
+  - pos: top, wide
+    action: "Daytime: Dai walking home alone along a straight concrete canal, school bag on his shoulder, low autumn sun, small in the frame."
+    cast: [*dai_gak]
+    captions:
+    - I WENT HOME ALONG THE CANAL AND LAY DOWN ON MY FUTON AT A QUARTER PAST FOUR IN MY UNIFORM TROUSERS.
+  - pos: upper-right
+    action: "Dai asleep on his back on a futon in the small tatami room, white T-shirt and black uniform trousers, one arm over his eyes."
+    cast: [*dai_tee]
+  - pos: upper-left
+    action: "Establishing at dusk: an aging concrete danchi block, lit stairwell lamps on each landing, a few lit kitchen windows."
+    captions:
+    - THE KNOCK CAME AT TWENTY TO SEVEN.
+  - pos: middle, wide
+    location: hayama-genkan
+    action: "The grey steel front door seen from inside, the chain hanging; two knocks."
+    sfx: [KON KON]
+    dialogue:
+    - {speaker: ward_mother, text: "HAYAMA-SAN? IT'S SASAKI. MAI'S MOTHER.", offpanel: true, at: "tail pointing at the door"}
+  - pos: bottom, wide
+    action: "Dai's view through a narrow gap between two sliding fusuma doors: a vertical strip of the kitchen, the tired mother at the gas stove frying, her back to us, and beyond her the genkan and the steel door."
+    cast: [{<<: *mom_apron, note: "small, from behind, at the stove"}]
+    captions:
+    - THE FUSUMA BETWEEN MY FUTON AND THE KITCHEN HASN'T SHUT ALL THE WAY SINCE SOTA RAN INTO IT WHEN HE WAS SEVEN.
+
+- page: 6
+  title: Sasaki-san
+  location: hayama-genkan
+  time: Friday 6:40 p.m., the kitchen tube light on, the stair lamp lit outside
+  guards:
+  - "Kazue: thick curly permed shoulder-length hair, BEIGE coat over a brown cardigan, red knuckles. Mom: small, tired, low loose bun, apron."
+  - "The jacket: a child's NAVY padded winter jacket with a hood, on a wire hanger, inside a CLEAR plastic dry-cleaner's cover with a small paper tag stapled at the top."
+  panels:
+  - pos: top-right
+    action: "Close on Mom's hands turning the gas knob off and wiping on her apron."
+    cast: [{<<: *mom_apron, note: "only her hands and apron"}]
+    sfx: [{text: kachi, note: small}]
+  - pos: top-left
+    action: "Mom opening the steel door a few centimeters on its chain; a woman's warm face with curly permed hair in the gap, lit by the stair lamp."
+    cast: [*mom_apron, {<<: *kazue, note: "only her face in the gap"}]
+  - pos: middle-right
+    action: "Close on Mom's fingers sliding the door chain out of its slot."
+    cast: [{<<: *mom_apron, note: "only her hand"}]
+    sfx: [{text: chara, note: small}]
+  - pos: middle-left, large
+    action: "The door open properly: Kazue on the concrete landing under the stair lamp, holding up a wire hanger by its hook; on it, in a clear plastic cleaner's cover with a paper tag, a child's navy padded jacket with a hood. Apologetic smile."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: I'M SORRY, AT DINNERTIME.
+  - pos: bottom, wide
+    action: "Kazue, chatty, laughing at herself, the hanger still up."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: YOU NEVER RANG, SO I THOUGHT, WELL, I'LL JUST GO ROUND.
+    - ward_mother: THE LADY ON THE THIRD FLOOR TOLD ME WHICH DOOR. THROUGH HER CHAIN.
+
+- page: 7
+  title: Ken's jacket
+  location: hayama-genkan
+  time: Friday 6:40 p.m., kitchen tube light, stair lamp outside
+  continue_from: 6
+  guards:
+  - "Kazue stands OUTSIDE on the landing; Mom stands INSIDE on the genkan concrete. Keep them on the same sides as the previous page."
+  - "The jacket: child's NAVY padded jacket with a hood in a CLEAR plastic cleaner's cover with a paper tag."
+  panels:
+  - pos: top-right
+    action: "Kazue holding the hanger out a little toward Mom."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: THIS IS KEN'S. HE GREW OUT OF IT OVER THE SUMMER, ALL AT ONCE. THEY DO THAT.
+  - pos: top-left
+    action: "Close on the jacket in its clear cover on the hanger, the paper tag at the top."
+    dialogue:
+    - {speaker: ward_mother, text: "I THOUGHT, SOTA-KUN.", offpanel: true}
+  - pos: middle-right
+    action: "Mom, both hands up a little, palms out, shaking her head."
+    cast: [*mom_apron]
+    dialogue:
+    - michiko: OH, NO. WE COULDN'T.
+  - pos: middle-left
+    action: "Kazue lifting the hanger a little so the paper tag turns in the stair light."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: IT'S ONLY HAD THE ONE WINTER. THE ZIP'S GOOD. I HAD IT CLEANED.
+    - ward_mother: IT'S NO USE TO ANYBODY IN MY CUPBOARD.
+  - pos: lower-right
+    action: "Mom, eyes lowered, quiet."
+    cast: [*mom_apron]
+    dialogue:
+    - michiko: SOTA HAS A COAT.
+  - pos: bottom-left
+    action: "Behind Mom in the kitchen: the small boy in socks and round glasses staring at the jacket with his mouth open."
+    cast: [*sota_home]
+    captions:
+    - SOTA HAD COME UP BEHIND HER, IN HIS SOCKS, WITH HIS GLASSES ON, AND WAS LOOKING AT THE JACKET WITH HIS MOUTH OPEN.
+
+- page: 8
+  title: The third time
+  location: hayama-genkan
+  time: Friday 6:45 p.m., kitchen tube light, stair lamp outside
+  continue_from: 7
+  panels:
+  - pos: top-right
+    action: "Close on a small GREEN child's coat hanging on a metal hook by the door, its sleeves short and worn."
+    captions:
+    - HIS COAT WAS THE GREEN ONE FROM TWO WINTERS AGO.
+  - pos: top-left
+    action: "Memory inset with a soft grey border, morning: Sota on the outdoor concrete stairs of the danchi in the green coat, tugging the sleeves down over his thin wrists."
+    cast: [{<<: *sota_home, outfit: "a small GREEN coat too short in the sleeves, a school backpack, round glasses"}]
+    captions:
+    - IN THE MORNINGS, ON THE STAIRS, HE PULLED THE SLEEVES DOWN OVER HIS WRISTS, AND THEY CAME BACK UP.
+  - pos: middle, wide
+    action: "Kazue on the landing, kind and practical, the hanger lowered."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: I'M SURE HE HAS. IT'S ONLY THAT IT'LL HANG THERE, AND THE MOTHS WILL HAVE IT, AND I'LL FEEL BAD EVERY TIME I OPEN THE DOOR.
+  - pos: lower-right
+    action: "Close on Kazue, earnest, a little smile."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: YOU'D BE DOING ME A FAVOR, HAYAMA-SAN. HONESTLY.
+  - pos: bottom, large
+    action: "Kazue holding the jacket out the third time: no longer up by the hook but laid FLAT across both her forearms, offered like a tray, toward Mom's side of the doorway."
+    cast: [*kazue]
+    captions:
+    - SHE HELD IT OUT THE THIRD TIME. NOT UP BY THE HOOK NOW. FLAT, ACROSS BOTH HER ARMS.
+
+- page: 9
+  title: Thank you very much
+  location: hayama-genkan
+  time: Friday 6:45 p.m., kitchen tube light, stair lamp outside
+  continue_from: 8
+  panels:
+  - pos: top-right
+    action: "Close on Mom's tired face looking down at the jacket, very still. Silent."
+    cast: [*mom_apron]
+    captions:
+    - MOM LOOKED AT IT FOR A LONG TIME.
+  - pos: top-left
+    action: "Close on Mom's work-worn hands sliding underneath the jacket on Kazue's forearms and taking it."
+    cast: [{<<: *mom_apron, note: "only her hands"}, {<<: *kazue, note: "only her forearms"}]
+  - pos: middle-right
+    action: "Mom holding the jacket against her front, bowing her head slightly."
+    cast: [*mom_apron]
+    dialogue:
+    - michiko: THANK YOU. THANK YOU VERY MUCH.
+  - pos: middle-left
+    action: "Kazue brightening, hands free now."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: MAI SAYS HELLO TO SOTA-KUN. SHE SAYS IT EVERY DAY.
+    - ward_mother: AND KEN SAYS FUJITA'S TOMORROW, TWO O'CLOCK, AND BRING THE ONE WITH THE COINS ON.
+  - pos: lower-right
+    action: "Kazue leaning to smile past Mom at the boy."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: HE WON'T SAY IT HIMSELF. HE'S ELEVEN.
+  - pos: bottom-left
+    action: "Sota beside Mom's elbow, nodding hard, glasses glinting."
+    cast: [*sota_home]
+    dialogue:
+    - sota: I'LL BRING IT.
+
+- page: 10
+  title: The bow
+  location: hayama-genkan
+  time: Friday about 6:50 p.m., kitchen tube light, stair lamp outside
+  continue_from: 9
+  panels:
+  - pos: top-right
+    action: "Mom with the jacket in her arms, to Kazue at the door."
+    cast: [*mom_apron]
+    dialogue:
+    - michiko: THANK YOU FOR COMING ALL THIS WAY.
+  - pos: top-left
+    action: "Kazue already turning toward the stairs, looking back over her shoulder, waving it off."
+    cast: [*kazue]
+    dialogue:
+    - ward_mother: IT'S ON MY WAY HOME. GO ON, YOUR OIL'S GETTING COLD.
+  - pos: middle, wide
+    action: "The steel door shut. Mom standing on the genkan concrete with the jacket in its cover held against her front, her back to us."
+    cast: [{<<: *mom_apron, note: "from behind"}]
+    sfx: [{text: tan tan tan, note: small, at: "by the door"}]
+    captions:
+    - SASAKI-SAN'S SHOES WENT DOWN THE STAIRS, QUICK, A LANDING, ANOTHER LANDING.
+  - pos: bottom, large (half the page)
+    action: "HALF-PAGE, silent: Mom bowing deeply to the closed steel door, a real bow from the waist, the jacket held in both arms against her; seen from the side, a little behind, from the kitchen; the chain hanging; the tube light on her back."
+    cast: [*mom_apron]
+    captions:
+    - THEN MOM BOWED TO THE DOOR.
+
+- page: 11
+  title: After you've eaten
+  location: hayama-apartment
+  time: Friday about 6:50 p.m. and 9:15 p.m., dark outside, kitchen tube light on
+  panels:
+  - pos: top-right
+    location: hayama-genkan
+    action: "Close on the wire hanger with the jacket in its clear cover hung on the hook by the door, over the small green coat."
+    captions:
+    - SHE HUNG IT ON THE HOOK BY THE DOOR, OVER SOTA'S GREEN COAT, AND WENT BACK TO THE STOVE AND LIT THE GAS.
+    sfx: [{text: bo, note: small}]
+  - pos: top-left
+    action: "Sota at Mom's elbow by the stove, looking up at her."
+    cast: [*sota_home]
+    dialogue:
+    - sota: CAN I TRY IT ON?
+  - pos: middle-right
+    action: "Mom at the stove from behind, frying again, not turning round."
+    cast: [{<<: *mom_apron, note: "from behind"}]
+    dialogue:
+    - michiko: AFTER YOU'VE EATEN.
+  - pos: middle-left
+    action: "Sota sitting at the low table, chin on his hands, staring across the room toward the hook by the door. Silent."
+    cast: [*sota_home]
+  - pos: lower-right
+    action: "Dark tatami room: Dai lying back down on the futon, eyes open, the strip of kitchen light across him."
+    cast: [*dai_tee]
+    captions:
+    - I LAY BACK DOWN.
+  - pos: bottom-left
+    action: "A round wall clock reading a quarter past nine over the empty stove."
+    captions:
+    - WHEN I GOT UP AT A QUARTER PAST NINE, SHE'D GONE TO THE SUPERMARKET.
+
+- page: 12
+  title: Nothing written yet
+  location: hayama-apartment
+  time: Friday 9:15 p.m., dark outside, kitchen tube light on
+  guards:
+  - "Sota now wears Ken's NAVY padded jacket with a HOOD, the cleaner's cover off, a little too big."
+  panels:
+  - pos: top, large
+    action: "Sota standing at the dark kitchen window in the navy padded jacket, zipped up to his chin, hood up, his hands lost inside the long sleeves, beaming."
+    cast: [{<<: *sota_jacket, note: "hood UP, zipped to the chin, hands hidden in the sleeves"}]
+    captions:
+    - SOTA WAS STANDING AT THE KITCHEN WINDOW IN IT, ZIPPED UP TO HIS CHIN WITH THE HOOD UP AND HIS HANDS LOST SOMEWHERE INSIDE THE SLEEVES.
+  - pos: middle-right
+    action: "Close on Sota inside the hood, delighted."
+    cast: [*sota_jacket]
+    dialogue:
+    - sota: IT'S WARM, NII-CHAN. IT'S WARM ALREADY. THERE'S A POCKET ON THE INSIDE. WITH A ZIP.
+  - pos: middle-left
+    action: "Dai in the fusuma doorway in his white T-shirt, leaning on the frame."
+    cast: [*dai_tee]
+    dialogue:
+    - dai_cut: DOES IT FIT?
+  - pos: lower-right
+    action: "Sota turning round to show the back of the jacket, pushing the hood down with a sleeve."
+    cast: [{<<: *sota_jacket, note: "from behind, pushing the hood down"}]
+    dialogue:
+    - sota: IT WILL.
+  - pos: bottom, wide
+    action: "BIG close-up inside the jacket's collar: the name SASAKI written in black marker, and stuck over it a neat strip of WHITE tape cut square at both ends, the marker letters showing faintly through the tape; nothing written on the tape."
+    captions:
+    - INSIDE THE COLLAR SOMEONE HAD WRITTEN SASAKI IN BLACK MARKER. OVER IT SOMEBODY ELSE HAD STUCK A STRIP OF WHITE TAPE, NEAT, CUT SQUARE AT BOTH ENDS.
+    - THERE WAS NOTHING WRITTEN ON THE TAPE YET.
+
+# ================================================================== Sat 28 Oct, afternoon: twenty thousand
+- page: 13
+  title: Saturday
+  location: hayama-apartment
+  time: Saturday early afternoon, about 2:10 p.m., grey daylight through the window
+  panels:
+  - pos: top, wide
+    action: "Night at the small harbor gas station: a small old radio on the office shelf glowing, a refrigerated fish truck at the pump outside under the canopy lights."
+    captions:
+    - SATURDAY WAS THE FOURTH SATURDAY OF THE MONTH, SO NO SCHOOL. I WORKED THE FRIDAY NIGHT. FISH TRUCKS, TWO TAXIS, AND KUBO-SAN'S RADIO.
+  - pos: upper-right
+    action: "Dai alone at the low table in the daytime kitchen, a bowl of rice with hot tea poured over it, steam rising, chopsticks."
+    cast: [*dai_home]
+    captions:
+    - SATURDAY, 2:10 P.M. YESTERDAY'S RICE WITH HOT TEA POURED OVER IT. THE FLAT WAS EMPTY EXCEPT FOR ME.
+  - pos: upper-left
+    action: "Small memory inset with a soft grey border: Sota going out of the front door in the navy jacket, sleeves turned back twice, a small zipped bulge on the inside pocket."
+    cast: [{<<: *sota_jacket, note: "hood down, sleeves turned back twice"}]
+    captions:
+    - SOTA HAD GONE TO FUJITA'S AT A QUARTER TO TWO IN KEN'S JACKET, WITH HIS CAR ZIPPED INTO THE INSIDE POCKET.
+  - pos: lower, wide
+    action: "Outside: the open concrete stairwell of the danchi in daylight; the tired mother's sneakers and trouser legs paused on the landing, one foot on the next step."
+    cast: [{<<: *mom_factory, note: "only her legs and sneakers on the landing"}]
+    sfx: [{text: "tan... tan", note: small}]
+    captions:
+    - YOU CAN TELL HER STEP ON THE LAST FLIGHT. SHE STOPS ONCE ON THE LANDING, FOR ABOUT A SECOND, AND THEN COMES ON.
+  - pos: bottom, wide
+    location: hayama-genkan
+    action: "The steel door opening; Mom coming in, light-blue factory smock, a bag on her shoulder, stepping out of her shoes, not looking at anyone."
+    cast: [*mom_factory]
+
+- page: 14
+  title: Twenty thousand yen
+  location: hayama-genkan
+  time: Saturday about 2:15 p.m., grey daylight
+  guards:
+  - "Mom stays DOWN on the genkan concrete in her socks with her bag on her shoulder; she does not step up into the kitchen. Dai sits at the low table in the kitchen."
+  panels:
+  - pos: top, wide
+    action: "Mom standing on the genkan concrete in her socks, bag still on her shoulder, the door shut behind her, looking at the top of the low shoe cabinet; Dai small at the low table in the foreground."
+    cast: [*mom_factory, {<<: *dai_home, note: "small, back of his head in the foreground"}]
+    captions:
+    - SHE SMELLED OF THE FACTORY, RICE AND FRYING OIL. SHE DIDN'T STEP UP INTO THE KITCHEN.
+  - pos: middle-right
+    action: "Mom in profile, eyes on the shoe cabinet, not on him."
+    cast: [*mom_factory]
+    dialogue:
+    - michiko: DAISUKE.
+  - pos: middle-left
+    action: "Dai looking up from his bowl. Silent."
+    cast: [*dai_home]
+  - pos: lower, wide
+    action: "Close on Mom's tired face, eyes lowered to the cabinet, mouth flat."
+    cast: [*mom_factory]
+    dialogue:
+    - michiko: CAN YOU GIVE ME TWENTY THOUSAND YEN.
+    captions:
+    - IT DIDN'T GO UP AT THE END.
+  - pos: bottom, wide
+    action: "Close on Dai's hand laying his chopsticks down across the rim of the bowl. Silent."
+    cast: [{<<: *dai_home, note: "only his hand"}]
+
+- page: 15
+  title: The rent goes on Tuesday
+  location: hayama-genkan
+  time: Saturday about 2:15 p.m., grey daylight
+  continue_from: 14
+  panels:
+  - pos: top, wide
+    action: "Mom on the genkan concrete, bag on her shoulder, speaking to the shoe cabinet."
+    cast: [*mom_factory]
+    dialogue:
+    - michiko: THE HOSPITAL WAS MORE THAN I HAD.
+    - michiko: AND THE NEW MEDICINE IS EVERY MONTH. THE DOCTOR WANTS HIM ON IT TILL SPRING.
+  - pos: middle-right
+    action: "Close on her hand moving the strap of her bag on her shoulder."
+    cast: [{<<: *mom_factory, note: "only her shoulder and hand"}]
+    dialogue:
+    - {speaker: michiko, text: "THE RENT GOES ON TUESDAY.", offpanel: true}
+  - pos: middle-left
+    action: "Dai's face, very still."
+    cast: [*dai_home]
+    captions:
+    - THAT WAS ALL OF IT. I'VE HEARD HER SAY MORE TO THE MAN WHO READS THE GAS METER.
+  - pos: lower-right
+    location: hayama-apartment
+    action: "Dai getting up fast, his knee catching the edge of the low table, tea slopping over the side of the bowl."
+    cast: [*dai_home]
+    sfx: [GATA]
+  - pos: bottom-left
+    location: hayama-apartment
+    action: "Behind the fusuma in the tatami room: Dai kneeling at a cardboard box of school things, pulling out a thick dictionary with a white envelope tucked inside it."
+    cast: [*dai_home]
+
+- page: 16
+  title: Wednesday's half
+  location: hayama-genkan
+  time: Saturday about 2:20 p.m., grey daylight
+  guards:
+  - *notes_95
+  panels:
+  - pos: top-right
+    action: "Close on Dai's hands holding the open envelope: four 10,000-yen notes, three 1,000-yen notes and two 100-yen coins."
+    cast: [{<<: *dai_home, note: "only his hands"}]
+    captions:
+    - FOUR 10,000S, THREE 1,000S, TWO 100-YEN COINS. 43,200. I DIDN'T COUNT IT. I KNEW.
+  - pos: top-left
+    action: "Dai standing beside Mom at the low shoe cabinet, counting notes out onto its flat top; Mom beside him on the concrete, eyes down."
+    cast: [*dai_home, *mom_factory]
+    captions:
+    - I STOOD AT THE SHOE CABINET BESIDE HER AND COUNTED IT OUT THERE, AS I DO ON PAYDAYS.
+  - pos: middle, wide
+    action: "Close on the cabinet top: two 10,000-yen notes, two 1,000-yen notes, and four 100-yen coins sitting on top of the notes."
+    captions:
+    - 22,400. WEDNESDAY'S HALF, FOUR DAYS EARLY. ON WEDNESDAY THERE'D BE NOTHING MORE TO PUT ON THE CABINET.
+  - pos: lower-right
+    action: "Close on Dai's hand laying one more 10,000-yen note down beside the little pile."
+    cast: [{<<: *dai_home, note: "only his hand"}]
+    captions:
+    - THEN I PUT ANOTHER 10,000 DOWN NEXT TO IT.
+  - pos: bottom-left
+    action: "Close on Mom's eyes on that one note."
+    cast: [*mom_factory]
+    captions:
+    - I THOUGHT SHE'D PUSH IT BACK AT ME. I'D HAVE KNOWN WHAT TO DO WITH THAT.
+
+- page: 17
+  title: Your rice is cold
+  location: hayama-apartment
+  time: Saturday about 2:20 p.m., grey daylight
+  guards:
+  - *notes_95
+  - "Mom's household notebook: a small BROWN notebook with columns of handwriting that cannot be read."
+  panels:
+  - pos: top-right
+    location: hayama-genkan
+    action: "Close on Mom's hands squaring all the notes with two taps on the cabinet top, the coins in her palm."
+    cast: [{<<: *mom_factory, note: "only her hands"}]
+    sfx: [{text: ton ton, note: small}]
+    captions:
+    - SHE DIDN'T.
+  - pos: top-left
+    location: hayama-genkan
+    action: "Close on her folding the notes once and slipping them into the zip part of a worn purse."
+    cast: [{<<: *mom_factory, note: "only her hands"}]
+  - pos: middle-right
+    action: "Mom kneeling at the low table across from Dai's rice bowl, writing in a small brown notebook; Dai standing behind, looking down at it."
+    cast: [*mom_factory, {<<: *dai_home, note: "standing, partly cropped"}]
+  - pos: middle-left
+    action: "Close on the open brown notebook upside down from Dai's view: columns of small unreadable handwriting, and one new line on its own under all the others."
+    captions:
+    - A LINE ON ITS OWN, UNDER ALL THE OTHERS.
+    - 28 OCT. DAISUKE. 32,400.
+  - pos: bottom, large
+    action: "Mom shutting the notebook, not looking up at him, her face tired and closed; the cooling bowl of rice on the table in front of her."
+    cast: [*mom_factory]
+    dialogue:
+    - michiko: YOUR RICE IS COLD.
+
+- page: 18
+  title: It was cold
+  location: hayama-kitchen-night
+  time: Saturday afternoon about 2:30 p.m., grey daylight through the window, no lamps needed
+  panels:
+  - pos: top-right
+    action: "Mom at the sink wringing out a small towel."
+    cast: [*mom_factory]
+  - pos: top-left
+    action: "Through the gap in the fusuma: Mom lying down on a futon in the next room, the wet towel over her eyes. Silent."
+    cast: [{<<: *mom_factory, note: "lying down, small, through the gap"}]
+    captions:
+    - SHE WENT BEHIND THE FUSUMA TO THE ROOM SHE SHARES WITH AYA. I HEARD HER LIE DOWN.
+  - pos: middle, wide
+    action: "Silent and wide: Dai alone at the low table eating the rice, the empty kitchen around him."
+    cast: [*dai_home]
+    captions:
+    - I ATE THE RICE. IT WAS COLD.
+  - pos: lower-right
+    action: "Dai reaching up to take a square biscuit tin down from the top of the old refrigerator."
+    cast: [*dai_home]
+    captions:
+    - SOTA'S MEDICINE TIN. I DIDN'T NEED ANYTHING OUT OF IT. I TOOK IT DOWN ANYWAY.
+  - pos: bottom-left
+    action: "Close on a folded paper pharmacy bag and a receipt in Dai's fingers, a brown inhaler, a blister of pills and a blue inhaler beside the tin; the receipt's numbers unreadable."
+    cast: [{<<: *dai_home, note: "only his hands"}]
+    captions:
+    - THE BROWN INHALER, THE PILLS, THE BLUE ONE. 7,180. IN AUGUST IT HAD BEEN 4,820.
+
+- page: 19
+  title: Not both
+  location: hayama-kitchen-night
+  time: Saturday afternoon, grey daylight
+  guards:
+  - *notes_95
+  panels:
+  - pos: top-right
+    action: "Close on Dai's face over the receipt, doing sums."
+    cast: [*dai_home]
+    captions:
+    - 2,360 MORE, EVERY MONTH TILL SPRING. NOVEMBER, DECEMBER, JANUARY, FEBRUARY, MARCH. 11,800.
+  - pos: top-left
+    action: "Dai's hand setting the tin back on top of the refrigerator, square to the edge."
+    cast: [{<<: *dai_home, note: "only his hand"}]
+  - pos: middle-right
+    action: "Close on the open dictionary on the tatami: one 10,000-yen note, one 1,000-yen note and two 100-yen coins; Dai's open palm beside it with a few small coins."
+    cast: [{<<: *dai_home, note: "only his hand"}]
+    captions:
+    - A 10,000 LEFT, AND A 1,000, AND THE TWO COINS. IN MY POCKET, 97 YEN. 11,297.
+  - pos: middle-left
+    location: tanabe-yard
+    action: "Memory inset with a soft grey border, daylight: the small square old woman of the scrapyard, towel round her forehead, cigarette in her mouth, saying something flat."
+    cast: [{id: fumie, outfit: work}]
+    captions:
+    - TANABE-SAN'S SEVEN THOUSAND WAS DUE TUESDAY. A MONTH WITH NOTHING IN IT, SHE'D SAID, AND THE CAR GOES IN THE PRESS.
+  - pos: lower-right
+    action: "Memory inset with a soft grey border, night: Kubo from behind going into a small back room and reaching up to turn up an old radio."
+    cast: [{<<: *kubo, note: "from behind"}]
+    captions:
+    - KUBO-SAN WOULD WAIT FOR THE PADS. HE'D SAY "WEDNESDAY" AND GO INTO THE BACK AND TURN THE RADIO UP.
+  - pos: bottom-left
+    action: "Dai at the sink washing the rice bowl, eyes on the water."
+    cast: [*dai_home]
+    captions:
+    - I COULD PAY TANABE-SAN, OR THE PADS. NOT BOTH, NOT BEFORE WEDNESDAY. I DID THE SUM AGAIN. I HADN'T GOT IT WRONG.
+
+- page: 20
+  title: The twenty-eighth
+  location: hayama-kitchen-night
+  time: Saturday afternoon (memories at night), then 5 p.m. dusk
+  guards:
+  - *notes_95
+  panels:
+  - pos: top-right
+    action: "Memory inset with a soft grey border, night at the harbor lot: the round-faced bookmaker sitting in the back doorway of a white van, a pencil up, calling out to a crowd."
+    cast: [{id: okabe, outfit: work}]
+    dialogue:
+    - okabe: TEN PAYS SIXTEEN, TEN PAYS TWENTY-FIVE.
+  - pos: top-left
+    action: "Memory inset with a soft grey border, night: the bleached spiky-haired racer with a cigarette fanning out nine 10,000-yen notes in one hand for everyone to see, grinning."
+    cast: [{id: goto, outfit: tracksuit}]
+    captions:
+    - I COULD STILL HEAR OKABE CALLING IT, AND SEE GOTO FANNING OUT NINE NOTES FOR THE LOT TO SEE.
+  - pos: middle-right
+    action: "Close on a rice-shop wall calendar by the black rotary phone: October, the 28th, a Saturday."
+    captions:
+    - ON THE RICE-SHOP CALENDAR BY THE PHONE IT WAS THE TWENTY-EIGHTH. SATURDAY.
+  - pos: middle-left
+    location: hayama-genkan
+    action: "Five o'clock, dusk at the window: Sota coming in at the door in the navy jacket, cheerful, his blue toy car in his hand."
+    cast: [*sota_jacket]
+    captions:
+    - SOTA CAME BACK AT FIVE WITH THE JACKET ON AND BOTH HIS HEATS LOST.
+  - pos: lower, wide
+    action: "Sota at the low table, holding up the toy car, explaining happily to Dai (only Dai's shoulder at the edge)."
+    cast: [*sota_jacket]
+    dialogue:
+    - sota: THE COINS STAYED ON ALL THE WAY ROUND. EVERY LAP. KEN LOOKED UNDERNEATH IT TWICE WHEN HE THOUGHT NOBODY WAS WATCHING.
+  - pos: bottom, wide
+    location: hayama-genkan
+    action: "Close on Sota's hands hanging the navy jacket on the hook by the door by the little loop inside the collar, the strip of white tape showing."
+    cast: [{<<: *sota_jacket, note: "only his hands"}]
+
+- page: 21
+  title: Kawamata's
+  location: hayama-genkan
+  time: Saturday 6 p.m. to 8 p.m., dark outside, kitchen tube light
+  guards:
+  - "Mom wears the supermarket's GREEN work vest (mid-grey tone) over a long-sleeved top."
+  panels:
+  - pos: top-right
+    location: hayama-apartment
+    action: "Mom at the stove from behind, cooking dinner, the window dark."
+    cast: [{<<: *mom_vest, note: "from behind"}]
+    captions:
+    - MOM GOT UP AT SIX AND MADE DINNER.
+  - pos: top-left
+    action: "The genkan: Mom bent on the step putting her shoes on; Dai standing on the kitchen floor above her, looking down at the top of her head."
+    cast: [*mom_vest, *dai_home]
+    captions:
+    - AT TWENTY-FIVE PAST SEVEN, WHILE SHE PUT HER SHOES ON, I SAID IT TO THE TOP OF HER HEAD.
+  - pos: middle, wide
+    action: "Dai, hands in his pockets, eyes on the door, not on her."
+    cast: [*dai_home]
+    dialogue:
+    - dai_cut: I'M SLEEPING AT KAWAMATA'S TONIGHT. FOR THE STOCK AT SIX.
+  - pos: lower-right
+    action: "Close on Mom's finger working the heel of her second shoe on, her bun bent forward."
+    cast: [*mom_vest]
+    dialogue:
+    - michiko: SLEEP, THEN. DON'T SIT UP TALKING.
+  - pos: lower-left
+    action: "The steel door closing behind her. Silent."
+  - pos: bottom, wide
+    location: hayama-apartment
+    action: "The dark tatami room: Dai lying on his futon in his clothes, eyes open, looking at the ceiling."
+    cast: [*dai_home]
+    captions:
+    - SHE WENT. I LAY DOWN AT EIGHT.
+
+- page: 22
+  title: The back way
+  location: hayama-apartment
+  time: Saturday 11 p.m. at home, then 11:15 p.m. to midnight outside, no moon
+  guards:
+  - *night_dai
+  - *dry_night
+  - *notes_95
+  panels:
+  - pos: top-right
+    action: "11 p.m.: Dai zipping up his own plain grey jacket in the dark room, white cotton gloves in its pocket."
+    cast: [*dai_night]
+    captions:
+    - AT ELEVEN I PUT ON MY OWN JACKET, THE ONE WITHOUT A NAME ON IT, WITH THE GLOVES FOR SIX O'CLOCK IN ITS POCKET.
+  - pos: top-left
+    action: "Close on Dai's fingers taking the 10,000-yen note out of the dictionary, leaving the 1,000-yen note and two coins."
+    cast: [{<<: *dai_night, note: "only his hand"}]
+  - pos: middle-right
+    action: "A closed bathroom door with light and steam at the bottom crack; Dai beside it, half turned away."
+    cast: [*dai_night]
+    dialogue:
+    - dai_cut: KAWAMATA'S.
+    sfx: [{text: zaaa, note: small}]
+    captions:
+    - AYA WAS IN THE BATH. SHE SAID SOMETHING I COULDN'T HEAR OVER THE WATER.
+  - pos: middle-left, large
+    location: fish-market-backway-night
+    action: "Night: Dai walking alone down a dark lane behind long fish-market sheds, pallets and crates as dark shapes, his breath showing under one bare lamp by a sawmill."
+    cast: [{<<: *dai_night, note: "small, walking away"}]
+    captions:
+    - SATURDAY, 11:15 P.M. THE BACK WAY, BEHIND THE FISH-MARKET SHEDS, THE WAY NOBU AND I HAD GONE IN SEPTEMBER. I WENT IT ALONE. THERE WAS NO MOON.
+  - pos: lower-right
+    location: silo-sbend-night
+    action: "Dai small between the towering dark round silos."
+    cast: [{<<: *dai_night, note: "tiny figure"}]
+    captions:
+    - IT TOOK FORTY MINUTES. I CAME OUT AT THE SILOS AND WENT BETWEEN THEM,
+  - pos: bottom-left
+    location: rail-crossing-night
+    action: "Dai crossing the single rail track under the lone crossing light, the long straight with warehouse walls stretching ahead of him."
+    cast: [{<<: *dai_night, note: "small, from behind"}]
+    captions:
+    - OVER THE RAILS UNDER THE SINGLE LIGHT, AND DOWN THE LONG STRAIGHT.
+
+# ================================================================== Pier 3
+- page: 23
+  title: No moon
+  location: pier-3-night
+  time: Sunday just after midnight, no moon, sodium lights
+  guards:
+  - *night_dai
+  - *dry_night
+  - "Only about fifteen cars in the lot (no red open sports car, no white winged Silvia). Okabe's white van in the middle with its back doors open."
+  panels:
+  - pos: top, large (half the page)
+    action: "HALF-PAGE establishing: the Pier 3 lot with no moon, black sky, the tall sodium lights down one side (one lamp dead), stacked containers at the back, about fifteen period cars parked in a horseshoe with their doors open and engines idling, small groups standing close with hands in their armpits, breath showing; a plain white one-box van in the middle with its back doors open."
+    cast: [{id: meet_cars, camera: "wide high view across the lot, parked in a loose horseshoe, all at different angles"}, {id: okabe_van, camera: "far, small in the middle of the lot, seen from behind with its back doors open"}]
+    captions:
+    - THE LOT WAS SMALLER WITH NO MOON ON IT, OR IT FELT SMALLER. THE LAMP THAT HAD BEEN OUT IN SEPTEMBER WAS STILL OUT.
+    - FIFTEEN CARS OR SO. ONE STEREO, NOT FOUR. I COUNTED THIRTY-ONE PEOPLE WITH MY MOUTH SHUT.
+  - pos: middle-right
+    action: "Dai standing at the back against the stacked containers, hands in his jacket pockets, watching."
+    cast: [*dai_night]
+    captions:
+    - I STOOD AT THE BACK, AGAINST THE CONTAINERS, WHERE KUBO-SAN HAD SAID TO STAND.
+  - pos: middle-left
+    action: "Okabe sitting in the open back doorway of the van, a grey metal cash box on his knees, padded jacket, reading glasses pushed up into his hair, a black walkie-talkie on the van floor beside him."
+    cast: [*okabe]
+    captions:
+    - THE SILVIA WASN'T THERE. OKABE'S VAN WAS.
+  - pos: bottom, wide
+    action: "Near the mouth of the lot: the small white hatchback parked, its driver's door open, a thin young man sitting in it alone."
+    cast: [{<<: *sboy, note: "small, sitting in the driver's seat"}, {id: starlet, view: front34, camera: "eye-level front three-quarter of the RIGHT flank from 10 m, front pointing RIGHT, the RIGHT-hand driver's door open"}]
+    guards: [*starlet_marks]
+    captions:
+    - I KNEW TWO OF THE CARS. THE WHITE STARLET, AND THE SAME BOY IN IT. IN SEPTEMBER HE'D HAD FIFTEEN THOUSAND AND NOBODY TO PUT DOWN THE REST.
+
+- page: 24
+  title: The round one
+  location: pier-3-night
+  time: Sunday about 12:30 to 1:20 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *supra_marks
+  panels:
+  - pos: top-right
+    action: "The thin young man crouching at a front wheel of the white hatchback with a small tire-pressure gauge pressed on the valve, reading it."
+    cast: [*sboy]
+  - pos: top-left
+    action: "Close: his thumbnail pressing the valve of the back left tire, letting a little air out."
+    cast: [{<<: *sboy, note: "only his hand"}]
+    sfx: [{text: shhh, note: small}]
+    captions:
+    - HE WENT ROUND HIS OWN TIRES WITH A GAUGE, LETTING A LITTLE AIR OUT OF THE BACK LEFT WITH HIS THUMBNAIL.
+  - pos: middle-right
+    action: "The young man standing, wiping the gauge on his trouser leg and putting it in his shirt pocket."
+    cast: [*sboy]
+  - pos: middle-left, large
+    action: "Over by the bollards at the water's edge: the low round black sports coupe parked nose to the black water, nobody near it, its wing against the dark."
+    cast: [{id: supra, view: rear, camera: "high rear three-quarter from behind-LEFT across the lot, small, its nose toward the water"}]
+    captions:
+    - OVER BY THE BOLLARDS, NOSE TO THE WATER, WAS THE BLACK SUPRA. THE ROUND ONE. NOBODY WAS SITTING ON ITS HOOD.
+  - pos: lower-right
+    action: "The Supra's owner standing by the front of his car: short black leather jacket, gelled hair, loafers with the backs trodden down."
+    cast: [*owner]
+    captions:
+    - ITS OWNER. SHORT LEATHER JACKET, GOOD SHOES WITH THE BACKS TRODDEN DOWN, HAIR DONE FOR SOMEBODY EARLIER IN THE EVENING.
+  - pos: bottom-left
+    action: "Close on his cupped hands and a cigarette, the lighter sparking without a flame."
+    cast: [{<<: *owner, note: "his face half in shadow over his hands"}]
+    sfx: [{text: chik chik chik, note: small}]
+    captions:
+    - THE LIGHTER TOOK THREE GOES. THERE WAS NO WIND.
+
+- page: 25
+  title: Two fingers
+  location: pier-3-night
+  time: Sunday 1:20 a.m., no moon, sodium lights, the van's dome light
+  guards:
+  - *dry_night
+  - *notes_95
+  panels:
+  - pos: top, wide
+    action: "The thin young man walking across the lot to the man in the leather jacket, holding up two fingers."
+    cast: [*sboy, {<<: *owner, note: "smaller, waiting"}]
+    captions:
+    - 1:20 A.M. THE STARLET BOY WALKED ACROSS TO HIM. I COULDN'T HEAR WHAT HE SAID. I SAW HIM HOLD UP TWO FINGERS.
+  - pos: upper-right
+    action: "The leather-jacket man laughing short and scornful, cigarette in his fingers."
+    cast: [*owner]
+    captions:
+    - HE LOOKED AT THE STARLET, AND AT THE BOY, AND LAUGHED, AND THEY BOTH WENT TO THE VAN.
+  - pos: upper-left
+    action: "Close on Okabe's hands counting two 10,000-yen notes flat on the lid of the grey cash box, an envelope beside them."
+    cast: [{<<: *okabe, note: "only his hands"}]
+    dialogue:
+    - {speaker: okabe, text: "TWO 10,000S.", offpanel: true}
+  - pos: middle-right
+    action: "Okabe in profile in the van doorway, writing in a small notebook with a pencil, a second envelope on the box."
+    cast: [*okabe]
+    dialogue:
+    - okabe: TWO 10,000S.
+  - pos: middle-left
+    action: "Close on a small key turning in the cash box lock."
+    sfx: [{text: kachi, note: small}]
+    captions:
+    - FORTY THOUSAND IN THE BOX. FOUR OF IT WOULD STAY THERE. THIRTY-SIX FOR WHOEVER CAME BACK FIRST.
+  - pos: bottom, wide
+    action: "Low angle: Okabe calling out from the van doorway to the crowd, pencil raised; faces in the sodium light turning to him; Dai at the edge of the crowd."
+    cast: [*okabe, {<<: *dai_night, note: "small, at the edge of the crowd"}]
+    dialogue:
+    - okabe: SUPRA, TEN PAYS THIRTEEN. STARLET, TEN PAYS THIRTY.
+
+- page: 26
+  title: The inside edge
+  location: pier-3-night
+  time: Sunday about 1:25 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *night_dai
+  - *supra_marks
+  - "Tires have plain sidewalls with NO brand names."
+  panels:
+  - pos: top-right
+    action: "Hands holding out folded 1,000-yen and 5,000-yen notes toward the van; Okabe's pencil going; torn corners of notebook pages."
+    guards: [*notes_95]
+    captions:
+    - THE MONEY STARTED GOING TO THE VAN. ALMOST EVERYBODY SAID "SUPRA." TWO HUNDRED AND EIGHTY HORSEPOWER AGAINST A LITTLE TOYOTA YOU'D FETCH THE RICE IN.
+  - pos: top-left
+    action: "From behind: Dai walking away round the outside of the horseshoe of cars toward the bollards, hands in his pockets."
+    cast: [{<<: *dai_night, note: "from behind"}]
+    captions:
+    - I WALKED AWAY, ROUND THE OUTSIDE, AS IF I WERE GOING TO LOOK AT THE WATER.
+  - pos: middle, wide
+    action: "Close past the nose of the black coupe: its front wheels turned HARD to the car's right, so the RIGHT front tire's inner face is turned toward us in the pole light; Dai's legs passing at the edge."
+    cast: [{id: supra, view: front34, camera: "low front three-quarter from just ahead of the RIGHT front corner, close, the front wheels steered hard right"}, {<<: *dai_night, note: "only his legs passing"}]
+    captions:
+    - ITS FRONT WHEELS WERE TURNED HARD TO THE RIGHT. COMING PAST ITS NOSE, I COULD SEE THE INSIDE EDGE OF THE RIGHT FRONT TIRE. YOU CAN'T USUALLY.
+  - pos: bottom, large
+    action: "BIG close-up of the tire's inside edge: a band two fingers wide where the tread is GONE, the rubber goes smooth and then stops, and under it a criss-cross fabric weave of cords; in two places fine bright steel wires in the weave, a few ends standing up."
+    captions:
+    - A BAND ALONG THE INSIDE EDGE, TWO FINGERS WIDE, WHERE THE TREAD WAS GONE. NOT WORN LOW. GONE.
+    - UNDER IT A WEAVE, A CRISS-CROSS, LIKE THE COTTON GLOVES IN MY POCKET. IN TWO PLACES THERE WERE WIRES IN IT, FINE AND BRIGHT.
+
+- page: 27
+  title: Before anything else
+  location: pier-3-night
+  time: Sunday about 1:30 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *night_dai
+  panels:
+  - pos: top-right
+    location: okabe-tire
+    action: "Memory inset with a soft grey border, daylight in a tire shop: Okabe's finger in the groove of a tire tread pointing at a tiny raised bar under a small triangle mark on the shoulder."
+    cast: [{id: okabe, outfit: overalls, note: "only his hand"}]
+    captions:
+    - OKABE HAD SHOWN ME THE SLIP SIGN. THERE WASN'T ANY GROOVE ON THAT EDGE TO HAVE A BAR IN.
+  - pos: top-left
+    action: "Far across the lot: Okabe sitting on the van floor in the doorway with the cash box, not looking this way."
+    cast: [{<<: *okabe, note: "small, far"}]
+    captions:
+    - FROM THE VAN YOU COULDN'T HAVE SEEN IT, AND OKABE HADN'T GOT DOWN OFF THE VAN FLOOR ALL NIGHT.
+  - pos: middle, wide
+    action: "Silent: Dai from behind standing at the row of low bollards, looking out at the black harbor water and the far lights."
+    cast: [{<<: *dai_night, note: "from behind"}]
+  - pos: lower-right
+    action: "Through the car's open RIGHT-hand door: the leather-jacket man in the driver's seat turning the steering wheel with both hands, staring down."
+    cast: [*owner]
+    captions:
+    - WHEN I TURNED ROUND HE WAS IN HIS CAR. BEFORE ANYTHING ELSE HE TURNED THE WHEEL UNTIL THE FRONTS WERE STRAIGHT.
+  - pos: bottom-left
+    action: "The man sitting sideways in the driver's seat with the door open and one loafer on the ground, looking down through the gap at the right front tire, lips pressed."
+    cast: [*owner]
+    captions:
+    - THEN HE SAT WITH THE DOOR OPEN AND LOOKED DOWN AT THE RIGHT FRONT, FOR A LONG TIME.
+
+- page: 28
+  title: One tire
+  location: pier-3-night
+  time: Sunday about 1:35 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *night_dai
+  - *supra_marks
+  panels:
+  - pos: top-right
+    action: "Close at a small cooler van's open side: the man's thumb slipping off the cap of a small brown glass energy-drink bottle."
+    cast: [{<<: *owner, note: "only his hands and the bracelet"}]
+    sfx: [{text: kyu, note: small}]
+    captions:
+    - HE BOUGHT ONE OF THE LITTLE BROWN ENERGY DRINKS. HIS THUMB SLIPPED OFF THE CAP THE FIRST TIME.
+  - pos: top-left
+    action: "Close on his hand wiping its palm down the thigh of his jeans."
+    cast: [{<<: *owner, note: "only his hand and jeans"}]
+    captions:
+    - HE WIPED HIS HAND ON HIS JEANS AND DID IT AGAIN.
+  - pos: middle, wide
+    action: "Low view at bumper height from a few meters behind the black coupe: its two fat rear tires and round taillights, dark under the pole light."
+    cast: [{id: supra, view: rear, camera: "straight from behind, low at bumper height, 4 m away, the two fat rear tires filling the lower panel"}]
+    captions:
+    - NOBODY SEES THE INSIDE OF A BACK TIRE WITHOUT LYING DOWN. BUT A MAN WHO'D RUN HIS FRONTS DOWN TO THE CORDS HADN'T BEEN LOOKING AFTER HIS BACKS EITHER.
+  - pos: lower-right
+    action: "Close on Dai's face in the sodium light, thinking hard."
+    cast: [*dai_night]
+    captions:
+    - THAT WAS ALL I HAD. ONE TIRE, A LIGHTER THAT TOOK THREE GOES, A THUMB THAT SLIPPED OFF A CAP.
+  - pos: lower-left
+    action: "Memory inset with a soft grey border, morning: a sneaker slipping off a car's clutch pedal, the gear lever jolting."
+    captions:
+    - I'D THOUGHT I KNEW THINGS IN THE BACK LOT TOO, AND STALLED.
+  - pos: bottom, wide
+    action: "Memory inset with a soft grey border, moonlit night: the bleached spiky-haired racer with a cigarette muttering something sideways to nobody, people around him turning their heads."
+    cast: [{id: goto, outfit: tracksuit}]
+    captions:
+    - GOTO HAD SAID ONE THING ABOUT THE CHASER'S TIRES IN SEPTEMBER, TO NOBODY, AND IT HAD TURNED THE PRICE OVER IN A MINUTE.
+
+- page: 29
+  title: Wet palm
+  location: pier-3-night
+  time: Sunday about 1:40 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *night_dai
+  - *notes_95
+  panels:
+  - pos: top-right
+    action: "Dai standing in the crowd with his mouth shut, people around him talking."
+    cast: [*dai_night]
+    captions:
+    - I DIDN'T SAY ANYTHING TO ANYBODY.
+  - pos: top-left
+    action: "Close on Dai's hand coming out of his pocket with one folded 10,000-yen note."
+    cast: [{<<: *dai_night, note: "only his hand"}]
+    captions:
+    - MY HAND WENT INTO MY POCKET. IT CAME OUT WITH THE 10,000 IN IT.
+  - pos: middle-right
+    action: "Memory inset with a soft grey border, moonlit: a thin young man's hand going into his back jeans pocket and coming out empty."
+    cast: [{<<: *sboy, note: "only his hand and back pocket"}]
+    captions:
+    - IN SEPTEMBER I'D WATCHED THE STARLET BOY'S HAND COME OUT OF HIS POCKET EMPTY, TWICE.
+  - pos: middle-left
+    action: "Close on Dai's LEFT palm, a thin healed PINK line across it, wiping down the leg of his jeans."
+    cast: [{<<: *dai_night, note: "only his left hand"}]
+    captions:
+    - MY PALM WAS WET. I WIPED IT DOWN MY JEANS,
+  - pos: lower-right
+    action: "Dai freezing, staring at his own hand."
+    cast: [*dai_night]
+    captions:
+    - AND SAW THAT I'D DONE WHAT THE SUPRA'S OWNER DID, AND STOPPED.
+  - pos: bottom-left
+    action: "Dai at the van's open back doors holding the note out to Okabe."
+    cast: [*dai_night, {<<: *okabe, note: "sitting in the doorway"}]
+    captions:
+    - I WENT TO THE VAN AND HELD IT OUT.
+
+- page: 30
+  title: Tanabe-san's customer
+  location: pier-3-night
+  time: Sunday about 1:40 a.m., the van's dome light
+  guards:
+  - *dry_night
+  - *night_dai
+  - *notes_95
+  - "Okabe now has his reading glasses ON his nose."
+  panels:
+  - pos: top-right
+    action: "Okabe looking at Dai over the top of his reading glasses, the note in front of him."
+    cast: [{<<: *okabe, outfit: "a dark padded jacket over a sweater, reading glasses ON his nose"}]
+    dialogue:
+    - okabe: TANABE-SAN'S CUSTOMER.
+  - pos: top-left
+    action: "Dai, flat."
+    cast: [*dai_night]
+    dialogue:
+    - dai_cut: STARLET.
+  - pos: middle-right
+    action: "Okabe in profile, making sure he's heard, pencil raised."
+    cast: [{<<: *okabe, outfit: "a dark padded jacket over a sweater, reading glasses ON his nose"}]
+    dialogue:
+    - okabe: TEN PAYS THIRTY. SAME TENTH AS THE POT. OFF WHAT YOU WIN.
+  - pos: middle-left
+    action: "Close on Dai's face."
+    cast: [*dai_night]
+    dialogue:
+    - dai_cut: TWENTY-EIGHT.
+  - pos: lower-right
+    action: "Close on Okabe's tire-blackened fingers tearing the corner off a notebook page and writing on it with a pencil."
+    cast: [{<<: *okabe, note: "only his hands"}]
+  - pos: bottom-left
+    action: "Close on the small torn corner of paper in Dai's fingers: written in pencil, S 10 30 and a squiggle."
+    cast: [{<<: *dai_night, note: "only his fingers"}]
+    notes: ["The only readable text in this panel is the pencil writing S 10 30 on the paper corner."]
+
+- page: 31
+  title: A corner off a page
+  location: pier-3-night
+  time: Sunday about 1:45 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *night_dai
+  - *geography
+  panels:
+  - pos: top-right
+    action: "Dai buttoning the paper corner into his shirt's breast pocket."
+    cast: [*dai_night]
+  - pos: top-left
+    action: "Memory inset with a soft grey border, moonlit, in car headlights: the older heavy-set police officer bending down, buttoning a small paper corner into his own breast pocket."
+    cast: [officer]
+    captions:
+    - THEN I THOUGHT OF THE OLDER POLICEMAN IN SEPTEMBER, BUTTONING ONE JUST LIKE IT INTO HIS OWN POCKET.
+  - pos: middle, wide
+    action: "Dai's hand pushed deep into his jeans pocket and staying there; his other hand at his shirt pocket, now unbuttoned."
+    cast: [*dai_night]
+    captions:
+    - I PUT IT IN MY TROUSER POCKET INSTEAD, AND KEPT MY HAND ON IT. I HAD 97 YEN AND A CORNER OFF A PAGE OF A SCHOOL NOTEBOOK.
+  - pos: lower-right
+    action: "Close on the black walkie-talkie lying on the van floor; behind it people looking up the dark road."
+    cast: [radio]
+    dialogue:
+    - radio: {text: QUIET., at: "tail pointing at the walkie-talkie"}
+    captions:
+    - IT SAID "QUIET" FROM THE ON-RAMP EVERY FEW MINUTES, IN A BORED VOICE, AND EVERY TIME A FEW PEOPLE LOOKED UP THE ROAD ANYWAY. SO DID I.
+  - pos: bottom-left
+    action: "At the mouth of the lot: the two cars side by side at the start line on the dark straight, the small white hatchback in the LEFT lane by the warehouse walls, the black coupe in the RIGHT lane; a scooter boy with a flashlight standing between and ahead of them."
+    cast: [starter, {id: starlet, view: side, camera: "low from the warehouse wall, front three-quarter of its LEFT flank, nose pointing LEFT, near"}, {id: supra, view: side, camera: "beyond the white car in the far lane, LEFT flank, nose pointing LEFT"}]
+    captions:
+    - THE STARLET TOOK THE LEFT LANE, BY THE WAREHOUSES, AND THE SUPRA THE RIGHT. THE KID WITH THE FLASHLIGHT WAS A DIFFERENT KID.
+
+- page: 32
+  title: Never the same twice
+  location: pier-3-night
+  time: Sunday about 1:50 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *night_dai
+  - *geography
+  - *supra_marks
+  - *starlet_marks
+  panels:
+  - pos: top-right
+    action: "Dai standing on top of the last bollard at the corner, 20 meters behind the starter, looking down the road."
+    cast: [*dai_night]
+    captions:
+    - I STOOD ON THE LAST BOLLARD AT THE CORNER, WHERE I'D STOOD BEFORE. SOMEBODY TURNED THE STEREO OFF.
+  - pos: top-left
+    action: "Close on a hand turning the knob of a car cassette stereo off."
+    sfx: [{text: putsu, note: small}]
+  - pos: middle-right
+    action: "Close on the white hatchback's little rear corner and exhaust pipe trembling at a steady idle, a thin heat haze."
+    sfx: [WEEEEEEEN]
+    captions:
+    - THE STARLET'S LITTLE FOUR SAT ON ONE NOTE, A HIGH, STEADY HUM, AND STAYED ON IT.
+  - pos: middle-left
+    action: "Inside the black coupe's dark footwell: a loafer with its back trodden down pumping the accelerator pedal, never still."
+    cast: [{<<: *owner, note: "only his foot and trouser leg"}]
+    sfx: ["BWOM... BWAAN... BWOM"]
+    captions:
+    - THE SUPRA'S SIX WENT UP AND FELL BACK AND UP AGAIN, NEVER THE SAME TWICE. HIS FOOT COULDN'T KEEP STILL ON IT.
+  - pos: bottom, wide
+    action: "From behind the starter: the scooter boy's arm raising a long black flashlight high, its beam pointing at the black sky; the two cars' taillights beyond him."
+    cast: [{id: starter, note: "from behind"}]
+    captions:
+    - THE FLASHLIGHT WENT UP, AND STAYED UP, AND CAME DOWN.
+
+- page: 33
+  title: As if it were parked
+  location: pier-3-night
+  time: Sunday about 1:52 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *geography
+  - *supra_marks
+  - *starlet_marks
+  panels:
+  - pos: top, large (two-thirds of the page)
+    action: "LAUNCH, seen from high above and behind the starter: the black coupe in the RIGHT lane with both rear tires lit up in thick white smoke glowing orange in the sodium light, its tail slewed a meter sideways; the small white hatchback in the LEFT lane already away clean, small and neat; the starter leaning back between them, flashlight down."
+    cast: [{id: supra, view: rear, camera: "high from behind and above the start line, rear three-quarter from behind-RIGHT, tail kicked sideways in smoke"}, {id: starlet, view: rear, camera: "high from behind, straight rear, small, already a length ahead in the left lane"}, {id: starter, note: "small, from behind"}]
+    sfx: [KYAAAAAA, GWAAAN]
+    captions:
+    - THE SUPRA'S BACK TIRES LIT UP, BOTH OF THEM, AND THE CAR SLEWED SIDEWAYS A METER AND CAUGHT. THE STARLET WAS AWAY CLEAN BUT SMALL.
+  - pos: bottom, wide
+    action: "Cutaway on the warehouse straight, elevated side view from the warehouse side: both cars streaking toward the LEFT edge of the panel, the white hatchback in the near lane, the black coupe in the far lane blasting past it with speed lines; warehouse wall in the foreground blur."
+    cast: [{id: starlet, view: rear, camera: "elevated lateral from the warehouse side, LEFT flank, nose pointing LEFT, near lane"}, {id: supra, view: rear, camera: "elevated lateral, LEFT flank, nose pointing LEFT, far lane, a length ahead and pulling away"}]
+    sfx: [FWOOOOSH]
+    captions:
+    - THEN IT CAME ONTO ITS TURBOS, ONE SHOVE AND THEN A SECOND, HARDER ONE, AND WENT DOWN THE STRAIGHT AS IF THE STARLET WERE PARKED.
+
+- page: 34
+  title: Two pairs of red lights
+  location: pier-3-night
+  time: Sunday about 1:53 a.m., no moon
+  guards:
+  - *dry_night
+  - *geography
+  panels:
+  - pos: top, wide
+    action: "From behind Dai standing on the bollard: far down the dark straight, two pairs of small red taillights, the right-hand pair far ahead, the dark between them opening."
+    cast: [{<<: *dai_night, note: "from behind, on the bollard"}]
+    captions:
+    - FROM THE BOLLARD ALL I HAD WAS TWO PAIRS OF RED LIGHTS, AND THE DARK BETWEEN THEM OPENING, WIDER AND WIDER.
+  - pos: middle-right
+    action: "Very far: the lone crossing light on its pole at the end of the straight; just short of it one pair of taillights flaring bright with braking, the other pair still dark and well behind."
+    captions:
+    - AT THE CROSSING THE SUPRA'S BRAKE LIGHTS CAME ON EARLY, A LONG WAY BEFORE THE BUMP, AND STAYED ON ALL THE WAY OVER IT.
+  - pos: middle-left
+    location: rail-crossing-night
+    action: "Cutaway at the rail crossing, low at rail level beside the track: the small white hatchback bouncing over the hump, brake lights just flicking on; ahead of it, small, the black coupe's red lights turning LEFT toward the silos."
+    cast: [{id: starlet, view: rear, camera: "low rear three-quarter from behind-RIGHT at rail level, wheels just landing off the hump"}]
+    captions:
+    - THE STARLET'S CAME ON LATE AND WENT OFF AGAIN QUICKLY.
+  - pos: lower, wide
+    location: rail-crossing-night
+    action: "Beyond the crossing: the road bending LEFT behind the dark round silos; two pairs of taillights nearly together vanishing round the bend."
+    captions:
+    - BY THE TIME THE ROAD TOOK THEM BEHIND THE SILOS, THE TWO PAIRS OF LIGHTS HAD NEARLY CLOSED UP AGAIN.
+  - pos: bottom, wide
+    action: "Silent: the lot, people standing very still in the sodium light looking down the empty road; Dai on the bollard."
+    cast: [{<<: *dai_night, note: "small"}]
+    captions:
+    - PAST THE SILOS I COULDN'T HEAR EITHER OF THEM. THERE WAS ONLY THE RADIO NOW.
+
+- page: 35
+  title: Silos
+  location: silo-sbend-night
+  time: Sunday about 1:54 a.m., no moon, sodium lamps between the silos
+  guards:
+  - *dry_night
+  - *supra_marks
+  - *starlet_marks
+  panels:
+  - pos: top, wide
+    location: pier-3-night
+    action: "Close on the walkie-talkie on the van floor, Okabe's hand near it, faces leaning in."
+    cast: [radio]
+    dialogue:
+    - radio: {text: "SILOS. SUPRA, STARLET. STARLET'S ON HIM. STARLET'S RIGHT ON HIM.", at: "jagged radio balloon, tail to the walkie-talkie"}
+    captions:
+    - A BOY, AND HIS VOICE KEPT CRACKING.
+  - pos: middle, large
+    action: "Cutaway in the S-bend between the giant silos, ground level from the inside curb of the first left-hander: the black coupe sweeping LEFT through the bend, tail stepping out, and the small white hatchback's nose right at its rear bumper, both moving toward the LEFT of the panel."
+    cast: [{id: supra, view: front34, camera: "ground level from the inside curb, front three-quarter of the LEFT flank, nose pointing LEFT, tail stepping out"}, {id: starlet, view: front34, camera: "right behind it, nose pointing LEFT, headlights glaring on the black car's tail"}]
+    sfx: [GYAAAA]
+  - pos: bottom, wide
+    action: "A teenage lookout on a small scooter beside a silo, helmet pushed back, shouting into his walkie-talkie, eyes huge."
+    cast: [lookout]
+    dialogue:
+    - lookout: HE'S OUT! SUPRA'S OUT, HE'S ROUND, HE'S GONE RIGHT ROUND!
+
+- page: 36
+  title: He's gone right round
+  location: silo-sbend-night
+  time: Sunday about 1:54 a.m., no moon, sodium lamps
+  guards:
+  - *dry_night
+  - *supra_marks
+  - *starlet_marks
+  panels:
+  - pos: full page
+    action: "FULL-PAGE SPLASH, seen from high above on a conveyor bridge between the silos looking down into the S-bend: the black coupe has spun right round and sits slewed across the road facing BACK the way it came, smoke boiling off its rear tires, its front corner against the curb; the small white hatchback slipping through past it, headlights carving on toward the far side of the bend; giant silo walls rising on both sides."
+    cast: [{id: supra, view: rear, camera: "bird's-eye from a conveyor bridge high above, the car turned round facing back down the road, smoke"}, {id: starlet, view: front34, camera: "bird's-eye from above, small, slipping past"}]
+    sfx: [GYARARARA]
+    dialogue:
+    - radio: {text: "HE'S FACING THIS WAY!", offpanel: true, at: "top right, jagged radio balloon"}
+    - radio: {text: "STARLET'S THROUGH. STARLET'S THROUGH.", offpanel: true, at: "bottom left, jagged radio balloon"}
+
+- page: 37
+  title: Coming back
+  location: pier-3-night
+  time: Sunday about 1:55 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *geography
+  panels:
+  - pos: top, wide
+    action: "The lot: a groan going through the crowd, men turning away, a hand on a head, someone kicking a tire."
+    captions:
+    - A NOISE WENT ACROSS THE LOT, MOSTLY A GROAN.
+  - pos: upper-right
+    action: "Close on Okabe's pencil stopped over the open notebook."
+    cast: [{<<: *okabe, note: "only his hand and the notebook"}]
+    captions:
+    - OKABE'S PENCIL STOPPED. HE DIDN'T WRITE ANYTHING.
+  - pos: upper-left
+    action: "The walkie-talkie close, the antenna against the dark."
+    cast: [radio]
+    dialogue:
+    - radio: {text: "HE'S MOVING. SUPRA'S GOING AGAIN. HE'S... HE'S COMING BACK. HE'S COMING BACK DOWN YOUR WAY.", at: "tail to the walkie-talkie"}
+  - pos: middle, wide
+    location: bypass-onramp-night
+    action: "A second lookout, a different boy, on a scooter at the foot of the on-ramp, walkie-talkie at his mouth; up the ramp beyond him one small pair of taillights climbing alone."
+    cast: [{id: lookout, outfit: "a dark hooded sweatshirt, jeans, open-face helmet"}]
+    dialogue:
+    - lookout: ON-RAMP. STARLET. ON HIS OWN.
+  - pos: bottom, wide
+    action: "From the bollard looking down the long dark straight: far away under the crossing light, a pair of headlights pointing back at the lot."
+    sfx: [{text: "bata... bata... bata", note: slow, small}]
+    captions:
+    - A BIG SIX AT ALMOST NOTHING, AND UNDER IT A SLAPPING, SLOW. THEN HEADLIGHTS AT THE CROSSING, POINTING AT US.
+
+- page: 38
+  title: Down on the rim
+  location: pier-3-night
+  time: Sunday about 2 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *supra_marks
+  - "Tires have plain sidewalls with NO brand names."
+  panels:
+  - pos: top-right
+    action: "From behind the silent crowd: the headlights slowly coming up the straight toward the lot."
+    captions:
+    - THEY TOOK A LONG TIME TO COME DOWN THE KILOMETER. NOBODY SAID ANYTHING WHILE THEY DID.
+  - pos: top-left
+    location: bypass-overpass-night
+    action: "A lookout's dark silhouette on the pedestrian overpass over the bypass curve, a cigarette glowing, walkie-talkie raised."
+    cast: [{id: lookout, outfit: "a dark windbreaker, helmet off", note: "silhouette"}]
+    dialogue:
+    - lookout: CURVE. STARLET. CLEAN.
+  - pos: middle, wide
+    action: "The black coupe rolling into the lot at walking pace toward the bollards, its front LEFT bumper corner cracked and scraped white, one headlight pair staring."
+    cast: [{id: supra, view: front34, camera: "eye-level front three-quarter of the LEFT flank from 8 m, rolling slowly toward the bollards"}]
+    captions:
+    - THE SUPRA CAME INTO THE LOT AT WALKING PACE AND ROLLED ACROSS TO THE BOLLARDS WHERE IT HAD BEEN PARKED, AND STOPPED.
+  - pos: lower, large
+    action: "BIG close-up of the right rear wheel: the tire down flat on the rim, torn open along its edge, a long loose strip of rubber hanging from the arch, the cords inside bunched and broken and sticking out in a ragged fringe."
+    captions:
+    - THE RIGHT BACK TIRE WAS DOWN ON THE RIM. A LONG STRIP OF IT HUNG LOOSE AND HAD BEEN SLAPPING THE ARCH EVERY TIME THE WHEEL WENT ROUND.
+  - pos: bottom, wide
+    action: "Close on the cracked front bumper corner, scraped white."
+    captions:
+    - THE CORNER OF THE FRONT BUMPER WAS CRACKED AND SCRAPED WHITE, WHERE SOMETHING AT THE SILOS HAD BEEN IN THE WAY.
+
+- page: 39
+  title: On his own
+  location: pier-3-night
+  time: Sunday about 2 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *notes_95
+  - *supra_marks
+  - *starlet_marks
+  panels:
+  - pos: top, wide
+    action: "The leather-jacket man sitting alone on a bollard beside his black coupe's torn right rear tire, head down; his car's RIGHT side to us; far behind, two men by a cooler van with cans, their backs to him."
+    cast: [*owner, {id: supra, view: side, camera: "eye-level side view of the RIGHT flank, FRONT pointing RIGHT, the driver's door open, torn rear tire near the bollard"}]
+    captions:
+    - HE SAT DOWN ON THE BOLLARD NEXT TO IT. NOBODY WENT OVER TO HIM. THE TWO MEN HE'D BEEN TALKING TO STOOD BY THE COOLER VAN, THEIR BACKS TO HIM.
+  - pos: upper-right
+    action: "The walkie-talkie on the van floor."
+    cast: [radio]
+    dialogue:
+    - radio: {text: "EXIT. STARLET.", at: "tail to the walkie-talkie"}
+  - pos: upper-left
+    action: "Far down the harbor road the other way, from the far end: one pair of small low headlights coming."
+    captions:
+    - ONE PAIR OF HEADLIGHTS FROM THE HIGASHI END, SMALL AND LOW.
+  - pos: middle, wide
+    action: "The small white hatchback flashing past the flashlight kid on its own, going away, brake lights glaring red, a smell of hot brakes."
+    cast: [starter, {id: starlet, view: rear, camera: "low rear three-quarter from behind-LEFT at the curb, passing close, brake lights glaring"}]
+    sfx: [WIIIIIIIN!]
+    captions:
+    - IT CAME PAST THE FLASHLIGHT KID WITH THE LITTLE ENGINE SCREAMING, AND THEN THE BRAKE LIGHTS, AND THE SMELL OF HIS BRAKES.
+  - pos: lower-right
+    action: "A few people cheering, arms up; most standing with hands in their pockets."
+    captions:
+    - A FEW PEOPLE CHEERED. MOST OF THEM HAD MONEY ON THE OTHER ONE.
+  - pos: bottom-left
+    action: "The thin young man at the van counting notes in his hands; Okabe watching from the doorway, smiling."
+    cast: [*sboy, {<<: *okabe, note: "in the doorway"}]
+    captions:
+    - THE BOY GOT THREE 10,000S, A 5,000 AND A 1,000, AND COUNTED THEM TWICE. OKABE WATCHED HIM AND SMILED.
+
+- page: 40
+  title: Twenty-eight
+  location: pier-3-night
+  time: Sunday about 2:05 a.m., the van's dome light
+  guards:
+  - *dry_night
+  - *night_dai
+  - *notes_95
+  panels:
+  - pos: top-right
+    action: "Dai holding out the small paper corner to Okabe."
+    cast: [*dai_night]
+    captions:
+    - I GAVE OKABE THE CORNER OF PAPER.
+  - pos: top-left
+    action: "Close on Okabe's pencil running down a column of figures in the notebook and stopping."
+    cast: [{<<: *okabe, note: "only his hand"}]
+  - pos: middle, wide
+    action: "Okabe licking his thumb, glasses on his nose."
+    cast: [{<<: *okabe, outfit: "a dark padded jacket over a sweater, reading glasses ON his nose"}]
+    dialogue:
+    - okabe: TWENTY-EIGHT.
+  - pos: bottom, large (half the page)
+    action: "HALF-PAGE close-up under the van's dome light: Okabe's tire-blackened fingers laying notes one by one into Dai's open palm: two 10,000-yen notes, one 5,000-yen note, three 1,000-yen notes; the cash box open below."
+    cast: [{<<: *okabe, note: "only his hands"}, {<<: *dai_night, note: "only his open hand"}]
+    captions:
+    - TWO 10,000S, A 5,000 AND THREE 1,000S, INTO MY HAND. HE DIDN'T COUNT THEM TWICE.
+
+- page: 41
+  title: You've got an eye
+  location: pier-3-night
+  time: Sunday about 2:05 a.m., the van's dome light
+  guards:
+  - *dry_night
+  - *night_dai
+  - "Okabe pushes his reading glasses up into his hair in the first panel and keeps them there."
+  panels:
+  - pos: top-right
+    action: "Okabe taking his glasses off his nose and pushing them up into his hair, looking at Dai properly for the first time."
+    cast: [*okabe]
+  - pos: top-left
+    action: "Okabe sitting in the van doorway, elbows on the cash box, appraising."
+    cast: [*okabe]
+    dialogue:
+    - okabe: YOU'VE GOT AN EYE. YOU WENT AND LOOKED AT HIS FRONT WHEEL, AND THEN YOU CAME TO ME.
+  - pos: middle-right
+    action: "Close on Okabe's warm salesman's smile."
+    cast: [*okabe]
+    dialogue:
+    - okabe: EVER BET ON A SURE THING?
+  - pos: middle-left
+    action: "Dai saying nothing, the notes in his fist."
+    cast: [*dai_night]
+  - pos: lower-right
+    action: "Low side angle: Okabe leaning forward a little out of the van, one eyebrow up."
+    cast: [*okabe]
+    dialogue:
+    - okabe: YOURSELF?
+  - pos: bottom-left
+    action: "Dai, flat, looking away."
+    cast: [*dai_night]
+    dialogue:
+    - dai_cut: I HAVEN'T GOT A CAR THAT GOES.
+
+- page: 42
+  title: A pair for the back
+  location: pier-3-night
+  time: Sunday about 2:10 a.m., no moon, sodium lights
+  guards:
+  - *dry_night
+  - *night_dai
+  panels:
+  - pos: top-right
+    action: "Okabe nodding slowly, glasses up in his hair."
+    cast: [*okabe]
+    dialogue:
+    - okabe: TANABE-SAN'S ROADSTER. WHEN IT GOES.
+  - pos: top-left, large
+    action: "Over Okabe's shoulder: far across the lot, the man in the leather jacket small on his bollard by the dark shape of his car; Okabe calling across with a hand up."
+    cast: [{<<: *okabe, note: "from behind, calling"}, {<<: *owner, note: "tiny, far, on the bollard"}]
+    dialogue:
+    - okabe: MONDAY. COME BY THE SHOP. I'LL DO YOU A PAIR FOR THE BACK.
+  - pos: middle-right
+    action: "The man on the bollard lifting his head a little. Silent."
+    cast: [*owner]
+  - pos: lower, wide
+    location: harbor-road-night
+    action: "Dai walking alone back up the dark straight on the warehouse side, between the pools of sodium light, one hand in his jeans pocket."
+    cast: [{<<: *dai_night, note: "small"}]
+    captions:
+    - I WENT BACK UP THE STRAIGHT ON THE WAREHOUSE SIDE, IN THE DARK BETWEEN THE LIGHTS, WITH MY HAND IN MY TROUSER POCKET ON THE NOTES.
+  - pos: bottom, wide
+    action: "Close on Dai's hand in his jeans pocket, the thumb turning over folded banknotes, soft at the folds."
+    cast: [{<<: *dai_night, note: "only his hand"}]
+    captions:
+    - THEY'D BEEN IN OKABE'S BOX WITH EVERYBODY ELSE'S. THEY WERE WARM, AND SOFT AT THE FOLDS, AND I KEPT TURNING THEM OVER WITH MY THUMB.
+
+# ================================================================== the father (memory)
+- page: 43
+  title: Silver balls
+  location: hayama-genkan
+  time: a night in 1985, memory, warm lamplight
+  guards:
+  - "These are MEMORY panels, years ago: soft grey borders, slightly softer screentone."
+  - "The FATHER's FACE is NEVER shown: only his back, shoulders, hands, trouser legs and shoes, or a frame cropped at the chin."
+  panels:
+  - pos: top, large (more than half the page)
+    action: "Memory, BIG: the same genkan years ago at night: a tall man in a rumpled light suit sitting on the genkan step with his BACK to us, taking his shoes off, shoulders shaking with laughter; standing up, three or four shiny silver steel balls spill from the turn-ups of his trousers and roll across the concrete into the corners by the door."
+    cast: [{id: father, note: "from BEHIND, face never shown"}]
+    captions:
+    - OUR GENKAN. THE SAME CONCRETE AS NOW. MY FATHER SITTING ON THE STEP AT NIGHT TO TAKE HIS SHOES OFF, LAUGHING AT SOMETHING,
+    - AND WHEN HE STOOD UP, SILVER BALLS CAME OUT OF THE TURN-UPS OF HIS TROUSERS AND RAN INTO THE CORNERS BY THE DOOR.
+  - pos: middle-right
+    action: "Memory: a small thin boy with long messy hair and a girl with a bob on hands and knees on the concrete, reaching into the corners after the rolling balls; the man's trouser legs and socks at the edge."
+    cast: [{id: young_dai, note: "a little younger, about six"}, young_aya, {id: father, note: "only his trouser legs and socks"}]
+    captions:
+    - AYA AND I WENT AFTER THEM ON OUR HANDS AND KNEES.
+  - pos: middle-left
+    action: "Memory close: a small boy's palm holding three shiny silver pachinko balls."
+    cast: [{id: young_dai, note: "only his small hand"}]
+    captions:
+    - THEY WERE HEAVIER THAN THEY LOOKED, AND COLD. HE'D LAUGH MORE WHEN WE FOUND THEM.
+  - pos: bottom, wide
+    location: hayama-apartment
+    action: "Memory: under the kitchen sink, a cupboard door open, a glass jam jar half full of silver balls; a small boy's hand dropping one more in."
+    cast: [{id: young_dai, note: "only his hand"}]
+    sfx: [{text: karan, note: small}]
+    captions:
+    - I KEPT THEM IN A JAM JAR UNDER THE SINK, AND BY THE TIME I WAS EIGHT THERE WERE ENOUGH TO RATTLE.
+
+- page: 44
+  title: Good shoes
+  location: hayama-genkan
+  time: memory, evening in 1987, then the present at about 2:30 a.m.
+  guards:
+  - "Memory panels: soft grey borders. The father does not appear on this page."
+  - *dry_night
+  panels:
+  - pos: top, wide
+    action: "Memory: the steel door open only as far as its chain; through the gap two men in dark well-cut suits on the landing, polite; inside, a younger tired woman (hair still black, low bun) holding the door, and behind her the thin nine-year-old boy with long messy hair peering round the kitchen frame."
+    cast: [{id: michiko, outfit: "a plain cardigan and skirt", note: "eight years younger, her hair all black"}, young_dai, debt_man]
+    captions:
+    - WHEN I WAS NINE THERE WERE TWO MEN AT THAT DOOR, IN GOOD SHOES. THEY WERE VERY POLITE. THEY ASKED FOR HIM BY HIS WHOLE NAME.
+  - pos: middle-right
+    action: "Memory close, low: two pairs of very polished black shoes on the concrete landing, seen through the chained gap of the door."
+    captions:
+    - MOM KEPT THE CHAIN ON AND SAID HE WASN'T HERE. ONE OF THEM SAID THAT WAS ALL RIGHT, THEY'D COME AGAIN.
+    - THEY DID.
+  - pos: middle-left
+    action: "Memory: the cupboard under the kitchen sink, open and empty, dark. Silent."
+    captions:
+    - I DON'T KNOW WHAT HAPPENED TO THE JAR.
+  - pos: lower, wide
+    action: "Present, night, no moon: Dai small crossing a single freight rail track on a low hump of the harbor road under the lone crossing light; off to one side a dark lane ending at a pale fence."
+    cast: [{<<: *dai_night, note: "small"}]
+    captions:
+    - I WENT OVER THE RAILS AND PAST THE END OF TANABE-SAN'S LANE, WHICH WAS DARK, THE FENCE AT THE BOTTOM JUST A PALER DARK.
+  - pos: bottom, wide
+    action: "Night, between tall dark grain silos: close on Dai's taped sneaker stepping on a shard of black plastic on the dark road."
+    cast: [{<<: *dai_night, note: "only his foot"}]
+    sfx: [{text: paki, note: small}]
+    captions:
+    - BETWEEN THE SILOS SOMETHING CRUNCHED UNDER MY SHOE. PLASTIC, OFF THE CORNER OF HIS BUMPER, I THOUGHT.
+
+- page: 45
+  title: Rubber in the cold
+  location: silo-sbend-night
+  time: Sunday about 2:40 a.m., no moon
+  guards:
+  - *night_dai
+  - *dry_night
+  panels:
+  - pos: top, wide
+    action: "Dai standing alone in the dark S-bend between the towering silos, a faint haze hanging in the air under one lamp."
+    cast: [{<<: *dai_night, note: "small"}]
+    captions:
+    - TOO DARK TO SEE THE ROAD, BUT I COULD SMELL IT, RUBBER, STILL HANGING THERE IN THE COLD. I STOOD IN IT FOR A WHILE.
+  - pos: middle-right
+    action: "Close on Dai's face in the dark, unsure."
+    cast: [*dai_night]
+    captions:
+    - IT DIDN'T TELL ME ANYTHING. IT COULD HAVE BEEN THE BACK TIRE. OR HIS FOOT, OR DIESEL OFF A FISH TRUCK, OR THE STARLET'S LIGHTS IN HIS MIRROR.
+  - pos: middle-left
+    action: "Dai looking down at his own feet on the dark asphalt."
+    cast: [*dai_night]
+    captions:
+    - I'D ONLY SEEN THE FRONT.
+  - pos: lower, wide
+    location: bypass-footpath-night
+    action: "Dai walking along the empty footpath beside the deserted elevated bypass under orange lamps."
+    cast: [{<<: *dai_night, note: "small, from behind"}]
+    captions:
+    - UP ONTO THE FOOTPATH ALONG THE BYPASS, WHERE THE TRUCKS GO BY AT YOUR ELBOW IN THE DAYTIME AND NOTHING WENT BY NOW.
+  - pos: bottom, wide
+    location: bypass-overpass-night
+    action: "The empty pedestrian overpass over the bypass curve at night, nobody on it."
+    captions:
+    - THE OVERPASS WAS EMPTY.
+
+# ================================================================== the overpass, 5:30 a.m.
+- page: 46
+  title: Where I stand
+  location: bypass-overpass-night
+  time: Sunday nearly 3 a.m. (top), then 5:30 a.m. dawn (bottom)
+  guards:
+  - *night_dai
+  - *dry_night
+  panels:
+  - pos: top, wide
+    action: "Close on the overpass deck by the railing: eight or nine cigarette ends and a scatter of ash."
+    captions:
+    - BY THE RAILING OVER THE MIDDLE OF THE CURVE THERE WERE CIGARETTE ENDS, EIGHT OR NINE, AND ASH. THE LOOKOUT'S. HE'D BEEN STANDING WHERE I STAND.
+  - pos: middle-right
+    action: "Dai sitting on the walkway with his back against the tall railing, knees up, jacket zipped, one hand in the jacket pocket and the other in his jeans pocket."
+    cast: [*dai_night]
+    captions:
+    - IT WAS NEARLY THREE. I SAT WITH MY BACK AGAINST THE RAILING, ONE HAND ON THE GLOVES AND THE OTHER ON THE MONEY.
+  - pos: middle-left
+    action: "Silent, far: the overpass over the empty lamp-lit road, Dai a tiny curled shape asleep against the railing."
+    cast: [{<<: *dai_night, note: "tiny, asleep"}]
+    captions:
+    - I DON'T KNOW WHEN I WENT TO SLEEP.
+  - pos: bottom, large
+    location: bypass-overpass-dawn
+    action: "Dawn: Dai waking, hunched and shivering against the railing; the lamp at the top of the stairs still on; behind the harbor cranes the sky pale along the bottom."
+    cast: [*dai_night]
+    captions:
+    - WHEN I WOKE UP I WAS COLD ALL THE WAY THROUGH, AND IT WAS HALF PAST FIVE. BEHIND THE CRANES THE SKY HAD STOPPED BEING BLACK ALONG THE BOTTOM.
+
+- page: 47
+  title: Into hours
+  location: bypass-overpass-dawn
+  time: Sunday 5:30 a.m., first grey dawn, the stair lamp still on
+  guards:
+  - *night_dai
+  - *dry_night
+  - *notes_95
+  panels:
+  - pos: top-right
+    action: "Close under the lamp: Dai's hands holding two 10,000-yen notes, one 5,000-yen note, three 1,000-yen notes and a few coins."
+    cast: [{<<: *dai_night, note: "only his hands"}]
+    captions:
+    - TWO 10,000S. A 5,000. THREE 1,000S. 97 YEN IN COINS.
+  - pos: top-left
+    action: "Dai folding the 5,000 and two 1,000s together small and buttoning them into his shirt pocket."
+    cast: [*dai_night]
+    captions:
+    - THE 5,000 AND TWO 1,000S, FOLDED SMALL, INTO MY SHIRT POCKET. TANABE-SAN'S. KUBO-SAN'S SIX WOULD COME OUT OF A 10,000.
+  - pos: middle, wide
+    action: "Dai standing at the railing in the grey light, looking down the curve, working it out."
+    cast: [*dai_night]
+    captions:
+    - EIGHTEEN THOUSAND. TWO THOUSAND MORE THAN THE BOY WHO'D DRIVEN. I DID IT IN HOURS, BECAUSE THAT'S WHAT I DO.
+    - FIFTY-ONE HOURS AND TWENTY-SIX MINUTES AT THE PUMPS. SIX NIGHTS, AND A PIECE OF A SEVENTH. I'D STOOD ON A BOLLARD FOR ABOUT FOUR MINUTES.
+  - pos: lower, large
+    action: "BIG wide dawn view from above: the first car of the morning, an ordinary small sedan with its headlights still on, coming round the long left-hand curve of the empty four-lane bypass, not fast, about to pass under the overpass; Dai small at the railing above; pale sky over the factories."
+    cast: [{<<: *dai_night, note: "small at the railing"}]
+    captions:
+    - THE FIRST CAR OF THE MORNING CAME ROUND THE LEFT-HANDER WITH ITS HEADLIGHTS STILL ON, NOT FAST, AND WENT UNDER MY FEET.
+  - pos: bottom, wide
+    action: "Close on Dai's hand pushing the rest of the folded notes into his jeans pocket; the jacket pocket with the gloves above it."
+    cast: [{<<: *dai_night, note: "only his hand"}]
+    captions:
+    - I PUT THE REST BACK IN MY TROUSER POCKET. NOT IN THE JACKET, WITH THE GLOVES AND SOTA'S LIST AND THE TOOTH.

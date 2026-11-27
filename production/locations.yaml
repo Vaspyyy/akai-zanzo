@@ -643,3 +643,31 @@ kawamata-ramen:
   guards:
     - Menu strips and the noren have no readable words.
   default_time: Monday about 7 p.m.
+
+# ---- added for manga chapter 14 (2026-11-27)
+hayama-genkan:
+  name: the Hayama genkan (front door, chain, shoe cabinet, coat hooks)
+  description: >-
+    The entrance of the cramped 1970s danchi apartment: a small square of
+    bare grey CONCRETE one step lower than the kitchen floor, the grey STEEL
+    front door with a peephole, a lever handle and a DOOR CHAIN, a low wooden
+    SHOE CABINET with a flat top on the left, two metal coat HOOKS on the
+    wall to the right of the door; the kitchen floor and the low table behind.
+  plate: artwork/locations/hayama-genkan.png
+  default_time: evening, the kitchen tube light on
+fish-market-backway-night:
+  name: the back way behind the fish-market sheds, at night
+  description: >-
+    A narrow dark service lane behind long low fish-market sheds in the
+    harbor at night: loading docks with stacked wooden pallets and plastic
+    fish crates as dark shapes, puddle-free DRY concrete, one bare lamp on a
+    pole by a timber sawmill, piles of sawn logs, no moon, black sky.
+  default_time: Saturday about 11:20 p.m., no moon, dry
+bypass-footpath-night:
+  name: footpath along the Shiomi Bypass, at night
+  description: >-
+    A narrow concrete footpath beside the elevated four-lane bypass behind a
+    steel guardrail, orange sodium lamps on tall poles, the road completely
+    empty, factory chimneys and cranes beyond, black sky; the steps of the
+    pedestrian overpass ahead.
+  default_time: about 2:50 a.m., no moon, dry

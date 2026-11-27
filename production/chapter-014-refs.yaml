@@ -1,0 +1,64 @@
+# Reference sheets and the plate for chapter 14. Run: production/az run -c chapter-014-refs
+title: Chapter 14 references
+output_dir: artwork/character-sheets
+pages:
+  - id: young-dai
+    kind: sheet
+    refs:
+      - {path: artwork/character-sheets/dai.png, use: "this is the same boy at 17: draw him EIGHT years younger, at nine; keep the narrow sharp eyes, the thin face and the messy black hair with the fringe over the eyes; copy the sheet's layout and its ink and screentone style"}
+    description: >-
+      Character sheet for DAI HAYAMA AS A BOY OF NINE, in Japan in 1987: a
+      thin, small boy with skinny arms and knobbly knees, a thin face with
+      narrow, sharp, watchful eyes, messy black hair worn LONGER than a
+      schoolboy cut, the fringe falling into his eyes and the back over his
+      collar. NO scar yet. Clothes: a faded long-sleeved horizontally STRIPED
+      T-shirt (light and mid grey stripes), the sleeves pushed up, navy
+      shorts, white socks with the elastic gone, worn-out canvas shoes. Left
+      half: full-body turnaround (front, three-quarter, side profile, back),
+      standing. Right half: four head close-ups: laughing, crawling after
+      something on the floor; serious, holding a small glass jar in both
+      hands; peering round a door frame, wary; looking up at a grown-up
+      off-panel. Detail sketch: his small cupped hands holding three shiny
+      silver pachinko balls (steel balls about 11 mm across).
+
+  - id: supra-owner
+    kind: sheet
+    refs:
+      - {path: artwork/character-sheets/typer-driver.png, use: "an approved sheet of this manga: copy ONLY its layout and its ink and screentone style; NOT this man's face, hair or clothes"}
+    description: >-
+      Character sheet for an unnamed Japanese man of about 25 in 1995 who
+      owns an expensive black sports car he can't quite handle: medium
+      build, a handsome but soft face, a thin moustache-free jaw, restless
+      eyes; his black hair is STYLED, blow-dried up and back with gel, done
+      for somebody earlier in the evening and starting to fall. Clothes: a
+      SHORT black leather jacket (waist length) over a dark patterned shirt
+      open at the collar, a thin gold bracelet, faded jeans, expensive
+      leather loafers with the BACKS TRODDEN DOWN under his heels. Left
+      half: full-body turnaround (front, three-quarter, side profile,
+      back). Right half: four head close-ups: laughing short and scornful;
+      lighting a cigarette with a cupped lighter, frowning; staring down at
+      something, nervous, lips pressed; sitting slumped and beaten, eyes
+      on the ground. Detail sketch: his hand, the thumb slipping off the
+      cap of a small brown glass energy-drink bottle.
+
+  - id: hayama-genkan
+    kind: plate
+    location: hayama-genkan
+    output: artwork/locations/hayama-genkan.png
+    orientation: landscape
+    time: evening, the kitchen tube light on
+    refs:
+      - {path: artwork/locations/hayama-apartment.png, use: "the plate of the same apartment: the same steel front door, the same worn walls, wood and ink style"}
+    guards:
+      - "No people. No readable words."
+    description: >-
+      The entrance of the same cramped 1970s danchi apartment, seen from the
+      kitchen floor at kneeling height: the GENKAN, a small square of bare
+      grey CONCRETE one step lower than the kitchen floor, with two pairs of
+      worn shoes on it; the grey STEEL front door with a round peephole, a
+      lever handle and a DOOR CHAIN hanging slack from its slot; on the LEFT
+      a low wooden SHOE CABINET, waist high, with a bare flat top; on the
+      wall to the RIGHT of the door two plain metal coat HOOKS, a small
+      green child's coat hanging from one; a thin rubber mat at the edge of
+      the step; the kitchen floor in the near foreground with the edge of a
+      low table and a cushion.

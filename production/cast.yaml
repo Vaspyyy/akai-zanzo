@@ -843,6 +843,92 @@ characters:
           dark trousers, a wristwatch on a metal strap
         ref: artwork/character-sheets/typer-driver.png
 
+  # ---- added for manga chapter 14 (2026-11-27)
+  supra_owner:
+    name: SUPRA OWNER
+    full_name: the black Supra's owner (unnamed)
+    traits: >-
+      Japanese man of about 25, medium build, a handsome soft face, restless
+      eyes; black hair STYLED up and back with gel, done for somebody earlier
+      in the evening and starting to fall.
+    tell: "the young man in a SHORT black leather jacket with gelled hair"
+    default_outfit: leather
+    outfits:
+      leather:
+        desc: >-
+          a SHORT black leather jacket over a dark patterned shirt open at the
+          collar, a thin gold bracelet, faded jeans, expensive leather loafers
+          with the BACKS TRODDEN DOWN under his heels
+        ref: artwork/character-sheets/supra-owner.png
+
+  young_dai:
+    name: DAI (AGE 9)
+    full_name: Dai Hayama as a boy of nine (1987, memory)
+    traits: >-
+      Thin, small 9-year-old Japanese boy, skinny arms, thin face, narrow sharp
+      watchful eyes, messy black hair worn LONGER, the fringe in his eyes and
+      the back over his collar. No scar.
+    tell: "the thin little BOY, 9, with long messy hair"
+    default_outfit: stripes
+    outfits:
+      stripes:
+        desc: a faded long-sleeved horizontally STRIPED T-shirt with the sleeves pushed up, navy shorts, white socks
+        ref: artwork/character-sheets/young-dai.png
+
+  young_aya:
+    name: AYA (AGE 12)
+    full_name: Aya Hayama as a girl of about twelve (memory)
+    traits: Thin 12-year-old Japanese girl with a straight black bob, sharp eyes.
+    tell: "the 12-year-old GIRL with a straight black bob"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: a plain sweater and a pleated skirt, white socks
+
+  father:
+    name: FATHER
+    full_name: Dai's father (memory; NEVER show his face)
+    traits: >-
+      A Japanese man in his late thirties, tall, loose-limbed, in a rumpled
+      light-colored suit jacket and slacks with turn-ups, the tie pulled
+      loose. HIS FACE IS NEVER SHOWN: only his back, shoulders, hands, shoes,
+      trouser legs or shadow, or a frame cropped at the chin.
+    tell: "the FATHER, seen only from behind or cropped below the chin, never his face"
+    default_outfit: suit
+    outfits:
+      suit:
+        desc: rumpled light-colored suit jacket, slacks with turn-ups, loosened tie, worn leather shoes
+
+  debt_man:
+    name: MAN AT THE DOOR
+    full_name: one of two polite men in good shoes at the door (memory, 1987)
+    traits: A Japanese man in his forties in a dark well-cut suit and very polished shoes, a polite closed face.
+    tell: "the polite man in a dark suit and polished shoes"
+    default_outfit: suit
+    outfits:
+      suit:
+        desc: dark well-cut suit, white shirt, plain tie, very polished black shoes
+
+  day_man:
+    name: DAY MAN
+    full_name: the day attendant at the harbor station
+    traits: A balding Japanese man in his forties, round shoulders, patting his pockets for a pen.
+    tell: "the balding day attendant"
+    default_outfit: station
+    outfits:
+      station:
+        desc: grey station work shirt and trousers, no cap
+
+  cooler_man:
+    name: COOLER MAN
+    full_name: the man selling drinks from a cooler van at Pier 3
+    traits: Middle-aged Japanese man in a knitted cap.
+    tell: "the man in a knitted cap at the cooler van"
+    default_outfit: casual
+    outfits:
+      casual:
+        desc: a padded work vest over a sweater, a knitted cap
+
 cars:
   meet_cars:
     name: the parked meet cars
@@ -896,6 +982,15 @@ cars:
       view:
         ref: artwork/car-sheets/supra-a80-view.png
         note: front three-quarter crop; use for details, draw requested camera angle
+      front34:
+        ref: artwork/car-sheets/supra-a80-front34.png
+        note: front three-quarter crop of the LEFT flank with the nose to the LEFT; use for details only (ignore the maker badge), draw the requested camera angle
+      side:
+        ref: artwork/car-sheets/supra-a80-side.png
+        note: flat LEFT-side crop (nose LEFT); body details only, never copy this flat pose, draw the requested camera angle
+      rear:
+        ref: artwork/car-sheets/supra-a80-rear.png
+        note: straight rear crop (taillights, hatch, plate, exhaust); details only (ignore the maker badge), draw the requested camera angle
     rules:
       - Right-hand drive. In a near-side driver window view the front points right.
 
@@ -908,6 +1003,15 @@ cars:
       view:
         ref: artwork/car-sheets/starlet-p80-view.png
         note: front three-quarter crop; use for details, draw requested camera angle
+      front34:
+        ref: artwork/car-sheets/starlet-p80-front34.png
+        note: front three-quarter crop of the LEFT flank with the nose to the LEFT; use for details only (ignore the maker badge), draw the requested camera angle
+      side:
+        ref: artwork/car-sheets/starlet-p80-side.png
+        note: flat LEFT-side crop (nose LEFT); body details only, never copy this flat pose, draw the requested camera angle
+      rear:
+        ref: artwork/car-sheets/starlet-p80-rear.png
+        note: straight rear crop (taillights, hatch, plate, exhaust); details only (ignore the maker badge), draw the requested camera angle
     rules:
       - Right-hand drive. In a near-side driver window view the front points right.
 
