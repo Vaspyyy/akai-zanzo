@@ -110,7 +110,7 @@ Test: cover the speech tags. You should still know who's talking.
 - Don't summarize stretches of time in big blocks. Use a bridge line or a scene break.
 - Sentiment stays under the surface. Dai doesn't cry easily on the page, and the prose doesn't cry for him.
 
-**Lessons from reviews (Ch1-11).** Reviewers kept catching these:
+**Lessons from reviews (Ch1-12).** Reviewers kept catching these:
 
 - "The way you..." similes: two or three per chapter at most, and few "as if".
 - Every character ending a beat on a deadpan punchline. Give the quip to one person per scene; let the others be plain, tired or kind.
@@ -129,6 +129,7 @@ Test: cover the speech tags. You should still know who's talking.
 - A signature line reused across chapters until it is a tic ("On a night off my body still thinks it's at the pumps" in Ch5, 7 and 8; "which is what he does instead of saying good"). Grep the earlier chapters for a line you like before you use it again.
 - Callbacks that misremember the original. Before echoing an earlier gesture, sound or feel, reread the passage it comes from (Ch11 had Akane tap the top of the corn can before drinking; Ch6 had two fingers on the bottom, after).
 - Announcing a moment before it arrives: a memory introduced as "it came anyway", or Dai explaining how a race will be lost before it's run. Show the clues he really saw, let a guess stay a guess, and let the event arrive on its own.
+- A thing that changes state on the page (a stuck headlight drops, a light comes on) needs a cause that also explains why it didn't happen the last time the same conditions came up. Ch12's pop-up went down on the new battery although Ch8's jump-start had left it alone; a blown fuse, set up in one line, fixed both.
 
 ## 12. Sample passage (Volume 1, Chapter 1: the empty Thursday)
 

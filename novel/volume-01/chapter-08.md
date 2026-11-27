@@ -56,7 +56,7 @@ He followed a thick cable with one finger, from where it came forward along the 
 
 I got in. The cat stood up, and stretched, and went out through the tear in the top without hurrying.
 
-I put the clutch down. The lever wobbled loose in the middle. I put the key in, which I'd done before with nothing happening, and turned it one click. Two red lights came on in the dash, a battery and an oil can. The same two as in hers.
+I put the clutch down. The lever wobbled loose in the middle. I put the key in, which I'd done before with nothing happening, and turned it two clicks. Two red lights came on in the dash, a battery and an oil can. The same two as in hers.
 
 I sat there and looked at them.
 
