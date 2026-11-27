@@ -1,0 +1,30 @@
+# Panel redraws for Chapter 15. The grey panel in each source is redrawn, then pasted back into
+# artwork/pages/chapter-015/page-NN.art.png at the same place and re-lettered from chapter-015.yaml.
+# Sources: page-NN.art.png with one panel filled grey (PIL rectangle, fill 150):
+#   p02 [555,1130,1008,1516] (the drawer showed a 10,000 note; it must be one 5,000 and two 1,000s).
+# The source PNGs live in production/runs/ch15-fixes/src (gitignored); recreate them from the
+# committed art with the rectangle above if they are gone.
+# Run: production/az run -c chapter-015-fixes -p 2 --no-letter --attempts 1
+title: Chapter 15 fixes
+output_dir: production/runs/ch15-fixes/out
+lettering: empty
+defaults:
+  orientation: portrait
+  notes:
+  - No brand logos, no readable printed words, no Japanese characters.
+pages:
+- page: 2
+  location: tanabe-office
+  time: Sunday about 5:58 a.m., grey dawn, tube light on
+  edit:
+    source: production/runs/ch15-fixes/src/page-02.png
+    change: "Redraw ONLY the flat grey panel at the LOWER RIGHT. New content: close-up of an open steel desk drawer; an old woman's thick weathered brown hand (the left thumbnail black) sliding in exactly THREE small folded banknotes without counting them: ONE 5,000-yen note (middle-sized, portrait of a man with round glasses) and TWO 1,000-yen notes (smaller, blue-grey, portrait of a man with a moustache). NO 10,000-yen note. Folded small. No text, no balloons."
+    keep: "every other panel exactly as it is, pixel for pixel: the layout, every panel border, the old woman, the wall writing, the balloons and caption boxes and the sound effect"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - {pos: middle, action: unchanged, keep: true}
+  - pos: lower-right
+    action: "Fumie's hand sliding a 5,000 and two 1,000s into the drawer."
+    notes: ["Banknotes are 1995 Japanese notes only: 5,000-yen with a man with round glasses; 1,000-yen smaller, blue-grey, a man with a moustache."]
+  - {pos: lower-left, action: unchanged, keep: true}

@@ -4,7 +4,7 @@ Everything that defines the story lives in this repo. A new thread changes nothi
 
 ## State
 - **Novel (light novel):** Volume 1, chapters 1-11 written, reviewed and built (`novel/volume-01/`). Next to write: **Ch12**, the last chapter of Volume 1 (plan in `novel/OUTLINE.md` §7).
-- **Manga:** chapters 1-14 drawn (`scripts/`, `production/chapter-NNN.yaml`, `reviews/`). Ch13 is the first in the new layout (46 pages, 5.6 panels a page). Next to draw: **Ch15**, which adapts novel Ch11 (mapping in `novel/OUTLINE.md` §2: novel V1 chN = manga ch(N+4) from Ch4 on).
+- **Manga:** chapters 1-14 drawn (`scripts/`, `production/chapter-NNN.yaml`, `reviews/`). Ch13 is the first in the new layout (46 pages, 5.6 panels a page). **Ch15 (adapts novel Ch11) is scripted and specced (48 pages); pages 1-4 are drawn, p2 needs its drawer panel redrawn (`production/chapter-015-fixes.yaml`), and pages 5-48 wait for the image limit (reset Sat 28 Nov 15:37).** Then Ch16 (mapping in `novel/OUTLINE.md` §2: novel V1 chN = manga ch(N+4) from Ch4 on).
 - **Builds:** `./tools-build.sh NNN` (manga) and `novel/build-epub.sh` (novel) both copy the results to `~/Dokumente/Akai Zanzō/`.
 
 ## Read first
