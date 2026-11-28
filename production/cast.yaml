@@ -940,6 +940,57 @@ characters:
       work:
         desc: a white work jacket and a white cap
 
+  # ---- added for manga chapter 16 (2026-11-28): small far figures described by traits only (no sheet),
+  # for wide shots where the five-reference limit leaves no room for their sheets
+  nobu_far:
+    name: NOBU
+    full_name: Nobu, small in a wide shot
+    traits: >-
+      A stocky, soft 17-year-old boy with a round full face and a very short
+      BUZZ CUT, no glasses, in a dark padded jacket and jeans, holding a worn
+      canvas shoulder bag in front of him in both arms.
+    tell: "the stocky boy with a BUZZ CUT holding a canvas bag in both arms"
+    default_outfit: far
+    outfits:
+      far:
+        desc: dark padded jacket, jeans, sneakers, a worn canvas shoulder bag held in front in both arms
+  fumie_far:
+    name: FUMIE
+    full_name: Fumie, small in a wide shot
+    traits: >-
+      A small, square old woman over sixty, short grey hair, a white towel
+      tied round her forehead, a cigarette in her mouth, in an old padded
+      dark work coat, holding a steel coffee mug.
+    tell: "the small square OLD WOMAN with a white towel round her forehead"
+    default_outfit: far
+    outfits:
+      far:
+        desc: old padded dark work coat, dark work trousers, scuffed safety boots
+  kubo_far:
+    name: KUBO
+    full_name: Kubo, small in a wide shot
+    traits: >-
+      A thin OLD man in his late 50s with a deeply lined face and a grey work
+      cap, in a faded light-grey work jacket over a buttoned grey shirt and
+      dark work trousers.
+    tell: "the thin OLD man in a grey cap"
+    default_outfit: far
+    outfits:
+      far:
+        desc: faded light-grey work jacket over a buttoned grey shirt, dark work trousers, work boots, grey cap
+  sota_far:
+    name: SOTA
+    full_name: Sota, small in a wide shot
+    traits: >-
+      A small thin 11-year-old boy with round glasses and a black bowl cut,
+      in a navy padded hooded jacket a little too big for him, zipped up,
+      shorts and socks.
+    tell: "the little boy with round GLASSES and a bowl cut in a navy jacket"
+    default_outfit: far
+    outfits:
+      far:
+        desc: navy padded hooded jacket zipped up, shorts, socks, sneakers, round glasses
+
 cars:
   meet_cars:
     name: the parked meet cars
@@ -1450,3 +1501,51 @@ cars:
       EMPTY flat bed, dull white cab, NO writing on the doors, no logos.
     rules:
       - "RIGHT-HAND DRIVE."
+
+  # ---- added for manga chapter 16 (2026-11-28): Dai's Roadster from novel V1 ch12 on
+  bluecar:
+    name: Dai's blue Roadster
+    full_name: Dai's 1989 Mazda Eunos Roadster (NA), faded Mariner Blue, made to run again (from 4-5 Nov 1995)
+    traits: >-
+      A small two-seat convertible, 1989 Mazda Eunos Roadster (NA), the same
+      body shape as a red Roadster but NOT red and NOT clean: faded Mariner
+      Blue paint shown as a MID-GREY tone, chalky and nearly white on the
+      tops of the doors and fenders; the LEFT front fender plain WHITE
+      (unpainted, off another car); the hood flat matte primer grey; a WHOLE
+      BLACK vinyl soft top, UP, with a CLEAR plastic rear window; the REAR
+      still crushed (bumper split and folded under, trunk lid buckled into a
+      peak and held shut with a twist of wire); two used taillights, the
+      LEFT one sitting a finger's width proud; the rear plate with one
+      crease across it; plain dull STEEL wheels without covers, inflated
+      tires. No stickers, no logos, no readable letters.
+    ref: artwork/car-sheets/blue-roadster-fixed.png
+    views:
+      front34:
+        ref: artwork/car-sheets/blue-roadster-fixed-front34.png
+        note: "front three-quarter crop (white left fender, primer hood, both lids down); details only, draw the requested camera angle"
+      side:
+        ref: artwork/car-sheets/blue-roadster-fixed-side.png
+        note: "side crop of the RIGHT (driver's) side, front pointing RIGHT; body details only, never copy this flat pose"
+      rear:
+        ref: artwork/car-sheets/blue-roadster-fixed-rear.png
+        note: "rear crop: the peaked wired-down trunk lid, the two taillights (left one proud), the creased plate; details only, draw the requested camera angle"
+      interior:
+        ref: artwork/car-sheets/red-roadster-interior.png
+        note: "interior LAYOUT only (same model): right-hand-drive dashboard, wheel, gauges, gear lever; this car's interior is old and worn, cat hair on the LEFT passenger seat"
+      engine:
+        ref: artwork/car-sheets/blue-roadster-wreck-engine.png
+        note: "the engine bay only (timing covers back ON now): dusty long low four-cylinder; details only, draw the requested camera angle"
+      parts:
+        ref: artwork/car-sheets/blue-roadster-parts.png
+        note: "detail boxes: the open trunk with the battery tray on the right, the old crusted battery, the fuse box and the blown fuse, the old plugs, the gauges with the two red lamps, the fuel flap; details only"
+      old:
+        ref: artwork/car-sheets/blue-roadster-wreck.png
+        note: "the car BEFORE this chapter's repairs (grey torn top, no taillights, right lid half up); body details only, but it now stands on inflated tires on plain steel wheels; draw the requested camera angle"
+    states:
+      before: "still as BEFORE the repairs: the old grey soft top torn above the LEFT seat, both taillight holes empty, the trunk lid buckled shut, the RIGHT pop-up headlight stuck HALF UP, the left one down"
+      half_up: "the RIGHT pop-up headlight lid (driver's side) stuck HALF UP, the left one down flat"
+      lids_down: "BOTH pop-up headlight lids DOWN, shut flat in the nose"
+    rules:
+      - "RIGHT-HAND DRIVE (Japanese market): the steering wheel and the driver's seat are on the car's RIGHT side; the passenger seat is on the LEFT."
+      - "In every side view that shows the driver's door, the car's FRONT points to the RIGHT edge of the panel."
+      - "It is a faded grey-blue car with a WHITE left front fender and a grey primer hood: never red, never shiny, never undamaged at the back."

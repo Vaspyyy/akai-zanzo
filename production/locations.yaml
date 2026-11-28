@@ -717,3 +717,22 @@ overpass-town-foot:
   guards:
     - "No brand names or logos on the machine or the cans; can labels are plain shapes. The only readable words: HOT and 110 if the panel asks."
   default_time: Friday about 6:10 a.m., before sunrise
+
+# ---- added for manga chapter 16 (2026-11-28)
+tanabe-backlot-pm:
+  name: the cleared back lot of Tanabe's scrapyard on a November afternoon
+  description: >-
+    An open rectangle of ground about 50 meters long and 25 wide at the back
+    of the scrapyard, walled in on all four sides: packed earth with crushed
+    white and grey shell rolled into it, weeds and foxtail grass at the
+    edges, forklift tire stripes. At the FAR end a wall of crushed-flat
+    Crown sedans stacked four high; down the LEFT long side older stacks of
+    crushed vans and sedans three high; down the RIGHT long side the yard's
+    tall corrugated steel back fence; at the NEAR end the stacks of crushed
+    white Corollas where you come in, with the old forklift parked at their
+    corner. Tops of harbor cranes far off over the stacks.
+  plate: artwork/locations/tanabe-backlot.png
+  guards:
+    - "The back lot is walled in: crushed-flat car stacks on three sides and the corrugated steel fence on the right side. No road, office or gate visible from inside it."
+    - "A clear, dry November afternoon (about 3:30 p.m.): low sun from the side, long shadows, NOT sunrise, NOT night. Dry ground: no puddles, no dew, no rain."
+  default_time: Sunday about 3:30 p.m., clear November afternoon

@@ -1,0 +1,72 @@
+# Reference sheets for chapter 16. Run: production/az run -c chapter-016-refs
+# Angle crops of the repaired blue Roadster sheet are cut by hand afterwards (no image calls):
+#   artwork/car-sheets/blue-roadster-fixed-{front34,side,rear}.png
+title: Chapter 16 references
+output_dir: artwork/car-sheets
+pages:
+  - id: blue-roadster-fixed
+    kind: car_sheet
+    output: artwork/car-sheets/blue-roadster-fixed.png
+    refs:
+      - {path: artwork/car-sheets/blue-roadster-wreck.png, use: "THIS SAME CAR before the repairs (approved sheet): copy its body shape, the faded chalky paint, the WHITE left front fender, the matte primer hood, the crushed rear, the sheet layout and the ink style. Change ONLY what the description says changed: the new black top, the taillights, the flattened plate, the wired trunk lid, both headlights down, plain steel wheels with inflated tires."}
+      - {path: artwork/car-sheets/red-roadster.png, use: "the same model in good order: the shape of a WHOLE black soft top with its clear rear window, and the round-cornered one-piece taillights; never its red paint or its alloy wheels"}
+    description: >-
+      Technical reference sheet for one small two-seat convertible, a 1989
+      Mazda Eunos Roadster (NA), Japanese market, RIGHT-HAND DRIVE, an old
+      scrapyard car just made to run again, standing on its own four
+      wheels. Its marks, always all drawn: faded Mariner Blue paint shown
+      as a MID-GREY tone, chalky and nearly white on the tops of the doors
+      and fenders; the LEFT front fender plain WHITE (unpainted, off
+      another car) with a wide gap at the door; the hood flat matte primer
+      grey; BOTH pop-up headlight lids DOWN, shut flat in the nose. A
+      WHOLE BLACK vinyl soft top, UP and tight, no tears, with a CLEAR
+      plastic rear window. The REAR still crushed: the bumper split and
+      folded under, the trunk lid buckled up into a peak in the middle and
+      held shut by a twist of steel WIRE through the hole where its catch
+      was; creases in both rear fenders; two used one-piece taillights
+      fitted (red, amber and clear in one long piece each), the RIGHT one
+      sitting true, the LEFT one sitting crooked with its outer corner
+      standing out a finger's width from the body; the white rear number
+      plate beaten nearly flat with ONE crease across it (no readable
+      characters). Plain dull STEEL wheels without covers, four inflated
+      used tires. No stickers, no logos, no badges, no readable letters.
+      Views on white, the same layout as the reference sheet: TOP LEFT
+      front three-quarter from the front-LEFT (the white left fender, the
+      primer hood, both lids down); TOP RIGHT straight front view; BOTTOM
+      LEFT flat side view of the RIGHT side with the FRONT pointing RIGHT
+      (the driver's door, the black top); BOTTOM RIGHT rear three-quarter
+      from behind-LEFT (the peaked wired-down trunk lid, the two
+      taillights, the left one proud, the creased plate, the folded
+      bumper). No people, no background.
+
+  - id: blue-roadster-parts
+    kind: car_sheet
+    output: artwork/car-sheets/blue-roadster-parts.png
+    refs:
+      - {path: artwork/car-sheets/blue-roadster-wreck-engine.png, use: "the engine bay of this car (approved): match the engine, the dust and the ink style"}
+      - {path: artwork/car-sheets/red-roadster-interior.png, use: "the dashboard of the same model: the gauge layout and the steering wheel"}
+    description: >-
+      Detail reference sheet, six boxes on white, ink and grey screentone,
+      for an old 1989 Mazda Eunos Roadster (right-hand drive) being made to
+      run again. Box 1 (large, top left): the OPEN TRUNK seen from behind
+      and above: a small carpeted trunk, the spare wheel lying flat in a
+      round well on the left, and on the RIGHT a black plastic battery
+      tray holding a small NEW car battery with a WHITE translucent plastic
+      case (a faint level line visible through it), a steel clamp bar
+      across its top, a RED cable clamp on one post and a BLACK cable clamp
+      on the other. Box 2 (top right): the OLD battery for comparison:
+      black, grimy, a white powdery crust grown up round both posts. Box 3
+      (middle left): a black plastic fuse box at the front of the engine
+      bay with its lid off: rows of small plastic blade fuses; beside it,
+      drawn big on its own, ONE blade fuse, its clear top showing the thin metal strip inside BROKEN in the
+      middle and blackened at both ends. Box 4 (middle right): four OLD
+      spark plugs laid in a row on a fender, tips crusted brown, the third
+      one black and wet; next to them a new plug in a small plain
+      cardboard box. Box 5 (bottom left): the instrument cluster behind the
+      steering wheel: round gauges with white numbers on black, a rev
+      counter from 0 to 8 with its needle, a speedometer, a small
+      temperature gauge, and two small warning lamps lit (a battery shape
+      and an oil-can shape). Box 6 (bottom right): the right rear fender
+      with its small round fuel filler flap open and a red steel
+      ten-liter jerrycan pouring into it. NO brand names, NO logos, NO
+      readable letters anywhere. No faces.
