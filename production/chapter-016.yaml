@@ -49,18 +49,18 @@ pages:
     action: "Establishing, wide and high: the scrapyard by the harbor on a clear November Saturday, the crane tops far off, gulls; the stacks of crushed cars; at the back, behind a stack of crushed white Corollas, the waist-high yellow weeds with a small faded grey-blue Roadster sitting in them; a small square old woman standing at the crushed back of it holding a long steel bar."
     cast: [{id: bluecar, view: old, state: before, camera: "high and far, from above the yard, rear three-quarter from behind-RIGHT, the car small in the weeds"}, {id: fumie_far, note: "tiny, at the back of the car, holding a long steel bar"}]
     captions:
-    - SATURDAY. 4 NOVEMBER.
-    - ON SATURDAY THERE WAS SCHOOL TILL HALF PAST TWELVE. I WENT TO IT FROM THE PUMPS, AND FROM IT TO TANABE'S.
+    - {text: SATURDAY. 4 NOVEMBER., box: [830, 38, 156, 52]}
+    - {text: "ON SATURDAY THERE WAS SCHOOL TILL HALF PAST TWELVE. I WENT TO IT FROM THE PUMPS, AND FROM IT TO TANABE'S.", box: [40, 36, 540, 116], draw: true}
   - pos: middle-right
     action: "Dai in his gakuran coming round the end of the stack of crushed white Corollas, his school bag over his shoulder, stopping at what he sees."
     cast: [*dai_sat]
     captions:
-    - "WHEN I CAME ROUND THE END OF THE COROLLA STACKS AT A QUARTER PAST ONE..."
+    - {text: "WHEN I CAME ROUND THE END OF THE COROLLA STACKS AT A QUARTER PAST ONE...", box: [594, 624, 402, 84]}
   - pos: middle-left
     action: "Fumie standing at the crushed back end of the car, a steel bar as long as a man's leg held upright beside her like a staff, cigarette in her mouth, not moving."
     cast: [*fumie_coat]
     captions:
-    - "...TANABE-SAN WAS STANDING AT THE BACK OF MY CAR WITH A STEEL BAR AS LONG AS MY LEG."
+    - {text: "...TANABE-SAN WAS STANDING AT THE BACK OF MY CAR WITH A STEEL BAR AS LONG AS MY LEG.", box: [34, 622, 440, 100], draw: true}
   - pos: bottom-right
     action: "Fumie, deadpan, the cigarette bobbing as she talks."
     cast: [*fumie_coat]
@@ -70,7 +70,7 @@ pages:
     action: "Close on the car's dusty faded roof (the old grey torn soft top): on a spread sheet of newspaper (no readable print) lie two used one-piece car taillights, red and amber and clear in one long piece each, rubber seal round the edge, four studs sticking out of the back of each; one has a scratch across the red."
     cast: [{id: bluecar, view: parts, camera: "close, slightly from above, on the roof"}]
     captions:
-    - ON THE ROOF OF THE CAR, ON A SHEET OF NEWSPAPER, LAY TWO TAILLIGHTS.
+    - {text: "ON THE ROOF OF THE CAR, ON A SHEET OF NEWSPAPER, LAY TWO TAILLIGHTS.", box: [32, 1160, 372, 96], draw: true}
 
 - page: 2
   title: Two thousand

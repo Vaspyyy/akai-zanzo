@@ -4,7 +4,7 @@ Everything that defines the story lives in this repo. A new thread changes nothi
 
 ## State
 - **Novel (light novel):** **Volume 1 complete** (chapters 1-12 written, reviewed and built, `novel/volume-01/`). Next: **Volume 2, Chapter 1** (first the per-volume read-through and the Volume 2 chapter plan in `novel/OUTLINE.md`, per `novel/README.md`).
-- **Manga:** chapters 1-15 drawn (`scripts/`, `production/chapter-NNN.yaml`, `reviews/`). Ch13 is the first in the new layout (46 pages, 5.6 panels a page). Next to draw: **Ch16**, which adapts novel Ch12 (mapping in `novel/OUTLINE.md` §2: novel V1 chN = manga ch(N+4) from Ch4 on).
+- **Manga:** chapters 1-15 drawn (`scripts/`, `production/chapter-NNN.yaml`, `reviews/`). Ch13 is the first in the new layout (46 pages, 5.6 panels a page). **Ch16 "Flowers on a Dead Tree" (novel Ch12 scenes 1-3) is scripted and specced (38 pages); pages 1-5 drawn and reviewed 2026-11-28, pages 6-38 still to draw** (the image limit; finish: `production/az run -c 16 -p 6-38 -j 4`, review, `./tools-build.sh 016`). Then **Ch17** starts at novel Ch12 scene 4 ("At four, when Kubo-san had gone up the lane..."; split point at the top of `scripts/chapter-016.md`). Mapping in `novel/OUTLINE.md` §2: novel V1 chN = manga ch(N+4) from Ch4 on, except that novel Ch12 becomes manga Ch16 and Ch17.
 - **Builds:** `./tools-build.sh NNN` (manga) and `novel/build-epub.sh` (novel) both copy the results to `~/Dokumente/Akai Zanzō/`.
 
 ## Read first
