@@ -28,3 +28,35 @@ pages:
     action: "Fumie's hand sliding a 5,000 and two 1,000s into the drawer."
     notes: ["Banknotes are 1995 Japanese notes only: 5,000-yen with a man with round glasses; 1,000-yen smaller, blue-grey, a man with a moustache."]
   - {pos: lower-left, action: unchanged, keep: true}
+
+# p14: the big bottom panel showed the grey tarp behind the red car (Dai is at the tarp, behind the camera).
+# Source: the unchanged page-14.art.png; paste back only the big panel [14,588,1010,1522].
+- page: 14
+  location: tanabe-tarp-strip
+  time: Sunday about 6:34 a.m., low clear sun
+  edit:
+    source: production/runs/ch15-fixes/src/page-14.png
+    change: "In the BIG BOTTOM panel only: remove the grey tarp-covered car shape that sits behind the red car, and in its place continue the scrapyard: the strip opens out into the yard there, with the big yellow car crusher (the press) and stacks of crushed flat cars, the harbor cranes far off. Everything else in that panel stays: the red car head-on with its open door on the image left, the young woman standing in the door with her gloved hand on it, the tire wall on the left, the fence on the right."
+    keep: "the two top panels exactly as they are, pixel for pixel; in the bottom panel the red car, the woman, the tire wall, the fence and the caption boxes"
+  panels:
+  - {pos: top-right, action: unchanged, keep: true}
+  - {pos: top-left, action: unchanged, keep: true}
+  - pos: bottom, large (two thirds of the page)
+    action: "The red Roadster stopped head-on at the end of the tire wall, its driver's door open on the image left with Akane standing in it; behind it the open yard with the car crusher, NO tarp."
+    cast: [{id: roadster, view: front34, state: headlights_down, camera: "eye-level, straight head-on, the open driver's door on the IMAGE LEFT side of the car"}, akane]
+
+# p15: in the bottom wide panel the red Roadster read as a boxy sedan. Grey rectangle [16,1129,1007,1518].
+- page: 15
+  location: tanabe-tarp-strip
+  time: Sunday about 6:34 a.m., low clear sun
+  edit:
+    source: production/runs/ch15-fixes/src/page-15.png
+    change: "Redraw ONLY the flat grey BOTTOM panel (wide, silent, no text, no balloons). New content: a long view down the narrow weed strip between a tall wall of stacked tires (LEFT) and a corrugated steel fence (RIGHT), low morning sun. In the near right foreground, seen from the side, a 17-year-old BOY with SHORT black hair (no ponytail, forehead uncovered), a plain grey zip-up jacket and jeans, stands beside a long low car shape, holding a heavy grey canvas up over his head with both arms. He is the only person in the foreground. Far away at the end of the tire wall, small, a small RED two-seat convertible sports car with a black soft top and round smooth curves (drawn mid-grey, unmistakably a small roadster, NOT a sedan), its driver's door open, and a young woman with a long dark ponytail standing in the open door. The two figures far apart, weeds moving in the wind."
+    keep: "the top panel and the two middle panels exactly as they are, pixel for pixel, with all their caption boxes and sound effects"
+  panels:
+  - {pos: top, action: unchanged, keep: true}
+  - {pos: middle-right, action: unchanged, keep: true}
+  - {pos: middle-left, action: unchanged, keep: true}
+  - pos: bottom, wide
+    action: "Wide and silent down the strip: Dai holding the canvas up by the wreck in the foreground, the small red Roadster with Akane in its open door far away."
+    cast: [{id: roadster, view: front34, state: headlights_down, camera: "far, small, head-on at the end of the strip, driver's door open"}, {id: akane, note: "small and far, in the car door"}, {id: dai_cut, outfit: "a plain grey zip-up jacket over a dark flannel shirt, jeans", note: "foreground right, the BOY with short hair holding the canvas"}]

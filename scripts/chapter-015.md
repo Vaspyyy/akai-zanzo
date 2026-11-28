@@ -1,7 +1,7 @@
 # Chapter 15: "You Promised, Kid"
 
 **Split:** all of Volume 1 Chapter 11 ("The Other Tarp"). Chapter 14 ended at dawn on the overpass with the Pier 3 money counted into hours (Sun 29 Oct, 5:30 a.m.).
-**Status:** scripted 2026-11-27. 48 pages, right-to-left. **Source:** `novel/volume-01/chapter-11.md`. **Spec:** `production/chapter-015.yaml` (this script is generated from it). **References:** `production/chapter-015-refs.yaml`.
+**Status:** drawn 2026-11-27 (p1-4) and 2026-11-28 (p5-48). 48 pages, right-to-left. **Source:** `novel/volume-01/chapter-11.md`. **Spec:** `production/chapter-015.yaml` (this script is generated from it). **References:** `production/chapter-015-refs.yaml`.
 **Lettering:** empty balloons, English scanlation lettering. One speaker per panel.
 **Pacing (new layout):** 244 panels over 48 pages, 5.1 a page, never more than 6. Every scene opens wide; quiet beats stay silent. Big panels: the wall (p2), the screw (p7), the strip behind the tire wall (p9), the canvas off the nose (p10, half page), the door (p11, two thirds), the middle of the seat (p12), the charm (p13), the red car at the end of the tire wall (p14, two thirds), Akane looking at the wreck (p15, half page), the re-roped tarp (p19), the engine pushing back (p25, half page), the quarter to five (p30), the wall at 13,000 (p31), the view from the ladder at two (p40, half page), the red car seen from the deck (p42, half page), the sunrise (p47, half page), "You promised, kid." (p48, half page). The title is Akane's last line.
 
@@ -65,9 +65,9 @@
 - P6 (bottom, wide): Close on Akane's gloved fingers taking a slim steel tire-pressure gauge, the size of a fat pencil with a pocket clip, out of her jacket pocket. CAPTION: "OUT OF HER JACKET POCKET CAME HER GAUGE, A STEEL THING THE SIZE OF A FAT PENCIL, WITH A CLIP ON IT."
 
 ## Page 7: Made of those
-- P1 (top-right): Close on the gauge pressed onto the tire's valve, its little white stem pushed out; Akane's eyes on it. CAPTION: "SHE PUT IT ON THE VALVE AND READ IT, AND READ IT AGAIN."
-- P2 (top-left): Akane still crouched, not looking up, one word to the car. AKANE: "FORWARD. THE LENGTH OF YOUR ARM."
-- P3 (middle-right): Dai behind the wheel letting the car creep, careful, his eyes on her crouched figure past the hood. CAPTION: "I LET IT CREEP FORWARD IN FIRST, ABOUT THAT FAR, AND STOPPED IT WITHOUT A JERK, WHICH NOBODY NOTICED."
+- P1 (top-right): Akane crouched by the front LEFT wheel of her small RED Roadster (mid-grey tone, silver seven-spoke wheel), a slim steel pencil-sized gauge pressed on the valve. CAPTION: "SHE PUT IT ON THE VALVE AND READ IT, AND READ IT AGAIN."
+- P2 (top-left): Close on Akane's eyes over a slim steel PENCIL-SIZED tire gauge (a thin steel tube with a pocket clip and a little white sliding stem, NOT a round dial gauge) pressed on the valve of the Roadster's tire. AKANE: "FORWARD. THE LENGTH OF YOUR ARM."
+- P3 (middle-right): Dai behind the steering wheel of the small red Roadster letting it creep, careful; through the windshield over the short red hood, Akane crouched at the front LEFT wheel. CAPTION: "I LET IT CREEP FORWARD IN FIRST, ABOUT THAT FAR, AND STOPPED IT WITHOUT A JERK, WHICH NOBODY NOTICED."
 - P4 (middle-left): Close on Akane's gloved thumb pressing on something small and bright in the tread of the tire. Silent.
 - P5 (lower-right): Dai standing, leaning to look over Akane's shoulder as she crouches at the tire. CAPTION: "I GOT OUT AND LOOKED OVER HER SHOULDER."
 - P6 (lower-left, large): BIG close-up of the tire tread: the bright round head of a screw with a CROSS cut in it, sitting in the groove between two blocks of tread. CAPTION: "A SCREW. JUST THE HEAD OF IT, BRIGHT, WITH A CROSS CUT IN IT, SITTING IN THE GROOVE BETWEEN TWO BLOCKS OF TREAD."
@@ -107,7 +107,7 @@
 
 ## Page 13: Traffic safety
 - P1 (top, large): BIG close-up: a small Japanese shrine charm (omamori) hanging on a thin cord from the rear-view mirror against the white cracked windshield: a little flat brocade bag with a knotted cord at the top, its right half DARK (red), its left half faded PALE (pink); down the front in thread, readable: TRAFFIC SAFETY. CAPTION: "FROM THE MIRROR HUNG A CHARM ON A CORD. A LITTLE BROCADE BAG, THE KIND YOU BUY AT A SHRINE AT NEW YEAR, RED ON ONE SIDE AND FADED TO PINK ON THE OTHER, WHERE THE SUN HAD BEEN AT IT THROUGH THE GLASS."
-- P2 (middle-right): The charm turning round on its cord in the wind, showing its BACK, with smaller readable words: SHIOMI HACHIMAN-GU. CAPTION: "THE WIND TURNED IT ROUND ON ITS CORD. ON THE BACK, SMALLER, THE SHRINE UP THE STEPS BEHIND THE COVERED STREET. HALF THE CARS IN SHIOMI HAVE ONE FROM THERE."
+- P2 (middle-right): The charm turning round on its cord in the wind, showing its BACK, with smaller readable words: SHIOMI HACHIMAN-GU. CAPTION: "THE WIND TURNED IT ROUND. ON THE BACK, SMALLER, THE SHRINE UP THE STEPS BEHIND THE COVERED STREET. HALF THE CARS IN SHIOMI HAVE ONE FROM THERE."
 - P3 (middle-left): Close on the flank behind the folded door: the engine's side air vent pushed in with it, crumpled. CAPTION: "BEHIND THE DOOR, THE VENT WHERE THE ENGINE BREATHES HAD GONE IN WITH IT."
 - P4 (lower, wide): Dai standing beside the wreck holding the heavy grey canvas up over his head with both arms, the wind bellying it out, his arms straining. CAPTION: "THE CANVAS PULLED AT MY ARMS WHENEVER THE WIND GOT INTO IT."
 - P5 (bottom, wide): Close on Dai's eyes going wide, the grey canvas edge above him; behind him, out of focus, the end of the tire wall. CAPTION: "THEN I HEARD AN ENGINE I KNEW." SFX: "dorororo"
@@ -118,7 +118,7 @@
 - P3 (bottom, large (two thirds of the page)): BIG: at the end of the tire wall, where the strip opens out toward the big yellow car crusher, the red Roadster has STOPPED, engine running, pop-ups down; its driver's door (the car's RIGHT side) open, and Akane standing in the open door with ONE gloved hand on top of it. Small exhaust breath in the cold. The tire wall frames the left of the panel. CAPTION: "THE RED CAR HAD STOPPED AT THE END OF THE TIRE WALL, WHERE THE STRIP OPENED OUT TOWARD THE PRESS. SHE WAS OUT OF IT." CAPTION: "SHE STOOD IN THE OPEN DOOR WITH ONE GLOVED HAND ON TOP OF IT AND THE ENGINE RUNNING."
 
 ## Page 15: At the car
-- P1 (top, large (half the page)): HALF-PAGE: Akane standing in the open door of her red car, one gloved hand on top of the door, her eyes fixed PAST Dai, on the black wreck behind him; her face perfectly still and unreadable; the low sun on one side of her face. Seen from beside the wreck's nose, so she looks toward the camera's right, not into the lens. CAPTION: "SHE WASN'T LOOKING AT ME. SHE WAS LOOKING AT THE CAR." CAPTION: "HER FACE DIDN'T CHANGE. HER HAND ON THE DOOR DIDN'T MOVE."
+- P1 (top, large (half the page)): HALF-PAGE: Akane standing in the open door of her red car, one gloved hand on top of the door, her eyes fixed PAST Dai, on the black wreck behind him; her face perfectly still and unreadable; the low sun on one side of her face. Seen from beside the wreck's nose, so she looks toward the camera's right, not into the lens. CAPTION: "SHE WASN'T LOOKING AT ME." CAPTION: "SHE WAS LOOKING AT THE CAR."
 - P2 (middle-right): Close on her gloved hand resting on top of the open car door, completely still. CAPTION: "HER FACE DIDN'T CHANGE. HER HAND ON THE DOOR DIDN'T MOVE."
 - P3 (middle-left): Close on Dai's arms up over his head gripping the canvas, trembling, motion lines on his forearms, the canvas bellying in the wind. CAPTION: "THE WIND TOOK THE CANVAS AND I HELD ON TO IT, AND MY ARMS STARTED TO SHAKE, AND I DIDN'T PUT IT DOWN." SFX: "BATABATA"
 - P4 (bottom, wide): Wide and silent: down the strip, Dai small holding the grey canvas up beside the black wreck at the fence; at the far end of the tire wall the red car with Akane small in its open door; the two of them far apart, the weeds moving.
@@ -337,7 +337,7 @@
 
 ## Page 45: Almost
 - P1 (top, wide): Close on Akane's face side-on: one short puff of white breath out of her nose, the start of a laugh that stops there; her mouth stays straight. CAPTION: "SHE ALMOST LAUGHED. IT GOT AS FAR AS HER BREATH, ONE SHORT PUFF OF WHITE, AND STOPPED THERE."
-- P2 (middle, wide): Close: Akane's bare hand taking the can and opening its tab; beside it Dai's thumb opening his own can, steam coming off both. Silent. SFX: "kashu"
+- P2 (middle, wide): Close: Akane's bare hand taking the can and opening its tab; beside it Dai's thumb opening his own can, steam coming off both. CAPTION: "SHE TOOK THE CAN AND OPENED IT, AND I OPENED MINE." SFX: "kashu"
 - P3 (lower, wide): The two of them standing at the guardrail with their cans, a meter apart, from behind; in front of them the NEW section of guardrail with bright bolts, the old dull rail with rust round its bolts running away on either side; the empty curve. CAPTION: "IN FRONT OF US THE NEW SECTION OF RAIL RAN ALONG THE OUTSIDE OF THE CURVE, ITS BOLTS STILL BRIGHT, AND THE OLD RAIL WENT AWAY FROM IT ON EITHER SIDE, DULLER, WITH RUST COMING THROUGH ROUND ITS BOLTS."
 - P4 (bottom, wide): Close on the foot of the stairs: square grey concrete, and low down on the side that faces the road a paler patch where somebody has scrubbed the concrete. CAPTION: "THE FOOT OF THE STAIRS WAS BESIDE US, SQUARE GREY CONCRETE. LOW DOWN ON THE SIDE THAT FACED THE ROAD WAS THE PALE PLACE, WHERE SOMEBODY HAD SCRUBBED."
 

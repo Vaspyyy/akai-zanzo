@@ -60,7 +60,13 @@ pages:
     action: "Inside the cramped office under the tube light: Fumie sitting at the steel desk in her coat, an electric kettle ticking on behind her, an UNLIT cigarette in her mouth."
     cast: [*fumie_coat]
     captions:
-    - THE OFFICE LIGHT WAS ON. TANABE-SAN SAT AT THE DESK IN HER COAT, WITH THE FIRST CIGARETTE OF THE DAY IN HER MOUTH, NOT LIT YET.
+    - text: THE OFFICE LIGHT WAS ON. TANABE-SAN SAT AT THE DESK IN HER COAT, WITH THE FIRST CIGARETTE OF THE DAY IN HER MOUTH, NOT LIT YET.
+      box:
+      - 446
+      - 738
+      - 552
+      - 118
+      draw: true
   - pos: upper-left
     location: tanabe-office
     action: "Close on Dai's fingers unbuttoning the breast pocket of his flannel shirt under the open grey jacket."
@@ -224,7 +230,13 @@ pages:
     cast: [{<<: *dai_sun, note: "only his left hand"}, {id: roadster, view: interior, camera: "close on the gear lever and console"}]
     sfx: [GAKUN]
     captions:
-    - I CAUGHT IT WITH THE WHEEL AND FINISHED THE DOWNSHIFT, AND IT JERKED, BECAUSE I'D BEEN THINKING ABOUT THE WHEEL.
+    - text: I CAUGHT IT WITH THE WHEEL AND FINISHED THE DOWNSHIFT, AND IT JERKED, BECAUSE I'D BEEN THINKING ABOUT THE WHEEL.
+      box:
+      - 523
+      - 1148
+      - 483
+      - 112
+      draw: true
   - pos: middle-left
     action: "Akane in profile against her side window, looking straight ahead."
     cast: [*akane]
@@ -253,7 +265,17 @@ pages:
     action: "Dai behind the wheel turning his head to Akane, frowning, sure of it."
     cast: [*dai_sun]
     dialogue:
-    - dai_cut: IT'S PULLING. LEFT. WHEN I BRAKE. AND THE WHEEL'S HEAVY.
+    - dai_cut:
+        text: IT'S PULLING. LEFT. WHEN I BRAKE. AND THE WHEEL'S HEAVY.
+        box:
+        - 18
+        - 26
+        - 205
+        - 220
+        draw: true
+        tail:
+        - 215
+        - 240
   - pos: middle, wide
     action: "Akane turning to look at him, a long flat look. Silent."
     cast: [*akane]
@@ -280,20 +302,21 @@ pages:
   guards:
   - *akane_g
   - *fumie_g
+  - The car in every panel of this page is Akane's small RED two-seat Roadster (drawn mid-grey), NOT a white sedan.
   panels:
   - pos: top-right
-    action: "Close on the gauge pressed onto the tire's valve, its little white stem pushed out; Akane's eyes on it."
-    cast: [{<<: *akane, note: "her eyes and hand"}]
+    action: "Akane crouched by the front LEFT wheel of her small RED Roadster (mid-grey tone, silver seven-spoke wheel), a slim steel pencil-sized gauge pressed on the valve."
+    cast: [{<<: *akane, note: "her eyes and hand"}, {id: roadster, view: front34, state: headlights_down, camera: 'close, low, beside the front LEFT wheel of the small RED two-seat convertible (drawn mid-grey), only the wheel arch and fender'}]
     captions:
     - SHE PUT IT ON THE VALVE AND READ IT, AND READ IT AGAIN.
   - pos: top-left
-    action: "Akane still crouched, not looking up, one word to the car."
+    action: "Close on Akane's eyes over a slim steel PENCIL-SIZED tire gauge (a thin steel tube with a pocket clip and a little white sliding stem, NOT a round dial gauge) pressed on the valve of the Roadster's tire."
     cast: [*akane]
     dialogue:
     - akane: FORWARD. THE LENGTH OF YOUR ARM.
   - pos: middle-right
-    action: "Dai behind the wheel letting the car creep, careful, his eyes on her crouched figure past the hood."
-    cast: [*dai_sun]
+    action: "Dai behind the steering wheel of the small red Roadster letting it creep, careful; through the windshield over the short red hood, Akane crouched at the front LEFT wheel."
+    cast: [*dai_sun, {id: roadster, view: interior, camera: from inside the driver seat looking out over the short red hood}]
     captions:
     - I LET IT CREEP FORWARD IN FIRST, ABOUT THAT FAR, AND STOPPED IT WITHOUT A JERK, WHICH NOBODY NOTICED.
 
@@ -302,7 +325,7 @@ pages:
     cast: [{<<: *akane, note: "only her hand"}]
   - pos: lower-right
     action: "Dai standing, leaning to look over Akane's shoulder as she crouches at the tire."
-    cast: [*dai_sun]
+    cast: [*dai_sun, {id: roadster, view: front34, state: headlights_down, camera: 'close, the curved red front fender and silver wheel at the edge of the panel'}]
     captions:
     - I GOT OUT AND LOOKED OVER HER SHOULDER.
   - pos: lower-left, large
@@ -374,7 +397,13 @@ pages:
     action: "The corner of the grey canvas tarp lifting in the wind: its rope hanging loose, the old tire that held the corner down slid half off onto the weeds."
     sfx: [BAFU]
     captions:
-    - THE WIND OFF THE HARBOR HAD GOT UNDER ONE CORNER. THE ROPE ON THAT SIDE HAD WORKED LOOSE, AND THE TIRE THAT HELD THE CORNER DOWN HAD SLID HALF OFF.
+    - text: THE WIND OFF THE HARBOR HAD GOT UNDER ONE CORNER. THE ROPE ON THAT SIDE HAD WORKED LOOSE, AND THE TIRE THAT HELD THE CORNER DOWN HAD SLID HALF OFF.
+      box:
+      - 510
+      - 483
+      - 425
+      - 185
+      draw: true
   - pos: middle-left
     action: "Low close under the lifted edge of the canvas: dull black paint under grey dust, and the edge of a pop-up headlight lid shut down flat into a blunt nose."
     cast: [{id: mr2, view: front34, camera: "extreme close-up under the lifted canvas edge, only a strip of the nose and the shut headlight lid"}]
@@ -390,7 +419,13 @@ pages:
     action: "The old tire tossed into the weeds; close on Dai's two hands gripping the stiff edge of the grey canvas."
     cast: [{<<: *dai_sun, note: "only his hands"}]
     captions:
-    - AND WENT TO THE CORNER, AND LIFTED THE TIRE OFF AND PUT IT IN THE WEEDS, AND TOOK THE CANVAS IN BOTH HANDS.
+    - text: AND WENT TO THE CORNER, AND LIFTED THE TIRE OFF AND PUT IT IN THE WEEDS, AND TOOK THE CANVAS IN BOTH HANDS.
+      box:
+      - 20
+      - 859
+      - 380
+      - 150
+      draw: true
   - pos: bottom, wide
     action: "Dai walking backward along the strip pulling the heavy grey canvas up and back; it folds over on itself; under it the front of a low black car begins to show."
     cast: [*dai_sun, {id: mr2, view: front34, camera: "eye-level from the strip, the front third of the car only, half under the canvas"}]
@@ -415,18 +450,36 @@ pages:
     action: "Close on Dai's fingertip drawing a streak through the grey dust on the black paint: the dust coming off as a grey film on his finger, the black underneath deep and glossy."
     cast: [{<<: *dai_sun, note: "only his hand"}]
     captions:
-    - AN MR2. BLACK. THE DUST CAME OFF ON MY FINGERS IN A GREY FILM, AND UNDER IT THE BLACK WENT DEEP.
+    - text: AN MR2. BLACK. THE DUST CAME OFF ON MY FINGERS IN A GREY FILM, AND UNDER IT THE BLACK WENT DEEP.
+      box:
+      - 636
+      - 940
+      - 362
+      - 128
+      draw: true
   - pos: middle-left
     action: "Dai walking the canvas back along the side of the car that faces him, his face starting to change."
     cast: [*dai_sun]
     captions:
-    - I WALKED THE CANVAS BACK ALONG THE SIDE THAT FACED ME. THE RIGHT SIDE. THE DRIVER'S SIDE.
+    - text: I WALKED THE CANVAS BACK ALONG THE SIDE THAT FACED ME. THE RIGHT SIDE. THE DRIVER'S SIDE.
+      box:
+      - 30
+      - 950
+      - 560
+      - 105
+      draw: true
   - pos: bottom, wide
     action: "Close at ground level on the front RIGHT wheel pushed back into its arch and turned in the wrong way, the tire flat and cracked grey; above it the fender creased in two places."
     cast: [{id: mr2, view: front34, camera: "ground-level close on the front RIGHT wheel and fender, from the side"}]
     captions:
-    - THE FRONT WHEEL ON THAT SIDE HAD BEEN PUSHED BACK INTO ITS ARCH AND TURNED IN, THE WRONG WAY, AND THE TIRE ON IT WAS FLAT AND CRACKED GREY. THE FENDER BEHIND THE HEADLIGHT LID WAS CREASED IN TWO PLACES.
 
+    - text: THE FRONT WHEEL ON THAT SIDE HAD BEEN PUSHED BACK INTO ITS ARCH AND TURNED IN, THE WRONG WAY, AND THE TIRE ON IT WAS FLAT AND CRACKED GREY. THE FENDER BEHIND THE HEADLIGHT LID WAS CREASED IN TWO PLACES.
+      box:
+      - 540
+      - 1300
+      - 450
+      - 200
+      draw: true
 - page: 11
   title: The door
   location: tanabe-tarp-strip
@@ -438,19 +491,43 @@ pages:
     action: "BIG, two thirds of the page: the whole RIGHT side of the black car, the canvas thrown back over the tail: the door folded inward into a deep empty U from the sill to the roof, as if the car had wrapped round something upright not much wider than a man; the sill bent up off the ground under it; the roof kinked down above it; the door window gone; the side vent behind the door pushed in. Nothing in the dent. Dai small at the tail end, arms up, holding the canvas."
     cast: [{id: mr2, view: side, camera: "eye-level, a flat side view of the RIGHT flank with the FRONT pointing RIGHT, the whole car in frame"}, {<<: *dai_sun, note: "small at the edge, holding the canvas up"}]
     captions:
-    - IT WASN'T A DOOR ANY MORE.
-    - SOMETHING UPRIGHT, NOT MUCH WIDER THAN ME, HAD GONE INTO THE MIDDLE OF IT, AND THE WHOLE SIDE HAD FOLDED ROUND THAT INTO A DEEP U, FROM THE SILL TO THE ROOF.
+    - text: IT WASN'T A DOOR ANY MORE.
+      box:
+      - 693
+      - 57
+      - 280
+      - 72
+      draw: true
+    - text: SOMETHING UPRIGHT, NOT MUCH WIDER THAN ME, HAD GONE INTO THE MIDDLE OF IT, AND THE WHOLE SIDE HAD FOLDED ROUND THAT INTO A DEEP U, FROM THE SILL TO THE ROOF.
+      box:
+      - 55
+      - 57
+      - 565
+      - 150
+      draw: true
   - pos: bottom-right
     action: "Close from slightly above on the bottom of the U fold: the crumpled metal deep enough for an arm up to the elbow, and the sill under it bent up off the ground, weeds underneath."
     cast: [{id: mr2, view: side, camera: "close from slightly above, the bottom of the folded door and the bent sill"}]
     captions:
-    - I COULD HAVE PUT MY ARM INTO THE BOTTOM OF THE U UP TO THE ELBOW. THE SILL UNDER IT WAS BENT UP OFF THE GROUND.
+    - text: I COULD HAVE PUT MY ARM INTO THE BOTTOM OF THE U UP TO THE ELBOW. THE SILL UNDER IT WAS BENT UP OFF THE GROUND.
+      box:
+      - 528
+      - 1385
+      - 466
+      - 130
+      draw: true
   - pos: bottom-left
     action: "Close on the empty window frame: only a fringe of tiny cubes of broken safety glass left in the rubber strip along the bottom; above it the roof kinked."
     cast: [{id: mr2, view: side, camera: "close on the empty window opening, eye-level"}]
     captions:
-    - THE WINDOW WAS GONE. ONLY A FRINGE OF LITTLE CUBES OF GLASS WAS LEFT IN THE RUBBER ALONG THE BOTTOM, GREEN AT THE EDGES WHERE THEY'D BROKEN.
 
+    - text: THE WINDOW WAS GONE. ONLY A FRINGE OF LITTLE CUBES OF GLASS WAS LEFT IN THE RUBBER ALONG THE BOTTOM, GREEN AT THE EDGES WHERE THEY'D BROKEN.
+      box:
+      - 30
+      - 1385
+      - 470
+      - 130
+      draw: true
 - page: 12
   title: The middle of the seat
   location: tanabe-tarp-strip
@@ -498,7 +575,13 @@ pages:
     action: "The charm turning round on its cord in the wind, showing its BACK, with smaller readable words: SHIOMI HACHIMAN-GU."
     cast: [{id: mr2, view: interior, camera: "close on the charm turned round, slightly from below"}]
     captions:
-    - THE WIND TURNED IT ROUND ON ITS CORD. ON THE BACK, SMALLER, THE SHRINE UP THE STEPS BEHIND THE COVERED STREET. HALF THE CARS IN SHIOMI HAVE ONE FROM THERE.
+    - text: THE WIND TURNED IT ROUND. ON THE BACK, SMALLER, THE SHRINE UP THE STEPS BEHIND THE COVERED STREET. HALF THE CARS IN SHIOMI HAVE ONE FROM THERE.
+      box:
+      - 527
+      - 684
+      - 478
+      - 132
+      draw: true
   - pos: middle-left
     action: "Close on the flank behind the folded door: the engine's side air vent pushed in with it, crumpled."
     cast: [{id: mr2, view: side, camera: "close on the side vent behind the door, eye-level"}]
@@ -539,8 +622,14 @@ pages:
     cast: [{id: roadster, view: front34, state: headlights_down, camera: "eye-level, straight head-on from far down the strip, the open driver's door on the IMAGE LEFT side of the car"}, *akane]
     captions:
     - THE RED CAR HAD STOPPED AT THE END OF THE TIRE WALL, WHERE THE STRIP OPENED OUT TOWARD THE PRESS. SHE WAS OUT OF IT.
-    - SHE STOOD IN THE OPEN DOOR WITH ONE GLOVED HAND ON TOP OF IT AND THE ENGINE RUNNING.
 
+    - text: SHE STOOD IN THE OPEN DOOR WITH ONE GLOVED HAND ON TOP OF IT AND THE ENGINE RUNNING.
+      box:
+      - 370
+      - 1318
+      - 340
+      - 130
+      draw: true
 - page: 15
   title: At the car
   location: tanabe-tarp-strip
@@ -555,8 +644,8 @@ pages:
     action: "HALF-PAGE: Akane standing in the open door of her red car, one gloved hand on top of the door, her eyes fixed PAST Dai, on the black wreck behind him; her face perfectly still and unreadable; the low sun on one side of her face. Seen from beside the wreck's nose, so she looks toward the camera's right, not into the lens."
     cast: [*akane]
     captions:
-    - SHE WASN'T LOOKING AT ME. SHE WAS LOOKING AT THE CAR.
-    - HER FACE DIDN'T CHANGE. HER HAND ON THE DOOR DIDN'T MOVE.
+    - SHE WASN'T LOOKING AT ME.
+    - SHE WAS LOOKING AT THE CAR.
   - pos: middle-right
     action: "Close on her gloved hand resting on top of the open car door, completely still."
     cast: [{<<: *akane, note: "only her hand on the door top"}]
@@ -902,7 +991,13 @@ pages:
     action: "Close on the top of the engine: the belt stretched up and over the two big cam pulleys, Kubo's thumb pressing it tight in the span between them so no tooth can jump; on the far side the belt goes down round the tensioner, a little slack there."
     cast: [{<<: *kubo_own, note: "only his hand"}, {id: wreck, view: engine, camera: "close, slightly from above, the two cam pulleys with the new belt"}]
     captions:
-    - THEN UP AND OVER THE TWO CAM PULLEYS, HOLDING IT TIGHT BETWEEN THEM WITH HIS THUMB SO THAT NOT ONE TOOTH COULD JUMP, AND LAST OF ALL ROUND THE TENSIONER. ON THAT SIDE IT HUNG A LITTLE SLACK.
+    - text: THEN UP AND OVER THE TWO CAM PULLEYS, HOLDING IT TIGHT BETWEEN THEM WITH HIS THUMB SO THAT NOT ONE TOOTH COULD JUMP, AND LAST OF ALL ROUND THE TENSIONER. ON THAT SIDE IT HUNG A LITTLE SLACK.
+      box:
+      - 19
+      - 962
+      - 580
+      - 170
+      draw: true
   - pos: bottom, wide
     action: "Kubo straightening slowly, holding the long steel bar out to Dai, handle first."
     cast: [*kubo_own]
@@ -1181,7 +1276,13 @@ pages:
   - pos: top-right
     action: "Close on the calendar's new month: the swimsuit girl on her tire, under her the days in rows of black numbers; the Sunday column printed in a darker tone (red), and the 3 in the Friday column also in the darker tone. Readable: NOVEMBER and the numbers 1 to 30."
     captions:
-    - NOVEMBER. THE SUNDAYS IN RED, AND THE 3RD IN RED AS WELL, ON THE FRIDAY.
+    - text: NOVEMBER. THE SUNDAYS IN RED, AND THE 3RD IN RED AS WELL, ON THE FRIDAY.
+      box:
+      - 655
+      - 16
+      - 350
+      - 104
+      draw: true
   - pos: top-left, large
     action: "Close on Fumie's face side-on, speaking to the calendar, not to anyone, her eyes on the 3."
     cast: [*fumie]
@@ -1496,7 +1597,13 @@ pages:
     action: "The new tube catching: it blinks, then shines white and steady over the island."
     sfx: [PIKA... PIKA]
     captions:
-    - THE NEW TUBE CAUGHT. IT BLINKED TWICE AND CAME ON, WHITE AND STEADY.
+    - text: THE NEW TUBE CAUGHT. IT BLINKED TWICE AND CAME ON, WHITE AND STEADY.
+      box:
+      - 575
+      - 1432
+      - 430
+      - 92
+      draw: true
   - pos: bottom-left
     action: "Kubo folding the stepladder and carrying it off round the back of the office."
     cast: [*kubo_stn]
@@ -1564,8 +1671,14 @@ pages:
     action: "Dai on the overpass deck at the middle, at the railing over the curve, where he always stands, behind the tall safety railing."
     cast: [*dai_stn]
     captions:
-    - I WENT UP THE STAIRS AND OUT ALONG THE DECK TO THE MIDDLE, TO THE RAILING OVER THE CURVE, WHERE I ALWAYS STAND.
 
+    - text: I WENT UP THE STAIRS AND OUT ALONG THE DECK TO THE MIDDLE, TO THE RAILING OVER THE CURVE, WHERE I ALWAYS STAND.
+      box:
+      - 680
+      - 492
+      - 325
+      - 168
+      draw: true
   - pos: middle-left, large (half the page)
     location: bypass-foot-dawn
     action: "HALF-PAGE, looking steeply down from the overpass deck through the safety railing: at the bottom of the FAR stairs, on the strip of concrete between the stairs and the road, the small red Roadster parked with its pop-ups down, just short of the brighter NEW section of guardrail; Akane standing at the guardrail with her hands in her jacket pockets, looking along the curve."
@@ -1633,7 +1746,13 @@ pages:
   - pos: top-left
     action: "Close on the red car's front LEFT tire on the concrete strip: a brand-new tire, the shoulders still black and sharp, fresh moulding nubs on the tread."
     captions:
-    - I CAME DOWN PAST HER CAR. THE FRONT LEFT TIRE WAS A NEW ONE. THE SHOULDERS WERE STILL BLACK AND SHARP.
+    - text: I CAME DOWN PAST HER CAR. THE FRONT LEFT TIRE WAS A NEW ONE. THE SHOULDERS WERE STILL BLACK AND SHARP.
+      box:
+      - 18
+      - 370
+      - 390
+      - 122
+      draw: true
   - pos: middle, wide
     action: "Dai stopped a meter from Akane at the guardrail, holding one can out to her at arm's length."
     cast: [*dai_stn]
@@ -1674,6 +1793,8 @@ pages:
       outfit: "a dark jacket zipped up to the chin, black jeans, thin flat canvas shoes; BARE hands, no gloves"
       note: only her hand
     sfx: [kashu]
+    captions:
+    - SHE TOOK THE CAN AND OPENED IT, AND I OPENED MINE.
   - pos: lower, wide
     action: "The two of them standing at the guardrail with their cans, a meter apart, from behind; in front of them the NEW section of guardrail with bright bolts, the old dull rail with rust round its bolts running away on either side; the empty curve."
     cast: [{<<: *akane_bare, note: "from behind"}, {<<: *dai_stn, note: "from behind"}]
